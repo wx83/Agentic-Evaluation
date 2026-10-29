@@ -1,0 +1,35 @@
+{
+ "overall_goal": "Cook the pancake and serve it on a plate",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare a plate for serving",
+   "action_ids": [
+    "P06-20240510-090328-453",
+    "P06-20240510-090328-454",
+    "P06-20240510-090328-455",
+    "P06-20240510-090328-456"
+   ],
+   "rationale": "The person retrieves a plate and clears space on the counter to set it down for plating."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Cook the pancake and transfer it to the plate",
+   "action_ids": [
+    "P06-20240510-090328-512",
+    "P06-20240510-090328-513",
+    "P06-20240510-090328-514",
+    "P06-20240510-090328-515",
+    "P06-20240510-090328-516",
+    "P06-20240510-090328-517",
+    "P06-20240510-090328-518"
+   ],
+   "rationale": "The person presses, flips, and checks the pancake to ensure it is fully cooked before moving it from the pan to the prepared plate."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

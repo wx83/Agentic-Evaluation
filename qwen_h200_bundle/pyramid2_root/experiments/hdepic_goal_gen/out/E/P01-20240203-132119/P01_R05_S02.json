@@ -1,0 +1,252 @@
+{
+ "overall_goal": "Assemble the food processor and use it to crush multiple batches of biscuits.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Gather ingredients and prepare food processor parts.",
+   "action_ids": [
+    "P01-20240203-132119-253",
+    "P01-20240203-132119-254",
+    "P01-20240203-132119-255",
+    "P01-20240203-132119-259",
+    "P01-20240203-132119-260",
+    "P01-20240203-132119-261",
+    "P01-20240203-132119-262",
+    "P01-20240203-132119-263",
+    "P01-20240203-132119-264",
+    "P01-20240203-132119-265",
+    "P01-20240203-132119-266",
+    "P01-20240203-132119-267",
+    "P01-20240203-132119-268",
+    "P01-20240203-132119-269"
+   ],
+   "rationale": "The person gathers the biscuits and begins unpacking the food processor parts to prepare for crushing."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Attempt to assemble the food processor blade.",
+   "action_ids": [
+    "P01-20240203-132119-270",
+    "P01-20240203-132119-271",
+    "P01-20240203-132119-272",
+    "P01-20240203-132119-273",
+    "P01-20240203-132119-274",
+    "P01-20240203-132119-275",
+    "P01-20240203-132119-276",
+    "P01-20240203-132119-281",
+    "P01-20240203-132119-282",
+    "P01-20240203-132119-283",
+    "P01-20240203-132119-284",
+    "P01-20240203-132119-285",
+    "P01-20240203-132119-286",
+    "P01-20240203-132119-287",
+    "P01-20240203-132119-288",
+    "P01-20240203-132119-289",
+    "P01-20240203-132119-290",
+    "P01-20240203-132119-291",
+    "P01-20240203-132119-292",
+    "P01-20240203-132119-293"
+   ],
+   "rationale": "The person tries multiple times to fit the blade into the food processor using incorrect pieces."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Find the correct piece and figure out the assembly.",
+   "action_ids": [
+    "P01-20240203-132119-301",
+    "P01-20240203-132119-302",
+    "P01-20240203-132119-304",
+    "P01-20240203-132119-305",
+    "P01-20240203-132119-306",
+    "P01-20240203-132119-307",
+    "P01-20240203-132119-308",
+    "P01-20240203-132119-309",
+    "P01-20240203-132119-310",
+    "P01-20240203-132119-311",
+    "P01-20240203-132119-312",
+    "P01-20240203-132119-313"
+   ],
+   "rationale": "The person locates the missing center piece and successfully figures out how it attaches to the blade."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Wash and dry the center piece of the food processor.",
+   "action_ids": [
+    "P01-20240203-132119-314",
+    "P01-20240203-132119-315",
+    "P01-20240203-132119-316",
+    "P01-20240203-132119-317",
+    "P01-20240203-132119-318",
+    "P01-20240203-132119-319",
+    "P01-20240203-132119-320",
+    "P01-20240203-132119-321",
+    "P01-20240203-132119-322",
+    "P01-20240203-132119-323",
+    "P01-20240203-132119-324",
+    "P01-20240203-132119-325"
+   ],
+   "rationale": "The person washes the newly found center piece with a sponge and dries it thoroughly with a towel before use."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Assemble the food processor blade and plug in the appliance.",
+   "action_ids": [
+    "P01-20240203-132119-326",
+    "P01-20240203-132119-327",
+    "P01-20240203-132119-328",
+    "P01-20240203-132119-329",
+    "P01-20240203-132119-330",
+    "P01-20240203-132119-331",
+    "P01-20240203-132119-332",
+    "P01-20240203-132119-333",
+    "P01-20240203-132119-334",
+    "P01-20240203-132119-335",
+    "P01-20240203-132119-336"
+   ],
+   "rationale": "The person attaches the clean center piece to the blade, inserts it into the bowl, and plugs the food processor into the socket."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Test the food processor and prepare it for use.",
+   "action_ids": [
+    "P01-20240203-132119-337",
+    "P01-20240203-132119-338",
+    "P01-20240203-132119-339",
+    "P01-20240203-132119-340",
+    "P01-20240203-132119-341",
+    "P01-20240203-132119-342",
+    "P01-20240203-132119-343",
+    "P01-20240203-132119-344",
+    "P01-20240203-132119-345",
+    "P01-20240203-132119-347",
+    "P01-20240203-132119-348"
+   ],
+   "rationale": "The person closes the lid to test if the food processor turns on, then opens it again to prepare for adding ingredients."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Add the first batch of biscuits to the food processor.",
+   "action_ids": [
+    "P01-20240203-132119-349",
+    "P01-20240203-132119-350",
+    "P01-20240203-132119-351",
+    "P01-20240203-132119-352",
+    "P01-20240203-132119-353",
+    "P01-20240203-132119-354",
+    "P01-20240203-132119-355",
+    "P01-20240203-132119-356",
+    "P01-20240203-132119-357",
+    "P01-20240203-132119-358",
+    "P01-20240203-132119-359"
+   ],
+   "rationale": "The person opens a packet of biscuits, pours a portion into the food processor bowl, and closes the lid."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Crush the first batch of biscuits.",
+   "action_ids": [
+    "P01-20240203-132119-360",
+    "P01-20240203-132119-361",
+    "P01-20240203-132119-362",
+    "P01-20240203-132119-363",
+    "P01-20240203-132119-364",
+    "P01-20240203-132119-365"
+   ],
+   "rationale": "The person runs the food processor to crush the biscuits, checking the consistency and running it again."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Add more biscuits to the food processor.",
+   "action_ids": [
+    "P01-20240203-132119-366",
+    "P01-20240203-132119-367",
+    "P01-20240203-132119-368",
+    "P01-20240203-132119-369",
+    "P01-20240203-132119-370",
+    "P01-20240203-132119-371",
+    "P01-20240203-132119-372",
+    "P01-20240203-132119-373",
+    "P01-20240203-132119-374",
+    "P01-20240203-132119-375"
+   ],
+   "rationale": "The person opens the lid, adds handfuls of biscuits from the opened packet, and closes the lid again."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Crush the second batch of biscuits.",
+   "action_ids": [
+    "P01-20240203-132119-376",
+    "P01-20240203-132119-377",
+    "P01-20240203-132119-378",
+    "P01-20240203-132119-379",
+    "P01-20240203-132119-380",
+    "P01-20240203-132119-381"
+   ],
+   "rationale": "The person turns on the food processor to grind the newly added biscuits, checking to ensure they are finely crushed."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Add the remaining biscuits from the first packet and crush them.",
+   "action_ids": [
+    "P01-20240203-132119-402",
+    "P01-20240203-132119-403",
+    "P01-20240203-132119-404",
+    "P01-20240203-132119-405",
+    "P01-20240203-132119-406",
+    "P01-20240203-132119-407",
+    "P01-20240203-132119-408",
+    "P01-20240203-132119-409",
+    "P01-20240203-132119-410",
+    "P01-20240203-132119-411",
+    "P01-20240203-132119-412",
+    "P01-20240203-132119-413",
+    "P01-20240203-132119-414",
+    "P01-20240203-132119-415"
+   ],
+   "rationale": "The person empties the rest of the first biscuit packet into the bowl and runs the food processor at varying speeds to crush them."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Add a second packet of biscuits to the food processor.",
+   "action_ids": [
+    "P01-20240203-132119-440",
+    "P01-20240203-132119-441",
+    "P01-20240203-132119-442",
+    "P01-20240203-132119-443",
+    "P01-20240203-132119-444",
+    "P01-20240203-132119-445",
+    "P01-20240203-132119-446",
+    "P01-20240203-132119-447",
+    "P01-20240203-132119-448",
+    "P01-20240203-132119-449",
+    "P01-20240203-132119-450",
+    "P01-20240203-132119-451",
+    "P01-20240203-132119-452",
+    "P01-20240203-132119-453",
+    "P01-20240203-132119-454"
+   ],
+   "rationale": "The person opens a new packet of biscuits, pours them into the bowl, and discards a dropped biscuit into the bin."
+  },
+  {
+   "goal_id": "e13",
+   "description": "Crush the second packet of biscuits.",
+   "action_ids": [
+    "P01-20240203-132119-457",
+    "P01-20240203-132119-458",
+    "P01-20240203-132119-459",
+    "P01-20240203-132119-460",
+    "P01-20240203-132119-461",
+    "P01-20240203-132119-462",
+    "P01-20240203-132119-463"
+   ],
+   "rationale": "The person runs the food processor again, adjusting the speed to ensure the newly added biscuits are finely ground."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P01-20240203-132119-303"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

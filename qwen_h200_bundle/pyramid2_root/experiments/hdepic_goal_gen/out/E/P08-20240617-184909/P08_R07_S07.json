@@ -1,0 +1,34 @@
+{
+ "overall_goal": "Heat a pan on the stove and add olive oil to it",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Set up the pan on the stove and turn on the heat",
+   "action_ids": [
+    "P08-20240617-184909-261",
+    "P08-20240617-184909-315",
+    "P08-20240617-184909-316"
+   ],
+   "rationale": "The person places the pan on the stove, turns on the burner, and sets the pan back down to begin heating."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve a spoon and measure olive oil into the pan",
+   "action_ids": [
+    "P08-20240617-184909-312",
+    "P08-20240617-184909-314",
+    "P08-20240617-184909-317",
+    "P08-20240617-184909-318",
+    "P08-20240617-184909-319",
+    "P08-20240617-184909-320",
+    "P08-20240617-184909-321"
+   ],
+   "rationale": "The person opens a drawer to get a spoon, then opens the olive oil bottle and uses the spoon to pour oil into the heating pan."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

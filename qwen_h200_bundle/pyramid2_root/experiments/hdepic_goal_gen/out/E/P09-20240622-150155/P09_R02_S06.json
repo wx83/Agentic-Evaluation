@@ -1,0 +1,83 @@
+{
+ "overall_goal": "Portion the potato and chicken mixture and roll it into smooth balls.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Scoop and adjust the potato chicken mixture to the desired quantity.",
+   "action_ids": [
+    "P09-20240622-150155-1158",
+    "P09-20240622-150155-1161",
+    "P09-20240622-150155-1159",
+    "P09-20240622-150155-1160"
+   ],
+   "rationale": "The person takes the mixture and reduces its quantity to get the right amount for a single ball."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Mold the first portion of mixture into a ball and coat it with flour.",
+   "action_ids": [
+    "P09-20240622-150155-1162",
+    "P09-20240622-150155-1163",
+    "P09-20240622-150155-1179",
+    "P09-20240622-150155-1181",
+    "P09-20240622-150155-1182",
+    "P09-20240622-150155-1183",
+    "P09-20240622-150155-1184",
+    "P09-20240622-150155-1180",
+    "P09-20240622-150155-1185"
+   ],
+   "rationale": "The person shapes the mixture into a ball and sprinkles flour over it to make it smooth and prevent sticking."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Mold the second portion of mixture into a ball and coat it with flour.",
+   "action_ids": [
+    "P09-20240622-150155-1200",
+    "P09-20240622-150155-1201",
+    "P09-20240622-150155-1202",
+    "P09-20240622-150155-1222",
+    "P09-20240622-150155-1223",
+    "P09-20240622-150155-1224",
+    "P09-20240622-150155-1225",
+    "P09-20240622-150155-1226",
+    "P09-20240622-150155-1227"
+   ],
+   "rationale": "The person shapes another ball of the mixture, sprinkles it with flour, and reshapes it."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Mold the third portion of mixture into a ball and coat it with flour.",
+   "action_ids": [
+    "P09-20240622-150155-1240",
+    "P09-20240622-150155-1241",
+    "P09-20240622-150155-1242",
+    "P09-20240622-150155-1243",
+    "P09-20240622-150155-1244"
+   ],
+   "rationale": "The person sprinkles flour over a new portion of the mixture and molds it into a ball."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Mold the fourth portion of mixture into a ball and coat it with flour.",
+   "action_ids": [
+    "P09-20240622-150155-1262",
+    "P09-20240622-150155-1263",
+    "P09-20240622-150155-1264",
+    "P09-20240622-150155-1265",
+    "P09-20240622-150155-1266",
+    "P09-20240622-150155-1267",
+    "P09-20240622-150155-1268",
+    "P09-20240622-150155-1269"
+   ],
+   "rationale": "The person repeatedly sprinkles flour over the mixture and rolls it into a spherical form."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P09-20240622-150155-1228",
+  "P09-20240622-150155-1229"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

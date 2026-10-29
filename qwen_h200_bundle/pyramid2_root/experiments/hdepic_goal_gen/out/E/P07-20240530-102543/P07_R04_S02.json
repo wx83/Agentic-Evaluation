@@ -1,0 +1,60 @@
+{
+ "overall_goal": "Combine and mix melted butter and sugar in a large bowl",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare the bowl and retrieve sugar",
+   "action_ids": [
+    "P07-20240530-102543-140",
+    "P07-20240530-102543-141",
+    "P07-20240530-102543-147",
+    "P07-20240530-102543-148",
+    "P07-20240530-102543-149",
+    "P07-20240530-102543-150"
+   ],
+   "rationale": "The person sets up the mixing bowl on the scale and gathers packets of sugar from the cupboard."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Pour the sugar into the bowl",
+   "action_ids": [
+    "P07-20240530-102543-151",
+    "P07-20240530-102543-152",
+    "P07-20240530-102543-153",
+    "P07-20240530-102543-154",
+    "P07-20240530-102543-155",
+    "P07-20240530-102543-156"
+   ],
+   "rationale": "The person opens the sugar packets and empties their contents into the mixing bowl."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Add the melted butter to the bowl",
+   "action_ids": [
+    "P07-20240530-102543-161",
+    "P07-20240530-102543-162",
+    "P07-20240530-102543-163",
+    "P07-20240530-102543-164",
+    "P07-20240530-102543-165"
+   ],
+   "rationale": "The person moves the bowl off the scale and pours in the melted butter, scraping the jug to get it all out."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Mix the butter and sugar together",
+   "action_ids": [
+    "P07-20240530-102543-166",
+    "P07-20240530-102543-167",
+    "P07-20240530-102543-168",
+    "P07-20240530-102543-169",
+    "P07-20240530-102543-170"
+   ],
+   "rationale": "The person uses a fork to thoroughly stir and combine the sugar and melted butter in the bowl."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

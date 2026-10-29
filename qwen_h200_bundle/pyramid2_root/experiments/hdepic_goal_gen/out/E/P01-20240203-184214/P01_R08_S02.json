@@ -1,0 +1,32 @@
+{
+ "overall_goal": "Add water to the bowl to cover the chicken and marinade",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Position the bowl and tap nozzle",
+   "action_ids": [
+    "P01-20240203-184214-226",
+    "P01-20240203-184214-227",
+    "P01-20240203-184214-228",
+    "P01-20240203-184214-229"
+   ],
+   "rationale": "The bowl is moved to the sink and the tap nozzle is prepared for filling."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Fill the bowl with water",
+   "action_ids": [
+    "P01-20240203-184214-230",
+    "P01-20240203-184214-231",
+    "P01-20240203-184214-232",
+    "P01-20240203-184214-233"
+   ],
+   "rationale": "The tap is opened to fill the bowl with water until the chicken is covered, and then closed."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

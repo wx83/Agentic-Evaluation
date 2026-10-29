@@ -1,0 +1,21 @@
+{
+ "overall_goal": "Remove the seared meat substitute from the pan and set it aside",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Transfer the cooked meat substitute from the pan to a plate",
+   "action_ids": [
+    "P03-20240218-190556-712",
+    "P03-20240218-190556-713",
+    "P03-20240218-190556-714",
+    "P03-20240218-190556-715"
+   ],
+   "rationale": "The person picks up the spatula and pan, transfers the cooked plant-based burger to a plate, and taps off the residue."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

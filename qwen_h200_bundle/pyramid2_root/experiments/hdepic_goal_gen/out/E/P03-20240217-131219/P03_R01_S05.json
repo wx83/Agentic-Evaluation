@@ -1,0 +1,64 @@
+{
+ "overall_goal": "Fry the chopped onions in an oiled pan until golden",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve the frying pan and place it on the hob",
+   "action_ids": [
+    "P03-20240217-131219-564",
+    "P03-20240217-131219-565",
+    "P03-20240217-131219-566",
+    "P03-20240217-131219-567",
+    "P03-20240217-131219-568"
+   ],
+   "rationale": "The person takes the frying pan from the cupboard, removes its padding, and sets it on the stove."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Add oil and transfer the chopped onions into the frying pan",
+   "action_ids": [
+    "P03-20240217-131219-573",
+    "P03-20240217-131219-574",
+    "P03-20240217-131219-589",
+    "P03-20240217-131219-590",
+    "P03-20240217-131219-591"
+   ],
+   "rationale": "The person pours sunflower oil into the pan and then slides the chopped onions from the chopping board into it."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Begin stirring the onions and turn on the extractor fan",
+   "action_ids": [
+    "P03-20240217-131219-596",
+    "P03-20240217-131219-597",
+    "P03-20240217-131219-598",
+    "P03-20240217-131219-599",
+    "P03-20240217-131219-600"
+   ],
+   "rationale": "The person retrieves a spatula to stir the onions and break up chunks, while also turning on the extractor hood."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Adjust the heat and continue frying and stirring the onions",
+   "action_ids": [
+    "P03-20240217-131219-601",
+    "P03-20240217-131219-602",
+    "P03-20240217-131219-603",
+    "P03-20240217-131219-631",
+    "P03-20240217-131219-632",
+    "P03-20240217-131219-633",
+    "P03-20240217-131219-634",
+    "P03-20240217-131219-635",
+    "P03-20240217-131219-636"
+   ],
+   "rationale": "The person manages the cooking process by adjusting the hob temperature and repeatedly stirring the onions to ensure even frying."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P03-20240217-131219-572"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

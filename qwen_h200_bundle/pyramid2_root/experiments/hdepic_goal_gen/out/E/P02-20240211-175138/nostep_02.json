@@ -1,0 +1,201 @@
+{
+ "overall_goal": "Clean up the workspace, season the mixture, and prepare ingredients and equipment for the next recipe step.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Find a suitable knife for cutting tomatoes.",
+   "action_ids": [
+    "P02-20240211-175138-716",
+    "P02-20240211-175138-717",
+    "P02-20240211-175138-718",
+    "P02-20240211-175138-719",
+    "P02-20240211-175138-720",
+    "P02-20240211-175138-723",
+    "P02-20240211-175138-724",
+    "P02-20240211-175138-725",
+    "P02-20240211-175138-726"
+   ],
+   "rationale": "The person searches the cutlery drawer for a sharper knife to cut the tomatoes."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Transfer tomato seeds and juices into the bowl.",
+   "action_ids": [
+    "P02-20240211-175138-797",
+    "P02-20240211-175138-798",
+    "P02-20240211-175138-801",
+    "P02-20240211-175138-799",
+    "P02-20240211-175138-802",
+    "P02-20240211-175138-800",
+    "P02-20240211-175138-803"
+   ],
+   "rationale": "The person scrapes the leftover tomato seeds and juices from the cutting board into the bowl."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Dispose of food waste and packaging.",
+   "action_ids": [
+    "P02-20240211-175138-804",
+    "P02-20240211-175138-808",
+    "P02-20240211-175138-832",
+    "P02-20240211-175138-833",
+    "P02-20240211-175138-834",
+    "P02-20240211-175138-835",
+    "P02-20240211-175138-836",
+    "P02-20240211-175138-837",
+    "P02-20240211-175138-838",
+    "P02-20240211-175138-839",
+    "P02-20240211-175138-840"
+   ],
+   "rationale": "The person throws away the used lemon half, onion skin, and plastic wrapper into the food bin."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Wash and dry hands.",
+   "action_ids": [
+    "P02-20240211-175138-809",
+    "P02-20240211-175138-810",
+    "P02-20240211-175138-811",
+    "P02-20240211-175138-812",
+    "P02-20240211-175138-813",
+    "P02-20240211-175138-814",
+    "P02-20240211-175138-815",
+    "P02-20240211-175138-816",
+    "P02-20240211-175138-817",
+    "P02-20240211-175138-818",
+    "P02-20240211-175138-819",
+    "P02-20240211-175138-820",
+    "P02-20240211-175138-821",
+    "P02-20240211-175138-822"
+   ],
+   "rationale": "The person washes their hands with soap and water, then dries them on a towel."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Store leftover vegetables in the fridge.",
+   "action_ids": [
+    "P02-20240211-175138-823",
+    "P02-20240211-175138-824",
+    "P02-20240211-175138-825",
+    "P02-20240211-175138-826",
+    "P02-20240211-175138-827",
+    "P02-20240211-175138-828",
+    "P02-20240211-175138-829",
+    "P02-20240211-175138-830",
+    "P02-20240211-175138-831"
+   ],
+   "rationale": "The person places the bags of tomatoes and onions back into the vegetable drawer of the fridge."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Read the recipe to check the next steps.",
+   "action_ids": [
+    "P02-20240211-175138-841",
+    "P02-20240211-175138-842",
+    "P02-20240211-175138-843",
+    "P02-20240211-175138-875",
+    "P02-20240211-175138-876",
+    "P02-20240211-175138-877",
+    "P02-20240211-175138-878",
+    "P02-20240211-175138-879",
+    "P02-20240211-175138-880",
+    "P02-20240211-175138-881",
+    "P02-20240211-175138-882",
+    "P02-20240211-175138-883",
+    "P02-20240211-175138-884",
+    "P02-20240211-175138-885",
+    "P02-20240211-175138-886",
+    "P02-20240211-175138-887",
+    "P02-20240211-175138-888",
+    "P02-20240211-175138-889",
+    "P02-20240211-175138-890",
+    "P02-20240211-175138-891",
+    "P02-20240211-175138-892"
+   ],
+   "rationale": "The person picks up the recipe sheet and flips through the pages to read the instructions and ingredients list."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Season the mixture with salt and pepper.",
+   "action_ids": [
+    "P02-20240211-175138-844",
+    "P02-20240211-175138-845",
+    "P02-20240211-175138-846",
+    "P02-20240211-175138-847",
+    "P02-20240211-175138-848",
+    "P02-20240211-175138-849",
+    "P02-20240211-175138-850",
+    "P02-20240211-175138-851",
+    "P02-20240211-175138-852",
+    "P02-20240211-175138-853",
+    "P02-20240211-175138-854",
+    "P02-20240211-175138-855",
+    "P02-20240211-175138-856",
+    "P02-20240211-175138-857",
+    "P02-20240211-175138-858",
+    "P02-20240211-175138-859",
+    "P02-20240211-175138-865",
+    "P02-20240211-175138-866",
+    "P02-20240211-175138-867",
+    "P02-20240211-175138-868",
+    "P02-20240211-175138-869",
+    "P02-20240211-175138-870"
+   ],
+   "rationale": "The person adds salt and black pepper to the bowl, removes a lemon seed, and tidies the seasoning tools."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Prepare equipment and ingredients for cooking.",
+   "action_ids": [
+    "P02-20240211-175138-871",
+    "P02-20240211-175138-872",
+    "P02-20240211-175138-873",
+    "P02-20240211-175138-874",
+    "P02-20240211-175138-894",
+    "P02-20240211-175138-895",
+    "P02-20240211-175138-896",
+    "P02-20240211-175138-902",
+    "P02-20240211-175138-903",
+    "P02-20240211-175138-915",
+    "P02-20240211-175138-916",
+    "P02-20240211-175138-930",
+    "P02-20240211-175138-937",
+    "P02-20240211-175138-938",
+    "P02-20240211-175138-939"
+   ],
+   "rationale": "The person retrieves minced garlic, a saucepan, a measuring jug, and Worcestershire sauce from the cupboards, and turns on the gas burner."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Put away the sugar container.",
+   "action_ids": [
+    "P02-20240211-175138-931",
+    "P02-20240211-175138-932",
+    "P02-20240211-175138-933",
+    "P02-20240211-175138-934",
+    "P02-20240211-175138-935",
+    "P02-20240211-175138-936"
+   ],
+   "rationale": "The person closes the sugar container and places it back onto the top shelf of the cupboard."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Soak used utensils in the washing up bowl.",
+   "action_ids": [
+    "P02-20240211-175138-943",
+    "P02-20240211-175138-944",
+    "P02-20240211-175138-945",
+    "P02-20240211-175138-946",
+    "P02-20240211-175138-947"
+   ],
+   "rationale": "The person gathers the used tablespoons and places them into the washing up bowl to soak, then picks up a clean teaspoon."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P02-20240211-175138-893"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

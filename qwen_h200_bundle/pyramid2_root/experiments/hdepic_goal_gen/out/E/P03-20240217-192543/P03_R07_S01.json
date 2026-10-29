@@ -1,0 +1,88 @@
+{
+ "overall_goal": "Clean and dice the aubergine",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve the aubergine and chopping board, and wash the aubergine",
+   "action_ids": [
+    "P03-20240217-192543-7",
+    "P03-20240217-192543-8",
+    "P03-20240217-192543-57",
+    "P03-20240217-192543-58",
+    "P03-20240217-192543-59",
+    "P03-20240217-192543-60",
+    "P03-20240217-192543-63",
+    "P03-20240217-192543-64",
+    "P03-20240217-192543-65",
+    "P03-20240217-192543-66",
+    "P03-20240217-192543-67",
+    "P03-20240217-192543-68",
+    "P03-20240217-192543-69"
+   ],
+   "rationale": "The person fetches the aubergine and chopping board, removes the label from the aubergine, and washes it under the tap."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve and wash the knife",
+   "action_ids": [
+    "P03-20240217-192543-84",
+    "P03-20240217-192543-85",
+    "P03-20240217-192543-86",
+    "P03-20240217-192543-87",
+    "P03-20240217-192543-88",
+    "P03-20240217-192543-89",
+    "P03-20240217-192543-90",
+    "P03-20240217-192543-91",
+    "P03-20240217-192543-92",
+    "P03-20240217-192543-93"
+   ],
+   "rationale": "The person takes a knife from the dishwasher, washes it with a sponge, and dries it with a cloth."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Remove the top of the aubergine and discard the unwanted parts",
+   "action_ids": [
+    "P03-20240217-192543-95",
+    "P03-20240217-192543-96",
+    "P03-20240217-192543-97",
+    "P03-20240217-192543-98",
+    "P03-20240217-192543-99",
+    "P03-20240217-192543-101",
+    "P03-20240217-192543-100",
+    "P03-20240217-192543-102",
+    "P03-20240217-192543-103"
+   ],
+   "rationale": "The person chops off the leafy top of the aubergine and clears the small, unusable bits from the chopping board and knife."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Chop the aubergine into cubes",
+   "action_ids": [
+    "P03-20240217-192543-104",
+    "P03-20240217-192543-105",
+    "P03-20240217-192543-106",
+    "P03-20240217-192543-107",
+    "P03-20240217-192543-108",
+    "P03-20240217-192543-109",
+    "P03-20240217-192543-110",
+    "P03-20240217-192543-111",
+    "P03-20240217-192543-112",
+    "P03-20240217-192543-113",
+    "P03-20240217-192543-114",
+    "P03-20240217-192543-115",
+    "P03-20240217-192543-116",
+    "P03-20240217-192543-117",
+    "P03-20240217-192543-118",
+    "P03-20240217-192543-121",
+    "P03-20240217-192543-119",
+    "P03-20240217-192543-120"
+   ],
+   "rationale": "The person slices the aubergine into large pieces, stacks them, and cuts them in multiple directions to form small chunks."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

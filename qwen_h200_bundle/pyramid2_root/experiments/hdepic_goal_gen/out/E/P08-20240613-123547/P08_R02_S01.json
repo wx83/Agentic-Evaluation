@@ -1,0 +1,37 @@
+{
+ "overall_goal": "Gather vegetables and measure the rocket salad.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Gather salad ingredients from the refrigerator.",
+   "action_ids": [
+    "P08-20240613-123547-4",
+    "P08-20240613-123547-5",
+    "P08-20240613-123547-6",
+    "P08-20240613-123547-7",
+    "P08-20240613-123547-8"
+   ],
+   "rationale": "The person retrieves various vegetables and salad seeds from the refrigerator and moves them to the kitchen counter."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Measure the rocket salad using a kitchen scale.",
+   "action_ids": [
+    "P08-20240613-123547-15",
+    "P08-20240613-123547-18",
+    "P08-20240613-123547-19",
+    "P08-20240613-123547-20",
+    "P08-20240613-123547-21",
+    "P08-20240613-123547-22",
+    "P08-20240613-123547-23",
+    "P08-20240613-123547-24"
+   ],
+   "rationale": "The person prepares a bowl on a scale, adjusts it, and scoops rocket salad into the bowl to measure the correct amount."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

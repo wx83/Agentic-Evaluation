@@ -1,0 +1,201 @@
+{
+ "overall_goal": "Perform various kitchen tasks including finding utensils, boiling water, washing a bottle, and weighing sugar",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Find and prepare a slotted spoon",
+   "action_ids": [
+    "P09-20240622-162302-17",
+    "P09-20240622-162302-18",
+    "P09-20240622-162302-19",
+    "P09-20240622-162302-20",
+    "P09-20240622-162302-21",
+    "P09-20240622-162302-22",
+    "P09-20240622-162302-23",
+    "P09-20240622-162302-24",
+    "P09-20240622-162302-25",
+    "P09-20240622-162302-26"
+   ],
+   "rationale": "The person searches through drawers to find a slotted spoon, inspects it, and places it in the sink."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Cover the saucepan of hibiscus drink",
+   "action_ids": [
+    "P09-20240622-162302-62",
+    "P09-20240622-162302-63",
+    "P09-20240622-162302-64",
+    "P09-20240622-162302-65",
+    "P09-20240622-162302-66",
+    "P09-20240622-162302-67",
+    "P09-20240622-162302-68"
+   ],
+   "rationale": "The person places the saucepan back on the hob, inspects the hibiscus drink, and covers the saucepan."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Refill and boil the electric kettle",
+   "action_ids": [
+    "P09-20240622-162302-75",
+    "P09-20240622-162302-76",
+    "P09-20240622-162302-77",
+    "P09-20240622-162302-78",
+    "P09-20240622-162302-79",
+    "P09-20240622-162302-80",
+    "P09-20240622-162302-81"
+   ],
+   "rationale": "The person takes the electric kettle to the sink, refills it with water, and places it back on its base to boil."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Wash the plastic bottle with soap",
+   "action_ids": [
+    "P09-20240622-162302-83",
+    "P09-20240622-162302-84",
+    "P09-20240622-162302-85",
+    "P09-20240622-162302-86",
+    "P09-20240622-162302-87",
+    "P09-20240622-162302-88",
+    "P09-20240622-162302-89",
+    "P09-20240622-162302-90",
+    "P09-20240622-162302-91",
+    "P09-20240622-162302-92",
+    "P09-20240622-162302-93",
+    "P09-20240622-162302-94",
+    "P09-20240622-162302-95",
+    "P09-20240622-162302-96",
+    "P09-20240622-162302-97",
+    "P09-20240622-162302-98",
+    "P09-20240622-162302-99",
+    "P09-20240622-162302-100"
+   ],
+   "rationale": "The person rinses the plastic bottle, adds washing up liquid, fills it with water, and shakes it to wash the inside."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Rinse and drain the plastic bottle",
+   "action_ids": [
+    "P09-20240622-162302-101",
+    "P09-20240622-162302-102",
+    "P09-20240622-162302-103",
+    "P09-20240622-162302-104",
+    "P09-20240622-162302-105",
+    "P09-20240622-162302-106",
+    "P09-20240622-162302-107",
+    "P09-20240622-162302-108",
+    "P09-20240622-162302-109",
+    "P09-20240622-162302-110",
+    "P09-20240622-162302-116",
+    "P09-20240622-162302-117",
+    "P09-20240622-162302-118",
+    "P09-20240622-162302-119"
+   ],
+   "rationale": "The person drains the soapy water, repeatedly fills and shakes the bottle with clean water to rinse it, and then places it on the counter."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Dry hands with a towel",
+   "action_ids": [
+    "P09-20240622-162302-120",
+    "P09-20240622-162302-121",
+    "P09-20240622-162302-122",
+    "P09-20240622-162302-123",
+    "P09-20240622-162302-124",
+    "P09-20240622-162302-125",
+    "P09-20240622-162302-126",
+    "P09-20240622-162302-127",
+    "P09-20240622-162302-128",
+    "P09-20240622-162302-129"
+   ],
+   "rationale": "The person dries their hands using a tea towel and a hand towel from the rack."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Retrieve sugar and refill the jar",
+   "action_ids": [
+    "P09-20240622-162302-69",
+    "P09-20240622-162302-70",
+    "P09-20240622-162302-71",
+    "P09-20240622-162302-72",
+    "P09-20240622-162302-130",
+    "P09-20240622-162302-131",
+    "P09-20240622-162302-139",
+    "P09-20240622-162302-142",
+    "P09-20240622-162302-143",
+    "P09-20240622-162302-144",
+    "P09-20240622-162302-145",
+    "P09-20240622-162302-147",
+    "P09-20240622-162302-148",
+    "P09-20240622-162302-149",
+    "P09-20240622-162302-150"
+   ],
+   "rationale": "The person retrieves a jar and a bag of sugar, opens them, and refills the jar from the bag."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Prepare the scale and weigh the initial amount of sugar",
+   "action_ids": [
+    "P09-20240622-162302-74",
+    "P09-20240622-162302-138",
+    "P09-20240622-162302-140",
+    "P09-20240622-162302-141",
+    "P09-20240622-162302-146"
+   ],
+   "rationale": "The person places the scale on the counter, turns it on, recalibrates it with the jar's lid, and pours an initial amount of sugar onto the lid to weigh it."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Adjust the weighed sugar using a tablespoon",
+   "action_ids": [
+    "P09-20240622-162302-158",
+    "P09-20240622-162302-159",
+    "P09-20240622-162302-165",
+    "P09-20240622-162302-166",
+    "P09-20240622-162302-167",
+    "P09-20240622-162302-168",
+    "P09-20240622-162302-169",
+    "P09-20240622-162302-170",
+    "P09-20240622-162302-171",
+    "P09-20240622-162302-172",
+    "P09-20240622-162302-173",
+    "P09-20240622-162302-174",
+    "P09-20240622-162302-175",
+    "P09-20240622-162302-176",
+    "P09-20240622-162302-177",
+    "P09-20240622-162302-178",
+    "P09-20240622-162302-179",
+    "P09-20240622-162302-180",
+    "P09-20240622-162302-181",
+    "P09-20240622-162302-182",
+    "P09-20240622-162302-183",
+    "P09-20240622-162302-184"
+   ],
+   "rationale": "The person retrieves a tablespoon and uses it to carefully add and remove small amounts of sugar to reach the desired weight on the scale."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Store the sugar jar and scale",
+   "action_ids": [
+    "P09-20240622-162302-187",
+    "P09-20240622-162302-188",
+    "P09-20240622-162302-189",
+    "P09-20240622-162302-190",
+    "P09-20240622-162302-191",
+    "P09-20240622-162302-192",
+    "P09-20240622-162302-193",
+    "P09-20240622-162302-194",
+    "P09-20240622-162302-195"
+   ],
+   "rationale": "The person closes the sugar jar, stores it in the cupboard, and puts the scale away at the edge of the counter."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P09-20240622-162302-1",
+  "P09-20240622-162302-82",
+  "P09-20240622-162302-151"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

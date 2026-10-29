@@ -1,0 +1,73 @@
+{
+ "overall_goal": "Clean the kitchen counters, transfer cooked food to a bowl, and wash up",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Wipe the kitchen counters with a napkin",
+   "action_ids": [
+    "P09-20240623-120359-1445",
+    "P09-20240623-120359-1446",
+    "P09-20240623-120359-1447",
+    "P09-20240623-120359-1448",
+    "P09-20240623-120359-1449",
+    "P09-20240623-120359-1450"
+   ],
+   "rationale": "The person picks up a rag or napkin and uses it to wipe down multiple counter surfaces."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Stir the food and transfer it from the saucepan to a bowl",
+   "action_ids": [
+    "P09-20240623-120359-1451",
+    "P09-20240623-120359-1452",
+    "P09-20240623-120359-1453",
+    "P09-20240623-120359-1454",
+    "P09-20240623-120359-1455",
+    "P09-20240623-120359-1456",
+    "P09-20240623-120359-1457"
+   ],
+   "rationale": "The person stirs the contents of the saucepan, turns off the hob, and scoops the food into a green bowl."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Wet the sponge and wipe the counter around the hob",
+   "action_ids": [
+    "P09-20240623-120359-1458",
+    "P09-20240623-120359-1459",
+    "P09-20240623-120359-1460",
+    "P09-20240623-120359-1461",
+    "P09-20240623-120359-1462",
+    "P09-20240623-120359-1463",
+    "P09-20240623-120359-1464",
+    "P09-20240623-120359-1465"
+   ],
+   "rationale": "The person places the empty saucepan in the sink, wets a sponge, and wipes the counter surface near the hob."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Turn off the timer and dry hands",
+   "action_ids": [
+    "P09-20240623-120359-1466",
+    "P09-20240623-120359-1467",
+    "P09-20240623-120359-1468",
+    "P09-20240623-120359-1469",
+    "P09-20240623-120359-1470",
+    "P09-20240623-120359-1471",
+    "P09-20240623-120359-1472",
+    "P09-20240623-120359-1473",
+    "P09-20240623-120359-1474",
+    "P09-20240623-120359-1475",
+    "P09-20240623-120359-1476"
+   ],
+   "rationale": "The person turns off a timer, rinses the sponge in the sink, and dries their hands on a towel."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P09-20240623-120359-1444",
+  "P09-20240623-120359-1477"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

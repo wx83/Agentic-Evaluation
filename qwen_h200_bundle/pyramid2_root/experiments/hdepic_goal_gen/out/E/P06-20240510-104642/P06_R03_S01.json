@@ -1,0 +1,451 @@
+{
+ "overall_goal": "Chop onions, prepare tomato puree with garlic and chillies, and chop additional chillies for the dish.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve ingredients from the refrigerator and place them on the tabletop.",
+   "action_ids": [
+    "P06-20240510-104642-8",
+    "P06-20240510-104642-10",
+    "P06-20240510-104642-11",
+    "P06-20240510-104642-12",
+    "P06-20240510-104642-13",
+    "P06-20240510-104642-14",
+    "P06-20240510-104642-15",
+    "P06-20240510-104642-17",
+    "P06-20240510-104642-18",
+    "P06-20240510-104642-19",
+    "P06-20240510-104642-20",
+    "P06-20240510-104642-23",
+    "P06-20240510-104642-24"
+   ],
+   "rationale": "The person gathers the necessary ingredients like chillies, garlic paste, ginger paste, cottage cheese, and tomatoes from the fridge and places them on the counter."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve tools including a chopping board, knife, and scissors.",
+   "action_ids": [
+    "P06-20240510-104642-32",
+    "P06-20240510-104642-33",
+    "P06-20240510-104642-34",
+    "P06-20240510-104642-35",
+    "P06-20240510-104642-37",
+    "P06-20240510-104642-38",
+    "P06-20240510-104642-39"
+   ],
+   "rationale": "The person gets the chopping board, knife, and scissors from the crockery tray and sets them up on the tabletop."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Retrieve onions and peel the first batch.",
+   "action_ids": [
+    "P06-20240510-104642-45",
+    "P06-20240510-104642-46",
+    "P06-20240510-104642-47",
+    "P06-20240510-104642-48",
+    "P06-20240510-104642-65",
+    "P06-20240510-104642-66",
+    "P06-20240510-104642-67",
+    "P06-20240510-104642-68",
+    "P06-20240510-104642-71",
+    "P06-20240510-104642-69",
+    "P06-20240510-104642-70",
+    "P06-20240510-104642-72",
+    "P06-20240510-104642-73",
+    "P06-20240510-104642-74",
+    "P06-20240510-104642-75"
+   ],
+   "rationale": "The person takes onions from the drawer, places them on the board, and begins peeling and trimming the first few pieces."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Weigh and peel more onions.",
+   "action_ids": [
+    "P06-20240510-104642-76",
+    "P06-20240510-104642-79",
+    "P06-20240510-104642-80",
+    "P06-20240510-104642-81",
+    "P06-20240510-104642-82",
+    "P06-20240510-104642-83",
+    "P06-20240510-104642-84",
+    "P06-20240510-104642-85",
+    "P06-20240510-104642-90",
+    "P06-20240510-104642-91",
+    "P06-20240510-104642-92"
+   ],
+   "rationale": "The person turns on the weighing balance, weighs the onions, and continues peeling and trimming them."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Chop the first half of the onions.",
+   "action_ids": [
+    "P06-20240510-104642-93",
+    "P06-20240510-104642-94",
+    "P06-20240510-104642-95",
+    "P06-20240510-104642-96",
+    "P06-20240510-104642-97",
+    "P06-20240510-104642-98",
+    "P06-20240510-104642-99",
+    "P06-20240510-104642-100",
+    "P06-20240510-104642-101",
+    "P06-20240510-104642-102",
+    "P06-20240510-104642-103",
+    "P06-20240510-104642-104",
+    "P06-20240510-104642-105",
+    "P06-20240510-104642-106"
+   ],
+   "rationale": "The person uses the knife to chop the first batch of peeled onions into pieces."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Chop the remaining onions.",
+   "action_ids": [
+    "P06-20240510-104642-107",
+    "P06-20240510-104642-108",
+    "P06-20240510-104642-109",
+    "P06-20240510-104642-111",
+    "P06-20240510-104642-110",
+    "P06-20240510-104642-112",
+    "P06-20240510-104642-113",
+    "P06-20240510-104642-114",
+    "P06-20240510-104642-115",
+    "P06-20240510-104642-116",
+    "P06-20240510-104642-117",
+    "P06-20240510-104642-118",
+    "P06-20240510-104642-119",
+    "P06-20240510-104642-120",
+    "P06-20240510-104642-121"
+   ],
+   "rationale": "The person continues chopping the rest of the onions on the chopping board."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Separate the chopped onion pieces.",
+   "action_ids": [
+    "P06-20240510-104642-122",
+    "P06-20240510-104642-123",
+    "P06-20240510-104642-124",
+    "P06-20240510-104642-125",
+    "P06-20240510-104642-126",
+    "P06-20240510-104642-127",
+    "P06-20240510-104642-128",
+    "P06-20240510-104642-129",
+    "P06-20240510-104642-130",
+    "P06-20240510-104642-131",
+    "P06-20240510-104642-132",
+    "P06-20240510-104642-133",
+    "P06-20240510-104642-134",
+    "P06-20240510-104642-135"
+   ],
+   "rationale": "The person uses their hands and the knife to separate the layers of the chopped onions."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Transfer the chopped onions into a bowl.",
+   "action_ids": [
+    "P06-20240510-104642-138",
+    "P06-20240510-104642-139",
+    "P06-20240510-104642-140",
+    "P06-20240510-104642-141",
+    "P06-20240510-104642-142",
+    "P06-20240510-104642-143",
+    "P06-20240510-104642-144",
+    "P06-20240510-104642-145",
+    "P06-20240510-104642-147",
+    "P06-20240510-104642-148"
+   ],
+   "rationale": "The person gets a bowl and gathers all the chopped onions from the chopping board into it."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Retrieve, weigh, and wash tomatoes.",
+   "action_ids": [
+    "P06-20240510-104642-151",
+    "P06-20240510-104642-152",
+    "P06-20240510-104642-153",
+    "P06-20240510-104642-154",
+    "P06-20240510-104642-155",
+    "P06-20240510-104642-156",
+    "P06-20240510-104642-160",
+    "P06-20240510-104642-161",
+    "P06-20240510-104642-168",
+    "P06-20240510-104642-169",
+    "P06-20240510-104642-170",
+    "P06-20240510-104642-171",
+    "P06-20240510-104642-172",
+    "P06-20240510-104642-173",
+    "P06-20240510-104642-174"
+   ],
+   "rationale": "The person takes tomatoes from the pack, weighs them, washes them in the sink, and places them on the chopping board."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Slice the first batch of tomatoes and place them in the mixer jar.",
+   "action_ids": [
+    "P06-20240510-104642-181",
+    "P06-20240510-104642-182",
+    "P06-20240510-104642-183",
+    "P06-20240510-104642-184",
+    "P06-20240510-104642-185",
+    "P06-20240510-104642-186",
+    "P06-20240510-104642-187",
+    "P06-20240510-104642-188",
+    "P06-20240510-104642-189",
+    "P06-20240510-104642-190",
+    "P06-20240510-104642-191",
+    "P06-20240510-104642-192",
+    "P06-20240510-104642-193",
+    "P06-20240510-104642-194",
+    "P06-20240510-104642-195",
+    "P06-20240510-104642-196",
+    "P06-20240510-104642-197",
+    "P06-20240510-104642-198"
+   ],
+   "rationale": "The person gets the mixer jar ready, slices the first few tomatoes, and transfers the pieces into the jar."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Slice the second batch of tomatoes and place them in the mixer jar.",
+   "action_ids": [
+    "P06-20240510-104642-199",
+    "P06-20240510-104642-200",
+    "P06-20240510-104642-201",
+    "P06-20240510-104642-202",
+    "P06-20240510-104642-203",
+    "P06-20240510-104642-204",
+    "P06-20240510-104642-205",
+    "P06-20240510-104642-206",
+    "P06-20240510-104642-207",
+    "P06-20240510-104642-208",
+    "P06-20240510-104642-209",
+    "P06-20240510-104642-210",
+    "P06-20240510-104642-211",
+    "P06-20240510-104642-212",
+    "P06-20240510-104642-213",
+    "P06-20240510-104642-214",
+    "P06-20240510-104642-215",
+    "P06-20240510-104642-216",
+    "P06-20240510-104642-217"
+   ],
+   "rationale": "The person continues slicing more tomatoes and adding the chopped pieces into the mixer jar."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Slice the third batch of tomatoes and place them in the mixer jar.",
+   "action_ids": [
+    "P06-20240510-104642-218",
+    "P06-20240510-104642-219",
+    "P06-20240510-104642-220",
+    "P06-20240510-104642-221",
+    "P06-20240510-104642-222",
+    "P06-20240510-104642-223",
+    "P06-20240510-104642-224",
+    "P06-20240510-104642-225",
+    "P06-20240510-104642-226",
+    "P06-20240510-104642-227",
+    "P06-20240510-104642-228",
+    "P06-20240510-104642-229",
+    "P06-20240510-104642-230",
+    "P06-20240510-104642-231",
+    "P06-20240510-104642-232",
+    "P06-20240510-104642-233",
+    "P06-20240510-104642-234",
+    "P06-20240510-104642-235"
+   ],
+   "rationale": "The person slices another batch of tomatoes and transfers them into the mixer jar."
+  },
+  {
+   "goal_id": "e13",
+   "description": "Slice the fourth batch of tomatoes and place them in the mixer jar.",
+   "action_ids": [
+    "P06-20240510-104642-236",
+    "P06-20240510-104642-237",
+    "P06-20240510-104642-238",
+    "P06-20240510-104642-239",
+    "P06-20240510-104642-240",
+    "P06-20240510-104642-241",
+    "P06-20240510-104642-242",
+    "P06-20240510-104642-243",
+    "P06-20240510-104642-244"
+   ],
+   "rationale": "The person chops more tomatoes and adds them to the jar."
+  },
+  {
+   "goal_id": "e14",
+   "description": "Slice the final tomatoes and adjust the jar contents.",
+   "action_ids": [
+    "P06-20240510-104642-245",
+    "P06-20240510-104642-246",
+    "P06-20240510-104642-247",
+    "P06-20240510-104642-248",
+    "P06-20240510-104642-249",
+    "P06-20240510-104642-250",
+    "P06-20240510-104642-251",
+    "P06-20240510-104642-252",
+    "P06-20240510-104642-253",
+    "P06-20240510-104642-254",
+    "P06-20240510-104642-255",
+    "P06-20240510-104642-256",
+    "P06-20240510-104642-257",
+    "P06-20240510-104642-258"
+   ],
+   "rationale": "The person finishes slicing the tomatoes and removes a few pieces from the jar to ensure it is not overfilled."
+  },
+  {
+   "goal_id": "e15",
+   "description": "Wash, weigh, and slice green chillies into the mixer jar.",
+   "action_ids": [
+    "P06-20240510-104642-259",
+    "P06-20240510-104642-260",
+    "P06-20240510-104642-261",
+    "P06-20240510-104642-262",
+    "P06-20240510-104642-263",
+    "P06-20240510-104642-264",
+    "P06-20240510-104642-265",
+    "P06-20240510-104642-266",
+    "P06-20240510-104642-267",
+    "P06-20240510-104642-271",
+    "P06-20240510-104642-275",
+    "P06-20240510-104642-276",
+    "P06-20240510-104642-277"
+   ],
+   "rationale": "The person washes the green chillies, weighs them, and uses scissors to slice them directly into the mixer jar."
+  },
+  {
+   "goal_id": "e16",
+   "description": "Retrieve, peel, crush garlic and add it to the mixer jar.",
+   "action_ids": [
+    "P06-20240510-104642-282",
+    "P06-20240510-104642-283",
+    "P06-20240510-104642-284",
+    "P06-20240510-104642-285",
+    "P06-20240510-104642-286",
+    "P06-20240510-104642-287",
+    "P06-20240510-104642-293",
+    "P06-20240510-104642-294",
+    "P06-20240510-104642-295",
+    "P06-20240510-104642-296",
+    "P06-20240510-104642-297",
+    "P06-20240510-104642-299",
+    "P06-20240510-104642-301",
+    "P06-20240510-104642-300",
+    "P06-20240510-104642-302"
+   ],
+   "rationale": "The person gets garlic from the drawer, peels a clove, crushes it with the knife, and adds it to the mixer jar."
+  },
+  {
+   "goal_id": "e17",
+   "description": "Blend the tomatoes, chillies, and garlic to make a puree and pour it into a bowl.",
+   "action_ids": [
+    "P06-20240510-104642-304",
+    "P06-20240510-104642-305",
+    "P06-20240510-104642-306",
+    "P06-20240510-104642-307",
+    "P06-20240510-104642-308",
+    "P06-20240510-104642-309",
+    "P06-20240510-104642-310",
+    "P06-20240510-104642-311",
+    "P06-20240510-104642-312",
+    "P06-20240510-104642-313",
+    "P06-20240510-104642-314",
+    "P06-20240510-104642-315",
+    "P06-20240510-104642-316",
+    "P06-20240510-104642-317",
+    "P06-20240510-104642-318",
+    "P06-20240510-104642-319",
+    "P06-20240510-104642-321",
+    "P06-20240510-104642-320",
+    "P06-20240510-104642-322"
+   ],
+   "rationale": "The person closes the jar, attaches it to the mixer, blends the ingredients into a puree, and pours it into a bowl."
+  },
+  {
+   "goal_id": "e18",
+   "description": "Add remaining chopped tomatoes to the jar and blend them.",
+   "action_ids": [
+    "P06-20240510-104642-324",
+    "P06-20240510-104642-325",
+    "P06-20240510-104642-326",
+    "P06-20240510-104642-327",
+    "P06-20240510-104642-328",
+    "P06-20240510-104642-329",
+    "P06-20240510-104642-330",
+    "P06-20240510-104642-331",
+    "P06-20240510-104642-332",
+    "P06-20240510-104642-333",
+    "P06-20240510-104642-334",
+    "P06-20240510-104642-335",
+    "P06-20240510-104642-336"
+   ],
+   "rationale": "The person adds the rest of the chopped tomatoes to the jar and runs the mixer again."
+  },
+  {
+   "goal_id": "e19",
+   "description": "Pour the blended puree into the bowl and rinse the jar.",
+   "action_ids": [
+    "P06-20240510-104642-340",
+    "P06-20240510-104642-341",
+    "P06-20240510-104642-342",
+    "P06-20240510-104642-343",
+    "P06-20240510-104642-344",
+    "P06-20240510-104642-345",
+    "P06-20240510-104642-346",
+    "P06-20240510-104642-347",
+    "P06-20240510-104642-348",
+    "P06-20240510-104642-349",
+    "P06-20240510-104642-350",
+    "P06-20240510-104642-351"
+   ],
+   "rationale": "The person pours the second batch of puree into the bowl, rinses the jar with water, and adds the remaining liquid to the bowl."
+  },
+  {
+   "goal_id": "e20",
+   "description": "Retrieve, prepare, and wash additional green chillies.",
+   "action_ids": [
+    "P06-20240510-104642-358",
+    "P06-20240510-104642-359",
+    "P06-20240510-104642-360",
+    "P06-20240510-104642-361",
+    "P06-20240510-104642-362",
+    "P06-20240510-104642-363",
+    "P06-20240510-104642-364",
+    "P06-20240510-104642-365",
+    "P06-20240510-104642-366",
+    "P06-20240510-104642-367",
+    "P06-20240510-104642-368"
+   ],
+   "rationale": "The person gets more green chillies from a packet, removes their stalks, and washes them in the sink."
+  },
+  {
+   "goal_id": "e21",
+   "description": "Chop the green chillies and add them to the puree bowl.",
+   "action_ids": [
+    "P06-20240510-104642-373",
+    "P06-20240510-104642-374",
+    "P06-20240510-104642-375",
+    "P06-20240510-104642-376",
+    "P06-20240510-104642-377",
+    "P06-20240510-104642-378",
+    "P06-20240510-104642-379",
+    "P06-20240510-104642-380",
+    "P06-20240510-104642-381",
+    "P06-20240510-104642-382",
+    "P06-20240510-104642-383",
+    "P06-20240510-104642-384"
+   ],
+   "rationale": "The person chops the washed green chillies on the board and transfers them into the bowl containing the tomato puree."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P06-20240510-104642-9",
+  "P06-20240510-104642-16",
+  "P06-20240510-104642-36",
+  "P06-20240510-104642-268",
+  "P06-20240510-104642-269",
+  "P06-20240510-104642-270"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

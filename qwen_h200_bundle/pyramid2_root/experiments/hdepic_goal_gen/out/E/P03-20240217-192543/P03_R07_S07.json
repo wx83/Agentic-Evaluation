@@ -1,0 +1,115 @@
+{
+ "overall_goal": "Assemble the pizza by placing the dough on the peel and adding tomato sauce, mozzarella, aubergine, and egg.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare the pizza peel with semolina flour and place the dough on it.",
+   "action_ids": [
+    "P03-20240217-192543-750",
+    "P03-20240217-192543-751",
+    "P03-20240217-192543-752",
+    "P03-20240217-192543-753",
+    "P03-20240217-192543-784",
+    "P03-20240217-192543-788"
+   ],
+   "rationale": "The person sets up the pizza peel, applies semolina flour to prevent sticking, and lays the stretched dough on it."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Spread tomato sauce over the pizza dough.",
+   "action_ids": [
+    "P03-20240217-192543-790",
+    "P03-20240217-192543-791",
+    "P03-20240217-192543-793",
+    "P03-20240217-192543-794",
+    "P03-20240217-192543-795",
+    "P03-20240217-192543-796",
+    "P03-20240217-192543-797",
+    "P03-20240217-192543-798",
+    "P03-20240217-192543-799",
+    "P03-20240217-192543-800"
+   ],
+   "rationale": "The person scoops tomato sauce onto the dough, spreads it evenly, and removes a stray piece of garlic."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Prepare and distribute mozzarella chunks on the pizza.",
+   "action_ids": [
+    "P03-20240217-192543-809",
+    "P03-20240217-192543-810",
+    "P03-20240217-192543-811",
+    "P03-20240217-192543-812",
+    "P03-20240217-192543-813",
+    "P03-20240217-192543-814",
+    "P03-20240217-192543-815",
+    "P03-20240217-192543-816",
+    "P03-20240217-192543-817",
+    "P03-20240217-192543-821",
+    "P03-20240217-192543-822"
+   ],
+   "rationale": "The person opens the mozzarella bag, drains the water, breaks the cheese into chunks, and scatters them over the pizza."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Start adding aubergine chunks to the pizza.",
+   "action_ids": [
+    "P03-20240217-192543-825",
+    "P03-20240217-192543-826",
+    "P03-20240217-192543-827",
+    "P03-20240217-192543-828",
+    "P03-20240217-192543-829",
+    "P03-20240217-192543-830",
+    "P03-20240217-192543-831",
+    "P03-20240217-192543-832",
+    "P03-20240217-192543-833",
+    "P03-20240217-192543-834",
+    "P03-20240217-192543-835",
+    "P03-20240217-192543-836",
+    "P03-20240217-192543-837",
+    "P03-20240217-192543-838"
+   ],
+   "rationale": "The person repeatedly grabs handfuls of aubergine from a plate and places them evenly onto the pizza."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Finish adding aubergine chunks to the pizza.",
+   "action_ids": [
+    "P03-20240217-192543-839",
+    "P03-20240217-192543-840",
+    "P03-20240217-192543-841",
+    "P03-20240217-192543-842",
+    "P03-20240217-192543-843",
+    "P03-20240217-192543-844",
+    "P03-20240217-192543-845",
+    "P03-20240217-192543-846",
+    "P03-20240217-192543-847",
+    "P03-20240217-192543-848",
+    "P03-20240217-192543-849",
+    "P03-20240217-192543-850",
+    "P03-20240217-192543-851",
+    "P03-20240217-192543-852"
+   ],
+   "rationale": "The person continues to grab the remaining aubergine chunks and distributes them across the pizza."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Add egg slices to the pizza.",
+   "action_ids": [
+    "P03-20240217-192543-855",
+    "P03-20240217-192543-856",
+    "P03-20240217-192543-857",
+    "P03-20240217-192543-858",
+    "P03-20240217-192543-859",
+    "P03-20240217-192543-860",
+    "P03-20240217-192543-861",
+    "P03-20240217-192543-862"
+   ],
+   "rationale": "The person places slices of egg onto the pizza, adjusting the other toppings to make room."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

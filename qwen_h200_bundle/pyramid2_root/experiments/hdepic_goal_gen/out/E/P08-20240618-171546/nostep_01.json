@@ -1,0 +1,236 @@
+{
+ "overall_goal": "Manage the cooking process by seasoning and adding tomatoes to the wok, logging nutritional values, and cleaning the kitchen.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Clean up food scraps from the counter and floor.",
+   "action_ids": [
+    "P08-20240618-171546-211",
+    "P08-20240618-171546-212",
+    "P08-20240618-171546-213",
+    "P08-20240618-171546-214"
+   ],
+   "rationale": "The person wipes food scraps off the counter and floor and throws them in the trash."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Stir the ingredients in the wok.",
+   "action_ids": [
+    "P08-20240618-171546-215",
+    "P08-20240618-171546-216",
+    "P08-20240618-171546-217",
+    "P08-20240618-171546-218",
+    "P08-20240618-171546-219",
+    "P08-20240618-171546-220",
+    "P08-20240618-171546-221"
+   ],
+   "rationale": "The person opens the wok, mixes the ingredients with a spatula, and puts the spatula down."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Retrieve a spice jar and log its nutritional value using a phone.",
+   "action_ids": [
+    "P08-20240618-171546-222",
+    "P08-20240618-171546-223",
+    "P08-20240618-171546-224",
+    "P08-20240618-171546-225",
+    "P08-20240618-171546-226",
+    "P08-20240618-171546-227",
+    "P08-20240618-171546-228",
+    "P08-20240618-171546-229",
+    "P08-20240618-171546-230",
+    "P08-20240618-171546-231"
+   ],
+   "rationale": "The person finds a spice jar in the cabinet and uses their phone to scan its barcode and record its nutritional value."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Season the ingredients in the wok and stir.",
+   "action_ids": [
+    "P08-20240618-171546-235",
+    "P08-20240618-171546-236",
+    "P08-20240618-171546-237",
+    "P08-20240618-171546-238",
+    "P08-20240618-171546-239",
+    "P08-20240618-171546-249"
+   ],
+   "rationale": "The person scoops spices into the wok and mixes them into the ingredients with a spatula."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Wash the small spoon.",
+   "action_ids": [
+    "P08-20240618-171546-265",
+    "P08-20240618-171546-266",
+    "P08-20240618-171546-267"
+   ],
+   "rationale": "The person rinses the small spoon under the tap and places it in the dish rack."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Log the nutritional value of the seasoning using a phone.",
+   "action_ids": [
+    "P08-20240618-171546-268",
+    "P08-20240618-171546-269",
+    "P08-20240618-171546-270",
+    "P08-20240618-171546-271",
+    "P08-20240618-171546-272",
+    "P08-20240618-171546-273",
+    "P08-20240618-171546-274",
+    "P08-20240618-171546-275",
+    "P08-20240618-171546-276"
+   ],
+   "rationale": "The person uses their phone to update measurements and record the nutritional value of the seasoning."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Open the wok and stir the ingredients.",
+   "action_ids": [
+    "P08-20240618-171546-277",
+    "P08-20240618-171546-278",
+    "P08-20240618-171546-279",
+    "P08-20240618-171546-280",
+    "P08-20240618-171546-281"
+   ],
+   "rationale": "The person removes the pan from the wok and mixes the ingredients with a spatula."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Add canned tomatoes to the wok and stir.",
+   "action_ids": [
+    "P08-20240618-171546-282",
+    "P08-20240618-171546-283",
+    "P08-20240618-171546-284",
+    "P08-20240618-171546-285",
+    "P08-20240618-171546-289"
+   ],
+   "rationale": "The person pours a can of tomatoes into the wok and mixes it in with a spatula."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Retrieve jarred tomato sauce, add it to the wok, and stir.",
+   "action_ids": [
+    "P08-20240618-171546-291",
+    "P08-20240618-171546-292",
+    "P08-20240618-171546-293",
+    "P08-20240618-171546-294",
+    "P08-20240618-171546-295",
+    "P08-20240618-171546-301",
+    "P08-20240618-171546-302",
+    "P08-20240618-171546-303",
+    "P08-20240618-171546-309",
+    "P08-20240618-171546-310"
+   ],
+   "rationale": "The person grabs a jar of tomato sauce, empties it into the wok, cleans the jar's edges, and stirs the wok."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Rinse and recycle the empty tomato sauce can.",
+   "action_ids": [
+    "P08-20240618-171546-316",
+    "P08-20240618-171546-317",
+    "P08-20240618-171546-318",
+    "P08-20240618-171546-319",
+    "P08-20240618-171546-320",
+    "P08-20240618-171546-321",
+    "P08-20240618-171546-322"
+   ],
+   "rationale": "The person washes the empty tomato sauce can under the tap and throws it in the recycling bin."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Dry the jar of tomato sauce and store it in the refrigerator.",
+   "action_ids": [
+    "P08-20240618-171546-323",
+    "P08-20240618-171546-324",
+    "P08-20240618-171546-325",
+    "P08-20240618-171546-326",
+    "P08-20240618-171546-327",
+    "P08-20240618-171546-328"
+   ],
+   "rationale": "The person dries the jar of tomato sauce with a paper towel and places it in the fridge."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Wash the coffee mug and its lid.",
+   "action_ids": [
+    "P08-20240618-171546-333",
+    "P08-20240618-171546-334",
+    "P08-20240618-171546-335",
+    "P08-20240618-171546-336",
+    "P08-20240618-171546-337",
+    "P08-20240618-171546-338",
+    "P08-20240618-171546-339",
+    "P08-20240618-171546-340",
+    "P08-20240618-171546-341",
+    "P08-20240618-171546-342",
+    "P08-20240618-171546-343",
+    "P08-20240618-171546-344",
+    "P08-20240618-171546-345",
+    "P08-20240618-171546-346",
+    "P08-20240618-171546-347",
+    "P08-20240618-171546-348",
+    "P08-20240618-171546-349",
+    "P08-20240618-171546-350",
+    "P08-20240618-171546-351",
+    "P08-20240618-171546-352"
+   ],
+   "rationale": "The person cleans the coffee mug and its lid with a sponge and running water, then places them in the drying rack."
+  },
+  {
+   "goal_id": "e13",
+   "description": "Wash the spoon.",
+   "action_ids": [
+    "P08-20240618-171546-331",
+    "P08-20240618-171546-332",
+    "P08-20240618-171546-353",
+    "P08-20240618-171546-354",
+    "P08-20240618-171546-355",
+    "P08-20240618-171546-356",
+    "P08-20240618-171546-357"
+   ],
+   "rationale": "The person places the spoon in the sink, washes it with a sponge, and puts it in the drying rack."
+  },
+  {
+   "goal_id": "e14",
+   "description": "Clean the kitchen counter and put away measuring cups.",
+   "action_ids": [
+    "P08-20240618-171546-358",
+    "P08-20240618-171546-359",
+    "P08-20240618-171546-360",
+    "P08-20240618-171546-361",
+    "P08-20240618-171546-362",
+    "P08-20240618-171546-363",
+    "P08-20240618-171546-364",
+    "P08-20240618-171546-365",
+    "P08-20240618-171546-366",
+    "P08-20240618-171546-367",
+    "P08-20240618-171546-368",
+    "P08-20240618-171546-369"
+   ],
+   "rationale": "The person sprays and wipes down the kitchen counter and stacks measuring cups to store them in a drawer."
+  },
+  {
+   "goal_id": "e15",
+   "description": "Lower the stove temperature and stir the ingredients in the wok.",
+   "action_ids": [
+    "P08-20240618-171546-372",
+    "P08-20240618-171546-373",
+    "P08-20240618-171546-374",
+    "P08-20240618-171546-375",
+    "P08-20240618-171546-376"
+   ],
+   "rationale": "The person opens the wok, turns down the stove heat, and mixes the ingredients."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P08-20240618-171546-329",
+  "P08-20240618-171546-330",
+  "P08-20240618-171546-370",
+  "P08-20240618-171546-371"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

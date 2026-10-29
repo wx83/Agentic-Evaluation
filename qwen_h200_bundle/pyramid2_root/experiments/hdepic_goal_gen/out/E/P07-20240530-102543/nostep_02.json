@@ -1,0 +1,208 @@
+{
+ "overall_goal": "Clean dishes and work surfaces, put away utensils, and make an espresso.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Load items into the dishwasher",
+   "action_ids": [
+    "P07-20240530-102543-392",
+    "P07-20240530-102543-393",
+    "P07-20240530-102543-394",
+    "P07-20240530-102543-395",
+    "P07-20240530-102543-396",
+    "P07-20240530-102543-397"
+   ],
+   "rationale": "The person opens the dishwasher and places a glass jug and a bowl inside before closing it."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Wash the baking tray",
+   "action_ids": [
+    "P07-20240530-102543-401",
+    "P07-20240530-102543-402",
+    "P07-20240530-102543-403",
+    "P07-20240530-102543-404",
+    "P07-20240530-102543-405",
+    "P07-20240530-102543-406",
+    "P07-20240530-102543-407",
+    "P07-20240530-102543-408",
+    "P07-20240530-102543-409",
+    "P07-20240530-102543-410",
+    "P07-20240530-102543-411",
+    "P07-20240530-102543-412",
+    "P07-20240530-102543-413",
+    "P07-20240530-102543-414",
+    "P07-20240530-102543-415"
+   ],
+   "rationale": "The person rinses, applies dishwashing liquid, and scrubs the baking tray in the sink before placing it on the drying rack."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Wash the measuring spoons",
+   "action_ids": [
+    "P07-20240530-102543-416",
+    "P07-20240530-102543-417",
+    "P07-20240530-102543-418",
+    "P07-20240530-102543-419",
+    "P07-20240530-102543-420",
+    "P07-20240530-102543-421",
+    "P07-20240530-102543-422",
+    "P07-20240530-102543-423",
+    "P07-20240530-102543-424"
+   ],
+   "rationale": "The person scrubs and rinses a bundle of measuring spoons in the soapy water and places them on the drying rack."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Wipe the work surfaces",
+   "action_ids": [
+    "P07-20240530-102543-425",
+    "P07-20240530-102543-426",
+    "P07-20240530-102543-427",
+    "P07-20240530-102543-428",
+    "P07-20240530-102543-429",
+    "P07-20240530-102543-430"
+   ],
+   "rationale": "The person dries their hands and uses a tea towel to wipe down the kitchen work surfaces."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Put away clean utensils and dishes",
+   "action_ids": [
+    "P07-20240530-102543-431",
+    "P07-20240530-102543-432",
+    "P07-20240530-102543-433",
+    "P07-20240530-102543-434",
+    "P07-20240530-102543-435",
+    "P07-20240530-102543-436",
+    "P07-20240530-102543-437",
+    "P07-20240530-102543-438",
+    "P07-20240530-102543-439",
+    "P07-20240530-102543-440",
+    "P07-20240530-102543-441",
+    "P07-20240530-102543-442",
+    "P07-20240530-102543-443",
+    "P07-20240530-102543-444",
+    "P07-20240530-102543-445"
+   ],
+   "rationale": "The person gathers various clean utensils, knives, and a bowl from the drying rack and puts them away in drawers and cupboards."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Dry the baking tray",
+   "action_ids": [
+    "P07-20240530-102543-454",
+    "P07-20240530-102543-455",
+    "P07-20240530-102543-456",
+    "P07-20240530-102543-463",
+    "P07-20240530-102543-464",
+    "P07-20240530-102543-465",
+    "P07-20240530-102543-466",
+    "P07-20240530-102543-467"
+   ],
+   "rationale": "The person takes a tea towel from a drawer and uses it to dry the baking tray before moving it to the kitchen island."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Move spoons to the dishwasher",
+   "action_ids": [
+    "P07-20240530-102543-457",
+    "P07-20240530-102543-458",
+    "P07-20240530-102543-459",
+    "P07-20240530-102543-460",
+    "P07-20240530-102543-461",
+    "P07-20240530-102543-462"
+   ],
+   "rationale": "The person picks up measuring spoons and teaspoons from the drying rack and places them into the dishwasher."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Grind coffee beans",
+   "action_ids": [
+    "P07-20240530-102543-475",
+    "P07-20240530-102543-476",
+    "P07-20240530-102543-477",
+    "P07-20240530-102543-478",
+    "P07-20240530-102543-479",
+    "P07-20240530-102543-480",
+    "P07-20240530-102543-481",
+    "P07-20240530-102543-482",
+    "P07-20240530-102543-483",
+    "P07-20240530-102543-484",
+    "P07-20240530-102543-485",
+    "P07-20240530-102543-486",
+    "P07-20240530-102543-487",
+    "P07-20240530-102543-488"
+   ],
+   "rationale": "The person fills the coffee grinder with beans from a bag and operates the grinder to produce ground coffee."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Fill the coffee basket and insert it into the espresso machine",
+   "action_ids": [
+    "P07-20240530-102543-489",
+    "P07-20240530-102543-490",
+    "P07-20240530-102543-491",
+    "P07-20240530-102543-492",
+    "P07-20240530-102543-493",
+    "P07-20240530-102543-494",
+    "P07-20240530-102543-495",
+    "P07-20240530-102543-496",
+    "P07-20240530-102543-497"
+   ],
+   "rationale": "The person scoops ground coffee into the basket, tamps it down, and locks the basket into the espresso machine."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Set up the mug and start brewing espresso",
+   "action_ids": [
+    "P07-20240530-102543-498",
+    "P07-20240530-102543-499",
+    "P07-20240530-102543-500",
+    "P07-20240530-102543-501",
+    "P07-20240530-102543-502",
+    "P07-20240530-102543-503",
+    "P07-20240530-102543-504",
+    "P07-20240530-102543-517"
+   ],
+   "rationale": "The person turns on the machine, retrieves a mug, adjusts the drip tray to fit the mug, and starts the espresso pour."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Wipe the work surfaces and clean the cloth",
+   "action_ids": [
+    "P07-20240530-102543-505",
+    "P07-20240530-102543-506",
+    "P07-20240530-102543-507",
+    "P07-20240530-102543-508",
+    "P07-20240530-102543-509",
+    "P07-20240530-102543-510",
+    "P07-20240530-102543-511",
+    "P07-20240530-102543-512",
+    "P07-20240530-102543-513",
+    "P07-20240530-102543-514"
+   ],
+   "rationale": "The person wipes various work surfaces with a cloth, then rinses and wrings out the cloth in the sink before hanging it to dry."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P07-20240530-102543-398",
+  "P07-20240530-102543-399",
+  "P07-20240530-102543-400",
+  "P07-20240530-102543-446",
+  "P07-20240530-102543-452",
+  "P07-20240530-102543-453",
+  "P07-20240530-102543-515",
+  "P07-20240530-102543-516",
+  "P07-20240530-102543-518",
+  "P07-20240530-102543-519",
+  "P07-20240530-102543-520",
+  "P07-20240530-102543-527",
+  "P07-20240530-102543-554",
+  "P07-20240530-102543-555"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

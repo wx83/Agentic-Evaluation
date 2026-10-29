@@ -1,0 +1,201 @@
+{
+ "overall_goal": "Bake the pizzas, set the table, and clean up the kitchen",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Add toppings to the pizza",
+   "action_ids": [
+    "P03-20240217-192543-971",
+    "P03-20240217-192543-972",
+    "P03-20240217-192543-973",
+    "P03-20240217-192543-974",
+    "P03-20240217-192543-975",
+    "P03-20240217-192543-978",
+    "P03-20240217-192543-979",
+    "P03-20240217-192543-980",
+    "P03-20240217-192543-981",
+    "P03-20240217-192543-982",
+    "P03-20240217-192543-983",
+    "P03-20240217-192543-984",
+    "P03-20240217-192543-985",
+    "P03-20240217-192543-986",
+    "P03-20240217-192543-987",
+    "P03-20240217-192543-988",
+    "P03-20240217-192543-989"
+   ],
+   "rationale": "The person adds mushrooms and plant-based ragu to the pizza before baking."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P03-20240217-192543-990",
+    "P03-20240217-192543-991",
+    "P03-20240217-192543-992",
+    "P03-20240217-192543-993",
+    "P03-20240217-192543-994",
+    "P03-20240217-192543-998",
+    "P03-20240217-192543-999",
+    "P03-20240217-192543-1000",
+    "P03-20240217-192543-1001",
+    "P03-20240217-192543-1002",
+    "P03-20240217-192543-1003",
+    "P03-20240217-192543-1074",
+    "P03-20240217-192543-1075",
+    "P03-20240217-192543-1076",
+    "P03-20240217-192543-1077",
+    "P03-20240217-192543-1078",
+    "P03-20240217-192543-1079"
+   ],
+   "rationale": "The person washes and dries their hands multiple times to maintain hygiene."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Monitor the pizza baking in the oven",
+   "action_ids": [
+    "P03-20240217-192543-976",
+    "P03-20240217-192543-977",
+    "P03-20240217-192543-995",
+    "P03-20240217-192543-996",
+    "P03-20240217-192543-1004",
+    "P03-20240217-192543-1005",
+    "P03-20240217-192543-1006",
+    "P03-20240217-192543-1007",
+    "P03-20240217-192543-1008",
+    "P03-20240217-192543-1009",
+    "P03-20240217-192543-1010",
+    "P03-20240217-192543-1019",
+    "P03-20240217-192543-1020",
+    "P03-20240217-192543-1042",
+    "P03-20240217-192543-1043",
+    "P03-20240217-192543-1080",
+    "P03-20240217-192543-1081"
+   ],
+   "rationale": "The person repeatedly opens and closes the pizza oven lid to monitor the baking progress."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Prepare spatulas and dab the pizza to remove excess moisture",
+   "action_ids": [
+    "P03-20240217-192543-1011",
+    "P03-20240217-192543-1013",
+    "P03-20240217-192543-1026",
+    "P03-20240217-192543-1027",
+    "P03-20240217-192543-1030",
+    "P03-20240217-192543-1031",
+    "P03-20240217-192543-1032",
+    "P03-20240217-192543-1033",
+    "P03-20240217-192543-1034"
+   ],
+   "rationale": "The person prepares spatulas and uses kitchen roll to dab excess moisture from the baking pizza."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Set the table for the meal",
+   "action_ids": [
+    "P03-20240217-192543-1021",
+    "P03-20240217-192543-1022",
+    "P03-20240217-192543-1023",
+    "P03-20240217-192543-1024",
+    "P03-20240217-192543-1025",
+    "P03-20240217-192543-1035",
+    "P03-20240217-192543-1036",
+    "P03-20240217-192543-1037",
+    "P03-20240217-192543-1038",
+    "P03-20240217-192543-1039",
+    "P03-20240217-192543-1040",
+    "P03-20240217-192543-1041",
+    "P03-20240217-192543-1082",
+    "P03-20240217-192543-1083",
+    "P03-20240217-192543-1084",
+    "P03-20240217-192543-1085",
+    "P03-20240217-192543-1086"
+   ],
+   "rationale": "The person retrieves cutlery and tea towels to set the table for the meal."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Take the first pizza out of the oven and serve it",
+   "action_ids": [
+    "P03-20240217-192543-1044",
+    "P03-20240217-192543-1045",
+    "P03-20240217-192543-1046",
+    "P03-20240217-192543-1047",
+    "P03-20240217-192543-1048",
+    "P03-20240217-192543-1049",
+    "P03-20240217-192543-1050",
+    "P03-20240217-192543-1051",
+    "P03-20240217-192543-1052",
+    "P03-20240217-192543-1053",
+    "P03-20240217-192543-1054"
+   ],
+   "rationale": "The person removes the cooked pizza from the oven, dabs it with kitchen paper, and serves it on the table."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Put the second pizza in the oven",
+   "action_ids": [
+    "P03-20240217-192543-1055",
+    "P03-20240217-192543-1056",
+    "P03-20240217-192543-1057",
+    "P03-20240217-192543-1058"
+   ],
+   "rationale": "The person transfers the second pizza from the peel into the oven to bake."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Dispose of waste in the bins",
+   "action_ids": [
+    "P03-20240217-192543-1059",
+    "P03-20240217-192543-1060",
+    "P03-20240217-192543-1061",
+    "P03-20240217-192543-1062",
+    "P03-20240217-192543-1065",
+    "P03-20240217-192543-1066",
+    "P03-20240217-192543-1067",
+    "P03-20240217-192543-1068",
+    "P03-20240217-192543-1069",
+    "P03-20240217-192543-1070",
+    "P03-20240217-192543-1071",
+    "P03-20240217-192543-1072",
+    "P03-20240217-192543-1073"
+   ],
+   "rationale": "The person disposes of used kitchen paper and garlic cloves into the appropriate waste bins."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Retrieve a plate from the cupboard",
+   "action_ids": [
+    "P03-20240217-192543-1087",
+    "P03-20240217-192543-1088",
+    "P03-20240217-192543-1089",
+    "P03-20240217-192543-1090"
+   ],
+   "rationale": "The person retrieves a clean plate from the cupboard and places it on the kitchen top."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Load the chopping board into the dishwasher",
+   "action_ids": [
+    "P03-20240217-192543-1091",
+    "P03-20240217-192543-1092",
+    "P03-20240217-192543-1093",
+    "P03-20240217-192543-1094",
+    "P03-20240217-192543-1095",
+    "P03-20240217-192543-1096",
+    "P03-20240217-192543-1097"
+   ],
+   "rationale": "The person opens the dishwasher and places the chopping board inside to clean it."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P03-20240217-192543-997",
+  "P03-20240217-192543-1018",
+  "P03-20240217-192543-1063",
+  "P03-20240217-192543-1064"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

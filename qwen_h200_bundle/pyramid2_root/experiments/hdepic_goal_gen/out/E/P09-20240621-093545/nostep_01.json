@@ -1,0 +1,201 @@
+{
+ "overall_goal": "Store chicken, wash a pot, and gather ingredients for cooking",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve and prepare freezer bags",
+   "action_ids": [
+    "P09-20240621-093545-227",
+    "P09-20240621-093545-228",
+    "P09-20240621-093545-229",
+    "P09-20240621-093545-230",
+    "P09-20240621-093545-231",
+    "P09-20240621-093545-232",
+    "P09-20240621-093545-233",
+    "P09-20240621-093545-234",
+    "P09-20240621-093545-235",
+    "P09-20240621-093545-236",
+    "P09-20240621-093545-237",
+    "P09-20240621-093545-238",
+    "P09-20240621-093545-239",
+    "P09-20240621-093545-240"
+   ],
+   "rationale": "The person searches for and retrieves freezer bags from a drawer, tearing them from the roll and preparing them on the counter."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Pack chicken into bags and store in the freezer",
+   "action_ids": [
+    "P09-20240621-093545-241",
+    "P09-20240621-093545-242",
+    "P09-20240621-093545-243",
+    "P09-20240621-093545-244",
+    "P09-20240621-093545-247",
+    "P09-20240621-093545-248",
+    "P09-20240621-093545-249",
+    "P09-20240621-093545-250",
+    "P09-20240621-093545-251",
+    "P09-20240621-093545-252",
+    "P09-20240621-093545-253",
+    "P09-20240621-093545-254"
+   ],
+   "rationale": "The person places chicken breasts into the prepared freezer bags, seals them, and places them into the freezer."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Dry hands with a towel",
+   "action_ids": [
+    "P09-20240621-093545-278",
+    "P09-20240621-093545-279",
+    "P09-20240621-093545-280",
+    "P09-20240621-093545-281"
+   ],
+   "rationale": "The person retrieves a hand towel, dries their hands, and discards the towel on the countertop."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Retrieve a pot from the cupboard",
+   "action_ids": [
+    "P09-20240621-093545-283",
+    "P09-20240621-093545-282",
+    "P09-20240621-093545-284",
+    "P09-20240621-093545-285",
+    "P09-20240621-093545-286",
+    "P09-20240621-093545-287",
+    "P09-20240621-093545-288",
+    "P09-20240621-093545-293",
+    "P09-20240621-093545-294",
+    "P09-20240621-093545-295"
+   ],
+   "rationale": "The person opens the cupboard, moves pot covers out of the way, retrieves a pot, and closes the cupboard."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Wash the pot with soap and a sponge",
+   "action_ids": [
+    "P09-20240621-093545-296",
+    "P09-20240621-093545-297",
+    "P09-20240621-093545-298",
+    "P09-20240621-093545-299",
+    "P09-20240621-093545-300",
+    "P09-20240621-093545-301",
+    "P09-20240621-093545-302",
+    "P09-20240621-093545-303",
+    "P09-20240621-093545-304",
+    "P09-20240621-093545-305",
+    "P09-20240621-093545-306",
+    "P09-20240621-093545-307",
+    "P09-20240621-093545-308",
+    "P09-20240621-093545-310",
+    "P09-20240621-093545-309"
+   ],
+   "rationale": "The person applies washing liquid to the pot, wets a sponge, and scrubs the pot."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Rinse, dry, and fill the pot with water",
+   "action_ids": [
+    "P09-20240621-093545-311",
+    "P09-20240621-093545-313",
+    "P09-20240621-093545-312",
+    "P09-20240621-093545-314",
+    "P09-20240621-093545-315",
+    "P09-20240621-093545-316",
+    "P09-20240621-093545-317",
+    "P09-20240621-093545-318",
+    "P09-20240621-093545-319",
+    "P09-20240621-093545-320",
+    "P09-20240621-093545-323",
+    "P09-20240621-093545-321",
+    "P09-20240621-093545-322",
+    "P09-20240621-093545-324",
+    "P09-20240621-093545-325",
+    "P09-20240621-093545-326"
+   ],
+   "rationale": "The person rinses the soap out of the pot, dries its exterior with a teatowel, fills it with water, and dries their hands."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Set up and heat the pot on the hob",
+   "action_ids": [
+    "P09-20240621-093545-327",
+    "P09-20240621-093545-328",
+    "P09-20240621-093545-329",
+    "P09-20240621-093545-341",
+    "P09-20240621-093545-342",
+    "P09-20240621-093545-353",
+    "P09-20240621-093545-366",
+    "P09-20240621-093545-367",
+    "P09-20240621-093545-368",
+    "P09-20240621-093545-369",
+    "P09-20240621-093545-370",
+    "P09-20240621-093545-371"
+   ],
+   "rationale": "The person places the pot on the hob, ignites the burner, adjusts the heat, and later dries the base of the pot before replacing it on the heat."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Retrieve oil and salt from the cabinet",
+   "action_ids": [
+    "P09-20240621-093545-330",
+    "P09-20240621-093545-331",
+    "P09-20240621-093545-333",
+    "P09-20240621-093545-332",
+    "P09-20240621-093545-334",
+    "P09-20240621-093545-335",
+    "P09-20240621-093545-336",
+    "P09-20240621-093545-337"
+   ],
+   "rationale": "The person opens the cabinet, takes out bottles of oil and salt, places them on the counter, and closes the cabinet."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Retrieve red curry paste from the fridge",
+   "action_ids": [
+    "P09-20240621-093545-338",
+    "P09-20240621-093545-339",
+    "P09-20240621-093545-340",
+    "P09-20240621-093545-343",
+    "P09-20240621-093545-344",
+    "P09-20240621-093545-345",
+    "P09-20240621-093545-346",
+    "P09-20240621-093545-347",
+    "P09-20240621-093545-348",
+    "P09-20240621-093545-349",
+    "P09-20240621-093545-350",
+    "P09-20240621-093545-351",
+    "P09-20240621-093545-352"
+   ],
+   "rationale": "The person opens the fridge, moves items like yogurt and cheese out of the way, pulls out a tray, and retrieves the red curry paste."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Retrieve courgettes, coconut milk, and bamboo shoots",
+   "action_ids": [
+    "P09-20240621-093545-372",
+    "P09-20240621-093545-373",
+    "P09-20240621-093545-374",
+    "P09-20240621-093545-375",
+    "P09-20240621-093545-376",
+    "P09-20240621-093545-377",
+    "P09-20240621-093545-378",
+    "P09-20240621-093545-379",
+    "P09-20240621-093545-380",
+    "P09-20240621-093545-381",
+    "P09-20240621-093545-382",
+    "P09-20240621-093545-383",
+    "P09-20240621-093545-384"
+   ],
+   "rationale": "The person clears the counter, inspects courgettes, and retrieves tins of coconut milk and bamboo shoots from the cabinet."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P09-20240621-093545-276",
+  "P09-20240621-093545-277",
+  "P09-20240621-093545-354"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

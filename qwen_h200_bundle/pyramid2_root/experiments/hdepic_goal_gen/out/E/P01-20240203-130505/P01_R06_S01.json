@@ -1,0 +1,356 @@
+{
+ "overall_goal": "Heat butter, cook onions, chop and add carrots, and prepare water for the soup",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare the pan and scale for weighing ingredients",
+   "action_ids": [
+    "P01-20240203-130505-5",
+    "P01-20240203-130505-6",
+    "P01-20240203-130505-7",
+    "P01-20240203-130505-9",
+    "P01-20240203-130505-10",
+    "P01-20240203-130505-11"
+   ],
+   "rationale": "The person prepares the pan and scale to weigh the ingredients."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Get butter and add it to the pan",
+   "action_ids": [
+    "P01-20240203-130505-20",
+    "P01-20240203-130505-21",
+    "P01-20240203-130505-22",
+    "P01-20240203-130505-23",
+    "P01-20240203-130505-24",
+    "P01-20240203-130505-25",
+    "P01-20240203-130505-26",
+    "P01-20240203-130505-33",
+    "P01-20240203-130505-34",
+    "P01-20240203-130505-35",
+    "P01-20240203-130505-36",
+    "P01-20240203-130505-37",
+    "P01-20240203-130505-38",
+    "P01-20240203-130505-39"
+   ],
+   "rationale": "The person retrieves butter from the fridge, unwraps it, and adds it to the pan."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Chop onions",
+   "action_ids": [
+    "P01-20240203-130505-55",
+    "P01-20240203-130505-56",
+    "P01-20240203-130505-57",
+    "P01-20240203-130505-58",
+    "P01-20240203-130505-59",
+    "P01-20240203-130505-60",
+    "P01-20240203-130505-61",
+    "P01-20240203-130505-62",
+    "P01-20240203-130505-63",
+    "P01-20240203-130505-64",
+    "P01-20240203-130505-65",
+    "P01-20240203-130505-66",
+    "P01-20240203-130505-67",
+    "P01-20240203-130505-68",
+    "P01-20240203-130505-69",
+    "P01-20240203-130505-70",
+    "P01-20240203-130505-71",
+    "P01-20240203-130505-72",
+    "P01-20240203-130505-73"
+   ],
+   "rationale": "The person chops onions into small pieces on the chopping board."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Transfer chopped onions to a plate",
+   "action_ids": [
+    "P01-20240203-130505-122",
+    "P01-20240203-130505-123",
+    "P01-20240203-130505-124",
+    "P01-20240203-130505-125"
+   ],
+   "rationale": "The person transfers the chopped onions from the chopping board to a plate."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Chop the first batch of carrots",
+   "action_ids": [
+    "P01-20240203-130505-137",
+    "P01-20240203-130505-138",
+    "P01-20240203-130505-139",
+    "P01-20240203-130505-140",
+    "P01-20240203-130505-141",
+    "P01-20240203-130505-142",
+    "P01-20240203-130505-143",
+    "P01-20240203-130505-144",
+    "P01-20240203-130505-145",
+    "P01-20240203-130505-146",
+    "P01-20240203-130505-147",
+    "P01-20240203-130505-148",
+    "P01-20240203-130505-149",
+    "P01-20240203-130505-150",
+    "P01-20240203-130505-151",
+    "P01-20240203-130505-152",
+    "P01-20240203-130505-153",
+    "P01-20240203-130505-154",
+    "P01-20240203-130505-155"
+   ],
+   "rationale": "The person chops the first batch of carrots into medium-sized slices."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Turn on the hob and prepare to melt butter",
+   "action_ids": [
+    "P01-20240203-130505-157",
+    "P01-20240203-130505-158",
+    "P01-20240203-130505-159",
+    "P01-20240203-130505-160",
+    "P01-20240203-130505-161",
+    "P01-20240203-130505-162",
+    "P01-20240203-130505-163",
+    "P01-20240203-130505-164",
+    "P01-20240203-130505-165",
+    "P01-20240203-130505-166",
+    "P01-20240203-130505-167"
+   ],
+   "rationale": "The person turns on the hob, adjusts the pans, and prepares the spatula to melt the butter."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Chop the second batch of carrots",
+   "action_ids": [
+    "P01-20240203-130505-168",
+    "P01-20240203-130505-169",
+    "P01-20240203-130505-170",
+    "P01-20240203-130505-171",
+    "P01-20240203-130505-172",
+    "P01-20240203-130505-173",
+    "P01-20240203-130505-174",
+    "P01-20240203-130505-175",
+    "P01-20240203-130505-176",
+    "P01-20240203-130505-177",
+    "P01-20240203-130505-178",
+    "P01-20240203-130505-179"
+   ],
+   "rationale": "The person chops the second batch of carrots while waiting for the butter to melt."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Melt butter and add onions to the pan",
+   "action_ids": [
+    "P01-20240203-130505-180",
+    "P01-20240203-130505-181",
+    "P01-20240203-130505-182",
+    "P01-20240203-130505-183",
+    "P01-20240203-130505-184",
+    "P01-20240203-130505-185",
+    "P01-20240203-130505-186",
+    "P01-20240203-130505-187",
+    "P01-20240203-130505-188",
+    "P01-20240203-130505-189"
+   ],
+   "rationale": "The person stirs the melting butter and adds the chopped onions to the pan."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Fill the kettle with water",
+   "action_ids": [
+    "P01-20240203-130505-190",
+    "P01-20240203-130505-191",
+    "P01-20240203-130505-192",
+    "P01-20240203-130505-193",
+    "P01-20240203-130505-194",
+    "P01-20240203-130505-195",
+    "P01-20240203-130505-196"
+   ],
+   "rationale": "The person fills the kettle with water to prepare for boiling."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Chop the third batch of carrots and transfer to a plate",
+   "action_ids": [
+    "P01-20240203-130505-199",
+    "P01-20240203-130505-200",
+    "P01-20240203-130505-201",
+    "P01-20240203-130505-202",
+    "P01-20240203-130505-203",
+    "P01-20240203-130505-204",
+    "P01-20240203-130505-205",
+    "P01-20240203-130505-206",
+    "P01-20240203-130505-207",
+    "P01-20240203-130505-208",
+    "P01-20240203-130505-209",
+    "P01-20240203-130505-210",
+    "P01-20240203-130505-211",
+    "P01-20240203-130505-212",
+    "P01-20240203-130505-213",
+    "P01-20240203-130505-214"
+   ],
+   "rationale": "The person chops the third batch of carrots and transfers them to the plate for weighing."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Chop the fourth batch of carrots and transfer to a plate",
+   "action_ids": [
+    "P01-20240203-130505-215",
+    "P01-20240203-130505-216",
+    "P01-20240203-130505-217",
+    "P01-20240203-130505-218",
+    "P01-20240203-130505-219",
+    "P01-20240203-130505-220",
+    "P01-20240203-130505-221",
+    "P01-20240203-130505-222",
+    "P01-20240203-130505-223",
+    "P01-20240203-130505-224",
+    "P01-20240203-130505-225",
+    "P01-20240203-130505-226",
+    "P01-20240203-130505-227",
+    "P01-20240203-130505-228",
+    "P01-20240203-130505-229"
+   ],
+   "rationale": "The person chops the fourth batch of carrots and transfers them to the plate."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Chop the fifth batch of carrots and transfer to a plate",
+   "action_ids": [
+    "P01-20240203-130505-230",
+    "P01-20240203-130505-231",
+    "P01-20240203-130505-232",
+    "P01-20240203-130505-233",
+    "P01-20240203-130505-234",
+    "P01-20240203-130505-235",
+    "P01-20240203-130505-236",
+    "P01-20240203-130505-237",
+    "P01-20240203-130505-238",
+    "P01-20240203-130505-239",
+    "P01-20240203-130505-240",
+    "P01-20240203-130505-241",
+    "P01-20240203-130505-242",
+    "P01-20240203-130505-243",
+    "P01-20240203-130505-244"
+   ],
+   "rationale": "The person chops the fifth batch of carrots and transfers them to the plate."
+  },
+  {
+   "goal_id": "e13",
+   "description": "Stir onions and chop the sixth batch of carrots",
+   "action_ids": [
+    "P01-20240203-130505-246",
+    "P01-20240203-130505-250",
+    "P01-20240203-130505-251",
+    "P01-20240203-130505-252",
+    "P01-20240203-130505-253",
+    "P01-20240203-130505-254",
+    "P01-20240203-130505-255",
+    "P01-20240203-130505-256",
+    "P01-20240203-130505-257",
+    "P01-20240203-130505-258",
+    "P01-20240203-130505-261",
+    "P01-20240203-130505-259",
+    "P01-20240203-130505-260"
+   ],
+   "rationale": "The person stirs the onions in the pot and chops the sixth batch of carrots."
+  },
+  {
+   "goal_id": "e14",
+   "description": "Chop the seventh batch of carrots and transfer to a plate",
+   "action_ids": [
+    "P01-20240203-130505-262",
+    "P01-20240203-130505-263",
+    "P01-20240203-130505-264",
+    "P01-20240203-130505-265",
+    "P01-20240203-130505-266",
+    "P01-20240203-130505-267",
+    "P01-20240203-130505-268",
+    "P01-20240203-130505-269",
+    "P01-20240203-130505-270",
+    "P01-20240203-130505-271",
+    "P01-20240203-130505-272"
+   ],
+   "rationale": "The person chops the seventh batch of carrots and transfers them to the plate."
+  },
+  {
+   "goal_id": "e15",
+   "description": "Chop the eighth batch of carrots and transfer to a plate",
+   "action_ids": [
+    "P01-20240203-130505-273",
+    "P01-20240203-130505-274",
+    "P01-20240203-130505-275",
+    "P01-20240203-130505-276",
+    "P01-20240203-130505-277",
+    "P01-20240203-130505-278",
+    "P01-20240203-130505-279",
+    "P01-20240203-130505-280",
+    "P01-20240203-130505-281",
+    "P01-20240203-130505-282"
+   ],
+   "rationale": "The person chops the eighth batch of carrots and transfers them to the plate."
+  },
+  {
+   "goal_id": "e16",
+   "description": "Chop the ninth batch of carrots and transfer to a plate",
+   "action_ids": [
+    "P01-20240203-130505-283",
+    "P01-20240203-130505-284",
+    "P01-20240203-130505-285",
+    "P01-20240203-130505-286",
+    "P01-20240203-130505-287",
+    "P01-20240203-130505-288",
+    "P01-20240203-130505-289",
+    "P01-20240203-130505-290"
+   ],
+   "rationale": "The person chops the ninth batch of carrots and transfers them to the plate."
+  },
+  {
+   "goal_id": "e17",
+   "description": "Chop the final batch of carrots and transfer to a plate",
+   "action_ids": [
+    "P01-20240203-130505-291",
+    "P01-20240203-130505-292",
+    "P01-20240203-130505-293",
+    "P01-20240203-130505-294",
+    "P01-20240203-130505-295",
+    "P01-20240203-130505-296",
+    "P01-20240203-130505-297",
+    "P01-20240203-130505-298"
+   ],
+   "rationale": "The person chops the final batch of carrots and transfers them to the plate."
+  },
+  {
+   "goal_id": "e18",
+   "description": "Stir onions and add carrots to the pot",
+   "action_ids": [
+    "P01-20240203-130505-313",
+    "P01-20240203-130505-314",
+    "P01-20240203-130505-315",
+    "P01-20240203-130505-317",
+    "P01-20240203-130505-318",
+    "P01-20240203-130505-323",
+    "P01-20240203-130505-324",
+    "P01-20240203-130505-325",
+    "P01-20240203-130505-326"
+   ],
+   "rationale": "The person stirs the onions and adds the chopped carrots to the pot, mixing them together."
+  },
+  {
+   "goal_id": "e19",
+   "description": "Move the pot and continue stirring the carrots and onions",
+   "action_ids": [
+    "P01-20240203-130505-348",
+    "P01-20240203-130505-349",
+    "P01-20240203-130505-351",
+    "P01-20240203-130505-359"
+   ],
+   "rationale": "The person moves the pot to another burner and continues to stir the carrots and onions."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P01-20240203-130505-8"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

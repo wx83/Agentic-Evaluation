@@ -1,0 +1,46 @@
+{
+ "overall_goal": "Measure and set aside 200g of basmati rice",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Open the rice bag and scoop the initial portion into the weighing bowl",
+   "action_ids": [
+    "P04-20240415-181212-136",
+    "P04-20240415-181212-137",
+    "P04-20240415-181212-138",
+    "P04-20240415-181212-139",
+    "P04-20240415-181212-140",
+    "P04-20240415-181212-141",
+    "P04-20240415-181212-142"
+   ],
+   "rationale": "The person grabs and opens the rice bag, picks up a tumbler, and scoops the first batch of rice into the bowl on the scale."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Scoop and pour additional rice to reach the required measurement",
+   "action_ids": [
+    "P04-20240415-181212-143",
+    "P04-20240415-181212-144",
+    "P04-20240415-181212-145",
+    "P04-20240415-181212-146",
+    "P04-20240415-181212-147",
+    "P04-20240415-181212-148"
+   ],
+   "rationale": "The person repeatedly scoops more rice from the bag and carefully pours it into the bowl to match the exact recipe amount."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Remove the measured rice from the scale and set it aside",
+   "action_ids": [
+    "P04-20240415-181212-152",
+    "P04-20240415-181212-153"
+   ],
+   "rationale": "The person takes the bowl off the scale, levels the rice, and places it on the countertop."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

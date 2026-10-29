@@ -1,0 +1,131 @@
+{
+ "overall_goal": "Fry the aubergine in sunflower oil and season it with salt and black pepper",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare the frying pan with sunflower oil",
+   "action_ids": [
+    "P03-20240217-192543-52",
+    "P03-20240217-192543-53",
+    "P03-20240217-192543-54",
+    "P03-20240217-192543-55",
+    "P03-20240217-192543-125",
+    "P03-20240217-192543-126",
+    "P03-20240217-192543-127",
+    "P03-20240217-192543-128"
+   ],
+   "rationale": "The person retrieves the frying pan and the sunflower oil, placing the pan on the hob and pouring the oil into it."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Add the aubergine to the pan and start stirring",
+   "action_ids": [
+    "P03-20240217-192543-151",
+    "P03-20240217-192543-152",
+    "P03-20240217-192543-153",
+    "P03-20240217-192543-154",
+    "P03-20240217-192543-167",
+    "P03-20240217-192543-168"
+   ],
+   "rationale": "The person transfers the sliced aubergine from the chopping board into the frying pan, picks up spilled pieces, and begins stirring."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Season the aubergine with salt and black pepper",
+   "action_ids": [
+    "P03-20240217-192543-171",
+    "P03-20240217-192543-175",
+    "P03-20240217-192543-176",
+    "P03-20240217-192543-177",
+    "P03-20240217-192543-178",
+    "P03-20240217-192543-179"
+   ],
+   "rationale": "The person adds salt and grinds black pepper over the aubergine, adjusting the grinder as needed."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Stir the aubergine and return spilled chunks to the pan",
+   "action_ids": [
+    "P03-20240217-192543-182",
+    "P03-20240217-192543-183",
+    "P03-20240217-192543-184",
+    "P03-20240217-192543-185",
+    "P03-20240217-192543-187",
+    "P03-20240217-192543-186",
+    "P03-20240217-192543-189",
+    "P03-20240217-192543-188",
+    "P03-20240217-192543-190",
+    "P03-20240217-192543-191",
+    "P03-20240217-192543-192",
+    "P03-20240217-192543-193",
+    "P03-20240217-192543-194",
+    "P03-20240217-192543-195",
+    "P03-20240217-192543-196"
+   ],
+   "rationale": "The person stirs the seasoned aubergine, carefully picking up and returning any chunks that spilled onto the hob back into the pan."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Press and stir the aubergine to cook evenly",
+   "action_ids": [
+    "P03-20240217-192543-197",
+    "P03-20240217-192543-198",
+    "P03-20240217-192543-234",
+    "P03-20240217-192543-235",
+    "P03-20240217-192543-274",
+    "P03-20240217-192543-275",
+    "P03-20240217-192543-276",
+    "P03-20240217-192543-277",
+    "P03-20240217-192543-278",
+    "P03-20240217-192543-279",
+    "P03-20240217-192543-280"
+   ],
+   "rationale": "The person uses the wooden spoon to press down on the aubergine to release oil and continues stirring to ensure even cooking."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Adjust the heat and continue frying the aubergine",
+   "action_ids": [
+    "P03-20240217-192543-320",
+    "P03-20240217-192543-321",
+    "P03-20240217-192543-322",
+    "P03-20240217-192543-323",
+    "P03-20240217-192543-324",
+    "P03-20240217-192543-325",
+    "P03-20240217-192543-326",
+    "P03-20240217-192543-327",
+    "P03-20240217-192543-348",
+    "P03-20240217-192543-349",
+    "P03-20240217-192543-350",
+    "P03-20240217-192543-371"
+   ],
+   "rationale": "The person adjusts the hob heat, cleans their fingers, and persistently stirs and presses the aubergine to prevent it from burning."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Perform final stirring of the aubergine",
+   "action_ids": [
+    "P03-20240217-192543-373",
+    "P03-20240217-192543-374",
+    "P03-20240217-192543-376",
+    "P03-20240217-192543-377",
+    "P03-20240217-192543-379",
+    "P03-20240217-192543-381"
+   ],
+   "rationale": "The person continues to stir the aubergine in the frying pan to ensure it is well cooked and does not stick."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P03-20240217-192543-164",
+  "P03-20240217-192543-165",
+  "P03-20240217-192543-166",
+  "P03-20240217-192543-372",
+  "P03-20240217-192543-375",
+  "P03-20240217-192543-378",
+  "P03-20240217-192543-380"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

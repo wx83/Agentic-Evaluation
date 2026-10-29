@@ -1,0 +1,85 @@
+{
+ "overall_goal": "Prepare, wash, and slice the spring greens",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve spring greens from the fridge and bag",
+   "action_ids": [
+    "P03-20240217-131219-424",
+    "P03-20240217-131219-425",
+    "P03-20240217-131219-426",
+    "P03-20240217-131219-427",
+    "P03-20240217-131219-428",
+    "P03-20240217-131219-429",
+    "P03-20240217-131219-430"
+   ],
+   "rationale": "The person closes the fridge and takes a bunch of spring greens out of the bag to prepare for cooking."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Pluck and sort spring green leaves",
+   "action_ids": [
+    "P03-20240217-131219-431",
+    "P03-20240217-131219-432",
+    "P03-20240217-131219-433",
+    "P03-20240217-131219-434",
+    "P03-20240217-131219-435",
+    "P03-20240217-131219-436",
+    "P03-20240217-131219-437",
+    "P03-20240217-131219-438",
+    "P03-20240217-131219-439",
+    "P03-20240217-131219-441",
+    "P03-20240217-131219-440",
+    "P03-20240217-131219-442",
+    "P03-20240217-131219-443",
+    "P03-20240217-131219-444",
+    "P03-20240217-131219-445"
+   ],
+   "rationale": "The person plucks individual leaves from the bunch, inspecting them and discarding any that have brown spots or holes."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Weigh the selected spring green leaves",
+   "action_ids": [
+    "P03-20240217-131219-446",
+    "P03-20240217-131219-447",
+    "P03-20240217-131219-448",
+    "P03-20240217-131219-449",
+    "P03-20240217-131219-450",
+    "P03-20240217-131219-451",
+    "P03-20240217-131219-452"
+   ],
+   "rationale": "The person uses a kitchen scale to weigh the plucked leaves, adding more until the desired amount is reached."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Wash and dry the spring green leaves",
+   "action_ids": [
+    "P03-20240217-131219-469",
+    "P03-20240217-131219-470",
+    "P03-20240217-131219-471",
+    "P03-20240217-131219-472",
+    "P03-20240217-131219-473"
+   ],
+   "rationale": "The person washes the leaves under running water and squeezes them to remove excess moisture."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Prepare the chopping board and slice the spring greens",
+   "action_ids": [
+    "P03-20240217-131219-474",
+    "P03-20240217-131219-475",
+    "P03-20240217-131219-476",
+    "P03-20240217-131219-477",
+    "P03-20240217-131219-478",
+    "P03-20240217-131219-479"
+   ],
+   "rationale": "The person clears the chopping board of peels, grabs a knife, and slices the washed spring greens into strips."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

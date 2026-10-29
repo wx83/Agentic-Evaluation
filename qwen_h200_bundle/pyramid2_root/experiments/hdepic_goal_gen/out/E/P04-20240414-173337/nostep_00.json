@@ -1,0 +1,201 @@
+{
+ "overall_goal": "Prepare utensils, weigh ingredients, and adjust batter consistency for making dosas",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare workspace and gather initial utensils",
+   "action_ids": [
+    "P04-20240414-173337-1",
+    "P04-20240414-173337-2",
+    "P04-20240414-173337-3",
+    "P04-20240414-173337-4",
+    "P04-20240414-173337-5",
+    "P04-20240414-173337-6",
+    "P04-20240414-173337-7",
+    "P04-20240414-173337-8",
+    "P04-20240414-173337-9",
+    "P04-20240414-173337-10"
+   ],
+   "rationale": "The person adjusts the pan, moves a cup and batter bowl, and retrieves a tablespoon from the cutlery drawer."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Close the olive oil bottle and get metallic cups",
+   "action_ids": [
+    "P04-20240414-173337-26",
+    "P04-20240414-173337-27",
+    "P04-20240414-173337-28",
+    "P04-20240414-173337-29",
+    "P04-20240414-173337-30",
+    "P04-20240414-173337-31"
+   ],
+   "rationale": "The person closes the olive oil bottle and retrieves a stack of metallic cups from a drawer."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Weigh and log the ghee",
+   "action_ids": [
+    "P04-20240414-173337-48",
+    "P04-20240414-173337-49",
+    "P04-20240414-173337-50",
+    "P04-20240414-173337-51",
+    "P04-20240414-173337-52",
+    "P04-20240414-173337-57",
+    "P04-20240414-173337-58",
+    "P04-20240414-173337-59",
+    "P04-20240414-173337-60",
+    "P04-20240414-173337-65",
+    "P04-20240414-173337-66"
+   ],
+   "rationale": "The person turns on the scale, writes down the ingredient name, weighs the ghee, and logs the weight in a notebook."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Retrieve a new ladle from the cabinet and reorganize fallen items",
+   "action_ids": [
+    "P04-20240414-173337-71",
+    "P04-20240414-173337-72",
+    "P04-20240414-173337-73",
+    "P04-20240414-173337-74",
+    "P04-20240414-173337-75",
+    "P04-20240414-173337-76",
+    "P04-20240414-173337-77",
+    "P04-20240414-173337-78",
+    "P04-20240414-173337-79",
+    "P04-20240414-173337-80",
+    "P04-20240414-173337-81",
+    "P04-20240414-173337-82",
+    "P04-20240414-173337-83"
+   ],
+   "rationale": "The person pulls out a new ladle from the cabinet, dropping some items, and then picks up and reorganizes the fallen items."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Unpack, wash, and dry the new ladle",
+   "action_ids": [
+    "P04-20240414-173337-91",
+    "P04-20240414-173337-92",
+    "P04-20240414-173337-93",
+    "P04-20240414-173337-94",
+    "P04-20240414-173337-95",
+    "P04-20240414-173337-96",
+    "P04-20240414-173337-97",
+    "P04-20240414-173337-98",
+    "P04-20240414-173337-99",
+    "P04-20240414-173337-100",
+    "P04-20240414-173337-101",
+    "P04-20240414-173337-103"
+   ],
+   "rationale": "The person discards the ladle's packaging, washes the new ladle under the tap, and dries it with a kitchen rag."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Check the consistency of the dosa batter",
+   "action_ids": [
+    "P04-20240414-173337-104",
+    "P04-20240414-173337-105",
+    "P04-20240414-173337-106",
+    "P04-20240414-173337-107",
+    "P04-20240414-173337-108",
+    "P04-20240414-173337-109",
+    "P04-20240414-173337-110"
+   ],
+   "rationale": "The person uses a whisk to check the consistency of the dosa batter and taps off the excess."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Retrieve a measuring cup from the drawers",
+   "action_ids": [
+    "P04-20240414-173337-111",
+    "P04-20240414-173337-112",
+    "P04-20240414-173337-113",
+    "P04-20240414-173337-114",
+    "P04-20240414-173337-115",
+    "P04-20240414-173337-116",
+    "P04-20240414-173337-117"
+   ],
+   "rationale": "The person opens several cabinets and drawers to find and pull out a plastic measuring cup."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Adjust the dosa batter consistency by adding water",
+   "action_ids": [
+    "P04-20240414-173337-133",
+    "P04-20240414-173337-137",
+    "P04-20240414-173337-138",
+    "P04-20240414-173337-139",
+    "P04-20240414-173337-140",
+    "P04-20240414-173337-142",
+    "P04-20240414-173337-141",
+    "P04-20240414-173337-143",
+    "P04-20240414-173337-144",
+    "P04-20240414-173337-145",
+    "P04-20240414-173337-147",
+    "P04-20240414-173337-150",
+    "P04-20240414-173337-151",
+    "P04-20240414-173337-153",
+    "P04-20240414-173337-154",
+    "P04-20240414-173337-155"
+   ],
+   "rationale": "The person scoops batter to check its thickness, adds water from a small cup, scrapes the whisk, and stirs the batter to reach the right consistency."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Move the heated ghee cup and organize the chopping board",
+   "action_ids": [
+    "P04-20240414-173337-156",
+    "P04-20240414-173337-157",
+    "P04-20240414-173337-161",
+    "P04-20240414-173337-158",
+    "P04-20240414-173337-162",
+    "P04-20240414-173337-159",
+    "P04-20240414-173337-160"
+   ],
+   "rationale": "The person checks the temperature of the ghee cup on the pan and moves it to the chopping board alongside other items."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Search for a suitable spatula in the drawers",
+   "action_ids": [
+    "P04-20240414-173337-165",
+    "P04-20240414-173337-166",
+    "P04-20240414-173337-167",
+    "P04-20240414-173337-168",
+    "P04-20240414-173337-169",
+    "P04-20240414-173337-170",
+    "P04-20240414-173337-171",
+    "P04-20240414-173337-172",
+    "P04-20240414-173337-173",
+    "P04-20240414-173337-174",
+    "P04-20240414-173337-175",
+    "P04-20240414-173337-176",
+    "P04-20240414-173337-177",
+    "P04-20240414-173337-178",
+    "P04-20240414-173337-179",
+    "P04-20240414-173337-180",
+    "P04-20240414-173337-181",
+    "P04-20240414-173337-182",
+    "P04-20240414-173337-183"
+   ],
+   "rationale": "The person searches through drawers, examining and testing different spatulas to find one suitable for lifting dosas."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P04-20240414-173337-61",
+  "P04-20240414-173337-62",
+  "P04-20240414-173337-63",
+  "P04-20240414-173337-64",
+  "P04-20240414-173337-67",
+  "P04-20240414-173337-68",
+  "P04-20240414-173337-69",
+  "P04-20240414-173337-102",
+  "P04-20240414-173337-146",
+  "P04-20240414-173337-152",
+  "P04-20240414-173337-163",
+  "P04-20240414-173337-164"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

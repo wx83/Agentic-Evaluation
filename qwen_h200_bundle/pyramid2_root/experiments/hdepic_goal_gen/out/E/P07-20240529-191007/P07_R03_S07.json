@@ -1,0 +1,64 @@
+{
+ "overall_goal": "Add crumbled stock cubes to the mushroom broth and squeeze the liquid from the mushrooms",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Crumble and add the first stock cube to the mushroom broth",
+   "action_ids": [
+    "P07-20240529-191007-386",
+    "P07-20240529-191007-387",
+    "P07-20240529-191007-388",
+    "P07-20240529-191007-389",
+    "P07-20240529-191007-390",
+    "P07-20240529-191007-391",
+    "P07-20240529-191007-392",
+    "P07-20240529-191007-393"
+   ],
+   "rationale": "The person opens a box of stock cubes, unwraps one, crushes it, and pours it into the broth, ensuring the wrapper is empty."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Crumble and add a second stock cube to the mushroom broth",
+   "action_ids": [
+    "P07-20240529-191007-397",
+    "P07-20240529-191007-398",
+    "P07-20240529-191007-400",
+    "P07-20240529-191007-401",
+    "P07-20240529-191007-402"
+   ],
+   "rationale": "The person takes another stock cube, crumbles it, and empties it completely into the broth."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Squeeze the liquid out of the mushrooms using a fork",
+   "action_ids": [
+    "P07-20240529-191007-405",
+    "P07-20240529-191007-406",
+    "P07-20240529-191007-407",
+    "P07-20240529-191007-408",
+    "P07-20240529-191007-409"
+   ],
+   "rationale": "The person uses a fork to press down on the mushrooms in a jug to extract their liquid."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Stir the broth and move the saucepan off the hob",
+   "action_ids": [
+    "P07-20240529-191007-411",
+    "P07-20240529-191007-413",
+    "P07-20240529-191007-414",
+    "P07-20240529-191007-415",
+    "P07-20240529-191007-416"
+   ],
+   "rationale": "The person stirs the stock into the broth, taps the fork to remove excess liquid, and then moves the saucepan away from the heat."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P07-20240529-191007-399",
+  "P07-20240529-191007-412"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

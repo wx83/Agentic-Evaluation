@@ -1,0 +1,62 @@
+{
+ "overall_goal": "Prepare and chop the onion, chili pepper, and red bell pepper, then set them aside.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Peel and slice the onion",
+   "action_ids": [
+    "P08-20240617-184909-139",
+    "P08-20240617-184909-176",
+    "P08-20240617-184909-177",
+    "P08-20240617-184909-178",
+    "P08-20240617-184909-179",
+    "P08-20240617-184909-189",
+    "P08-20240617-184909-190"
+   ],
+   "rationale": "The person retrieves the vegetables and a knife, peels the onion, cuts off the ends, slices it into pieces, and moves it to the side of the cutting board."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Chop the chili pepper",
+   "action_ids": [
+    "P08-20240617-184909-192",
+    "P08-20240617-184909-194",
+    "P08-20240617-184909-197",
+    "P08-20240617-184909-198",
+    "P08-20240617-184909-199",
+    "P08-20240617-184909-200",
+    "P08-20240617-184909-201",
+    "P08-20240617-184909-202"
+   ],
+   "rationale": "The person weighs the chili pepper, slices it into smaller pieces, cleans up the scraps, and slides the chopped chili aside."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Deseed and slice the red bell pepper",
+   "action_ids": [
+    "P08-20240617-184909-203",
+    "P08-20240617-184909-204",
+    "P08-20240617-184909-238",
+    "P08-20240617-184909-239",
+    "P08-20240617-184909-240",
+    "P08-20240617-184909-241",
+    "P08-20240617-184909-242",
+    "P08-20240617-184909-243",
+    "P08-20240617-184909-244",
+    "P08-20240617-184909-245",
+    "P08-20240617-184909-246",
+    "P08-20240617-184909-247",
+    "P08-20240617-184909-256"
+   ],
+   "rationale": "The person grabs the red bell pepper, removes its seeds and unwanted parts, slices it into thin strips, and moves the pieces to the cutting board."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P08-20240617-184909-193",
+  "P08-20240617-184909-260"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

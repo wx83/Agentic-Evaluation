@@ -1,0 +1,180 @@
+{
+ "overall_goal": "Weigh, wash, and slice the mushrooms",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Weigh the first box of mushrooms",
+   "action_ids": [
+    "P03-20240218-190556-252",
+    "P03-20240218-190556-253",
+    "P03-20240218-190556-254",
+    "P03-20240218-190556-255",
+    "P03-20240218-190556-256",
+    "P03-20240218-190556-257",
+    "P03-20240218-190556-258",
+    "P03-20240218-190556-259",
+    "P03-20240218-190556-260",
+    "P03-20240218-190556-261",
+    "P03-20240218-190556-262",
+    "P03-20240218-190556-263",
+    "P03-20240218-190556-264",
+    "P03-20240218-190556-265",
+    "P03-20240218-190556-266"
+   ],
+   "rationale": "The person turns on the scale and transfers mushrooms from the first box into the colander to weigh them."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Open and weigh mushrooms from the second box",
+   "action_ids": [
+    "P03-20240218-190556-271",
+    "P03-20240218-190556-272",
+    "P03-20240218-190556-273",
+    "P03-20240218-190556-274",
+    "P03-20240218-190556-275",
+    "P03-20240218-190556-276"
+   ],
+   "rationale": "The person opens a new box of mushrooms and adds more to the colander until the target weight is reached."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Prepare to wash and wash the first few mushrooms",
+   "action_ids": [
+    "P03-20240218-190556-295",
+    "P03-20240218-190556-296",
+    "P03-20240218-190556-297",
+    "P03-20240218-190556-298",
+    "P03-20240218-190556-299",
+    "P03-20240218-190556-300",
+    "P03-20240218-190556-301",
+    "P03-20240218-190556-302",
+    "P03-20240218-190556-303",
+    "P03-20240218-190556-304",
+    "P03-20240218-190556-305",
+    "P03-20240218-190556-306",
+    "P03-20240218-190556-307",
+    "P03-20240218-190556-308",
+    "P03-20240218-190556-309",
+    "P03-20240218-190556-310"
+   ],
+   "rationale": "The person turns on the tap and begins washing the first batch of mushrooms, placing them on the counter."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Wash the remaining mushrooms",
+   "action_ids": [
+    "P03-20240218-190556-311",
+    "P03-20240218-190556-312",
+    "P03-20240218-190556-313",
+    "P03-20240218-190556-314",
+    "P03-20240218-190556-315",
+    "P03-20240218-190556-316",
+    "P03-20240218-190556-317",
+    "P03-20240218-190556-319",
+    "P03-20240218-190556-318",
+    "P03-20240218-190556-320",
+    "P03-20240218-190556-321",
+    "P03-20240218-190556-322",
+    "P03-20240218-190556-323",
+    "P03-20240218-190556-324",
+    "P03-20240218-190556-325",
+    "P03-20240218-190556-327",
+    "P03-20240218-190556-326",
+    "P03-20240218-190556-328"
+   ],
+   "rationale": "The person continues washing the remaining mushrooms under the running water and placing them on the counter."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Drain the colander and collect the washed mushrooms",
+   "action_ids": [
+    "P03-20240218-190556-329",
+    "P03-20240218-190556-330",
+    "P03-20240218-190556-331",
+    "P03-20240218-190556-332",
+    "P03-20240218-190556-333",
+    "P03-20240218-190556-334",
+    "P03-20240218-190556-335",
+    "P03-20240218-190556-336",
+    "P03-20240218-190556-337",
+    "P03-20240218-190556-338",
+    "P03-20240218-190556-339",
+    "P03-20240218-190556-340",
+    "P03-20240218-190556-341"
+   ],
+   "rationale": "The person turns off the tap, drains the colander, and places all the washed mushrooms back into it."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Dry the recipe card and wipe the counter",
+   "action_ids": [
+    "P03-20240218-190556-342",
+    "P03-20240218-190556-343",
+    "P03-20240218-190556-344",
+    "P03-20240218-190556-345",
+    "P03-20240218-190556-346",
+    "P03-20240218-190556-347",
+    "P03-20240218-190556-348"
+   ],
+   "rationale": "The person dries off the recipe card and wipes the wet counter to clean up after washing the mushrooms."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Slice the first batch of mushrooms",
+   "action_ids": [
+    "P03-20240218-190556-349",
+    "P03-20240218-190556-350",
+    "P03-20240218-190556-351",
+    "P03-20240218-190556-352",
+    "P03-20240218-190556-353",
+    "P03-20240218-190556-354",
+    "P03-20240218-190556-355",
+    "P03-20240218-190556-356",
+    "P03-20240218-190556-357",
+    "P03-20240218-190556-358",
+    "P03-20240218-190556-359",
+    "P03-20240218-190556-360",
+    "P03-20240218-190556-361",
+    "P03-20240218-190556-362",
+    "P03-20240218-190556-363",
+    "P03-20240218-190556-364",
+    "P03-20240218-190556-365",
+    "P03-20240218-190556-366",
+    "P03-20240218-190556-367"
+   ],
+   "rationale": "The person moves the colander to the chopping board and begins slicing the first batch of mushrooms."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Slice the remaining mushrooms",
+   "action_ids": [
+    "P03-20240218-190556-368",
+    "P03-20240218-190556-369",
+    "P03-20240218-190556-370",
+    "P03-20240218-190556-371",
+    "P03-20240218-190556-372",
+    "P03-20240218-190556-373",
+    "P03-20240218-190556-374",
+    "P03-20240218-190556-375",
+    "P03-20240218-190556-376",
+    "P03-20240218-190556-377",
+    "P03-20240218-190556-378",
+    "P03-20240218-190556-379",
+    "P03-20240218-190556-380",
+    "P03-20240218-190556-381",
+    "P03-20240218-190556-382",
+    "P03-20240218-190556-383",
+    "P03-20240218-190556-384",
+    "P03-20240218-190556-385"
+   ],
+   "rationale": "The person continues slicing the remaining mushrooms, occasionally clearing the blade and the chopping board."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P03-20240218-190556-270"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

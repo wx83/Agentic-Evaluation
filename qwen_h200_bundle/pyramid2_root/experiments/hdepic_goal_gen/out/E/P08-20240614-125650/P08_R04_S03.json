@@ -1,0 +1,89 @@
+{
+ "overall_goal": "Measure and transfer pre-made tabbouleh salad and salad seeds into a bowl",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve salad ingredients from the refrigerator",
+   "action_ids": [
+    "P08-20240614-125650-95",
+    "P08-20240614-125650-96",
+    "P08-20240614-125650-97",
+    "P08-20240614-125650-98",
+    "P08-20240614-125650-99",
+    "P08-20240614-125650-103",
+    "P08-20240614-125650-104",
+    "P08-20240614-125650-105"
+   ],
+   "rationale": "The person opens the refrigerator, takes out multiple containers of vegetables, moves them to the counter, and closes the refrigerator."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Unpack the salad containers and remove the sauce",
+   "action_ids": [
+    "P08-20240614-125650-108",
+    "P08-20240614-125650-109",
+    "P08-20240614-125650-110",
+    "P08-20240614-125650-111",
+    "P08-20240614-125650-112",
+    "P08-20240614-125650-117",
+    "P08-20240614-125650-118",
+    "P08-20240614-125650-119",
+    "P08-20240614-125650-120",
+    "P08-20240614-125650-121"
+   ],
+   "rationale": "The person removes the plastic wrap from the vegetable container and takes out the smaller sauce container."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Set up the kitchen scale and measure the salad",
+   "action_ids": [
+    "P08-20240614-125650-135",
+    "P08-20240614-125650-136",
+    "P08-20240614-125650-137",
+    "P08-20240614-125650-138",
+    "P08-20240614-125650-139",
+    "P08-20240614-125650-140",
+    "P08-20240614-125650-141",
+    "P08-20240614-125650-142",
+    "P08-20240614-125650-143",
+    "P08-20240614-125650-144",
+    "P08-20240614-125650-145",
+    "P08-20240614-125650-146"
+   ],
+   "rationale": "The person retrieves a fork and a scale, zeroes the scale with an empty container, and scoops the salad into it to measure the portion."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Transfer the measured salad into the serving bowl",
+   "action_ids": [
+    "P08-20240614-125650-150",
+    "P08-20240614-125650-151",
+    "P08-20240614-125650-152",
+    "P08-20240614-125650-153"
+   ],
+   "rationale": "The person scoops and scrapes the measured salad from the container into the final bowl."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Measure the salad seeds and add them to the bowl",
+   "action_ids": [
+    "P08-20240614-125650-242",
+    "P08-20240614-125650-243",
+    "P08-20240614-125650-244",
+    "P08-20240614-125650-245",
+    "P08-20240614-125650-246",
+    "P08-20240614-125650-251",
+    "P08-20240614-125650-252"
+   ],
+   "rationale": "The person opens a bag of salad seeds, pours them onto the scale to measure, and then tips the scale to add them to the bowl."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P08-20240614-125650-113",
+  "P08-20240614-125650-239"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

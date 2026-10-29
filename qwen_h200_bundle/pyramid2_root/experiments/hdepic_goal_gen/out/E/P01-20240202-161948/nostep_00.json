@@ -1,0 +1,222 @@
+{
+ "overall_goal": "Clean up, log ingredient weights, and serve the pasta",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Log ingredient weights and set up scale",
+   "action_ids": [
+    "P01-20240202-161948-1",
+    "P01-20240202-161948-2",
+    "P01-20240202-161948-4",
+    "P01-20240202-161948-5",
+    "P01-20240202-161948-19",
+    "P01-20240202-161948-20",
+    "P01-20240202-161948-21",
+    "P01-20240202-161948-33"
+   ],
+   "rationale": "The person writes down ingredient weights on a notepad and prepares the scale for further measurements."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Adjust hob heat",
+   "action_ids": [
+    "P01-20240202-161948-25",
+    "P01-20240202-161948-26",
+    "P01-20240202-161948-27"
+   ],
+   "rationale": "The person switches on and adjusts the dials of the hobs."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Handle black pepper jar",
+   "action_ids": [
+    "P01-20240202-161948-42",
+    "P01-20240202-161948-61",
+    "P01-20240202-161948-73",
+    "P01-20240202-161948-74",
+    "P01-20240202-161948-75"
+   ],
+   "rationale": "The person picks up the black pepper jar, uses it over the pan, closes it with its lid, and places it back on the countertop."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Log cheese and butter weights",
+   "action_ids": [
+    "P01-20240202-161948-82",
+    "P01-20240202-161948-83",
+    "P01-20240202-161948-84",
+    "P01-20240202-161948-85",
+    "P01-20240202-161948-86",
+    "P01-20240202-161948-98",
+    "P01-20240202-161948-99",
+    "P01-20240202-161948-100",
+    "P01-20240202-161948-101",
+    "P01-20240202-161948-102",
+    "P01-20240202-161948-116",
+    "P01-20240202-161948-117",
+    "P01-20240202-161948-134",
+    "P01-20240202-161948-135"
+   ],
+   "rationale": "The person repeatedly checks the scale and writes down the weights of the cheese and butter on the notepad."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Manage cooking utensils and stir food",
+   "action_ids": [
+    "P01-20240202-161948-53",
+    "P01-20240202-161948-54",
+    "P01-20240202-161948-103",
+    "P01-20240202-161948-105",
+    "P01-20240202-161948-106",
+    "P01-20240202-161948-138",
+    "P01-20240202-161948-139",
+    "P01-20240202-161948-149",
+    "P01-20240202-161948-155",
+    "P01-20240202-161948-156",
+    "P01-20240202-161948-177",
+    "P01-20240202-161948-179",
+    "P01-20240202-161948-202",
+    "P01-20240202-161948-206",
+    "P01-20240202-161948-213",
+    "P01-20240202-161948-218",
+    "P01-20240202-161948-220",
+    "P01-20240202-161948-221",
+    "P01-20240202-161948-235",
+    "P01-20240202-161948-241",
+    "P01-20240202-161948-242",
+    "P01-20240202-161948-249",
+    "P01-20240202-161948-251",
+    "P01-20240202-161948-252",
+    "P01-20240202-161948-255",
+    "P01-20240202-161948-256",
+    "P01-20240202-161948-257",
+    "P01-20240202-161948-260",
+    "P01-20240202-161948-261",
+    "P01-20240202-161948-264",
+    "P01-20240202-161948-265"
+   ],
+   "rationale": "The person repeatedly picks up, uses, taps off excess liquid, and puts down utensils like the spatula, fork, and ladle while managing the food in the pan."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Add remaining grated cheese to the pan",
+   "action_ids": [
+    "P01-20240202-161948-166",
+    "P01-20240202-161948-168",
+    "P01-20240202-161948-178"
+   ],
+   "rationale": "The person pours the last of the grated cheese from a plate into the pan and dusts off their hands."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Put away ingredients in fridge and drawer",
+   "action_ids": [
+    "P01-20240202-161948-186",
+    "P01-20240202-161948-187",
+    "P01-20240202-161948-188",
+    "P01-20240202-161948-189",
+    "P01-20240202-161948-190",
+    "P01-20240202-161948-191",
+    "P01-20240202-161948-192",
+    "P01-20240202-161948-193",
+    "P01-20240202-161948-194",
+    "P01-20240202-161948-195",
+    "P01-20240202-161948-196"
+   ],
+   "rationale": "The person stores the cheese and butter in the fridge, and places the pasta package back into a drawer."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Put away cheese grater",
+   "action_ids": [
+    "P01-20240202-161948-214",
+    "P01-20240202-161948-215",
+    "P01-20240202-161948-216",
+    "P01-20240202-161948-217"
+   ],
+   "rationale": "The person covers the cheese grater with its plastic guard and hangs it on a hook."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Take out a plate from the cupboard",
+   "action_ids": [
+    "P01-20240202-161948-222",
+    "P01-20240202-161948-223",
+    "P01-20240202-161948-224",
+    "P01-20240202-161948-225",
+    "P01-20240202-161948-226",
+    "P01-20240202-161948-227",
+    "P01-20240202-161948-228"
+   ],
+   "rationale": "The person opens the cupboard, carefully extracts a plate from a stack of bowls, and places it on the counter."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Put away salt and pepper in cupboard",
+   "action_ids": [
+    "P01-20240202-161948-229",
+    "P01-20240202-161948-230",
+    "P01-20240202-161948-231",
+    "P01-20240202-161948-232",
+    "P01-20240202-161948-233",
+    "P01-20240202-161948-234"
+   ],
+   "rationale": "The person returns the salt bottle and black pepper jar to the lower shelf of the cupboard."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Put away juicer in cupboard",
+   "action_ids": [
+    "P01-20240202-161948-243",
+    "P01-20240202-161948-244",
+    "P01-20240202-161948-245",
+    "P01-20240202-161948-246",
+    "P01-20240202-161948-247",
+    "P01-20240202-161948-248"
+   ],
+   "rationale": "The person assembles the juicer parts from the drainer and stores them in the cupboard."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Turn off hobs and alarm",
+   "action_ids": [
+    "P01-20240202-161948-266",
+    "P01-20240202-161948-276",
+    "P01-20240202-161948-279"
+   ],
+   "rationale": "The person switches off the hobs and silences the alarm."
+  },
+  {
+   "goal_id": "e13",
+   "description": "Serve pasta onto a plate on the scale",
+   "action_ids": [
+    "P01-20240202-161948-280",
+    "P01-20240202-161948-281",
+    "P01-20240202-161948-282",
+    "P01-20240202-161948-283",
+    "P01-20240202-161948-284",
+    "P01-20240202-161948-285",
+    "P01-20240202-161948-286",
+    "P01-20240202-161948-287",
+    "P01-20240202-161948-288",
+    "P01-20240202-161948-289",
+    "P01-20240202-161948-290",
+    "P01-20240202-161948-291"
+   ],
+   "rationale": "The person prepares the scale with a plate, tares it, and pours the cooked pasta from the pan onto the plate to weigh the final serving."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P01-20240202-161948-28",
+  "P01-20240202-161948-29",
+  "P01-20240202-161948-107",
+  "P01-20240202-161948-118",
+  "P01-20240202-161948-144",
+  "P01-20240202-161948-274",
+  "P01-20240202-161948-275"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

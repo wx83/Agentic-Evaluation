@@ -1,0 +1,20 @@
+{
+ "overall_goal": "Set aside basmati rice",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve and set aside the basmati rice",
+   "action_ids": [
+    "P04-20240415-175615-57",
+    "P04-20240415-175615-58",
+    "P04-20240415-175615-59"
+   ],
+   "rationale": "The person takes the rice from the cabinet, inspects it, and places it on the counter."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

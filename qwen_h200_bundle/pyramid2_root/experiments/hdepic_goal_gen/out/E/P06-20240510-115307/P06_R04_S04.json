@@ -1,0 +1,59 @@
+{
+ "overall_goal": "Heat a frying pan, melt butter in it, and add cumin seeds",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Heat the frying pan on the stove",
+   "action_ids": [
+    "P06-20240510-115307-179",
+    "P06-20240510-115307-180",
+    "P06-20240510-115307-181",
+    "P06-20240510-115307-182",
+    "P06-20240510-115307-203"
+   ],
+   "rationale": "The person places the frying pan on the gas stove and adjusts the flame to heat it up."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Cut and add butter to the frying pan",
+   "action_ids": [
+    "P06-20240510-115307-204",
+    "P06-20240510-115307-205",
+    "P06-20240510-115307-213",
+    "P06-20240510-115307-214",
+    "P06-20240510-115307-215",
+    "P06-20240510-115307-216",
+    "P06-20240510-115307-217",
+    "P06-20240510-115307-222",
+    "P06-20240510-115307-223",
+    "P06-20240510-115307-224"
+   ],
+   "rationale": "The person unwraps, cuts, and measures a piece of butter before adding it to the heated pan and spreading it to melt."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Add cumin seeds to the pan and mix",
+   "action_ids": [
+    "P06-20240510-115307-227",
+    "P06-20240510-115307-228",
+    "P06-20240510-115307-229",
+    "P06-20240510-115307-230",
+    "P06-20240510-115307-231",
+    "P06-20240510-115307-237",
+    "P06-20240510-115307-238",
+    "P06-20240510-115307-239",
+    "P06-20240510-115307-240",
+    "P06-20240510-115307-245"
+   ],
+   "rationale": "The person retrieves a spoon and a jar of cumin seeds, adds the seeds to the melted butter, and mixes the contents."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P06-20240510-115307-232",
+  "P06-20240510-115307-246"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

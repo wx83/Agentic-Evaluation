@@ -1,0 +1,27 @@
+{
+ "overall_goal": "Boil the pasta until al dente, stirring periodically",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Stir the boiling pasta periodically to prevent sticking",
+   "action_ids": [
+    "P01-20240202-161948-49",
+    "P01-20240202-161948-50",
+    "P01-20240202-161948-51",
+    "P01-20240202-161948-52",
+    "P01-20240202-161948-140",
+    "P01-20240202-161948-141",
+    "P01-20240202-161948-142",
+    "P01-20240202-161948-143",
+    "P01-20240202-161948-258",
+    "P01-20240202-161948-259"
+   ],
+   "rationale": "The person repeatedly uses a fork to stir the pasta in the boiling water, ensuring it cooks evenly and does not stick to the pan."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

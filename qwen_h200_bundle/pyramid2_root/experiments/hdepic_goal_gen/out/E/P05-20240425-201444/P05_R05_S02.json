@@ -1,0 +1,65 @@
+{
+ "overall_goal": "Melt the chocolate and butter together, stirring until smooth, and pour the mixture into the prepared batter.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Adjust the pan on the cooker and add salt to the mixture.",
+   "action_ids": [
+    "P05-20240425-201444-100",
+    "P05-20240425-201444-101",
+    "P05-20240425-201444-105",
+    "P05-20240425-201444-106"
+   ],
+   "rationale": "The person adjusts the pan on the cooker and adds a pinch of salt to the mixture."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Stir the chocolate and butter mixture off the heat to help it melt.",
+   "action_ids": [
+    "P05-20240425-201444-125",
+    "P05-20240425-201444-127",
+    "P05-20240425-201444-128",
+    "P05-20240425-201444-129",
+    "P05-20240425-201444-131",
+    "P05-20240425-201444-132",
+    "P05-20240425-201444-144",
+    "P05-20240425-201444-145"
+   ],
+   "rationale": "The person moves the pan off the heat and stirs the chocolate and butter to encourage melting."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Briefly reheat and stir the mixture to ensure it is completely melted.",
+   "action_ids": [
+    "P05-20240425-201444-165",
+    "P05-20240425-201444-166",
+    "P05-20240425-201444-167",
+    "P05-20240425-201444-168",
+    "P05-20240425-201444-169",
+    "P05-20240425-201444-170",
+    "P05-20240425-201444-171"
+   ],
+   "rationale": "The person places the pan back on the heat to fully melt the ingredients while stirring continuously."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Pour the melted chocolate and butter into the bowl of whisked eggs and sugar.",
+   "action_ids": [
+    "P05-20240425-201444-172",
+    "P05-20240425-201444-173",
+    "P05-20240425-201444-174",
+    "P05-20240425-201444-175",
+    "P05-20240425-201444-176"
+   ],
+   "rationale": "The person transfers the smooth, melted chocolate mixture into the bowl containing the rest of the batter."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P05-20240425-201444-126",
+  "P05-20240425-201444-130"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

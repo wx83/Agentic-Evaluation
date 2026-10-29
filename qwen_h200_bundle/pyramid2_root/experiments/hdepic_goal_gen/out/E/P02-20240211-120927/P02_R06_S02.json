@@ -1,0 +1,113 @@
+{
+ "overall_goal": "Cook and stir the raspberry and lemon curd until thickened, then remove from heat.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Stir the curd and lower the heat",
+   "action_ids": [
+    "P02-20240211-120927-154",
+    "P02-20240211-120927-155",
+    "P02-20240211-120927-197",
+    "P02-20240211-120927-244",
+    "P02-20240211-120927-361",
+    "P02-20240211-120927-362",
+    "P02-20240211-120927-363",
+    "P02-20240211-120927-364",
+    "P02-20240211-120927-365"
+   ],
+   "rationale": "The person stirs the curd continuously, checks the cooking time, and slightly turns down the gas burner."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Increase the heat and check the consistency of the curd",
+   "action_ids": [
+    "P02-20240211-120927-427",
+    "P02-20240211-120927-428",
+    "P02-20240211-120927-429",
+    "P02-20240211-120927-430",
+    "P02-20240211-120927-431",
+    "P02-20240211-120927-432",
+    "P02-20240211-120927-433",
+    "P02-20240211-120927-434",
+    "P02-20240211-120927-435",
+    "P02-20240211-120927-436"
+   ],
+   "rationale": "The person turns up the gas burner, stirs the mixture, and lifts a spoonful to check its viscosity."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Lower the heat and continue stirring the curd",
+   "action_ids": [
+    "P02-20240211-120927-437",
+    "P02-20240211-120927-438",
+    "P02-20240211-120927-439",
+    "P02-20240211-120927-440",
+    "P02-20240211-120927-441",
+    "P02-20240211-120927-442",
+    "P02-20240211-120927-443",
+    "P02-20240211-120927-444",
+    "P02-20240211-120927-445",
+    "P02-20240211-120927-446",
+    "P02-20240211-120927-447",
+    "P02-20240211-120927-448"
+   ],
+   "rationale": "The person realizes the flame is too high, turns it down, checks the recipe and time, and continues stirring and scraping the bowl."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Consult the recipe and test the curd's thickness",
+   "action_ids": [
+    "P02-20240211-120927-628",
+    "P02-20240211-120927-634",
+    "P02-20240211-120927-636",
+    "P02-20240211-120927-637",
+    "P02-20240211-120927-638",
+    "P02-20240211-120927-639",
+    "P02-20240211-120927-640",
+    "P02-20240211-120927-641",
+    "P02-20240211-120927-642",
+    "P02-20240211-120927-643",
+    "P02-20240211-120927-644"
+   ],
+   "rationale": "The person checks other curd recipes for cooking times, stirs the mixture, and scoops some up to check if it is thick enough."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Continue stirring the curd to ensure even cooking",
+   "action_ids": [
+    "P02-20240211-120927-649",
+    "P02-20240211-120927-677",
+    "P02-20240211-120927-686",
+    "P02-20240211-120927-687",
+    "P02-20240211-120927-697",
+    "P02-20240211-120927-714"
+   ],
+   "rationale": "The person continuously stirs the raspberry and lemon curd mixture to ensure it cooks evenly without forming lumps."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Turn off the heat and remove the mixing bowl",
+   "action_ids": [
+    "P02-20240211-120927-785",
+    "P02-20240211-120927-786",
+    "P02-20240211-120927-787",
+    "P02-20240211-120927-788",
+    "P02-20240211-120927-789",
+    "P02-20240211-120927-790",
+    "P02-20240211-120927-791",
+    "P02-20240211-120927-792",
+    "P02-20240211-120927-793",
+    "P02-20240211-120927-794"
+   ],
+   "rationale": "The person turns off the burner, puts on oven gloves, and carefully lifts the mixing bowl off the bain-marie to place it on the countertop."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P02-20240211-120927-635",
+  "P02-20240211-120927-715"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

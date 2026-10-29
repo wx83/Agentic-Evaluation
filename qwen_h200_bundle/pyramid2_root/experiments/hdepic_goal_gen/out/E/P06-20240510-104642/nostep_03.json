@@ -1,0 +1,215 @@
+{
+ "overall_goal": "Perform various kitchen tasks including writing a recipe, unpacking ingredients, clearing utensils, washing hands, and organizing clean dishes",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Write down the recipe in the notebook",
+   "action_ids": [
+    "P06-20240510-104642-860",
+    "P06-20240510-104642-861",
+    "P06-20240510-104642-862",
+    "P06-20240510-104642-863",
+    "P06-20240510-104642-864",
+    "P06-20240510-104642-865",
+    "P06-20240510-104642-866",
+    "P06-20240510-104642-867"
+   ],
+   "rationale": "The person uses a pen and notebook to write down the recipe they are following."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Put away packets into the cabinet",
+   "action_ids": [
+    "P06-20240510-104642-872",
+    "P06-20240510-104642-873",
+    "P06-20240510-104642-874",
+    "P06-20240510-104642-875",
+    "P06-20240510-104642-876"
+   ],
+   "rationale": "The person picks up packets from the tabletop and stores them in the upper cabinet."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Unpack a tomato and discard the plastic wrappers into the bin",
+   "action_ids": [
+    "P06-20240510-104642-871",
+    "P06-20240510-104642-877",
+    "P06-20240510-104642-878",
+    "P06-20240510-104642-879",
+    "P06-20240510-104642-880",
+    "P06-20240510-104642-881",
+    "P06-20240510-104642-882",
+    "P06-20240510-104642-883",
+    "P06-20240510-104642-884",
+    "P06-20240510-104642-885",
+    "P06-20240510-104642-886",
+    "P06-20240510-104642-887",
+    "P06-20240510-104642-888"
+   ],
+   "rationale": "The person unpacks a tomato, uses a plate to collect the plastic wrappers, and discards them into the bin."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Wrap the butter and move it aside",
+   "action_ids": [
+    "P06-20240510-104642-894",
+    "P06-20240510-104642-895",
+    "P06-20240510-104642-896",
+    "P06-20240510-104642-919",
+    "P06-20240510-104642-920"
+   ],
+   "rationale": "The person wraps the butter pack and moves it to the side of the gas stove."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Drink a cup of water",
+   "action_ids": [
+    "P06-20240510-104642-897",
+    "P06-20240510-104642-898",
+    "P06-20240510-104642-899",
+    "P06-20240510-104642-900",
+    "P06-20240510-104642-901"
+   ],
+   "rationale": "The person fills a cup with water from the tap and drinks it."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Clear used utensils into the sink",
+   "action_ids": [
+    "P06-20240510-104642-892",
+    "P06-20240510-104642-893",
+    "P06-20240510-104642-904",
+    "P06-20240510-104642-911",
+    "P06-20240510-104642-915",
+    "P06-20240510-104642-916",
+    "P06-20240510-104642-917",
+    "P06-20240510-104642-918"
+   ],
+   "rationale": "The person clears a spoon, knife, chopping board, and plate from the workspace into the sink."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Wipe the weighing balance and the tabletop",
+   "action_ids": [
+    "P06-20240510-104642-924",
+    "P06-20240510-104642-925",
+    "P06-20240510-104642-926",
+    "P06-20240510-104642-927",
+    "P06-20240510-104642-928",
+    "P06-20240510-104642-929",
+    "P06-20240510-104642-930"
+   ],
+   "rationale": "The person wipes the weighing balance and the tabletop with a tablecloth to clean the workspace."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Prepare the sponge with dishwashing liquid and water",
+   "action_ids": [
+    "P06-20240510-104642-944",
+    "P06-20240510-104642-945",
+    "P06-20240510-104642-946",
+    "P06-20240510-104642-947",
+    "P06-20240510-104642-948",
+    "P06-20240510-104642-951",
+    "P06-20240510-104642-949",
+    "P06-20240510-104642-950",
+    "P06-20240510-104642-952"
+   ],
+   "rationale": "The person applies dishwashing liquid to a sponge and wets it to create foam for washing."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P06-20240510-104642-942",
+    "P06-20240510-104642-943",
+    "P06-20240510-104642-953",
+    "P06-20240510-104642-954",
+    "P06-20240510-104642-955",
+    "P06-20240510-104642-956",
+    "P06-20240510-104642-957",
+    "P06-20240510-104642-958",
+    "P06-20240510-104642-959"
+   ],
+   "rationale": "The person pulls up their sleeves, washes their hands under the tap, and dries them with a tablecloth."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Organize clean plates and cups from the crockery tray",
+   "action_ids": [
+    "P06-20240510-104642-960",
+    "P06-20240510-104642-961",
+    "P06-20240510-104642-962",
+    "P06-20240510-104642-963",
+    "P06-20240510-104642-964",
+    "P06-20240510-104642-965",
+    "P06-20240510-104642-966",
+    "P06-20240510-104642-967",
+    "P06-20240510-104642-968",
+    "P06-20240510-104642-969",
+    "P06-20240510-104642-970",
+    "P06-20240510-104642-971",
+    "P06-20240510-104642-972"
+   ],
+   "rationale": "The person takes clean plates and cups from the crockery tray and organizes them on the tabletop and cup stand."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Put away remaining clean cups, bowls, and a saucepan into the cabinet",
+   "action_ids": [
+    "P06-20240510-104642-974",
+    "P06-20240510-104642-975",
+    "P06-20240510-104642-976",
+    "P06-20240510-104642-977",
+    "P06-20240510-104642-978",
+    "P06-20240510-104642-979",
+    "P06-20240510-104642-980",
+    "P06-20240510-104642-981",
+    "P06-20240510-104642-982",
+    "P06-20240510-104642-983",
+    "P06-20240510-104642-985",
+    "P06-20240510-104642-986",
+    "P06-20240510-104642-987",
+    "P06-20240510-104642-988",
+    "P06-20240510-104642-989",
+    "P06-20240510-104642-990",
+    "P06-20240510-104642-991"
+   ],
+   "rationale": "The person takes the remaining clean cups, bowls, and a saucepan from the crockery tray and puts them away in the cabinet."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Prepare the sponge with dishwashing liquid again",
+   "action_ids": [
+    "P06-20240510-104642-992",
+    "P06-20240510-104642-993",
+    "P06-20240510-104642-994",
+    "P06-20240510-104642-995",
+    "P06-20240510-104642-996"
+   ],
+   "rationale": "The person applies more dishwashing liquid to the sponge and presses it to create foam."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P06-20240510-104642-854",
+  "P06-20240510-104642-855",
+  "P06-20240510-104642-859",
+  "P06-20240510-104642-889",
+  "P06-20240510-104642-891",
+  "P06-20240510-104642-902",
+  "P06-20240510-104642-912",
+  "P06-20240510-104642-921",
+  "P06-20240510-104642-923",
+  "P06-20240510-104642-931",
+  "P06-20240510-104642-934",
+  "P06-20240510-104642-935",
+  "P06-20240510-104642-938",
+  "P06-20240510-104642-941",
+  "P06-20240510-104642-973",
+  "P06-20240510-104642-984"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "overall_goal": "Incorporate tomato puree into the pan and cook the mixture",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Pour the tomato puree into the pan and mix it in",
+   "action_ids": [
+    "P06-20240510-104642-751",
+    "P06-20240510-104642-752",
+    "P06-20240510-104642-753",
+    "P06-20240510-104642-754",
+    "P06-20240510-104642-755",
+    "P06-20240510-104642-756",
+    "P06-20240510-104642-757",
+    "P06-20240510-104642-758",
+    "P06-20240510-104642-759"
+   ],
+   "rationale": "The person pours the puree from the bowl, scrapes out the remainder, and begins mixing it into the pan."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Cook and periodically stir the puree mixture",
+   "action_ids": [
+    "P06-20240510-104642-767",
+    "P06-20240510-104642-768",
+    "P06-20240510-104642-852",
+    "P06-20240510-104642-856",
+    "P06-20240510-104642-857",
+    "P06-20240510-104642-858",
+    "P06-20240510-104642-868",
+    "P06-20240510-104642-869",
+    "P06-20240510-104642-870",
+    "P06-20240510-104642-890",
+    "P06-20240510-104642-903",
+    "P06-20240510-104642-905"
+   ],
+   "rationale": "The person repeatedly stirs the contents of the pan over time to ensure it cooks evenly and homogenizes."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P06-20240510-104642-904"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

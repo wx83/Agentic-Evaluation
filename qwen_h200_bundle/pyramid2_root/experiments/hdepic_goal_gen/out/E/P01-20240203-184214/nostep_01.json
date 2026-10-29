@@ -1,0 +1,208 @@
+{
+ "overall_goal": "Unload the dishwasher, reorganize the fridge, and check the cooking rice",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Reorganize items in the fridge",
+   "action_ids": [
+    "P01-20240203-184214-270",
+    "P01-20240203-184214-271",
+    "P01-20240203-184214-272",
+    "P01-20240203-184214-275"
+   ],
+   "rationale": "The person opens the fridge, moves a soup container and jars to create space, and closes the door."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Unload chopping boards from the dishwasher",
+   "action_ids": [
+    "P01-20240203-184214-276",
+    "P01-20240203-184214-277",
+    "P01-20240203-184214-278",
+    "P01-20240203-184214-279",
+    "P01-20240203-184214-280",
+    "P01-20240203-184214-281"
+   ],
+   "rationale": "The person takes chopping boards from the dishwasher, piles them, and stores them in a drawer."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Unload bowls, pots, and pans from the dishwasher",
+   "action_ids": [
+    "P01-20240203-184214-282",
+    "P01-20240203-184214-283",
+    "P01-20240203-184214-284",
+    "P01-20240203-184214-285",
+    "P01-20240203-184214-286",
+    "P01-20240203-184214-287",
+    "P01-20240203-184214-288",
+    "P01-20240203-184214-289",
+    "P01-20240203-184214-290",
+    "P01-20240203-184214-291",
+    "P01-20240203-184214-292",
+    "P01-20240203-184214-293",
+    "P01-20240203-184214-294",
+    "P01-20240203-184214-295",
+    "P01-20240203-184214-296",
+    "P01-20240203-184214-297"
+   ],
+   "rationale": "The person removes a bowl, pots, and a pan from the dishwasher, empties water from them, and places them in the lower cupboard."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Unload plates, bowls, and mugs from the lower drawer of the dishwasher",
+   "action_ids": [
+    "P01-20240203-184214-298",
+    "P01-20240203-184214-299",
+    "P01-20240203-184214-300",
+    "P01-20240203-184214-301",
+    "P01-20240203-184214-302",
+    "P01-20240203-184214-303",
+    "P01-20240203-184214-304",
+    "P01-20240203-184214-305",
+    "P01-20240203-184214-306",
+    "P01-20240203-184214-307",
+    "P01-20240203-184214-308",
+    "P01-20240203-184214-309",
+    "P01-20240203-184214-310",
+    "P01-20240203-184214-311",
+    "P01-20240203-184214-312"
+   ],
+   "rationale": "The person takes bowls, a glass, a mug, and plates from the lower drawer of the dishwasher and organizes them into the cupboards."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Unload dishes, plates, and bowls from the middle drawer of the dishwasher",
+   "action_ids": [
+    "P01-20240203-184214-313",
+    "P01-20240203-184214-314",
+    "P01-20240203-184214-315",
+    "P01-20240203-184214-316",
+    "P01-20240203-184214-317",
+    "P01-20240203-184214-318",
+    "P01-20240203-184214-319",
+    "P01-20240203-184214-320",
+    "P01-20240203-184214-321",
+    "P01-20240203-184214-322",
+    "P01-20240203-184214-323",
+    "P01-20240203-184214-324"
+   ],
+   "rationale": "The person opens the middle drawer, removes dishes, plates, and bowls, piles them on the countertop, and places the stack in the cupboard."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Rearrange tupperware and unload some glasses and mugs",
+   "action_ids": [
+    "P01-20240203-184214-325",
+    "P01-20240203-184214-326",
+    "P01-20240203-184214-327",
+    "P01-20240203-184214-328",
+    "P01-20240203-184214-329",
+    "P01-20240203-184214-330",
+    "P01-20240203-184214-331",
+    "P01-20240203-184214-332",
+    "P01-20240203-184214-333",
+    "P01-20240203-184214-334",
+    "P01-20240203-184214-335",
+    "P01-20240203-184214-336",
+    "P01-20240203-184214-337"
+   ],
+   "rationale": "The person removes a tupperware container from the cupboard to make space, then unloads a bowl, mugs, and glasses from the dishwasher into the cupboard."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Unload remaining mugs, glasses, and a pot from the middle drawer",
+   "action_ids": [
+    "P01-20240203-184214-338",
+    "P01-20240203-184214-339",
+    "P01-20240203-184214-340",
+    "P01-20240203-184214-341",
+    "P01-20240203-184214-342",
+    "P01-20240203-184214-343",
+    "P01-20240203-184214-344",
+    "P01-20240203-184214-345",
+    "P01-20240203-184214-346",
+    "P01-20240203-184214-347",
+    "P01-20240203-184214-348",
+    "P01-20240203-184214-349",
+    "P01-20240203-184214-350",
+    "P01-20240203-184214-351",
+    "P01-20240203-184214-352",
+    "P01-20240203-184214-353"
+   ],
+   "rationale": "The person finishes unloading mugs and glasses into the cupboard, then takes out a pot, empties its water into the sink, and places it on the drainer before closing the drawer."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Unload spoons, spatulas, and chopsticks from the dishwasher",
+   "action_ids": [
+    "P01-20240203-184214-354",
+    "P01-20240203-184214-355",
+    "P01-20240203-184214-356",
+    "P01-20240203-184214-357",
+    "P01-20240203-184214-358",
+    "P01-20240203-184214-359",
+    "P01-20240203-184214-360",
+    "P01-20240203-184214-361",
+    "P01-20240203-184214-362",
+    "P01-20240203-184214-363",
+    "P01-20240203-184214-364",
+    "P01-20240203-184214-365",
+    "P01-20240203-184214-366",
+    "P01-20240203-184214-367",
+    "P01-20240203-184214-368"
+   ],
+   "rationale": "The person opens the top cutlery drawer of the dishwasher and transfers spoons, wooden spoons, a spatula, and chopsticks into the kitchen drawer."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Unload knives, forks, and remaining spoons from the dishwasher",
+   "action_ids": [
+    "P01-20240203-184214-369",
+    "P01-20240203-184214-370",
+    "P01-20240203-184214-371",
+    "P01-20240203-184214-372",
+    "P01-20240203-184214-373",
+    "P01-20240203-184214-374",
+    "P01-20240203-184214-375",
+    "P01-20240203-184214-376",
+    "P01-20240203-184214-377",
+    "P01-20240203-184214-378"
+   ],
+   "rationale": "The person transfers knives, forks, and the rest of the spoons from the dishwasher to the cutlery drawer, then closes all open drawers and cupboards."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Check and stir the cooking rice",
+   "action_ids": [
+    "P01-20240203-184214-379",
+    "P01-20240203-184214-381",
+    "P01-20240203-184214-380",
+    "P01-20240203-184214-382",
+    "P01-20240203-184214-383",
+    "P01-20240203-184214-384",
+    "P01-20240203-184214-385",
+    "P01-20240203-184214-386",
+    "P01-20240203-184214-387"
+   ],
+   "rationale": "The person removes the lid from the pot on the hob, stirs the rice, checks its temperature, and covers it again."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Put on gloves",
+   "action_ids": [
+    "P01-20240203-184214-389",
+    "P01-20240203-184214-390",
+    "P01-20240203-184214-391"
+   ],
+   "rationale": "The person puts on a right glove and adjusts their sleeve while holding the left glove."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P01-20240203-184214-388"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "overall_goal": "Add the sliced mushrooms to the pan and cook them.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Transfer the sliced mushrooms from the bowl into the frying pan.",
+   "action_ids": [
+    "P03-20240218-190556-786",
+    "P03-20240218-190556-787",
+    "P03-20240218-190556-788",
+    "P03-20240218-190556-789"
+   ],
+   "rationale": "The person picks up the bowl of mushrooms, pours them into the pan, shakes out the remaining pieces, and sets the empty bowl aside."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Stir the mushrooms and onions in the pan to cook them evenly.",
+   "action_ids": [
+    "P03-20240218-190556-790",
+    "P03-20240218-190556-791",
+    "P03-20240218-190556-792",
+    "P03-20240218-190556-801",
+    "P03-20240218-190556-800",
+    "P03-20240218-190556-804",
+    "P03-20240218-190556-805"
+   ],
+   "rationale": "The person uses a spatula to continuously stir the food in the pan, adjusting the pan's position and tapping off food residue from the spatula as needed."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

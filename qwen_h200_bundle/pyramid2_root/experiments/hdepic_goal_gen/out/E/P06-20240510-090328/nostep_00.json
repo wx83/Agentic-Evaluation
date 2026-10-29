@@ -1,0 +1,201 @@
+{
+ "overall_goal": "Prepare the workspace, weigh and log ingredients, and chop vegetables for the recipe",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve ingredients from the refrigerator and cabinet",
+   "action_ids": [
+    "P06-20240510-090328-7",
+    "P06-20240510-090328-8",
+    "P06-20240510-090328-9",
+    "P06-20240510-090328-12",
+    "P06-20240510-090328-13",
+    "P06-20240510-090328-15",
+    "P06-20240510-090328-20",
+    "P06-20240510-090328-21",
+    "P06-20240510-090328-22",
+    "P06-20240510-090328-24",
+    "P06-20240510-090328-25"
+   ],
+   "rationale": "The person opens the refrigerator and cabinet to gather ingredients like chilies, milk, and ketchup."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Organize the workspace and prepare the weighing balance",
+   "action_ids": [
+    "P06-20240510-090328-5",
+    "P06-20240510-090328-6",
+    "P06-20240510-090328-30",
+    "P06-20240510-090328-32",
+    "P06-20240510-090328-33",
+    "P06-20240510-090328-34",
+    "P06-20240510-090328-35",
+    "P06-20240510-090328-36",
+    "P06-20240510-090328-37"
+   ],
+   "rationale": "The person clears the tabletop and sets up the weighing balance for use."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Arrange ingredients on the tabletop",
+   "action_ids": [
+    "P06-20240510-090328-38",
+    "P06-20240510-090328-39",
+    "P06-20240510-090328-42",
+    "P06-20240510-090328-43",
+    "P06-20240510-090328-48",
+    "P06-20240510-090328-49",
+    "P06-20240510-090328-52",
+    "P06-20240510-090328-53",
+    "P06-20240510-090328-54",
+    "P06-20240510-090328-57",
+    "P06-20240510-090328-59"
+   ],
+   "rationale": "The person places the gathered ingredients on the tabletop to prepare for weighing and cooking."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Weigh tomatoes and record the weight",
+   "action_ids": [
+    "P06-20240510-090328-58",
+    "P06-20240510-090328-60",
+    "P06-20240510-090328-61",
+    "P06-20240510-090328-62",
+    "P06-20240510-090328-63",
+    "P06-20240510-090328-64",
+    "P06-20240510-090328-65",
+    "P06-20240510-090328-66",
+    "P06-20240510-090328-67",
+    "P06-20240510-090328-68",
+    "P06-20240510-090328-69",
+    "P06-20240510-090328-72",
+    "P06-20240510-090328-73",
+    "P06-20240510-090328-74",
+    "P06-20240510-090328-75",
+    "P06-20240510-090328-76"
+   ],
+   "rationale": "The person places a tomato on the weighing balance and records its weight in the notebook."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Weigh coriander stems and record the weight",
+   "action_ids": [
+    "P06-20240510-090328-91",
+    "P06-20240510-090328-92",
+    "P06-20240510-090328-93",
+    "P06-20240510-090328-94",
+    "P06-20240510-090328-95",
+    "P06-20240510-090328-96",
+    "P06-20240510-090328-97",
+    "P06-20240510-090328-98",
+    "P06-20240510-090328-99",
+    "P06-20240510-090328-100",
+    "P06-20240510-090328-101",
+    "P06-20240510-090328-102"
+   ],
+   "rationale": "The person weighs the coriander stems and logs the measurement in the notebook."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Dry hands and record ingredients in the notebook",
+   "action_ids": [
+    "P06-20240510-090328-125",
+    "P06-20240510-090328-126",
+    "P06-20240510-090328-127",
+    "P06-20240510-090328-128"
+   ],
+   "rationale": "The person dries their hands with a towel and continues recording ingredients in the notebook."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Chop coriander leaves and discard stems",
+   "action_ids": [
+    "P06-20240510-090328-129",
+    "P06-20240510-090328-153",
+    "P06-20240510-090328-154",
+    "P06-20240510-090328-155",
+    "P06-20240510-090328-156",
+    "P06-20240510-090328-157",
+    "P06-20240510-090328-158",
+    "P06-20240510-090328-159",
+    "P06-20240510-090328-160",
+    "P06-20240510-090328-161",
+    "P06-20240510-090328-162",
+    "P06-20240510-090328-163",
+    "P06-20240510-090328-164"
+   ],
+   "rationale": "The person chops the coriander leaves and discards the unwanted stems."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Clean up onion peels and store cut onions",
+   "action_ids": [
+    "P06-20240510-090328-165",
+    "P06-20240510-090328-166",
+    "P06-20240510-090328-167",
+    "P06-20240510-090328-168",
+    "P06-20240510-090328-169",
+    "P06-20240510-090328-170",
+    "P06-20240510-090328-171",
+    "P06-20240510-090328-172",
+    "P06-20240510-090328-173",
+    "P06-20240510-090328-174",
+    "P06-20240510-090328-175",
+    "P06-20240510-090328-176",
+    "P06-20240510-090328-177",
+    "P06-20240510-090328-178",
+    "P06-20240510-090328-179",
+    "P06-20240510-090328-180",
+    "P06-20240510-090328-181",
+    "P06-20240510-090328-182"
+   ],
+   "rationale": "The person gathers onion peels into a bowl and stores the cut onion pieces in a drawer."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Weigh pancake mix and record the weight",
+   "action_ids": [
+    "P06-20240510-090328-183",
+    "P06-20240510-090328-205",
+    "P06-20240510-090328-206",
+    "P06-20240510-090328-207",
+    "P06-20240510-090328-208",
+    "P06-20240510-090328-209",
+    "P06-20240510-090328-210",
+    "P06-20240510-090328-213",
+    "P06-20240510-090328-228",
+    "P06-20240510-090328-229",
+    "P06-20240510-090328-231",
+    "P06-20240510-090328-232",
+    "P06-20240510-090328-233"
+   ],
+   "rationale": "The person weighs the pancake mix and records the measurement in the notebook."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Clean up the weighing station and store pancake mix",
+   "action_ids": [
+    "P06-20240510-090328-236",
+    "P06-20240510-090328-237",
+    "P06-20240510-090328-238",
+    "P06-20240510-090328-239"
+   ],
+   "rationale": "The person turns off the weighing balance and folds the pancake mix packet for storage."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P06-20240510-090328-1",
+  "P06-20240510-090328-2",
+  "P06-20240510-090328-3",
+  "P06-20240510-090328-4",
+  "P06-20240510-090328-105",
+  "P06-20240510-090328-111",
+  "P06-20240510-090328-211",
+  "P06-20240510-090328-212",
+  "P06-20240510-090328-230"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

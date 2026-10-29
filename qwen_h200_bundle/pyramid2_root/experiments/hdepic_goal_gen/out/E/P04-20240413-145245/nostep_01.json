@@ -1,0 +1,207 @@
+{
+ "overall_goal": "Weigh shredded lettuce, monitor the cooking chicken, and cut the cooked chicken into smaller pieces.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Transfer shredded lettuce to the weighing scale.",
+   "action_ids": [
+    "P04-20240413-145245-321",
+    "P04-20240413-145245-320",
+    "P04-20240413-145245-322",
+    "P04-20240413-145245-323",
+    "P04-20240413-145245-324",
+    "P04-20240413-145245-325",
+    "P04-20240413-145245-326",
+    "P04-20240413-145245-327",
+    "P04-20240413-145245-328",
+    "P04-20240413-145245-329",
+    "P04-20240413-145245-330",
+    "P04-20240413-145245-331"
+   ],
+   "rationale": "The person moves shredded lettuce from a sieve into a bowl on the scale to weigh it."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Wash hands and put away the sieve.",
+   "action_ids": [
+    "P04-20240413-145245-332",
+    "P04-20240413-145245-333",
+    "P04-20240413-145245-334",
+    "P04-20240413-145245-335",
+    "P04-20240413-145245-336"
+   ],
+   "rationale": "The person places the empty sieve in the sink and washes their hands after handling the lettuce."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Check the chicken and wipe hands.",
+   "action_ids": [
+    "P04-20240413-145245-337",
+    "P04-20240413-145245-345",
+    "P04-20240413-145245-346",
+    "P04-20240413-145245-347",
+    "P04-20240413-145245-348",
+    "P04-20240413-145245-349",
+    "P04-20240413-145245-350"
+   ],
+   "rationale": "The person uses tongs to check the cooking chicken and then wipes their hands with a rag."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Log the weight of the lettuce and clean the scale.",
+   "action_ids": [
+    "P04-20240413-145245-351",
+    "P04-20240413-145245-352",
+    "P04-20240413-145245-353",
+    "P04-20240413-145245-354",
+    "P04-20240413-145245-355"
+   ],
+   "rationale": "The person writes down the lettuce's weight in a notebook, turns off the scale, and wipes it clean."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Clear space on the chopping board and prepare utensils.",
+   "action_ids": [
+    "P04-20240413-145245-356",
+    "P04-20240413-145245-357",
+    "P04-20240413-145245-358",
+    "P04-20240413-145245-359",
+    "P04-20240413-145245-360",
+    "P04-20240413-145245-361",
+    "P04-20240413-145245-373",
+    "P04-20240413-145245-374",
+    "P04-20240413-145245-375",
+    "P04-20240413-145245-376"
+   ],
+   "rationale": "The person repositions the chopping board, moves tongs and lettuce pieces aside, and handles a knife and fork."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Clean up the chopping board and wash hands.",
+   "action_ids": [
+    "P04-20240413-145245-377",
+    "P04-20240413-145245-378",
+    "P04-20240413-145245-379",
+    "P04-20240413-145245-380",
+    "P04-20240413-145245-381",
+    "P04-20240413-145245-382",
+    "P04-20240413-145245-383",
+    "P04-20240413-145245-384",
+    "P04-20240413-145245-385",
+    "P04-20240413-145245-386",
+    "P04-20240413-145245-387",
+    "P04-20240413-145245-388",
+    "P04-20240413-145245-389",
+    "P04-20240413-145245-390"
+   ],
+   "rationale": "The person scrapes lettuce bits off the fork, gathers them from the board to throw away, and washes their hands."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Monitor the chicken cooking and turn off the hob.",
+   "action_ids": [
+    "P04-20240413-145245-391",
+    "P04-20240413-145245-392",
+    "P04-20240413-145245-393",
+    "P04-20240413-145245-434",
+    "P04-20240413-145245-435",
+    "P04-20240413-145245-436",
+    "P04-20240413-145245-447",
+    "P04-20240413-145245-448",
+    "P04-20240413-145245-449",
+    "P04-20240413-145245-501",
+    "P04-20240413-145245-500",
+    "P04-20240413-145245-507",
+    "P04-20240413-145245-506",
+    "P04-20240413-145245-508"
+   ],
+   "rationale": "The person repeatedly checks the chicken in the pan using tongs, adjusts the pan, and finally turns off the electric hob."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Prepare the workspace for cutting the cooked chicken.",
+   "action_ids": [
+    "P04-20240413-145245-509",
+    "P04-20240413-145245-516",
+    "P04-20240413-145245-517",
+    "P04-20240413-145245-518",
+    "P04-20240413-145245-519",
+    "P04-20240413-145245-520",
+    "P04-20240413-145245-521",
+    "P04-20240413-145245-522",
+    "P04-20240413-145245-523",
+    "P04-20240413-145245-524"
+   ],
+   "rationale": "The person moves the bowl of cooked chicken to the chopping board, puts the tongs in the sink, and clears space."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Cut the first batch of cooked chicken into smaller pieces.",
+   "action_ids": [
+    "P04-20240413-145245-525",
+    "P04-20240413-145245-526",
+    "P04-20240413-145245-527",
+    "P04-20240413-145245-528",
+    "P04-20240413-145245-529",
+    "P04-20240413-145245-530",
+    "P04-20240413-145245-531",
+    "P04-20240413-145245-532",
+    "P04-20240413-145245-533",
+    "P04-20240413-145245-534",
+    "P04-20240413-145245-535",
+    "P04-20240413-145245-536",
+    "P04-20240413-145245-537",
+    "P04-20240413-145245-538",
+    "P04-20240413-145245-539",
+    "P04-20240413-145245-540"
+   ],
+   "rationale": "The person uses a knife and fork to pick up and cut several large pieces of cooked chicken into smaller chunks."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Cut the second batch of cooked chicken into smaller pieces.",
+   "action_ids": [
+    "P04-20240413-145245-541",
+    "P04-20240413-145245-542",
+    "P04-20240413-145245-543",
+    "P04-20240413-145245-544",
+    "P04-20240413-145245-545",
+    "P04-20240413-145245-546",
+    "P04-20240413-145245-547",
+    "P04-20240413-145245-548",
+    "P04-20240413-145245-549",
+    "P04-20240413-145245-550",
+    "P04-20240413-145245-551",
+    "P04-20240413-145245-552",
+    "P04-20240413-145245-553",
+    "P04-20240413-145245-554",
+    "P04-20240413-145245-555",
+    "P04-20240413-145245-556"
+   ],
+   "rationale": "The person continues to pick up large pieces of chicken from the bowl and cuts them into smaller pieces on the board."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Cut the remaining cooked chicken into smaller pieces.",
+   "action_ids": [
+    "P04-20240413-145245-557",
+    "P04-20240413-145245-558",
+    "P04-20240413-145245-559",
+    "P04-20240413-145245-560",
+    "P04-20240413-145245-561",
+    "P04-20240413-145245-562",
+    "P04-20240413-145245-563",
+    "P04-20240413-145245-564",
+    "P04-20240413-145245-565",
+    "P04-20240413-145245-566",
+    "P04-20240413-145245-567"
+   ],
+   "rationale": "The person finishes cutting the last large pieces of cooked chicken into smaller chunks."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

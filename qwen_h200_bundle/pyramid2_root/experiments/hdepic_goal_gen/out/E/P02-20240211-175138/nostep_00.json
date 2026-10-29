@@ -1,0 +1,201 @@
+{
+ "overall_goal": "Prepare the workspace, gather ingredients and equipment, and clean up before starting the recipe",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Clear and organize the workspace",
+   "action_ids": [
+    "P02-20240211-175138-6",
+    "P02-20240211-175138-7",
+    "P02-20240211-175138-8",
+    "P02-20240211-175138-9",
+    "P02-20240211-175138-10",
+    "P02-20240211-175138-214",
+    "P02-20240211-175138-215",
+    "P02-20240211-175138-216",
+    "P02-20240211-175138-217"
+   ],
+   "rationale": "The person moves a pint glass, throws away a plastic wrapper, moves a bag of onions, and closes a punnet of mushrooms to tidy the countertop."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P02-20240211-175138-12",
+    "P02-20240211-175138-13",
+    "P02-20240211-175138-14",
+    "P02-20240211-175138-15",
+    "P02-20240211-175138-16",
+    "P02-20240211-175138-17",
+    "P02-20240211-175138-18",
+    "P02-20240211-175138-19",
+    "P02-20240211-175138-20"
+   ],
+   "rationale": "The person turns on the tap, uses washing up liquid to lather and rinse their hands, and then dries them with a towel."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Empty and rinse the washing up bowl",
+   "action_ids": [
+    "P02-20240211-175138-25",
+    "P02-20240211-175138-26",
+    "P02-20240211-175138-27",
+    "P02-20240211-175138-28",
+    "P02-20240211-175138-29",
+    "P02-20240211-175138-30",
+    "P02-20240211-175138-31",
+    "P02-20240211-175138-32",
+    "P02-20240211-175138-33"
+   ],
+   "rationale": "The person pours out the dirty water from the washing up bowl, rinses it with cold water, and places it back into the sink."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Retrieve ingredients from the fridge",
+   "action_ids": [
+    "P02-20240211-175138-35",
+    "P02-20240211-175138-36",
+    "P02-20240211-175138-37",
+    "P02-20240211-175138-44",
+    "P02-20240211-175138-49",
+    "P02-20240211-175138-50",
+    "P02-20240211-175138-51",
+    "P02-20240211-175138-52",
+    "P02-20240211-175138-53",
+    "P02-20240211-175138-54"
+   ],
+   "rationale": "The person opens the fridge and vegetable drawers to take out mushrooms and checks the ingredients against the recipe."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Read and arrange the recipe",
+   "action_ids": [
+    "P02-20240211-175138-4",
+    "P02-20240211-175138-5",
+    "P02-20240211-175138-34",
+    "P02-20240211-175138-55",
+    "P02-20240211-175138-56",
+    "P02-20240211-175138-57",
+    "P02-20240211-175138-58",
+    "P02-20240211-175138-207",
+    "P02-20240211-175138-208",
+    "P02-20240211-175138-226",
+    "P02-20240211-175138-227",
+    "P02-20240211-175138-228"
+   ],
+   "rationale": "The person repeatedly picks up, moves, unfolds, and reads the printed recipe sheet to check the steps and required spices."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Search for equipment and spices in cupboards",
+   "action_ids": [
+    "P02-20240211-175138-21",
+    "P02-20240211-175138-59",
+    "P02-20240211-175138-60",
+    "P02-20240211-175138-68",
+    "P02-20240211-175138-209",
+    "P02-20240211-175138-210",
+    "P02-20240211-175138-218",
+    "P02-20240211-175138-219",
+    "P02-20240211-175138-220",
+    "P02-20240211-175138-221",
+    "P02-20240211-175138-229",
+    "P02-20240211-175138-230",
+    "P02-20240211-175138-232"
+   ],
+   "rationale": "The person opens various cupboards and drawers looking for a baking sheet, a mixing bowl, and specific spices needed for the recipe."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Wash and transfer mushrooms to the cutting board",
+   "action_ids": [
+    "P02-20240211-175138-79",
+    "P02-20240211-175138-135",
+    "P02-20240211-175138-136",
+    "P02-20240211-175138-137",
+    "P02-20240211-175138-138",
+    "P02-20240211-175138-139",
+    "P02-20240211-175138-140",
+    "P02-20240211-175138-141",
+    "P02-20240211-175138-142",
+    "P02-20240211-175138-143",
+    "P02-20240211-175138-144",
+    "P02-20240211-175138-145",
+    "P02-20240211-175138-146",
+    "P02-20240211-175138-147",
+    "P02-20240211-175138-148",
+    "P02-20240211-175138-150"
+   ],
+   "rationale": "The person washes a dropped mushroom, gathers the rest of the mushrooms from the sink, and places them onto the cutting board."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Dry hands and fold the towel",
+   "action_ids": [
+    "P02-20240211-175138-201",
+    "P02-20240211-175138-203",
+    "P02-20240211-175138-204",
+    "P02-20240211-175138-205",
+    "P02-20240211-175138-206"
+   ],
+   "rationale": "The person shakes off excess water, dries their hands with a towel, and then folds the towel and places it on the countertop."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Seal and close the coriander, cumin, and paprika containers",
+   "action_ids": [
+    "P02-20240211-175138-259",
+    "P02-20240211-175138-260",
+    "P02-20240211-175138-261",
+    "P02-20240211-175138-262",
+    "P02-20240211-175138-263",
+    "P02-20240211-175138-264",
+    "P02-20240211-175138-265",
+    "P02-20240211-175138-272",
+    "P02-20240211-175138-273",
+    "P02-20240211-175138-274",
+    "P02-20240211-175138-275",
+    "P02-20240211-175138-276",
+    "P02-20240211-175138-277",
+    "P02-20240211-175138-278",
+    "P02-20240211-175138-286",
+    "P02-20240211-175138-287",
+    "P02-20240211-175138-288",
+    "P02-20240211-175138-289"
+   ],
+   "rationale": "The person seals the coriander packet with a food clip and screws the lids back onto the cumin and paprika containers."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Close the remaining spice containers and put them away",
+   "action_ids": [
+    "P02-20240211-175138-290",
+    "P02-20240211-175138-294",
+    "P02-20240211-175138-295",
+    "P02-20240211-175138-296",
+    "P02-20240211-175138-301",
+    "P02-20240211-175138-302",
+    "P02-20240211-175138-303",
+    "P02-20240211-175138-304",
+    "P02-20240211-175138-305",
+    "P02-20240211-175138-306",
+    "P02-20240211-175138-312",
+    "P02-20240211-175138-313",
+    "P02-20240211-175138-314",
+    "P02-20240211-175138-315"
+   ],
+   "rationale": "The person closes the nutmeg, ginger, and cayenne pepper containers, and then places all the spices back into the cupboard."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P02-20240211-175138-1",
+  "P02-20240211-175138-2",
+  "P02-20240211-175138-3",
+  "P02-20240211-175138-11",
+  "P02-20240211-175138-202"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

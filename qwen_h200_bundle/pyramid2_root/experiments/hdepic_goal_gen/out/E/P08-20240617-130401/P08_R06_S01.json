@@ -1,0 +1,107 @@
+{
+ "overall_goal": "Boil, drain, and rinse the pasta",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare the pot with salted water and set it on the stove to boil",
+   "action_ids": [
+    "P08-20240617-130401-33",
+    "P08-20240617-130401-34",
+    "P08-20240617-130401-35",
+    "P08-20240617-130401-36",
+    "P08-20240617-130401-37",
+    "P08-20240617-130401-38",
+    "P08-20240617-130401-39",
+    "P08-20240617-130401-40",
+    "P08-20240617-130401-41",
+    "P08-20240617-130401-42",
+    "P08-20240617-130401-43",
+    "P08-20240617-130401-44",
+    "P08-20240617-130401-45",
+    "P08-20240617-130401-47",
+    "P08-20240617-130401-48",
+    "P08-20240617-130401-49"
+   ],
+   "rationale": "The person retrieves a pot, fills it with water, places it on the stove, turns on the heat, and adds salt to prepare for boiling."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Measure the desired amount of pasta",
+   "action_ids": [
+    "P08-20240617-130401-31",
+    "P08-20240617-130401-32",
+    "P08-20240617-130401-65",
+    "P08-20240617-130401-66",
+    "P08-20240617-130401-67",
+    "P08-20240617-130401-68",
+    "P08-20240617-130401-69",
+    "P08-20240617-130401-71",
+    "P08-20240617-130401-70",
+    "P08-20240617-130401-72",
+    "P08-20240617-130401-73",
+    "P08-20240617-130401-74",
+    "P08-20240617-130401-75",
+    "P08-20240617-130401-76",
+    "P08-20240617-130401-77",
+    "P08-20240617-130401-81",
+    "P08-20240617-130401-82",
+    "P08-20240617-130401-83",
+    "P08-20240617-130401-84",
+    "P08-20240617-130401-85"
+   ],
+   "rationale": "The person grabs the bag of pasta, pours it into measuring cups, weighs it on a scale, and sets the measured pasta aside."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Add the pasta to the boiling water and stir it periodically",
+   "action_ids": [
+    "P08-20240617-130401-189",
+    "P08-20240617-130401-233",
+    "P08-20240617-130401-234",
+    "P08-20240617-130401-235",
+    "P08-20240617-130401-286",
+    "P08-20240617-130401-287",
+    "P08-20240617-130401-288",
+    "P08-20240617-130401-342",
+    "P08-20240617-130401-343",
+    "P08-20240617-130401-367",
+    "P08-20240617-130401-368",
+    "P08-20240617-130401-432"
+   ],
+   "rationale": "The person checks the water, pours the pasta in once it boils, and repeatedly stirs the pasta to ensure even cooking."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Taste and check the pasta to ensure it is fully cooked",
+   "action_ids": [
+    "P08-20240617-130401-478",
+    "P08-20240617-130401-479",
+    "P08-20240617-130401-480",
+    "P08-20240617-130401-481",
+    "P08-20240617-130401-482",
+    "P08-20240617-130401-483"
+   ],
+   "rationale": "The person scoops out a piece of pasta, cools it down, and touches it to verify if it has finished cooking."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Drain the cooked pasta and rinse it with cold water",
+   "action_ids": [
+    "P08-20240617-130401-486",
+    "P08-20240617-130401-487",
+    "P08-20240617-130401-488",
+    "P08-20240617-130401-489",
+    "P08-20240617-130401-490",
+    "P08-20240617-130401-491",
+    "P08-20240617-130401-492",
+    "P08-20240617-130401-493"
+   ],
+   "rationale": "The person pours the pot's contents into a colander in the sink and runs cold water over the pasta to stop the cooking process."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

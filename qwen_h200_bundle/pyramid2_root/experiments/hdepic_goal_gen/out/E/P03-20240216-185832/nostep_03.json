@@ -1,0 +1,236 @@
+{
+ "overall_goal": "Perform various kitchen tasks including washing hands, adding potatoes to the frying pan, cleaning up potato peels, and storing ingredients",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Wash a wooden spoon and dry hands",
+   "action_ids": [
+    "P03-20240216-185832-361",
+    "P03-20240216-185832-362",
+    "P03-20240216-185832-363",
+    "P03-20240216-185832-364",
+    "P03-20240216-185832-365",
+    "P03-20240216-185832-366",
+    "P03-20240216-185832-367",
+    "P03-20240216-185832-368"
+   ],
+   "rationale": "The person washes a wooden spoon under the tap, places it in the cutlery stand, and dries their hands."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Rearrange kitchen items and retrieve potatoes",
+   "action_ids": [
+    "P03-20240216-185832-369",
+    "P03-20240216-185832-371",
+    "P03-20240216-185832-372",
+    "P03-20240216-185832-370",
+    "P03-20240216-185832-373",
+    "P03-20240216-185832-374",
+    "P03-20240216-185832-375",
+    "P03-20240216-185832-376",
+    "P03-20240216-185832-377"
+   ],
+   "rationale": "The person moves a large bowl and colander, hangs a cloth on the cupboard, and picks up a bag of potatoes."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P03-20240216-185832-427",
+    "P03-20240216-185832-428",
+    "P03-20240216-185832-429"
+   ],
+   "rationale": "The person washes and dries their hands after handling items."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Put down peeled potato and peeler, wash hands, and adjust items",
+   "action_ids": [
+    "P03-20240216-185832-475",
+    "P03-20240216-185832-476",
+    "P03-20240216-185832-477",
+    "P03-20240216-185832-478",
+    "P03-20240216-185832-479",
+    "P03-20240216-185832-480",
+    "P03-20240216-185832-481",
+    "P03-20240216-185832-482",
+    "P03-20240216-185832-483",
+    "P03-20240216-185832-484",
+    "P03-20240216-185832-485",
+    "P03-20240216-185832-486"
+   ],
+   "rationale": "The person places a peeled potato and peeler down, washes their hands to remove starch, hangs the cloth, and adjusts the chopping board."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Prepare utensils and ingredients for chopping and frying",
+   "action_ids": [
+    "P03-20240216-185832-489",
+    "P03-20240216-185832-493",
+    "P03-20240216-185832-494",
+    "P03-20240216-185832-495",
+    "P03-20240216-185832-496"
+   ],
+   "rationale": "The person retrieves a frying pan, hangs a cloth, picks up a knife, turns on the extractor hood light, and grabs a potato."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Add potato chunks to the frying pan and move items",
+   "action_ids": [
+    "P03-20240216-185832-540",
+    "P03-20240216-185832-541",
+    "P03-20240216-185832-542",
+    "P03-20240216-185832-543",
+    "P03-20240216-185832-544",
+    "P03-20240216-185832-545"
+   ],
+   "rationale": "The person drops potato chunks into the frying pan, distributes them, and moves a colander and bag of potatoes."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Put down peeled potato and peeler, then wash and dry hands",
+   "action_ids": [
+    "P03-20240216-185832-589",
+    "P03-20240216-185832-590",
+    "P03-20240216-185832-591",
+    "P03-20240216-185832-592",
+    "P03-20240216-185832-593",
+    "P03-20240216-185832-594",
+    "P03-20240216-185832-595"
+   ],
+   "rationale": "The person puts down a peeled potato and peeler, then washes and dries their hands to remove potato starch."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Add remaining potato chunks to the frying pan",
+   "action_ids": [
+    "P03-20240216-185832-622",
+    "P03-20240216-185832-623",
+    "P03-20240216-185832-624",
+    "P03-20240216-185832-625",
+    "P03-20240216-185832-626",
+    "P03-20240216-185832-627",
+    "P03-20240216-185832-628",
+    "P03-20240216-185832-629"
+   ],
+   "rationale": "The person drops the remaining potato chunks into the frying pan and distributes them evenly."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P03-20240216-185832-630",
+    "P03-20240216-185832-631",
+    "P03-20240216-185832-632",
+    "P03-20240216-185832-633",
+    "P03-20240216-185832-634",
+    "P03-20240216-185832-635"
+   ],
+   "rationale": "The person washes their hands to remove potato starch, dries them, and hangs the cloth back."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Close olive oil can and turn on the hob",
+   "action_ids": [
+    "P03-20240216-185832-649",
+    "P03-20240216-185832-650",
+    "P03-20240216-185832-651",
+    "P03-20240216-185832-652"
+   ],
+   "rationale": "The person closes the olive oil can, puts it down, and turns on the hob to start frying the potatoes."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Prepare cooking utensils and turn on extractor fan",
+   "action_ids": [
+    "P03-20240216-185832-658",
+    "P03-20240216-185832-661",
+    "P03-20240216-185832-662",
+    "P03-20240216-185832-663",
+    "P03-20240216-185832-664",
+    "P03-20240216-185832-670",
+    "P03-20240216-185832-680"
+   ],
+   "rationale": "The person picks up a spatula, moves a glass lid, grabs salt, turns on the extractor fan, and rests the spatula."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Take out the food waste bin and start collecting potato peels",
+   "action_ids": [
+    "P03-20240216-185832-681",
+    "P03-20240216-185832-682",
+    "P03-20240216-185832-683",
+    "P03-20240216-185832-684",
+    "P03-20240216-185832-685",
+    "P03-20240216-185832-686",
+    "P03-20240216-185832-687",
+    "P03-20240216-185832-688",
+    "P03-20240216-185832-689",
+    "P03-20240216-185832-690"
+   ],
+   "rationale": "The person takes the food waste bin out of the cupboard, opens it, and begins collecting potato peels from the kitchen top."
+  },
+  {
+   "goal_id": "e13",
+   "description": "Continue collecting potato peels and put the bin away",
+   "action_ids": [
+    "P03-20240216-185832-691",
+    "P03-20240216-185832-692",
+    "P03-20240216-185832-693",
+    "P03-20240216-185832-694",
+    "P03-20240216-185832-695",
+    "P03-20240216-185832-696",
+    "P03-20240216-185832-697",
+    "P03-20240216-185832-698",
+    "P03-20240216-185832-699",
+    "P03-20240216-185832-701",
+    "P03-20240216-185832-700",
+    "P03-20240216-185832-702",
+    "P03-20240216-185832-703",
+    "P03-20240216-185832-704",
+    "P03-20240216-185832-705"
+   ],
+   "rationale": "The person finishes collecting potato peels, throws them into the bin, closes it, and puts it back into the cupboard."
+  },
+  {
+   "goal_id": "e14",
+   "description": "Wash hands and manage cooking",
+   "action_ids": [
+    "P03-20240216-185832-706",
+    "P03-20240216-185832-707",
+    "P03-20240216-185832-708",
+    "P03-20240216-185832-709",
+    "P03-20240216-185832-710",
+    "P03-20240216-185832-711",
+    "P03-20240216-185832-712",
+    "P03-20240216-185832-713",
+    "P03-20240216-185832-719"
+   ],
+   "rationale": "The person washes and dries their hands after handling potato peels, then turns down the hob heat and puts down the spatula."
+  },
+  {
+   "goal_id": "e15",
+   "description": "Store the bag of potatoes in the fridge",
+   "action_ids": [
+    "P03-20240216-185832-720",
+    "P03-20240216-185832-721",
+    "P03-20240216-185832-722",
+    "P03-20240216-185832-723",
+    "P03-20240216-185832-724"
+   ],
+   "rationale": "The person seals the bag of potatoes and places it on the bottom shelf of the fridge."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P03-20240216-185832-430",
+  "P03-20240216-185832-433",
+  "P03-20240216-185832-434",
+  "P03-20240216-185832-435",
+  "P03-20240216-185832-636",
+  "P03-20240216-185832-653"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

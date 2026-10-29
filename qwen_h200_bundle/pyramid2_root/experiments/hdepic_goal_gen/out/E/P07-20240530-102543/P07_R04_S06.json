@@ -1,0 +1,47 @@
+{
+ "overall_goal": "Measure and add vanilla extract to the bowl, then mix the ingredients.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare the vanilla extract and measuring spoon.",
+   "action_ids": [
+    "P07-20240530-102543-227",
+    "P07-20240530-102543-228",
+    "P07-20240530-102543-229",
+    "P07-20240530-102543-230",
+    "P07-20240530-102543-231",
+    "P07-20240530-102543-232"
+   ],
+   "rationale": "The person retrieves the vanilla extract from the cupboard, opens it, and selects the correct measuring spoon from the drying rack."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Measure and add the vanilla extract to the bowl.",
+   "action_ids": [
+    "P07-20240530-102543-233",
+    "P07-20240530-102543-234",
+    "P07-20240530-102543-235",
+    "P07-20240530-102543-236",
+    "P07-20240530-102543-237",
+    "P07-20240530-102543-238",
+    "P07-20240530-102543-239"
+   ],
+   "rationale": "The person pours the vanilla extract into the measuring spoon, empties it into the bowl, and uses a teaspoon to scrape out any remaining extract."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Mix the ingredients in the bowl.",
+   "action_ids": [
+    "P07-20240530-102543-245",
+    "P07-20240530-102543-246",
+    "P07-20240530-102543-247"
+   ],
+   "rationale": "The person uses a fork to stir the ingredients together in the bowl and then sets the bowl back on the counter."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

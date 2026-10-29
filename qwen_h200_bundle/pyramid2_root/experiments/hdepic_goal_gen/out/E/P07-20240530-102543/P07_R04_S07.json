@@ -1,0 +1,76 @@
+{
+ "overall_goal": "Measure and add the dry ingredients, then stir the mixture until fully combined.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Measure and add the flour.",
+   "action_ids": [
+    "P07-20240530-102543-249",
+    "P07-20240530-102543-250",
+    "P07-20240530-102543-251",
+    "P07-20240530-102543-252",
+    "P07-20240530-102543-253",
+    "P07-20240530-102543-254",
+    "P07-20240530-102543-255",
+    "P07-20240530-102543-256",
+    "P07-20240530-102543-257",
+    "P07-20240530-102543-258",
+    "P07-20240530-102543-259",
+    "P07-20240530-102543-261",
+    "P07-20240530-102543-260",
+    "P07-20240530-102543-262",
+    "P07-20240530-102543-263"
+   ],
+   "rationale": "The person retrieves a bowl and flour, uses a scale to measure the flour, and then tips it into the main mixing bowl."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Measure and add the salt.",
+   "action_ids": [
+    "P07-20240530-102543-266",
+    "P07-20240530-102543-267",
+    "P07-20240530-102543-268",
+    "P07-20240530-102543-269"
+   ],
+   "rationale": "The person selects a measuring spoon, scoops salt from the salt pig, and carries it to the main bowl."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Measure and add the cinnamon.",
+   "action_ids": [
+    "P07-20240530-102543-274",
+    "P07-20240530-102543-275",
+    "P07-20240530-102543-276",
+    "P07-20240530-102543-277",
+    "P07-20240530-102543-278",
+    "P07-20240530-102543-279",
+    "P07-20240530-102543-280",
+    "P07-20240530-102543-281",
+    "P07-20240530-102543-282",
+    "P07-20240530-102543-283",
+    "P07-20240530-102543-284"
+   ],
+   "rationale": "The person opens the cinnamon jar, selects a measuring spoon, and adds multiple spoonfuls of cinnamon to the main bowl."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Stir the ingredients until combined.",
+   "action_ids": [
+    "P07-20240530-102543-287",
+    "P07-20240530-102543-288",
+    "P07-20240530-102543-289",
+    "P07-20240530-102543-290",
+    "P07-20240530-102543-291",
+    "P07-20240530-102543-304",
+    "P07-20240530-102543-305",
+    "P07-20240530-102543-306"
+   ],
+   "rationale": "The person uses a fork to stir the ingredients, scraping the sides of the bowl to ensure everything is thoroughly mixed."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

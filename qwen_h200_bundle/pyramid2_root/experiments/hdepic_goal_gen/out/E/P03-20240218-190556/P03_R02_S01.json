@@ -1,0 +1,181 @@
+{
+ "overall_goal": "Wash, peel, and chop the potatoes into chunks",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare the potatoes and chopping board",
+   "action_ids": [
+    "P03-20240218-190556-11",
+    "P03-20240218-190556-12",
+    "P03-20240218-190556-27",
+    "P03-20240218-190556-28",
+    "P03-20240218-190556-29",
+    "P03-20240218-190556-86",
+    "P03-20240218-190556-87",
+    "P03-20240218-190556-88",
+    "P03-20240218-190556-89",
+    "P03-20240218-190556-91",
+    "P03-20240218-190556-90"
+   ],
+   "rationale": "The person retrieves the potatoes and chopping board, then transfers the potatoes into a colander to get ready for washing."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Wash the first batch of potatoes",
+   "action_ids": [
+    "P03-20240218-190556-92",
+    "P03-20240218-190556-93",
+    "P03-20240218-190556-94",
+    "P03-20240218-190556-95",
+    "P03-20240218-190556-96",
+    "P03-20240218-190556-97",
+    "P03-20240218-190556-98",
+    "P03-20240218-190556-99",
+    "P03-20240218-190556-100",
+    "P03-20240218-190556-101",
+    "P03-20240218-190556-102",
+    "P03-20240218-190556-103",
+    "P03-20240218-190556-104",
+    "P03-20240218-190556-105"
+   ],
+   "rationale": "The person turns on the tap and washes the first half of the potatoes under running water."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Wash the remaining potatoes",
+   "action_ids": [
+    "P03-20240218-190556-106",
+    "P03-20240218-190556-107",
+    "P03-20240218-190556-108",
+    "P03-20240218-190556-109",
+    "P03-20240218-190556-110",
+    "P03-20240218-190556-111",
+    "P03-20240218-190556-112",
+    "P03-20240218-190556-113",
+    "P03-20240218-190556-114",
+    "P03-20240218-190556-115",
+    "P03-20240218-190556-116",
+    "P03-20240218-190556-117",
+    "P03-20240218-190556-118",
+    "P03-20240218-190556-119"
+   ],
+   "rationale": "The person continues washing the rest of the potatoes and sets them aside."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Peel the first batch of potatoes",
+   "action_ids": [
+    "P03-20240218-190556-142",
+    "P03-20240218-190556-143",
+    "P03-20240218-190556-144",
+    "P03-20240218-190556-145",
+    "P03-20240218-190556-146",
+    "P03-20240218-190556-147",
+    "P03-20240218-190556-148",
+    "P03-20240218-190556-149",
+    "P03-20240218-190556-150",
+    "P03-20240218-190556-151",
+    "P03-20240218-190556-152",
+    "P03-20240218-190556-153"
+   ],
+   "rationale": "The person begins peeling the washed potatoes and places the peeled ones on the chopping board."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Peel the second batch of potatoes",
+   "action_ids": [
+    "P03-20240218-190556-154",
+    "P03-20240218-190556-155",
+    "P03-20240218-190556-156",
+    "P03-20240218-190556-157",
+    "P03-20240218-190556-158",
+    "P03-20240218-190556-159",
+    "P03-20240218-190556-160",
+    "P03-20240218-190556-161",
+    "P03-20240218-190556-162",
+    "P03-20240218-190556-163",
+    "P03-20240218-190556-164",
+    "P03-20240218-190556-165"
+   ],
+   "rationale": "The person continues the repetitive task of peeling more potatoes."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Peel the final batch of potatoes",
+   "action_ids": [
+    "P03-20240218-190556-166",
+    "P03-20240218-190556-167",
+    "P03-20240218-190556-168",
+    "P03-20240218-190556-169",
+    "P03-20240218-190556-170",
+    "P03-20240218-190556-171",
+    "P03-20240218-190556-172",
+    "P03-20240218-190556-173",
+    "P03-20240218-190556-174"
+   ],
+   "rationale": "The person finishes peeling the last few potatoes and places them on the board."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Chop the first batch of potatoes into chunks",
+   "action_ids": [
+    "P03-20240218-190556-187",
+    "P03-20240218-190556-188",
+    "P03-20240218-190556-189",
+    "P03-20240218-190556-190",
+    "P03-20240218-190556-191",
+    "P03-20240218-190556-192",
+    "P03-20240218-190556-193",
+    "P03-20240218-190556-194",
+    "P03-20240218-190556-195",
+    "P03-20240218-190556-196",
+    "P03-20240218-190556-197",
+    "P03-20240218-190556-198",
+    "P03-20240218-190556-199"
+   ],
+   "rationale": "The person retrieves a knife and starts cutting the peeled potatoes into large chunks."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Transfer the chopped potatoes to a saucepan",
+   "action_ids": [
+    "P03-20240218-190556-200",
+    "P03-20240218-190556-201",
+    "P03-20240218-190556-202",
+    "P03-20240218-190556-203",
+    "P03-20240218-190556-204",
+    "P03-20240218-190556-205",
+    "P03-20240218-190556-206",
+    "P03-20240218-190556-207",
+    "P03-20240218-190556-208"
+   ],
+   "rationale": "The person clears space on the chopping board by moving the cut potato chunks into a saucepan."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Chop the remaining potatoes into chunks",
+   "action_ids": [
+    "P03-20240218-190556-209",
+    "P03-20240218-190556-210",
+    "P03-20240218-190556-211",
+    "P03-20240218-190556-212",
+    "P03-20240218-190556-213",
+    "P03-20240218-190556-214",
+    "P03-20240218-190556-215",
+    "P03-20240218-190556-216",
+    "P03-20240218-190556-217"
+   ],
+   "rationale": "The person resumes and finishes chopping the remaining potatoes into chunks."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P03-20240218-190556-8",
+  "P03-20240218-190556-9",
+  "P03-20240218-190556-10",
+  "P03-20240218-190556-141"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

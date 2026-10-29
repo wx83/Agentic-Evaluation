@@ -1,0 +1,194 @@
+{
+ "overall_goal": "Perform various preparatory and cleanup tasks, including weighing and logging dates, searching for equipment, and disassembling the food processor",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare to weigh dates",
+   "action_ids": [
+    "P01-20240204-121042-139",
+    "P01-20240204-121042-140",
+    "P01-20240204-121042-141",
+    "P01-20240204-121042-142",
+    "P01-20240204-121042-143",
+    "P01-20240204-121042-144",
+    "P01-20240204-121042-145"
+   ],
+   "rationale": "The person empties a bowl and retrieves a glass from the cupboard to use for weighing ingredients."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Weigh and log the first batch of dates",
+   "action_ids": [
+    "P01-20240204-121042-146",
+    "P01-20240204-121042-147",
+    "P01-20240204-121042-148",
+    "P01-20240204-121042-149",
+    "P01-20240204-121042-150",
+    "P01-20240204-121042-151",
+    "P01-20240204-121042-152",
+    "P01-20240204-121042-153",
+    "P01-20240204-121042-154",
+    "P01-20240204-121042-155",
+    "P01-20240204-121042-156",
+    "P01-20240204-121042-157",
+    "P01-20240204-121042-158",
+    "P01-20240204-121042-159",
+    "P01-20240204-121042-160",
+    "P01-20240204-121042-161",
+    "P01-20240204-121042-162",
+    "P01-20240204-121042-163",
+    "P01-20240204-121042-164",
+    "P01-20240204-121042-165",
+    "P01-20240204-121042-166",
+    "P01-20240204-121042-167",
+    "P01-20240204-121042-168"
+   ],
+   "rationale": "The person transfers dates into a glass on the scale, adjusts the setup when the glass is too small, and writes down the first measurement."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Weigh and log the second batch of dates",
+   "action_ids": [
+    "P01-20240204-121042-169",
+    "P01-20240204-121042-170",
+    "P01-20240204-121042-171",
+    "P01-20240204-121042-209",
+    "P01-20240204-121042-211",
+    "P01-20240204-121042-212",
+    "P01-20240204-121042-213",
+    "P01-20240204-121042-214",
+    "P01-20240204-121042-210",
+    "P01-20240204-121042-215",
+    "P01-20240204-121042-216",
+    "P01-20240204-121042-217",
+    "P01-20240204-121042-218",
+    "P01-20240204-121042-219",
+    "P01-20240204-121042-220",
+    "P01-20240204-121042-221",
+    "P01-20240204-121042-222",
+    "P01-20240204-121042-228",
+    "P01-20240204-121042-229",
+    "P01-20240204-121042-230",
+    "P01-20240204-121042-233"
+   ],
+   "rationale": "The person continues to measure the remaining dates, re-weighs them after the scale turns off, and logs the final amount."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P01-20240204-121042-223",
+    "P01-20240204-121042-224",
+    "P01-20240204-121042-225",
+    "P01-20240204-121042-226",
+    "P01-20240204-121042-227"
+   ],
+   "rationale": "The person washes and dries their hands at the sink."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Dispose of empty plastic packaging",
+   "action_ids": [
+    "P01-20240204-121042-31",
+    "P01-20240204-121042-32",
+    "P01-20240204-121042-238",
+    "P01-20240204-121042-239",
+    "P01-20240204-121042-240",
+    "P01-20240204-121042-241",
+    "P01-20240204-121042-242",
+    "P01-20240204-121042-285",
+    "P01-20240204-121042-286",
+    "P01-20240204-121042-287",
+    "P01-20240204-121042-288"
+   ],
+   "rationale": "The person crumples empty plastic bags and biscuit packaging and throws them into the trash and food waste bins."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Search for the missing food processor blade",
+   "action_ids": [
+    "P01-20240204-121042-259",
+    "P01-20240204-121042-260",
+    "P01-20240204-121042-263",
+    "P01-20240204-121042-264",
+    "P01-20240204-121042-265",
+    "P01-20240204-121042-266",
+    "P01-20240204-121042-267",
+    "P01-20240204-121042-268",
+    "P01-20240204-121042-269",
+    "P01-20240204-121042-271",
+    "P01-20240204-121042-270"
+   ],
+   "rationale": "The person moves around the kitchen, lifting various items like a lid, plate, towel, and pan to locate the missing food processor blade."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Clear the workspace and set up the scale for weighing biscuits",
+   "action_ids": [
+    "P01-20240204-121042-338",
+    "P01-20240204-121042-339",
+    "P01-20240204-121042-340",
+    "P01-20240204-121042-341",
+    "P01-20240204-121042-342",
+    "P01-20240204-121042-343",
+    "P01-20240204-121042-344"
+   ],
+   "rationale": "The person moves items out of the way and sets up the scale and a bowl on the countertop to prepare for weighing biscuits."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Disassemble the food processor and knock off stuck biscuits",
+   "action_ids": [
+    "P01-20240204-121042-345",
+    "P01-20240204-121042-346",
+    "P01-20240204-121042-347",
+    "P01-20240204-121042-348",
+    "P01-20240204-121042-349",
+    "P01-20240204-121042-350",
+    "P01-20240204-121042-351"
+   ],
+   "rationale": "The person opens the food processor, knocks off stuck biscuits from the lid and blade, and sets the parts aside."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Log the biscuit measurement and unplug the food processor",
+   "action_ids": [
+    "P01-20240204-121042-358",
+    "P01-20240204-121042-359",
+    "P01-20240204-121042-361",
+    "P01-20240204-121042-360",
+    "P01-20240204-121042-362",
+    "P01-20240204-121042-363",
+    "P01-20240204-121042-364"
+   ],
+   "rationale": "The person writes down the biscuit measurement, then turns the food processor bowl upright and unplugs the appliance."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P01-20240204-121042-1",
+  "P01-20240204-121042-2",
+  "P01-20240204-121042-7",
+  "P01-20240204-121042-18",
+  "P01-20240204-121042-33",
+  "P01-20240204-121042-234",
+  "P01-20240204-121042-235",
+  "P01-20240204-121042-243",
+  "P01-20240204-121042-250",
+  "P01-20240204-121042-273",
+  "P01-20240204-121042-278",
+  "P01-20240204-121042-289",
+  "P01-20240204-121042-295",
+  "P01-20240204-121042-296",
+  "P01-20240204-121042-297",
+  "P01-20240204-121042-298",
+  "P01-20240204-121042-313",
+  "P01-20240204-121042-321",
+  "P01-20240204-121042-367",
+  "P01-20240204-121042-368",
+  "P01-20240204-121042-369"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

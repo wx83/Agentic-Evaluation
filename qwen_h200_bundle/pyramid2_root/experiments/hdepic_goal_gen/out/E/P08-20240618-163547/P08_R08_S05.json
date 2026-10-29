@@ -1,0 +1,23 @@
+{
+ "overall_goal": "Retrieve the tomato sauce and canned tomatoes for the sauce mixture.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve the canned tomatoes and tomato sauce from the cabinet.",
+   "action_ids": [
+    "P08-20240618-163547-64",
+    "P08-20240618-163547-65",
+    "P08-20240618-163547-66",
+    "P08-20240618-163547-67"
+   ],
+   "rationale": "The person gets the can of tomatoes and jar of tomato sauce from the cabinet and places them on the counter."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P08-20240618-163547-16"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

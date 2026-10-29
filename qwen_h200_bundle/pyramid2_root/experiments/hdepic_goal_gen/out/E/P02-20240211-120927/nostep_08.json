@@ -1,0 +1,34 @@
+{
+ "overall_goal": "Organize the kitchen workspace by rearranging food items and clearing utensils",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Rearrange the food items and plates on the countertop",
+   "action_ids": [
+    "P02-20240211-120927-1237",
+    "P02-20240211-120927-1238",
+    "P02-20240211-120927-1239",
+    "P02-20240211-120927-1242",
+    "P02-20240211-120927-1243",
+    "P02-20240211-120927-1244"
+   ],
+   "rationale": "The person moves the baguette end between plates and adjusts the positions of the plates containing food."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Move the butter knife to the sink for washing",
+   "action_ids": [
+    "P02-20240211-120927-1240",
+    "P02-20240211-120927-1241"
+   ],
+   "rationale": "The person transfers the butter knife between hands and places it by the sink to be washed."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P02-20240211-120927-1245"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

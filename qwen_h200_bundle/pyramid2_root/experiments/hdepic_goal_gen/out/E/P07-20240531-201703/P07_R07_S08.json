@@ -1,0 +1,46 @@
+{
+ "overall_goal": "Stir the salad, add the dressing, and mix everything together",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Stir the salad ingredients before adding dressing",
+   "action_ids": [
+    "P07-20240531-201703-390",
+    "P07-20240531-201703-391",
+    "P07-20240531-201703-392"
+   ],
+   "rationale": "The person prepares the salad for the dressing by stirring the ingredients together."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Open the dressing canister and scoop the dressing into the salad",
+   "action_ids": [
+    "P07-20240531-201703-393",
+    "P07-20240531-201703-394",
+    "P07-20240531-201703-395",
+    "P07-20240531-201703-396",
+    "P07-20240531-201703-397",
+    "P07-20240531-201703-398",
+    "P07-20240531-201703-399"
+   ],
+   "rationale": "The person opens the dressing container and transfers the dressing from the canister into the salad bowl."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Scrape the remaining dressing from the lid and mix the salad",
+   "action_ids": [
+    "P07-20240531-201703-400",
+    "P07-20240531-201703-401",
+    "P07-20240531-201703-402",
+    "P07-20240531-201703-403",
+    "P07-20240531-201703-404"
+   ],
+   "rationale": "The person scrapes the last bits of dressing from the lid into the bowl and then stirs everything together."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

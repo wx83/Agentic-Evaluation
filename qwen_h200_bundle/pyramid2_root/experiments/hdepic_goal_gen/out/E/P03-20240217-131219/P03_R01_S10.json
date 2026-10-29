@@ -1,0 +1,47 @@
+{
+ "overall_goal": "Simmer the curry and stir it occasionally",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Cover the pan and perform the first stir",
+   "action_ids": [
+    "P03-20240217-131219-851",
+    "P03-20240217-131219-918",
+    "P03-20240217-131219-919",
+    "P03-20240217-131219-920",
+    "P03-20240217-131219-921",
+    "P03-20240217-131219-922"
+   ],
+   "rationale": "The person covers the pan to let the food simmer, then later lifts the lid to stir the food for the first time and replaces the lid."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Stir the simmering food periodically",
+   "action_ids": [
+    "P03-20240217-131219-976",
+    "P03-20240217-131219-977",
+    "P03-20240217-131219-978",
+    "P03-20240217-131219-1021",
+    "P03-20240217-131219-1022",
+    "P03-20240217-131219-1023"
+   ],
+   "rationale": "The person stirs the simmering food two more times, tapping the spatula to remove residue and replacing the lid each time."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Perform the final stir and set the lid aside",
+   "action_ids": [
+    "P03-20240217-131219-1087",
+    "P03-20240217-131219-1088",
+    "P03-20240217-131219-1089",
+    "P03-20240217-131219-1090"
+   ],
+   "rationale": "The person lifts the lid, stirs the food again, and sets the lid aside on the chopping board instead of putting it back on the pan."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

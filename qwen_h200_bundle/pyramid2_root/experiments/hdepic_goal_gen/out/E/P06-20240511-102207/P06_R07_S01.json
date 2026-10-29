@@ -1,0 +1,51 @@
+{
+ "overall_goal": "Prepare frothed hot milk for a cappuccino.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Open the milk carton and pour milk into a cup.",
+   "action_ids": [
+    "P06-20240511-102207-371",
+    "P06-20240511-102207-372",
+    "P06-20240511-102207-376",
+    "P06-20240511-102207-377",
+    "P06-20240511-102207-378",
+    "P06-20240511-102207-379",
+    "P06-20240511-102207-382"
+   ],
+   "rationale": "The person opens the milk carton, removes the inner packaging, and pours milk into the cup."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Heat the cup of milk in the microwave.",
+   "action_ids": [
+    "P06-20240511-102207-490",
+    "P06-20240511-102207-491",
+    "P06-20240511-102207-492",
+    "P06-20240511-102207-493",
+    "P06-20240511-102207-526",
+    "P06-20240511-102207-527",
+    "P06-20240511-102207-528"
+   ],
+   "rationale": "The person places the cup of milk into the microwave to heat it and subsequently retrieves it."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Froth the heated milk using a milk frother.",
+   "action_ids": [
+    "P06-20240511-102207-529",
+    "P06-20240511-102207-530",
+    "P06-20240511-102207-531",
+    "P06-20240511-102207-532",
+    "P06-20240511-102207-533",
+    "P06-20240511-102207-534"
+   ],
+   "rationale": "The person picks up the milk frother, positions the cup, and turns on the frother to make froth in the milk."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

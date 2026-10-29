@@ -1,0 +1,208 @@
+{
+ "overall_goal": "Perform various preparatory tasks including washing a saucepan, adding salt to a pot, filling the kettle, and weighing ginger",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Wash and dry the red saucepan",
+   "action_ids": [
+    "P09-20240622-150155-324",
+    "P09-20240622-150155-325",
+    "P09-20240622-150155-326",
+    "P09-20240622-150155-327",
+    "P09-20240622-150155-328",
+    "P09-20240622-150155-329",
+    "P09-20240622-150155-330",
+    "P09-20240622-150155-331",
+    "P09-20240622-150155-332",
+    "P09-20240622-150155-333",
+    "P09-20240622-150155-334",
+    "P09-20240622-150155-335"
+   ],
+   "rationale": "The person scrubs, rinses, empties, and dries the red saucepan using a sponge and a hand towel."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Place the red saucepan on the hob",
+   "action_ids": [
+    "P09-20240622-150155-336",
+    "P09-20240622-150155-337",
+    "P09-20240622-150155-338",
+    "P09-20240622-150155-339"
+   ],
+   "rationale": "The person makes room on the hob and places the newly washed red saucepan onto it."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P09-20240622-150155-344",
+    "P09-20240622-150155-345",
+    "P09-20240622-150155-346",
+    "P09-20240622-150155-347",
+    "P09-20240622-150155-348",
+    "P09-20240622-150155-349",
+    "P09-20240622-150155-350",
+    "P09-20240622-150155-351",
+    "P09-20240622-150155-352"
+   ],
+   "rationale": "The person walks to the sink, uses washing liquid to wash their hands, rinses them, and dries them with a hand towel."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Add salt to the pot",
+   "action_ids": [
+    "P09-20240622-150155-357",
+    "P09-20240622-150155-358",
+    "P09-20240622-150155-359",
+    "P09-20240622-150155-360",
+    "P09-20240622-150155-361",
+    "P09-20240622-150155-362",
+    "P09-20240622-150155-363",
+    "P09-20240622-150155-364",
+    "P09-20240622-150155-365",
+    "P09-20240622-150155-366",
+    "P09-20240622-150155-367",
+    "P09-20240622-150155-368",
+    "P09-20240622-150155-369",
+    "P09-20240622-150155-370",
+    "P09-20240622-150155-371",
+    "P09-20240622-150155-372",
+    "P09-20240622-150155-373"
+   ],
+   "rationale": "The person retrieves salt from the cabinet and a tablespoon from the drawer, measures salt into the spoon, pours it into the pot, and returns the items."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Prepare and handle potatoes for peeling",
+   "action_ids": [
+    "P09-20240622-150155-353",
+    "P09-20240622-150155-374",
+    "P09-20240622-150155-375",
+    "P09-20240622-150155-376",
+    "P09-20240622-150155-377",
+    "P09-20240622-150155-416",
+    "P09-20240622-150155-417",
+    "P09-20240622-150155-418",
+    "P09-20240622-150155-420"
+   ],
+   "rationale": "The person repeatedly picks up raw potatoes and a potato peeler to prepare for peeling, eventually placing the peeled potato down."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Fill and turn on the electric kettle",
+   "action_ids": [
+    "P09-20240622-150155-402",
+    "P09-20240622-150155-408",
+    "P09-20240622-150155-409",
+    "P09-20240622-150155-410",
+    "P09-20240622-150155-411",
+    "P09-20240622-150155-412",
+    "P09-20240622-150155-413",
+    "P09-20240622-150155-414",
+    "P09-20240622-150155-415"
+   ],
+   "rationale": "The person takes the electric kettle to the sink, fills it with tap water, closes it, places it back on the counter, and turns it on."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Cover the saucepan",
+   "action_ids": [
+    "P09-20240622-150155-421",
+    "P09-20240622-150155-422",
+    "P09-20240622-150155-423",
+    "P09-20240622-150155-424"
+   ],
+   "rationale": "The person retrieves a saucepan cover from the dish rack and places it over the saucepan on the counter."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Retrieve ginger from the bag",
+   "action_ids": [
+    "P09-20240622-150155-425",
+    "P09-20240622-150155-426",
+    "P09-20240622-150155-427",
+    "P09-20240622-150155-428",
+    "P09-20240622-150155-429",
+    "P09-20240622-150155-431",
+    "P09-20240622-150155-432",
+    "P09-20240622-150155-430",
+    "P09-20240622-150155-433",
+    "P09-20240622-150155-434",
+    "P09-20240622-150155-435"
+   ],
+   "rationale": "The person locates the bag of ginger, opens it, rummages through it, and breaks off a chunk of ginger to use."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Prepare the scale for weighing ginger",
+   "action_ids": [
+    "P09-20240622-150155-436",
+    "P09-20240622-150155-437",
+    "P09-20240622-150155-438",
+    "P09-20240622-150155-439",
+    "P09-20240622-150155-440",
+    "P09-20240622-150155-441",
+    "P09-20240622-150155-442",
+    "P09-20240622-150155-443"
+   ],
+   "rationale": "The person clears the counter, turns on the scale, cleans its surface with a towel, and resets it to zero."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Place and adjust ginger on the scale",
+   "action_ids": [
+    "P09-20240622-150155-444",
+    "P09-20240622-150155-445",
+    "P09-20240622-150155-446",
+    "P09-20240622-150155-447",
+    "P09-20240622-150155-448",
+    "P09-20240622-150155-449",
+    "P09-20240622-150155-451",
+    "P09-20240622-150155-450",
+    "P09-20240622-150155-452",
+    "P09-20240622-150155-453",
+    "P09-20240622-150155-454",
+    "P09-20240622-150155-455",
+    "P09-20240622-150155-456",
+    "P09-20240622-150155-457",
+    "P09-20240622-150155-458",
+    "P09-20240622-150155-459"
+   ],
+   "rationale": "The person repeatedly places bits of ginger on the scale, removes them, resets the scale, and splits the ginger to adjust the weight."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Cut and finalize the ginger weight",
+   "action_ids": [
+    "P09-20240622-150155-461",
+    "P09-20240622-150155-460",
+    "P09-20240622-150155-462",
+    "P09-20240622-150155-463",
+    "P09-20240622-150155-464",
+    "P09-20240622-150155-465",
+    "P09-20240622-150155-466",
+    "P09-20240622-150155-467",
+    "P09-20240622-150155-468",
+    "P09-20240622-150155-469"
+   ],
+   "rationale": "The person retrieves the bag of ginger again, cuts a new piece, places it on the scale, and returns the excess to the bag to reach the final weight."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P09-20240622-150155-340",
+  "P09-20240622-150155-341",
+  "P09-20240622-150155-342",
+  "P09-20240622-150155-343",
+  "P09-20240622-150155-391",
+  "P09-20240622-150155-392",
+  "P09-20240622-150155-393",
+  "P09-20240622-150155-394",
+  "P09-20240622-150155-395",
+  "P09-20240622-150155-400",
+  "P09-20240622-150155-401"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

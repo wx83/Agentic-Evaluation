@@ -1,0 +1,153 @@
+{
+ "overall_goal": "Prepare the yogurt sauce by combining and mixing all the required ingredients in a bowl",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Wash and dry the mixing bowl",
+   "action_ids": [
+    "P04-20240413-151722-39",
+    "P04-20240413-151722-40",
+    "P04-20240413-151722-41",
+    "P04-20240413-151722-42",
+    "P04-20240413-151722-43",
+    "P04-20240413-151722-44",
+    "P04-20240413-151722-45",
+    "P04-20240413-151722-46",
+    "P04-20240413-151722-47"
+   ],
+   "rationale": "The person rinses the bowl with water and dries it with a cloth to prepare it for mixing ingredients."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Set up the workspace and gather ingredients",
+   "action_ids": [
+    "P04-20240413-151722-48",
+    "P04-20240413-151722-49",
+    "P04-20240413-151722-50",
+    "P04-20240413-151722-51",
+    "P04-20240413-151722-61",
+    "P04-20240413-151722-62",
+    "P04-20240413-151722-65",
+    "P04-20240413-151722-66",
+    "P04-20240413-151722-67",
+    "P04-20240413-151722-68",
+    "P04-20240413-151722-69",
+    "P04-20240413-151722-74",
+    "P04-20240413-151722-75",
+    "P04-20240413-151722-76"
+   ],
+   "rationale": "The person places the bowl on the weighing scale and retrieves the necessary ingredients like yogurt, Sriracha, salt, and pepper."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Add yogurt to the mixing bowl",
+   "action_ids": [
+    "P04-20240413-151722-77",
+    "P04-20240413-151722-78",
+    "P04-20240413-151722-79",
+    "P04-20240413-151722-81",
+    "P04-20240413-151722-82",
+    "P04-20240413-151722-83",
+    "P04-20240413-151722-84",
+    "P04-20240413-151722-85",
+    "P04-20240413-151722-86",
+    "P04-20240413-151722-87",
+    "P04-20240413-151722-88",
+    "P04-20240413-151722-89",
+    "P04-20240413-151722-90"
+   ],
+   "rationale": "The person opens the yogurt container and scoops multiple spoonfuls of yogurt into the bowl on the scale."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Add Sriracha sauce to the mixing bowl",
+   "action_ids": [
+    "P04-20240413-151722-106",
+    "P04-20240413-151722-107",
+    "P04-20240413-151722-108",
+    "P04-20240413-151722-109",
+    "P04-20240413-151722-110",
+    "P04-20240413-151722-111",
+    "P04-20240413-151722-112",
+    "P04-20240413-151722-113",
+    "P04-20240413-151722-114",
+    "P04-20240413-151722-115",
+    "P04-20240413-151722-116",
+    "P04-20240413-151722-117"
+   ],
+   "rationale": "The person retrieves a fresh spoon and uses it to measure and add Sriracha sauce to the yogurt."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Add salt and pepper to the mixing bowl",
+   "action_ids": [
+    "P04-20240413-151722-118",
+    "P04-20240413-151722-123",
+    "P04-20240413-151722-124",
+    "P04-20240413-151722-125",
+    "P04-20240413-151722-126",
+    "P04-20240413-151722-127",
+    "P04-20240413-151722-128",
+    "P04-20240413-151722-129",
+    "P04-20240413-151722-130",
+    "P04-20240413-151722-131",
+    "P04-20240413-151722-132"
+   ],
+   "rationale": "The person gets another spoon and adds measured amounts of pink salt and ground pepper to the mixture."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Open and add parsley to the mixing bowl",
+   "action_ids": [
+    "P04-20240413-151722-135",
+    "P04-20240413-151722-136",
+    "P04-20240413-151722-137",
+    "P04-20240413-151722-138",
+    "P04-20240413-151722-139",
+    "P04-20240413-151722-140",
+    "P04-20240413-151722-141",
+    "P04-20240413-151722-142",
+    "P04-20240413-151722-143",
+    "P04-20240413-151722-144",
+    "P04-20240413-151722-145",
+    "P04-20240413-151722-146"
+   ],
+   "rationale": "The person removes the plastic seal from the parsley jar, opens it, and taps parsley into the bowl."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Prepare and add lemon juice to the mixing bowl",
+   "action_ids": [
+    "P04-20240413-151722-24",
+    "P04-20240413-151722-25",
+    "P04-20240413-151722-151",
+    "P04-20240413-151722-152",
+    "P04-20240413-151722-153",
+    "P04-20240413-151722-154",
+    "P04-20240413-151722-155",
+    "P04-20240413-151722-156",
+    "P04-20240413-151722-157",
+    "P04-20240413-151722-158",
+    "P04-20240413-151722-159",
+    "P04-20240413-151722-160",
+    "P04-20240413-151722-161"
+   ],
+   "rationale": "The person cuts a lemon, removes its seeds, and squeezes the juice into the sauce mixture."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Mix the sauce ingredients together",
+   "action_ids": [
+    "P04-20240413-151722-165",
+    "P04-20240413-151722-166",
+    "P04-20240413-151722-167"
+   ],
+   "rationale": "The person stirs the combined ingredients in the bowl to create a smooth and uniform sauce."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,243 @@
+{
+ "overall_goal": "Organize ingredients, weigh items, retrieve utensils, wash hands, and clean up the workspace.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Clear the electric hob and sink area.",
+   "action_ids": [
+    "P04-20240413-151722-2",
+    "P04-20240413-151722-3",
+    "P04-20240413-151722-4",
+    "P04-20240413-151722-5",
+    "P04-20240413-151722-6",
+    "P04-20240413-151722-7",
+    "P04-20240413-151722-8"
+   ],
+   "rationale": "The person turns off the electric hob, moves the pan, and places the spatula in the sink to clear the workspace."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Organize ingredients to set up a wrap-making station.",
+   "action_ids": [
+    "P04-20240413-151722-10",
+    "P04-20240413-151722-11",
+    "P04-20240413-151722-12",
+    "P04-20240413-151722-13",
+    "P04-20240413-151722-14",
+    "P04-20240413-151722-15",
+    "P04-20240413-151722-16",
+    "P04-20240413-151722-17"
+   ],
+   "rationale": "The person gathers bowls of lettuce, chicken, tomato, and onion, placing them together to create a centralized station for making wraps."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Weigh the cut lemon and record its weight.",
+   "action_ids": [
+    "P04-20240413-151722-18",
+    "P04-20240413-151722-19",
+    "P04-20240413-151722-20",
+    "P04-20240413-151722-21",
+    "P04-20240413-151722-22",
+    "P04-20240413-151722-23",
+    "P04-20240413-151722-26",
+    "P04-20240413-151722-27",
+    "P04-20240413-151722-28",
+    "P04-20240413-151722-29",
+    "P04-20240413-151722-30",
+    "P04-20240413-151722-31",
+    "P04-20240413-151722-32",
+    "P04-20240413-151722-33",
+    "P04-20240413-151722-34",
+    "P04-20240413-151722-35"
+   ],
+   "rationale": "The person sets up the weighing scale, places a cut lemon on it, and notes down the measured weight in a notebook."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Retrieve a serving bowl from the cabinet.",
+   "action_ids": [
+    "P04-20240413-151722-36",
+    "P04-20240413-151722-37",
+    "P04-20240413-151722-38"
+   ],
+   "rationale": "The person opens the cabinet, takes out a white serving bowl, and closes the cabinet door."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Troubleshoot and reset the kitchen weighing scale.",
+   "action_ids": [
+    "P04-20240413-151722-52",
+    "P04-20240413-151722-53",
+    "P04-20240413-151722-54",
+    "P04-20240413-151722-55",
+    "P04-20240413-151722-56",
+    "P04-20240413-151722-57",
+    "P04-20240413-151722-58"
+   ],
+   "rationale": "The person moves items to make space and repeatedly presses buttons on the weighing scale to reset it to zero after it fails to register."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Retrieve Sriracha sauce and yogurt from storage.",
+   "action_ids": [
+    "P04-20240413-151722-59",
+    "P04-20240413-151722-60",
+    "P04-20240413-151722-63",
+    "P04-20240413-151722-64"
+   ],
+   "rationale": "The person opens the lower shelf and refrigerator to take out the Sriracha sauce and a container of yogurt."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Retrieve a teaspoon and scoop yogurt.",
+   "action_ids": [
+    "P04-20240413-151722-70",
+    "P04-20240413-151722-71",
+    "P04-20240413-151722-72",
+    "P04-20240413-151722-73",
+    "P04-20240413-151722-80",
+    "P04-20240413-151722-91",
+    "P04-20240413-151722-92"
+   ],
+   "rationale": "The person opens the cutlery drawer, selects a teaspoon, and uses it to scoop yogurt from the container."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Wash and dry hands.",
+   "action_ids": [
+    "P04-20240413-151722-93",
+    "P04-20240413-151722-94",
+    "P04-20240413-151722-95",
+    "P04-20240413-151722-96",
+    "P04-20240413-151722-97",
+    "P04-20240413-151722-98",
+    "P04-20240413-151722-99"
+   ],
+   "rationale": "The person turns on the tap, washes their hands, and dries them using a kitchen rag."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Record the weight of the yogurt.",
+   "action_ids": [
+    "P04-20240413-151722-101",
+    "P04-20240413-151722-102",
+    "P04-20240413-151722-103",
+    "P04-20240413-151722-104"
+   ],
+   "rationale": "The person picks up a marker, opens it, and writes down the weight of the yogurt in the notebook."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Retrieve a tablespoon from the cutlery drawer.",
+   "action_ids": [
+    "P04-20240413-151722-121",
+    "P04-20240413-151722-122"
+   ],
+   "rationale": "The person opens the cutlery drawer and picks up a fresh tablespoon."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Discard the squeezed lemon and seeds into the bin.",
+   "action_ids": [
+    "P04-20240413-151722-149",
+    "P04-20240413-151722-150",
+    "P04-20240413-151722-162",
+    "P04-20240413-151722-163"
+   ],
+   "rationale": "The person picks up the squeezed lemon and a spoon, throwing the lemon and shaking the seeds from the spoon into the rubbish bin."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Turn off and put away the weighing scale.",
+   "action_ids": [
+    "P04-20240413-151722-168",
+    "P04-20240413-151722-169",
+    "P04-20240413-151722-170"
+   ],
+   "rationale": "The person turns off the electronic weighing scale and moves it to the corner of the chopping board."
+  },
+  {
+   "goal_id": "e13",
+   "description": "Wash and dry hands again.",
+   "action_ids": [
+    "P04-20240413-151722-171",
+    "P04-20240413-151722-172",
+    "P04-20240413-151722-173",
+    "P04-20240413-151722-174",
+    "P04-20240413-151722-175",
+    "P04-20240413-151722-176",
+    "P04-20240413-151722-177",
+    "P04-20240413-151722-185"
+   ],
+   "rationale": "The person washes their hands under the tap, shakes off excess water, and dries them with a kitchen rag, also wiping off dirt."
+  },
+  {
+   "goal_id": "e14",
+   "description": "Gather and stack used cutlery.",
+   "action_ids": [
+    "P04-20240413-151722-178",
+    "P04-20240413-151722-179",
+    "P04-20240413-151722-180",
+    "P04-20240413-151722-181",
+    "P04-20240413-151722-182",
+    "P04-20240413-151722-183"
+   ],
+   "rationale": "The person collects used tablespoons, a fork, and a knife, stacking them together on the chopping board."
+  },
+  {
+   "goal_id": "e15",
+   "description": "Close and put away condiment jars into the shelf.",
+   "action_ids": [
+    "P04-20240413-151722-186",
+    "P04-20240413-151722-187",
+    "P04-20240413-151722-188",
+    "P04-20240413-151722-189",
+    "P04-20240413-151722-191",
+    "P04-20240413-151722-190",
+    "P04-20240413-151722-193",
+    "P04-20240413-151722-194",
+    "P04-20240413-151722-195",
+    "P04-20240413-151722-196",
+    "P04-20240413-151722-197",
+    "P04-20240413-151722-199",
+    "P04-20240413-151722-200",
+    "P04-20240413-151722-201",
+    "P04-20240413-151722-202",
+    "P04-20240413-151722-203"
+   ],
+   "rationale": "The person screws the caps back onto the salt and pepper jars, then places them along with the parsley jar back into the bottom shelf."
+  },
+  {
+   "goal_id": "e16",
+   "description": "Clean the yogurt spoon and add it to the used cutlery pile.",
+   "action_ids": [
+    "P04-20240413-151722-204",
+    "P04-20240413-151722-205",
+    "P04-20240413-151722-206",
+    "P04-20240413-151722-207"
+   ],
+   "rationale": "The person taps the spoon against the yogurt container to remove excess yogurt and places it on the pile of used cutlery."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P04-20240413-151722-1",
+  "P04-20240413-151722-9",
+  "P04-20240413-151722-100",
+  "P04-20240413-151722-105",
+  "P04-20240413-151722-119",
+  "P04-20240413-151722-120",
+  "P04-20240413-151722-133",
+  "P04-20240413-151722-134",
+  "P04-20240413-151722-147",
+  "P04-20240413-151722-148",
+  "P04-20240413-151722-164",
+  "P04-20240413-151722-184",
+  "P04-20240413-151722-192",
+  "P04-20240413-151722-198"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

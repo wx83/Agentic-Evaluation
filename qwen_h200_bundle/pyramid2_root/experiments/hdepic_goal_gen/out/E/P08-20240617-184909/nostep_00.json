@@ -1,0 +1,208 @@
+{
+ "overall_goal": "Record nutritional values of ingredients, weigh them, and prepare the workspace for cooking",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Preheat the oven",
+   "action_ids": [
+    "P08-20240617-184909-5",
+    "P08-20240617-184909-6",
+    "P08-20240617-184909-8",
+    "P08-20240617-184909-69"
+   ],
+   "rationale": "The person turns on the oven and adjusts the temperature to preheat it."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve fish cakes from the freezer",
+   "action_ids": [
+    "P08-20240617-184909-23",
+    "P08-20240617-184909-30",
+    "P08-20240617-184909-31",
+    "P08-20240617-184909-32",
+    "P08-20240617-184909-33"
+   ],
+   "rationale": "The person opens the freezer to grab the fish cakes and places them on the counter."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Record nutritional values of fish cakes",
+   "action_ids": [
+    "P08-20240617-184909-34",
+    "P08-20240617-184909-35",
+    "P08-20240617-184909-36",
+    "P08-20240617-184909-37",
+    "P08-20240617-184909-38",
+    "P08-20240617-184909-39",
+    "P08-20240617-184909-40",
+    "P08-20240617-184909-41",
+    "P08-20240617-184909-42",
+    "P08-20240617-184909-43",
+    "P08-20240617-184909-44",
+    "P08-20240617-184909-45",
+    "P08-20240617-184909-46",
+    "P08-20240617-184909-47",
+    "P08-20240617-184909-48",
+    "P08-20240617-184909-49",
+    "P08-20240617-184909-50"
+   ],
+   "rationale": "The person uses their phone camera to scan the barcodes of the fish cake packages and updates the nutritional values in an app."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Put away fish cakes and retrieve frozen vegetables",
+   "action_ids": [
+    "P08-20240617-184909-51",
+    "P08-20240617-184909-52",
+    "P08-20240617-184909-53",
+    "P08-20240617-184909-54",
+    "P08-20240617-184909-55",
+    "P08-20240617-184909-56"
+   ],
+   "rationale": "The person returns the fish cakes to the freezer and pulls out a bag of frozen vegetables."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Prepare workspace and scale for measuring",
+   "action_ids": [
+    "P08-20240617-184909-70",
+    "P08-20240617-184909-71",
+    "P08-20240617-184909-72",
+    "P08-20240617-184909-79",
+    "P08-20240617-184909-81",
+    "P08-20240617-184909-82",
+    "P08-20240617-184909-83",
+    "P08-20240617-184909-84",
+    "P08-20240617-184909-87",
+    "P08-20240617-184909-88",
+    "P08-20240617-184909-89"
+   ],
+   "rationale": "The person sets up a chopping board, clears space, and places the kitchen scale on the counter."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Record nutritional values and weigh frozen vegetables",
+   "action_ids": [
+    "P08-20240617-184909-85",
+    "P08-20240617-184909-90",
+    "P08-20240617-184909-91",
+    "P08-20240617-184909-92",
+    "P08-20240617-184909-93",
+    "P08-20240617-184909-94",
+    "P08-20240617-184909-95",
+    "P08-20240617-184909-96",
+    "P08-20240617-184909-97",
+    "P08-20240617-184909-98",
+    "P08-20240617-184909-99",
+    "P08-20240617-184909-100",
+    "P08-20240617-184909-101",
+    "P08-20240617-184909-102",
+    "P08-20240617-184909-103",
+    "P08-20240617-184909-104",
+    "P08-20240617-184909-105",
+    "P08-20240617-184909-106",
+    "P08-20240617-184909-107",
+    "P08-20240617-184909-108"
+   ],
+   "rationale": "The person scans the barcode of the frozen vegetables, logs the values in the app, and weighs the vegetables on the scale."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Record nutritional values of broccoli and put it away",
+   "action_ids": [
+    "P08-20240617-184909-119",
+    "P08-20240617-184909-120",
+    "P08-20240617-184909-121",
+    "P08-20240617-184909-122",
+    "P08-20240617-184909-128",
+    "P08-20240617-184909-129",
+    "P08-20240617-184909-133",
+    "P08-20240617-184909-134",
+    "P08-20240617-184909-135",
+    "P08-20240617-184909-136",
+    "P08-20240617-184909-137"
+   ],
+   "rationale": "The person scans the barcode of the frozen broccoli to log its nutritional values and then returns the bag to the freezer."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Retrieve vegetables from the refrigerator",
+   "action_ids": [
+    "P08-20240617-184909-138",
+    "P08-20240617-184909-142",
+    "P08-20240617-184909-156",
+    "P08-20240617-184909-175"
+   ],
+   "rationale": "The person opens the refrigerator to pull out fresh vegetables, such as a tomato, and brings them to the cutting board."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Clean up workspace and throw away trash",
+   "action_ids": [
+    "P08-20240617-184909-28",
+    "P08-20240617-184909-60",
+    "P08-20240617-184909-140",
+    "P08-20240617-184909-141",
+    "P08-20240617-184909-143",
+    "P08-20240617-184909-144",
+    "P08-20240617-184909-171",
+    "P08-20240617-184909-180",
+    "P08-20240617-184909-181"
+   ],
+   "rationale": "The person clears empty packaging, food scraps, and wipes down the counter to keep the workspace clean."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Record nutritional values of couscous",
+   "action_ids": [
+    "P08-20240617-184909-148",
+    "P08-20240617-184909-150",
+    "P08-20240617-184909-151",
+    "P08-20240617-184909-152",
+    "P08-20240617-184909-153",
+    "P08-20240617-184909-154",
+    "P08-20240617-184909-166",
+    "P08-20240617-184909-167"
+   ],
+   "rationale": "The person retrieves the couscous, scans its barcode with the phone, and logs the measurements in the app."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Weigh and record nutritional values of onion",
+   "action_ids": [
+    "P08-20240617-184909-182",
+    "P08-20240617-184909-183",
+    "P08-20240617-184909-184",
+    "P08-20240617-184909-185",
+    "P08-20240617-184909-186"
+   ],
+   "rationale": "The person places the onion on the scale, zeroes it out, and logs the measurements in the phone app."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P08-20240617-184909-1",
+  "P08-20240617-184909-2",
+  "P08-20240617-184909-3",
+  "P08-20240617-184909-29",
+  "P08-20240617-184909-61",
+  "P08-20240617-184909-62",
+  "P08-20240617-184909-63",
+  "P08-20240617-184909-64",
+  "P08-20240617-184909-113",
+  "P08-20240617-184909-114",
+  "P08-20240617-184909-117",
+  "P08-20240617-184909-145",
+  "P08-20240617-184909-146",
+  "P08-20240617-184909-147",
+  "P08-20240617-184909-164",
+  "P08-20240617-184909-165",
+  "P08-20240617-184909-168",
+  "P08-20240617-184909-172",
+  "P08-20240617-184909-173",
+  "P08-20240617-184909-174"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "overall_goal": "Separate the soaked mushrooms from their liquid using a colander and saucepan.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare the saucepan and colander for draining",
+   "action_ids": [
+    "P07-20240529-191007-368",
+    "P07-20240529-191007-369",
+    "P07-20240529-191007-370",
+    "P07-20240529-191007-371"
+   ],
+   "rationale": "The person retrieves a saucepan and sets it up in the sink with a colander on top to prepare for draining the mushrooms."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Drain the mushrooms into the saucepan",
+   "action_ids": [
+    "P07-20240529-191007-372",
+    "P07-20240529-191007-373",
+    "P07-20240529-191007-374",
+    "P07-20240529-191007-375",
+    "P07-20240529-191007-376"
+   ],
+   "rationale": "The person pours the soaked mushrooms and liquid from the jug into the colander, shaking it to ensure all the liquid drains into the saucepan below."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Transfer the drained mushrooms back to the jug and set aside",
+   "action_ids": [
+    "P07-20240529-191007-377",
+    "P07-20240529-191007-378",
+    "P07-20240529-191007-379",
+    "P07-20240529-191007-380",
+    "P07-20240529-191007-382"
+   ],
+   "rationale": "The person transfers the drained mushrooms back into the jug, sets the colander aside, and places the jug on the countertop."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Move the saucepan with the mushroom liquid to the hob",
+   "action_ids": [
+    "P07-20240529-191007-381",
+    "P07-20240529-191007-383"
+   ],
+   "rationale": "The person picks up the saucepan containing the reserved mushroom liquid and places it on the hob for cooking."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

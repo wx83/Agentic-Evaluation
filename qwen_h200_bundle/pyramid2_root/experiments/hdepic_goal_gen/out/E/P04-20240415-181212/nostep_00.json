@@ -1,0 +1,208 @@
+{
+ "overall_goal": "Clean utensils, weigh ingredients, and prepare the workspace for cooking",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Weigh and log the garlic",
+   "action_ids": [
+    "P04-20240415-181212-2",
+    "P04-20240415-181212-3",
+    "P04-20240415-181212-4",
+    "P04-20240415-181212-5",
+    "P04-20240415-181212-6",
+    "P04-20240415-181212-7",
+    "P04-20240415-181212-8",
+    "P04-20240415-181212-9",
+    "P04-20240415-181212-10",
+    "P04-20240415-181212-11",
+    "P04-20240415-181212-12",
+    "P04-20240415-181212-13"
+   ],
+   "rationale": "The person turns on the scale, places the garlic on it, and writes down its weight in the notebook."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Weigh and log the ginger",
+   "action_ids": [
+    "P04-20240415-181212-14",
+    "P04-20240415-181212-15",
+    "P04-20240415-181212-16",
+    "P04-20240415-181212-17",
+    "P04-20240415-181212-18",
+    "P04-20240415-181212-19",
+    "P04-20240415-181212-20",
+    "P04-20240415-181212-21",
+    "P04-20240415-181212-22",
+    "P04-20240415-181212-23"
+   ],
+   "rationale": "The person places the chopped ginger on the scale, records its weight, and then moves the ingredients back to the chopping board."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Wash the mortar and pestle",
+   "action_ids": [
+    "P04-20240415-181212-24",
+    "P04-20240415-181212-25",
+    "P04-20240415-181212-26",
+    "P04-20240415-181212-27",
+    "P04-20240415-181212-28",
+    "P04-20240415-181212-29",
+    "P04-20240415-181212-30",
+    "P04-20240415-181212-31",
+    "P04-20240415-181212-32",
+    "P04-20240415-181212-33",
+    "P04-20240415-181212-34",
+    "P04-20240415-181212-35",
+    "P04-20240415-181212-36"
+   ],
+   "rationale": "The person brings the mortar and pestle to the sink and washes them under running water to remove dirt."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Dry the mortar and pestle",
+   "action_ids": [
+    "P04-20240415-181212-37",
+    "P04-20240415-181212-38",
+    "P04-20240415-181212-39",
+    "P04-20240415-181212-40",
+    "P04-20240415-181212-41",
+    "P04-20240415-181212-42",
+    "P04-20240415-181212-43",
+    "P04-20240415-181212-44",
+    "P04-20240415-181212-45",
+    "P04-20240415-181212-47",
+    "P04-20240415-181212-48"
+   ],
+   "rationale": "The person uses a kitchen rag to thoroughly dry the washed mortar and pestle before placing them on the chopping board."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Log recently used ingredients",
+   "action_ids": [
+    "P04-20240415-181212-77",
+    "P04-20240415-181212-78",
+    "P04-20240415-181212-79",
+    "P04-20240415-181212-80"
+   ],
+   "rationale": "The person picks up the pen and writes down the ingredients and measurements in the notebook."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Clean up the chopping board and dispose of rubbish",
+   "action_ids": [
+    "P04-20240415-181212-81",
+    "P04-20240415-181212-82",
+    "P04-20240415-181212-83",
+    "P04-20240415-181212-84",
+    "P04-20240415-181212-85",
+    "P04-20240415-181212-86",
+    "P04-20240415-181212-87",
+    "P04-20240415-181212-88",
+    "P04-20240415-181212-89",
+    "P04-20240415-181212-90",
+    "P04-20240415-181212-91",
+    "P04-20240415-181212-92",
+    "P04-20240415-181212-93"
+   ],
+   "rationale": "The person gathers onion skins, chili seeds, and other unwanted bits from the chopping board and throws them into the rubbish bin."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P04-20240415-181212-94",
+    "P04-20240415-181212-95",
+    "P04-20240415-181212-96",
+    "P04-20240415-181212-97",
+    "P04-20240415-181212-98",
+    "P04-20240415-181212-99",
+    "P04-20240415-181212-100"
+   ],
+   "rationale": "After handling rubbish, the person washes their hands in the sink and dries them with a kitchen rag."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Scrape food from the mortar and pestle",
+   "action_ids": [
+    "P04-20240415-181212-101",
+    "P04-20240415-181212-105",
+    "P04-20240415-181212-106",
+    "P04-20240415-181212-107",
+    "P04-20240415-181212-108",
+    "P04-20240415-181212-109",
+    "P04-20240415-181212-110",
+    "P04-20240415-181212-111"
+   ],
+   "rationale": "The person uses a tablespoon to scrape off any remaining bits of food stuck to the pestle and the inside of the mortar."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Rearrange items on the chopping board to make space",
+   "action_ids": [
+    "P04-20240415-181212-112",
+    "P04-20240415-181212-113",
+    "P04-20240415-181212-114",
+    "P04-20240415-181212-115",
+    "P04-20240415-181212-116",
+    "P04-20240415-181212-118",
+    "P04-20240415-181212-119",
+    "P04-20240415-181212-120",
+    "P04-20240415-181212-121"
+   ],
+   "rationale": "The person moves the knife, chillies, and chopping boards around to create space for a plate of spices."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Prepare and weigh the rice",
+   "action_ids": [
+    "P04-20240415-181212-125",
+    "P04-20240415-181212-126",
+    "P04-20240415-181212-127",
+    "P04-20240415-181212-128",
+    "P04-20240415-181212-129",
+    "P04-20240415-181212-130",
+    "P04-20240415-181212-131",
+    "P04-20240415-181212-132",
+    "P04-20240415-181212-133",
+    "P04-20240415-181212-134",
+    "P04-20240415-181212-135",
+    "P04-20240415-181212-149",
+    "P04-20240415-181212-150",
+    "P04-20240415-181212-151"
+   ],
+   "rationale": "The person retrieves a serving bowl from the cabinet, places it on the scale, and weighs the rice, pouring any excess back into the bag."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Measure and log water",
+   "action_ids": [
+    "P04-20240415-181212-154",
+    "P04-20240415-181212-155",
+    "P04-20240415-181212-156",
+    "P04-20240415-181212-167",
+    "P04-20240415-181212-168",
+    "P04-20240415-181212-187",
+    "P04-20240415-181212-188",
+    "P04-20240415-181212-189",
+    "P04-20240415-181212-190"
+   ],
+   "rationale": "The person gets a measuring jug, checks the water level, and writes down the measurement in the notebook."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P04-20240415-181212-1",
+  "P04-20240415-181212-46",
+  "P04-20240415-181212-49",
+  "P04-20240415-181212-64",
+  "P04-20240415-181212-76",
+  "P04-20240415-181212-117",
+  "P04-20240415-181212-122",
+  "P04-20240415-181212-123",
+  "P04-20240415-181212-124",
+  "P04-20240415-181212-186"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "overall_goal": "Prepare, weigh, and grate the cheese",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare and weigh the cheese",
+   "action_ids": [
+    "P07-20240529-194518-153",
+    "P07-20240529-194518-154",
+    "P07-20240529-194518-155",
+    "P07-20240529-194518-156",
+    "P07-20240529-194518-157",
+    "P07-20240529-194518-158",
+    "P07-20240529-194518-159",
+    "P07-20240529-194518-177",
+    "P07-20240529-194518-178",
+    "P07-20240529-194518-179",
+    "P07-20240529-194518-180",
+    "P07-20240529-194518-181",
+    "P07-20240529-194518-182",
+    "P07-20240529-194518-183",
+    "P07-20240529-194518-184",
+    "P07-20240529-194518-185",
+    "P07-20240529-194518-186"
+   ],
+   "rationale": "The person retrieves the cheese, unpacks it, and cuts it into pieces to weigh on the digital scales."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Set up the grating station",
+   "action_ids": [
+    "P07-20240529-194518-225",
+    "P07-20240529-194518-226",
+    "P07-20240529-194518-230",
+    "P07-20240529-194518-231"
+   ],
+   "rationale": "The person retrieves the cheese grater and sets up a small bowl to catch the grated cheese."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Grate the cheese into the bowl",
+   "action_ids": [
+    "P07-20240529-194518-232",
+    "P07-20240529-194518-233",
+    "P07-20240529-194518-234",
+    "P07-20240529-194518-235",
+    "P07-20240529-194518-236",
+    "P07-20240529-194518-237",
+    "P07-20240529-194518-238",
+    "P07-20240529-194518-239",
+    "P07-20240529-194518-240",
+    "P07-20240529-194518-241",
+    "P07-20240529-194518-243",
+    "P07-20240529-194518-244",
+    "P07-20240529-194518-245",
+    "P07-20240529-194518-246",
+    "P07-20240529-194518-247",
+    "P07-20240529-194518-248",
+    "P07-20240529-194518-249",
+    "P07-20240529-194518-250"
+   ],
+   "rationale": "The person grates the weighed pieces of cheese into the bowl and cleans off the grater."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P07-20240529-194518-242"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "overall_goal": "Prepare an onion by peeling and finely dicing it",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve an onion and slice it in half",
+   "action_ids": [
+    "P03-20240218-190556-411",
+    "P03-20240218-190556-412",
+    "P03-20240218-190556-413",
+    "P03-20240218-190556-414",
+    "P03-20240218-190556-415",
+    "P03-20240218-190556-416"
+   ],
+   "rationale": "The person gets an onion from a bag, places it on the chopping board, and cuts it in half with a knife."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Peel the skin off both onion halves",
+   "action_ids": [
+    "P03-20240218-190556-417",
+    "P03-20240218-190556-418",
+    "P03-20240218-190556-419",
+    "P03-20240218-190556-423",
+    "P03-20240218-190556-424"
+   ],
+   "rationale": "The person removes the skin from both halves of the onion, wipes off any remaining bits, and places the peeled halves on the board."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Trim the top and bottom ends of the onion halves",
+   "action_ids": [
+    "P03-20240218-190556-425",
+    "P03-20240218-190556-426",
+    "P03-20240218-190556-427",
+    "P03-20240218-190556-428",
+    "P03-20240218-190556-429",
+    "P03-20240218-190556-430",
+    "P03-20240218-190556-431",
+    "P03-20240218-190556-432",
+    "P03-20240218-190556-433"
+   ],
+   "rationale": "The person uses a knife to chop off the ends of the onion halves, wiping the blade and discarding the scraps."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Slice the onion halves into thin strips",
+   "action_ids": [
+    "P03-20240218-190556-434",
+    "P03-20240218-190556-435",
+    "P03-20240218-190556-436",
+    "P03-20240218-190556-437",
+    "P03-20240218-190556-438"
+   ],
+   "rationale": "The person turns the onion halves and slices them lengthwise into strips in preparation for dicing."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Dice the sliced onion into fine chunks",
+   "action_ids": [
+    "P03-20240218-190556-439",
+    "P03-20240218-190556-440",
+    "P03-20240218-190556-441",
+    "P03-20240218-190556-442",
+    "P03-20240218-190556-443",
+    "P03-20240218-190556-444",
+    "P03-20240218-190556-445",
+    "P03-20240218-190556-446",
+    "P03-20240218-190556-447",
+    "P03-20240218-190556-448"
+   ],
+   "rationale": "The person cuts the sliced onion in the opposite direction to create small chunks, discards the root, and chops any remaining large pieces to ensure uniform size."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "overall_goal": "Cover the pressure cooker and place the whistle to cook the rice",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Close and seal the pressure cooker and attach the whistle",
+   "action_ids": [
+    "P04-20240415-181212-487",
+    "P04-20240415-181212-488",
+    "P04-20240415-181212-489",
+    "P04-20240415-181212-490",
+    "P04-20240415-181212-491"
+   ],
+   "rationale": "The person repositions the cooker, places and seals the lid, and attaches the whistle to prepare for pressure cooking."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,208 @@
+{
+ "overall_goal": "Perform various preparatory tasks including gathering ingredients, weighing, note-taking, and organizing the workspace",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Gather ingredients and search for preparation tools",
+   "action_ids": [
+    "P07-20240531-201703-2",
+    "P07-20240531-201703-3",
+    "P07-20240531-201703-15",
+    "P07-20240531-201703-16",
+    "P07-20240531-201703-17",
+    "P07-20240531-201703-18",
+    "P07-20240531-201703-19",
+    "P07-20240531-201703-20",
+    "P07-20240531-201703-21",
+    "P07-20240531-201703-22",
+    "P07-20240531-201703-23",
+    "P07-20240531-201703-24",
+    "P07-20240531-201703-25",
+    "P07-20240531-201703-26"
+   ],
+   "rationale": "The person brings ingredients to the front of the counter and searches through drawers and the dishwasher for a peeler and a suitable knife."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Set up the digital scale and weigh sweet potatoes",
+   "action_ids": [
+    "P07-20240531-201703-52",
+    "P07-20240531-201703-53",
+    "P07-20240531-201703-54",
+    "P07-20240531-201703-55",
+    "P07-20240531-201703-56",
+    "P07-20240531-201703-59",
+    "P07-20240531-201703-60",
+    "P07-20240531-201703-61"
+   ],
+   "rationale": "The person retrieves the digital scale, turns it on, and prepares to weigh the sweet potatoes by adjusting the scale's settings."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Transfer sweet potatoes between the bowl and baking tray",
+   "action_ids": [
+    "P07-20240531-201703-68",
+    "P07-20240531-201703-72",
+    "P07-20240531-201703-73",
+    "P07-20240531-201703-74",
+    "P07-20240531-201703-75",
+    "P07-20240531-201703-76",
+    "P07-20240531-201703-77"
+   ],
+   "rationale": "The person pours sweet potato chunks onto a baking tray and then scoops them back into the bowl."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Retrieve oil, nuts, spices, and manage measuring utensils",
+   "action_ids": [
+    "P07-20240531-201703-78",
+    "P07-20240531-201703-79",
+    "P07-20240531-201703-81",
+    "P07-20240531-201703-82",
+    "P07-20240531-201703-93",
+    "P07-20240531-201703-100",
+    "P07-20240531-201703-101",
+    "P07-20240531-201703-102",
+    "P07-20240531-201703-103",
+    "P07-20240531-201703-104",
+    "P07-20240531-201703-105",
+    "P07-20240531-201703-106",
+    "P07-20240531-201703-107",
+    "P07-20240531-201703-108",
+    "P07-20240531-201703-117",
+    "P07-20240531-201703-123",
+    "P07-20240531-201703-124",
+    "P07-20240531-201703-125",
+    "P07-20240531-201703-126"
+   ],
+   "rationale": "The person gathers various ingredients like oil, nuts, and spices from drawers, and handles measuring spoons to ensure all ingredients are properly transferred."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Read the recipe and make notes",
+   "action_ids": [
+    "P07-20240531-201703-65",
+    "P07-20240531-201703-66",
+    "P07-20240531-201703-67",
+    "P07-20240531-201703-86",
+    "P07-20240531-201703-94",
+    "P07-20240531-201703-95",
+    "P07-20240531-201703-97",
+    "P07-20240531-201703-98",
+    "P07-20240531-201703-99",
+    "P07-20240531-201703-139",
+    "P07-20240531-201703-140",
+    "P07-20240531-201703-141",
+    "P07-20240531-201703-142",
+    "P07-20240531-201703-143",
+    "P07-20240531-201703-144"
+   ],
+   "rationale": "The person repeatedly reads the recipe, makes notes on a piece of paper, and fixes a broken pen to continue writing."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Put away the oil and spice jars",
+   "action_ids": [
+    "P07-20240531-201703-145",
+    "P07-20240531-201703-146",
+    "P07-20240531-201703-147",
+    "P07-20240531-201703-148",
+    "P07-20240531-201703-149",
+    "P07-20240531-201703-150",
+    "P07-20240531-201703-152",
+    "P07-20240531-201703-153",
+    "P07-20240531-201703-154",
+    "P07-20240531-201703-155",
+    "P07-20240531-201703-156",
+    "P07-20240531-201703-157",
+    "P07-20240531-201703-158"
+   ],
+   "rationale": "The person secures the lids on the spice jars and returns them, along with the oil bottle, to their respective drawers."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Retrieve and assemble the blender",
+   "action_ids": [
+    "P07-20240531-201703-159",
+    "P07-20240531-201703-160",
+    "P07-20240531-201703-161",
+    "P07-20240531-201703-162",
+    "P07-20240531-201703-163"
+   ],
+   "rationale": "The person takes the blender parts out of the cupboard, plugs the base into a power outlet, and assembles the canister on top."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Clear the chopping board and prepare the avocado",
+   "action_ids": [
+    "P07-20240531-201703-171",
+    "P07-20240531-201703-172",
+    "P07-20240531-201703-173",
+    "P07-20240531-201703-191",
+    "P07-20240531-201703-192"
+   ],
+   "rationale": "The person pushes debris aside to make room on the chopping board, opens the avocado packaging, and transfers the avocado into the blender canister."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Operate the weighing scales and handle ingredients",
+   "action_ids": [
+    "P07-20240531-201703-221",
+    "P07-20240531-201703-222",
+    "P07-20240531-201703-237",
+    "P07-20240531-201703-238",
+    "P07-20240531-201703-239",
+    "P07-20240531-201703-248",
+    "P07-20240531-201703-264",
+    "P07-20240531-201703-265"
+   ],
+   "rationale": "The person repeatedly presses buttons on the digital scales to zero the weight, moves packaging out of the way, and weighs a clove of garlic."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Retrieve a large bowl, tins of ingredients, and clean up sweetcorn",
+   "action_ids": [
+    "P07-20240531-201703-196",
+    "P07-20240531-201703-197",
+    "P07-20240531-201703-198",
+    "P07-20240531-201703-228",
+    "P07-20240531-201703-288",
+    "P07-20240531-201703-289",
+    "P07-20240531-201703-290",
+    "P07-20240531-201703-324",
+    "P07-20240531-201703-325",
+    "P07-20240531-201703-332",
+    "P07-20240531-201703-333"
+   ],
+   "rationale": "The person searches cupboards and the fridge to retrieve a large bowl and tins of beans and sweetcorn, then cleans up spilled sweetcorn."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Continue reading the recipe and making notes",
+   "action_ids": [
+    "P07-20240531-201703-194",
+    "P07-20240531-201703-195",
+    "P07-20240531-201703-219",
+    "P07-20240531-201703-220",
+    "P07-20240531-201703-227",
+    "P07-20240531-201703-247",
+    "P07-20240531-201703-287",
+    "P07-20240531-201703-317"
+   ],
+   "rationale": "The person continues to consult the recipe and write down notes on the piece of paper."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P07-20240531-201703-1",
+  "P07-20240531-201703-96",
+  "P07-20240531-201703-151",
+  "P07-20240531-201703-193",
+  "P07-20240531-201703-218",
+  "P07-20240531-201703-268",
+  "P07-20240531-201703-327"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

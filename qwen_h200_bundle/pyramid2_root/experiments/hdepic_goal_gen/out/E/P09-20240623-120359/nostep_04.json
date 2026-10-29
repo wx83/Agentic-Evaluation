@@ -1,0 +1,222 @@
+{
+ "overall_goal": "Perform various intermediate kitchen tasks including stirring food, slicing chillies, washing utensils, and preparing ingredients",
+ "goals": [
+  {
+   "goal_id": "g1",
+   "description": "Discard onion scraps",
+   "action_ids": [
+    "P09-20240623-120359-313",
+    "P09-20240623-120359-314",
+    "P09-20240623-120359-315",
+    "P09-20240623-120359-316",
+    "P09-20240623-120359-317",
+    "P09-20240623-120359-318"
+   ],
+   "rationale": "The person walks to the food bin, opens it, and throws away the onion discards."
+  },
+  {
+   "goal_id": "g2",
+   "description": "Stir food on the hob",
+   "action_ids": [
+    "P09-20240623-120359-319",
+    "P09-20240623-120359-320",
+    "P09-20240623-120359-321",
+    "P09-20240623-120359-322",
+    "P09-20240623-120359-323",
+    "P09-20240623-120359-324",
+    "P09-20240623-120359-325",
+    "P09-20240623-120359-326",
+    "P09-20240623-120359-327",
+    "P09-20240623-120359-328"
+   ],
+   "rationale": "The person tends to the hob, stirring both the frying pan and the saucepan."
+  },
+  {
+   "goal_id": "g3",
+   "description": "Slice chillies",
+   "action_ids": [
+    "P09-20240623-120359-329",
+    "P09-20240623-120359-330",
+    "P09-20240623-120359-331",
+    "P09-20240623-120359-332",
+    "P09-20240623-120359-333",
+    "P09-20240623-120359-335",
+    "P09-20240623-120359-334"
+   ],
+   "rationale": "The person uses a knife to slice chillies on a chopping board and transfers them to a bowl."
+  },
+  {
+   "goal_id": "g4",
+   "description": "Stir the frying pan",
+   "action_ids": [
+    "P09-20240623-120359-336",
+    "P09-20240623-120359-337",
+    "P09-20240623-120359-338",
+    "P09-20240623-120359-339"
+   ],
+   "rationale": "The person returns to the hob to briefly stir the contents of the frying pan."
+  },
+  {
+   "goal_id": "g5",
+   "description": "Handle the timer",
+   "action_ids": [
+    "P09-20240623-120359-340",
+    "P09-20240623-120359-341",
+    "P09-20240623-120359-342",
+    "P09-20240623-120359-343",
+    "P09-20240623-120359-344"
+   ],
+   "rationale": "The person picks up a timer, pulls out its stand, and places it back on the counter."
+  },
+  {
+   "goal_id": "g6",
+   "description": "Wipe hands on a napkin",
+   "action_ids": [
+    "P09-20240623-120359-345",
+    "P09-20240623-120359-346",
+    "P09-20240623-120359-347",
+    "P09-20240623-120359-348"
+   ],
+   "rationale": "The person finds a napkin and uses it to wipe their hands."
+  },
+  {
+   "goal_id": "g7",
+   "description": "Rinse the mango and dry hands",
+   "action_ids": [
+    "P09-20240623-120359-351",
+    "P09-20240623-120359-352",
+    "P09-20240623-120359-353",
+    "P09-20240623-120359-354",
+    "P09-20240623-120359-355",
+    "P09-20240623-120359-356",
+    "P09-20240623-120359-357",
+    "P09-20240623-120359-358",
+    "P09-20240623-120359-359",
+    "P09-20240623-120359-360"
+   ],
+   "rationale": "The person retrieves a mango, washes it under the tap, places it on the counter, and dries their hands."
+  },
+  {
+   "goal_id": "g8",
+   "description": "Stir food on the hob",
+   "action_ids": [
+    "P09-20240623-120359-363",
+    "P09-20240623-120359-364",
+    "P09-20240623-120359-365",
+    "P09-20240623-120359-366",
+    "P09-20240623-120359-367",
+    "P09-20240623-120359-368",
+    "P09-20240623-120359-369",
+    "P09-20240623-120359-369-1",
+    "P09-20240623-120359-369-2",
+    "P09-20240623-120359-369-3",
+    "P09-20240623-120359-369-4",
+    "P09-20240623-120359-369-5",
+    "P09-20240623-120359-369-6",
+    "P09-20240623-120359-369-7",
+    "P09-20240623-120359-369-8"
+   ],
+   "rationale": "The person stirs the onions in the frying pan and the contents of the saucepan."
+  },
+  {
+   "goal_id": "g9",
+   "description": "Dry hands with a towel",
+   "action_ids": [
+    "P09-20240623-120359-369-9",
+    "P09-20240623-120359-369-10",
+    "P09-20240623-120359-369-11",
+    "P09-20240623-120359-369-12"
+   ],
+   "rationale": "The person picks up a towel near the microwave to dry their hands."
+  },
+  {
+   "goal_id": "g10",
+   "description": "Retrieve a measuring cup",
+   "action_ids": [
+    "P09-20240623-120359-369-13",
+    "P09-20240623-120359-370-2",
+    "P09-20240623-120359-370-3",
+    "P09-20240623-120359-371",
+    "P09-20240623-120359-371-2"
+   ],
+   "rationale": "The person opens drawers and cabinets to find and retrieve a measuring cup."
+  },
+  {
+   "goal_id": "g11",
+   "description": "Transfer food and wash the frying pan",
+   "action_ids": [
+    "P09-20240623-120359-372",
+    "P09-20240623-120359-372-1",
+    "P09-20240623-120359-373",
+    "P09-20240623-120359-373-1",
+    "P09-20240623-120359-373-2",
+    "P09-20240623-120359-373-3",
+    "P09-20240623-120359-373-4",
+    "P09-20240623-120359-373-5",
+    "P09-20240623-120359-373-6",
+    "P09-20240623-120359-373-7",
+    "P09-20240623-120359-374"
+   ],
+   "rationale": "The person transfers the contents of the frying pan into a bowl and then washes the empty pan in the sink."
+  },
+  {
+   "goal_id": "g12",
+   "description": "Tidy the counter",
+   "action_ids": [
+    "P09-20240623-120359-375",
+    "P09-20240623-120359-376",
+    "P09-20240623-120359-377",
+    "P09-20240623-120359-378",
+    "P09-20240623-120359-379",
+    "P09-20240623-120359-380",
+    "P09-20240623-120359-380-1",
+    "P09-20240623-120359-381",
+    "P09-20240623-120359-382",
+    "P09-20240623-120359-383",
+    "P09-20240623-120359-384",
+    "P09-20240623-120359-385",
+    "P09-20240623-120359-386",
+    "P09-20240623-120359-387",
+    "P09-20240623-120359-388",
+    "P09-20240623-120359-389",
+    "P09-20240623-120359-390",
+    "P09-20240623-120359-391",
+    "P09-20240623-120359-393"
+   ],
+   "rationale": "The person moves various items like spoons, blender parts, spice bottles, and a chopping board to clear space on the counter."
+  },
+  {
+   "goal_id": "g13",
+   "description": "Prepare yogurt and coconut milk",
+   "action_ids": [
+    "P09-20240623-120359-427",
+    "P09-20240623-120359-428",
+    "P09-20240623-120359-440",
+    "P09-20240623-120359-441",
+    "P09-20240623-120359-442",
+    "P09-20240623-120359-443",
+    "P09-20240623-120359-444",
+    "P09-20240623-120359-445",
+    "P09-20240623-120359-451",
+    "P09-20240623-120359-452",
+    "P09-20240623-120359-453",
+    "P09-20240623-120359-454",
+    "P09-20240623-120359-455",
+    "P09-20240623-120359-456",
+    "P09-20240623-120359-457",
+    "P09-20240623-120359-458"
+   ],
+   "rationale": "The person retrieves yogurt from the fridge, rinses a spoon to use with it, and handles a tin of coconut milk."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P09-20240623-120359-349",
+  "P09-20240623-120359-350",
+  "P09-20240623-120359-361",
+  "P09-20240623-120359-362"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

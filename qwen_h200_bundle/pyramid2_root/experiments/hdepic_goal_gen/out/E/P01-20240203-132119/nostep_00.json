@@ -1,0 +1,208 @@
+{
+ "overall_goal": "Prepare soup by adding water and stock, tidy the kitchen, and wash dishes",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Stir the vegetables and add hot water to the pot",
+   "action_ids": [
+    "P01-20240203-132119-1",
+    "P01-20240203-132119-2",
+    "P01-20240203-132119-3",
+    "P01-20240203-132119-4",
+    "P01-20240203-132119-5",
+    "P01-20240203-132119-6",
+    "P01-20240203-132119-7",
+    "P01-20240203-132119-8",
+    "P01-20240203-132119-9",
+    "P01-20240203-132119-10",
+    "P01-20240203-132119-11"
+   ],
+   "rationale": "The person stirs the vegetables in the pot, then pours hot water from the kettle into the pot and stirs again."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Add a stock cube to the pot and log its nutrition",
+   "action_ids": [
+    "P01-20240203-132119-12",
+    "P01-20240203-132119-13",
+    "P01-20240203-132119-14",
+    "P01-20240203-132119-15",
+    "P01-20240203-132119-16",
+    "P01-20240203-132119-17",
+    "P01-20240203-132119-18",
+    "P01-20240203-132119-19",
+    "P01-20240203-132119-20",
+    "P01-20240203-132119-21",
+    "P01-20240203-132119-22",
+    "P01-20240203-132119-23"
+   ],
+   "rationale": "The person retrieves a stock cube, unwraps it, adds it to the pot, and writes down its nutrition information."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Stir the pot to dissolve the stock cube",
+   "action_ids": [
+    "P01-20240203-132119-24",
+    "P01-20240203-132119-25",
+    "P01-20240203-132119-26",
+    "P01-20240203-132119-27"
+   ],
+   "rationale": "The person uses a spatula to stir the contents of the pot to dissolve the newly added stock cube."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Clean up a fallen piece of carrot",
+   "action_ids": [
+    "P01-20240203-132119-28",
+    "P01-20240203-132119-29",
+    "P01-20240203-132119-30",
+    "P01-20240203-132119-31",
+    "P01-20240203-132119-32",
+    "P01-20240203-132119-33",
+    "P01-20240203-132119-34",
+    "P01-20240203-132119-35"
+   ],
+   "rationale": "The person notices a piece of carrot on the hob, moves a mug out of the way, picks up the carrot, and throws it in the food waste bin."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Stir the contents of the pot",
+   "action_ids": [
+    "P01-20240203-132119-36",
+    "P01-20240203-132119-37",
+    "P01-20240203-132119-38",
+    "P01-20240203-132119-39",
+    "P01-20240203-132119-40"
+   ],
+   "rationale": "The person picks up the spatula again and stirs the soup in the pot."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Find a fitting lid, cover the pot, and adjust the heat",
+   "action_ids": [
+    "P01-20240203-132119-41",
+    "P01-20240203-132119-42",
+    "P01-20240203-132119-43",
+    "P01-20240203-132119-44",
+    "P01-20240203-132119-45",
+    "P01-20240203-132119-46",
+    "P01-20240203-132119-47",
+    "P01-20240203-132119-48",
+    "P01-20240203-132119-49",
+    "P01-20240203-132119-50",
+    "P01-20240203-132119-51",
+    "P01-20240203-132119-52",
+    "P01-20240203-132119-53",
+    "P01-20240203-132119-54"
+   ],
+   "rationale": "The person searches through the cupboard for a lid that fits the pot, covers it, and lowers the heat to let it simmer."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Put away the flour, a clean pot, and utensils",
+   "action_ids": [
+    "P01-20240203-132119-56",
+    "P01-20240203-132119-57",
+    "P01-20240203-132119-58",
+    "P01-20240203-132119-59",
+    "P01-20240203-132119-60",
+    "P01-20240203-132119-61",
+    "P01-20240203-132119-62",
+    "P01-20240203-132119-63",
+    "P01-20240203-132119-64",
+    "P01-20240203-132119-65",
+    "P01-20240203-132119-66"
+   ],
+   "rationale": "The person tidies up by closing a bag of flour and putting away a clean pot, ladle, and strainer into their respective storage spaces."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Put away the chicken stock, a clean pan, and tidy the countertop",
+   "action_ids": [
+    "P01-20240203-132119-67",
+    "P01-20240203-132119-68",
+    "P01-20240203-132119-69",
+    "P01-20240203-132119-70",
+    "P01-20240203-132119-71",
+    "P01-20240203-132119-72",
+    "P01-20240203-132119-73",
+    "P01-20240203-132119-74",
+    "P01-20240203-132119-75",
+    "P01-20240203-132119-76",
+    "P01-20240203-132119-77"
+   ],
+   "rationale": "The person continues tidying by storing the chicken stock in the fridge, putting a clean pan in the cupboard, and moving a thermal flask."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Prepare to wash dishes by putting on gloves and soaping the sponge",
+   "action_ids": [
+    "P01-20240203-132119-79",
+    "P01-20240203-132119-80",
+    "P01-20240203-132119-81",
+    "P01-20240203-132119-82",
+    "P01-20240203-132119-83",
+    "P01-20240203-132119-84",
+    "P01-20240203-132119-85",
+    "P01-20240203-132119-86",
+    "P01-20240203-132119-87",
+    "P01-20240203-132119-88"
+   ],
+   "rationale": "The person puts on washing gloves, wets the sponge, and applies washing up liquid to it."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Wash and rinse the bowl",
+   "action_ids": [
+    "P01-20240203-132119-89",
+    "P01-20240203-132119-90",
+    "P01-20240203-132119-91",
+    "P01-20240203-132119-92",
+    "P01-20240203-132119-93",
+    "P01-20240203-132119-94",
+    "P01-20240203-132119-95",
+    "P01-20240203-132119-96",
+    "P01-20240203-132119-97",
+    "P01-20240203-132119-98",
+    "P01-20240203-132119-99",
+    "P01-20240203-132119-101",
+    "P01-20240203-132119-100",
+    "P01-20240203-132119-102",
+    "P01-20240203-132119-103",
+    "P01-20240203-132119-104",
+    "P01-20240203-132119-105",
+    "P01-20240203-132119-106"
+   ],
+   "rationale": "The person empties the soaking bowl, scrubs it with the soapy sponge, rinses it under hot water, and places it on the drainer."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Wash and rinse the tupperware",
+   "action_ids": [
+    "P01-20240203-132119-107",
+    "P01-20240203-132119-108",
+    "P01-20240203-132119-109",
+    "P01-20240203-132119-110",
+    "P01-20240203-132119-111",
+    "P01-20240203-132119-112",
+    "P01-20240203-132119-113",
+    "P01-20240203-132119-114",
+    "P01-20240203-132119-115",
+    "P01-20240203-132119-116",
+    "P01-20240203-132119-117",
+    "P01-20240203-132119-118",
+    "P01-20240203-132119-119",
+    "P01-20240203-132119-120"
+   ],
+   "rationale": "The person rinses the tupperware, scrubs it with the sponge, rinses it again, and empties the water."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P01-20240203-132119-55",
+  "P01-20240203-132119-78"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

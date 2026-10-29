@@ -1,0 +1,41 @@
+{
+ "overall_goal": "Stir the curry and bring it to a boil",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Stir the contents of the pot and adjust the heat",
+   "action_ids": [
+    "P09-20240621-093545-657",
+    "P09-20240621-093545-710",
+    "P09-20240621-093545-730",
+    "P09-20240621-093545-760",
+    "P09-20240621-093545-761",
+    "P09-20240621-093545-762"
+   ],
+   "rationale": "The person repeatedly stirs the pot to prevent sticking and then adjusts the heat level before setting the spoon aside."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Stir the vegetables, check the heat level, and cover the pot to boil",
+   "action_ids": [
+    "P09-20240621-093545-824",
+    "P09-20240621-093545-846",
+    "P09-20240621-093545-847",
+    "P09-20240621-093545-848",
+    "P09-20240621-093545-849",
+    "P09-20240621-093545-850",
+    "P09-20240621-093545-851",
+    "P09-20240621-093545-852"
+   ],
+   "rationale": "The person stirs the pot, ensures the vegetables are submerged, checks and adjusts the heat, and finally covers the pot to let it boil."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P09-20240621-093545-658",
+  "P09-20240621-093545-825"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

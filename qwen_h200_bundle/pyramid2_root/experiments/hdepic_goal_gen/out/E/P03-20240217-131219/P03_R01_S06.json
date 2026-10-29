@@ -1,0 +1,38 @@
+{
+ "overall_goal": "Add the squash to the frying pan and fry it.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Add the squash to the frying pan and perform an initial stir.",
+   "action_ids": [
+    "P03-20240217-131219-639",
+    "P03-20240217-131219-640",
+    "P03-20240217-131219-641",
+    "P03-20240217-131219-642",
+    "P03-20240217-131219-643",
+    "P03-20240217-131219-644"
+   ],
+   "rationale": "The person pours the chunks of squash into the pan, sets the empty bowl aside, and uses a spatula to mix the squash with the onions to distribute the oil."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Fry the squash while stirring occasionally and adjusting the heat.",
+   "action_ids": [
+    "P03-20240217-131219-678",
+    "P03-20240217-131219-679",
+    "P03-20240217-131219-680",
+    "P03-20240217-131219-681",
+    "P03-20240217-131219-682",
+    "P03-20240217-131219-699",
+    "P03-20240217-131219-700",
+    "P03-20240217-131219-701"
+   ],
+   "rationale": "The person continues to cook the squash, adjusting the hob temperature and periodically stirring the food to ensure even cooking and prevent sticking."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

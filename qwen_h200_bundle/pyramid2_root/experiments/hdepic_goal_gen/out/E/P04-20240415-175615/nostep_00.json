@@ -1,0 +1,215 @@
+{
+ "overall_goal": "Prepare the workspace, retrieve ingredients, and weigh spices for cooking",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P04-20240415-175615-1",
+    "P04-20240415-175615-2",
+    "P04-20240415-175615-3",
+    "P04-20240415-175615-4",
+    "P04-20240415-175615-5",
+    "P04-20240415-175615-6",
+    "P04-20240415-175615-7",
+    "P04-20240415-175615-8",
+    "P04-20240415-175615-9",
+    "P04-20240415-175615-10"
+   ],
+   "rationale": "The person turns on the tap, washes their hands with soap, and dries them with a kitchen towel."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve chopping board and open cabinets",
+   "action_ids": [
+    "P04-20240415-175615-11",
+    "P04-20240415-175615-12",
+    "P04-20240415-175615-15",
+    "P04-20240415-175615-16",
+    "P04-20240415-175615-31"
+   ],
+   "rationale": "The person opens drawers and cabinets to take out a plastic chopping board and adjusts it on the counter."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Retrieve ingredients and tools from fridge and cabinets",
+   "action_ids": [
+    "P04-20240415-175615-36",
+    "P04-20240415-175615-37",
+    "P04-20240415-175615-41",
+    "P04-20240415-175615-42",
+    "P04-20240415-175615-48",
+    "P04-20240415-175615-49",
+    "P04-20240415-175615-61",
+    "P04-20240415-175615-62",
+    "P04-20240415-175615-67",
+    "P04-20240415-175615-69",
+    "P04-20240415-175615-70",
+    "P04-20240415-175615-76"
+   ],
+   "rationale": "The person gathers various items including ghee, pepper, a weighing scale, garlic, onion, chilli, and chopped vegetables from the refrigerator and cabinets."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Store unused vegetables in the fridge",
+   "action_ids": [
+    "P04-20240415-175615-84",
+    "P04-20240415-175615-85",
+    "P04-20240415-175615-86",
+    "P04-20240415-175615-87",
+    "P04-20240415-175615-88"
+   ],
+   "rationale": "The person seals a plastic container box of chopped vegetables and places it back into the refrigerator."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Review recipe and set up weighing scale",
+   "action_ids": [
+    "P04-20240415-175615-89",
+    "P04-20240415-175615-90",
+    "P04-20240415-175615-91",
+    "P04-20240415-175615-92",
+    "P04-20240415-175615-93",
+    "P04-20240415-175615-94",
+    "P04-20240415-175615-95",
+    "P04-20240415-175615-96",
+    "P04-20240415-175615-97",
+    "P04-20240415-175615-98",
+    "P04-20240415-175615-99"
+   ],
+   "rationale": "The person checks the recipe notebook for required ingredients and then retrieves a small plate to place on the weighing scale."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Open spice container and set up plates",
+   "action_ids": [
+    "P04-20240415-175615-100",
+    "P04-20240415-175615-101",
+    "P04-20240415-175615-102",
+    "P04-20240415-175615-103",
+    "P04-20240415-175615-104",
+    "P04-20240415-175615-105",
+    "P04-20240415-175615-106",
+    "P04-20240415-175615-107",
+    "P04-20240415-175615-108",
+    "P04-20240415-175615-109",
+    "P04-20240415-175615-110",
+    "P04-20240415-175615-111",
+    "P04-20240415-175615-112",
+    "P04-20240415-175615-113",
+    "P04-20240415-175615-114"
+   ],
+   "rationale": "The person opens a plastic box containing spices, places its lid aside, and retrieves another small plate from the cabinet to set on the hob."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Seal spice bags",
+   "action_ids": [
+    "P04-20240415-175615-115",
+    "P04-20240415-175615-125",
+    "P04-20240415-175615-126",
+    "P04-20240415-175615-127",
+    "P04-20240415-175615-128",
+    "P04-20240415-175615-133",
+    "P04-20240415-175615-134",
+    "P04-20240415-175615-142",
+    "P04-20240415-175615-143"
+   ],
+   "rationale": "The person closes and seals several plastic bags containing bay leaves, cinnamon sticks, and cloves using rubber bands and by pressing them shut."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Weigh cashew nuts and record weight",
+   "action_ids": [
+    "P04-20240415-175615-168",
+    "P04-20240415-175615-169",
+    "P04-20240415-175615-170",
+    "P04-20240415-175615-171",
+    "P04-20240415-175615-172",
+    "P04-20240415-175615-173",
+    "P04-20240415-175615-174",
+    "P04-20240415-175615-175",
+    "P04-20240415-175615-176"
+   ],
+   "rationale": "The person places cashew nuts on the weighing scale and uses a pen to write down their measured weight in the notebook."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Transfer cashews to spice plate and seal bag",
+   "action_ids": [
+    "P04-20240415-175615-177",
+    "P04-20240415-175615-178",
+    "P04-20240415-175615-179",
+    "P04-20240415-175615-180",
+    "P04-20240415-175615-181"
+   ],
+   "rationale": "The person seals the bag of cashews and moves the weighed cashew nuts from the scale to the plate containing other spices."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Pack spice bags into container and store it",
+   "action_ids": [
+    "P04-20240415-175615-182",
+    "P04-20240415-175615-183",
+    "P04-20240415-175615-184",
+    "P04-20240415-175615-185",
+    "P04-20240415-175615-186",
+    "P04-20240415-175615-187",
+    "P04-20240415-175615-188",
+    "P04-20240415-175615-189",
+    "P04-20240415-175615-190",
+    "P04-20240415-175615-191",
+    "P04-20240415-175615-192",
+    "P04-20240415-175615-193",
+    "P04-20240415-175615-194",
+    "P04-20240415-175615-195",
+    "P04-20240415-175615-196",
+    "P04-20240415-175615-197",
+    "P04-20240415-175615-198",
+    "P04-20240415-175615-199",
+    "P04-20240415-175615-200"
+   ],
+   "rationale": "The person compresses multiple bags of spices into the black container box, seals it with its lid, and places it back into the cabinet."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Retrieve a spoon for measuring spices",
+   "action_ids": [
+    "P04-20240415-175615-207",
+    "P04-20240415-175615-208",
+    "P04-20240415-175615-209",
+    "P04-20240415-175615-210",
+    "P04-20240415-175615-211",
+    "P04-20240415-175615-212",
+    "P04-20240415-175615-213",
+    "P04-20240415-175615-214",
+    "P04-20240415-175615-215",
+    "P04-20240415-175615-216",
+    "P04-20240415-175615-217"
+   ],
+   "rationale": "The person opens the cutlery drawer to look for spoons, puts them back, and instead picks up a tablespoon from the chopping board."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Prepare spice bags for measuring",
+   "action_ids": [
+    "P04-20240415-175615-201",
+    "P04-20240415-175615-221",
+    "P04-20240415-175615-222",
+    "P04-20240415-175615-223",
+    "P04-20240415-175615-224",
+    "P04-20240415-175615-225",
+    "P04-20240415-175615-226"
+   ],
+   "rationale": "The person handles bags of garam masala and fennel seeds, making space on the spice plate and undoing the rubber band to open the fennel seeds."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P04-20240415-175615-35",
+  "P04-20240415-175615-60"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

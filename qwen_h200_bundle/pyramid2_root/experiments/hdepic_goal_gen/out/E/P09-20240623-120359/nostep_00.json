@@ -1,0 +1,194 @@
+{
+ "overall_goal": "Prepare ingredients by measuring spices, retrieving cookware, and setting up the scale",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Open the meat package",
+   "action_ids": [
+    "P09-20240623-120359-0-3",
+    "P09-20240623-120359-0-4",
+    "P09-20240623-120359-0-5",
+    "P09-20240623-120359-0-6",
+    "P09-20240623-120359-0-7"
+   ],
+   "rationale": "The person picks up a knife to cut open the package of meat and then puts the knife down."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve bowls and tidy up kitchen items",
+   "action_ids": [
+    "P09-20240623-120359-0-8",
+    "P09-20240623-120359-0-9",
+    "P09-20240623-120359-0-10",
+    "P09-20240623-120359-0-11",
+    "P09-20240623-120359-0-12",
+    "P09-20240623-120359-1",
+    "P09-20240623-120359-2",
+    "P09-20240623-120359-3",
+    "P09-20240623-120359-4",
+    "P09-20240623-120359-5",
+    "P09-20240623-120359-6",
+    "P09-20240623-120359-13",
+    "P09-20240623-120359-14",
+    "P09-20240623-120359-15"
+   ],
+   "rationale": "The person retrieves bowls from the cabinet and tidies up various kitchen items like a measuring cup and baking tray."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Retrieve a spoon for measuring spices",
+   "action_ids": [
+    "P09-20240623-120359-29-11",
+    "P09-20240623-120359-29-12",
+    "P09-20240623-120359-29-13",
+    "P09-20240623-120359-29-14"
+   ],
+   "rationale": "The person opens the cutlery drawer to retrieve a tablespoon for measuring spices."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Measure and add peppercorn, cardamom, and cinnamon",
+   "action_ids": [
+    "P09-20240623-120359-30",
+    "P09-20240623-120359-29-15",
+    "P09-20240623-120359-29-16",
+    "P09-20240623-120359-29-17",
+    "P09-20240623-120359-29-18",
+    "P09-20240623-120359-31",
+    "P09-20240623-120359-31-1",
+    "P09-20240623-120359-32",
+    "P09-20240623-120359-33",
+    "P09-20240623-120359-34",
+    "P09-20240623-120359-34-1",
+    "P09-20240623-120359-34-2",
+    "P09-20240623-120359-34-3",
+    "P09-20240623-120359-34-4",
+    "P09-20240623-120359-34-5",
+    "P09-20240623-120359-34-6",
+    "P09-20240623-120359-34-7",
+    "P09-20240623-120359-34-8",
+    "P09-20240623-120359-35"
+   ],
+   "rationale": "The person measures and adds black peppercorn, cardamom pods, and cinnamon sticks into a bowl."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Measure and add chilli powder and turmeric",
+   "action_ids": [
+    "P09-20240623-120359-36",
+    "P09-20240623-120359-36-1",
+    "P09-20240623-120359-36-2",
+    "P09-20240623-120359-36-3",
+    "P09-20240623-120359-36-4",
+    "P09-20240623-120359-36-5",
+    "P09-20240623-120359-36-6",
+    "P09-20240623-120359-36-7",
+    "P09-20240623-120359-36-8",
+    "P09-20240623-120359-37",
+    "P09-20240623-120359-38",
+    "P09-20240623-120359-39",
+    "P09-20240623-120359-39-1",
+    "P09-20240623-120359-39-2",
+    "P09-20240623-120359-39-3",
+    "P09-20240623-120359-39-4",
+    "P09-20240623-120359-39-5",
+    "P09-20240623-120359-39-6",
+    "P09-20240623-120359-39-7"
+   ],
+   "rationale": "The person measures and adds red chilli powder and turmeric powder into the bowl."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Measure and add the final spice",
+   "action_ids": [
+    "P09-20240623-120359-40",
+    "P09-20240623-120359-40-1",
+    "P09-20240623-120359-40-2",
+    "P09-20240623-120359-40-3",
+    "P09-20240623-120359-40-4",
+    "P09-20240623-120359-40-5",
+    "P09-20240623-120359-40-6",
+    "P09-20240623-120359-40-7",
+    "P09-20240623-120359-40-8",
+    "P09-20240623-120359-40-9",
+    "P09-20240623-120359-40-10",
+    "P09-20240623-120359-40-11",
+    "P09-20240623-120359-40-12"
+   ],
+   "rationale": "The person searches for the correct spice jar and adds a spoonful of it into the bowl."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Put away spice jars into the basket",
+   "action_ids": [
+    "P09-20240623-120359-40-13",
+    "P09-20240623-120359-40-14",
+    "P09-20240623-120359-40-15",
+    "P09-20240623-120359-40-16",
+    "P09-20240623-120359-40-17",
+    "P09-20240623-120359-40-18",
+    "P09-20240623-120359-40-19",
+    "P09-20240623-120359-40-20",
+    "P09-20240623-120359-40-21",
+    "P09-20240623-120359-41",
+    "P09-20240623-120359-41-1",
+    "P09-20240623-120359-41-2",
+    "P09-20240623-120359-41-3",
+    "P09-20240623-120359-41-4",
+    "P09-20240623-120359-41-5",
+    "P09-20240623-120359-41-6",
+    "P09-20240623-120359-41-7",
+    "P09-20240623-120359-41-8"
+   ],
+   "rationale": "The person gathers all the used spice jars and organizes them back into the storage basket above the cabinets."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Retrieve a saucepan and swap its lid",
+   "action_ids": [
+    "P09-20240623-120359-41-9",
+    "P09-20240623-120359-41-10",
+    "P09-20240623-120359-41-11",
+    "P09-20240623-120359-41-12",
+    "P09-20240623-120359-41-13",
+    "P09-20240623-120359-41-14",
+    "P09-20240623-120359-41-15",
+    "P09-20240623-120359-41-16",
+    "P09-20240623-120359-41-17",
+    "P09-20240623-120359-42",
+    "P09-20240623-120359-43",
+    "P09-20240623-120359-43-1",
+    "P09-20240623-120359-43-2",
+    "P09-20240623-120359-43-3",
+    "P09-20240623-120359-43-4"
+   ],
+   "rationale": "The person retrieves a saucepan from the cabinet, fixes a fallen pile of pans, and swaps the saucepan's lid for another one."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Set up the weighing scale and prepare to weigh meat",
+   "action_ids": [
+    "P09-20240623-120359-43-5",
+    "P09-20240623-120359-43-6",
+    "P09-20240623-120359-43-7",
+    "P09-20240623-120359-43-8",
+    "P09-20240623-120359-43-9",
+    "P09-20240623-120359-43-10",
+    "P09-20240623-120359-43-11",
+    "P09-20240623-120359-44",
+    "P09-20240623-120359-45",
+    "P09-20240623-120359-46",
+    "P09-20240623-120359-47"
+   ],
+   "rationale": "The person clears the countertop, sets up the weighing scale with a bowl, and prepares to weigh the meat."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P09-20240623-120359-0-1",
+  "P09-20240623-120359-0-2"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

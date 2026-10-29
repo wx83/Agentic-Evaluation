@@ -1,0 +1,61 @@
+{
+ "overall_goal": "Boil the hibiscus drink on the stove while stirring it occasionally.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Place the saucepan on the stove and cover it to boil",
+   "action_ids": [
+    "P09-20240621-153208-65-1",
+    "P09-20240621-153208-65-2",
+    "P09-20240621-153208-65-8"
+   ],
+   "rationale": "The person lights the burner, places the saucepan on it, and covers it with a lid to start the boiling process."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Open the saucepan and perform the initial stirring",
+   "action_ids": [
+    "P09-20240621-153208-70",
+    "P09-20240621-153208-70-1",
+    "P09-20240621-153208-71",
+    "P09-20240621-153208-73-1",
+    "P09-20240621-153208-73-2"
+   ],
+   "rationale": "The person prepares a spoon, opens the lid, and stirs the drink for the first time."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Continue stirring the drink and adjust the saucepan on the stove",
+   "action_ids": [
+    "P09-20240621-153208-100",
+    "P09-20240621-153208-106-3",
+    "P09-20240621-153208-106-5",
+    "P09-20240621-153208-121",
+    "P09-20240621-153208-173",
+    "P09-20240621-153208-174",
+    "P09-20240621-153208-175",
+    "P09-20240621-153208-182",
+    "P09-20240621-153208-183"
+   ],
+   "rationale": "The person repeatedly stirs the contents of the saucepan, occasionally adjusting the pot's position on the hob."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Perform further stirring and manage the saucepan lid",
+   "action_ids": [
+    "P09-20240621-153208-229",
+    "P09-20240621-153208-230",
+    "P09-20240621-153208-248",
+    "P09-20240621-153208-249"
+   ],
+   "rationale": "The person performs additional stirring sessions while taking off and replacing the lid of the saucepan."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P09-20240621-153208-185"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

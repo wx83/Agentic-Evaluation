@@ -1,0 +1,147 @@
+{
+ "overall_goal": "Assemble the bacon, egg, and cheese sandwich",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Cut the baguette",
+   "action_ids": [
+    "P02-20240210-113925-259",
+    "P02-20240210-113925-260",
+    "P02-20240210-113925-261",
+    "P02-20240210-113925-262",
+    "P02-20240210-113925-263",
+    "P02-20240210-113925-264",
+    "P02-20240210-113925-265",
+    "P02-20240210-113925-266",
+    "P02-20240210-113925-267",
+    "P02-20240210-113925-268",
+    "P02-20240210-113925-269",
+    "P02-20240210-113925-270",
+    "P02-20240210-113925-271",
+    "P02-20240210-113925-272",
+    "P02-20240210-113925-273"
+   ],
+   "rationale": "The person takes the baguette out of the bag and cuts it into quarters to prepare the bread for the sandwich."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve butter and tools",
+   "action_ids": [
+    "P02-20240210-113925-303",
+    "P02-20240210-113925-304",
+    "P02-20240210-113925-305",
+    "P02-20240210-113925-306",
+    "P02-20240210-113925-307",
+    "P02-20240210-113925-308",
+    "P02-20240210-113925-309",
+    "P02-20240210-113925-311",
+    "P02-20240210-113925-310",
+    "P02-20240210-113925-312",
+    "P02-20240210-113925-313",
+    "P02-20240210-113925-314",
+    "P02-20240210-113925-315"
+   ],
+   "rationale": "The person gathers the butter knife, grater, and butter from the fridge to prepare for assembling the sandwich."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Prepare the butter for spreading",
+   "action_ids": [
+    "P02-20240210-113925-316",
+    "P02-20240210-113925-317",
+    "P02-20240210-113925-318",
+    "P02-20240210-113925-319",
+    "P02-20240210-113925-320"
+   ],
+   "rationale": "The person softens the butter in the tub to make it easier to spread on the bread."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Spread butter on the baguette",
+   "action_ids": [
+    "P02-20240210-113925-321",
+    "P02-20240210-113925-322",
+    "P02-20240210-113925-323",
+    "P02-20240210-113925-324",
+    "P02-20240210-113925-325",
+    "P02-20240210-113925-326",
+    "P02-20240210-113925-327",
+    "P02-20240210-113925-328",
+    "P02-20240210-113925-329",
+    "P02-20240210-113925-330",
+    "P02-20240210-113925-331",
+    "P02-20240210-113925-332",
+    "P02-20240210-113925-333",
+    "P02-20240210-113925-334",
+    "P02-20240210-113925-335",
+    "P02-20240210-113925-337"
+   ],
+   "rationale": "The person spreads the softened butter evenly onto the sliced baguette quarters."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Add bacon to the sandwich",
+   "action_ids": [
+    "P02-20240210-113925-407",
+    "P02-20240210-113925-408",
+    "P02-20240210-113925-409",
+    "P02-20240210-113925-410",
+    "P02-20240210-113925-411",
+    "P02-20240210-113925-412",
+    "P02-20240210-113925-413",
+    "P02-20240210-113925-414",
+    "P02-20240210-113925-415",
+    "P02-20240210-113925-416",
+    "P02-20240210-113925-417",
+    "P02-20240210-113925-418",
+    "P02-20240210-113925-419",
+    "P02-20240210-113925-420"
+   ],
+   "rationale": "The person transfers the cooked bacon medallions from the frying pan into the buttered baguette quarters."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Add scrambled eggs to the sandwich",
+   "action_ids": [
+    "P02-20240210-113925-436",
+    "P02-20240210-113925-437",
+    "P02-20240210-113925-438",
+    "P02-20240210-113925-439",
+    "P02-20240210-113925-440",
+    "P02-20240210-113925-441",
+    "P02-20240210-113925-442",
+    "P02-20240210-113925-443",
+    "P02-20240210-113925-444",
+    "P02-20240210-113925-445",
+    "P02-20240210-113925-446",
+    "P02-20240210-113925-447",
+    "P02-20240210-113925-448",
+    "P02-20240210-113925-449",
+    "P02-20240210-113925-450",
+    "P02-20240210-113925-451"
+   ],
+   "rationale": "The person scoops the scrambled eggs from the pan and places them into the sandwich."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Add cheese to the sandwich",
+   "action_ids": [
+    "P02-20240210-113925-458",
+    "P02-20240210-113925-459",
+    "P02-20240210-113925-460",
+    "P02-20240210-113925-461",
+    "P02-20240210-113925-462",
+    "P02-20240210-113925-463",
+    "P02-20240210-113925-464"
+   ],
+   "rationale": "The person grates a block of cheese directly into the open sandwich to finish assembling it."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P02-20240210-113925-336"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

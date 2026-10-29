@@ -1,0 +1,121 @@
+{
+ "overall_goal": "Wash the tomato and coriander, and chop the tomato and onion into small pieces",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve and arrange the ingredients and chopping board",
+   "action_ids": [
+    "P06-20240510-090328-10",
+    "P06-20240510-090328-11",
+    "P06-20240510-090328-14",
+    "P06-20240510-090328-16",
+    "P06-20240510-090328-17",
+    "P06-20240510-090328-18",
+    "P06-20240510-090328-19",
+    "P06-20240510-090328-27",
+    "P06-20240510-090328-28",
+    "P06-20240510-090328-29",
+    "P06-20240510-090328-31",
+    "P06-20240510-090328-40",
+    "P06-20240510-090328-41",
+    "P06-20240510-090328-44",
+    "P06-20240510-090328-45",
+    "P06-20240510-090328-46",
+    "P06-20240510-090328-47",
+    "P06-20240510-090328-50",
+    "P06-20240510-090328-51"
+   ],
+   "rationale": "The person gathers the tomatoes, coriander, and onion from the refrigerator and drawer, and sets up the chopping board on the counter."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Peel and halve the onion",
+   "action_ids": [
+    "P06-20240510-090328-77",
+    "P06-20240510-090328-78",
+    "P06-20240510-090328-79",
+    "P06-20240510-090328-80",
+    "P06-20240510-090328-81",
+    "P06-20240510-090328-82",
+    "P06-20240510-090328-83",
+    "P06-20240510-090328-84",
+    "P06-20240510-090328-85",
+    "P06-20240510-090328-86",
+    "P06-20240510-090328-87",
+    "P06-20240510-090328-88",
+    "P06-20240510-090328-89",
+    "P06-20240510-090328-90"
+   ],
+   "rationale": "The person uses a knife to peel the outer layer of the onion and cuts it into halves to prepare it for fine chopping."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Wash the tomato and coriander",
+   "action_ids": [
+    "P06-20240510-090328-112",
+    "P06-20240510-090328-113",
+    "P06-20240510-090328-114",
+    "P06-20240510-090328-115",
+    "P06-20240510-090328-116",
+    "P06-20240510-090328-117",
+    "P06-20240510-090328-118",
+    "P06-20240510-090328-119",
+    "P06-20240510-090328-120",
+    "P06-20240510-090328-121",
+    "P06-20240510-090328-122",
+    "P06-20240510-090328-123",
+    "P06-20240510-090328-124"
+   ],
+   "rationale": "The person takes the tomato and coriander to the sink, washes them under running water, shakes off the excess water, and returns them to the chopping board."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Chop the onion into small pieces",
+   "action_ids": [
+    "P06-20240510-090328-130",
+    "P06-20240510-090328-131",
+    "P06-20240510-090328-132",
+    "P06-20240510-090328-133",
+    "P06-20240510-090328-134",
+    "P06-20240510-090328-135",
+    "P06-20240510-090328-136",
+    "P06-20240510-090328-137",
+    "P06-20240510-090328-138",
+    "P06-20240510-090328-139"
+   ],
+   "rationale": "The person removes unusable parts of the onion and proceeds to chop the onion halves into fine pieces."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Chop the tomato into small pieces",
+   "action_ids": [
+    "P06-20240510-090328-140",
+    "P06-20240510-090328-141",
+    "P06-20240510-090328-142",
+    "P06-20240510-090328-143",
+    "P06-20240510-090328-144",
+    "P06-20240510-090328-145",
+    "P06-20240510-090328-146",
+    "P06-20240510-090328-147",
+    "P06-20240510-090328-148",
+    "P06-20240510-090328-149",
+    "P06-20240510-090328-150",
+    "P06-20240510-090328-151",
+    "P06-20240510-090328-152"
+   ],
+   "rationale": "The person chops the tomatoes on the board, rotating the pieces to ensure they are cut uniformly and finely, and collects them on a plate."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P06-20240510-090328-12",
+  "P06-20240510-090328-13",
+  "P06-20240510-090328-15",
+  "P06-20240510-090328-39",
+  "P06-20240510-090328-42",
+  "P06-20240510-090328-43"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

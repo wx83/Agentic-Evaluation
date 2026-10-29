@@ -1,0 +1,140 @@
+{
+ "overall_goal": "Clean the kitchen utensils, surfaces, and sink, and discard trash",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Wash the pot",
+   "action_ids": [
+    "P09-20240621-093545-1354",
+    "P09-20240621-093545-1355",
+    "P09-20240621-093545-1356",
+    "P09-20240621-093545-1357",
+    "P09-20240621-093545-1358",
+    "P09-20240621-093545-1359",
+    "P09-20240621-093545-1360",
+    "P09-20240621-093545-1361",
+    "P09-20240621-093545-1362",
+    "P09-20240621-093545-1363",
+    "P09-20240621-093545-1364",
+    "P09-20240621-093545-1365",
+    "P09-20240621-093545-1366",
+    "P09-20240621-093545-1367",
+    "P09-20240621-093545-1368",
+    "P09-20240621-093545-1369",
+    "P09-20240621-093545-1370",
+    "P09-20240621-093545-1371"
+   ],
+   "rationale": "The person prepares the sponge with soap, scrubs the interior and exterior of the pot, rinses it under the tap, and places it on the countertop."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Wash the pot cover and place it on the drying rack",
+   "action_ids": [
+    "P09-20240621-093545-1372",
+    "P09-20240621-093545-1373",
+    "P09-20240621-093545-1374",
+    "P09-20240621-093545-1375",
+    "P09-20240621-093545-1376",
+    "P09-20240621-093545-1377",
+    "P09-20240621-093545-1378",
+    "P09-20240621-093545-1379",
+    "P09-20240621-093545-1380",
+    "P09-20240621-093545-1381",
+    "P09-20240621-093545-1382",
+    "P09-20240621-093545-1383",
+    "P09-20240621-093545-1384",
+    "P09-20240621-093545-1385",
+    "P09-20240621-093545-1386",
+    "P09-20240621-093545-1387",
+    "P09-20240621-093545-1388"
+   ],
+   "rationale": "The person scrubs the pot cover, rinses it along with the pot, and then arranges both items on the drying rack."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Wipe the kitchen counters and tiles",
+   "action_ids": [
+    "P09-20240621-093545-1389",
+    "P09-20240621-093545-1390",
+    "P09-20240621-093545-1391",
+    "P09-20240621-093545-1392",
+    "P09-20240621-093545-1393"
+   ],
+   "rationale": "The person uses a napkin to wipe down the cabinet surfaces, countertops, and tiles."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Clean the sink and dry the edges",
+   "action_ids": [
+    "P09-20240621-093545-1394",
+    "P09-20240621-093545-1395",
+    "P09-20240621-093545-1396",
+    "P09-20240621-093545-1397",
+    "P09-20240621-093545-1398",
+    "P09-20240621-093545-1399",
+    "P09-20240621-093545-1400",
+    "P09-20240621-093545-1401",
+    "P09-20240621-093545-1402",
+    "P09-20240621-093545-1403"
+   ],
+   "rationale": "The person rinses the sponge, scrubs the sink, rinses their hands, and then uses a tea towel to dry the countertop and sink edges."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Discard trash and laundry",
+   "action_ids": [
+    "P09-20240621-093545-1404",
+    "P09-20240621-093545-1405",
+    "P09-20240621-093545-1406",
+    "P09-20240621-093545-1407",
+    "P09-20240621-093545-1408",
+    "P09-20240621-093545-1409"
+   ],
+   "rationale": "The person gathers discarded plastic packaging, wipes under a bowl, throws the dirty rag into the laundry basket, and puts the trash in the bin."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Wash the bowl and organize the drying rack",
+   "action_ids": [
+    "P09-20240621-093545-1410",
+    "P09-20240621-093545-1411",
+    "P09-20240621-093545-1412",
+    "P09-20240621-093545-1413",
+    "P09-20240621-093545-1414",
+    "P09-20240621-093545-1415",
+    "P09-20240621-093545-1416",
+    "P09-20240621-093545-1417",
+    "P09-20240621-093545-1418",
+    "P09-20240621-093545-1419",
+    "P09-20240621-093545-1420",
+    "P09-20240621-093545-1421",
+    "P09-20240621-093545-1422",
+    "P09-20240621-093545-1423",
+    "P09-20240621-093545-1424",
+    "P09-20240621-093545-1425",
+    "P09-20240621-093545-1426",
+    "P09-20240621-093545-1427"
+   ],
+   "rationale": "The person takes a bowl to the sink, scrubs and rinses it, and then places it in the drying rack while repositioning other items to make space."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Dry hands and put away the towel rack",
+   "action_ids": [
+    "P09-20240621-093545-1429",
+    "P09-20240621-093545-1430",
+    "P09-20240621-093545-1431",
+    "P09-20240621-093545-1432",
+    "P09-20240621-093545-1433"
+   ],
+   "rationale": "The person pulls out the towel rack, dries their hands on the hand towel, and then collapses the rack."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P09-20240621-093545-1428"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

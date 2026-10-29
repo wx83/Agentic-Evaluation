@@ -1,0 +1,187 @@
+{
+ "overall_goal": "Tidy the kitchen, load the dishwasher, and prepare ingredients for cooking",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Put away peanut butter and hang kitchen utensils",
+   "action_ids": [
+    "P05-20240425-171455-2",
+    "P05-20240425-171455-3",
+    "P05-20240425-171455-4",
+    "P05-20240425-171455-48",
+    "P05-20240425-171455-49",
+    "P05-20240425-171455-50",
+    "P05-20240425-171455-51"
+   ],
+   "rationale": "The person puts a tub of peanut butter in the cupboard and hangs a toast rack and splatter guard on hooks."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P05-20240425-171455-6",
+    "P05-20240425-171455-7",
+    "P05-20240425-171455-8",
+    "P05-20240425-171455-9",
+    "P05-20240425-171455-10",
+    "P05-20240425-171455-11",
+    "P05-20240425-171455-12",
+    "P05-20240425-171455-13",
+    "P05-20240425-171455-14"
+   ],
+   "rationale": "The person turns on the tap, uses soap, washes, rinses, and dries their hands."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Scrape food waste and load bowls and cutlery into the dishwasher",
+   "action_ids": [
+    "P05-20240425-171455-15",
+    "P05-20240425-171455-16",
+    "P05-20240425-171455-17",
+    "P05-20240425-171455-18",
+    "P05-20240425-171455-19",
+    "P05-20240425-171455-20",
+    "P05-20240425-171455-21",
+    "P05-20240425-171455-22",
+    "P05-20240425-171455-23",
+    "P05-20240425-171455-24",
+    "P05-20240425-171455-25",
+    "P05-20240425-171455-26",
+    "P05-20240425-171455-27",
+    "P05-20240425-171455-28",
+    "P05-20240425-171455-29",
+    "P05-20240425-171455-30",
+    "P05-20240425-171455-31",
+    "P05-20240425-171455-32"
+   ],
+   "rationale": "The person places a ramekin in the dishwasher, scrapes an avocado stone into the bin, and loads cutlery and a bowl."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Load dirty pan and plates into the dishwasher",
+   "action_ids": [
+    "P05-20240425-171455-33",
+    "P05-20240425-171455-34",
+    "P05-20240425-171455-35",
+    "P05-20240425-171455-36",
+    "P05-20240425-171455-37",
+    "P05-20240425-171455-38",
+    "P05-20240425-171455-39",
+    "P05-20240425-171455-40",
+    "P05-20240425-171455-41",
+    "P05-20240425-171455-42",
+    "P05-20240425-171455-43",
+    "P05-20240425-171455-44",
+    "P05-20240425-171455-45",
+    "P05-20240425-171455-46",
+    "P05-20240425-171455-47"
+   ],
+   "rationale": "The person empties a dirty pan and places it along with several dirty plates and a bowl into the bottom drawer of the dishwasher."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Rearrange food items and knives on the counter",
+   "action_ids": [
+    "P05-20240425-171455-52",
+    "P05-20240425-171455-53",
+    "P05-20240425-171455-54",
+    "P05-20240425-171455-55",
+    "P05-20240425-171455-56",
+    "P05-20240425-171455-57",
+    "P05-20240425-171455-58",
+    "P05-20240425-171455-59",
+    "P05-20240425-171455-60",
+    "P05-20240425-171455-61",
+    "P05-20240425-171455-62",
+    "P05-20240425-171455-63",
+    "P05-20240425-171455-64",
+    "P05-20240425-171455-65",
+    "P05-20240425-171455-66",
+    "P05-20240425-171455-67",
+    "P05-20240425-171455-68",
+    "P05-20240425-171455-69"
+   ],
+   "rationale": "The person moves potatoes, biscuits, and bread out of the way, puts away a knife block and pastry knife, and stores a clean pan lid."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Load remaining items and start the dishwasher",
+   "action_ids": [
+    "P05-20240425-171455-70",
+    "P05-20240425-171455-71",
+    "P05-20240425-171455-72",
+    "P05-20240425-171455-73",
+    "P05-20240425-171455-74",
+    "P05-20240425-171455-75",
+    "P05-20240425-171455-76",
+    "P05-20240425-171455-77",
+    "P05-20240425-171455-78",
+    "P05-20240425-171455-79",
+    "P05-20240425-171455-80",
+    "P05-20240425-171455-81",
+    "P05-20240425-171455-82",
+    "P05-20240425-171455-83",
+    "P05-20240425-171455-84",
+    "P05-20240425-171455-85",
+    "P05-20240425-171455-86"
+   ],
+   "rationale": "The person places a knife, spoon, and cheese grater into the dishwasher, adds a cleaning tablet, and starts the machine."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Gather equipment and ingredients for cooking",
+   "action_ids": [
+    "P05-20240425-171455-87",
+    "P05-20240425-171455-93",
+    "P05-20240425-171455-94",
+    "P05-20240425-171455-97",
+    "P05-20240425-171455-101",
+    "P05-20240425-171455-102",
+    "P05-20240425-171455-103",
+    "P05-20240425-171455-104",
+    "P05-20240425-171455-105",
+    "P05-20240425-171455-106",
+    "P05-20240425-171455-107",
+    "P05-20240425-171455-108",
+    "P05-20240425-171455-109",
+    "P05-20240425-171455-134",
+    "P05-20240425-171455-138"
+   ],
+   "rationale": "The person turns on the kettle, retrieves bacon from the fridge, gets scales and a knife from the drawer, and takes out a frying pan."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Peel and chop garlic",
+   "action_ids": [
+    "P05-20240425-171455-115",
+    "P05-20240425-171455-116",
+    "P05-20240425-171455-117",
+    "P05-20240425-171455-118",
+    "P05-20240425-171455-119",
+    "P05-20240425-171455-120",
+    "P05-20240425-171455-121",
+    "P05-20240425-171455-122",
+    "P05-20240425-171455-123",
+    "P05-20240425-171455-124",
+    "P05-20240425-171455-125",
+    "P05-20240425-171455-126",
+    "P05-20240425-171455-127",
+    "P05-20240425-171455-128",
+    "P05-20240425-171455-129",
+    "P05-20240425-171455-130",
+    "P05-20240425-171455-131",
+    "P05-20240425-171455-132",
+    "P05-20240425-171455-133"
+   ],
+   "rationale": "The person separates garlic cloves, crushes them to remove the skin, and finely chops the garlic on a chopping board."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P05-20240425-171455-1",
+  "P05-20240425-171455-5"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

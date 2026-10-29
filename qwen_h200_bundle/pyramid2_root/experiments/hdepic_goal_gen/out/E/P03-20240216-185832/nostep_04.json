@@ -1,0 +1,228 @@
+{
+ "overall_goal": "Clean the kitchen counter and measure ingredients for pizza dough",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Dispose of potato peel",
+   "action_ids": [
+    "P03-20240216-185832-725",
+    "P03-20240216-185832-726",
+    "P03-20240216-185832-727",
+    "P03-20240216-185832-728",
+    "P03-20240216-185832-729",
+    "P03-20240216-185832-730",
+    "P03-20240216-185832-731"
+   ],
+   "rationale": "The person picks up a potato peel from the floor and throws it into the food waste bin."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P03-20240216-185832-732",
+    "P03-20240216-185832-733",
+    "P03-20240216-185832-734",
+    "P03-20240216-185832-735",
+    "P03-20240216-185832-736",
+    "P03-20240216-185832-737",
+    "P03-20240216-185832-738",
+    "P03-20240216-185832-739",
+    "P03-20240216-185832-740",
+    "P03-20240216-185832-741",
+    "P03-20240216-185832-742",
+    "P03-20240216-185832-743",
+    "P03-20240216-185832-744"
+   ],
+   "rationale": "The person uses soap and water to wash their hands, then dries them with a cloth."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Clear the kitchen counter",
+   "action_ids": [
+    "P03-20240216-185832-754",
+    "P03-20240216-185832-755",
+    "P03-20240216-185832-756",
+    "P03-20240216-185832-757",
+    "P03-20240216-185832-758",
+    "P03-20240216-185832-759",
+    "P03-20240216-185832-760",
+    "P03-20240216-185832-761"
+   ],
+   "rationale": "The person moves various items like the salt container, chopping board, and bowls to clear space on the counter."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Wipe the kitchen counter",
+   "action_ids": [
+    "P03-20240216-185832-762",
+    "P03-20240216-185832-763",
+    "P03-20240216-185832-764",
+    "P03-20240216-185832-765",
+    "P03-20240216-185832-766",
+    "P03-20240216-185832-767",
+    "P03-20240216-185832-768",
+    "P03-20240216-185832-769",
+    "P03-20240216-185832-770"
+   ],
+   "rationale": "The person rinses a cloth and uses it to wipe oil and residue off the kitchen counter."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Retrieve ingredients and tools for pizza dough",
+   "action_ids": [
+    "P03-20240216-185832-771",
+    "P03-20240216-185832-772",
+    "P03-20240216-185832-773",
+    "P03-20240216-185832-774",
+    "P03-20240216-185832-775",
+    "P03-20240216-185832-776",
+    "P03-20240216-185832-777",
+    "P03-20240216-185832-778",
+    "P03-20240216-185832-779",
+    "P03-20240216-185832-780",
+    "P03-20240216-185832-781",
+    "P03-20240216-185832-782"
+   ],
+   "rationale": "The person fetches a bag of flour, a kitchen scale, and a cup from the cupboards."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Return fallen potato to the pan and wash hands",
+   "action_ids": [
+    "P03-20240216-185832-791",
+    "P03-20240216-185832-792",
+    "P03-20240216-185832-793",
+    "P03-20240216-185832-794",
+    "P03-20240216-185832-795",
+    "P03-20240216-185832-796",
+    "P03-20240216-185832-797"
+   ],
+   "rationale": "The person picks up a spilled chunk of potato, tosses it back into the pan, and washes their oily hands."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Wipe the hob and adjust settings",
+   "action_ids": [
+    "P03-20240216-185832-798",
+    "P03-20240216-185832-799",
+    "P03-20240216-185832-800",
+    "P03-20240216-185832-801"
+   ],
+   "rationale": "The person wipes spilled oil from the hob, readjusts the settings, and hangs the cloth."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P03-20240216-185832-807",
+    "P03-20240216-185832-808",
+    "P03-20240216-185832-809",
+    "P03-20240216-185832-810",
+    "P03-20240216-185832-811"
+   ],
+   "rationale": "The person rinses and dries their hands again after handling the oily potato and hob."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Set up the scale and bowl",
+   "action_ids": [
+    "P03-20240216-185832-812",
+    "P03-20240216-185832-813",
+    "P03-20240216-185832-814",
+    "P03-20240216-185832-815"
+   ],
+   "rationale": "The person places a large plastic bowl on the kitchen scale and turns it on."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Open the flour bag and pour flour",
+   "action_ids": [
+    "P03-20240216-185832-816",
+    "P03-20240216-185832-817",
+    "P03-20240216-185832-818",
+    "P03-20240216-185832-819",
+    "P03-20240216-185832-820",
+    "P03-20240216-185832-821",
+    "P03-20240216-185832-822",
+    "P03-20240216-185832-823",
+    "P03-20240216-185832-824",
+    "P03-20240216-185832-825",
+    "P03-20240216-185832-826",
+    "P03-20240216-185832-827",
+    "P03-20240216-185832-828",
+    "P03-20240216-185832-829",
+    "P03-20240216-185832-830",
+    "P03-20240216-185832-831"
+   ],
+   "rationale": "The person retrieves scissors to cut open a new bag of flour, then pours the flour into the bowl."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Remove excess flour and store the bag",
+   "action_ids": [
+    "P03-20240216-185832-832",
+    "P03-20240216-185832-833",
+    "P03-20240216-185832-834",
+    "P03-20240216-185832-835",
+    "P03-20240216-185832-836",
+    "P03-20240216-185832-837",
+    "P03-20240216-185832-838",
+    "P03-20240216-185832-839",
+    "P03-20240216-185832-840",
+    "P03-20240216-185832-841",
+    "P03-20240216-185832-842",
+    "P03-20240216-185832-843",
+    "P03-20240216-185832-844"
+   ],
+   "rationale": "The person takes a pinch of flour out of the bowl, puts it back in the bag, seals the bag with a clip, and stores it in the cupboard."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P03-20240216-185832-845",
+    "P03-20240216-185832-846",
+    "P03-20240216-185832-847",
+    "P03-20240216-185832-848",
+    "P03-20240216-185832-849",
+    "P03-20240216-185832-850",
+    "P03-20240216-185832-851"
+   ],
+   "rationale": "The person washes flour off their hands and dries them, picking up a dropped cloth in the process."
+  },
+  {
+   "goal_id": "e13",
+   "description": "Prepare a cup of water",
+   "action_ids": [
+    "P03-20240216-185832-861",
+    "P03-20240216-185832-862",
+    "P03-20240216-185832-863",
+    "P03-20240216-185832-864"
+   ],
+   "rationale": "The person resets the scale and fills a cup with tap water to measure it."
+  },
+  {
+   "goal_id": "e14",
+   "description": "Manage the frying pan and its lid",
+   "action_ids": [
+    "P03-20240216-185832-745",
+    "P03-20240216-185832-746",
+    "P03-20240216-185832-752",
+    "P03-20240216-185832-753",
+    "P03-20240216-185832-783",
+    "P03-20240216-185832-784",
+    "P03-20240216-185832-802",
+    "P03-20240216-185832-852",
+    "P03-20240216-185832-858",
+    "P03-20240216-185832-859",
+    "P03-20240216-185832-860"
+   ],
+   "rationale": "The person repeatedly handles the spatula and the glass lid to cover the frying pan and prevent oil spills."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

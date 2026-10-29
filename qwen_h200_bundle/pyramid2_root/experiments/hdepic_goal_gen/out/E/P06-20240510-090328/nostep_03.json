@@ -1,0 +1,30 @@
+{
+ "overall_goal": "Wait for the pancake to cook and manage utensils",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Handle the spatula",
+   "action_ids": [
+    "P06-20240510-090328-627",
+    "P06-20240510-090328-646",
+    "P06-20240510-090328-647"
+   ],
+   "rationale": "The person picks up, switches hands, and places the spatula on the plate."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Wait for the pancake to cook and adjust the pan",
+   "action_ids": [
+    "P06-20240510-090328-648",
+    "P06-20240510-090328-649",
+    "P06-20240510-090328-650"
+   ],
+   "rationale": "The person waits for the pancake to cook while adjusting the frying pan on the stove."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

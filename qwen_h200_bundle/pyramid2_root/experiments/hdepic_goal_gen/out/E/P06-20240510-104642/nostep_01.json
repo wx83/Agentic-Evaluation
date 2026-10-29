@@ -1,0 +1,201 @@
+{
+ "overall_goal": "Clean utensils, retrieve ingredients, and log recipe details in the notebook.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Clean and store the scissors",
+   "action_ids": [
+    "P06-20240510-104642-455",
+    "P06-20240510-104642-456",
+    "P06-20240510-104642-457",
+    "P06-20240510-104642-458",
+    "P06-20240510-104642-459",
+    "P06-20240510-104642-460"
+   ],
+   "rationale": "The person wipes the scissors with a tablecloth and places them inside the drawer."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Organize jars on the tabletop and store an onion",
+   "action_ids": [
+    "P06-20240510-104642-461",
+    "P06-20240510-104642-462",
+    "P06-20240510-104642-466",
+    "P06-20240510-104642-467",
+    "P06-20240510-104642-468",
+    "P06-20240510-104642-469",
+    "P06-20240510-104642-471",
+    "P06-20240510-104642-472",
+    "P06-20240510-104642-473",
+    "P06-20240510-104642-474",
+    "P06-20240510-104642-475",
+    "P06-20240510-104642-476"
+   ],
+   "rationale": "The person moves jars to make space on the tabletop, places an onion inside the drawer, and retrieves more jars from the cabinet."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Search for and retrieve noodles and kidney beans from the cabinet",
+   "action_ids": [
+    "P06-20240510-104642-487",
+    "P06-20240510-104642-488",
+    "P06-20240510-104642-489",
+    "P06-20240510-104642-490",
+    "P06-20240510-104642-491",
+    "P06-20240510-104642-492",
+    "P06-20240510-104642-493",
+    "P06-20240510-104642-494",
+    "P06-20240510-104642-495",
+    "P06-20240510-104642-496"
+   ],
+   "rationale": "The person looks through the cabinet, moving boxes to find and extract a pack of noodles and kidney beans."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Search for and retrieve pulses and vegetable oil from the cabinet",
+   "action_ids": [
+    "P06-20240510-104642-497",
+    "P06-20240510-104642-498",
+    "P06-20240510-104642-499",
+    "P06-20240510-104642-500",
+    "P06-20240510-104642-501",
+    "P06-20240510-104642-502",
+    "P06-20240510-104642-503",
+    "P06-20240510-104642-504",
+    "P06-20240510-104642-505",
+    "P06-20240510-104642-506",
+    "P06-20240510-104642-507",
+    "P06-20240510-104642-508",
+    "P06-20240510-104642-509",
+    "P06-20240510-104642-510",
+    "P06-20240510-104642-511"
+   ],
+   "rationale": "The person continues searching the cabinet, taking out a packet of pulses and temporarily handling a bottle of vegetable oil."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Weigh butter and record its weight",
+   "action_ids": [
+    "P06-20240510-104642-520",
+    "P06-20240510-104642-525",
+    "P06-20240510-104642-526",
+    "P06-20240510-104642-527",
+    "P06-20240510-104642-528",
+    "P06-20240510-104642-529",
+    "P06-20240510-104642-530",
+    "P06-20240510-104642-531",
+    "P06-20240510-104642-532",
+    "P06-20240510-104642-533",
+    "P06-20240510-104642-534",
+    "P06-20240510-104642-535",
+    "P06-20240510-104642-536",
+    "P06-20240510-104642-537",
+    "P06-20240510-104642-538"
+   ],
+   "rationale": "The person uses a spoon and a weighing balance to measure the butter and writes the weight in the notebook."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Retrieve a spoon from the drawer",
+   "action_ids": [
+    "P06-20240510-104642-545",
+    "P06-20240510-104642-546",
+    "P06-20240510-104642-547",
+    "P06-20240510-104642-548"
+   ],
+   "rationale": "The person places a used spoon down and gets a new one from the drawer."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Record initial ingredients and weights in the notebook",
+   "action_ids": [
+    "P06-20240510-104642-515",
+    "P06-20240510-104642-516",
+    "P06-20240510-104642-517",
+    "P06-20240510-104642-551",
+    "P06-20240510-104642-552",
+    "P06-20240510-104642-553",
+    "P06-20240510-104642-570",
+    "P06-20240510-104642-571",
+    "P06-20240510-104642-572",
+    "P06-20240510-104642-573",
+    "P06-20240510-104642-587",
+    "P06-20240510-104642-588",
+    "P06-20240510-104642-589"
+   ],
+   "rationale": "The person repeatedly writes down the ingredients and their weights, such as cumin seeds, in the notebook."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Log recipe steps and ingredients in the notebook",
+   "action_ids": [
+    "P06-20240510-104642-602",
+    "P06-20240510-104642-603",
+    "P06-20240510-104642-604",
+    "P06-20240510-104642-605",
+    "P06-20240510-104642-606",
+    "P06-20240510-104642-618",
+    "P06-20240510-104642-619",
+    "P06-20240510-104642-620",
+    "P06-20240510-104642-631",
+    "P06-20240510-104642-632",
+    "P06-20240510-104642-633",
+    "P06-20240510-104642-640",
+    "P06-20240510-104642-641",
+    "P06-20240510-104642-642"
+   ],
+   "rationale": "The person continues to write down the recipe steps and ingredient details in the notebook."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Continue logging recipe steps and ingredients in the notebook",
+   "action_ids": [
+    "P06-20240510-104642-650",
+    "P06-20240510-104642-651",
+    "P06-20240510-104642-669",
+    "P06-20240510-104642-670",
+    "P06-20240510-104642-671",
+    "P06-20240510-104642-672",
+    "P06-20240510-104642-683",
+    "P06-20240510-104642-684",
+    "P06-20240510-104642-685",
+    "P06-20240510-104642-694",
+    "P06-20240510-104642-695",
+    "P06-20240510-104642-696"
+   ],
+   "rationale": "The person finishes recording the remaining recipe steps and ingredients in the notebook."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Retrieve a pressure cooker from the cabinet",
+   "action_ids": [
+    "P06-20240510-104642-675",
+    "P06-20240510-104642-676",
+    "P06-20240510-104642-677",
+    "P06-20240510-104642-678",
+    "P06-20240510-104642-679"
+   ],
+   "rationale": "The person opens the cabinet, takes out a pressure cooker, and places it on the tabletop."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P06-20240510-104642-465",
+  "P06-20240510-104642-470",
+  "P06-20240510-104642-541",
+  "P06-20240510-104642-542",
+  "P06-20240510-104642-582",
+  "P06-20240510-104642-591",
+  "P06-20240510-104642-649",
+  "P06-20240510-104642-652",
+  "P06-20240510-104642-658",
+  "P06-20240510-104642-680",
+  "P06-20240510-104642-681",
+  "P06-20240510-104642-682",
+  "P06-20240510-104642-697",
+  "P06-20240510-104642-702"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

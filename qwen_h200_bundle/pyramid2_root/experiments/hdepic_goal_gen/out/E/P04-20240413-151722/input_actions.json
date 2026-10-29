@@ -1,0 +1,8204 @@
+{
+ "video_id": "P04-20240413-151722",
+ "existing_label": "Grilled Chicken Wrap (P04_R01)",
+ "source": "HD_EPIC_Narrations.pkl (official)",
+ "actions": [
+  {
+   "action_id": "P04-20240413-151722-1",
+   "start_s": 0.0,
+   "end_s": 1.98,
+   "narration": "Check phone in the left hand as I enter the kitchen.",
+   "verbs": [
+    "check",
+    "enter"
+   ],
+   "nouns": [
+    "phone",
+    "kitchen"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-2",
+   "start_s": 1.82,
+   "end_s": 7.79,
+   "narration": "Walk towards the electric hob that is on the countertop.",
+   "verbs": [
+    "walk towards"
+   ],
+   "nouns": [
+    "electric hob",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-3",
+   "start_s": 7.89,
+   "end_s": 9.06,
+   "narration": "Using the right hand, turn off the switch where the electric hob's power cord is connected, cutting the power to the hob.",
+   "verbs": [
+    "turn off",
+    "cut"
+   ],
+   "nouns": [
+    "switch",
+    "electric hob's power cord",
+    "power",
+    "hob"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-4",
+   "start_s": 9.16,
+   "end_s": 10.52,
+   "narration": "Pick up the pan that is on the electric hob by grasping its handle using the right hand.",
+   "verbs": [
+    "pick up",
+    "grasp"
+   ],
+   "nouns": [
+    "pan",
+    "electric hob",
+    "electric hob handle"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-5",
+   "start_s": 10.31,
+   "end_s": 11.74,
+   "narration": "Using the left hand, grab the bottle of liquid hand wash that is near the sink and move it to the left in order to make some space for putting down the pan that is in the right hand.",
+   "verbs": [
+    "grab",
+    "move",
+    "put"
+   ],
+   "nouns": [
+    "bottle of liquid hand wash",
+    "sink",
+    "some space",
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-6",
+   "start_s": 11.83,
+   "end_s": 12.9,
+   "narration": "put down the pan that is in the right hand on top of the countertop next to the kitchen sink",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "pan",
+    "top of countertop",
+    "kitchen sink"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-7",
+   "start_s": 12.71,
+   "end_s": 13.97,
+   "narration": "With the left hand, pick up the slotted spatula that is on the countertop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "slotted spatula",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-8",
+   "start_s": 14.07,
+   "end_s": 17.6,
+   "narration": "Using the right hand, put the spatula in the sink so as to keep it for washing.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "spatula",
+    "sink",
+    "washing"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-9",
+   "start_s": 19.6,
+   "end_s": 21.71,
+   "narration": "Rub hands while thinking about the next step to be done.",
+   "verbs": [
+    "rub"
+   ],
+   "nouns": [
+    "next step"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-10",
+   "start_s": 21.0,
+   "end_s": 23.34,
+   "narration": "Using the right hand pick up the conical shaped bowl containing the shredded lettuce pieces that was placed on top of the kitchen weighing scale using the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "conical shaped bowl",
+    "shredded lettuce pieces",
+    "top of kitchen weighing scale"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-11",
+   "start_s": 23.0,
+   "end_s": 26.83,
+   "narration": "Pick up the bowl of chicken in the left hand while holding the bowl of shredded lettuce in the right hand",
+   "verbs": [
+    "pick up",
+    "hold"
+   ],
+   "nouns": [
+    "bowl of chicken",
+    "bowl of shredded lettuce"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-12",
+   "start_s": 26.93,
+   "end_s": 29.29,
+   "narration": "put down the bowl of shredded lettuce on top of the wooden chopping board using the right hand while also putting down the bowl of chicken pieces on top of the wooden chopping board using the left hand",
+   "verbs": [
+    "put",
+    "put down"
+   ],
+   "nouns": [
+    "bowl of shredded lettuce",
+    "top of wooden chopping board",
+    "bowl of chicken pieces"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-13",
+   "start_s": 29.39,
+   "end_s": 31.01,
+   "narration": "With the right hand, pick up and move the empty white plate from the cooling rack to the wooden chopping board next to it.",
+   "verbs": [
+    "pick up",
+    "move"
+   ],
+   "nouns": [
+    "empty white plate",
+    "cooling rack",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-14",
+   "start_s": 30.45,
+   "end_s": 32.71,
+   "narration": "Using both hands, lift the bowls containing chicken and shredded lettuce and lift it off the wooden chopping board.",
+   "verbs": [
+    "lift"
+   ],
+   "nouns": [
+    "bowls",
+    "chicken",
+    "shredded lettuce",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-15",
+   "start_s": 32.72,
+   "end_s": 34.22,
+   "narration": "Place the two bowls on top of the cooling rack.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "two bowls",
+    "top of cooling rack"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-16",
+   "start_s": 33.97,
+   "end_s": 37.34,
+   "narration": "using both hands pick the bowls containing tomato and chopped onion from the wooden chopping board",
+   "verbs": [
+    "pick"
+   ],
+   "nouns": [
+    "bowls",
+    "tomato",
+    "chopped onion",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-17",
+   "start_s": 37.44,
+   "end_s": 40.49,
+   "narration": "Using both hands, place the two bowls next to the other ingredient bowls. This is done to bring all the ingredients for making the wrap in one place so as to make this area the station for making wraps.",
+   "verbs": [
+    "place",
+    "bring"
+   ],
+   "nouns": [
+    "two bowls",
+    "other ingredient bowls",
+    "ingredients",
+    "wrap",
+    "one place",
+    "area",
+    "wraps"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-18",
+   "start_s": 40.56,
+   "end_s": 41.66,
+   "narration": "Using both hands, move the scale on the countertop a bit away towards the right to make some space in that area.",
+   "verbs": [
+    "move"
+   ],
+   "nouns": [
+    "scale",
+    "countertop",
+    "right",
+    "some space",
+    "area"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-19",
+   "start_s": 41.56,
+   "end_s": 42.71,
+   "narration": "using the left hand pick up the empty white plate that is on the wooden chopping board",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "empty white plate",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-20",
+   "start_s": 42.8,
+   "end_s": 44.24,
+   "narration": "using both hands place the empty plate on top of the kitchen weighing scale so as to use it as a base on which ingredients can be placed and weighed later",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "empty plate",
+    "top of kitchen weighing scale",
+    "base",
+    "ingredients"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-21",
+   "start_s": 44.26,
+   "end_s": 46.53,
+   "narration": "In order to begin the weighing activity, turn on the kitchen weighing scale by pressing down the power button of it using the thumb of the left hand.",
+   "verbs": [
+    "turn on",
+    "press"
+   ],
+   "nouns": [
+    "weighing activity",
+    "kitchen weighing scale",
+    "power button of kitchen weighing scale"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-22",
+   "start_s": 46.63,
+   "end_s": 48.25,
+   "narration": "with the left hand pick up the lemon that is on the wooden chopping board",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "lemon",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-23",
+   "start_s": 48.26,
+   "end_s": 48.92,
+   "narration": "Grab the knife that was on the plastic chopping board using the right hand.",
+   "verbs": [
+    "grab"
+   ],
+   "nouns": [
+    "knife",
+    "plastic chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-24",
+   "start_s": 49.01,
+   "end_s": 52.86,
+   "narration": "Hold the lemon firmly using the left hand on the plastic chopping board and use the knife in the right hand to cut it into two halves.",
+   "verbs": [
+    "hold",
+    "cut"
+   ],
+   "nouns": [
+    "lemon",
+    "plastic chopping board",
+    "knife",
+    "two halves"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-25",
+   "start_s": 52.9,
+   "end_s": 53.98,
+   "narration": "Pick up one half of the cut lemon using the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "one half of cut lemon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-26",
+   "start_s": 54.01,
+   "end_s": 55.36,
+   "narration": "transfer the cut lemon piece from the left hand to the right hand",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "cut lemon piece"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-27",
+   "start_s": 55.45,
+   "end_s": 56.07,
+   "narration": "Place the cut lemon piece on top of the plate over the weighing scale so that we can measure its weight.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "cut lemon piece",
+    "top of plate",
+    "weighing scale",
+    "cut lemon piece weight"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-28",
+   "start_s": 56.17,
+   "end_s": 58.33,
+   "narration": "Using the left hand pick up the marker that is near the notebook in order to use it to note down the weights.",
+   "verbs": [
+    "pick up",
+    "note down"
+   ],
+   "nouns": [
+    "marker",
+    "notebook",
+    "weights"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-29",
+   "start_s": 58.43,
+   "end_s": 64.85,
+   "narration": "write down the weight of the cut piece of lemon that was just weighed",
+   "verbs": [
+    "write down"
+   ],
+   "nouns": [
+    "weight of cut piece of lemon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-30",
+   "start_s": 64.78,
+   "end_s": 66.7,
+   "narration": "Close the cap of the pen using both hands.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "cap of pen"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-31",
+   "start_s": 64.99,
+   "end_s": 68.0,
+   "narration": "Tighten the cap of the marker by pressing or squeezing it with both hands",
+   "verbs": [
+    "tighten",
+    "press",
+    "squeeze"
+   ],
+   "nouns": [
+    "cap of marker"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-32",
+   "start_s": 68.1,
+   "end_s": 68.71,
+   "narration": "using the left hand pick up the notebook",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "notebook"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-33",
+   "start_s": 68.76,
+   "end_s": 69.57,
+   "narration": "Using both hands, place the notebook and the pen or marker over it on the wooden chopping board towards the left.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "notebook",
+    "pen",
+    "marker",
+    "wooden chopping board",
+    "left"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-34",
+   "start_s": 70.57,
+   "end_s": 71.23,
+   "narration": "Using the left hand pick up the cut slice of lemon from the plate over the weighing scale.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "cut slice of lemon",
+    "plate",
+    "weighing scale"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-35",
+   "start_s": 71.43,
+   "end_s": 72.98,
+   "narration": "Place the lemon on the wooden chopping board using the left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "lemon",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-36",
+   "start_s": 74.87,
+   "end_s": 75.81,
+   "narration": "Using the left hand open the door of the cabinet containing plates and other crockery.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "door of cabinet",
+    "plates",
+    "other crockery"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-37",
+   "start_s": 76.01,
+   "end_s": 77.27,
+   "narration": "Using the right hand, pick up the white serving bowl from the bottom shelf of the upper cabinet containing bowls and other crockery.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "white serving bowl",
+    "bottom shelf of upper cabinet",
+    "bowls",
+    "other crockery"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-38",
+   "start_s": 77.37,
+   "end_s": 78.09,
+   "narration": "close the door of the cabinet with the left hand",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "door of cabinet"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-39",
+   "start_s": 78.8,
+   "end_s": 80.07,
+   "narration": "Using the right thumb, dust the bowl held in both hands.",
+   "verbs": [
+    "dust"
+   ],
+   "nouns": [
+    "right thumb",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-40",
+   "start_s": 80.17,
+   "end_s": 81.39,
+   "narration": "While holding the bowl under the nozzle of the tap, turn on the tap using the right hand.",
+   "verbs": [
+    "hold",
+    "turn on"
+   ],
+   "nouns": [
+    "bowl",
+    "nozzle of tap",
+    "tap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-41",
+   "start_s": 80.72,
+   "end_s": 81.82,
+   "narration": "rinse the bowl with water",
+   "verbs": [
+    "rinse"
+   ],
+   "nouns": [
+    "bowl",
+    "water"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-42",
+   "start_s": 81.8,
+   "end_s": 82.2,
+   "narration": "Invert the bowl over the sink using the left hand to drain the water after washing it.",
+   "verbs": [
+    "invert",
+    "drain",
+    "wash"
+   ],
+   "nouns": [
+    "bowl",
+    "sink",
+    "water"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-43",
+   "start_s": 82.38,
+   "end_s": 82.98,
+   "narration": "Using both hands gently shake the bowl over the sink to get rid of any excess water that is inside it.",
+   "verbs": [
+    "shake",
+    "get rid of"
+   ],
+   "nouns": [
+    "bowl",
+    "sink",
+    "any excess water"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-44",
+   "start_s": 85.07,
+   "end_s": 85.94,
+   "narration": "using the right hand pick up an orange wiping cloth from the basket that contains other wiping cloths",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "orange wiping cloth",
+    "basket",
+    "other wiping cloths"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-45",
+   "start_s": 86.12,
+   "end_s": 88.97,
+   "narration": "while holding the washed bowl firmly using the left hand use the orange wiping cloth in the right hand to gently scrub away water from the bowl",
+   "verbs": [
+    "hold",
+    "scrub"
+   ],
+   "nouns": [
+    "washed bowl",
+    "orange wiping cloth",
+    "water",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-46",
+   "start_s": 89.12,
+   "end_s": 89.82,
+   "narration": "Place the orange kitchen cloth back into its original position using the right hand after completing the drying process",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "orange kitchen cloth",
+    "orange kitchen cloth original position",
+    "drying process"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-47",
+   "start_s": 89.89,
+   "end_s": 90.45,
+   "narration": "decide to put the orange cloth outside the basket containing fresh drying cloths",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "orange cloth",
+    "basket",
+    "fresh drying cloths"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-48",
+   "start_s": 92.42,
+   "end_s": 92.93,
+   "narration": "Using the left hand move away the green capped condiment jar in order to make some space",
+   "verbs": [
+    "move"
+   ],
+   "nouns": [
+    "green capped condiment jar",
+    "some space"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-49",
+   "start_s": 93.27,
+   "end_s": 93.88,
+   "narration": "Using the left hand lift up the plate that was on the kitchen weighing scale",
+   "verbs": [
+    "lift up"
+   ],
+   "nouns": [
+    "plate",
+    "kitchen weighing scale"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-50",
+   "start_s": 94.02,
+   "end_s": 94.78,
+   "narration": "Using the right hand, put down the bowl in order to use it as a base to weigh more ingredients.",
+   "verbs": [
+    "put",
+    "weigh"
+   ],
+   "nouns": [
+    "bowl",
+    "base",
+    "more ingredients"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-51",
+   "start_s": 94.67,
+   "end_s": 95.53,
+   "narration": "transfer the plate from the left hand to the right hand",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-52",
+   "start_s": 95.63,
+   "end_s": 98.43,
+   "narration": "While holding the plate in the right hand, use both hands to gently move away the kitchen weighing scale.",
+   "verbs": [
+    "hold",
+    "move"
+   ],
+   "nouns": [
+    "plate",
+    "kitchen weighing scale"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-53",
+   "start_s": 99.16,
+   "end_s": 99.78,
+   "narration": "Pick up and move away the piece of lemon on the wooden chopping board in order to make some space for keeping down the plate.",
+   "verbs": [
+    "pick up",
+    "move",
+    "keep down"
+   ],
+   "nouns": [
+    "piece of lemon",
+    "wooden chopping board",
+    "some space",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-54",
+   "start_s": 99.88,
+   "end_s": 100.84,
+   "narration": "Put down the plate using the right hand on top of the wooden chopping board.",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "plate",
+    "top of wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-55",
+   "start_s": 101.99,
+   "end_s": 102.92,
+   "narration": "Use the right thumb to press the button on the kitchen weighing scale in order to turn the base weight to zero.",
+   "verbs": [
+    "press"
+   ],
+   "nouns": [
+    "right thumb",
+    "button",
+    "kitchen weighing scale",
+    "base weight",
+    "zero"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-56",
+   "start_s": 102.46,
+   "end_s": 108.21,
+   "narration": "Click the button multiple times using the right thumb as the action is not registering in the weighing scale.",
+   "verbs": [
+    "click"
+   ],
+   "nouns": [
+    "button",
+    "right thumb",
+    "action",
+    "weighing scale"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-57",
+   "start_s": 108.23,
+   "end_s": 111.03,
+   "narration": "use the index finger of the left hand to push the same button as the button was not working previously",
+   "verbs": [
+    "push"
+   ],
+   "nouns": [
+    "same button",
+    "button"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-58",
+   "start_s": 110.98,
+   "end_s": 113.57,
+   "narration": "use the thumb of the left hand to turn off and turn back on the power of the weighing scale as the other button was not working",
+   "verbs": [
+    "turn off",
+    "turn on"
+   ],
+   "nouns": [
+    "power of weighing scale",
+    "other button"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-59",
+   "start_s": 114.36,
+   "end_s": 116.28,
+   "narration": "Using the left hand, open the door of the shelf at the bottom containing condiments and other ingredients.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "door of shelf",
+    "bottom",
+    "condiments",
+    "other ingredients"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-60",
+   "start_s": 116.38,
+   "end_s": 118.14,
+   "narration": "Bend down and pick up the bottle of Sriracha sauce that was on the lower part of the lower shelf using the right hand.",
+   "verbs": [
+    "bend",
+    "pick up"
+   ],
+   "nouns": [
+    "bottle of sriracha sauce",
+    "lower part of lower shelf"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-61",
+   "start_s": 118.72,
+   "end_s": 119.39,
+   "narration": "Put down the bottle of Sriracha sauce on the kitchen top next to the other ingredients using the right hand.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "bottle of sriracha sauce",
+    "kitchen top",
+    "other ingredients"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-62",
+   "start_s": 119.41,
+   "end_s": 120.26,
+   "narration": "close the door using the left hand",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "door"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-63",
+   "start_s": 120.33,
+   "end_s": 122.76,
+   "narration": "Open the refrigerator door using the right hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "refrigerator door"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-64",
+   "start_s": 122.39,
+   "end_s": 125.65,
+   "narration": "While holding the door of the refrigerator open using the right hand, use the left hand to reach inside the refrigerator and pick up the container of fat free yogurt that was on the upper row of the refrigerator.",
+   "verbs": [
+    "hold",
+    "reach inside",
+    "pick up"
+   ],
+   "nouns": [
+    "door of refrigerator",
+    "refrigerator",
+    "container of fat free yogurt",
+    "upper row of refrigerator"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-65",
+   "start_s": 125.75,
+   "end_s": 128.53,
+   "narration": "Put down the container of yogurt on the kitchen top using the left hand",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "container of yogurt",
+    "kitchen top"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-66",
+   "start_s": 128.56,
+   "end_s": 130.37,
+   "narration": "Close the door of the refrigerator using the right hand after having picked up the needed ingredient which is yogurt.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "door of refrigerator",
+    "needed ingredient",
+    "yogurt"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-67",
+   "start_s": 130.47,
+   "end_s": 131.8,
+   "narration": "rotate the yogurt container using the left hand",
+   "verbs": [
+    "rotate"
+   ],
+   "nouns": [
+    "yogurt container"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-68",
+   "start_s": 133.4,
+   "end_s": 134.95,
+   "narration": "From the other side of the countertop Using the left hand and the right hand pick up the jars of salt and pepper",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "other side of countertop",
+    "jars of salt",
+    "pepper"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-69",
+   "start_s": 135.05,
+   "end_s": 137.99,
+   "narration": "Put down the containers containing salt and pepper near the Sriracha bottle and other ingredients using both hands.",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "containers",
+    "salt",
+    "pepper",
+    "sriracha bottle",
+    "other ingredients"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-70",
+   "start_s": 138.81,
+   "end_s": 140.11,
+   "narration": "Open the door of the bottom shelf containing condiments and other ingredients using the left hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "door of bottom shelf",
+    "condiments",
+    "other ingredients"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-71",
+   "start_s": 140.31,
+   "end_s": 142.0,
+   "narration": "Open the tray containing cutleries inside the bottom shelf using the right hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "tray",
+    "cutleries",
+    "bottom shelf"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-72",
+   "start_s": 142.1,
+   "end_s": 147.26,
+   "narration": "examine spoons in the slot containing table spoons using the right hand",
+   "verbs": [
+    "examine"
+   ],
+   "nouns": [
+    "spoons",
+    "slot",
+    "table spoons"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-73",
+   "start_s": 147.31,
+   "end_s": 148.86,
+   "narration": "Pick up a teaspoon using the right hand from the cutlery drawer.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "teaspoon",
+    "cutlery drawer"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-74",
+   "start_s": 148.9,
+   "end_s": 150.38,
+   "narration": "While holding the picked up teaspoon using the right hand, close the cutlery drawer by nudging it inside.",
+   "verbs": [
+    "hold",
+    "close",
+    "nudge"
+   ],
+   "nouns": [
+    "picked up teaspoon",
+    "cutlery drawer"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-75",
+   "start_s": 150.45,
+   "end_s": 152.03,
+   "narration": "Close the door of the cabinet using the left hand",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "door of cabinet"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-76",
+   "start_s": 152.07,
+   "end_s": 153.08,
+   "narration": "put down the spoon that is held in the right hand on the wooden chopping board towards the left",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "spoon",
+    "wooden chopping board",
+    "left"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-77",
+   "start_s": 153.59,
+   "end_s": 156.27,
+   "narration": "Using the left hand, peel the wrapper of the yogurt container while holding it with the right hand.",
+   "verbs": [
+    "peel",
+    "hold"
+   ],
+   "nouns": [
+    "wrapper of yogurt container"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-78",
+   "start_s": 156.33,
+   "end_s": 157.63,
+   "narration": "transfer the container of yogurt from the right hand to the left hand",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "container of yogurt"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-79",
+   "start_s": 157.69,
+   "end_s": 158.47,
+   "narration": "While holding the yogurt container in the left hand, pick up the teaspoon using the right hand from the wooden chopping board.",
+   "verbs": [
+    "hold",
+    "pick up"
+   ],
+   "nouns": [
+    "yogurt container",
+    "teaspoon",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-80",
+   "start_s": 158.57,
+   "end_s": 161.65,
+   "narration": "scoop one spoonful of yogurt so as to pick up one teaspoon of yogurt",
+   "verbs": [
+    "scoop"
+   ],
+   "nouns": [
+    "one spoonful of yogurt",
+    "one teaspoon of yogurt"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-81",
+   "start_s": 161.68,
+   "end_s": 162.26,
+   "narration": "drop the teaspoon of yogurt into the bowl on the weighing scale",
+   "verbs": [
+    "drop"
+   ],
+   "nouns": [
+    "teaspoon of yogurt",
+    "bowl",
+    "weighing scale"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-82",
+   "start_s": 162.84,
+   "end_s": 163.87,
+   "narration": "Scoop a second spoonful of yogurt.",
+   "verbs": [
+    "scoop"
+   ],
+   "nouns": [
+    "second spoonful of yogurt"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-83",
+   "start_s": 164.07,
+   "end_s": 164.5,
+   "narration": "Put down the second teaspoon of yogurt into the bowl that is placed on the weighing scale",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "second teaspoon of yogurt",
+    "bowl",
+    "weighing scale"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-84",
+   "start_s": 165.09,
+   "end_s": 166.05,
+   "narration": "pick up a third spoonful of yogurt using the right hand",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "third spoonful of yogurt"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-85",
+   "start_s": 166.2,
+   "end_s": 166.9,
+   "narration": "Put down the spoonful of yogurt into the bowl containing yogurt using the right hand.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "spoonful of yogurt",
+    "bowl",
+    "yogurt"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-86",
+   "start_s": 167.18,
+   "end_s": 168.37,
+   "narration": "Using the right hand pick up another teaspoon full of yogurt.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "another teaspoon",
+    "yogurt"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-87",
+   "start_s": 168.41,
+   "end_s": 168.98,
+   "narration": "Put down the spoonful of yogurt into the bowl over the weighing scale",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "spoonful of yogurt",
+    "bowl",
+    "weighing scale"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-88",
+   "start_s": 169.76,
+   "end_s": 170.62,
+   "narration": "pick up another spoon of yogurt from the container using the right hand",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "another spoon of yogurt",
+    "container"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-89",
+   "start_s": 170.68,
+   "end_s": 171.51,
+   "narration": "Put the spoonful of yogurt into the bowl over the weighing scale.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "spoonful of yogurt",
+    "bowl",
+    "weighing scale"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-90",
+   "start_s": 171.16,
+   "end_s": 172.74,
+   "narration": "Shake the spoon over the bowl so as to shake off any remaining yogurt that is on the spoon such that it will fall into the bowl below.",
+   "verbs": [
+    "shake"
+   ],
+   "nouns": [
+    "spoon",
+    "bowl",
+    "any remaining yogurt"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-91",
+   "start_s": 173.86,
+   "end_s": 175.44,
+   "narration": "Gently put the teaspoon inside the yogurt container and shake it to get any excess yogurt off of it into the container of yogurt.",
+   "verbs": [
+    "put",
+    "shake",
+    "get"
+   ],
+   "nouns": [
+    "teaspoon",
+    "yogurt container",
+    "any excess yogurt",
+    "container of yogurt"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-92",
+   "start_s": 175.48,
+   "end_s": 176.88,
+   "narration": "transfer the container of yogurt from the left hand to the right hand and use the right hand to set it down on the kitchen top next to the other ingredients",
+   "verbs": [
+    "transfer",
+    "set down"
+   ],
+   "nouns": [
+    "container of yogurt",
+    "kitchen top",
+    "other ingredients"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-93",
+   "start_s": 180.31,
+   "end_s": 181.59,
+   "narration": "While positioning the left hand under the nozzle of the tap, use the right hand to turn on the tap",
+   "verbs": [
+    "position",
+    "turn on"
+   ],
+   "nouns": [
+    "nozzle of tap",
+    "tap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-94",
+   "start_s": 181.61,
+   "end_s": 182.32,
+   "narration": "Wash both hands under the stream of running water in the tap to get any grime or food particles off of it.",
+   "verbs": [
+    "wash",
+    "get"
+   ],
+   "nouns": [
+    "stream of running water",
+    "tap",
+    "any grime",
+    "food particles"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-95",
+   "start_s": 182.34,
+   "end_s": 182.84,
+   "narration": "Turn off the tap after completing the washing of hands using the right hand.",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "tap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-96",
+   "start_s": 182.94,
+   "end_s": 184.39,
+   "narration": "Gently put the hands together and shake them over the sink in order to get any excess water off of them.",
+   "verbs": [
+    "put",
+    "shake"
+   ],
+   "nouns": [
+    "sink",
+    "any excess water"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-97",
+   "start_s": 184.98,
+   "end_s": 185.31,
+   "narration": "using the left hand pick up the kitchen rag that is on the countertop next to the kitchen sink",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "kitchen rag",
+    "countertop",
+    "kitchen sink"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-98",
+   "start_s": 185.41,
+   "end_s": 188.38,
+   "narration": "dry hands using the kitchen rag",
+   "verbs": [
+    "dry"
+   ],
+   "nouns": [
+    "kitchen rag"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-99",
+   "start_s": 188.48,
+   "end_s": 188.94,
+   "narration": "Put down the kitchen rag after drying the hands next to the electric hob on the kitchen top.",
+   "verbs": [
+    "put down",
+    "dry"
+   ],
+   "nouns": [
+    "kitchen rag",
+    "electric hob",
+    "kitchen top"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-100",
+   "start_s": 193.49,
+   "end_s": 195.93,
+   "narration": "Pull down on the handle of the door using the left hand and open the door a bit ajar in order to let the smoke collected in the kitchen to exit.",
+   "verbs": [
+    "pull on",
+    "open"
+   ],
+   "nouns": [
+    "handle of door",
+    "door",
+    "smoke",
+    "kitchen"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-101",
+   "start_s": 199.15,
+   "end_s": 200.01,
+   "narration": "Pick up the marker from on top of the notebook using the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "marker",
+    "top of notebook"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-102",
+   "start_s": 200.0,
+   "end_s": 200.95,
+   "narration": "Using both hands, pull open the cap of the marker, holding the cap in the left hand and the marker in the right hand.",
+   "verbs": [
+    "pull open",
+    "hold"
+   ],
+   "nouns": [
+    "cap of marker",
+    "cap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-103",
+   "start_s": 200.88,
+   "end_s": 206.23,
+   "narration": "Using the marker in the right hand, note down the weight of the recently weighed bowl of yogurt.",
+   "verbs": [
+    "note"
+   ],
+   "nouns": [
+    "marker",
+    "weight of recently weighed bowl of yogurt"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-104",
+   "start_s": 206.24,
+   "end_s": 207.43,
+   "narration": "put down the marker that is in the right hand over the notebook",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "marker",
+    "notebook"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-105",
+   "start_s": 207.16,
+   "end_s": 210.86,
+   "narration": "Using the left hand, grab the nozzle of the Sriracha bottle cap while holding the bottle of Sriracha using the right hand.",
+   "verbs": [
+    "grab",
+    "hold"
+   ],
+   "nouns": [
+    "nozzle of sriracha bottle cap",
+    "bottle of sriracha"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-106",
+   "start_s": 210.56,
+   "end_s": 212.1,
+   "narration": "open the door of the cabinet below using the left hand",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "door of cabinet"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-107",
+   "start_s": 212.04,
+   "end_s": 213.44,
+   "narration": "slightly squat down and open the drawer of cutlery using the right hand",
+   "verbs": [
+    "squat",
+    "open"
+   ],
+   "nouns": [
+    "drawer of cutlery"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-108",
+   "start_s": 213.31,
+   "end_s": 216.28,
+   "narration": "Pick up a fresh tablespoon from the slot of tablespoons inside the cutlery drawer using the right hand",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "fresh tablespoon",
+    "slot of tablespoons",
+    "cutlery drawer"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-109",
+   "start_s": 216.07,
+   "end_s": 217.83,
+   "narration": "While holding the picked up tablespoon in the right hand, close the drawer of cutlery",
+   "verbs": [
+    "hold",
+    "close"
+   ],
+   "nouns": [
+    "picked up tablespoon",
+    "drawer of cutlery"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-110",
+   "start_s": 217.81,
+   "end_s": 219.07,
+   "narration": "close the door of the bottom shelf using the left hand",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "door of bottom shelf"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-111",
+   "start_s": 218.69,
+   "end_s": 219.96,
+   "narration": "Pick up the bottle of Sriracha using the left hand while holding the spoon in the right hand in order to use them both to add Sriracha to the bowl of yogurt later.",
+   "verbs": [
+    "pick up",
+    "hold",
+    "add"
+   ],
+   "nouns": [
+    "bottle of sriracha",
+    "spoon",
+    "sriracha",
+    "bowl of yogurt"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-112",
+   "start_s": 219.77,
+   "end_s": 220.88,
+   "narration": "Using the right hand, twist open the nozzle of the Sriracha bottle.",
+   "verbs": [
+    "twist open"
+   ],
+   "nouns": [
+    "nozzle of sriracha bottle"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-113",
+   "start_s": 220.97,
+   "end_s": 222.1,
+   "narration": "Position the spoon over the bowl of yogurt on the weighing scale and invert the bottle of Sriracha over the spoon.",
+   "verbs": [
+    "position",
+    "invert"
+   ],
+   "nouns": [
+    "spoon",
+    "bowl of yogurt",
+    "weighing scale",
+    "bottle of sriracha"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-114",
+   "start_s": 221.76,
+   "end_s": 235.89,
+   "narration": "Squeeze the bottle of Sriracha using the left hand in order to get Sriracha out of it and on to the spoon held in the right hand.",
+   "verbs": [
+    "squeeze"
+   ],
+   "nouns": [
+    "bottle of sriracha",
+    "sriracha",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-115",
+   "start_s": 235.86,
+   "end_s": 239.62,
+   "narration": "After having collected one tablespoon full of Sriracha sauce, Invert the spoon into the yogurt bowl to get Sriracha sauce into the yogurt bowl.",
+   "verbs": [
+    "invert",
+    "get"
+   ],
+   "nouns": [
+    "one tablespoon",
+    "sriracha sauce",
+    "spoon",
+    "yogurt bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-116",
+   "start_s": 239.72,
+   "end_s": 240.61,
+   "narration": "Put down the bottle of Sriracha sauce held in the left hand on top of the countertop",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "bottle of sriracha sauce",
+    "top of countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-117",
+   "start_s": 240.71,
+   "end_s": 241.11,
+   "narration": "Put down the spoon that is held in the right hand into the bowl containing the sauce being prepared.",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "spoon",
+    "bowl",
+    "sauce"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-118",
+   "start_s": 240.73,
+   "end_s": 242.04,
+   "narration": "Using the left hand, open the door of the cabinet below.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "door of cabinet"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-119",
+   "start_s": 242.14,
+   "end_s": 242.58,
+   "narration": "Using the right hand, pick up the condiment jar from the countertop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "condiment jar",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-120",
+   "start_s": 242.68,
+   "end_s": 243.39,
+   "narration": "Let go of the condiment jar using the right hand.",
+   "verbs": [
+    "let go of"
+   ],
+   "nouns": [
+    "condiment jar"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-121",
+   "start_s": 244.14,
+   "end_s": 245.77,
+   "narration": "Using the right hand, open the cutlery drawer that is inside the cabinet below.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "cutlery drawer",
+    "cabinet"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-122",
+   "start_s": 245.87,
+   "end_s": 247.88,
+   "narration": "Pick up a fresh new tablespoon from the cutlery drawer from the designated slot for tablespoons using the right hand",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "fresh new tablespoon",
+    "cutlery drawer",
+    "designated slot",
+    "tablespoons"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-123",
+   "start_s": 247.95,
+   "end_s": 248.8,
+   "narration": "After having picked up a fresh tablespoon, close the drawer of cutleries using the right hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "fresh tablespoon",
+    "drawer of cutleries"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-124",
+   "start_s": 248.84,
+   "end_s": 250.0,
+   "narration": "Close the shelf door using the left hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "shelf door"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-125",
+   "start_s": 250.05,
+   "end_s": 251.53,
+   "narration": "Pick up the jar containing pink salt using the left hand",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "jar",
+    "pink salt"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-126",
+   "start_s": 251.63,
+   "end_s": 252.7,
+   "narration": "While holding the jar containing salt with the left hand use the right hand to unscrew its cap",
+   "verbs": [
+    "hold",
+    "unscrew"
+   ],
+   "nouns": [
+    "jar",
+    "salt",
+    "containing salt cap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-127",
+   "start_s": 252.79,
+   "end_s": 253.71,
+   "narration": "put down the cap of the jar containing pink salt on the kitchen top using the right hand",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "cap of jar",
+    "pink salt",
+    "kitchen top"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-128",
+   "start_s": 253.81,
+   "end_s": 257.34,
+   "narration": "put the spoon inside the jar and collect half a tablespoon of pink salt using the right hand while holding the salt jar in the left hand",
+   "verbs": [
+    "put",
+    "collect",
+    "hold"
+   ],
+   "nouns": [
+    "spoon",
+    "jar",
+    "half tablespoon of pink salt",
+    "salt jar"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-129",
+   "start_s": 257.44,
+   "end_s": 258.57,
+   "narration": "Gently add half a tablespoon of pink salt using the right hand into the yogurt bowl over the kitchen scale.",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "half tablespoon of pink salt",
+    "yogurt bowl",
+    "kitchen scale"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-130",
+   "start_s": 258.65,
+   "end_s": 259.35,
+   "narration": "put down the jar of salt back to its place on the kitchen top",
+   "verbs": [
+    "put",
+    "place on"
+   ],
+   "nouns": [
+    "jar of salt",
+    "kitchen top"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-131",
+   "start_s": 258.91,
+   "end_s": 260.32,
+   "narration": "Pick up the jar containing ground pepper powder using the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "jar",
+    "ground pepper powder"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-132",
+   "start_s": 260.31,
+   "end_s": 265.64,
+   "narration": "Gently add the half tablespoon of ground pepper into the bowl containing yogurt over the kitchen weighing scale.",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "half tablespoon of ground pepper",
+    "bowl",
+    "yogurt",
+    "kitchen weighing scale"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-133",
+   "start_s": 264.9,
+   "end_s": 267.07,
+   "narration": "Put down the black jar containing ground pepper powder back on the kitchen top using the left hand.",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "black jar",
+    "ground pepper powder",
+    "kitchen top"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-134",
+   "start_s": 267.05,
+   "end_s": 268.09,
+   "narration": "put down the tablespoon on top of the cap of the pepper jar using the right hand",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "tablespoon",
+    "top of cap of pepper jar"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-135",
+   "start_s": 267.95,
+   "end_s": 268.6,
+   "narration": "Pick up the condiment jar containing parsley using the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "condiment jar",
+    "parsley"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-136",
+   "start_s": 268.68,
+   "end_s": 272.68,
+   "narration": "While firmly holding the condiment jar containing parsley in the left hand, use the right hand to unscrew its cap.",
+   "verbs": [
+    "hold",
+    "unscrew"
+   ],
+   "nouns": [
+    "condiment jar",
+    "parsley",
+    "right hand cap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-137",
+   "start_s": 271.59,
+   "end_s": 274.84,
+   "narration": "After realizing the cap cannot be unscrewed without removing the plastic layer, use the right hand to gently peel away the plastic layer covering over the parsley jar.",
+   "verbs": [
+    "remove",
+    "peel"
+   ],
+   "nouns": [
+    "cap",
+    "plastic layer",
+    "parsley jar"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-138",
+   "start_s": 274.64,
+   "end_s": 276.37,
+   "narration": "now grab and remove the whole layer of plastic covering using the right hand",
+   "verbs": [
+    "grab",
+    "remove"
+   ],
+   "nouns": [
+    "whole layer of plastic covering"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-139",
+   "start_s": 276.42,
+   "end_s": 277.09,
+   "narration": "Put down the condiment jar containing parsley on the kitchen top using the left hand",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "condiment jar",
+    "parsley",
+    "kitchen top"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-140",
+   "start_s": 277.03,
+   "end_s": 279.4,
+   "narration": "Move towards the rubbish bin in the kitchen and throw the pieces of plastic covering into the rubbish bin using the right hand.",
+   "verbs": [
+    "move towards",
+    "throw"
+   ],
+   "nouns": [
+    "rubbish bin",
+    "kitchen",
+    "pieces of plastic covering"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-141",
+   "start_s": 280.14,
+   "end_s": 280.39,
+   "narration": "Pick up the condiment jar containing parsley again using both hands.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "condiment jar",
+    "parsley"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-142",
+   "start_s": 280.41,
+   "end_s": 280.91,
+   "narration": "While holding the parsley jar in the left hand, use the right hand to unscrew the cap.",
+   "verbs": [
+    "hold",
+    "unscrew"
+   ],
+   "nouns": [
+    "parsley jar",
+    "cap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-143",
+   "start_s": 280.97,
+   "end_s": 281.79,
+   "narration": "put down the cap of the parsley jar on the kitchen top using the right hand",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "cap of parsley jar",
+    "kitchen top"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-144",
+   "start_s": 281.75,
+   "end_s": 283.71,
+   "narration": "Position the table spoon over the bowl containing yogurt and other ingredients and bring the condiment jar containing parsley over the spoon using the left hand in order to add the parsley into the sauce.",
+   "verbs": [
+    "position",
+    "bring"
+   ],
+   "nouns": [
+    "table spoon",
+    "bowl",
+    "yogurt",
+    "other ingredients",
+    "condiment jar",
+    "parsley",
+    "spoon",
+    "sauce"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-145",
+   "start_s": 283.81,
+   "end_s": 288.07,
+   "narration": "While holding the condiment jar in the left hand, gently tap on its container using the left forefinger in order to get some parsley into the tablespoon.",
+   "verbs": [
+    "hold",
+    "tap on"
+   ],
+   "nouns": [
+    "condiment jar",
+    "condiment jar container",
+    "left forefinger",
+    "some parsley",
+    "tablespoon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-146",
+   "start_s": 288.14,
+   "end_s": 290.2,
+   "narration": "Gently shake the spoon in order to get any remaining bits of parsley into the sauce bowl.",
+   "verbs": [
+    "shake"
+   ],
+   "nouns": [
+    "spoon",
+    "any remaining bits of parsley",
+    "sauce bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-147",
+   "start_s": 290.26,
+   "end_s": 291.61,
+   "narration": "Put down the condiment jar containing parsley on the kitchen top using the left hand now that we have finished adding the parsley into the sauce",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "condiment jar",
+    "parsley",
+    "kitchen top",
+    "sauce"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-148",
+   "start_s": 291.7,
+   "end_s": 292.39,
+   "narration": "Transfer the tablespoon from the right hand to the left hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "tablespoon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-149",
+   "start_s": 293.36,
+   "end_s": 294.16,
+   "narration": "Pick up the cut slice of lemon from the chopping board using the left hand",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "cut slice of lemon",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-150",
+   "start_s": 294.26,
+   "end_s": 295.13,
+   "narration": "Pick up the tablespoon from the chopping board using the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "tablespoon",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-151",
+   "start_s": 298.82,
+   "end_s": 300.97,
+   "narration": "Bring the lemon and the spoon over to the plastic chopping board on the right and use the spoon to scoop out the seeds from the cut half of the lemon.",
+   "verbs": [
+    "bring over",
+    "scoop out"
+   ],
+   "nouns": [
+    "lemon",
+    "spoon",
+    "plastic chopping board",
+    "right",
+    "seeds",
+    "cut half of lemon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-152",
+   "start_s": 301.07,
+   "end_s": 304.85,
+   "narration": "scoop out and put down another seed using the spoon held in the right hand",
+   "verbs": [
+    "scoop out",
+    "put down"
+   ],
+   "nouns": [
+    "another seed",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-153",
+   "start_s": 304.95,
+   "end_s": 306.71,
+   "narration": "scoop out and put down another seed using the spoon held in the right hand",
+   "verbs": [
+    "scoop out",
+    "put down"
+   ],
+   "nouns": [
+    "another seed",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-154",
+   "start_s": 308.06,
+   "end_s": 309.57,
+   "narration": "Scoop out and put down another seed using the spoon held in the right hand.",
+   "verbs": [
+    "scoop out",
+    "put down"
+   ],
+   "nouns": [
+    "another seed",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-155",
+   "start_s": 309.93,
+   "end_s": 312.9,
+   "narration": "scoop out and put down another seed using the spoon held in the right hand",
+   "verbs": [
+    "scoop out",
+    "put down"
+   ],
+   "nouns": [
+    "another seed",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-156",
+   "start_s": 317.05,
+   "end_s": 322.86,
+   "narration": "Squeeze the lemon with the left hand letting the juice collect in the spoon held in the air by the right hand in order to measure the amount of lemon juice being added to the sauce mix.",
+   "verbs": [
+    "squeeze"
+   ],
+   "nouns": [
+    "lemon",
+    "juice",
+    "spoon",
+    "air",
+    "amount of lemon juice",
+    "sauce mix"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-157",
+   "start_s": 322.62,
+   "end_s": 323.31,
+   "narration": "After collecting a spoonful of lemon juice in the spoon held by the right hand, invert the spoon to pour the lemon juice into the sauce mix below.",
+   "verbs": [
+    "collect",
+    "invert",
+    "pour"
+   ],
+   "nouns": [
+    "spoonful of lemon juice",
+    "spoon",
+    "lemon juice",
+    "sauce mix"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-158",
+   "start_s": 323.76,
+   "end_s": 326.9,
+   "narration": "proceed to squeeze the lemon with the left hand onto the spoon again to gather more lemon juice",
+   "verbs": [
+    "squeeze",
+    "gather"
+   ],
+   "nouns": [
+    "lemon",
+    "spoon",
+    "more lemon juice"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-159",
+   "start_s": 329.39,
+   "end_s": 331.13,
+   "narration": "Squeeze the lemon in the left hand directly into the bowl below.",
+   "verbs": [
+    "squeeze"
+   ],
+   "nouns": [
+    "lemon",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-160",
+   "start_s": 332.38,
+   "end_s": 333.55,
+   "narration": "Using the tablespoon held in the right hand, pick up the seeds from the lemon that has fallen into the bowl below.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "tablespoon",
+    "seeds",
+    "lemon",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-161",
+   "start_s": 333.84,
+   "end_s": 339.04,
+   "narration": "continue to squeeze lemon that is in the left hand so that the juice is added to the bowl below where sauce is being prepared",
+   "verbs": [
+    "squeeze"
+   ],
+   "nouns": [
+    "lemon",
+    "juice",
+    "bowl",
+    "sauce"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-162",
+   "start_s": 341.27,
+   "end_s": 342.18,
+   "narration": "Using the left hand, throw the squeezed lemon piece into the open rubbish bin.",
+   "verbs": [
+    "throw"
+   ],
+   "nouns": [
+    "squeezed lemon piece",
+    "open rubbish bin"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-163",
+   "start_s": 342.28,
+   "end_s": 345.14,
+   "narration": "shake the spoon over the rubbish bin to throw away the seeds collected in the spoon",
+   "verbs": [
+    "shake",
+    "throw"
+   ],
+   "nouns": [
+    "spoon",
+    "rubbish bin",
+    "seeds"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-164",
+   "start_s": 350.4,
+   "end_s": 351.15,
+   "narration": "Pick up the tablespoon that is inside the sauce mix using the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "tablespoon",
+    "sauce mix"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-165",
+   "start_s": 351.25,
+   "end_s": 353.9,
+   "narration": "Grasp the sauce mix bowl using the left hand and use the right hand to gently stir the sauce mix using the spoon in order to thoroughly mix the sauce",
+   "verbs": [
+    "grasp",
+    "stir"
+   ],
+   "nouns": [
+    "sauce mix bowl",
+    "sauce mix",
+    "spoon",
+    "sauce"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-166",
+   "start_s": 353.49,
+   "end_s": 355.88,
+   "narration": "Using the left hand, lift the bowl from the weighing scale and place it down next to it on the kitchen hob.",
+   "verbs": [
+    "lift",
+    "place"
+   ],
+   "nouns": [
+    "bowl",
+    "weighing scale",
+    "kitchen hob"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-167",
+   "start_s": 355.98,
+   "end_s": 393.4,
+   "narration": "proceed to thoroughly mix the sauce to get a uniform blend of the sauce",
+   "verbs": [
+    "mix",
+    "get"
+   ],
+   "nouns": [
+    "sauce",
+    "uniform blend of sauce"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-168",
+   "start_s": 394.43,
+   "end_s": 396.06,
+   "narration": "using the right hand grab the electronic weighing scale and use the right thumb to press down on the power button of the scale in order to turn it off",
+   "verbs": [
+    "grab",
+    "press on"
+   ],
+   "nouns": [
+    "electronic weighing scale",
+    "right thumb",
+    "power button of scale",
+    "scale"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-169",
+   "start_s": 396.16,
+   "end_s": 397.27,
+   "narration": "After turning off the weighing scale, use the right hand to lift up the weighing scale by grabbing its edge.",
+   "verbs": [
+    "turn off",
+    "lift up",
+    "grab"
+   ],
+   "nouns": [
+    "weighing scale",
+    "weighing scale edge"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-170",
+   "start_s": 399.76,
+   "end_s": 401.94,
+   "narration": "Put down the weighing scale towards the corner left edge of the wooden chopping board as we are done weighing ingredients in this process.",
+   "verbs": [
+    "put down",
+    "weigh"
+   ],
+   "nouns": [
+    "weighing scale",
+    "corner left edge of wooden chopping board",
+    "ingredients",
+    "process"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-171",
+   "start_s": 403.68,
+   "end_s": 404.38,
+   "narration": "Move towards the kitchen sink at the other end of the kitchen.",
+   "verbs": [
+    "move towards"
+   ],
+   "nouns": [
+    "kitchen sink",
+    "other end of kitchen"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-172",
+   "start_s": 404.36,
+   "end_s": 405.04,
+   "narration": "Turn on the tap using the right hand while holding the left hand under the nozzle of the tap.",
+   "verbs": [
+    "turn on",
+    "hold"
+   ],
+   "nouns": [
+    "tap",
+    "nozzle of tap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-173",
+   "start_s": 405.06,
+   "end_s": 405.48,
+   "narration": "wash the left hand under the tap water",
+   "verbs": [
+    "wash"
+   ],
+   "nouns": [
+    "tap water"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-174",
+   "start_s": 405.57,
+   "end_s": 405.96,
+   "narration": "use your right hand to close the tap",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "tap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-175",
+   "start_s": 405.98,
+   "end_s": 407.1,
+   "narration": "Gently shake the wet hands over the sink in order to get any excess water off of the wet hands.",
+   "verbs": [
+    "shake"
+   ],
+   "nouns": [
+    "sink",
+    "any excess water"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-176",
+   "start_s": 406.98,
+   "end_s": 407.85,
+   "narration": "using the left hand pick up the kitchen rag that is on the countertop next to the kitchen sink",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "kitchen rag",
+    "countertop",
+    "kitchen sink"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-177",
+   "start_s": 407.88,
+   "end_s": 410.25,
+   "narration": "Dry hands with the kitchen rag",
+   "verbs": [
+    "dry"
+   ],
+   "nouns": [
+    "kitchen rag"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-178",
+   "start_s": 409.97,
+   "end_s": 411.67,
+   "narration": "Pick up the 2 tablespoons that is on the wooden chopping board using the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "2 tablespoons",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-179",
+   "start_s": 411.45,
+   "end_s": 413.04,
+   "narration": "Put down the two tablespoons on top of the other tablespoon that was on the white plastic chopping board in order to stack them up.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "two tablespoons",
+    "top of other tablespoon",
+    "white plastic chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-180",
+   "start_s": 413.09,
+   "end_s": 414.06,
+   "narration": "Pick up the dirty fork from the other side of the plastic chopping board using the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "dirty fork",
+    "other side of plastic chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-181",
+   "start_s": 413.98,
+   "end_s": 414.62,
+   "narration": "Put the fork down on top of the pile of used spoons on the left side of the plastic chopping board using the right hand.",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "fork",
+    "top of pile of used spoons",
+    "left side of plastic chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-182",
+   "start_s": 414.72,
+   "end_s": 415.46,
+   "narration": "Use the right hand to pick up the knife that is on the right side of the plastic chopping board.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "knife",
+    "right side of plastic chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-183",
+   "start_s": 415.54,
+   "end_s": 415.89,
+   "narration": "Put down the knife near the stack of used cutlery using the right hand.",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "knife",
+    "stack of used cutlery"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-184",
+   "start_s": 415.98,
+   "end_s": 416.99,
+   "narration": "Pick up and move the cut half of lemon piece back towards the wooden chopping board using the right hand.",
+   "verbs": [
+    "pick up",
+    "move"
+   ],
+   "nouns": [
+    "cut half of lemon piece",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-185",
+   "start_s": 417.08,
+   "end_s": 420.17,
+   "narration": "Wipe away any dirt in the right hand against the kitchen rag that is held by the left hand.",
+   "verbs": [
+    "wipe"
+   ],
+   "nouns": [
+    "any dirt",
+    "kitchen rag"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-186",
+   "start_s": 420.27,
+   "end_s": 420.82,
+   "narration": "Put down the kitchen rag using the left hand on top of the wooden chopping board and simultaneously pick up the jar cap that is on the kitchen top using the right hand.",
+   "verbs": [
+    "put",
+    "pick up"
+   ],
+   "nouns": [
+    "kitchen rag",
+    "top of wooden chopping board",
+    "jar cap",
+    "kitchen top"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-187",
+   "start_s": 420.92,
+   "end_s": 422.5,
+   "narration": "Use the jar cap held in the right hand to close the jar of pink salt that is on the kitchen top.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "jar cap",
+    "jar of pink salt",
+    "kitchen top"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-188",
+   "start_s": 422.6,
+   "end_s": 423.15,
+   "narration": "Pick up the other jar cap that is on the tabletop using the right hand and use it to close the pepper jar using the right hand",
+   "verbs": [
+    "pick up",
+    "close"
+   ],
+   "nouns": [
+    "other jar cap",
+    "tabletop",
+    "pepper jar"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-189",
+   "start_s": 423.25,
+   "end_s": 425.09,
+   "narration": "Grasp the pepper jar using the left hand and with the right hand screw on the jar cap.",
+   "verbs": [
+    "grasp",
+    "screw on"
+   ],
+   "nouns": [
+    "pepper jar",
+    "jar cap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-191",
+   "start_s": 424.16,
+   "end_s": 425.05,
+   "narration": "Hold the condiment jar stable in position using the left hand and use the right hand to screw in the cap of the condiment jar.",
+   "verbs": [
+    "hold",
+    "screw in"
+   ],
+   "nouns": [
+    "condiment jar",
+    "position",
+    "cap of condiment jar"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-190",
+   "start_s": 425.05,
+   "end_s": 425.69,
+   "narration": "Pick the jar of peppers up using the left hand and put it down on the wooden chopping board towards the left side.",
+   "verbs": [
+    "pick up",
+    "put down"
+   ],
+   "nouns": [
+    "jar of peppers",
+    "wooden chopping board",
+    "left side"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-192",
+   "start_s": 425.43,
+   "end_s": 425.68,
+   "narration": "Pick up the bottle of Sriracha that is on the kitchen top using the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bottle of sriracha",
+    "kitchen top"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-193",
+   "start_s": 428.38,
+   "end_s": 429.8,
+   "narration": "Using the left hand that is already holding a condiment jar, push the jar of pepper towards the right.",
+   "verbs": [
+    "push"
+   ],
+   "nouns": [
+    "condiment jar",
+    "jar of pepper",
+    "right"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-194",
+   "start_s": 429.89,
+   "end_s": 430.77,
+   "narration": "Attempt to place the condiment jar held in the left hand onto the wooden chopping board but accidentally drop it.",
+   "verbs": [
+    "place",
+    "drop"
+   ],
+   "nouns": [
+    "condiment jar",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-195",
+   "start_s": 430.59,
+   "end_s": 431.39,
+   "narration": "Pick up the dropped parsley condiment jar using the left hand and the pink salt jar using the right hand in order to put them away.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "dropped parsley condiment jar",
+    "pink salt jar"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-196",
+   "start_s": 431.41,
+   "end_s": 432.35,
+   "narration": "While holding the condiment jar in the left hand, grab the door handle of the bottom shelf and open it.",
+   "verbs": [
+    "hold",
+    "grab",
+    "open"
+   ],
+   "nouns": [
+    "condiment jar",
+    "door handle of bottom shelf",
+    "bottom shelf"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-197",
+   "start_s": 432.28,
+   "end_s": 433.3,
+   "narration": "Place the jar of salt that is in the right hand on the bottom row of the condiment shelf.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "jar of salt",
+    "bottom row of condiment shelf"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-198",
+   "start_s": 434.03,
+   "end_s": 434.78,
+   "narration": "Using the right hand, pick up the bottle of Sriracha from the tabletop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bottle of sriracha",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-199",
+   "start_s": 435.77,
+   "end_s": 436.33,
+   "narration": "Transfer the condiment jar from the left hand to the right hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "condiment jar"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-200",
+   "start_s": 436.43,
+   "end_s": 437.07,
+   "narration": "Put down the condiment jar of parsley on the bottom row of the shelf using the right hand.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "condiment jar of parsley",
+    "bottom row of shelf"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-201",
+   "start_s": 437.69,
+   "end_s": 438.48,
+   "narration": "Using the right hand reach and grab the jar containing pepper from the wooden chopping board",
+   "verbs": [
+    "reach",
+    "grab"
+   ],
+   "nouns": [
+    "jar",
+    "pepper",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-202",
+   "start_s": 438.5,
+   "end_s": 439.43,
+   "narration": "Put down the jar containing pepper on the bottom row of the shelf using the right hand.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "jar",
+    "pepper",
+    "bottom row of shelf"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-203",
+   "start_s": 439.4,
+   "end_s": 440.47,
+   "narration": "Close the shelf using the left hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "shelf"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-204",
+   "start_s": 442.55,
+   "end_s": 444.52,
+   "narration": "Using the left hand grasp the container of yogurt that is on the kitchen top and slightly move it away.",
+   "verbs": [
+    "grasp",
+    "move"
+   ],
+   "nouns": [
+    "container of yogurt",
+    "kitchen top"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-205",
+   "start_s": 445.75,
+   "end_s": 447.66,
+   "narration": "Using the left hand peel open the covering of the yogurt container and using the right hand Pick up the spoon that is inside it",
+   "verbs": [
+    "peel",
+    "pick up"
+   ],
+   "nouns": [
+    "covering of yogurt container",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-206",
+   "start_s": 447.51,
+   "end_s": 450.77,
+   "narration": "When holding the container open using the left hand, tap the outer rim of the yogurt container with the spoon in order to get any remaining bits of yogurt from the spoon back into the container.",
+   "verbs": [
+    "hold",
+    "tap"
+   ],
+   "nouns": [
+    "container",
+    "outer rim of yogurt container",
+    "spoon",
+    "any remaining bits of yogurt"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-207",
+   "start_s": 450.73,
+   "end_s": 451.55,
+   "narration": "Place the spoon on top of the pile of used cutlery on the plastic chopping board using the right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spoon",
+    "top of pile of used cutlery",
+    "plastic chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-208",
+   "start_s": 451.46,
+   "end_s": 452.23,
+   "narration": "Pick up the container of yogurt using the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "container of yogurt"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-209",
+   "start_s": 452.23,
+   "end_s": 453.54,
+   "narration": "Grab the handle of the refrigerator that is on the bottom using the right hand.",
+   "verbs": [
+    "grab"
+   ],
+   "nouns": [
+    "handle of refrigerator",
+    "bottom"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-210",
+   "start_s": 453.6,
+   "end_s": 454.65,
+   "narration": "Open the door of the refrigerator using the right hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "door of refrigerator"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-211",
+   "start_s": 454.18,
+   "end_s": 455.8,
+   "narration": "Using the left hand, put the container of yogurt into the refrigerator.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "container of yogurt",
+    "refrigerator"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-212",
+   "start_s": 455.76,
+   "end_s": 456.96,
+   "narration": "Close the door of the refrigerator using the right hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "door of refrigerator"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-213",
+   "start_s": 458.34,
+   "end_s": 459.43,
+   "narration": "As the smoke in the room has cleared, use the right thumb to press the button of the exhaust fan to turn it off.",
+   "verbs": [
+    "press",
+    "turn off"
+   ],
+   "nouns": [
+    "smoke",
+    "room",
+    "right thumb",
+    "button of exhaust fan",
+    "exhaust fan"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-214",
+   "start_s": 460.64,
+   "end_s": 462.74,
+   "narration": "Use the right hand to grab the empty plate on the wooden chopping board and slightly move it towards the back.",
+   "verbs": [
+    "grab",
+    "move"
+   ],
+   "nouns": [
+    "empty plate",
+    "wooden chopping board",
+    "back"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-215",
+   "start_s": 464.79,
+   "end_s": 465.74,
+   "narration": "Using the left hand reach for the handle of the shelf on the top that contains plates and other crockery",
+   "verbs": [
+    "reach for"
+   ],
+   "nouns": [
+    "handle of shelf",
+    "plates",
+    "other crockery"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-216",
+   "start_s": 465.78,
+   "end_s": 466.95,
+   "narration": "Use the right hand to open the right door of the cabinet that contains plates and other crockery.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "right door of cabinet",
+    "plates",
+    "other crockery"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-217",
+   "start_s": 466.86,
+   "end_s": 469.61,
+   "narration": "Using the right hand pick up a plate from the lower row of the cabinet",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "plate",
+    "lower row of cabinet"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-218",
+   "start_s": 469.55,
+   "end_s": 470.11,
+   "narration": "Transfer the plate from the right hand to the left hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-219",
+   "start_s": 470.21,
+   "end_s": 471.18,
+   "narration": "Close the door of the shelves using the right hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "door of shelves"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-220",
+   "start_s": 472.55,
+   "end_s": 473.9,
+   "narration": "using both hands carefully put down the large plate on the kitchen top",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "large plate",
+    "kitchen top"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-221",
+   "start_s": 474.25,
+   "end_s": 475.61,
+   "narration": "open the lower shelf using the left hand",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "lower shelf"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-222",
+   "start_s": 475.22,
+   "end_s": 479.47,
+   "narration": "Using the right hand, grab a packet that is on the upper row of the open shelf while using the left hand to support it.",
+   "verbs": [
+    "grab",
+    "support"
+   ],
+   "nouns": [
+    "packet",
+    "upper row of open shelf"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-223",
+   "start_s": 478.99,
+   "end_s": 480.82,
+   "narration": "Hold the packet of tortillas using the left hand and use the right hand to push away the box of green tea back into the shelf.",
+   "verbs": [
+    "hold",
+    "push"
+   ],
+   "nouns": [
+    "packet of tortillas",
+    "box of green tea",
+    "shelf"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-224",
+   "start_s": 480.77,
+   "end_s": 481.58,
+   "narration": "Transfer the bag of tortillas from the left hand to the right hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "bag of tortillas"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-225",
+   "start_s": 481.59,
+   "end_s": 482.85,
+   "narration": "Close the shelf using the left hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "shelf"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-226",
+   "start_s": 482.93,
+   "end_s": 487.98,
+   "narration": "transfer the bag of tortillas from the right hand to the left hand and use the right hand to open the lower drawer containing cutlery",
+   "verbs": [
+    "transfer",
+    "open"
+   ],
+   "nouns": [
+    "bag of tortillas",
+    "lower drawer",
+    "cutlery"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-227",
+   "start_s": 494.93,
+   "end_s": 497.1,
+   "narration": "Cut the bag of tortillas open using the scissors held in the right hand.",
+   "verbs": [
+    "cut"
+   ],
+   "nouns": [
+    "bag of tortillas",
+    "scissors"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-228",
+   "start_s": 497.2,
+   "end_s": 501.86,
+   "narration": "Pull apart the small opening of the plastic bag using both hands so as to widen the opening.",
+   "verbs": [
+    "pull"
+   ],
+   "nouns": [
+    "small opening of plastic bag",
+    "opening"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-229",
+   "start_s": 501.35,
+   "end_s": 503.83,
+   "narration": "Cut out the dangling piece of plastic from the tortilla bag using the scissors held in the right hand",
+   "verbs": [
+    "cut out"
+   ],
+   "nouns": [
+    "dangling piece of plastic",
+    "tortilla bag",
+    "scissors"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-230",
+   "start_s": 506.3,
+   "end_s": 507.75,
+   "narration": "Put down the pair of scissors now that we have finished cutting the bag of tortillas on the wooden chopping board using the right hand.",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "pair of scissors",
+    "bag of tortillas",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-231",
+   "start_s": 509.17,
+   "end_s": 510.44,
+   "narration": "throw the piece of plastic that is in the right hand into the rubbish bin",
+   "verbs": [
+    "throw"
+   ],
+   "nouns": [
+    "piece of plastic",
+    "rubbish bin"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-232",
+   "start_s": 511.96,
+   "end_s": 512.69,
+   "narration": "Turn on the tap using the right hand.",
+   "verbs": [
+    "turn on"
+   ],
+   "nouns": [
+    "tap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-233",
+   "start_s": 512.79,
+   "end_s": 517.5,
+   "narration": "wash hands thoroughly under the running tap water",
+   "verbs": [
+    "wash"
+   ],
+   "nouns": [
+    "running tap water"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-234",
+   "start_s": 517.6,
+   "end_s": 518.34,
+   "narration": "turn off the tap using the right hand after washing hands",
+   "verbs": [
+    "turn off",
+    "wash"
+   ],
+   "nouns": [
+    "tap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-235",
+   "start_s": 518.44,
+   "end_s": 519.74,
+   "narration": "Shake hands over the kitchen sink so as to get rid of excess water on them after washing.",
+   "verbs": [
+    "shake",
+    "get rid of"
+   ],
+   "nouns": [
+    "kitchen sink",
+    "excess water",
+    "washing"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-236",
+   "start_s": 519.83,
+   "end_s": 521.34,
+   "narration": "Using the right hand, hold and press the nozzle of the liquid hand wash container in order to get some hand wash soap.",
+   "verbs": [
+    "hold",
+    "press"
+   ],
+   "nouns": [
+    "nozzle of liquid hand wash container",
+    "some hand wash soap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-237",
+   "start_s": 521.44,
+   "end_s": 525.48,
+   "narration": "Rub hands together to work up a lather of soap",
+   "verbs": [
+    "rub"
+   ],
+   "nouns": [
+    "lather of soap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-238",
+   "start_s": 525.58,
+   "end_s": 526.29,
+   "narration": "Turn on the tap using the right hand while positioning the left hand under the nozzle of the tap.",
+   "verbs": [
+    "turn on",
+    "position"
+   ],
+   "nouns": [
+    "tap",
+    "nozzle of tap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-239",
+   "start_s": 526.38,
+   "end_s": 531.19,
+   "narration": "gently rub the hands together under the stream of water to get rid of the soap that is on the hands",
+   "verbs": [
+    "rub",
+    "get rid of"
+   ],
+   "nouns": [
+    "stream of water",
+    "soap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-240",
+   "start_s": 531.15,
+   "end_s": 531.89,
+   "narration": "Turn off the tap using the right hands",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "tap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-241",
+   "start_s": 531.96,
+   "end_s": 533.13,
+   "narration": "Gently shake both hands over the sink in order to get any excess water droplets of the wet hands.",
+   "verbs": [
+    "shake"
+   ],
+   "nouns": [
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-242",
+   "start_s": 538.27,
+   "end_s": 539.08,
+   "narration": "Pick up the kitchen rag that is on the wooden chopping board using the right hand",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "kitchen rag",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-243",
+   "start_s": 539.07,
+   "end_s": 544.59,
+   "narration": "Using the kitchen rag, gently rub both hands together to dry them after washing.",
+   "verbs": [
+    "rub",
+    "dry"
+   ],
+   "nouns": [
+    "kitchen rag",
+    "washing"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-244",
+   "start_s": 544.31,
+   "end_s": 545.87,
+   "narration": "Put down the kitchen rag back down to its original position on the wooden chopping board using the left hand.",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "kitchen rag",
+    "kitchen rag original position",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-245",
+   "start_s": 546.29,
+   "end_s": 547.72,
+   "narration": "Rotate the bag of tortillas using both hands on the kitchen top.",
+   "verbs": [
+    "rotate"
+   ],
+   "nouns": [
+    "bag of tortillas",
+    "kitchen top"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-246",
+   "start_s": 547.62,
+   "end_s": 551.08,
+   "narration": "Take out one tortilla from the plastic bag while holding the plastic bag in place using the left hand.",
+   "verbs": [
+    "take out",
+    "hold"
+   ],
+   "nouns": [
+    "one tortilla",
+    "plastic bag"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-247",
+   "start_s": 551.18,
+   "end_s": 552.71,
+   "narration": "Place the empty tortilla on the empty plate on the counter top using both hands to begin the process for making a chicken wrap.",
+   "verbs": [
+    "place",
+    "begin"
+   ],
+   "nouns": [
+    "empty tortilla",
+    "empty plate",
+    "counter top",
+    "process",
+    "chicken wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-248",
+   "start_s": 552.81,
+   "end_s": 554.87,
+   "narration": "Press down on the tortilla using both hands so as to ensure it is laying flat on the plate.",
+   "verbs": [
+    "press on"
+   ],
+   "nouns": [
+    "tortilla",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-249",
+   "start_s": 555.69,
+   "end_s": 557.77,
+   "narration": "Pick up the bowl of shredded lettuce using the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bowl of shredded lettuce"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-250",
+   "start_s": 557.87,
+   "end_s": 558.91,
+   "narration": "Transfer the bowl of lettuce from the right hand to the left hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "bowl of lettuce"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-251",
+   "start_s": 558.76,
+   "end_s": 560.59,
+   "narration": "Grab a handful of shredded lettuce from the bowl with the right hand.",
+   "verbs": [
+    "grab"
+   ],
+   "nouns": [
+    "handful of shredded lettuce",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-252",
+   "start_s": 560.69,
+   "end_s": 562.36,
+   "narration": "Add the shredded lettuce in the right hand onto the tortilla that is placed in the plate below. This will form the bed of lettuce on which other ingredients are placed for the wrap.",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "shredded lettuce",
+    "tortilla",
+    "plate",
+    "bed of lettuce",
+    "other ingredients",
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-253",
+   "start_s": 562.39,
+   "end_s": 564.13,
+   "narration": "Grab a handful of lettuce from the bowl with the right hand.",
+   "verbs": [
+    "grab"
+   ],
+   "nouns": [
+    "handful of lettuce",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-254",
+   "start_s": 564.23,
+   "end_s": 565.51,
+   "narration": "Add the shredded lettuce in the hand to the wrap below",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "shredded lettuce",
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-255",
+   "start_s": 565.61,
+   "end_s": 566.55,
+   "narration": "Grab some more shredded lettuce with the right hand from the bowl.",
+   "verbs": [
+    "grab"
+   ],
+   "nouns": [
+    "some more shredded lettuce",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-256",
+   "start_s": 566.65,
+   "end_s": 568.56,
+   "narration": "Add the lettuce in the hand onto the wrap below.",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "lettuce",
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-257",
+   "start_s": 568.34,
+   "end_s": 569.56,
+   "narration": "Grab some more shredded lettuce from the bowl with the right hand.",
+   "verbs": [
+    "grab"
+   ],
+   "nouns": [
+    "some more shredded lettuce",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-258",
+   "start_s": 569.66,
+   "end_s": 570.63,
+   "narration": "Add the lettuce to the wrap below.",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "lettuce",
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-259",
+   "start_s": 570.62,
+   "end_s": 572.28,
+   "narration": "Use the right hand to pick back up some lettuce from the tortilla and put it back into the bowl held in the left hand. As there is already too much lettuce in the wrap, it might be hard to roll it later.",
+   "verbs": [
+    "pick up",
+    "put",
+    "be in",
+    "roll"
+   ],
+   "nouns": [
+    "some lettuce",
+    "tortilla",
+    "bowl",
+    "there",
+    "too much lettuce",
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-260",
+   "start_s": 572.38,
+   "end_s": 573.49,
+   "narration": "Shake the right hand over the bowl of red lettuce held in the left hand so as to ensure that any lettuce That is stuck to the right hand falls back into the bowl below",
+   "verbs": [
+    "shake"
+   ],
+   "nouns": [
+    "bowl of red lettuce",
+    "any lettuce",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-261",
+   "start_s": 573.5,
+   "end_s": 574.87,
+   "narration": "Put down the bowl of shredded lettuce using the left hand on the countertop.",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "bowl of shredded lettuce",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-262",
+   "start_s": 574.94,
+   "end_s": 576.63,
+   "narration": "Shake the right hand over the bowl of shredded lettuce to ensure that any shredded lettuce bits that is stuck to the right hand falls back onto the bowl below it.",
+   "verbs": [
+    "shake"
+   ],
+   "nouns": [
+    "bowl of shredded lettuce",
+    "any shredded lettuce bits",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-263",
+   "start_s": 576.67,
+   "end_s": 578.25,
+   "narration": "With the left hand, grab and let go of the bowl of chicken that is on the cooling rack.",
+   "verbs": [
+    "grab with",
+    "let go of"
+   ],
+   "nouns": [
+    "bowl of chicken",
+    "cooling rack"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-264",
+   "start_s": 578.23,
+   "end_s": 580.16,
+   "narration": "with the left hand open the door to the cabinet below",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "door",
+    "cabinet"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-265",
+   "start_s": 580.16,
+   "end_s": 582.07,
+   "narration": "With the left hand, pull out the cutlery drawer that is in the cabinet below.",
+   "verbs": [
+    "pull out"
+   ],
+   "nouns": [
+    "cutlery drawer",
+    "cabinet"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-266",
+   "start_s": 582.09,
+   "end_s": 583.27,
+   "narration": "Using the right hand pick up a fresh tablespoon from the slot of other tablespoons in the cutlery drawer.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "fresh tablespoon",
+    "slot of other tablespoons",
+    "cutlery drawer"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-267",
+   "start_s": 583.35,
+   "end_s": 584.19,
+   "narration": "close the cutlery drawer using the left hand",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "cutlery drawer"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-268",
+   "start_s": 584.29,
+   "end_s": 585.4,
+   "narration": "Close the door of the bottom shelves using the left hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "door of bottom shelves"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-269",
+   "start_s": 585.5,
+   "end_s": 587.46,
+   "narration": "With the left hand pick up the bowl of grilled chicken pieces and lift it off the cooling rack on which it was placed",
+   "verbs": [
+    "pick up",
+    "lift"
+   ],
+   "nouns": [
+    "bowl of grilled chicken pieces",
+    "cooling rack"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-270",
+   "start_s": 587.48,
+   "end_s": 589.17,
+   "narration": "Use the spoon in the right hand to scoop up a few pieces of chicken from the bowl held in the left hand",
+   "verbs": [
+    "scoop up"
+   ],
+   "nouns": [
+    "spoon",
+    "few pieces of chicken",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-271",
+   "start_s": 589.12,
+   "end_s": 590.24,
+   "narration": "Add chicken pieces to the tortilla wrap below using the spoon in the right hand.",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "chicken pieces",
+    "tortilla wrap",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-272",
+   "start_s": 590.08,
+   "end_s": 591.44,
+   "narration": "Use the spoon to gather the chicken pieces in the tortilla wrap towards the center.",
+   "verbs": [
+    "gather"
+   ],
+   "nouns": [
+    "spoon",
+    "chicken pieces",
+    "tortilla wrap",
+    "center"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-273",
+   "start_s": 591.18,
+   "end_s": 592.91,
+   "narration": "Using the spoon in the right hand, pick up another spoonful of chicken pieces from the bowl held in the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spoon",
+    "another spoonful of chicken pieces",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-274",
+   "start_s": 592.74,
+   "end_s": 593.93,
+   "narration": "Add the chicken pieces in the spoon to the tortilla wrap below.",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "chicken pieces",
+    "spoon",
+    "tortilla wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-275",
+   "start_s": 593.78,
+   "end_s": 594.87,
+   "narration": "Using a spoon, pick up a few more chicken pieces from the bowl.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spoon",
+    "few more chicken pieces",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-276",
+   "start_s": 594.87,
+   "end_s": 598.14,
+   "narration": "Add the chicken pieces to the wrap below.",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "chicken pieces",
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-277",
+   "start_s": 598.11,
+   "end_s": 599.55,
+   "narration": "pick up a few more pieces of grilled chicken using the spoon held in the right hand from the bowl",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "few more pieces of grilled chicken",
+    "spoon",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-278",
+   "start_s": 599.55,
+   "end_s": 600.51,
+   "narration": "Add the chicken pieces to the wrap below.",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "chicken pieces",
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-279",
+   "start_s": 600.61,
+   "end_s": 601.53,
+   "narration": "Use the spoon to gather the pieces of chicken towards the center of the wrap.",
+   "verbs": [
+    "gather"
+   ],
+   "nouns": [
+    "spoon",
+    "pieces of chicken",
+    "center of wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-280",
+   "start_s": 601.34,
+   "end_s": 604.13,
+   "narration": "Use the spoon to pick up a few more chicken pieces from the bowl.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spoon",
+    "few more chicken pieces",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-281",
+   "start_s": 604.16,
+   "end_s": 605.41,
+   "narration": "add the chicken pieces to the wrap using the spoon held in the right hand",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "chicken pieces",
+    "wrap",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-282",
+   "start_s": 606.26,
+   "end_s": 607.27,
+   "narration": "using the spoon pick up a few more chicken pieces from the bowl held in the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spoon",
+    "few more chicken pieces",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-283",
+   "start_s": 607.36,
+   "end_s": 609.61,
+   "narration": "Add the few more chicken pieces from the spoon onto the tortilla, preparing it to become a wrap.",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "few more chicken pieces",
+    "spoon",
+    "tortilla",
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-284",
+   "start_s": 610.21,
+   "end_s": 610.71,
+   "narration": "Scoop up a few more chicken pieces from the bowl held in the left hand.",
+   "verbs": [
+    "scoop up"
+   ],
+   "nouns": [
+    "few more chicken pieces",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-285",
+   "start_s": 610.81,
+   "end_s": 611.85,
+   "narration": "Add the chicken pieces to the tortilla wrap.",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "chicken pieces",
+    "tortilla wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-286",
+   "start_s": 612.94,
+   "end_s": 613.42,
+   "narration": "Scoop up a few more chicken pieces from the bowl held in the left hand using the tablespoon.",
+   "verbs": [
+    "scoop up"
+   ],
+   "nouns": [
+    "few more chicken pieces",
+    "bowl",
+    "tablespoon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-287",
+   "start_s": 614.36,
+   "end_s": 614.9,
+   "narration": "add the chicken pieces to the wrap below using the spoon",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "chicken pieces",
+    "wrap",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-288",
+   "start_s": 615.72,
+   "end_s": 617.34,
+   "narration": "With the left hand, put down the chicken bowl on the cooling rack.",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "chicken bowl",
+    "cooling rack"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-289",
+   "start_s": 617.44,
+   "end_s": 622.77,
+   "narration": "Noting that there's too much chicken on the tortilla which would make it difficult to close later, use the spoon to remove a single large piece of chicken from the tortilla base.",
+   "verbs": [
+    "be on",
+    "remove"
+   ],
+   "nouns": [
+    "there",
+    "too much chicken",
+    "tortilla",
+    "spoon",
+    "single large piece of chicken",
+    "tortilla base"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-290",
+   "start_s": 622.47,
+   "end_s": 626.02,
+   "narration": "After using the tablespoon, place it back in the bowl of grilled chicken pieces using the right hand, for it can be used in preparing the next chicken wrap.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "tablespoon",
+    "bowl of grilled chicken pieces",
+    "next chicken wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-291",
+   "start_s": 627.82,
+   "end_s": 629.09,
+   "narration": "Using the right hand pick up the bowl containing chopped onion pieces from the cooling rack",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bowl",
+    "chopped onion pieces",
+    "cooling rack"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-292",
+   "start_s": 628.85,
+   "end_s": 632.13,
+   "narration": "Holding the bowl of onion pieces using the left hand, use the right hand to pick up a few pieces of onion.",
+   "verbs": [
+    "hold",
+    "pick up"
+   ],
+   "nouns": [
+    "bowl of onion pieces",
+    "few pieces of onion"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-293",
+   "start_s": 634.46,
+   "end_s": 639.66,
+   "narration": "Pick up some more onions by grabbing a few from the bowl using the right hand. That can be added to the tortilla wrap below.",
+   "verbs": [
+    "pick up",
+    "grab"
+   ],
+   "nouns": [
+    "some more onions",
+    "bowl",
+    "tortilla wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-294",
+   "start_s": 639.76,
+   "end_s": 640.79,
+   "narration": "With the left hand put down the bowl containing chopped onion pieces on the countertop.",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "bowl",
+    "chopped onion pieces",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-295",
+   "start_s": 640.89,
+   "end_s": 641.51,
+   "narration": "As the grilled chicken wrap requires tomatoes to be added, use the right hand to pick up a bowl of cut tomato pieces from the cooling rack in the back.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "grilled chicken wrap",
+    "tomatoes",
+    "bowl of cut tomato pieces",
+    "cooling rack",
+    "back"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-296",
+   "start_s": 641.61,
+   "end_s": 646.14,
+   "narration": "Grab a handful of tomato pieces from the bowl with the right hand and add it to the wrap below.",
+   "verbs": [
+    "grab",
+    "add"
+   ],
+   "nouns": [
+    "handful of tomato pieces",
+    "bowl",
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-297",
+   "start_s": 646.19,
+   "end_s": 646.84,
+   "narration": "Transfer the bowl of the tomato pieces from the left hand to the right hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "bowl of tomato pieces"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-298",
+   "start_s": 646.94,
+   "end_s": 648.18,
+   "narration": "put down the bowl containing tomato pieces back on the cooling rack at the end of the countertop",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "bowl",
+    "tomato pieces",
+    "cooling rack",
+    "end of countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-299",
+   "start_s": 649.19,
+   "end_s": 649.99,
+   "narration": "with both hands pick up the bowl containing the sauce for the wrap",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bowl",
+    "sauce",
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-300",
+   "start_s": 650.09,
+   "end_s": 653.09,
+   "narration": "Carefully add the sauce across the tortilla base using the right hand.",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "sauce",
+    "tortilla base"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-301",
+   "start_s": 656.03,
+   "end_s": 656.76,
+   "narration": "After adding the sauce to the grilled chicken wrap, place the bowl of sauce back in its original position on the countertop towards the right side using both hands.",
+   "verbs": [
+    "add",
+    "place"
+   ],
+   "nouns": [
+    "sauce",
+    "grilled chicken wrap",
+    "bowl of sauce",
+    "countertop",
+    "right side"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-302",
+   "start_s": 657.48,
+   "end_s": 659.17,
+   "narration": "With all the ingredients added to the tortilla base, grab the tortilla by its thin edges at the opposite ends using both hands in order to begin rolling it into a clean looking wrap.",
+   "verbs": [
+    "grab",
+    "roll"
+   ],
+   "nouns": [
+    "ingredients",
+    "tortilla base",
+    "tortilla",
+    "tortilla thin edges",
+    "opposite ends",
+    "clean looking wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-303",
+   "start_s": 659.32,
+   "end_s": 661.52,
+   "narration": "rotate the wrap using both hands",
+   "verbs": [
+    "rotate"
+   ],
+   "nouns": [
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-304",
+   "start_s": 668.15,
+   "end_s": 669.83,
+   "narration": "Fold the wrap from the bottom to the top using both hands.",
+   "verbs": [
+    "fold"
+   ],
+   "nouns": [
+    "wrap",
+    "bottom"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-305",
+   "start_s": 670.49,
+   "end_s": 676.8,
+   "narration": "grip the wrap and try to tuck in using the fingertips",
+   "verbs": [
+    "grip",
+    "tuck in"
+   ],
+   "nouns": [
+    "wrap",
+    "fingertips"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-306",
+   "start_s": 676.95,
+   "end_s": 678.84,
+   "narration": "Use the left hand to tuck in the left edge of the tortilla flap that is sticking outside.",
+   "verbs": [
+    "tuck in"
+   ],
+   "nouns": [
+    "left edge of tortilla flap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-307",
+   "start_s": 678.99,
+   "end_s": 683.01,
+   "narration": "Use the right hand to tuck in the right edge of the tortilla flap that is sticking outside.",
+   "verbs": [
+    "tuck in"
+   ],
+   "nouns": [
+    "right edge of tortilla flap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-308",
+   "start_s": 682.33,
+   "end_s": 683.52,
+   "narration": "Firmly grip the rolled part of the wrap and roll it over the top flap.",
+   "verbs": [
+    "grip",
+    "roll"
+   ],
+   "nouns": [
+    "rolled part of wrap",
+    "top flap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-309",
+   "start_s": 687.8,
+   "end_s": 688.9,
+   "narration": "As the wrap is not correctly rolled, open the tortilla in order to redo it again.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "wrap",
+    "tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-310",
+   "start_s": 689.56,
+   "end_s": 697.04,
+   "narration": "grip the wrap firmly and tuck it and then roll it with both hands",
+   "verbs": [
+    "grip",
+    "tuck",
+    "roll"
+   ],
+   "nouns": [
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-311",
+   "start_s": 700.78,
+   "end_s": 704.57,
+   "narration": "Using both hands, push in the part on the sides that are sticking out.",
+   "verbs": [
+    "push in"
+   ],
+   "nouns": [
+    "part",
+    "sides"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-312",
+   "start_s": 707.8,
+   "end_s": 709.73,
+   "narration": "Using both hands, pick up bits of lettuce that has spilled out onto the plate and add it back to the bowl containing the shredded lettuce.",
+   "verbs": [
+    "pick up",
+    "add"
+   ],
+   "nouns": [
+    "bits of lettuce",
+    "plate",
+    "bowl",
+    "shredded lettuce"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-313",
+   "start_s": 712.71,
+   "end_s": 719.63,
+   "narration": "using both hands pick up the grilled chicken wrap and lift it off the big plate",
+   "verbs": [
+    "pick up",
+    "lift"
+   ],
+   "nouns": [
+    "grilled chicken wrap",
+    "big plate"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-314",
+   "start_s": 720.26,
+   "end_s": 721.37,
+   "narration": "Using both hands, put down the wrap on the plate that is on the wooden chopping board.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "wrap",
+    "plate",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-315",
+   "start_s": 721.83,
+   "end_s": 722.86,
+   "narration": "Using both hands put the plate, while holding the wrap, a bit towards the centre of the wooden chopping board in order to ensure the plate does not fall off while holding the chicken wrap.",
+   "verbs": [
+    "put",
+    "hold"
+   ],
+   "nouns": [
+    "plate",
+    "wrap",
+    "centre of wooden chopping board",
+    "chicken wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-316",
+   "start_s": 724.26,
+   "end_s": 727.06,
+   "narration": "Hold the plastic bag with the left hand and pull out a fresh new tortilla using the right hand.",
+   "verbs": [
+    "hold",
+    "pull out"
+   ],
+   "nouns": [
+    "plastic bag",
+    "fresh new tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-317",
+   "start_s": 728.61,
+   "end_s": 729.04,
+   "narration": "With the right hand, pick up the small bit of lettuce that is on the plate and put it back into the bowl.",
+   "verbs": [
+    "pick up",
+    "put"
+   ],
+   "nouns": [
+    "small bit of lettuce",
+    "plate",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-318",
+   "start_s": 729.64,
+   "end_s": 730.67,
+   "narration": "With the right hand pick up the small bit of tomato that is on the plate and put it back into the bowl",
+   "verbs": [
+    "pick up",
+    "put"
+   ],
+   "nouns": [
+    "small bit of tomato",
+    "plate",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-319",
+   "start_s": 730.18,
+   "end_s": 733.39,
+   "narration": "With the right hand, grab a handful of shredded lettuce from the bowl.",
+   "verbs": [
+    "grab"
+   ],
+   "nouns": [
+    "handful of shredded lettuce",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-320",
+   "start_s": 733.58,
+   "end_s": 734.44,
+   "narration": "Add the shredded lettuce to the tortilla using the right hand",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "shredded lettuce",
+    "tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-321",
+   "start_s": 735.15,
+   "end_s": 736.44,
+   "narration": "Pick up some more shredded lettuce using the right hand from the bowl.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "some more shredded lettuce",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-322",
+   "start_s": 736.53,
+   "end_s": 737.75,
+   "narration": "Add the shredded lettuce to the wrap using the right hand.",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "shredded lettuce",
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-323",
+   "start_s": 737.84,
+   "end_s": 741.5,
+   "narration": "Shake the right hand over the lettuce bowl to make sure that if any bits of red lettuce is stuck to the right hand it falls back into the bowl below.",
+   "verbs": [
+    "shake"
+   ],
+   "nouns": [
+    "lettuce bowl",
+    "any bits of red lettuce",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-324",
+   "start_s": 741.38,
+   "end_s": 742.43,
+   "narration": "Using the left hand, pick up the bowl containing grilled chicken pieces.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bowl",
+    "grilled chicken pieces"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-325",
+   "start_s": 742.48,
+   "end_s": 742.99,
+   "narration": "Grab the spoon that is inside of the grilled chicken bowl using the right hand so as to use it to pick up chicken.",
+   "verbs": [
+    "grab",
+    "pick up"
+   ],
+   "nouns": [
+    "spoon",
+    "grilled chicken bowl",
+    "chicken"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-326",
+   "start_s": 743.32,
+   "end_s": 745.0,
+   "narration": "Add the grilled chicken pieces that is on the spoon to the wrap below it.",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "grilled chicken pieces",
+    "spoon",
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-327",
+   "start_s": 745.37,
+   "end_s": 746.26,
+   "narration": "Pick up another spoonful of grilled chicken pieces from the bowl using the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "another spoonful of grilled chicken pieces",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-328",
+   "start_s": 746.54,
+   "end_s": 747.04,
+   "narration": "add the grilled chicken pieces that is on the spoon to the wrap below it",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "grilled chicken pieces",
+    "spoon",
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-329",
+   "start_s": 747.34,
+   "end_s": 749.65,
+   "narration": "Use the spoon to arrange the chicken pieces evenly over the bed of shredded lettuce on the tortilla, ensuring that they are spread out for easier rolling and a well-balanced wrap.",
+   "verbs": [
+    "arrange"
+   ],
+   "nouns": [
+    "spoon",
+    "chicken pieces",
+    "bed of shredded lettuce",
+    "tortilla",
+    "easier rolling",
+    "well-balanced wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-330",
+   "start_s": 749.89,
+   "end_s": 751.02,
+   "narration": "Pick up another spoonful of grilled chicken pieces using the spoon held in the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "another spoonful of grilled chicken pieces",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-331",
+   "start_s": 750.92,
+   "end_s": 752.08,
+   "narration": "Add the grilled chicken pieces to the wrap using the spoon held in the right hand.",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "grilled chicken pieces",
+    "wrap",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-332",
+   "start_s": 752.03,
+   "end_s": 753.72,
+   "narration": "With the spoon, pick up some more grilled chicken pieces from the board held in the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spoon",
+    "some more grilled chicken pieces",
+    "board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-333",
+   "start_s": 753.78,
+   "end_s": 754.76,
+   "narration": "Add the grilled chicken pieces to the wrap Using the spoon held in the right hand.",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "grilled chicken pieces",
+    "wrap",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-334",
+   "start_s": 754.73,
+   "end_s": 755.42,
+   "narration": "Put the spoon back in the bowl using the right hand.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "spoon",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-335",
+   "start_s": 755.52,
+   "end_s": 756.94,
+   "narration": "Place the bowl of grilled chicken back on the cooling rack using the left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "bowl of grilled chicken",
+    "cooling rack"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-336",
+   "start_s": 757.03,
+   "end_s": 758.3,
+   "narration": "Now pick up the bowl of cut onion pieces using the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bowl of cut onion pieces"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-337",
+   "start_s": 758.29,
+   "end_s": 759.21,
+   "narration": "Grab a handful of cut onion pieces using the right hand.",
+   "verbs": [
+    "grab"
+   ],
+   "nouns": [
+    "handful of cut onion pieces"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-338",
+   "start_s": 759.28,
+   "end_s": 760.33,
+   "narration": "Add the onion pieces on to the contents of the tortilla.",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "onion pieces",
+    "contents of tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-339",
+   "start_s": 762.21,
+   "end_s": 763.85,
+   "narration": "Grab some more onion from the bowl held in the left hand using the right hand.",
+   "verbs": [
+    "grab"
+   ],
+   "nouns": [
+    "some more onion",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-340",
+   "start_s": 763.95,
+   "end_s": 764.62,
+   "narration": "add the onion pieces to the wrap using the right hand",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "onion pieces",
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-341",
+   "start_s": 765.92,
+   "end_s": 766.42,
+   "narration": "put down the bowl that is in your left hand on the countertop",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "bowl",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-342",
+   "start_s": 766.27,
+   "end_s": 767.1,
+   "narration": "Shake hands over the tortilla wrap to make sure that if any onion pieces are stuck to the right hand, they fall onto the tortilla wrap below.",
+   "verbs": [
+    "shake"
+   ],
+   "nouns": [
+    "tortilla wrap",
+    "any onion pieces"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-343",
+   "start_s": 767.98,
+   "end_s": 768.39,
+   "narration": "With the right hand pick up the bowl containing chopped onion pieces.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bowl",
+    "chopped onion pieces"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-344",
+   "start_s": 768.59,
+   "end_s": 768.9,
+   "narration": "Transfer the bowl of tomato from the right hand to the left hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "bowl of tomato"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-345",
+   "start_s": 769.05,
+   "end_s": 769.62,
+   "narration": "With the right hand, pick up a handful of cut tomato pieces from the bowl held in the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "handful of cut tomato pieces",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-346",
+   "start_s": 769.92,
+   "end_s": 771.4,
+   "narration": "Add the tomato pieces to the wrap below using the right hand.",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "tomato pieces",
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-347",
+   "start_s": 771.67,
+   "end_s": 772.13,
+   "narration": "Transfer the bowl of tomato from the left hand to the right hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "bowl of tomato"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-348",
+   "start_s": 772.55,
+   "end_s": 773.06,
+   "narration": "place the bowl containing tomato pieces back on the cooling rack using the right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "bowl",
+    "tomato pieces",
+    "cooling rack"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-349",
+   "start_s": 774.05,
+   "end_s": 774.72,
+   "narration": "With both hands, pick up the bowl containing the sauce for the grill wrap.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bowl",
+    "sauce",
+    "grill wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-350",
+   "start_s": 774.65,
+   "end_s": 775.15,
+   "narration": "Scoop up one spoonful of sauce using the spoon held in the right hand.",
+   "verbs": [
+    "scoop up"
+   ],
+   "nouns": [
+    "one spoonful of sauce",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-351",
+   "start_s": 775.21,
+   "end_s": 777.66,
+   "narration": "Gently add the sauce across the wrap below, using the spoon held in the right hand.",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "sauce",
+    "wrap",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-352",
+   "start_s": 777.76,
+   "end_s": 778.93,
+   "narration": "Take up another spoonful of sauce using the spoon held in the right hand.",
+   "verbs": [
+    "take up"
+   ],
+   "nouns": [
+    "another spoonful of sauce",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-353",
+   "start_s": 779.02,
+   "end_s": 781.18,
+   "narration": "Add the sauce to the wrap below using the spoon held in the right hand",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "sauce",
+    "wrap",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-354",
+   "start_s": 781.28,
+   "end_s": 782.12,
+   "narration": "Put the spoon back into the bowl of sauce using the right hand",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "spoon",
+    "bowl of sauce"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-355",
+   "start_s": 782.21,
+   "end_s": 782.72,
+   "narration": "Scoop another spoon of sauce using the spoon in the right hand.",
+   "verbs": [
+    "scoop"
+   ],
+   "nouns": [
+    "another spoon of sauce",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-356",
+   "start_s": 782.79,
+   "end_s": 784.72,
+   "narration": "Add sauce to the wrap using the right hand",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "sauce",
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-357",
+   "start_s": 784.82,
+   "end_s": 786.02,
+   "narration": "Put the spoon back into the bowl using the right hand and put down the bowl on the countertop using the left hand",
+   "verbs": [
+    "put",
+    "put down"
+   ],
+   "nouns": [
+    "spoon",
+    "bowl",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-358",
+   "start_s": 786.09,
+   "end_s": 791.05,
+   "narration": "To start wrapping the wrap into a burrito form, grab the edges of the tortilla using both hands.",
+   "verbs": [
+    "wrap",
+    "grab"
+   ],
+   "nouns": [
+    "wrap",
+    "burrito form",
+    "edges of tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-359",
+   "start_s": 790.72,
+   "end_s": 794.67,
+   "narration": "Using both hands, pull the sides to make sure the pile of ingredients is centered uniformly.",
+   "verbs": [
+    "pull"
+   ],
+   "nouns": [
+    "sides",
+    "pile of ingredients"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-360",
+   "start_s": 794.05,
+   "end_s": 798.62,
+   "narration": "Using both hands, make a small fold at each side, the left and the right.",
+   "verbs": [],
+   "nouns": [
+    "small fold",
+    "each side",
+    "right"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-361",
+   "start_s": 794.95,
+   "end_s": 798.49,
+   "narration": "Using the thumbs of both hands, pull the flap or the bottom part of the tortilla across the tortilla so as to fold it.",
+   "verbs": [
+    "pull"
+   ],
+   "nouns": [
+    "flap",
+    "bottom part of tortilla",
+    "tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-362",
+   "start_s": 799.74,
+   "end_s": 801.4,
+   "narration": "Grip the rolled bottom part with both hands, tucking the contents in the center with the fingertips.",
+   "verbs": [
+    "grip",
+    "tuck"
+   ],
+   "nouns": [
+    "rolled bottom part",
+    "contents",
+    "center",
+    "fingertips"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-363",
+   "start_s": 800.14,
+   "end_s": 803.32,
+   "narration": "As it was difficult to roll the tortilla, open it again.",
+   "verbs": [
+    "roll",
+    "open"
+   ],
+   "nouns": [
+    "tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-364",
+   "start_s": 803.05,
+   "end_s": 804.91,
+   "narration": "Grab the bottom part of the tortilla using the thumb and index finger of both hands and fold it all the way to the top.",
+   "verbs": [
+    "grab",
+    "fold"
+   ],
+   "nouns": [
+    "bottom part of tortilla",
+    "thumb"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-365",
+   "start_s": 805.01,
+   "end_s": 808.85,
+   "narration": "Grip the folded part of the tortilla with both hands and try to tuck in the ingredients using the fingertips.",
+   "verbs": [
+    "grip",
+    "tuck in"
+   ],
+   "nouns": [
+    "folded part of tortilla",
+    "ingredients",
+    "fingertips"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-366",
+   "start_s": 809.13,
+   "end_s": 811.92,
+   "narration": "Using the left hand, try to fold in the left part of the tortilla that is sticking out.",
+   "verbs": [
+    "fold"
+   ],
+   "nouns": [
+    "left part of tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-367",
+   "start_s": 812.18,
+   "end_s": 815.31,
+   "narration": "Using the right hand, try to fold in the right part of the tortilla that is sticking out.",
+   "verbs": [
+    "fold"
+   ],
+   "nouns": [
+    "right part of tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-368",
+   "start_s": 816.67,
+   "end_s": 819.16,
+   "narration": "Using the right hand, try to fold in the right part of the tortilla that is sticking out.",
+   "verbs": [
+    "fold"
+   ],
+   "nouns": [
+    "right part of tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-369",
+   "start_s": 819.13,
+   "end_s": 824.67,
+   "narration": "after tucking in roll all the way across using both hands.",
+   "verbs": [
+    "tuck in",
+    "roll after"
+   ],
+   "nouns": [
+    "roll"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-370",
+   "start_s": 824.81,
+   "end_s": 826.54,
+   "narration": "After the roll is complete, press along the sides of the roll to ensure that the sides do not stick out.",
+   "verbs": [
+    "press along"
+   ],
+   "nouns": [
+    "roll",
+    "sides of roll",
+    "sides"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-371",
+   "start_s": 827.74,
+   "end_s": 828.54,
+   "narration": "pick up the wrap using both hands",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-372",
+   "start_s": 828.64,
+   "end_s": 830.12,
+   "narration": "Place the wrap on the small serving plate that is on the wooden chopping board using both hands",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "wrap",
+    "small serving plate",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-373",
+   "start_s": 830.67,
+   "end_s": 834.05,
+   "narration": "From the plastic bag, take out another tortilla using the right hand.",
+   "verbs": [
+    "take out"
+   ],
+   "nouns": [
+    "plastic bag",
+    "another tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-374",
+   "start_s": 834.35,
+   "end_s": 836.1,
+   "narration": "Put down the tortilla on the plate using both hands.",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "tortilla",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-375",
+   "start_s": 837.09,
+   "end_s": 837.73,
+   "narration": "With the left hand, pick up the bowl containing shredded lettuce.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bowl",
+    "shredded lettuce"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-376",
+   "start_s": 837.8,
+   "end_s": 839.85,
+   "narration": "with the right hand grab a handful of shredded lettuce from the bowl in the left hand",
+   "verbs": [
+    "grab"
+   ],
+   "nouns": [
+    "handful of shredded lettuce",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-377",
+   "start_s": 840.14,
+   "end_s": 842.59,
+   "narration": "Lay the shredded lettuce in the center of the tortilla using the right hand.",
+   "verbs": [
+    "lay"
+   ],
+   "nouns": [
+    "shredded lettuce",
+    "center of tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-378",
+   "start_s": 842.69,
+   "end_s": 845.19,
+   "narration": "Using the right hand, grab a handful of lettuce from the bowl in the left hand.",
+   "verbs": [
+    "grab"
+   ],
+   "nouns": [
+    "handful of lettuce",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-381",
+   "start_s": 843.83,
+   "end_s": 844.57,
+   "narration": "Using the right hand, grab another handful of shredded lettuce from the bowl in the left hand.",
+   "verbs": [
+    "grab"
+   ],
+   "nouns": [
+    "another handful of shredded lettuce",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-382",
+   "start_s": 844.58,
+   "end_s": 846.07,
+   "narration": "Add the Lettuce that is in the right hand on the Tortilla below.",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "lettuce",
+    "tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-379",
+   "start_s": 845.29,
+   "end_s": 848.14,
+   "narration": "Lay the shredded lettuce on the tortilla below using the right hand.",
+   "verbs": [
+    "lay"
+   ],
+   "nouns": [
+    "shredded lettuce",
+    "tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-380",
+   "start_s": 845.3,
+   "end_s": 846.17,
+   "narration": "Using the right hand, gently spread the shredded lettuce on the tortilla.",
+   "verbs": [
+    "spread"
+   ],
+   "nouns": [
+    "shredded lettuce",
+    "tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-383",
+   "start_s": 846.09,
+   "end_s": 847.15,
+   "narration": "Shake the right hand over the bowl of shredded lettuce so that if any Bits of lettuce are stuck to the right hand they fall into the bowl below.",
+   "verbs": [
+    "shake"
+   ],
+   "nouns": [
+    "bowl of shredded lettuce",
+    "any bits of lettuce",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-384",
+   "start_s": 847.25,
+   "end_s": 848.7,
+   "narration": "With the left hand put down the bowl of shredded lettuce on the countertop.",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "bowl of shredded lettuce",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-385",
+   "start_s": 848.8,
+   "end_s": 849.94,
+   "narration": "To start adding chicken on to the wrap, pick up the bowl of grilled chicken from the countertop using the left hand.",
+   "verbs": [
+    "add",
+    "pick up"
+   ],
+   "nouns": [
+    "chicken",
+    "wrap",
+    "bowl of grilled chicken",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-386",
+   "start_s": 850.04,
+   "end_s": 855.54,
+   "narration": "With the spoon in the right hand, drag and transfer grilled chicken pieces from the bowl to the wrap below it.",
+   "verbs": [
+    "drag",
+    "transfer"
+   ],
+   "nouns": [
+    "grilled chicken pieces",
+    "bowl",
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-387",
+   "start_s": 855.62,
+   "end_s": 856.27,
+   "narration": "put the spoon back in the bowl using the right hand",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "spoon",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-388",
+   "start_s": 856.37,
+   "end_s": 857.42,
+   "narration": "put the bowl in the left hand back on the cooling rack",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "bowl",
+    "cooling rack"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-389",
+   "start_s": 857.52,
+   "end_s": 861.77,
+   "narration": "using both hands arrange the pieces of chicken in the wrap so that they are all neatly piled in the center this will ensure easy rolling",
+   "verbs": [
+    "arrange"
+   ],
+   "nouns": [
+    "pieces of chicken",
+    "wrap",
+    "center",
+    "easy rolling"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-390",
+   "start_s": 861.87,
+   "end_s": 864.69,
+   "narration": "Next, to add the onions to the wrap, grab the onion bowl using the left hand and the handful of onions using the right hand.",
+   "verbs": [
+    "add",
+    "grab"
+   ],
+   "nouns": [
+    "onions",
+    "wrap",
+    "onion bowl",
+    "handful of onions"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-391",
+   "start_s": 863.75,
+   "end_s": 864.49,
+   "narration": "Add some onion pieces to the wrap towards the center using the right hand.",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "some onion pieces",
+    "wrap",
+    "center"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-392",
+   "start_s": 864.55,
+   "end_s": 865.55,
+   "narration": "Using the right hand, grab some more onion pieces from the bowl.",
+   "verbs": [
+    "grab"
+   ],
+   "nouns": [
+    "some more onion pieces",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-393",
+   "start_s": 865.62,
+   "end_s": 866.9,
+   "narration": "Add the onion pieces that is in the right hand on to the wrap that is being prepared",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "onion pieces",
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-394",
+   "start_s": 867.0,
+   "end_s": 869.49,
+   "narration": "next to add tomato to the grilled chicken wrap use the right hand to reach and grab a handful of cut tomato pieces from the bowl containing tomato pieces",
+   "verbs": [
+    "add",
+    "reach",
+    "grab"
+   ],
+   "nouns": [
+    "tomato",
+    "grilled chicken wrap",
+    "handful of cut tomato pieces",
+    "bowl",
+    "tomato pieces"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-395",
+   "start_s": 869.54,
+   "end_s": 870.86,
+   "narration": "sprinkle the tomato pieces from the hand onto the contents of the tortilla in the center",
+   "verbs": [
+    "sprinkle"
+   ],
+   "nouns": [
+    "tomato pieces",
+    "contents of tortilla",
+    "center"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-396",
+   "start_s": 870.94,
+   "end_s": 872.15,
+   "narration": "With the right hand, grab some more tomato pieces from the bowl.",
+   "verbs": [
+    "grab"
+   ],
+   "nouns": [
+    "some more tomato pieces",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-397",
+   "start_s": 872.24,
+   "end_s": 873.14,
+   "narration": "Sprinkle the tomato pieces on the chicken wrap that is being prepared using the right hand.",
+   "verbs": [
+    "sprinkle"
+   ],
+   "nouns": [
+    "tomato pieces",
+    "chicken wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-398",
+   "start_s": 873.14,
+   "end_s": 874.5,
+   "narration": "Shake the right hand over the bowl of tomato pieces so that if any bits of tomato is stuck to the right hand, it falls back into the bowl below it.",
+   "verbs": [
+    "shake"
+   ],
+   "nouns": [
+    "bowl of tomato pieces",
+    "any bits of tomato",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-399",
+   "start_s": 876.22,
+   "end_s": 877.11,
+   "narration": "With the right hand, pick up the spoon that is in the bowl of sauce and hold the bowl with the left hand.",
+   "verbs": [
+    "pick up",
+    "hold"
+   ],
+   "nouns": [
+    "spoon",
+    "bowl of sauce",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-401",
+   "start_s": 876.96,
+   "end_s": 877.61,
+   "narration": "Using both hands, pick up the bowl of sauce.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bowl of sauce"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-400",
+   "start_s": 877.21,
+   "end_s": 877.84,
+   "narration": "Pick up 1 tablespoon full of sauce using the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "1 tablespoon",
+    "sauce"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-402",
+   "start_s": 877.71,
+   "end_s": 879.67,
+   "narration": "Add one spoon of sauce onto the grilled chicken wrap that is being prepared below.",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "one spoon of sauce",
+    "grilled chicken wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-403",
+   "start_s": 879.77,
+   "end_s": 880.68,
+   "narration": "Scoop up another spoon of sauce from the bowl held in the left hand.",
+   "verbs": [
+    "scoop up"
+   ],
+   "nouns": [
+    "another spoon of sauce",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-404",
+   "start_s": 880.75,
+   "end_s": 882.69,
+   "narration": "Sprinkle the sauce using the spoon that is held in the right hand onto the grilled chicken wrap that is being prepared below",
+   "verbs": [
+    "sprinkle"
+   ],
+   "nouns": [
+    "sauce",
+    "spoon",
+    "grilled chicken wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-405",
+   "start_s": 882.79,
+   "end_s": 883.19,
+   "narration": "Put the spoon back into the bowl using the right hand.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "spoon",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-406",
+   "start_s": 883.07,
+   "end_s": 884.22,
+   "narration": "Put down the bowl that is in the left hand back on the countertop.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "bowl",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-407",
+   "start_s": 884.32,
+   "end_s": 886.69,
+   "narration": "Hold the tortilla by its ends using both hands.",
+   "verbs": [
+    "hold"
+   ],
+   "nouns": [
+    "tortilla",
+    "tortilla ends"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-408",
+   "start_s": 886.79,
+   "end_s": 888.27,
+   "narration": "Shake the tortilla by pulling on the right flap in order to evenly distribute the contents of the wrap towards the center.",
+   "verbs": [
+    "shake",
+    "pull on"
+   ],
+   "nouns": [
+    "tortilla",
+    "right flap",
+    "contents of wrap",
+    "center"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-409",
+   "start_s": 888.24,
+   "end_s": 890.16,
+   "narration": "Rotate the tortilla with both hands twice.",
+   "verbs": [
+    "rotate"
+   ],
+   "nouns": [
+    "tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-410",
+   "start_s": 889.94,
+   "end_s": 892.62,
+   "narration": "Pull the ends of the tortilla wrap using both hands to gather the ingredients at the center.",
+   "verbs": [
+    "pull",
+    "gather"
+   ],
+   "nouns": [
+    "ends of tortilla wrap",
+    "ingredients",
+    "center"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-411",
+   "start_s": 894.09,
+   "end_s": 896.59,
+   "narration": "Use both hands to push in the ingredients into a pile towards the center of the tortilla.",
+   "verbs": [
+    "push"
+   ],
+   "nouns": [
+    "ingredients",
+    "pile",
+    "center of tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-412",
+   "start_s": 896.9,
+   "end_s": 898.77,
+   "narration": "Grab the ends of the tortilla using both hands again.",
+   "verbs": [
+    "grab"
+   ],
+   "nouns": [
+    "ends of tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-413",
+   "start_s": 899.47,
+   "end_s": 900.89,
+   "narration": "Make a fold from the bottom to the top of the tortilla using both hands.",
+   "verbs": [
+    "fold"
+   ],
+   "nouns": [
+    "tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-414",
+   "start_s": 902.56,
+   "end_s": 904.2,
+   "narration": "Pull the top of the tortilla and shake it so that the ingredients are gathered at the center.",
+   "verbs": [
+    "pull",
+    "shake"
+   ],
+   "nouns": [
+    "top of tortilla",
+    "ingredients",
+    "center"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-415",
+   "start_s": 905.52,
+   "end_s": 913.97,
+   "narration": "Again, push the sides of the tortilla towards the center and pull up the bottom flap all the way over to the top flap.",
+   "verbs": [
+    "push",
+    "pull up"
+   ],
+   "nouns": [
+    "sides of tortilla",
+    "center",
+    "bottom flap",
+    "top flap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-416",
+   "start_s": 914.07,
+   "end_s": 915.69,
+   "narration": "As the tortilla could not be rolled properly, just open the wrap once again to retry.",
+   "verbs": [
+    "open",
+    "retry"
+   ],
+   "nouns": [
+    "tortilla",
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-417",
+   "start_s": 916.15,
+   "end_s": 918.0,
+   "narration": "using both hands push the side flaps of the tortilla inwards and grab the bottom flap using the thumbs and roll it over to cover all the way to the top",
+   "verbs": [
+    "push",
+    "grab",
+    "roll over",
+    "cover to"
+   ],
+   "nouns": [
+    "side flaps of tortilla",
+    "inwards",
+    "bottom flap",
+    "thumbs"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-418",
+   "start_s": 918.04,
+   "end_s": 920.3,
+   "narration": "Grab the rolled part of the wrap and tuck in the contents using the fingertips in order to secure the position.",
+   "verbs": [
+    "grab",
+    "tuck"
+   ],
+   "nouns": [
+    "rolled part of wrap",
+    "contents",
+    "fingertips",
+    "position"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-419",
+   "start_s": 920.4,
+   "end_s": 924.04,
+   "narration": "With the left hand fold the left part of the tortilla that is sticking out.",
+   "verbs": [
+    "fold"
+   ],
+   "nouns": [
+    "left part of tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-420",
+   "start_s": 924.9,
+   "end_s": 928.94,
+   "narration": "With the right hand fold the small right part of the tortilla that is sticking out.",
+   "verbs": [
+    "fold"
+   ],
+   "nouns": [
+    "small right part of tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-421",
+   "start_s": 931.06,
+   "end_s": 933.73,
+   "narration": "Carefully roll the tortilla to form the wrap.",
+   "verbs": [
+    "roll",
+    "form"
+   ],
+   "nouns": [
+    "tortilla",
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-422",
+   "start_s": 933.83,
+   "end_s": 935.61,
+   "narration": "With both hands slightly tuck in the sides that is sticking out after rolling the tortilla.",
+   "verbs": [
+    "roll"
+   ],
+   "nouns": [
+    "sides",
+    "tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-423",
+   "start_s": 935.4,
+   "end_s": 937.97,
+   "narration": "Pick up the wrap from the plate using both hands.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "wrap",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-424",
+   "start_s": 938.05,
+   "end_s": 940.39,
+   "narration": "Place the wrap over the two wraps that is already in the plate on the wooden chopping board using both hands.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "wrap",
+    "two wraps",
+    "plate",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-425",
+   "start_s": 940.36,
+   "end_s": 943.72,
+   "narration": "From the plastic bag, pull out a fresh new tortilla using the left hand.",
+   "verbs": [
+    "pull out"
+   ],
+   "nouns": [
+    "plastic bag",
+    "fresh new tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-426",
+   "start_s": 943.82,
+   "end_s": 945.62,
+   "narration": "Set down the fresh tortilla on the plate in order to use it to prepare the last grilled chicken wrap.",
+   "verbs": [
+    "set down"
+   ],
+   "nouns": [
+    "fresh tortilla",
+    "plate",
+    "last grilled chicken wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-427",
+   "start_s": 945.72,
+   "end_s": 946.82,
+   "narration": "Using the right hand, pick up the bowl containing shredded lettuce.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bowl",
+    "shredded lettuce"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-428",
+   "start_s": 946.92,
+   "end_s": 949.14,
+   "narration": "with the right hand scrape the bowl of lettuce and transfer the lettuce from the bowl to the wrap below",
+   "verbs": [
+    "scrape",
+    "transfer"
+   ],
+   "nouns": [
+    "bowl of lettuce",
+    "lettuce",
+    "bowl",
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-429",
+   "start_s": 949.21,
+   "end_s": 950.89,
+   "narration": "Using the left hand put down the bowl that is empty on the countertop",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "bowl",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-430",
+   "start_s": 950.73,
+   "end_s": 951.8,
+   "narration": "Using the right hand, neatly spread the shredded lettuce on the tortilla near the center so as to create a bed on which other ingredients would be placed.",
+   "verbs": [
+    "spread"
+   ],
+   "nouns": [
+    "shredded lettuce",
+    "tortilla",
+    "center",
+    "bed",
+    "other ingredients"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-431",
+   "start_s": 951.74,
+   "end_s": 952.34,
+   "narration": "With the left hand pick up the bowl containing grilled chicken pieces from the cooling rack",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bowl",
+    "grilled chicken pieces",
+    "cooling rack"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-432",
+   "start_s": 952.35,
+   "end_s": 953.08,
+   "narration": "grab the spoon that is inside the bowl using the right hand",
+   "verbs": [
+    "grab"
+   ],
+   "nouns": [
+    "spoon",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-433",
+   "start_s": 953.12,
+   "end_s": 954.3,
+   "narration": "Using the spoon, pick up one spoonful of grilled chicken pieces from the bowl while holding the spoon in the right hand.",
+   "verbs": [
+    "pick up",
+    "hold"
+   ],
+   "nouns": [
+    "spoon",
+    "one spoonful of grilled chicken pieces",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-434",
+   "start_s": 954.26,
+   "end_s": 954.9,
+   "narration": "carefully add the chicken pieces on top of the shredded lettuce on the wrap being made below",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "chicken pieces",
+    "top of shredded lettuce",
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-435",
+   "start_s": 955.0,
+   "end_s": 956.11,
+   "narration": "using the spoon drag the chicken pieces from the bowl to the wrap below",
+   "verbs": [
+    "drag"
+   ],
+   "nouns": [
+    "spoon",
+    "chicken pieces",
+    "bowl",
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-436",
+   "start_s": 956.15,
+   "end_s": 957.37,
+   "narration": "Drag another piece from the bowl to the wrap below using the spoon.",
+   "verbs": [
+    "drag"
+   ],
+   "nouns": [
+    "another piece",
+    "bowl",
+    "wrap",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-437",
+   "start_s": 957.37,
+   "end_s": 959.38,
+   "narration": "Using the spoon in the right hand, drag the last two remaining pieces of chicken that is in the bowl and transfer it onto the wrap being prepared below.",
+   "verbs": [
+    "drag",
+    "transfer"
+   ],
+   "nouns": [
+    "spoon",
+    "last two remaining pieces of chicken",
+    "bowl",
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-438",
+   "start_s": 959.45,
+   "end_s": 960.48,
+   "narration": "Put the spoon back into the bowl using the right hand.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "spoon",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-439",
+   "start_s": 960.49,
+   "end_s": 961.54,
+   "narration": "Put down the empty bowl back on the cooling rack at the end of the countertop using the left hand.",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "empty bowl",
+    "cooling rack",
+    "end of countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-440",
+   "start_s": 961.64,
+   "end_s": 963.98,
+   "narration": "Using the right hand, arrange the chicken pieces so that it is gathered evenly at the center of the wrap for easy rolling later.",
+   "verbs": [
+    "arrange"
+   ],
+   "nouns": [
+    "chicken pieces",
+    "center of wrap",
+    "easy rolling"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-441",
+   "start_s": 964.01,
+   "end_s": 964.62,
+   "narration": "Pick up the bowl containing the shredded onion pieces.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bowl",
+    "shredded onion pieces"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-442",
+   "start_s": 964.48,
+   "end_s": 965.93,
+   "narration": "Use the right hand to transfer the onion pieces from the tipped bowl on to the tortilla",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "onion pieces",
+    "tipped bowl",
+    "tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-443",
+   "start_s": 966.72,
+   "end_s": 967.59,
+   "narration": "Grab the bowl of tomato from the cooling rack using the right hand and pick it up.",
+   "verbs": [
+    "grab",
+    "pick up"
+   ],
+   "nouns": [
+    "bowl of tomato",
+    "cooling rack"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-444",
+   "start_s": 967.56,
+   "end_s": 968.09,
+   "narration": "Transfer the bowl of tomato pieces from the right hand to the left hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "bowl of tomato pieces"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-445",
+   "start_s": 969.51,
+   "end_s": 971.43,
+   "narration": "Put down the empty bowl that is in the right hand back on the countertop.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "empty bowl",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-446",
+   "start_s": 972.2,
+   "end_s": 972.53,
+   "narration": "With both hands, pick up the bowl containing sauce for the wrap.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bowl",
+    "sauce",
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-447",
+   "start_s": 972.63,
+   "end_s": 973.47,
+   "narration": "while holding the spoon in the right hand scoop up one spoon of sauce from the bowl in the left hand",
+   "verbs": [
+    "hold",
+    "scoop up"
+   ],
+   "nouns": [
+    "spoon",
+    "one spoon of sauce",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-448",
+   "start_s": 973.45,
+   "end_s": 974.79,
+   "narration": "add the sauce from the spoon to the grilled chicken wrap that is being prepared below",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "sauce",
+    "spoon",
+    "grilled chicken wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-449",
+   "start_s": 974.75,
+   "end_s": 975.82,
+   "narration": "Pick up another spoonful of sauce from the bowl in the left hand using the spoon in the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "another spoonful of sauce",
+    "bowl",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-450",
+   "start_s": 975.84,
+   "end_s": 977.88,
+   "narration": "Add the second spoon of sauce to the grilled chicken wrap being prepared using the right hand.",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "second spoon of sauce",
+    "grilled chicken wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-451",
+   "start_s": 978.13,
+   "end_s": 979.63,
+   "narration": "Pick up a third spoon of sauce from the bowl using the spoon held by the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "third spoon of sauce",
+    "bowl",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-452",
+   "start_s": 979.68,
+   "end_s": 981.59,
+   "narration": "Add the sauce towards the center of the tortilla.",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "sauce",
+    "center of tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-453",
+   "start_s": 981.63,
+   "end_s": 982.19,
+   "narration": "put the spoon that is in the right hand back into the bowl of sauce that is in the left hand",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "spoon",
+    "bowl of sauce"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-454",
+   "start_s": 982.29,
+   "end_s": 983.35,
+   "narration": "carefully put down the sauce bowl back on the countertop using the left hand",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "sauce bowl",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-455",
+   "start_s": 983.45,
+   "end_s": 986.19,
+   "narration": "Grab the left and right ends of the tortilla with both hands and shake the tortilla slightly so that the ingredients are gathered at the center for easier rolling.",
+   "verbs": [
+    "grab",
+    "shake"
+   ],
+   "nouns": [
+    "left",
+    "right ends of tortilla",
+    "tortilla",
+    "ingredients",
+    "center",
+    "easier rolling"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-456",
+   "start_s": 985.95,
+   "end_s": 988.11,
+   "narration": "Grab the top part of the tortilla with both hands and shake it to gather the ingredients in the center of the wrap.",
+   "verbs": [
+    "grab",
+    "shake",
+    "gather"
+   ],
+   "nouns": [
+    "top part of tortilla",
+    "ingredients",
+    "center of wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-457",
+   "start_s": 988.21,
+   "end_s": 990.6,
+   "narration": "Using both hands, push in the side flaps of the tortilla and using the thumb, pull on the bottom flap of the tortilla and close it all the way to the top.",
+   "verbs": [
+    "push",
+    "pull on",
+    "close"
+   ],
+   "nouns": [
+    "side flaps of tortilla",
+    "thumb",
+    "bottom flap of tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-458",
+   "start_s": 990.7,
+   "end_s": 993.37,
+   "narration": "With both hands fold over the bottom part of the tortilla all the way to the top covering the ingredients.",
+   "verbs": [
+    "fold over",
+    "cover"
+   ],
+   "nouns": [
+    "bottom part of tortilla",
+    "ingredients"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-459",
+   "start_s": 993.08,
+   "end_s": 996.28,
+   "narration": "Grab the rolled tortilla with both hands and tuck in the ingredients using the fingertips.",
+   "verbs": [
+    "grab",
+    "tuck"
+   ],
+   "nouns": [
+    "rolled tortilla",
+    "ingredients",
+    "fingertips"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-460",
+   "start_s": 996.37,
+   "end_s": 998.67,
+   "narration": "Pushing the sides of the tortilla that are sticking out",
+   "verbs": [
+    "push"
+   ],
+   "nouns": [
+    "sides of tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-461",
+   "start_s": 997.47,
+   "end_s": 1000.39,
+   "narration": "Again roll and tuck the tortilla by gripping it with both hands",
+   "verbs": [
+    "roll",
+    "tuck",
+    "grip"
+   ],
+   "nouns": [
+    "tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-462",
+   "start_s": 1000.49,
+   "end_s": 1001.2,
+   "narration": "With the left hand, push in the left flap of the tortilla that is sticking out.",
+   "verbs": [
+    "push in"
+   ],
+   "nouns": [
+    "left flap of tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-463",
+   "start_s": 1001.3,
+   "end_s": 1002.47,
+   "narration": "with the right hand pushing the right part of the tortilla that is sticking out",
+   "verbs": [
+    "push"
+   ],
+   "nouns": [
+    "right part of tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-464",
+   "start_s": 1002.49,
+   "end_s": 1003.35,
+   "narration": "Open the tortilla completely as it was difficult to roll the wrap.",
+   "verbs": [
+    "open",
+    "roll"
+   ],
+   "nouns": [
+    "tortilla",
+    "wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-465",
+   "start_s": 1003.13,
+   "end_s": 1005.32,
+   "narration": "Grab the top and bottom ends of the tortilla with both hands and shake it so that the ingredients are centered in the tortilla.",
+   "verbs": [
+    "grab",
+    "shake"
+   ],
+   "nouns": [
+    "top",
+    "bottom ends of tortilla",
+    "tortilla",
+    "ingredients"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-466",
+   "start_s": 1004.6,
+   "end_s": 1006.89,
+   "narration": "Make small folds at the sides using both hands.",
+   "verbs": [],
+   "nouns": [
+    "small folds",
+    "sides"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-467",
+   "start_s": 1006.82,
+   "end_s": 1007.81,
+   "narration": "With the bottom flap of the tortilla, fold it all the way to the top, covering all the ingredients.",
+   "verbs": [
+    "fold",
+    "cover"
+   ],
+   "nouns": [
+    "bottom flap of tortilla",
+    "tortilla",
+    "ingredients"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-468",
+   "start_s": 1007.89,
+   "end_s": 1011.41,
+   "narration": "Secure the roll in place by firmly gripping it with both hands and tucking in the contents using the fingertips.",
+   "verbs": [
+    "secure",
+    "grip",
+    "tuck in"
+   ],
+   "nouns": [
+    "roll",
+    "contents",
+    "fingertips"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-469",
+   "start_s": 1010.35,
+   "end_s": 1013.26,
+   "narration": "using the right hand close the right flap that is protruding",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "right flap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-470",
+   "start_s": 1013.35,
+   "end_s": 1015.18,
+   "narration": "With the left hand fold in the flap that is sticking out towards the left side of the tortilla",
+   "verbs": [
+    "fold"
+   ],
+   "nouns": [
+    "tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-471",
+   "start_s": 1017.0,
+   "end_s": 1022.61,
+   "narration": "roll the tortilla by grabbing it with both hands",
+   "verbs": [
+    "roll",
+    "grab"
+   ],
+   "nouns": [
+    "tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-472",
+   "start_s": 1022.16,
+   "end_s": 1025.64,
+   "narration": "slightly tuck in the left part of the tortilla that might be sticking out",
+   "verbs": [
+    "tuck in"
+   ],
+   "nouns": [
+    "left part of tortilla"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-473",
+   "start_s": 1025.74,
+   "end_s": 1027.53,
+   "narration": "Using the right hand slightly pushing the flaps Towards the right side to ensure that they do not come out",
+   "verbs": [
+    "push"
+   ],
+   "nouns": [
+    "flaps",
+    "right side"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-474",
+   "start_s": 1027.64,
+   "end_s": 1031.5,
+   "narration": "Pick up the rolled grilled chicken wrap with both hands and lift it off the plate on which it was prepared.",
+   "verbs": [
+    "pick up",
+    "lift"
+   ],
+   "nouns": [
+    "rolled grilled chicken wrap",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-475",
+   "start_s": 1030.83,
+   "end_s": 1035.62,
+   "narration": "Carefully place the freshly prepared grilled chicken wrap and stack it on top of the previously made wraps on the small plate towards the left.",
+   "verbs": [
+    "place",
+    "stack"
+   ],
+   "nouns": [
+    "freshly prepared grilled chicken wrap",
+    "top of previously made wraps",
+    "small plate",
+    "left"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-476",
+   "start_s": 1036.23,
+   "end_s": 1037.85,
+   "narration": "Use the left hand to adjust the recently placed grilled chicken wrap in order to ensure that the stack of wraps do not fall apart.",
+   "verbs": [
+    "adjust"
+   ],
+   "nouns": [
+    "recently placed grilled chicken wrap",
+    "stack of wraps"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-477",
+   "start_s": 1038.15,
+   "end_s": 1039.35,
+   "narration": "Pick up the empty bowl on the countertop with the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "empty bowl",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-478",
+   "start_s": 1039.79,
+   "end_s": 1040.25,
+   "narration": "pick up another empty bowl from the countertop using the right hand",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "another empty bowl",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-479",
+   "start_s": 1040.22,
+   "end_s": 1041.24,
+   "narration": "Place the bowl that is in the right hand over the bowl that is in the left hand thereby stacking them together by holding it in the left hand",
+   "verbs": [
+    "place",
+    "stack",
+    "hold"
+   ],
+   "nouns": [
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-481",
+   "start_s": 1041.31,
+   "end_s": 1043.56,
+   "narration": "Stack the third bowl by placing it over the previous stack of two bowls held in the left hand.",
+   "verbs": [
+    "stack",
+    "place"
+   ],
+   "nouns": [
+    "third bowl",
+    "previous stack of two bowls"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-480",
+   "start_s": 1041.7,
+   "end_s": 1042.11,
+   "narration": "Pick up another used bowl from the cooling rack using the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "another used bowl",
+    "cooling rack"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-482",
+   "start_s": 1043.66,
+   "end_s": 1044.76,
+   "narration": "With the right hand pick up the plate from the countertop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "plate",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-483",
+   "start_s": 1044.86,
+   "end_s": 1045.99,
+   "narration": "Place the stack of bowls on top of the plate.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "stack of bowls",
+    "top of plate"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-484",
+   "start_s": 1046.09,
+   "end_s": 1048.88,
+   "narration": "Place the plate on the countertop next to the kitchen sink and put down the stack of bowls in the left hand over the plate.",
+   "verbs": [
+    "place",
+    "put down"
+   ],
+   "nouns": [
+    "plate",
+    "countertop",
+    "kitchen sink",
+    "stack of bowls"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-485",
+   "start_s": 1048.98,
+   "end_s": 1050.19,
+   "narration": "Turn on the tap using the right hand",
+   "verbs": [
+    "turn on"
+   ],
+   "nouns": [
+    "tap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-486",
+   "start_s": 1050.13,
+   "end_s": 1053.4,
+   "narration": "wash hands thoroughly under the running tap water",
+   "verbs": [
+    "wash"
+   ],
+   "nouns": [
+    "running tap water"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-487",
+   "start_s": 1053.39,
+   "end_s": 1054.29,
+   "narration": "turn off the tap using the right hand",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "tap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-488",
+   "start_s": 1054.31,
+   "end_s": 1056.09,
+   "narration": "Gently shake the wet hands over the sink to get any excess water droplets off of them.",
+   "verbs": [
+    "shake",
+    "get"
+   ],
+   "nouns": [
+    "sink",
+    "any excess water droplets"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-489",
+   "start_s": 1056.17,
+   "end_s": 1058.29,
+   "narration": "Place the bottle of hand wash towards the right of the sink on the countertop using the right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "bottle of hand wash",
+    "right of sink",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-490",
+   "start_s": 1058.28,
+   "end_s": 1058.99,
+   "narration": "Continue to shake hands over the kitchen sink to get rid of excess water.",
+   "verbs": [
+    "shake",
+    "get rid of"
+   ],
+   "nouns": [
+    "kitchen sink",
+    "excess water"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-491",
+   "start_s": 1059.33,
+   "end_s": 1062.47,
+   "narration": "Move to the other end of the kitchen and pick up the kitchen rag from the wooden chopping board using the right hand.",
+   "verbs": [
+    "move to",
+    "pick up"
+   ],
+   "nouns": [
+    "other end of kitchen",
+    "kitchen rag",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-492",
+   "start_s": 1062.46,
+   "end_s": 1065.57,
+   "narration": "Dry hands using the kitchen rag",
+   "verbs": [
+    "dry"
+   ],
+   "nouns": [
+    "kitchen rag"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-493",
+   "start_s": 1065.67,
+   "end_s": 1066.46,
+   "narration": "Put down the kitchen rag back to its original place on the wooden chopping board using the left hand.",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "kitchen rag",
+    "kitchen rag original place",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-494",
+   "start_s": 1066.46,
+   "end_s": 1067.3,
+   "narration": "pick up the bag of tortillas using both hands and lift it off the wooden chopping board",
+   "verbs": [
+    "pick up",
+    "lift"
+   ],
+   "nouns": [
+    "bag of tortillas",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-495",
+   "start_s": 1067.4,
+   "end_s": 1068.39,
+   "narration": "Put the bag of tortillas back on the countertop using both hands.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "bag of tortillas",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-496",
+   "start_s": 1068.34,
+   "end_s": 1069.24,
+   "narration": "Using the right hand, pick up bits of food that had fallen on the countertop after making the wraps.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bits of food",
+    "countertop",
+    "wraps"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-497",
+   "start_s": 1069.3,
+   "end_s": 1070.41,
+   "narration": "Using the left hand, pick up another fallen bit of wood on the countertop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "another fallen bit of wood",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-498",
+   "start_s": 1070.51,
+   "end_s": 1072.15,
+   "narration": "Throw the bits of food in both hands into the rubbish bin that is opened.",
+   "verbs": [
+    "throw"
+   ],
+   "nouns": [
+    "bits of food",
+    "rubbish bin"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-499",
+   "start_s": 1072.25,
+   "end_s": 1073.13,
+   "narration": "Close the lid of the rubbish bin using the right hand, This action happens off camera",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "lid of rubbish bin",
+    "action",
+    "camera"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-500",
+   "start_s": 1073.23,
+   "end_s": 1076.47,
+   "narration": "Using both hands pick up the bowl containing the sauce that was prepared for the grilled chicken wrap.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bowl",
+    "sauce",
+    "grilled chicken wrap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-501",
+   "start_s": 1076.72,
+   "end_s": 1078.36,
+   "narration": "using the right hand open the door to the refrigerator below",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "door",
+    "refrigerator"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-502",
+   "start_s": 1078.46,
+   "end_s": 1079.98,
+   "narration": "Using the left hand reach in and place the sauce bowl on the upper shelf of the refrigerator.",
+   "verbs": [
+    "reach",
+    "place"
+   ],
+   "nouns": [
+    "sauce bowl",
+    "upper shelf of refrigerator"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-503",
+   "start_s": 1079.36,
+   "end_s": 1081.38,
+   "narration": "Close the door of the refrigerator with the right hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "door of refrigerator"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-504",
+   "start_s": 1081.48,
+   "end_s": 1082.62,
+   "narration": "Pick up a pair of scissors that were on top of the wooden chopping board using the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "pair of scissors",
+    "top of wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-505",
+   "start_s": 1082.59,
+   "end_s": 1084.04,
+   "narration": "put the scissors back on the wooden chopping board using the left hand",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "scissors",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-506",
+   "start_s": 1086.25,
+   "end_s": 1087.4,
+   "narration": "With both hands carefully pick up the plate containing the grilled chicken wraps.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "plate",
+    "grilled chicken wraps"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-507",
+   "start_s": 1087.27,
+   "end_s": 1088.63,
+   "narration": "place the plate containing the grilled chicken wraps on the countertop using both hands",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "plate",
+    "grilled chicken wraps",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-508",
+   "start_s": 1088.73,
+   "end_s": 1089.82,
+   "narration": "with the left hand pick up the large bowl with the spoon in it and lift it from the cooling rack",
+   "verbs": [
+    "pick up",
+    "lift"
+   ],
+   "nouns": [
+    "large bowl",
+    "cooling rack"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-509",
+   "start_s": 1092.22,
+   "end_s": 1094.72,
+   "narration": "Using the right hand, pick up the stack of three bowls that is on the plate next to the kitchen sink.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "stack of three bowls",
+    "plate",
+    "kitchen sink"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-510",
+   "start_s": 1094.82,
+   "end_s": 1095.84,
+   "narration": "Put down the large bowl on top of the plate near the sink using the left hand.",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "large bowl",
+    "top of plate",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-511",
+   "start_s": 1096.5,
+   "end_s": 1097.8,
+   "narration": "In order to make some space inside the large bowl for stacking the smaller bowls Pick up the table spoon that was getting in the way using the left hand",
+   "verbs": [
+    "stack",
+    "pick up"
+   ],
+   "nouns": [
+    "some space",
+    "large bowl",
+    "smaller bowls",
+    "table spoon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-512",
+   "start_s": 1097.9,
+   "end_s": 1098.88,
+   "narration": "Place the stack of bowls in the right hand into the large bowl below them.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "stack of bowls",
+    "large bowl"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-513",
+   "start_s": 1098.98,
+   "end_s": 1099.85,
+   "narration": "transfer the spoon from the left hand to the right hand",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-514",
+   "start_s": 1099.95,
+   "end_s": 1101.26,
+   "narration": "Using the left hand, pick up the stack of fork and spoons from the plastic chopping board.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "stack of fork",
+    "spoons",
+    "plastic chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-515",
+   "start_s": 1101.36,
+   "end_s": 1102.37,
+   "narration": "Pick up the knife from the plastic chopping board using the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "knife",
+    "plastic chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-516",
+   "start_s": 1103.0,
+   "end_s": 1104.09,
+   "narration": "Using the right hand, place the knife in the kitchen sink so that it can be washed later.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "knife",
+    "kitchen sink"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-517",
+   "start_s": 1104.15,
+   "end_s": 1106.44,
+   "narration": "using the left hand place the cutlery in the kitchen sink so that they can be washed later",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "cutlery",
+    "kitchen sink"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-518",
+   "start_s": 1106.54,
+   "end_s": 1107.53,
+   "narration": "turn on the tap with the right hand.",
+   "verbs": [
+    "turn on"
+   ],
+   "nouns": [
+    "tap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-519",
+   "start_s": 1107.4,
+   "end_s": 1108.97,
+   "narration": "Wash both hands under the running tap water.",
+   "verbs": [
+    "wash"
+   ],
+   "nouns": [
+    "running tap water"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-520",
+   "start_s": 1109.07,
+   "end_s": 1109.66,
+   "narration": "turn off the tap using the right hand",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "tap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-521",
+   "start_s": 1109.63,
+   "end_s": 1110.74,
+   "narration": "Shake both hands over the kitchen sink after washing them so as to get rid of excess water on them.",
+   "verbs": [
+    "shake",
+    "wash",
+    "get rid of"
+   ],
+   "nouns": [
+    "kitchen sink",
+    "excess water"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-522",
+   "start_s": 1114.46,
+   "end_s": 1115.98,
+   "narration": "With both hands pick up the plastic white chopping board from the countertop",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "plastic white chopping board",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-523",
+   "start_s": 1117.13,
+   "end_s": 1118.06,
+   "narration": "Carefully place the plastic white chopping board on the countertop next to the kitchen sink using both hands.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "plastic white chopping board",
+    "countertop",
+    "kitchen sink"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-524",
+   "start_s": 1121.46,
+   "end_s": 1121.83,
+   "narration": "With the right hand pick up the kitchen rag that is on the wooden chopping board.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "kitchen rag",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-525",
+   "start_s": 1122.18,
+   "end_s": 1125.22,
+   "narration": "dry hands using the kitchen rag",
+   "verbs": [
+    "dry"
+   ],
+   "nouns": [
+    "kitchen rag"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-526",
+   "start_s": 1123.41,
+   "end_s": 1129.11,
+   "narration": "Roll the kitchen rag into a ball and put it back down on the wooden chopping board using the left hand",
+   "verbs": [
+    "roll",
+    "put"
+   ],
+   "nouns": [
+    "kitchen rag",
+    "ball",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-527",
+   "start_s": 1129.21,
+   "end_s": 1130.03,
+   "narration": "With the right hand pick up the pair of scissors from the wooden chopping board.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "pair of scissors",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-528",
+   "start_s": 1130.13,
+   "end_s": 1132.42,
+   "narration": "While holding the scissors in the right hand, open the drawer containing cutlery using the left hand.",
+   "verbs": [
+    "hold",
+    "open"
+   ],
+   "nouns": [
+    "scissors",
+    "drawer",
+    "cutlery"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-529",
+   "start_s": 1132.38,
+   "end_s": 1132.64,
+   "narration": "Put the pair of scissors into the drawer using the right hand.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "pair of scissors",
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-530",
+   "start_s": 1134.05,
+   "end_s": 1134.38,
+   "narration": "Using the right hand pick up two condiment jars from the countertop",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "two condiment jars",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-531",
+   "start_s": 1134.33,
+   "end_s": 1135.53,
+   "narration": "Using the left hand pick up one jar of condiment from the countertop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "one jar of condiment",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-532",
+   "start_s": 1137.41,
+   "end_s": 1138.94,
+   "narration": "place the condiment jars on the wooden chopping board",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "condiment jars",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-533",
+   "start_s": 1138.52,
+   "end_s": 1143.1,
+   "narration": "Pick up the two remaining condiment jars and the bottle of olive oil from the countertop using both hands so that they can be put away.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "two remaining condiment jars",
+    "bottle of olive oil",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-534",
+   "start_s": 1143.8,
+   "end_s": 1145.1,
+   "narration": "Place the condiment jars and the olive oil bottle together on the wooden chopping board.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "condiment jars",
+    "olive oil bottle",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-535",
+   "start_s": 1145.2,
+   "end_s": 1145.8,
+   "narration": "Pick up one condiment jar with the left hand and the olive oil bottle with the right hand",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "one condiment jar",
+    "olive oil bottle"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-536",
+   "start_s": 1145.9,
+   "end_s": 1146.75,
+   "narration": "Open the door to the cabinet below using the left hand that is already holding a condiment jar",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "door",
+    "cabinet",
+    "condiment jar"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-537",
+   "start_s": 1146.62,
+   "end_s": 1150.71,
+   "narration": "Place the olive oil bottle in the right hand on the bottom shelf of the cabinet by pushing in other items in that area.",
+   "verbs": [
+    "place",
+    "push"
+   ],
+   "nouns": [
+    "olive oil bottle",
+    "bottom shelf of cabinet",
+    "other items",
+    "area"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-538",
+   "start_s": 1150.63,
+   "end_s": 1153.26,
+   "narration": "Using the right hand reposition a condiment jar on the bottom shelf of the cabinet",
+   "verbs": [
+    "reposition"
+   ],
+   "nouns": [
+    "condiment jar",
+    "bottom shelf of cabinet"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-539",
+   "start_s": 1154.16,
+   "end_s": 1156.26,
+   "narration": "Pick up another condiment jar from the wooden chopping board and hold the two condiment jars together using both hands.",
+   "verbs": [
+    "pick up",
+    "hold"
+   ],
+   "nouns": [
+    "another condiment jar",
+    "wooden chopping board",
+    "two condiment jars"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-540",
+   "start_s": 1157.41,
+   "end_s": 1159.71,
+   "narration": "With the left hand, pick up and move the jar of peanut butter with the yellow lid on the bottom shelf of the cabinet.",
+   "verbs": [
+    "pick up",
+    "move"
+   ],
+   "nouns": [
+    "jar of peanut butter",
+    "yellow lid",
+    "bottom shelf of cabinet"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-541",
+   "start_s": 1160.04,
+   "end_s": 1164.16,
+   "narration": "Using the left hand, push away some more items in order to make space for the condiment jars.",
+   "verbs": [
+    "push"
+   ],
+   "nouns": [
+    "some more items",
+    "space",
+    "condiment jars"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-542",
+   "start_s": 1164.26,
+   "end_s": 1165.05,
+   "narration": "Put down the jars that are in the right hand on the bottom shelf of the cabinet",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "jars",
+    "bottom shelf of cabinet"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-543",
+   "start_s": 1165.15,
+   "end_s": 1168.51,
+   "narration": "Push away some more jars to make some space for the other jars to be kept.",
+   "verbs": [
+    "push"
+   ],
+   "nouns": [
+    "some more jars",
+    "some space",
+    "other jars"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-544",
+   "start_s": 1168.61,
+   "end_s": 1169.57,
+   "narration": "Pick up the three remaining condiment jars from the wooden chopping board using both hands.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "three remaining condiment jars",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-545",
+   "start_s": 1169.62,
+   "end_s": 1172.57,
+   "narration": "Put down the two condiment jars that were in the right hand on the lower row of the shelf",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "two condiment jars",
+    "lower row of shelf"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-546",
+   "start_s": 1172.46,
+   "end_s": 1173.05,
+   "narration": "Using the right hand make space for the last jar by pushing away some more items on the bottom shelf.",
+   "verbs": [
+    "push"
+   ],
+   "nouns": [
+    "space",
+    "last jar",
+    "some more items",
+    "bottom shelf"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-547",
+   "start_s": 1173.07,
+   "end_s": 1173.64,
+   "narration": "Transfer the large jar with the green lid from the left hand to the right hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "large jar",
+    "green lid"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-548",
+   "start_s": 1173.72,
+   "end_s": 1174.58,
+   "narration": "With the right hand place the last condiment jar with the green lid on the bottom shelf of the cabinet.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "last condiment jar",
+    "green lid",
+    "bottom shelf of cabinet"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-549",
+   "start_s": 1174.68,
+   "end_s": 1176.37,
+   "narration": "With both hands, pick up the bag of tortillas that is on the countertop in order to put it away.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bag of tortillas",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-550",
+   "start_s": 1176.47,
+   "end_s": 1177.82,
+   "narration": "Shake the bag of tortillas so that the jumbled tortillas in the bag are all gathered in the center.",
+   "verbs": [
+    "shake"
+   ],
+   "nouns": [
+    "bag of tortillas",
+    "jumbled tortillas",
+    "bag",
+    "center"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-551",
+   "start_s": 1179.53,
+   "end_s": 1180.22,
+   "narration": "put the bag of tortillas back down on the countertop using both hands",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "bag of tortillas",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-552",
+   "start_s": 1180.32,
+   "end_s": 1181.5,
+   "narration": "Again shake the bag of tortillas so that they are all gathered in one place in the bag",
+   "verbs": [
+    "shake"
+   ],
+   "nouns": [
+    "bag of tortillas",
+    "tortillas",
+    "one place",
+    "bag"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-553",
+   "start_s": 1181.47,
+   "end_s": 1182.18,
+   "narration": "Pick up the bag and place it on the cooling rack towards the end of the countertop using both hands.",
+   "verbs": [
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "bag",
+    "cooling rack",
+    "end of countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-554",
+   "start_s": 1183.67,
+   "end_s": 1184.26,
+   "narration": "With the left hand, pick up the plastic measuring cup and lift it off the countertop.",
+   "verbs": [
+    "pick up",
+    "lift"
+   ],
+   "nouns": [
+    "plastic measuring cup",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-555",
+   "start_s": 1184.36,
+   "end_s": 1185.02,
+   "narration": "Transfer the plastic measuring cup from the left hand to the right hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "plastic measuring cup"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-556",
+   "start_s": 1185.04,
+   "end_s": 1186.06,
+   "narration": "open the drawer containing utensils and other items with the left hand",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "drawer",
+    "utensils",
+    "other items"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-557",
+   "start_s": 1186.16,
+   "end_s": 1186.73,
+   "narration": "With the right hand, place the measuring cup in the drawer as we are done using it.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "measuring cup",
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-558",
+   "start_s": 1186.83,
+   "end_s": 1187.55,
+   "narration": "close the door with the left hand",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "door"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-559",
+   "start_s": 1187.65,
+   "end_s": 1188.43,
+   "narration": "Using the right hand pick up the cut slice of lemon that is on the wooden chopping board.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "cut slice of lemon",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-560",
+   "start_s": 1188.53,
+   "end_s": 1189.7,
+   "narration": "Transfer the cut lemon from the right hand to the left hand",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "cut lemon"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-561",
+   "start_s": 1190.04,
+   "end_s": 1190.35,
+   "narration": "With the left hand, position the lemon under the nozzle of the tap in the kitchen sink.",
+   "verbs": [
+    "position"
+   ],
+   "nouns": [
+    "lemon",
+    "nozzle of tap",
+    "kitchen sink"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-562",
+   "start_s": 1190.45,
+   "end_s": 1191.26,
+   "narration": "with the right hand turn on the tap.",
+   "verbs": [
+    "turn on"
+   ],
+   "nouns": [
+    "tap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-563",
+   "start_s": 1191.14,
+   "end_s": 1191.88,
+   "narration": "wash the cut lemon under the running water",
+   "verbs": [
+    "wash"
+   ],
+   "nouns": [
+    "cut lemon",
+    "running water"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-564",
+   "start_s": 1191.96,
+   "end_s": 1192.62,
+   "narration": "turn off the tap with the right hand",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "tap"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-565",
+   "start_s": 1192.72,
+   "end_s": 1193.22,
+   "narration": "Shake the right hand over the kitchen sink to get rid of excess water on it.",
+   "verbs": [
+    "shake",
+    "get rid of"
+   ],
+   "nouns": [
+    "kitchen sink",
+    "excess water"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-566",
+   "start_s": 1193.32,
+   "end_s": 1194.47,
+   "narration": "Hold the lemon in the right hand and shake it over the kitchen sink to get rid of excess water on it.",
+   "verbs": [
+    "hold",
+    "shake",
+    "get rid of"
+   ],
+   "nouns": [
+    "lemon",
+    "kitchen sink",
+    "excess water"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-567",
+   "start_s": 1194.57,
+   "end_s": 1195.3,
+   "narration": "With the left hand put the lemon back on the wooden chopping board.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "lemon",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-568",
+   "start_s": 1195.4,
+   "end_s": 1198.41,
+   "narration": "Pick up pieces of ingredients that has been spilled on the countertop using the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "pieces of ingredients",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-569",
+   "start_s": 1198.51,
+   "end_s": 1200.17,
+   "narration": "With the left hand open the lid of the rubbish bin.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "lid of rubbish bin"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-570",
+   "start_s": 1200.27,
+   "end_s": 1200.8,
+   "narration": "throw away bits of food that is in the right hand into the rubbish bin",
+   "verbs": [
+    "throw"
+   ],
+   "nouns": [
+    "bits of food",
+    "rubbish bin"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-571",
+   "start_s": 1201.25,
+   "end_s": 1203.72,
+   "narration": "pick up bits of food that has dropped on the floor by squatting and picking it up with the right hand",
+   "verbs": [
+    "pick up",
+    "squat"
+   ],
+   "nouns": [
+    "bits of food",
+    "floor"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-572",
+   "start_s": 1203.77,
+   "end_s": 1204.52,
+   "narration": "throw the bits of food in the right hand into the rubbish bin",
+   "verbs": [
+    "throw"
+   ],
+   "nouns": [
+    "bits of food",
+    "rubbish bin"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-573",
+   "start_s": 1204.62,
+   "end_s": 1205.51,
+   "narration": "close the bin with the left hand",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "bin"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-574",
+   "start_s": 1207.86,
+   "end_s": 1209.06,
+   "narration": "Grab the kitchen rag using the right hand in order to clean it",
+   "verbs": [
+    "grab"
+   ],
+   "nouns": [
+    "kitchen rag"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-575",
+   "start_s": 1209.16,
+   "end_s": 1213.08,
+   "narration": "with the left hand pull out a stack of plastic containers from the upper shelf of the cabinet and hold it with the right hand for support",
+   "verbs": [
+    "pull out",
+    "hold"
+   ],
+   "nouns": [
+    "stack of plastic containers",
+    "upper shelf of cabinet",
+    "support"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-576",
+   "start_s": 1213.18,
+   "end_s": 1214.46,
+   "narration": "put down the stack of plastic containers on the countertop using both hands",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "stack of plastic containers",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-577",
+   "start_s": 1214.56,
+   "end_s": 1216.25,
+   "narration": "Pull out one empty container from the stack using the left hand and set it on the countertop.",
+   "verbs": [
+    "pull out",
+    "set"
+   ],
+   "nouns": [
+    "one empty container",
+    "stack",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-578",
+   "start_s": 1216.35,
+   "end_s": 1217.32,
+   "narration": "With both hands, pick up the remaining stack of plastic containers from the countertop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "remaining stack of plastic containers",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-579",
+   "start_s": 1217.4,
+   "end_s": 1219.23,
+   "narration": "Put the cap of the container on the open container using the right hand.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "cap of container",
+    "open container"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-580",
+   "start_s": 1219.33,
+   "end_s": 1221.52,
+   "narration": "With both hands, pick up the remaining stack of plastic containers from the countertop in order to put them away.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "remaining stack of plastic containers",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-581",
+   "start_s": 1220.68,
+   "end_s": 1222.52,
+   "narration": "place the stack of plastic containers back on the upper shelf of the lower cabinet using both hands carefully",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "stack of plastic containers",
+    "upper shelf of lower cabinet"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-582",
+   "start_s": 1222.58,
+   "end_s": 1223.94,
+   "narration": "With the left hand, close the door of the cabinet below.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "door of cabinet"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-583",
+   "start_s": 1223.97,
+   "end_s": 1225.43,
+   "narration": "With both hands, pick up the empty plastic container and its lid from the countertop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "empty plastic container",
+    "empty plastic container lid",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-584",
+   "start_s": 1225.33,
+   "end_s": 1226.68,
+   "narration": "put the container that is in the right hand on the countertop next to the wooden chopping board",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "container",
+    "countertop",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-585",
+   "start_s": 1226.64,
+   "end_s": 1227.2,
+   "narration": "Pick up the half slice of lemon from the wooden chopping board using the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "half slice of lemon",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-586",
+   "start_s": 1227.22,
+   "end_s": 1227.6,
+   "narration": "Place the lemon in the empty plastic container using the right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "lemon",
+    "empty plastic container"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-587",
+   "start_s": 1227.67,
+   "end_s": 1228.35,
+   "narration": "With both hands, place the lid of the container over the container box.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "lid of container",
+    "container box"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-588",
+   "start_s": 1228.38,
+   "end_s": 1229.33,
+   "narration": "Press down on the lid of the container with both hands, applying pressure, in order to seal it closed.",
+   "verbs": [
+    "press on",
+    "apply"
+   ],
+   "nouns": [
+    "lid of container",
+    "pressure",
+    "container"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-589",
+   "start_s": 1229.36,
+   "end_s": 1229.78,
+   "narration": "Pick up the plastic container using both hands.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "plastic container"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-590",
+   "start_s": 1229.88,
+   "end_s": 1232.8,
+   "narration": "With the plastic container in the left hand, use the right hand to open the door to the refrigerator on the bottom.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "door",
+    "refrigerator",
+    "bottom"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-591",
+   "start_s": 1232.35,
+   "end_s": 1234.77,
+   "narration": "Squat down and place the plastic container in the left hand on the upper shelf of the refrigerator.",
+   "verbs": [
+    "squat",
+    "place"
+   ],
+   "nouns": [
+    "plastic container",
+    "upper shelf of refrigerator"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-592",
+   "start_s": 1234.87,
+   "end_s": 1236.14,
+   "narration": "close the door to the refrigerator using the right hand",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "door",
+    "refrigerator"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-593",
+   "start_s": 1236.07,
+   "end_s": 1236.69,
+   "narration": "With the left hand pick up the kitchen rag from the wooden chopping board.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "kitchen rag",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-594",
+   "start_s": 1236.78,
+   "end_s": 1240.94,
+   "narration": "Wipe hands using the kitchen rag.",
+   "verbs": [
+    "wipe"
+   ],
+   "nouns": [
+    "kitchen rag"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-595",
+   "start_s": 1241.91,
+   "end_s": 1246.32,
+   "narration": "Fold the kitchen rag in half using both hands.",
+   "verbs": [
+    "fold"
+   ],
+   "nouns": [
+    "kitchen rag"
+   ]
+  },
+  {
+   "action_id": "P04-20240413-151722-596",
+   "start_s": 1246.33,
+   "end_s": 1247.07,
+   "narration": "Put down the folded kitchen rag on the countertop next to the wooden chopping board using both hands",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "folded kitchen rag",
+    "countertop",
+    "wooden chopping board"
+   ]
+  }
+ ]
+}

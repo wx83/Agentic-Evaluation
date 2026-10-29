@@ -1,0 +1,207 @@
+{
+ "overall_goal": "Prepare the workspace by washing utensils, setting up equipment, and weighing the chicken",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve chicken from the fridge",
+   "action_ids": [
+    "P09-20240621-093545-1",
+    "P09-20240621-093545-2",
+    "P09-20240621-093545-3",
+    "P09-20240621-093545-4",
+    "P09-20240621-093545-5",
+    "P09-20240621-093545-6",
+    "P09-20240621-093545-7",
+    "P09-20240621-093545-8",
+    "P09-20240621-093545-36"
+   ],
+   "rationale": "The person opens the fridge, moves yogurt out of the way, takes out the chicken, and places it on the counter."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Apply dish soap to the knife",
+   "action_ids": [
+    "P09-20240621-093545-37",
+    "P09-20240621-093545-38",
+    "P09-20240621-093545-39",
+    "P09-20240621-093545-40",
+    "P09-20240621-093545-42",
+    "P09-20240621-093545-44",
+    "P09-20240621-093545-45",
+    "P09-20240621-093545-47",
+    "P09-20240621-093545-48",
+    "P09-20240621-093545-49",
+    "P09-20240621-093545-50",
+    "P09-20240621-093545-52",
+    "P09-20240621-093545-53",
+    "P09-20240621-093545-54",
+    "P09-20240621-093545-55"
+   ],
+   "rationale": "The person turns on the tap, wets the knife, and squeezes washing up liquid onto it."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Scrub and rinse the knife",
+   "action_ids": [
+    "P09-20240621-093545-58",
+    "P09-20240621-093545-59",
+    "P09-20240621-093545-60",
+    "P09-20240621-093545-61",
+    "P09-20240621-093545-62",
+    "P09-20240621-093545-63",
+    "P09-20240621-093545-64",
+    "P09-20240621-093545-65",
+    "P09-20240621-093545-66",
+    "P09-20240621-093545-67",
+    "P09-20240621-093545-69",
+    "P09-20240621-093545-70",
+    "P09-20240621-093545-71",
+    "P09-20240621-093545-72"
+   ],
+   "rationale": "The person uses a sponge to scrub both sides of the knife blade, then rinses it under the tap and places it on the counter."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Retrieve a knife and chopping board",
+   "action_ids": [
+    "P09-20240621-093545-73",
+    "P09-20240621-093545-74",
+    "P09-20240621-093545-75",
+    "P09-20240621-093545-76",
+    "P09-20240621-093545-77",
+    "P09-20240621-093545-78",
+    "P09-20240621-093545-79"
+   ],
+   "rationale": "The person takes a new knife from the knife block and opens a drawer to access a white chopping board."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Retrieve and place the first set of hand towels",
+   "action_ids": [
+    "P09-20240621-093545-137",
+    "P09-20240621-093545-138",
+    "P09-20240621-093545-139",
+    "P09-20240621-093545-140",
+    "P09-20240621-093545-141",
+    "P09-20240621-093545-142",
+    "P09-20240621-093545-143",
+    "P09-20240621-093545-144",
+    "P09-20240621-093545-145",
+    "P09-20240621-093545-146",
+    "P09-20240621-093545-147"
+   ],
+   "rationale": "The person opens a cupboard, takes out hand towels, and hangs one on the oven handle while drying their hands."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Retrieve and place additional hand towels",
+   "action_ids": [
+    "P09-20240621-093545-148",
+    "P09-20240621-093545-149",
+    "P09-20240621-093545-150",
+    "P09-20240621-093545-151",
+    "P09-20240621-093545-152",
+    "P09-20240621-093545-153",
+    "P09-20240621-093545-154",
+    "P09-20240621-093545-155",
+    "P09-20240621-093545-156",
+    "P09-20240621-093545-157",
+    "P09-20240621-093545-158",
+    "P09-20240621-093545-159",
+    "P09-20240621-093545-160"
+   ],
+   "rationale": "The person opens a drawer and cupboard to get more hand towels, selects one, and places it on the countertop."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Clean and set up the measuring scale",
+   "action_ids": [
+    "P09-20240621-093545-161",
+    "P09-20240621-093545-163",
+    "P09-20240621-093545-162",
+    "P09-20240621-093545-164",
+    "P09-20240621-093545-165",
+    "P09-20240621-093545-166",
+    "P09-20240621-093545-167",
+    "P09-20240621-093545-168",
+    "P09-20240621-093545-169",
+    "P09-20240621-093545-170",
+    "P09-20240621-093545-171",
+    "P09-20240621-093545-173",
+    "P09-20240621-093545-172"
+   ],
+   "rationale": "The person retrieves a measuring scale, wipes its surface with a hand towel, and places it on the countertop."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Set up a drying rack with a towel",
+   "action_ids": [
+    "P09-20240621-093545-174",
+    "P09-20240621-093545-175",
+    "P09-20240621-093545-176",
+    "P09-20240621-093545-177",
+    "P09-20240621-093545-178"
+   ],
+   "rationale": "The person pulls out a drying rack and spreads a hand towel over it."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Drain and rinse the bowl of chicken",
+   "action_ids": [
+    "P09-20240621-093545-179",
+    "P09-20240621-093545-180",
+    "P09-20240621-093545-181",
+    "P09-20240621-093545-182",
+    "P09-20240621-093545-183",
+    "P09-20240621-093545-184",
+    "P09-20240621-093545-187",
+    "P09-20240621-093545-188",
+    "P09-20240621-093545-189",
+    "P09-20240621-093545-190"
+   ],
+   "rationale": "The person drains water from a bowl of submerged chicken, removes the chicken, and rinses the bowl in the sink."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Weigh the chicken and prepare for cutting",
+   "action_ids": [
+    "P09-20240621-093545-191",
+    "P09-20240621-093545-192",
+    "P09-20240621-093545-193",
+    "P09-20240621-093545-194",
+    "P09-20240621-093545-195",
+    "P09-20240621-093545-196",
+    "P09-20240621-093545-197",
+    "P09-20240621-093545-198",
+    "P09-20240621-093545-199",
+    "P09-20240621-093545-200",
+    "P09-20240621-093545-201",
+    "P09-20240621-093545-202",
+    "P09-20240621-093545-203",
+    "P09-20240621-093545-204"
+   ],
+   "rationale": "The person places the rinsed bowl on the scale, weighs the chicken breasts, and then moves a single breast to the chopping board."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Store chicken packet, wash hands, and retrieve freezer bags",
+   "action_ids": [
+    "P09-20240621-093545-218",
+    "P09-20240621-093545-219",
+    "P09-20240621-093545-220",
+    "P09-20240621-093545-221",
+    "P09-20240621-093545-222",
+    "P09-20240621-093545-223",
+    "P09-20240621-093545-224",
+    "P09-20240621-093545-225",
+    "P09-20240621-093545-226"
+   ],
+   "rationale": "The person covers the chicken packet, washes and dries their hands, and opens a cabinet to get freezer bags."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

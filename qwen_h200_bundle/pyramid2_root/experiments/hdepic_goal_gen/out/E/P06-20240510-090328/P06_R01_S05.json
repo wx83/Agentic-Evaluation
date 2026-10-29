@@ -1,0 +1,21 @@
+{
+ "overall_goal": "Pour the uttapam batter into the pan and lower the stove flame.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Add batter to the pan and reduce the heat.",
+   "action_ids": [
+    "P06-20240510-090328-392",
+    "P06-20240510-090328-407"
+   ],
+   "rationale": "The person places the batter onto the frying pan and then adjusts the gas knob to lower the flame."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P06-20240510-090328-408"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "overall_goal": "Add and stir the red lentils into the frying pan",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Transfer the red lentils from the colander into the frying pan",
+   "action_ids": [
+    "P03-20240217-131219-746",
+    "P03-20240217-131219-747",
+    "P03-20240217-131219-748",
+    "P03-20240217-131219-749",
+    "P03-20240217-131219-750",
+    "P03-20240217-131219-751",
+    "P03-20240217-131219-752",
+    "P03-20240217-131219-753",
+    "P03-20240217-131219-754"
+   ],
+   "rationale": "The person pours and scoops the lentils from both the inner and outer parts of the colander into the pan, cleaning their hands and placing the empty colander parts in the sink."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Stir the lentils into the curry mixture",
+   "action_ids": [
+    "P03-20240217-131219-755",
+    "P03-20240217-131219-756",
+    "P03-20240217-131219-757"
+   ],
+   "rationale": "The person picks up a spatula, stirs the contents of the frying pan to mix the lentils evenly with the other ingredients, and then rests the spatula."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

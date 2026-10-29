@@ -1,0 +1,24 @@
+{
+ "overall_goal": "Check the recording phone's battery status",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Check the recording phone",
+   "action_ids": [
+    "P02-20240211-115653-283",
+    "P02-20240211-115653-284",
+    "P02-20240211-115653-285",
+    "P02-20240211-115653-286",
+    "P02-20240211-115653-287"
+   ],
+   "rationale": "The person lifts, unlocks, checks, locks, and puts down the recording phone."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P02-20240211-115653-282"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

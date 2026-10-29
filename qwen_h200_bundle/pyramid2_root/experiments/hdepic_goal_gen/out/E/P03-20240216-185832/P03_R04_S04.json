@@ -1,0 +1,76 @@
+{
+ "overall_goal": "Peel and finely slice the onion",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare the workspace and halve the onion",
+   "action_ids": [
+    "P03-20240216-185832-1288",
+    "P03-20240216-185832-1291",
+    "P03-20240216-185832-1292",
+    "P03-20240216-185832-1293",
+    "P03-20240216-185832-1294",
+    "P03-20240216-185832-1295",
+    "P03-20240216-185832-1296"
+   ],
+   "rationale": "The person retrieves an onion, clears the chopping board, and cuts the onion in half to prepare for peeling."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Peel and trim the onion halves",
+   "action_ids": [
+    "P03-20240216-185832-1297",
+    "P03-20240216-185832-1298",
+    "P03-20240216-185832-1299",
+    "P03-20240216-185832-1300",
+    "P03-20240216-185832-1301",
+    "P03-20240216-185832-1302",
+    "P03-20240216-185832-1303",
+    "P03-20240216-185832-1304",
+    "P03-20240216-185832-1305",
+    "P03-20240216-185832-1306",
+    "P03-20240216-185832-1307",
+    "P03-20240216-185832-1308"
+   ],
+   "rationale": "The person removes the skin from both onion halves and trims the ends with a knife to fully peel them."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Finely slice the onion halves",
+   "action_ids": [
+    "P03-20240216-185832-1309",
+    "P03-20240216-185832-1310",
+    "P03-20240216-185832-1311",
+    "P03-20240216-185832-1312",
+    "P03-20240216-185832-1313",
+    "P03-20240216-185832-1314",
+    "P03-20240216-185832-1315",
+    "P03-20240216-185832-1316",
+    "P03-20240216-185832-1317",
+    "P03-20240216-185832-1318",
+    "P03-20240216-185832-1319"
+   ],
+   "rationale": "The person slices both onion halves in multiple directions to create small chunks, removing any remaining skin found during the process."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Discard scraps and transport the sliced onion",
+   "action_ids": [
+    "P03-20240216-185832-1320",
+    "P03-20240216-185832-1321",
+    "P03-20240216-185832-1322",
+    "P03-20240216-185832-1323",
+    "P03-20240216-185832-1324"
+   ],
+   "rationale": "The person removes the leftover onion root and carries the chopping board with the sliced onion to another area."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P03-20240216-185832-1289",
+  "P03-20240216-185832-1290"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "overall_goal": "Whip the coffee paste vigorously in the cups",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Whip the coffee paste in the first cup",
+   "action_ids": [
+    "P06-20240511-102207-510",
+    "P06-20240511-102207-511",
+    "P06-20240511-102207-512",
+    "P06-20240511-102207-519",
+    "P06-20240511-102207-520",
+    "P06-20240511-102207-521"
+   ],
+   "rationale": "The person picks up the first cup and vigorously mixes the contents with a spoon to form a coffee paste, returning to it after working on the second cup."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Whip the coffee paste in the second cup",
+   "action_ids": [
+    "P06-20240511-102207-513",
+    "P06-20240511-102207-514",
+    "P06-20240511-102207-516",
+    "P06-20240511-102207-517",
+    "P06-20240511-102207-518",
+    "P06-20240511-102207-522",
+    "P06-20240511-102207-523"
+   ],
+   "rationale": "The person picks up the second cup and vigorously mixes its contents with a spoon to form a coffee paste, alternating with the first cup."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,215 @@
+{
+ "overall_goal": "Perform various kitchen management tasks including cleaning up food waste, preparing appliances, and managing cooking processes",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Put away unused items and ingredients",
+   "action_ids": [
+    "P01-20240204-142301-178",
+    "P01-20240204-142301-179",
+    "P01-20240204-142301-180",
+    "P01-20240204-142301-181",
+    "P01-20240204-142301-182",
+    "P01-20240204-142301-291",
+    "P01-20240204-142301-292",
+    "P01-20240204-142301-336",
+    "P01-20240204-142301-337"
+   ],
+   "rationale": "The person returns the scissors, onions, oil bottle, and scale to their respective storage places."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Clean up onion peels from the chopping board",
+   "action_ids": [
+    "P01-20240204-142301-205",
+    "P01-20240204-142301-206",
+    "P01-20240204-142301-207",
+    "P01-20240204-142301-208",
+    "P01-20240204-142301-209",
+    "P01-20240204-142301-211",
+    "P01-20240204-142301-210",
+    "P01-20240204-142301-212",
+    "P01-20240204-142301-213",
+    "P01-20240204-142301-214"
+   ],
+   "rationale": "The person gathers onion peels from the chopping board and countertop and disposes of them in the food waste bin."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Clean up garlic peels and other food waste",
+   "action_ids": [
+    "P01-20240204-142301-225",
+    "P01-20240204-142301-226",
+    "P01-20240204-142301-227",
+    "P01-20240204-142301-228",
+    "P01-20240204-142301-229",
+    "P01-20240204-142301-230",
+    "P01-20240204-142301-249",
+    "P01-20240204-142301-250",
+    "P01-20240204-142301-251",
+    "P01-20240204-142301-252",
+    "P01-20240204-142301-282",
+    "P01-20240204-142301-283",
+    "P01-20240204-142301-284",
+    "P01-20240204-142301-314",
+    "P01-20240204-142301-315",
+    "P01-20240204-142301-316",
+    "P01-20240204-142301-317"
+   ],
+   "rationale": "The person clears garlic peels and dropped onion pieces into the food waste bin to keep the workspace clean."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Manage the wooden spoon and pan contents",
+   "action_ids": [
+    "P01-20240204-142301-254",
+    "P01-20240204-142301-255",
+    "P01-20240204-142301-256",
+    "P01-20240204-142301-318",
+    "P01-20240204-142301-320",
+    "P01-20240204-142301-321",
+    "P01-20240204-142301-322",
+    "P01-20240204-142301-323",
+    "P01-20240204-142301-381",
+    "P01-20240204-142301-382"
+   ],
+   "rationale": "The person retrieves a wooden spoon and taps it against the pan to drop stuck onion pieces into the food."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Search for a lid in the cupboard",
+   "action_ids": [
+    "P01-20240204-142301-257",
+    "P01-20240204-142301-258",
+    "P01-20240204-142301-277",
+    "P01-20240204-142301-278"
+   ],
+   "rationale": "The person opens the cupboard, lifts pots to find a lid, and returns an unsuitable lid before closing the door."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Prepare the pan for cooking",
+   "action_ids": [
+    "P01-20240204-142301-285",
+    "P01-20240204-142301-286",
+    "P01-20240204-142301-287",
+    "P01-20240204-142301-301",
+    "P01-20240204-142301-425",
+    "P01-20240204-142301-426"
+   ],
+   "rationale": "The person moves the pan, turns on the heat, distributes oil, and covers it with a lid."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Assemble the food processor for juicing",
+   "action_ids": [
+    "P01-20240204-142301-330",
+    "P01-20240204-142301-331",
+    "P01-20240204-142301-332",
+    "P01-20240204-142301-333",
+    "P01-20240204-142301-334",
+    "P01-20240204-142301-335"
+   ],
+   "rationale": "The person retrieves the food processor bowl and juicer parts and assembles them on the motor base."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Clear used utensils to the sink",
+   "action_ids": [
+    "P01-20240204-142301-338",
+    "P01-20240204-142301-339",
+    "P01-20240204-142301-340",
+    "P01-20240204-142301-343",
+    "P01-20240204-142301-344",
+    "P01-20240204-142301-383"
+   ],
+   "rationale": "The person moves dirty utensils like the spatula, knife, and garlic presser into the sink for washing."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Fill and turn on the kettle",
+   "action_ids": [
+    "P01-20240204-142301-384",
+    "P01-20240204-142301-385",
+    "P01-20240204-142301-386",
+    "P01-20240204-142301-387",
+    "P01-20240204-142301-388",
+    "P01-20240204-142301-389",
+    "P01-20240204-142301-390",
+    "P01-20240204-142301-391",
+    "P01-20240204-142301-392",
+    "P01-20240204-142301-393",
+    "P01-20240204-142301-394"
+   ],
+   "rationale": "The person opens the kettle, fills it with water from the tap, places it on its base, and switches it on."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Store the plastic bag in the drawer",
+   "action_ids": [
+    "P01-20240204-142301-395",
+    "P01-20240204-142301-396",
+    "P01-20240204-142301-397",
+    "P01-20240204-142301-398",
+    "P01-20240204-142301-399"
+   ],
+   "rationale": "The person crumples a plastic bag and places it inside a drawer to keep it away from the hot kettle."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Put the chicken in the oven and set the timer",
+   "action_ids": [
+    "P01-20240204-142301-428",
+    "P01-20240204-142301-429",
+    "P01-20240204-142301-430",
+    "P01-20240204-142301-431",
+    "P01-20240204-142301-432",
+    "P01-20240204-142301-433",
+    "P01-20240204-142301-434",
+    "P01-20240204-142301-435"
+   ],
+   "rationale": "The person places the tray of marinated chicken into the oven and sets the cooking timer."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Dispose of packaging in the trash",
+   "action_ids": [
+    "P01-20240204-142301-460",
+    "P01-20240204-142301-461",
+    "P01-20240204-142301-462",
+    "P01-20240204-142301-463"
+   ],
+   "rationale": "The person crumples the empty chicken stock packaging and throws it into the trash bin."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P01-20240204-142301-215",
+  "P01-20240204-142301-253",
+  "P01-20240204-142301-293",
+  "P01-20240204-142301-300",
+  "P01-20240204-142301-302",
+  "P01-20240204-142301-305",
+  "P01-20240204-142301-324",
+  "P01-20240204-142301-325",
+  "P01-20240204-142301-329",
+  "P01-20240204-142301-341",
+  "P01-20240204-142301-342",
+  "P01-20240204-142301-345",
+  "P01-20240204-142301-348",
+  "P01-20240204-142301-400",
+  "P01-20240204-142301-427",
+  "P01-20240204-142301-436",
+  "P01-20240204-142301-443",
+  "P01-20240204-142301-444",
+  "P01-20240204-142301-445",
+  "P01-20240204-142301-446",
+  "P01-20240204-142301-459",
+  "P01-20240204-142301-470",
+  "P01-20240204-142301-471",
+  "P01-20240204-142301-472"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

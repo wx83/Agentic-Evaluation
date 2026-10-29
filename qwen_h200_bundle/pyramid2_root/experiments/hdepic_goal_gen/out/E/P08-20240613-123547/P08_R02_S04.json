@@ -1,0 +1,33 @@
+{
+ "overall_goal": "Slice a piece of bread and add it to the salad bowl",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Take the baguette out of its bag and cut a slice",
+   "action_ids": [
+    "P08-20240613-123547-190",
+    "P08-20240613-123547-194",
+    "P08-20240613-123547-195",
+    "P08-20240613-123547-196",
+    "P08-20240613-123547-197"
+   ],
+   "rationale": "The person retrieves the baguette from its bag, grabs a knife, and cuts a slice of bread."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Cut the bread slice into smaller pieces and place them in the salad bowl",
+   "action_ids": [
+    "P08-20240613-123547-204",
+    "P08-20240613-123547-205",
+    "P08-20240613-123547-206",
+    "P08-20240613-123547-210"
+   ],
+   "rationale": "The person halves the bread slice on the cutting board and then transfers the pieces into the salad bowl."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

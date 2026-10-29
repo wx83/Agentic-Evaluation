@@ -1,0 +1,64 @@
+{
+ "overall_goal": "Add butter, onions, and seasoning to the pan and cook until soft",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Cut and melt butter in the pan",
+   "action_ids": [
+    "P03-20240218-190556-473",
+    "P03-20240218-190556-474",
+    "P03-20240218-190556-719",
+    "P03-20240218-190556-720",
+    "P03-20240218-190556-721",
+    "P03-20240218-190556-722",
+    "P03-20240218-190556-723",
+    "P03-20240218-190556-724",
+    "P03-20240218-190556-725",
+    "P03-20240218-190556-736",
+    "P03-20240218-190556-737",
+    "P03-20240218-190556-738"
+   ],
+   "rationale": "The person retrieves butter, cuts a slab, adds it to the frying pan, and swirls the pan to melt and spread the butter."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Add onions and seasoning to the pan",
+   "action_ids": [
+    "P03-20240218-190556-741",
+    "P03-20240218-190556-742",
+    "P03-20240218-190556-745",
+    "P03-20240218-190556-746",
+    "P03-20240218-190556-747"
+   ],
+   "rationale": "The person pours the chopped onions and the remaining stroganoff seasoning into the frying pan."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Stir the mixture and adjust the heat to cook",
+   "action_ids": [
+    "P03-20240218-190556-748",
+    "P03-20240218-190556-749",
+    "P03-20240218-190556-750",
+    "P03-20240218-190556-751",
+    "P03-20240218-190556-752",
+    "P03-20240218-190556-753",
+    "P03-20240218-190556-754",
+    "P03-20240218-190556-756",
+    "P03-20240218-190556-767",
+    "P03-20240218-190556-768",
+    "P03-20240218-190556-778",
+    "P03-20240218-190556-779",
+    "P03-20240218-190556-780",
+    "P03-20240218-190556-781"
+   ],
+   "rationale": "The person repeatedly stirs the onions and seasoning in the pan, adjusting the hob heat to cook them evenly."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P03-20240218-190556-755"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

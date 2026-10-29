@@ -1,0 +1,116 @@
+{
+ "overall_goal": "Tear the lettuce into individual leaves, wash them in the sink, and squeeze them dry.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Open the lettuce packaging and prepare the chopping board.",
+   "action_ids": [
+    "P07-20240529-131737-228",
+    "P07-20240529-131737-229",
+    "P07-20240529-131737-230",
+    "P07-20240529-131737-231",
+    "P07-20240529-131737-232",
+    "P07-20240529-131737-233",
+    "P07-20240529-131737-234"
+   ],
+   "rationale": "The person opens the plastic packet, removes the heads of lettuce, and positions the chopping board for use."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Tear the first head of lettuce into individual leaves.",
+   "action_ids": [
+    "P07-20240529-131737-236",
+    "P07-20240529-131737-237",
+    "P07-20240529-131737-238",
+    "P07-20240529-131737-239",
+    "P07-20240529-131737-240",
+    "P07-20240529-131737-241",
+    "P07-20240529-131737-242",
+    "P07-20240529-131737-243",
+    "P07-20240529-131737-245",
+    "P07-20240529-131737-246",
+    "P07-20240529-131737-247",
+    "P07-20240529-131737-248",
+    "P07-20240529-131737-249",
+    "P07-20240529-131737-250",
+    "P07-20240529-131737-251",
+    "P07-20240529-131737-252"
+   ],
+   "rationale": "The person repeatedly tears leaves off the first head of lettuce and places them on the chopping board, eventually discarding the core."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Tear the second head of lettuce into individual leaves.",
+   "action_ids": [
+    "P07-20240529-131737-253",
+    "P07-20240529-131737-254",
+    "P07-20240529-131737-255",
+    "P07-20240529-131737-256",
+    "P07-20240529-131737-257",
+    "P07-20240529-131737-258",
+    "P07-20240529-131737-259",
+    "P07-20240529-131737-261",
+    "P07-20240529-131737-262",
+    "P07-20240529-131737-260"
+   ],
+   "rationale": "The person picks up the second head of lettuce, tears off its leaves onto the chopping board, and discards the core."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Transfer the torn lettuce leaves to the colander in the sink.",
+   "action_ids": [
+    "P07-20240529-131737-263",
+    "P07-20240529-131737-264",
+    "P07-20240529-131737-265",
+    "P07-20240529-131737-266",
+    "P07-20240529-131737-267"
+   ],
+   "rationale": "The person scoops up the pile of torn lettuce leaves and carries them to the sink, placing them into a colander."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Wash and rinse the lettuce leaves under running water.",
+   "action_ids": [
+    "P07-20240529-131737-268",
+    "P07-20240529-131737-269",
+    "P07-20240529-131737-270",
+    "P07-20240529-131737-271",
+    "P07-20240529-131737-272",
+    "P07-20240529-131737-273",
+    "P07-20240529-131737-274",
+    "P07-20240529-131737-275",
+    "P07-20240529-131737-276",
+    "P07-20240529-131737-277",
+    "P07-20240529-131737-278"
+   ],
+   "rationale": "The person turns on the tap and manipulates the colander and leaves under the running water to rinse away dirt."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Drain, squeeze, and shake the lettuce leaves to remove excess water.",
+   "action_ids": [
+    "P07-20240529-131737-279",
+    "P07-20240529-131737-280",
+    "P07-20240529-131737-281",
+    "P07-20240529-131737-282",
+    "P07-20240529-131737-283",
+    "P07-20240529-131737-284",
+    "P07-20240529-131737-285",
+    "P07-20240529-131737-286",
+    "P07-20240529-131737-287",
+    "P07-20240529-131737-288",
+    "P07-20240529-131737-289",
+    "P07-20240529-131737-291",
+    "P07-20240529-131737-290"
+   ],
+   "rationale": "The person squeezes and shakes the lettuce leaves and the colander to dry them, then returns the colander to the counter."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P07-20240529-131737-244"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

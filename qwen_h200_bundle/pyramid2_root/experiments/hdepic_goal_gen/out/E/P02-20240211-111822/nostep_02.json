@@ -1,0 +1,201 @@
+{
+ "overall_goal": "Perform various kitchen cleanup and maintenance tasks while waiting for the bain-marie to heat up",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Adjust the amount of sugar on the scales",
+   "action_ids": [
+    "P02-20240211-111822-486",
+    "P02-20240211-111822-487",
+    "P02-20240211-111822-488",
+    "P02-20240211-111822-489",
+    "P02-20240211-111822-490",
+    "P02-20240211-111822-491",
+    "P02-20240211-111822-492",
+    "P02-20240211-111822-493",
+    "P02-20240211-111822-494",
+    "P02-20240211-111822-495",
+    "P02-20240211-111822-496",
+    "P02-20240211-111822-497",
+    "P02-20240211-111822-498",
+    "P02-20240211-111822-499",
+    "P02-20240211-111822-501"
+   ],
+   "rationale": "The person scoops sugar back and forth between the bowl on the scales and the container to get the correct measurement."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Wash hands and put away the sugar container",
+   "action_ids": [
+    "P02-20240211-111822-502",
+    "P02-20240211-111822-503",
+    "P02-20240211-111822-504",
+    "P02-20240211-111822-505",
+    "P02-20240211-111822-506",
+    "P02-20240211-111822-507",
+    "P02-20240211-111822-508",
+    "P02-20240211-111822-509",
+    "P02-20240211-111822-510",
+    "P02-20240211-111822-511",
+    "P02-20240211-111822-512",
+    "P02-20240211-111822-513"
+   ],
+   "rationale": "The person washes sugar off their hands, then seals the sugar container and stores it in the cupboard."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Wet kitchen roll and wipe the knife",
+   "action_ids": [
+    "P02-20240211-111822-519",
+    "P02-20240211-111822-520",
+    "P02-20240211-111822-521",
+    "P02-20240211-111822-522",
+    "P02-20240211-111822-523",
+    "P02-20240211-111822-524",
+    "P02-20240211-111822-525",
+    "P02-20240211-111822-526",
+    "P02-20240211-111822-527",
+    "P02-20240211-111822-531",
+    "P02-20240211-111822-528",
+    "P02-20240211-111822-529",
+    "P02-20240211-111822-530"
+   ],
+   "rationale": "The person tears off kitchen roll, dampens it under the tap, and uses it to clean the serrated knife."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Wipe the countertop and dispose of waste",
+   "action_ids": [
+    "P02-20240211-111822-533",
+    "P02-20240211-111822-532",
+    "P02-20240211-111822-534",
+    "P02-20240211-111822-535",
+    "P02-20240211-111822-536",
+    "P02-20240211-111822-537",
+    "P02-20240211-111822-538",
+    "P02-20240211-111822-539",
+    "P02-20240211-111822-540",
+    "P02-20240211-111822-541",
+    "P02-20240211-111822-542"
+   ],
+   "rationale": "The person wipes sugar off the scales and countertop, sweeps the debris into the food bin, and discards the used kitchen roll."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Check the bain-marie water and handle utensils",
+   "action_ids": [
+    "P02-20240211-111822-514",
+    "P02-20240211-111822-515",
+    "P02-20240211-111822-516",
+    "P02-20240211-111822-549",
+    "P02-20240211-111822-550",
+    "P02-20240211-111822-551",
+    "P02-20240211-111822-552",
+    "P02-20240211-111822-556",
+    "P02-20240211-111822-557",
+    "P02-20240211-111822-558"
+   ],
+   "rationale": "The person repeatedly checks the water temperature in the bain-marie and handles a plastic spoon."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Adjust the bain-marie heat and check the water",
+   "action_ids": [
+    "P02-20240211-111822-617",
+    "P02-20240211-111822-618",
+    "P02-20240211-111822-621",
+    "P02-20240211-111822-619",
+    "P02-20240211-111822-620",
+    "P02-20240211-111822-622",
+    "P02-20240211-111822-623",
+    "P02-20240211-111822-628",
+    "P02-20240211-111822-631"
+   ],
+   "rationale": "The person turns down the hob to prevent the water from boiling too vigorously and lifts the bowl to monitor the simmer."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P02-20240211-111822-624",
+    "P02-20240211-111822-625",
+    "P02-20240211-111822-626",
+    "P02-20240211-111822-627",
+    "P02-20240211-111822-629",
+    "P02-20240211-111822-630"
+   ],
+   "rationale": "The person washes their hands using soapy water and the hot tap, then dries them on a towel."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Dispose of eggshells and the empty egg carton",
+   "action_ids": [
+    "P02-20240211-111822-614",
+    "P02-20240211-111822-615",
+    "P02-20240211-111822-616",
+    "P02-20240211-111822-663",
+    "P02-20240211-111822-664",
+    "P02-20240211-111822-665",
+    "P02-20240211-111822-666",
+    "P02-20240211-111822-667",
+    "P02-20240211-111822-668"
+   ],
+   "rationale": "The person throws the remaining eggshells into the food bin and puts the empty egg carton into the recycling bin."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Clear up the work surface",
+   "action_ids": [
+    "P02-20240211-111822-660",
+    "P02-20240211-111822-669",
+    "P02-20240211-111822-670",
+    "P02-20240211-111822-671",
+    "P02-20240211-111822-672",
+    "P02-20240211-111822-673",
+    "P02-20240211-111822-674",
+    "P02-20240211-111822-675"
+   ],
+   "rationale": "The person tidies the countertop by moving the recipe book, scales, and a saucer out of the way."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Move the bain-marie to a different burner and check the water",
+   "action_ids": [
+    "P02-20240211-111822-656",
+    "P02-20240211-111822-657",
+    "P02-20240211-111822-676",
+    "P02-20240211-111822-677",
+    "P02-20240211-111822-678",
+    "P02-20240211-111822-679",
+    "P02-20240211-111822-680",
+    "P02-20240211-111822-681",
+    "P02-20240211-111822-682",
+    "P02-20240211-111822-683"
+   ],
+   "rationale": "The person moves the bain-marie to a different burner to better control the heat and lifts the bowl to check the water temperature."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P02-20240211-111822-500",
+  "P02-20240211-111822-543",
+  "P02-20240211-111822-544",
+  "P02-20240211-111822-545",
+  "P02-20240211-111822-546",
+  "P02-20240211-111822-547",
+  "P02-20240211-111822-548",
+  "P02-20240211-111822-559",
+  "P02-20240211-111822-560",
+  "P02-20240211-111822-632",
+  "P02-20240211-111822-640",
+  "P02-20240211-111822-641",
+  "P02-20240211-111822-658",
+  "P02-20240211-111822-661",
+  "P02-20240211-111822-690",
+  "P02-20240211-111822-691",
+  "P02-20240211-111822-692"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

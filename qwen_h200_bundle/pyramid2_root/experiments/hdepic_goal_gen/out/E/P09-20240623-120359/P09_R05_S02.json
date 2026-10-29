@@ -1,0 +1,194 @@
+{
+ "overall_goal": "Prepare the blender and add all the required ingredients for the mango lassi.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve the blender from the cupboard.",
+   "action_ids": [
+    "P09-20240623-120359-7",
+    "P09-20240623-120359-8",
+    "P09-20240623-120359-9",
+    "P09-20240623-120359-10",
+    "P09-20240623-120359-11",
+    "P09-20240623-120359-12",
+    "P09-20240623-120359-16",
+    "P09-20240623-120359-17",
+    "P09-20240623-120359-18"
+   ],
+   "rationale": "The person pulls the blender out of the cupboard and untangles its cord to prepare it for use."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Clear counter space and plug in the blender.",
+   "action_ids": [
+    "P09-20240623-120359-19",
+    "P09-20240623-120359-20",
+    "P09-20240623-120359-21",
+    "P09-20240623-120359-22",
+    "P09-20240623-120359-23",
+    "P09-20240623-120359-24",
+    "P09-20240623-120359-25",
+    "P09-20240623-120359-26",
+    "P09-20240623-120359-27",
+    "P09-20240623-120359-28"
+   ],
+   "rationale": "The person moves items on the counter to make room, places the blender down, and plugs it into the socket."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Rinse the blender and set it up on the counter.",
+   "action_ids": [
+    "P09-20240623-120359-29",
+    "P09-20240623-120359-29-1",
+    "P09-20240623-120359-29-2",
+    "P09-20240623-120359-29-3",
+    "P09-20240623-120359-29-4",
+    "P09-20240623-120359-29-5",
+    "P09-20240623-120359-29-6",
+    "P09-20240623-120359-29-7",
+    "P09-20240623-120359-29-8",
+    "P09-20240623-120359-29-9",
+    "P09-20240623-120359-29-10"
+   ],
+   "rationale": "The person takes the blender cup to the sink, rinses it, drains the water, and sets it back up on the counter."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Retrieve utensils and prepare the blender for ingredients.",
+   "action_ids": [
+    "P09-20240623-120359-370",
+    "P09-20240623-120359-370-1",
+    "P09-20240623-120359-371-1",
+    "P09-20240623-120359-392"
+   ],
+   "rationale": "The person gets tablespoons from a drawer and removes the blender lid to start adding ingredients."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Measure and add yogurt to the blender.",
+   "action_ids": [
+    "P09-20240623-120359-429",
+    "P09-20240623-120359-430",
+    "P09-20240623-120359-431",
+    "P09-20240623-120359-432",
+    "P09-20240623-120359-433",
+    "P09-20240623-120359-434",
+    "P09-20240623-120359-435",
+    "P09-20240623-120359-436",
+    "P09-20240623-120359-437",
+    "P09-20240623-120359-438",
+    "P09-20240623-120359-439",
+    "P09-20240623-120359-446",
+    "P09-20240623-120359-447",
+    "P09-20240623-120359-448",
+    "P09-20240623-120359-449",
+    "P09-20240623-120359-450"
+   ],
+   "rationale": "The person opens the yogurt, measures it into a cup, and pours it into the blender."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Peel mangoes and add slices to the blender.",
+   "action_ids": [
+    "P09-20240623-120359-483",
+    "P09-20240623-120359-484",
+    "P09-20240623-120359-485",
+    "P09-20240623-120359-486",
+    "P09-20240623-120359-487",
+    "P09-20240623-120359-488",
+    "P09-20240623-120359-489",
+    "P09-20240623-120359-490",
+    "P09-20240623-120359-521",
+    "P09-20240623-120359-525",
+    "P09-20240623-120359-526",
+    "P09-20240623-120359-532",
+    "P09-20240623-120359-549",
+    "P09-20240623-120359-551",
+    "P09-20240623-120359-550",
+    "P09-20240623-120359-553",
+    "P09-20240623-120359-554",
+    "P09-20240623-120359-557",
+    "P09-20240623-120359-561",
+    "P09-20240623-120359-564"
+   ],
+   "rationale": "The person separates the mango flesh from the skin and places the pieces into the blender cup."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Add honey to the blender.",
+   "action_ids": [
+    "P09-20240623-120359-652",
+    "P09-20240623-120359-653",
+    "P09-20240623-120359-654",
+    "P09-20240623-120359-655",
+    "P09-20240623-120359-656",
+    "P09-20240623-120359-657",
+    "P09-20240623-120359-658"
+   ],
+   "rationale": "The person uses a tablespoon to scoop honey from a jar and adds it to the blender."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Retrieve ice and water from the freezer and add ice to the blender.",
+   "action_ids": [
+    "P09-20240623-120359-664",
+    "P09-20240623-120359-665",
+    "P09-20240623-120359-666",
+    "P09-20240623-120359-667",
+    "P09-20240623-120359-668",
+    "P09-20240623-120359-669",
+    "P09-20240623-120359-670",
+    "P09-20240623-120359-671",
+    "P09-20240623-120359-672",
+    "P09-20240623-120359-673",
+    "P09-20240623-120359-674",
+    "P09-20240623-120359-675",
+    "P09-20240623-120359-676",
+    "P09-20240623-120359-677",
+    "P09-20240623-120359-678"
+   ],
+   "rationale": "The person gets an ice tray and cold water from the freezer, then pops out ice cubes into the blender."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Measure cold water and pour it into the blender.",
+   "action_ids": [
+    "P09-20240623-120359-682",
+    "P09-20240623-120359-683",
+    "P09-20240623-120359-686",
+    "P09-20240623-120359-687",
+    "P09-20240623-120359-688",
+    "P09-20240623-120359-689"
+   ],
+   "rationale": "The person pours cold water into the measuring cup, stirs it to collect leftover ingredients, and pours it into the blender."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Add remaining mango bits to the blender.",
+   "action_ids": [
+    "P09-20240623-120359-819",
+    "P09-20240623-120359-825",
+    "P09-20240623-120359-826",
+    "P09-20240623-120359-827",
+    "P09-20240623-120359-831",
+    "P09-20240623-120359-833",
+    "P09-20240623-120359-835",
+    "P09-20240623-120359-837",
+    "P09-20240623-120359-840",
+    "P09-20240623-120359-841",
+    "P09-20240623-120359-842"
+   ],
+   "rationale": "The person scoops up the rest of the mango pieces from the chopping board and adds them to the blender."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P09-20240623-120359-13",
+  "P09-20240623-120359-14",
+  "P09-20240623-120359-15",
+  "P09-20240623-120359-393"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

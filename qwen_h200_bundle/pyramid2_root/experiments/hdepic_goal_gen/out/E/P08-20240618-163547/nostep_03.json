@@ -1,0 +1,45 @@
+{
+ "overall_goal": "Log ingredient nutritional information and monitor the cooking onions",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Log the nutritional values of the ingredients into the phone app",
+   "action_ids": [
+    "P08-20240618-163547-640",
+    "P08-20240618-163547-641",
+    "P08-20240618-163547-642",
+    "P08-20240618-163547-643",
+    "P08-20240618-163547-644",
+    "P08-20240618-163547-645",
+    "P08-20240618-163547-646",
+    "P08-20240618-163547-647",
+    "P08-20240618-163547-648",
+    "P08-20240618-163547-653",
+    "P08-20240618-163547-655"
+   ],
+   "rationale": "The person uses their phone to scan barcodes, check labels, and input the nutritional data of the tomato cans and sauce."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Stir and monitor the onions cooking in the wok",
+   "action_ids": [
+    "P08-20240618-163547-649",
+    "P08-20240618-163547-650",
+    "P08-20240618-163547-651",
+    "P08-20240618-163547-656",
+    "P08-20240618-163547-657",
+    "P08-20240618-163547-658",
+    "P08-20240618-163547-659",
+    "P08-20240618-163547-660",
+    "P08-20240618-163547-661",
+    "P08-20240618-163547-662"
+   ],
+   "rationale": "The person repeatedly mixes the onions with a spatula, shakes the wok, and watches them cook to ensure they do not burn."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

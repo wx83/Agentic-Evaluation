@@ -1,0 +1,46 @@
+{
+ "overall_goal": "Transfer the dried mushrooms from their packet into a glass jug",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Set up the glass jug and open the packet of mushrooms",
+   "action_ids": [
+    "P07-20240529-191007-9",
+    "P07-20240529-191007-14",
+    "P07-20240529-191007-15",
+    "P07-20240529-191007-16"
+   ],
+   "rationale": "The person places the jug on the worktop and then reads and tears open the packet of mushrooms."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Empty the packet of mushrooms into the glass jug",
+   "action_ids": [
+    "P07-20240529-191007-17",
+    "P07-20240529-191007-18",
+    "P07-20240529-191007-19"
+   ],
+   "rationale": "The person pours and shakes the packet to ensure all the mushrooms are transferred into the jug."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Adjust the position of the glass jug on the countertop",
+   "action_ids": [
+    "P07-20240529-191007-39",
+    "P07-20240529-191007-40",
+    "P07-20240529-191007-41",
+    "P07-20240529-191007-42"
+   ],
+   "rationale": "The person picks up, places down, shakes, and turns the glass jug to settle its contents and position it properly."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P07-20240529-191007-7",
+  "P07-20240529-191007-8",
+  "P07-20240529-191007-13"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

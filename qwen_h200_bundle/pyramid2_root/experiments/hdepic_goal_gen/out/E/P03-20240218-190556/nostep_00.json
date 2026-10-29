@@ -1,0 +1,228 @@
+{
+ "overall_goal": "Prepare ingredients and equipment for cooking, including weighing potatoes, cleaning up, and retrieving utensils.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Read the recipe card.",
+   "action_ids": [
+    "P03-20240218-190556-1",
+    "P03-20240218-190556-2",
+    "P03-20240218-190556-3",
+    "P03-20240218-190556-4",
+    "P03-20240218-190556-5"
+   ],
+   "rationale": "The person picks up and reads the recipe card to check the instructions."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve potatoes and mushrooms from the fridge.",
+   "action_ids": [
+    "P03-20240218-190556-6",
+    "P03-20240218-190556-7",
+    "P03-20240218-190556-8",
+    "P03-20240218-190556-9",
+    "P03-20240218-190556-10"
+   ],
+   "rationale": "The person opens the fridge, takes out potatoes and mushrooms, and places them on the counter."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Retrieve a bowl and a scale from the cupboards.",
+   "action_ids": [
+    "P03-20240218-190556-13",
+    "P03-20240218-190556-14",
+    "P03-20240218-190556-15",
+    "P03-20240218-190556-16",
+    "P03-20240218-190556-17",
+    "P03-20240218-190556-18",
+    "P03-20240218-190556-19",
+    "P03-20240218-190556-20",
+    "P03-20240218-190556-21",
+    "P03-20240218-190556-22",
+    "P03-20240218-190556-23",
+    "P03-20240218-190556-24"
+   ],
+   "rationale": "The person opens the cupboards to get a bowl and a kitchen scale, placing them on the counter."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Set up the scale and attempt to weigh the bag of potatoes.",
+   "action_ids": [
+    "P03-20240218-190556-25",
+    "P03-20240218-190556-26",
+    "P03-20240218-190556-30",
+    "P03-20240218-190556-31",
+    "P03-20240218-190556-32",
+    "P03-20240218-190556-33",
+    "P03-20240218-190556-34",
+    "P03-20240218-190556-35",
+    "P03-20240218-190556-36",
+    "P03-20240218-190556-37",
+    "P03-20240218-190556-38",
+    "P03-20240218-190556-39",
+    "P03-20240218-190556-40",
+    "P03-20240218-190556-41"
+   ],
+   "rationale": "The person prepares the bag of potatoes, turns on the scale, and tries to weigh the whole bag using the bowl."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Weigh the potatoes individually and turn off the scale.",
+   "action_ids": [
+    "P03-20240218-190556-42",
+    "P03-20240218-190556-43",
+    "P03-20240218-190556-44",
+    "P03-20240218-190556-45",
+    "P03-20240218-190556-46",
+    "P03-20240218-190556-47",
+    "P03-20240218-190556-48",
+    "P03-20240218-190556-49",
+    "P03-20240218-190556-51",
+    "P03-20240218-190556-50",
+    "P03-20240218-190556-52",
+    "P03-20240218-190556-53",
+    "P03-20240218-190556-54",
+    "P03-20240218-190556-55",
+    "P03-20240218-190556-56",
+    "P03-20240218-190556-57",
+    "P03-20240218-190556-58",
+    "P03-20240218-190556-59",
+    "P03-20240218-190556-61",
+    "P03-20240218-190556-60"
+   ],
+   "rationale": "The person takes potatoes out of the bag to weigh them individually in the bowl, decides to use the extra ones, and turns off the scale."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Put away the scale and dispose of the empty potato bag.",
+   "action_ids": [
+    "P03-20240218-190556-62",
+    "P03-20240218-190556-63",
+    "P03-20240218-190556-64",
+    "P03-20240218-190556-65",
+    "P03-20240218-190556-66",
+    "P03-20240218-190556-67"
+   ],
+   "rationale": "The person moves the scale aside and throws the empty plastic potato bag into the recycling bin."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Retrieve a plastic colander from the cupboard.",
+   "action_ids": [
+    "P03-20240218-190556-68",
+    "P03-20240218-190556-69",
+    "P03-20240218-190556-70",
+    "P03-20240218-190556-71",
+    "P03-20240218-190556-72",
+    "P03-20240218-190556-73",
+    "P03-20240218-190556-74"
+   ],
+   "rationale": "The person opens the bottom cupboard to get a plastic colander and places it next to the sink."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Clear the sink and load dirty cups into the dishwasher.",
+   "action_ids": [
+    "P03-20240218-190556-75",
+    "P03-20240218-190556-76",
+    "P03-20240218-190556-77",
+    "P03-20240218-190556-78",
+    "P03-20240218-190556-79",
+    "P03-20240218-190556-80",
+    "P03-20240218-190556-81",
+    "P03-20240218-190556-82",
+    "P03-20240218-190556-83",
+    "P03-20240218-190556-84",
+    "P03-20240218-190556-85"
+   ],
+   "rationale": "The person moves items out of the sink and places dirty cups into the dishwasher."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Drain the washed potatoes in the colander.",
+   "action_ids": [
+    "P03-20240218-190556-120",
+    "P03-20240218-190556-121",
+    "P03-20240218-190556-122",
+    "P03-20240218-190556-123",
+    "P03-20240218-190556-124",
+    "P03-20240218-190556-125",
+    "P03-20240218-190556-126",
+    "P03-20240218-190556-127",
+    "P03-20240218-190556-128"
+   ],
+   "rationale": "The person turns off the tap and transfers the washed potatoes into the colander to drain."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Rinse the bowl and dry hands.",
+   "action_ids": [
+    "P03-20240218-190556-129",
+    "P03-20240218-190556-130",
+    "P03-20240218-190556-131",
+    "P03-20240218-190556-132",
+    "P03-20240218-190556-133",
+    "P03-20240218-190556-134",
+    "P03-20240218-190556-135",
+    "P03-20240218-190556-136"
+   ],
+   "rationale": "The person rinses the bowl used for weighing, places it on the drying rack, and dries their hands."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Retrieve a peeler from the cupboard.",
+   "action_ids": [
+    "P03-20240218-190556-137",
+    "P03-20240218-190556-138",
+    "P03-20240218-190556-139",
+    "P03-20240218-190556-140",
+    "P03-20240218-190556-141"
+   ],
+   "rationale": "The person searches the cupboards and retrieves a peeler from the cutlery tray."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Wash and dry hands.",
+   "action_ids": [
+    "P03-20240218-190556-175",
+    "P03-20240218-190556-176",
+    "P03-20240218-190556-177",
+    "P03-20240218-190556-178",
+    "P03-20240218-190556-179"
+   ],
+   "rationale": "The person washes potato starch off their hands and dries them with a cloth."
+  },
+  {
+   "goal_id": "e13",
+   "description": "Retrieve a large saucepan from the cupboard.",
+   "action_ids": [
+    "P03-20240218-190556-180",
+    "P03-20240218-190556-181",
+    "P03-20240218-190556-182",
+    "P03-20240218-190556-183",
+    "P03-20240218-190556-184",
+    "P03-20240218-190556-185",
+    "P03-20240218-190556-186"
+   ],
+   "rationale": "The person opens the top cupboard, moves smaller saucepans aside, and takes out a large saucepan."
+  },
+  {
+   "goal_id": "e14",
+   "description": "Transfer chopped potatoes into the saucepan.",
+   "action_ids": [
+    "P03-20240218-190556-218",
+    "P03-20240218-190556-219",
+    "P03-20240218-190556-220",
+    "P03-20240218-190556-221",
+    "P03-20240218-190556-222",
+    "P03-20240218-190556-223"
+   ],
+   "rationale": "The person scoops up the chopped potato chunks from the chopping board and drops them into the saucepan."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

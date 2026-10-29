@@ -1,0 +1,103 @@
+{
+ "overall_goal": "Prepare the carbonara mixture by cracking and separating eggs, grating cheese, and mixing them together",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve eggs and crack the first batch into a bowl",
+   "action_ids": [
+    "P05-20240425-171455-95",
+    "P05-20240425-171455-96",
+    "P05-20240425-171455-207",
+    "P05-20240425-171455-208",
+    "P05-20240425-171455-209",
+    "P05-20240425-171455-210",
+    "P05-20240425-171455-211",
+    "P05-20240425-171455-212",
+    "P05-20240425-171455-213",
+    "P05-20240425-171455-214",
+    "P05-20240425-171455-215",
+    "P05-20240425-171455-216"
+   ],
+   "rationale": "The person gets the eggs from the fridge, sets up a bowl, and cracks the first two eggs into it, removing any shell fragments."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Separate additional eggs to add more yolks to the mixture",
+   "action_ids": [
+    "P05-20240425-171455-218",
+    "P05-20240425-171455-219",
+    "P05-20240425-171455-220",
+    "P05-20240425-171455-221",
+    "P05-20240425-171455-222",
+    "P05-20240425-171455-223",
+    "P05-20240425-171455-224",
+    "P05-20240425-171455-225",
+    "P05-20240425-171455-226",
+    "P05-20240425-171455-227",
+    "P05-20240425-171455-228",
+    "P05-20240425-171455-229",
+    "P05-20240425-171455-230",
+    "P05-20240425-171455-231",
+    "P05-20240425-171455-232",
+    "P05-20240425-171455-233",
+    "P05-20240425-171455-234"
+   ],
+   "rationale": "The person gets a second bowl to separate the egg whites from the yolks, adding extra yolks and one whole egg to the main mixing bowl."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Retrieve the cheese and search for a grater",
+   "action_ids": [
+    "P05-20240425-171455-266",
+    "P05-20240425-171455-267",
+    "P05-20240425-171455-268",
+    "P05-20240425-171455-269",
+    "P05-20240425-171455-270",
+    "P05-20240425-171455-271",
+    "P05-20240425-171455-272",
+    "P05-20240425-171455-273"
+   ],
+   "rationale": "The person takes the cheese out of the fridge, removes its packaging, and looks through a drawer for a fine cheese grater."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Grate the cheese into the egg mixture",
+   "action_ids": [
+    "P05-20240425-171455-337",
+    "P05-20240425-171455-338",
+    "P05-20240425-171455-339",
+    "P05-20240425-171455-340",
+    "P05-20240425-171455-347",
+    "P05-20240425-171455-348",
+    "P05-20240425-171455-349",
+    "P05-20240425-171455-361",
+    "P05-20240425-171455-362",
+    "P05-20240425-171455-363",
+    "P05-20240425-171455-364"
+   ],
+   "rationale": "The person uses the grater to shred a large amount of cheese directly into the bowl containing the eggs and yolks."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Mix the ingredients and add final grated cheese",
+   "action_ids": [
+    "P05-20240425-171455-368",
+    "P05-20240425-171455-369",
+    "P05-20240425-171455-370",
+    "P05-20240425-171455-371",
+    "P05-20240425-171455-374",
+    "P05-20240425-171455-375",
+    "P05-20240425-171455-376"
+   ],
+   "rationale": "The person mixes the eggs and cheese together with a fork, then grates a bit more cheese into the bowl to finish the mixture."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P05-20240425-171455-97",
+  "P05-20240425-171455-274"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

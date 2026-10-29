@@ -1,0 +1,31 @@
+{
+ "overall_goal": "Stir the batter until completely blended",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Add water to the dosa batter",
+   "action_ids": [
+    "P04-20240414-173337-131",
+    "P04-20240414-173337-132"
+   ],
+   "rationale": "The person adds water to the batter to adjust its thickness and puts the cup down."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Mix the dosa batter to a uniform consistency",
+   "action_ids": [
+    "P04-20240414-173337-134",
+    "P04-20240414-173337-135",
+    "P04-20240414-173337-136",
+    "P04-20240414-173337-148",
+    "P04-20240414-173337-149"
+   ],
+   "rationale": "The person uses a whisk to mix the batter thoroughly and taps off the excess."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}
