@@ -1,0 +1,49 @@
+{
+ "overall_goal": "Cool, peel, and slice the boiled egg",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Cool the boiled egg",
+   "action_ids": [
+    "P03-20240217-192543-520",
+    "P03-20240217-192543-521",
+    "P03-20240217-192543-522",
+    "P03-20240217-192543-523"
+   ],
+   "rationale": "The hot water is drained and replaced with cold tap water to cool the egg down for peeling."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Crack and peel the egg",
+   "action_ids": [
+    "P03-20240217-192543-608",
+    "P03-20240217-192543-609",
+    "P03-20240217-192543-612",
+    "P03-20240217-192543-614",
+    "P03-20240217-192543-615",
+    "P03-20240217-192543-616"
+   ],
+   "rationale": "The egg is shaken, cracked on the counter, and carefully peeled to remove all shell fragments."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Prepare the chopping board and slice the egg",
+   "action_ids": [
+    "P03-20240217-192543-610",
+    "P03-20240217-192543-611",
+    "P03-20240217-192543-617",
+    "P03-20240217-192543-670"
+   ],
+   "rationale": "A chopping board is set up on the counter, the peeled egg is placed on it, and then cut into four slices."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P03-20240217-192543-524",
+  "P03-20240217-192543-525",
+  "P03-20240217-192543-613"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

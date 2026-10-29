@@ -1,0 +1,186 @@
+{
+ "overall_goal": "Manage ingredients, clean up workspace, and transfer the pan to the oven",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Operate the kitchen scales and place the pan on them",
+   "action_ids": [
+    "P05-20240423-170021-5",
+    "P05-20240423-170021-6",
+    "P05-20240423-170021-7",
+    "P05-20240423-170021-8",
+    "P05-20240423-170021-95",
+    "P05-20240423-170021-198"
+   ],
+   "rationale": "The person turns the scales on and off and places the pan on them to weigh ingredients."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Scrape the chopped onion into the pan and handle the chopping board",
+   "action_ids": [
+    "P05-20240423-170021-103",
+    "P05-20240423-170021-104",
+    "P05-20240423-170021-105",
+    "P05-20240423-170021-106",
+    "P05-20240423-170021-107",
+    "P05-20240423-170021-121",
+    "P05-20240423-170021-122",
+    "P05-20240423-170021-166",
+    "P05-20240423-170021-184",
+    "P05-20240423-170021-190",
+    "P05-20240423-170021-191",
+    "P05-20240423-170021-226",
+    "P05-20240423-170021-390"
+   ],
+   "rationale": "The person uses the knife to scrape the onion from the chopping board into the pan, then repeatedly picks up and puts down the board and knife."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Scrape food waste into the recycling container",
+   "action_ids": [
+    "P05-20240423-170021-192",
+    "P05-20240423-170021-193",
+    "P05-20240423-170021-194",
+    "P05-20240423-170021-195",
+    "P05-20240423-170021-196",
+    "P05-20240423-170021-197"
+   ],
+   "rationale": "The person opens the recycling container, scrapes food waste into it, and closes the lid."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Unlock the phone and check the recipe",
+   "action_ids": [
+    "P05-20240423-170021-199",
+    "P05-20240423-170021-200",
+    "P05-20240423-170021-201",
+    "P05-20240423-170021-202",
+    "P05-20240423-170021-235",
+    "P05-20240423-170021-236",
+    "P05-20240423-170021-237",
+    "P05-20240423-170021-250",
+    "P05-20240423-170021-251",
+    "P05-20240423-170021-252",
+    "P05-20240423-170021-393"
+   ],
+   "rationale": "The person repeatedly picks up their phone, unlocks it, and scrolls through the recipe notes."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Put the lids back on various spice containers",
+   "action_ids": [
+    "P05-20240423-170021-259",
+    "P05-20240423-170021-260",
+    "P05-20240423-170021-264",
+    "P05-20240423-170021-286",
+    "P05-20240423-170021-287",
+    "P05-20240423-170021-288",
+    "P05-20240423-170021-310",
+    "P05-20240423-170021-318",
+    "P05-20240423-170021-321",
+    "P05-20240423-170021-322",
+    "P05-20240423-170021-323",
+    "P05-20240423-170021-335",
+    "P05-20240423-170021-338",
+    "P05-20240423-170021-339",
+    "P05-20240423-170021-342",
+    "P05-20240423-170021-348",
+    "P05-20240423-170021-349"
+   ],
+   "rationale": "The person picks up lids and screws them back onto the pots of spices they have finished using."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Prepare measuring spoons and salt",
+   "action_ids": [
+    "P05-20240423-170021-350",
+    "P05-20240423-170021-351",
+    "P05-20240423-170021-354",
+    "P05-20240423-170021-355"
+   ],
+   "rationale": "The person picks up measuring spoons and the salt container to get ready for seasoning."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Return the spice containers to the spice cupboard",
+   "action_ids": [
+    "P05-20240423-170021-367",
+    "P05-20240423-170021-368",
+    "P05-20240423-170021-369",
+    "P05-20240423-170021-370",
+    "P05-20240423-170021-371",
+    "P05-20240423-170021-372",
+    "P05-20240423-170021-373",
+    "P05-20240423-170021-374",
+    "P05-20240423-170021-375",
+    "P05-20240423-170021-376",
+    "P05-20240423-170021-377",
+    "P05-20240423-170021-378",
+    "P05-20240423-170021-379",
+    "P05-20240423-170021-380",
+    "P05-20240423-170021-381",
+    "P05-20240423-170021-382",
+    "P05-20240423-170021-383",
+    "P05-20240423-170021-384",
+    "P05-20240423-170021-385",
+    "P05-20240423-170021-386",
+    "P05-20240423-170021-387"
+   ],
+   "rationale": "The person gathers the closed spice containers and arranges them back into the cupboard."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Stir the ingredients in the pan",
+   "action_ids": [
+    "P05-20240423-170021-247",
+    "P05-20240423-170021-358",
+    "P05-20240423-170021-391",
+    "P05-20240423-170021-392",
+    "P05-20240423-170021-402"
+   ],
+   "rationale": "The person uses a wooden spoon to stir the chillies, garlic, and onion in the pan, shaking it to mix."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Transfer the pan into the oven",
+   "action_ids": [
+    "P05-20240423-170021-403",
+    "P05-20240423-170021-404",
+    "P05-20240423-170021-405",
+    "P05-20240423-170021-406",
+    "P05-20240423-170021-407",
+    "P05-20240423-170021-408",
+    "P05-20240423-170021-409",
+    "P05-20240423-170021-410",
+    "P05-20240423-170021-411"
+   ],
+   "rationale": "The person puts on an oven glove, adjusts the oven shelf, and places the pan on the bottom of the oven."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Dispose of leftover rubbish into the recycling container",
+   "action_ids": [
+    "P05-20240423-170021-412",
+    "P05-20240423-170021-413",
+    "P05-20240423-170021-414",
+    "P05-20240423-170021-415"
+   ],
+   "rationale": "The person gathers the remaining food waste from the counter and puts it into the recycling container to tidy the surface."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P05-20240423-170021-1",
+  "P05-20240423-170021-2",
+  "P05-20240423-170021-11",
+  "P05-20240423-170021-157",
+  "P05-20240423-170021-187",
+  "P05-20240423-170021-205",
+  "P05-20240423-170021-227",
+  "P05-20240423-170021-234",
+  "P05-20240423-170021-238"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

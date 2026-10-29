@@ -1,0 +1,120 @@
+{
+ "overall_goal": "Clean utensils, manage spilled food, and tend to the cooking vegetables",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Wash, dry, and put away the knife",
+   "action_ids": [
+    "P05-20240427-143353-412",
+    "P05-20240427-143353-413",
+    "P05-20240427-143353-414",
+    "P05-20240427-143353-415",
+    "P05-20240427-143353-416",
+    "P05-20240427-143353-417",
+    "P05-20240427-143353-418",
+    "P05-20240427-143353-419",
+    "P05-20240427-143353-420",
+    "P05-20240427-143353-421",
+    "P05-20240427-143353-422",
+    "P05-20240427-143353-423",
+    "P05-20240427-143353-424",
+    "P05-20240427-143353-425",
+    "P05-20240427-143353-426",
+    "P05-20240427-143353-427",
+    "P05-20240427-143353-428"
+   ],
+   "rationale": "The person washes the knife under the tap, dries it with a towel, and stores it in the knife block."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Clean up spilled food from the floor and wash hands",
+   "action_ids": [
+    "P05-20240427-143353-447",
+    "P05-20240427-143353-448",
+    "P05-20240427-143353-449",
+    "P05-20240427-143353-450",
+    "P05-20240427-143353-451",
+    "P05-20240427-143353-452",
+    "P05-20240427-143353-453",
+    "P05-20240427-143353-454",
+    "P05-20240427-143353-455"
+   ],
+   "rationale": "The person picks up food that fell on the floor, throws it in the bin, and washes their hands."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Stir the vegetables in the pan and cover it",
+   "action_ids": [
+    "P05-20240427-143353-435",
+    "P05-20240427-143353-456",
+    "P05-20240427-143353-457",
+    "P05-20240427-143353-460",
+    "P05-20240427-143353-461",
+    "P05-20240427-143353-462",
+    "P05-20240427-143353-463"
+   ],
+   "rationale": "The person shakes the pan, stirs the vegetables with a spatula, and covers the pan with a lid."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Return fallen onion to the pan and replace the lid",
+   "action_ids": [
+    "P05-20240427-143353-466",
+    "P05-20240427-143353-467",
+    "P05-20240427-143353-468",
+    "P05-20240427-143353-469",
+    "P05-20240427-143353-470",
+    "P05-20240427-143353-474",
+    "P05-20240427-143353-475"
+   ],
+   "rationale": "The person lifts the pan lid to return a piece of fallen onion to the pan and replaces the lid."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Empty the bowl to make room for cooked vegetables",
+   "action_ids": [
+    "P05-20240427-143353-476",
+    "P05-20240427-143353-477",
+    "P05-20240427-143353-478",
+    "P05-20240427-143353-479"
+   ],
+   "rationale": "The person transfers remaining carrots from a bowl to a chopping board to free up the bowl."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Retrieve a spoon from the drawer",
+   "action_ids": [
+    "P05-20240427-143353-481",
+    "P05-20240427-143353-482",
+    "P05-20240427-143353-483",
+    "P05-20240427-143353-484",
+    "P05-20240427-143353-485"
+   ],
+   "rationale": "The person opens the cutlery drawer, takes out a spoon, and places it on the counter."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Return fallen carrot to the pan",
+   "action_ids": [
+    "P05-20240427-143353-486",
+    "P05-20240427-143353-487",
+    "P05-20240427-143353-488",
+    "P05-20240427-143353-490",
+    "P05-20240427-143353-491",
+    "P05-20240427-143353-492",
+    "P05-20240427-143353-493"
+   ],
+   "rationale": "The person lifts the pan lid to return a fallen piece of carrot to the pan."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P05-20240427-143353-411",
+  "P05-20240427-143353-464",
+  "P05-20240427-143353-465",
+  "P05-20240427-143353-480"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "overall_goal": "Cut the chicken into smaller pieces, transfer them to a bowl, and wash hands.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Cut the chicken into smaller pieces.",
+   "action_ids": [
+    "P04-20240413-145245-568",
+    "P04-20240413-145245-569",
+    "P04-20240413-145245-570",
+    "P04-20240413-145245-571",
+    "P04-20240413-145245-572",
+    "P04-20240413-145245-573",
+    "P04-20240413-145245-574",
+    "P04-20240413-145245-575"
+   ],
+   "rationale": "The person uses a knife and fork to cut large pieces of chicken into smaller pieces and gathers them on the chopping board."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Transfer the cut chicken into a bowl.",
+   "action_ids": [
+    "P04-20240413-145245-577",
+    "P04-20240413-145245-578",
+    "P04-20240413-145245-579",
+    "P04-20240413-145245-580",
+    "P04-20240413-145245-581",
+    "P04-20240413-145245-582",
+    "P04-20240413-145245-583",
+    "P04-20240413-145245-584",
+    "P04-20240413-145245-585",
+    "P04-20240413-145245-586",
+    "P04-20240413-145245-587"
+   ],
+   "rationale": "The person repeatedly grabs the cut chicken pieces from the chopping board and places them into a bowl."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Set aside utensils and wash hands.",
+   "action_ids": [
+    "P04-20240413-145245-588",
+    "P04-20240413-145245-589",
+    "P04-20240413-145245-590",
+    "P04-20240413-145245-591",
+    "P04-20240413-145245-592",
+    "P04-20240413-145245-593",
+    "P04-20240413-145245-594",
+    "P04-20240413-145245-595",
+    "P04-20240413-145245-596"
+   ],
+   "rationale": "The person places the knife and fork aside, then washes and dries their hands at the sink."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P04-20240413-145245-576"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

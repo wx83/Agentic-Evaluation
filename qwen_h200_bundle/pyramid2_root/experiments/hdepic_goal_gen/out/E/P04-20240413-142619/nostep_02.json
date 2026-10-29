@@ -1,0 +1,92 @@
+{
+ "overall_goal": "Weigh ingredients, clean the workspace, and wash hands",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Weigh and log the whole tomato",
+   "action_ids": [
+    "P04-20240413-142619-534",
+    "P04-20240413-142619-535",
+    "P04-20240413-142619-536",
+    "P04-20240413-142619-537",
+    "P04-20240413-142619-538",
+    "P04-20240413-142619-539",
+    "P04-20240413-142619-540"
+   ],
+   "rationale": "The person places a whole tomato on the scale to check its weight and then writes the measurement down in a notebook."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Weigh the chopped tomato",
+   "action_ids": [
+    "P04-20240413-142619-565",
+    "P04-20240413-142619-566",
+    "P04-20240413-142619-567",
+    "P04-20240413-142619-568",
+    "P04-20240413-142619-569",
+    "P04-20240413-142619-570",
+    "P04-20240413-142619-571",
+    "P04-20240413-142619-572",
+    "P04-20240413-142619-573",
+    "P04-20240413-142619-574",
+    "P04-20240413-142619-575",
+    "P04-20240413-142619-576"
+   ],
+   "rationale": "The person retrieves a bowl, places it on the scale, zeroes it, and transfers the chopped tomato into the bowl to weigh it."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P04-20240413-142619-577",
+    "P04-20240413-142619-578",
+    "P04-20240413-142619-579",
+    "P04-20240413-142619-580",
+    "P04-20240413-142619-581",
+    "P04-20240413-142619-582"
+   ],
+   "rationale": "The person turns on the tap, washes their hands in the sink, and dries them with a kitchen towel."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Discard food waste into the bin",
+   "action_ids": [
+    "P04-20240413-142619-583",
+    "P04-20240413-142619-584",
+    "P04-20240413-142619-585",
+    "P04-20240413-142619-586",
+    "P04-20240413-142619-587",
+    "P04-20240413-142619-588",
+    "P04-20240413-142619-589",
+    "P04-20240413-142619-590"
+   ],
+   "rationale": "The person uses a knife to scrape onion peels and tomato seeds off the chopping board into the rubbish bin, and picks up a dropped piece from the floor."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Wash the chopping board and dry hands",
+   "action_ids": [
+    "P04-20240413-142619-591",
+    "P04-20240413-142619-592",
+    "P04-20240413-142619-593",
+    "P04-20240413-142619-594",
+    "P04-20240413-142619-595",
+    "P04-20240413-142619-596",
+    "P04-20240413-142619-597",
+    "P04-20240413-142619-598",
+    "P04-20240413-142619-599",
+    "P04-20240413-142619-600",
+    "P04-20240413-142619-601"
+   ],
+   "rationale": "The person takes the plastic chopping board to the sink, washes and shakes it dry, returns it to the counter, and then dries their hands."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P04-20240413-142619-505",
+  "P04-20240413-142619-506"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

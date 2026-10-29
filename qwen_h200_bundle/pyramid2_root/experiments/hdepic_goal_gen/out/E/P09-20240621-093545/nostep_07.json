@@ -1,0 +1,193 @@
+{
+ "overall_goal": "Serve the curry, store leftovers, and clean up the kitchen",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve and wash a serving spoon",
+   "action_ids": [
+    "P09-20240621-093545-1238",
+    "P09-20240621-093545-1239",
+    "P09-20240621-093545-1240",
+    "P09-20240621-093545-1241",
+    "P09-20240621-093545-1242",
+    "P09-20240621-093545-1243",
+    "P09-20240621-093545-1244",
+    "P09-20240621-093545-1245",
+    "P09-20240621-093545-1246",
+    "P09-20240621-093545-1247",
+    "P09-20240621-093545-1248",
+    "P09-20240621-093545-1249",
+    "P09-20240621-093545-1250",
+    "P09-20240621-093545-1251",
+    "P09-20240621-093545-1252",
+    "P09-20240621-093545-1253",
+    "P09-20240621-093545-1254",
+    "P09-20240621-093545-1255"
+   ],
+   "rationale": "The person searches for a serving spoon in the drawers, takes it to the sink, and washes it with soap and a sponge."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Prepare the plate with rice",
+   "action_ids": [
+    "P09-20240621-093545-1234",
+    "P09-20240621-093545-1235",
+    "P09-20240621-093545-1236",
+    "P09-20240621-093545-1237",
+    "P09-20240621-093545-1257",
+    "P09-20240621-093545-1258",
+    "P09-20240621-093545-1259",
+    "P09-20240621-093545-1260",
+    "P09-20240621-093545-1261",
+    "P09-20240621-093545-1262",
+    "P09-20240621-093545-1263",
+    "P09-20240621-093545-1264",
+    "P09-20240621-093545-1265",
+    "P09-20240621-093545-1266",
+    "P09-20240621-093545-1267"
+   ],
+   "rationale": "The person adjusts the plate of rice, adds more microwave rice to it, and uses a rinsed fork to push the rice aside to make room for the curry."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Serve curry onto the plate",
+   "action_ids": [
+    "P09-20240621-093545-1256",
+    "P09-20240621-093545-1268",
+    "P09-20240621-093545-1269",
+    "P09-20240621-093545-1270",
+    "P09-20240621-093545-1271",
+    "P09-20240621-093545-1272",
+    "P09-20240621-093545-1273",
+    "P09-20240621-093545-1274",
+    "P09-20240621-093545-1275",
+    "P09-20240621-093545-1276",
+    "P09-20240621-093545-1277",
+    "P09-20240621-093545-1278",
+    "P09-20240621-093545-1279",
+    "P09-20240621-093545-1280"
+   ],
+   "rationale": "The person stirs the curry, scoops it onto the plate of rice, and moves the served plate to the counter."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Inspect and rinse the tupperware",
+   "action_ids": [
+    "P09-20240621-093545-1281",
+    "P09-20240621-093545-1282",
+    "P09-20240621-093545-1283",
+    "P09-20240621-093545-1284",
+    "P09-20240621-093545-1285",
+    "P09-20240621-093545-1286",
+    "P09-20240621-093545-1287",
+    "P09-20240621-093545-1288",
+    "P09-20240621-093545-1289",
+    "P09-20240621-093545-1290"
+   ],
+   "rationale": "The person picks up a tupperware container, inspects it, and rinses it under the tap to prepare it for storing leftovers."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Transfer leftover curry to the tupperware",
+   "action_ids": [
+    "P09-20240621-093545-1291",
+    "P09-20240621-093545-1292",
+    "P09-20240621-093545-1293",
+    "P09-20240621-093545-1294",
+    "P09-20240621-093545-1295",
+    "P09-20240621-093545-1296",
+    "P09-20240621-093545-1297",
+    "P09-20240621-093545-1298",
+    "P09-20240621-093545-1299",
+    "P09-20240621-093545-1300",
+    "P09-20240621-093545-1301",
+    "P09-20240621-093545-1303",
+    "P09-20240621-093545-1304",
+    "P09-20240621-093545-1302",
+    "P09-20240621-093545-1305",
+    "P09-20240621-093545-1306",
+    "P09-20240621-093545-1307",
+    "P09-20240621-093545-1308",
+    "P09-20240621-093545-1309"
+   ],
+   "rationale": "The person repeatedly scoops the remaining curry from the pot and pours it into the rinsed tupperware container."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Store the tupperware in the fridge",
+   "action_ids": [
+    "P09-20240621-093545-1313",
+    "P09-20240621-093545-1314",
+    "P09-20240621-093545-1315",
+    "P09-20240621-093545-1316",
+    "P09-20240621-093545-1317",
+    "P09-20240621-093545-1318",
+    "P09-20240621-093545-1319",
+    "P09-20240621-093545-1320",
+    "P09-20240621-093545-1321",
+    "P09-20240621-093545-1322",
+    "P09-20240621-093545-1323"
+   ],
+   "rationale": "The person secures the lid on the tupperware, opens the fridge, makes room, and places the container inside."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Clear the counter",
+   "action_ids": [
+    "P09-20240621-093545-1324",
+    "P09-20240621-093545-1325",
+    "P09-20240621-093545-1326",
+    "P09-20240621-093545-1327",
+    "P09-20240621-093545-1328",
+    "P09-20240621-093545-1329"
+   ],
+   "rationale": "The person removes the scale and bowl from the counter, storing them away to tidy the workspace."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Soak the pot and wash the tablespoon",
+   "action_ids": [
+    "P09-20240621-093545-1310",
+    "P09-20240621-093545-1311",
+    "P09-20240621-093545-1312",
+    "P09-20240621-093545-1330",
+    "P09-20240621-093545-1331",
+    "P09-20240621-093545-1332",
+    "P09-20240621-093545-1333",
+    "P09-20240621-093545-1334",
+    "P09-20240621-093545-1335",
+    "P09-20240621-093545-1336",
+    "P09-20240621-093545-1337",
+    "P09-20240621-093545-1338",
+    "P09-20240621-093545-1339",
+    "P09-20240621-093545-1340",
+    "P09-20240621-093545-1341",
+    "P09-20240621-093545-1342",
+    "P09-20240621-093545-1343",
+    "P09-20240621-093545-1344"
+   ],
+   "rationale": "The person places the empty pot in the sink to fill it with water, then washes a tablespoon and returns it to the drawer."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Wash the serving spoon",
+   "action_ids": [
+    "P09-20240621-093545-1345",
+    "P09-20240621-093545-1346",
+    "P09-20240621-093545-1347",
+    "P09-20240621-093545-1348",
+    "P09-20240621-093545-1349",
+    "P09-20240621-093545-1350",
+    "P09-20240621-093545-1351",
+    "P09-20240621-093545-1352",
+    "P09-20240621-093545-1353"
+   ],
+   "rationale": "The person retrieves the serving spoon from the pot, scrubs it with a sponge, rinses it, and places it on the dish rack to dry."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

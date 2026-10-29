@@ -1,0 +1,208 @@
+{
+ "overall_goal": "Clean the kitchen, store leftover ingredients, and load the dishwasher",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Weigh and log ingredients",
+   "action_ids": [
+    "P07-20240531-201703-334",
+    "P07-20240531-201703-338",
+    "P07-20240531-201703-358",
+    "P07-20240531-201703-361",
+    "P07-20240531-201703-362",
+    "P07-20240531-201703-369",
+    "P07-20240531-201703-370",
+    "P07-20240531-201703-428"
+   ],
+   "rationale": "The person repeatedly weighs ingredients in a bowl and writes down the measurements on a piece of paper, eventually tidying the paper away."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Discard vegetable waste",
+   "action_ids": [
+    "P07-20240531-201703-375",
+    "P07-20240531-201703-376",
+    "P07-20240531-201703-377",
+    "P07-20240531-201703-378",
+    "P07-20240531-201703-379"
+   ],
+   "rationale": "The person gathers various vegetable scraps like avocado skin and lettuce core and discards them into a waste pile."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Relocate the hot sweet potato tray",
+   "action_ids": [
+    "P07-20240531-201703-386",
+    "P07-20240531-201703-387",
+    "P07-20240531-201703-388",
+    "P07-20240531-201703-389"
+   ],
+   "rationale": "The person takes a hot tray of sweet potatoes out of the oven and moves it to the hob using a tea towel."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Clear bowls, trays, and utensils from the workspace",
+   "action_ids": [
+    "P07-20240531-201703-380",
+    "P07-20240531-201703-381",
+    "P07-20240531-201703-406",
+    "P07-20240531-201703-407",
+    "P07-20240531-201703-412",
+    "P07-20240531-201703-413",
+    "P07-20240531-201703-414",
+    "P07-20240531-201703-429",
+    "P07-20240531-201703-431",
+    "P07-20240531-201703-432"
+   ],
+   "rationale": "The person clears the main workspace by moving bowls, a baking tray, and various utensils aside."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Store leftover ingredients in the fridge and drawers",
+   "action_ids": [
+    "P07-20240531-201703-417",
+    "P07-20240531-201703-418",
+    "P07-20240531-201703-419",
+    "P07-20240531-201703-420",
+    "P07-20240531-201703-421",
+    "P07-20240531-201703-422",
+    "P07-20240531-201703-436",
+    "P07-20240531-201703-437",
+    "P07-20240531-201703-438",
+    "P07-20240531-201703-439",
+    "P07-20240531-201703-440",
+    "P07-20240531-201703-441",
+    "P07-20240531-201703-442",
+    "P07-20240531-201703-460",
+    "P07-20240531-201703-461",
+    "P07-20240531-201703-462"
+   ],
+   "rationale": "The person gathers various leftover ingredients like avocados, yogurt, lettuce, and limes, and stores them away in the fridge and drawers."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Seal leftover tins, store them in the fridge, and dispose of packaging",
+   "action_ids": [
+    "P07-20240531-201703-443",
+    "P07-20240531-201703-444",
+    "P07-20240531-201703-445",
+    "P07-20240531-201703-446",
+    "P07-20240531-201703-447",
+    "P07-20240531-201703-448",
+    "P07-20240531-201703-449",
+    "P07-20240531-201703-450",
+    "P07-20240531-201703-451",
+    "P07-20240531-201703-452",
+    "P07-20240531-201703-453",
+    "P07-20240531-201703-454",
+    "P07-20240531-201703-455",
+    "P07-20240531-201703-456",
+    "P07-20240531-201703-457",
+    "P07-20240531-201703-458",
+    "P07-20240531-201703-459"
+   ],
+   "rationale": "The person retrieves plastic lids to seal open tins of sweetcorn and beans, places the tins in the fridge, and throws away empty herb packaging."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Clean and put away the digital scales",
+   "action_ids": [
+    "P07-20240531-201703-415",
+    "P07-20240531-201703-416",
+    "P07-20240531-201703-433",
+    "P07-20240531-201703-434",
+    "P07-20240531-201703-435"
+   ],
+   "rationale": "The person wipes the digital scales clean with a tea towel and puts them away in a drawer."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Wipe down the countertops",
+   "action_ids": [
+    "P07-20240531-201703-472",
+    "P07-20240531-201703-473",
+    "P07-20240531-201703-474",
+    "P07-20240531-201703-475",
+    "P07-20240531-201703-476"
+   ],
+   "rationale": "The person uses kitchen paper to wipe crumbs and mess off the countertops and throws the used paper in the bin."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Rinse the food waste bin",
+   "action_ids": [
+    "P07-20240531-201703-463",
+    "P07-20240531-201703-464",
+    "P07-20240531-201703-465",
+    "P07-20240531-201703-466",
+    "P07-20240531-201703-467",
+    "P07-20240531-201703-468"
+   ],
+   "rationale": "The person empties, rinses, and shakes dry the food waste bin at the sink before leaving it on the draining board."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Load items into the dishwasher",
+   "action_ids": [
+    "P07-20240531-201703-484",
+    "P07-20240531-201703-485",
+    "P07-20240531-201703-486",
+    "P07-20240531-201703-487",
+    "P07-20240531-201703-488",
+    "P07-20240531-201703-491",
+    "P07-20240531-201703-492",
+    "P07-20240531-201703-493",
+    "P07-20240531-201703-494",
+    "P07-20240531-201703-495",
+    "P07-20240531-201703-496",
+    "P07-20240531-201703-497",
+    "P07-20240531-201703-498",
+    "P07-20240531-201703-499",
+    "P07-20240531-201703-500",
+    "P07-20240531-201703-501",
+    "P07-20240531-201703-502",
+    "P07-20240531-201703-503"
+   ],
+   "rationale": "The person loads various dirty utensils, bowls, and blender parts into the dishwasher and closes it."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Rinse items at the sink and recycle the metal lid",
+   "action_ids": [
+    "P07-20240531-201703-477",
+    "P07-20240531-201703-478",
+    "P07-20240531-201703-479",
+    "P07-20240531-201703-480",
+    "P07-20240531-201703-489",
+    "P07-20240531-201703-490",
+    "P07-20240531-201703-504",
+    "P07-20240531-201703-505",
+    "P07-20240531-201703-506"
+   ],
+   "rationale": "The person rinses a metal lid to recycle it, then later moves a plastic container and lid to the sink to rinse them along with their hands."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P07-20240531-201703-340",
+  "P07-20240531-201703-341",
+  "P07-20240531-201703-357",
+  "P07-20240531-201703-405",
+  "P07-20240531-201703-408",
+  "P07-20240531-201703-423",
+  "P07-20240531-201703-424",
+  "P07-20240531-201703-425",
+  "P07-20240531-201703-426",
+  "P07-20240531-201703-427",
+  "P07-20240531-201703-430",
+  "P07-20240531-201703-469",
+  "P07-20240531-201703-470",
+  "P07-20240531-201703-471",
+  "P07-20240531-201703-481",
+  "P07-20240531-201703-482",
+  "P07-20240531-201703-483"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

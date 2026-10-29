@@ -1,0 +1,200 @@
+{
+ "overall_goal": "Clean the blender, organize the kitchen counter and cupboard, and periodically stir the saucepan.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Stir the saucepan and add water",
+   "action_ids": [
+    "P09-20240623-120359-1326",
+    "P09-20240623-120359-1327",
+    "P09-20240623-120359-1328",
+    "P09-20240623-120359-1329",
+    "P09-20240623-120359-1330",
+    "P09-20240623-120359-1331",
+    "P09-20240623-120359-1332",
+    "P09-20240623-120359-1333",
+    "P09-20240623-120359-1334",
+    "P09-20240623-120359-1335",
+    "P09-20240623-120359-1336",
+    "P09-20240623-120359-1337",
+    "P09-20240623-120359-1338"
+   ],
+   "rationale": "The person stirs the contents of the saucepan and pours in water from the kettle."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve the blender and clear the counter",
+   "action_ids": [
+    "P09-20240623-120359-1339",
+    "P09-20240623-120359-1340",
+    "P09-20240623-120359-1341",
+    "P09-20240623-120359-1342",
+    "P09-20240623-120359-1343",
+    "P09-20240623-120359-1344",
+    "P09-20240623-120359-1345",
+    "P09-20240623-120359-1346"
+   ],
+   "rationale": "The person takes the blender out of the cupboard and moves cups out of the way to make space on the counter."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Wipe the counter",
+   "action_ids": [
+    "P09-20240623-120359-1347",
+    "P09-20240623-120359-1348",
+    "P09-20240623-120359-1349",
+    "P09-20240623-120359-1350",
+    "P09-20240623-120359-1351"
+   ],
+   "rationale": "The person uses a napkin to wipe down the counter surface."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Prepare and run the blender for washing",
+   "action_ids": [
+    "P09-20240623-120359-1324",
+    "P09-20240623-120359-1325",
+    "P09-20240623-120359-1352",
+    "P09-20240623-120359-1353",
+    "P09-20240623-120359-1354",
+    "P09-20240623-120359-1355",
+    "P09-20240623-120359-1356",
+    "P09-20240623-120359-1357",
+    "P09-20240623-120359-1358",
+    "P09-20240623-120359-1359",
+    "P09-20240623-120359-1360",
+    "P09-20240623-120359-1361"
+   ],
+   "rationale": "The person covers the blender cup, plugs in the blender, and runs it briefly to wash the inside before unmounting it."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Scrub and rinse the blender cup",
+   "action_ids": [
+    "P09-20240623-120359-1362",
+    "P09-20240623-120359-1363",
+    "P09-20240623-120359-1364",
+    "P09-20240623-120359-1365",
+    "P09-20240623-120359-1366",
+    "P09-20240623-120359-1367",
+    "P09-20240623-120359-1368",
+    "P09-20240623-120359-1369",
+    "P09-20240623-120359-1370",
+    "P09-20240623-120359-1371",
+    "P09-20240623-120359-1372",
+    "P09-20240623-120359-1373",
+    "P09-20240623-120359-1374",
+    "P09-20240623-120359-1375",
+    "P09-20240623-120359-1376",
+    "P09-20240623-120359-1377",
+    "P09-20240623-120359-1378",
+    "P09-20240623-120359-1379",
+    "P09-20240623-120359-1380",
+    "P09-20240623-120359-1381"
+   ],
+   "rationale": "The person empties the blender cup in the sink, scrubs it with a soapy sponge, rinses it, and places it in the draining rack."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Wash and rinse the blender cup lid",
+   "action_ids": [
+    "P09-20240623-120359-1382",
+    "P09-20240623-120359-1383",
+    "P09-20240623-120359-1384",
+    "P09-20240623-120359-1385",
+    "P09-20240623-120359-1386",
+    "P09-20240623-120359-1387",
+    "P09-20240623-120359-1388",
+    "P09-20240623-120359-1389",
+    "P09-20240623-120359-1390",
+    "P09-20240623-120359-1391",
+    "P09-20240623-120359-1392",
+    "P09-20240623-120359-1393",
+    "P09-20240623-120359-1394",
+    "P09-20240623-120359-1395",
+    "P09-20240623-120359-1396"
+   ],
+   "rationale": "The person applies washing liquid to the lid, scrubs it with a sponge, rinses it under the tap, and sets it to dry."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Dry hands, check the timer, and stir the saucepan",
+   "action_ids": [
+    "P09-20240623-120359-1397",
+    "P09-20240623-120359-1398",
+    "P09-20240623-120359-1399",
+    "P09-20240623-120359-1400",
+    "P09-20240623-120359-1401",
+    "P09-20240623-120359-1402",
+    "P09-20240623-120359-1403",
+    "P09-20240623-120359-1404",
+    "P09-20240623-120359-1405",
+    "P09-20240623-120359-1406",
+    "P09-20240623-120359-1407",
+    "P09-20240623-120359-1408",
+    "P09-20240623-120359-1409",
+    "P09-20240623-120359-1410"
+   ],
+   "rationale": "The person dries their hands, stirs the saucepan on the hob, and checks the cooking timer."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Tie the blender cord and stir the saucepan",
+   "action_ids": [
+    "P09-20240623-120359-1411",
+    "P09-20240623-120359-1412",
+    "P09-20240623-120359-1413",
+    "P09-20240623-120359-1414",
+    "P09-20240623-120359-1415",
+    "P09-20240623-120359-1416",
+    "P09-20240623-120359-1417",
+    "P09-20240623-120359-1418",
+    "P09-20240623-120359-1419",
+    "P09-20240623-120359-1420",
+    "P09-20240623-120359-1421",
+    "P09-20240623-120359-1422"
+   ],
+   "rationale": "The person wipes their hands, secures the blender's electric cord with a cable tie, and stirs the saucepan again."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Prepare to store the blender and clear space in the cupboard",
+   "action_ids": [
+    "P09-20240623-120359-1423",
+    "P09-20240623-120359-1424",
+    "P09-20240623-120359-1425",
+    "P09-20240623-120359-1426",
+    "P09-20240623-120359-1427",
+    "P09-20240623-120359-1428",
+    "P09-20240623-120359-1429",
+    "P09-20240623-120359-1430"
+   ],
+   "rationale": "The person picks up the blender and tupperware, opens the cupboard, and removes a lunchbox to make room."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Place the blender in the cupboard and reorganize items",
+   "action_ids": [
+    "P09-20240623-120359-1431",
+    "P09-20240623-120359-1432",
+    "P09-20240623-120359-1433",
+    "P09-20240623-120359-1434",
+    "P09-20240623-120359-1435",
+    "P09-20240623-120359-1436",
+    "P09-20240623-120359-1437",
+    "P09-20240623-120359-1438",
+    "P09-20240623-120359-1439",
+    "P09-20240623-120359-1440",
+    "P09-20240623-120359-1441",
+    "P09-20240623-120359-1442",
+    "P09-20240623-120359-1443"
+   ],
+   "rationale": "The person places the blender inside the cupboard, adjusts other utensils, and puts the tupperware and lunchbox back in."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

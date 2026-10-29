@@ -1,0 +1,156 @@
+{
+ "overall_goal": "Clean up the kitchen, clear the countertop, and serve rice and yogurt.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Rinse dishes and load them into the dishwasher",
+   "action_ids": [
+    "P01-20240203-184214-512",
+    "P01-20240203-184214-513",
+    "P01-20240203-184214-514",
+    "P01-20240203-184214-515",
+    "P01-20240203-184214-516",
+    "P01-20240203-184214-517",
+    "P01-20240203-184214-518",
+    "P01-20240203-184214-519",
+    "P01-20240203-184214-520",
+    "P01-20240203-184214-521",
+    "P01-20240203-184214-522",
+    "P01-20240203-184214-523",
+    "P01-20240203-184214-524",
+    "P01-20240203-184214-525",
+    "P01-20240203-184214-526",
+    "P01-20240203-184214-527"
+   ],
+   "rationale": "The person rinses a plate and places knives, a plate, and a lid into the dishwasher."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Clean the sink and empty the plug strainer",
+   "action_ids": [
+    "P01-20240203-184214-528",
+    "P01-20240203-184214-529",
+    "P01-20240203-184214-530",
+    "P01-20240203-184214-531",
+    "P01-20240203-184214-532",
+    "P01-20240203-184214-533",
+    "P01-20240203-184214-534",
+    "P01-20240203-184214-535",
+    "P01-20240203-184214-536",
+    "P01-20240203-184214-537",
+    "P01-20240203-184214-538",
+    "P01-20240203-184214-539",
+    "P01-20240203-184214-540",
+    "P01-20240203-184214-541",
+    "P01-20240203-184214-542",
+    "P01-20240203-184214-543",
+    "P01-20240203-184214-544"
+   ],
+   "rationale": "The person empties the sink plug strainer into the food waste bin and rinses the sink."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Discard food waste and move dirty items to the sink",
+   "action_ids": [
+    "P01-20240203-184214-545",
+    "P01-20240203-184214-546",
+    "P01-20240203-184214-547",
+    "P01-20240203-184214-548",
+    "P01-20240203-184214-549",
+    "P01-20240203-184214-550",
+    "P01-20240203-184214-551",
+    "P01-20240203-184214-552",
+    "P01-20240203-184214-553",
+    "P01-20240203-184214-554",
+    "P01-20240203-184214-555",
+    "P01-20240203-184214-556"
+   ],
+   "rationale": "The person removes gloves, moves dirty items to the sink, and discards garlic peel into the trash."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Put away kitchen items and clear the countertop",
+   "action_ids": [
+    "P01-20240203-184214-557",
+    "P01-20240203-184214-558",
+    "P01-20240203-184214-559",
+    "P01-20240203-184214-560",
+    "P01-20240203-184214-561",
+    "P01-20240203-184214-562",
+    "P01-20240203-184214-563",
+    "P01-20240203-184214-564"
+   ],
+   "rationale": "The person puts away an empty Tupperware, garlic pulp, and an oven glove to clear the countertop."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Retrieve yogurt and a clean plate for serving",
+   "action_ids": [
+    "P01-20240203-184214-565",
+    "P01-20240203-184214-566",
+    "P01-20240203-184214-567",
+    "P01-20240203-184214-568",
+    "P01-20240203-184214-569",
+    "P01-20240203-184214-570",
+    "P01-20240203-184214-571",
+    "P01-20240203-184214-572",
+    "P01-20240203-184214-573",
+    "P01-20240203-184214-574",
+    "P01-20240203-184214-575"
+   ],
+   "rationale": "The person retrieves yogurt from the fridge, moves a dirty plate to the sink, and gets a clean plate from the cupboard."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Serve rice onto the plate and soak the empty pot",
+   "action_ids": [
+    "P01-20240203-184214-576",
+    "P01-20240203-184214-577",
+    "P01-20240203-184214-578",
+    "P01-20240203-184214-579",
+    "P01-20240203-184214-580",
+    "P01-20240203-184214-581",
+    "P01-20240203-184214-582",
+    "P01-20240203-184214-583",
+    "P01-20240203-184214-584",
+    "P01-20240203-184214-585",
+    "P01-20240203-184214-586",
+    "P01-20240203-184214-587",
+    "P01-20240203-184214-588",
+    "P01-20240203-184214-589",
+    "P01-20240203-184214-590"
+   ],
+   "rationale": "The person serves rice from the pot onto the plate and places the empty pot and other items in the sink to soak."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Get cutlery, serve yogurt, and return it to the fridge",
+   "action_ids": [
+    "P01-20240203-184214-591",
+    "P01-20240203-184214-592",
+    "P01-20240203-184214-593",
+    "P01-20240203-184214-594",
+    "P01-20240203-184214-595",
+    "P01-20240203-184214-596",
+    "P01-20240203-184214-597",
+    "P01-20240203-184214-598",
+    "P01-20240203-184214-599",
+    "P01-20240203-184214-600",
+    "P01-20240203-184214-601",
+    "P01-20240203-184214-602",
+    "P01-20240203-184214-603",
+    "P01-20240203-184214-604",
+    "P01-20240203-184214-605",
+    "P01-20240203-184214-606",
+    "P01-20240203-184214-607",
+    "P01-20240203-184214-608"
+   ],
+   "rationale": "The person gets cutlery, serves yogurt onto the plate, and returns the yogurt tub to the fridge."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

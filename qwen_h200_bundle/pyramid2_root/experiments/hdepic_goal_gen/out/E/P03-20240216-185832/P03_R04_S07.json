@@ -1,0 +1,107 @@
+{
+ "overall_goal": "Loosen, flip, and cook the tortilla multiple times until done, then transfer it to a plate and serve",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Loosen the tortilla edges with a spatula",
+   "action_ids": [
+    "P03-20240216-185832-1475",
+    "P03-20240216-185832-1476",
+    "P03-20240216-185832-1477",
+    "P03-20240216-185832-1495",
+    "P03-20240216-185832-1496"
+   ],
+   "rationale": "The person uses a spatula to loosen the edges of the omelette to ensure it doesn't stick to the pan before flipping."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Flip the tortilla using a lid and return it to the pan",
+   "action_ids": [
+    "P03-20240216-185832-1500",
+    "P03-20240216-185832-1501",
+    "P03-20240216-185832-1502",
+    "P03-20240216-185832-1503",
+    "P03-20240216-185832-1504",
+    "P03-20240216-185832-1505",
+    "P03-20240216-185832-1506",
+    "P03-20240216-185832-1507"
+   ],
+   "rationale": "The person places a lid on the pan, flips the omelette onto it over the sink, and slides it back into the pan to cook the other side."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Compact the tortilla edges and adjust the pan",
+   "action_ids": [
+    "P03-20240216-185832-1508",
+    "P03-20240216-185832-1509",
+    "P03-20240216-185832-1510",
+    "P03-20240216-185832-1511",
+    "P03-20240216-185832-1512",
+    "P03-20240216-185832-1516"
+   ],
+   "rationale": "The person uses the spatula to press the edges of the omelette to maintain its shape while it cooks."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Perform a second flip of the tortilla and return it to the pan",
+   "action_ids": [
+    "P03-20240216-185832-1551",
+    "P03-20240216-185832-1552",
+    "P03-20240216-185832-1553",
+    "P03-20240216-185832-1554",
+    "P03-20240216-185832-1555",
+    "P03-20240216-185832-1556",
+    "P03-20240216-185832-1557"
+   ],
+   "rationale": "The person flips the omelette again using the lid to ensure even cooking on both sides."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Compress the tortilla edges again after the second flip",
+   "action_ids": [
+    "P03-20240216-185832-1558",
+    "P03-20240216-185832-1559",
+    "P03-20240216-185832-1560",
+    "P03-20240216-185832-1561",
+    "P03-20240216-185832-1562"
+   ],
+   "rationale": "The person uses the spatula to pat the edges of the omelette to keep it compact and well-shaped."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Perform the final flip and transfer the tortilla to a plate",
+   "action_ids": [
+    "P03-20240216-185832-1593",
+    "P03-20240216-185832-1594",
+    "P03-20240216-185832-1595",
+    "P03-20240216-185832-1596",
+    "P03-20240216-185832-1597",
+    "P03-20240216-185832-1598",
+    "P03-20240216-185832-1599",
+    "P03-20240216-185832-1600"
+   ],
+   "rationale": "The person flips the omelette one last time onto the lid and then slides it onto a serving plate."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Serve the tortilla on the table and repair its shape",
+   "action_ids": [
+    "P03-20240216-185832-1601",
+    "P03-20240216-185832-1602",
+    "P03-20240216-185832-1603",
+    "P03-20240216-185832-1604",
+    "P03-20240216-185832-1605",
+    "P03-20240216-185832-1606",
+    "P03-20240216-185832-1607",
+    "P03-20240216-185832-1608",
+    "P03-20240216-185832-1609"
+   ],
+   "rationale": "The person brings the plated omelette to the table and uses a fork to fix any broken parts and reattach loose potato chunks."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "overall_goal": "Prepare, bake, and monitor the fish cakes in the oven",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare the baking tray with aluminum foil",
+   "action_ids": [
+    "P08-20240617-184909-9",
+    "P08-20240617-184909-10",
+    "P08-20240617-184909-12",
+    "P08-20240617-184909-13",
+    "P08-20240617-184909-14",
+    "P08-20240617-184909-15",
+    "P08-20240617-184909-16",
+    "P08-20240617-184909-17",
+    "P08-20240617-184909-18",
+    "P08-20240617-184909-19",
+    "P08-20240617-184909-20",
+    "P08-20240617-184909-21"
+   ],
+   "rationale": "The person retrieves a baking tray from the oven and lines it with aluminum foil."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Place fish cakes onto the baking tray",
+   "action_ids": [
+    "P08-20240617-184909-4",
+    "P08-20240617-184909-22",
+    "P08-20240617-184909-24",
+    "P08-20240617-184909-25",
+    "P08-20240617-184909-26",
+    "P08-20240617-184909-27"
+   ],
+   "rationale": "The person opens the packaging of the fish cakes and arranges them on the prepared baking tray."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Put the baking tray into the oven",
+   "action_ids": [
+    "P08-20240617-184909-65",
+    "P08-20240617-184909-66",
+    "P08-20240617-184909-67",
+    "P08-20240617-184909-68"
+   ],
+   "rationale": "The person places the baking tray with the fish cakes into the oven to start baking."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Flip the fish cakes and return them to the oven",
+   "action_ids": [
+    "P08-20240617-184909-298",
+    "P08-20240617-184909-299",
+    "P08-20240617-184909-300",
+    "P08-20240617-184909-301",
+    "P08-20240617-184909-302",
+    "P08-20240617-184909-303",
+    "P08-20240617-184909-304",
+    "P08-20240617-184909-305"
+   ],
+   "rationale": "The person takes the tray out of the oven to flip the fish cakes with a spatula, then returns them to the oven."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Check on the fish cakes and adjust cooking",
+   "action_ids": [
+    "P08-20240617-184909-442",
+    "P08-20240617-184909-443",
+    "P08-20240617-184909-607",
+    "P08-20240617-184909-608",
+    "P08-20240617-184909-609",
+    "P08-20240617-184909-610",
+    "P08-20240617-184909-714",
+    "P08-20240617-184909-716",
+    "P08-20240617-184909-717",
+    "P08-20240617-184909-718",
+    "P08-20240617-184909-719",
+    "P08-20240617-184909-720",
+    "P08-20240617-184909-721"
+   ],
+   "rationale": "The person repeatedly checks the fish cakes, shakes the tray, flips them again to ensure they are cooked through, and adjusts the oven temperature."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

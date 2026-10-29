@@ -1,0 +1,33 @@
+{
+ "overall_goal": "Heat a frying pan on the stove and coat it with olive oil.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Place the pan on the stove and turn on the burner.",
+   "action_ids": [
+    "P02-20240209-184316-323",
+    "P02-20240209-184316-324",
+    "P02-20240209-184316-325"
+   ],
+   "rationale": "The person transfers the frying pan to the hob and ignites the burner to begin heating it."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Pour and spread oil in the pan.",
+   "action_ids": [
+    "P02-20240209-184316-326",
+    "P02-20240209-184316-327",
+    "P02-20240209-184316-328",
+    "P02-20240209-184316-329",
+    "P02-20240209-184316-347",
+    "P02-20240209-184316-348"
+   ],
+   "rationale": "The person opens the oil bottle, pours oil into the pan, and tilts the pan to ensure an even coating before placing it back on the heat."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

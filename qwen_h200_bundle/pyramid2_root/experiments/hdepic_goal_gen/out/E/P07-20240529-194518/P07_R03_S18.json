@@ -1,0 +1,40 @@
+{
+ "overall_goal": "Add parsley to the risotto, stir it, and taste to check the seasoning",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Add parsley to the risotto",
+   "action_ids": [
+    "P07-20240529-194518-535",
+    "P07-20240529-194518-536",
+    "P07-20240529-194518-537",
+    "P07-20240529-194518-538"
+   ],
+   "rationale": "The person repeatedly picks up parsley from a bowl and sprinkles it into the frying pan."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Stir the risotto",
+   "action_ids": [
+    "P07-20240529-194518-539",
+    "P07-20240529-194518-540",
+    "P07-20240529-194518-541"
+   ],
+   "rationale": "The person picks up a spatula, stirs the ingredients in the pan, and taps the spatula to remove excess food."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Taste the risotto",
+   "action_ids": [
+    "P07-20240529-194518-545",
+    "P07-20240529-194518-546"
+   ],
+   "rationale": "The person uses a teaspoon to scoop up some risotto and tastes it."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

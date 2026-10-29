@@ -1,0 +1,31 @@
+{
+ "overall_goal": "Gather salad ingredients and a mixing bowl to prepare the salad.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve salad ingredients from the fridge.",
+   "action_ids": [
+    "P05-20240425-171455-390",
+    "P05-20240425-171455-391",
+    "P05-20240425-171455-392"
+   ],
+   "rationale": "The person takes vegetables out of the fridge and closes the door."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve a bowl and set up the workspace.",
+   "action_ids": [
+    "P05-20240425-171455-393",
+    "P05-20240425-171455-394",
+    "P05-20240425-171455-395",
+    "P05-20240425-171455-396"
+   ],
+   "rationale": "The person gets a metal bowl from under the sink and places it along with the vegetables on the counter."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

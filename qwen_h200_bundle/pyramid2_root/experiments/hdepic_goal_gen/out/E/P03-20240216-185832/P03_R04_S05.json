@@ -1,0 +1,88 @@
+{
+ "overall_goal": "Fry the onions and potatoes together in the pan, adding oil as needed and removing burnt pieces.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Add oil and chopped onions to the frying pan",
+   "action_ids": [
+    "P03-20240216-185832-1326",
+    "P03-20240216-185832-1327",
+    "P03-20240216-185832-1328",
+    "P03-20240216-185832-1329",
+    "P03-20240216-185832-1330",
+    "P03-20240216-185832-1331"
+   ],
+   "rationale": "The person opens the oil can, pours oil into the pan, and then adds the chopped onions from the chopping board."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Stir the mixture, split large potato chunks, and manage spills",
+   "action_ids": [
+    "P03-20240216-185832-1336",
+    "P03-20240216-185832-1337",
+    "P03-20240216-185832-1338",
+    "P03-20240216-185832-1339",
+    "P03-20240216-185832-1341",
+    "P03-20240216-185832-1340",
+    "P03-20240216-185832-1342",
+    "P03-20240216-185832-1343",
+    "P03-20240216-185832-1344",
+    "P03-20240216-185832-1345"
+   ],
+   "rationale": "The person stirs the onions and potatoes, retrieves a spilled onion bit, catches a falling spatula, and splits a large potato chunk."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Add more oil and continue stirring and splitting potatoes",
+   "action_ids": [
+    "P03-20240216-185832-1348",
+    "P03-20240216-185832-1349",
+    "P03-20240216-185832-1356",
+    "P03-20240216-185832-1357",
+    "P03-20240216-185832-1358"
+   ],
+   "rationale": "The person pours additional oil into the pan, stirs the contents, and splits more large potato chunks."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Remove burnt potato chunks while stirring and splitting the remaining pieces",
+   "action_ids": [
+    "P03-20240216-185832-1359",
+    "P03-20240216-185832-1362",
+    "P03-20240216-185832-1363",
+    "P03-20240216-185832-1364",
+    "P03-20240216-185832-1365",
+    "P03-20240216-185832-1366",
+    "P03-20240216-185832-1367",
+    "P03-20240216-185832-1368",
+    "P03-20240216-185832-1369",
+    "P03-20240216-185832-1370",
+    "P03-20240216-185832-1371",
+    "P03-20240216-185832-1372",
+    "P03-20240216-185832-1373",
+    "P03-20240216-185832-1374",
+    "P03-20240216-185832-1375",
+    "P03-20240216-185832-1376",
+    "P03-20240216-185832-1377",
+    "P03-20240216-185832-1378"
+   ],
+   "rationale": "The person repeatedly identifies and removes burnt potato chunks, placing them on a chopping board, while continuing to stir and split the rest."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Perform final stirring of the potatoes and onions",
+   "action_ids": [
+    "P03-20240216-185832-1395",
+    "P03-20240216-185832-1419",
+    "P03-20240216-185832-1420",
+    "P03-20240216-185832-1421"
+   ],
+   "rationale": "The person gives the mixture a final stir, taps the spatula to clean it, and sets it down."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

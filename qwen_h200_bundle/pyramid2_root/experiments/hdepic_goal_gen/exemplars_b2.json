@@ -1,0 +1,738 @@
+[
+ {
+  "source": "EgoPlan-Bench2 (Ego4D, 30 fps)",
+  "video_id": "2da5c1ee",
+  "scenario": "baking",
+  "goal": "mix white substance into the mixture",
+  "steps": [
+   {
+    "t0": 419.1,
+    "t1": 420.3,
+    "narration": "scoop out white substance"
+   },
+   {
+    "t0": 420.4,
+    "t1": 420.8,
+    "narration": "put white substance in mixture"
+   },
+   {
+    "t0": 420.8,
+    "t1": 421.2,
+    "narration": "put spoon back in jar"
+   },
+   {
+    "t0": 424.8,
+    "t1": 424.8,
+    "narration": "take spoon out of jar (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench2 (Ego4D, 30 fps)",
+  "video_id": "9abbf7f4",
+  "scenario": "eating",
+  "goal": "prepare and drink coffee",
+  "steps": [
+   {
+    "t0": 977.5,
+    "t1": 978.9,
+    "narration": "stir cup content"
+   },
+   {
+    "t0": 1003.8,
+    "t1": 1004.7,
+    "narration": "pour coffee into mug"
+   },
+   {
+    "t0": 1026.0,
+    "t1": 1026.9,
+    "narration": "pour cream into coffee"
+   },
+   {
+    "t0": 1028.4,
+    "t1": 1029.2,
+    "narration": "drop cream container into dustbin"
+   },
+   {
+    "t0": 1041.7,
+    "t1": 1041.7,
+    "narration": "pour brown sugar into coffee cup (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench2 (Ego4D, 30 fps)",
+  "video_id": "d1c2a107",
+  "scenario": "eating",
+  "goal": "make coffee",
+  "steps": [
+   {
+    "t0": 833.6,
+    "t1": 835.0,
+    "narration": "open tin"
+   },
+   {
+    "t0": 846.0,
+    "t1": 846.7,
+    "narration": "pick sugar sachet"
+   },
+   {
+    "t0": 847.0,
+    "t1": 847.7,
+    "narration": "tear sugar sachet"
+   },
+   {
+    "t0": 849.1,
+    "t1": 849.8,
+    "narration": "pour sugar in cup"
+   },
+   {
+    "t0": 853.2,
+    "t1": 853.9,
+    "narration": "pick sugar sachet"
+   },
+   {
+    "t0": 855.2,
+    "t1": 855.2,
+    "narration": "tear sugar sachet (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench2 (Ego4D, 30 fps)",
+  "video_id": "94c24bfc",
+  "scenario": "cooking",
+  "goal": "prepare food",
+  "steps": [
+   {
+    "t0": 548.0,
+    "t1": 549.8,
+    "narration": "pick up condiment jar"
+   },
+   {
+    "t0": 554.0,
+    "t1": 555.7,
+    "narration": "pour condiment into food"
+   },
+   {
+    "t0": 563.6,
+    "t1": 565.1,
+    "narration": "place condiment jar on slab"
+   },
+   {
+    "t0": 566.2,
+    "t1": 567.0,
+    "narration": "cover condiment jar"
+   },
+   {
+    "t0": 574.8,
+    "t1": 576.3,
+    "narration": "open sink tab"
+   },
+   {
+    "t0": 578.4,
+    "t1": 579.3,
+    "narration": "fill jug with water"
+   },
+   {
+    "t0": 580.1,
+    "t1": 580.1,
+    "narration": "close tap (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench2 (Ego4D, 30 fps)",
+  "video_id": "a3f1b2f3",
+  "scenario": "shopping",
+  "goal": "prepare a drink",
+  "steps": [
+   {
+    "t0": 271.4,
+    "t1": 272.4,
+    "narration": "pick plastic glass"
+   },
+   {
+    "t0": 308.2,
+    "t1": 309.0,
+    "narration": "pour juice on cup"
+   },
+   {
+    "t0": 326.3,
+    "t1": 327.1,
+    "narration": "pick cup"
+   },
+   {
+    "t0": 329.1,
+    "t1": 329.9,
+    "narration": "pick cup lid"
+   },
+   {
+    "t0": 334.3,
+    "t1": 335.2,
+    "narration": "hand man B cup lid"
+   },
+   {
+    "t0": 336.0,
+    "t1": 336.8,
+    "narration": "pick cup lid"
+   },
+   {
+    "t0": 341.8,
+    "t1": 342.7,
+    "narration": "close cup"
+   },
+   {
+    "t0": 349.9,
+    "t1": 349.9,
+    "narration": "pick cup lid (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench2 (Ego4D, 30 fps)",
+  "video_id": "95114c1f",
+  "scenario": "baking",
+  "goal": "prepare berries",
+  "steps": [
+   {
+    "t0": 111.6,
+    "t1": 112.9,
+    "narration": "close tray"
+   },
+   {
+    "t0": 114.0,
+    "t1": 114.5,
+    "narration": "move tray"
+   },
+   {
+    "t0": 115.9,
+    "t1": 116.5,
+    "narration": "move container"
+   },
+   {
+    "t0": 116.9,
+    "t1": 117.2,
+    "narration": "open container"
+   },
+   {
+    "t0": 117.6,
+    "t1": 118.1,
+    "narration": "take berries"
+   },
+   {
+    "t0": 118.6,
+    "t1": 119.1,
+    "narration": "spread berries"
+   },
+   {
+    "t0": 125.6,
+    "t1": 126.2,
+    "narration": "take berries"
+   },
+   {
+    "t0": 127.3,
+    "t1": 127.9,
+    "narration": "spread berries"
+   },
+   {
+    "t0": 135.3,
+    "t1": 135.3,
+    "narration": "move berries (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench2 (Ego4D, 30 fps)",
+  "video_id": "39cfed05",
+  "scenario": "cooking",
+  "goal": "prepare meal",
+  "steps": [
+   {
+    "t0": 155.0,
+    "t1": 156.3,
+    "narration": "pick box package"
+   },
+   {
+    "t0": 159.7,
+    "t1": 160.3,
+    "narration": "put box package on table"
+   },
+   {
+    "t0": 163.3,
+    "t1": 163.8,
+    "narration": "pick sauce plate with cup"
+   },
+   {
+    "t0": 168.1,
+    "t1": 168.6,
+    "narration": "put sauce plate with cup on table"
+   },
+   {
+    "t0": 169.7,
+    "t1": 170.2,
+    "narration": "move coffee maker"
+   },
+   {
+    "t0": 171.0,
+    "t1": 171.5,
+    "narration": "pick package box"
+   },
+   {
+    "t0": 174.4,
+    "t1": 175.0,
+    "narration": "open package box"
+   },
+   {
+    "t0": 176.8,
+    "t1": 177.3,
+    "narration": "put contents from box on table"
+   },
+   {
+    "t0": 179.5,
+    "t1": 180.0,
+    "narration": "close package box"
+   },
+   {
+    "t0": 181.7,
+    "t1": 181.7,
+    "narration": "put package box in box (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench2 (Ego4D, 30 fps)",
+  "video_id": "cd2485dc",
+  "scenario": "cooking",
+  "goal": "prepare ice water",
+  "steps": [
+   {
+    "t0": 32.5,
+    "t1": 33.7,
+    "narration": "set plates on kitchen slab"
+   },
+   {
+    "t0": 37.9,
+    "t1": 38.3,
+    "narration": "move glass cups on kitchen slab"
+   },
+   {
+    "t0": 44.0,
+    "t1": 44.4,
+    "narration": "open fridge"
+   },
+   {
+    "t0": 45.7,
+    "t1": 46.1,
+    "narration": "pick up scoop"
+   },
+   {
+    "t0": 47.3,
+    "t1": 47.7,
+    "narration": "take out ice cubes"
+   },
+   {
+    "t0": 49.4,
+    "t1": 49.9,
+    "narration": "pour ice cubes into cup"
+   },
+   {
+    "t0": 50.5,
+    "t1": 50.9,
+    "narration": "drop scoop"
+   },
+   {
+    "t0": 50.9,
+    "t1": 51.4,
+    "narration": "close freezer"
+   },
+   {
+    "t0": 53.6,
+    "t1": 54.0,
+    "narration": "open fridge"
+   },
+   {
+    "t0": 55.7,
+    "t1": 56.1,
+    "narration": "pick up bottle"
+   },
+   {
+    "t0": 57.8,
+    "t1": 58.2,
+    "narration": "close fridge"
+   },
+   {
+    "t0": 60.1,
+    "t1": 60.1,
+    "narration": "drop cup and bottle on kitchen slab (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench2 (Ego4D, 30 fps)",
+  "video_id": "bd970f5b",
+  "scenario": "cooking",
+  "goal": "cook food in the kitchen",
+  "steps": [
+   {
+    "t0": 984.2,
+    "t1": 985.5,
+    "narration": "pick electric kettle"
+   },
+   {
+    "t0": 986.5,
+    "t1": 987.2,
+    "narration": "open kettle"
+   },
+   {
+    "t0": 989.3,
+    "t1": 989.9,
+    "narration": "open tap"
+   },
+   {
+    "t0": 990.4,
+    "t1": 991.0,
+    "narration": "add water in kettle"
+   },
+   {
+    "t0": 998.0,
+    "t1": 998.6,
+    "narration": "close tap"
+   },
+   {
+    "t0": 999.7,
+    "t1": 1000.3,
+    "narration": "put down kettle"
+   },
+   {
+    "t0": 1001.4,
+    "t1": 1002.0,
+    "narration": "close kettle"
+   },
+   {
+    "t0": 1005.1,
+    "t1": 1005.7,
+    "narration": "mix food in cooking pan"
+   },
+   {
+    "t0": 1020.8,
+    "t1": 1021.4,
+    "narration": "remove food from cooker"
+   },
+   {
+    "t0": 1022.9,
+    "t1": 1023.5,
+    "narration": "return cooking pan on cooker"
+   },
+   {
+    "t0": 1040.8,
+    "t1": 1041.4,
+    "narration": "mix food in cooking pan"
+   },
+   {
+    "t0": 1063.6,
+    "t1": 1064.2,
+    "narration": "press cooker buttons"
+   },
+   {
+    "t0": 1094.5,
+    "t1": 1095.1,
+    "narration": "pick trash"
+   },
+   {
+    "t0": 1096.8,
+    "t1": 1096.8,
+    "narration": "put trash in dustbin (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench2 (Ego4D, 30 fps)",
+  "video_id": "147bf9b3",
+  "scenario": "eating",
+  "goal": "prepare table with drinks",
+  "steps": [
+   {
+    "t0": 1090.0,
+    "t1": 1091.8,
+    "narration": "put ritz boxes on table"
+   },
+   {
+    "t0": 1101.3,
+    "t1": 1103.0,
+    "narration": "pick up packet"
+   },
+   {
+    "t0": 1110.9,
+    "t1": 1112.5,
+    "narration": "put packet on table"
+   },
+   {
+    "t0": 1119.3,
+    "t1": 1121.0,
+    "narration": "open refrigerator"
+   },
+   {
+    "t0": 1127.3,
+    "t1": 1129.0,
+    "narration": "move water bottle in refrigerator"
+   },
+   {
+    "t0": 1131.6,
+    "t1": 1133.2,
+    "narration": "pick up drink can"
+   },
+   {
+    "t0": 1143.2,
+    "t1": 1144.8,
+    "narration": "put drink can on table"
+   },
+   {
+    "t0": 1156.9,
+    "t1": 1158.6,
+    "narration": "pick up drink cans"
+   },
+   {
+    "t0": 1174.6,
+    "t1": 1176.2,
+    "narration": "put drink cans on table"
+   },
+   {
+    "t0": 1195.9,
+    "t1": 1197.5,
+    "narration": "pick up drink can"
+   },
+   {
+    "t0": 1198.2,
+    "t1": 1199.8,
+    "narration": "pick up container"
+   },
+   {
+    "t0": 1201.0,
+    "t1": 1202.6,
+    "narration": "pick up drink cans"
+   },
+   {
+    "t0": 1214.3,
+    "t1": 1215.9,
+    "narration": "put drink can and container on table"
+   },
+   {
+    "t0": 1220.6,
+    "t1": 1222.3,
+    "narration": "arrange drink cans on table"
+   },
+   {
+    "t0": 1239.1,
+    "t1": 1240.7,
+    "narration": "pick up water bottles"
+   },
+   {
+    "t0": 1244.1,
+    "t1": 1244.1,
+    "narration": "close refrigerator (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench2 (Ego4D, 30 fps)",
+  "video_id": "d362ba00",
+  "scenario": "cooking",
+  "goal": "prepare a meal",
+  "steps": [
+   {
+    "t0": 22.4,
+    "t1": 24.0,
+    "narration": "open cabinet"
+   },
+   {
+    "t0": 24.0,
+    "t1": 25.6,
+    "narration": "take bottle"
+   },
+   {
+    "t0": 32.3,
+    "t1": 34.4,
+    "narration": "close bottle"
+   },
+   {
+    "t0": 34.4,
+    "t1": 35.6,
+    "narration": "open cabinet"
+   },
+   {
+    "t0": 35.6,
+    "t1": 36.6,
+    "narration": "put bottle in cabinet"
+   },
+   {
+    "t0": 36.6,
+    "t1": 38.5,
+    "narration": "close cabinet"
+   },
+   {
+    "t0": 80.6,
+    "t1": 82.1,
+    "narration": "move to sink"
+   },
+   {
+    "t0": 82.1,
+    "t1": 83.5,
+    "narration": "open tap"
+   },
+   {
+    "t0": 95.4,
+    "t1": 96.8,
+    "narration": "take napkins"
+   },
+   {
+    "t0": 145.8,
+    "t1": 147.7,
+    "narration": "open fridge"
+   },
+   {
+    "t0": 147.7,
+    "t1": 149.5,
+    "narration": "open egg tray"
+   },
+   {
+    "t0": 149.5,
+    "t1": 151.8,
+    "narration": "take eggs"
+   },
+   {
+    "t0": 152.6,
+    "t1": 154.8,
+    "narration": "close tray"
+   },
+   {
+    "t0": 154.8,
+    "t1": 156.7,
+    "narration": "close fridge"
+   },
+   {
+    "t0": 162.7,
+    "t1": 165.1,
+    "narration": "cook eggs on stove"
+   },
+   {
+    "t0": 168.9,
+    "t1": 171.0,
+    "narration": "put egg shell away"
+   },
+   {
+    "t0": 171.0,
+    "t1": 173.2,
+    "narration": "break egg"
+   },
+   {
+    "t0": 177.5,
+    "t1": 177.5,
+    "narration": "put egg shell away (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench2 (Ego4D, 30 fps)",
+  "video_id": "c418665e",
+  "scenario": "cooking",
+  "goal": "remove covers from garlic",
+  "steps": [
+   {
+    "t0": 827.7,
+    "t1": 829.8,
+    "narration": "drop cover"
+   },
+   {
+    "t0": 830.3,
+    "t1": 832.3,
+    "narration": "remove cover"
+   },
+   {
+    "t0": 836.3,
+    "t1": 838.3,
+    "narration": "drop cover"
+   },
+   {
+    "t0": 839.0,
+    "t1": 841.0,
+    "narration": "remove cover"
+   },
+   {
+    "t0": 842.3,
+    "t1": 844.2,
+    "narration": "pick garlic"
+   },
+   {
+    "t0": 844.2,
+    "t1": 846.1,
+    "narration": "drop garlic in bowl"
+   },
+   {
+    "t0": 846.3,
+    "t1": 848.4,
+    "narration": "remove cover"
+   },
+   {
+    "t0": 852.4,
+    "t1": 854.3,
+    "narration": "drop garlic in bowl"
+   },
+   {
+    "t0": 854.3,
+    "t1": 856.0,
+    "narration": "remove cover"
+   },
+   {
+    "t0": 856.0,
+    "t1": 857.3,
+    "narration": "pick garlic"
+   },
+   {
+    "t0": 857.3,
+    "t1": 858.3,
+    "narration": "remove cover"
+   },
+   {
+    "t0": 858.3,
+    "t1": 858.9,
+    "narration": "drop garlic in bowl"
+   },
+   {
+    "t0": 858.9,
+    "t1": 859.7,
+    "narration": "remove cover"
+   },
+   {
+    "t0": 859.7,
+    "t1": 860.4,
+    "narration": "drop garlic in bowl"
+   },
+   {
+    "t0": 860.4,
+    "t1": 861.3,
+    "narration": "throw garlic in bowl"
+   },
+   {
+    "t0": 861.3,
+    "t1": 862.5,
+    "narration": "remove cover"
+   },
+   {
+    "t0": 862.5,
+    "t1": 863.5,
+    "narration": "drop garlic in bowl"
+   },
+   {
+    "t0": 863.5,
+    "t1": 864.9,
+    "narration": "remove cover"
+   },
+   {
+    "t0": 866.4,
+    "t1": 866.4,
+    "narration": "drop garlic in bowl (next action, official answer)"
+   }
+  ]
+ }
+]

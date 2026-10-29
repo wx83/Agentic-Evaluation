@@ -1,0 +1,51 @@
+{
+ "overall_goal": "Clean up the workspace by discarding rubbish, recycling packaging, and loading the dishwasher",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Remove debris from the pan and spatula and discard it in the bin",
+   "action_ids": [
+    "P07-20240529-191007-536",
+    "P07-20240529-191007-537",
+    "P07-20240529-191007-538",
+    "P07-20240529-191007-539",
+    "P07-20240529-191007-540",
+    "P07-20240529-191007-541",
+    "P07-20240529-191007-542",
+    "P07-20240529-191007-544"
+   ],
+   "rationale": "The person puts down the spatula to pick out onion skin and debris from the pan, throws it in the bin, and then taps the spatula to clean it."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Dispose of cardboard trays in the recycling bin",
+   "action_ids": [
+    "P07-20240529-191007-557",
+    "P07-20240529-191007-558",
+    "P07-20240529-191007-559"
+   ],
+   "rationale": "The person stacks empty cardboard trays, carries them over, and places them into the recycling bin."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Clear the countertop and load the glass jug into the dishwasher",
+   "action_ids": [
+    "P07-20240529-191007-564",
+    "P07-20240529-191007-565",
+    "P07-20240529-191007-566",
+    "P07-20240529-191007-567",
+    "P07-20240529-191007-568",
+    "P07-20240529-191007-569",
+    "P07-20240529-191007-570"
+   ],
+   "rationale": "The person moves utensils and a bowl out of the way to pick up a glass jug, then opens the dishwasher and places the jug inside."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P07-20240529-191007-545"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

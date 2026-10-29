@@ -1,0 +1,107 @@
+{
+ "overall_goal": "Clean utensils, set the table, and serve the cooked food",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Rinse and store the rice cooker bowl",
+   "action_ids": [
+    "P03-20240218-190556-1157",
+    "P03-20240218-190556-1158",
+    "P03-20240218-190556-1159",
+    "P03-20240218-190556-1160",
+    "P03-20240218-190556-1161",
+    "P03-20240218-190556-1162",
+    "P03-20240218-190556-1163",
+    "P03-20240218-190556-1164",
+    "P03-20240218-190556-1165",
+    "P03-20240218-190556-1166",
+    "P03-20240218-190556-1167",
+    "P03-20240218-190556-1168",
+    "P03-20240218-190556-1169"
+   ],
+   "rationale": "The person washes the rice cooker bowl under the tap, drains it, and places it on the drying rack."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Dry hands and a bowl",
+   "action_ids": [
+    "P03-20240218-190556-1170",
+    "P03-20240218-190556-1171",
+    "P03-20240218-190556-1172",
+    "P03-20240218-190556-1173",
+    "P03-20240218-190556-1174",
+    "P03-20240218-190556-1175"
+   ],
+   "rationale": "The person uses a cloth to dry their hands and a bowl before placing the bowl on the table."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Set the table for the meal",
+   "action_ids": [
+    "P03-20240218-190556-1177",
+    "P03-20240218-190556-1178",
+    "P03-20240218-190556-1179",
+    "P03-20240218-190556-1180",
+    "P03-20240218-190556-1181",
+    "P03-20240218-190556-1182",
+    "P03-20240218-190556-1183",
+    "P03-20240218-190556-1184",
+    "P03-20240218-190556-1185",
+    "P03-20240218-190556-1186",
+    "P03-20240218-190556-1187",
+    "P03-20240218-190556-1188",
+    "P03-20240218-190556-1189"
+   ],
+   "rationale": "The person retrieves bowls, a plate of mashed potato, and forks, placing them on the table and arranging the chairs."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Rinse and store the coffee jug",
+   "action_ids": [
+    "P03-20240218-190556-1192",
+    "P03-20240218-190556-1193",
+    "P03-20240218-190556-1194",
+    "P03-20240218-190556-1195",
+    "P03-20240218-190556-1196",
+    "P03-20240218-190556-1197",
+    "P03-20240218-190556-1198",
+    "P03-20240218-190556-1199",
+    "P03-20240218-190556-1200",
+    "P03-20240218-190556-1201"
+   ],
+   "rationale": "The person rinses the coffee jug under the tap, drains the water, and places it on the drying rack."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Serve the cooked food onto a plate",
+   "action_ids": [
+    "P03-20240218-190556-1202",
+    "P03-20240218-190556-1203",
+    "P03-20240218-190556-1204",
+    "P03-20240218-190556-1205",
+    "P03-20240218-190556-1206",
+    "P03-20240218-190556-1207",
+    "P03-20240218-190556-1208",
+    "P03-20240218-190556-1209",
+    "P03-20240218-190556-1210",
+    "P03-20240218-190556-1211",
+    "P03-20240218-190556-1212",
+    "P03-20240218-190556-1213",
+    "P03-20240218-190556-1214",
+    "P03-20240218-190556-1217"
+   ],
+   "rationale": "The person transfers the cooked beef stroganoff from the frying pan onto a plate and places the plate on the table."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P03-20240218-190556-1176",
+  "P03-20240218-190556-1190",
+  "P03-20240218-190556-1191",
+  "P03-20240218-190556-1215",
+  "P03-20240218-190556-1216"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,229 @@
+{
+ "overall_goal": "Perform various kitchen management tasks including resting dough, managing the hob, washing kale, and cleaning up",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Rest the pizza dough",
+   "action_ids": [
+    "P03-20240216-185832-1001",
+    "P03-20240216-185832-1002",
+    "P03-20240216-185832-1003",
+    "P03-20240216-185832-1004",
+    "P03-20240216-185832-1005",
+    "P03-20240216-185832-1008"
+   ],
+   "rationale": "The person flips the pizza dough and covers it with a plastic box to let it rest."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Manage the frying pan and hob",
+   "action_ids": [
+    "P03-20240216-185832-1006",
+    "P03-20240216-185832-1007",
+    "P03-20240216-185832-1010",
+    "P03-20240216-185832-1011",
+    "P03-20240216-185832-1017",
+    "P03-20240216-185832-1018",
+    "P03-20240216-185832-1019"
+   ],
+   "rationale": "The person turns the hob back on, aligns the pan, and handles the spatula and glass lid."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Dry hands",
+   "action_ids": [
+    "P03-20240216-185832-1009",
+    "P03-20240216-185832-1020",
+    "P03-20240216-185832-1021",
+    "P03-20240216-185832-1022"
+   ],
+   "rationale": "The person grabs a cloth and dries their hands."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Check the frying pan and dry hands",
+   "action_ids": [
+    "P03-20240216-185832-1043",
+    "P03-20240216-185832-1044",
+    "P03-20240216-185832-1049",
+    "P03-20240216-185832-1050",
+    "P03-20240216-185832-1051",
+    "P03-20240216-185832-1052",
+    "P03-20240216-185832-1053",
+    "P03-20240216-185832-1054",
+    "P03-20240216-185832-1055",
+    "P03-20240216-185832-1056",
+    "P03-20240216-185832-1057"
+   ],
+   "rationale": "The person taps the spatula against the pan, replaces the lid, and dries their hands with a cloth."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Dispose of the paper bag",
+   "action_ids": [
+    "P03-20240216-185832-1061",
+    "P03-20240216-185832-1062",
+    "P03-20240216-185832-1063",
+    "P03-20240216-185832-1064",
+    "P03-20240216-185832-1065"
+   ],
+   "rationale": "The person throws a torn piece of a flour paper bag into the recycling bin."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Retrieve and open the food waste bin",
+   "action_ids": [
+    "P03-20240216-185832-1066",
+    "P03-20240216-185832-1067",
+    "P03-20240216-185832-1068",
+    "P03-20240216-185832-1069",
+    "P03-20240216-185832-1070"
+   ],
+   "rationale": "The person takes the food waste bin out of the cupboard under the sink and opens it."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Wash and dry hands after handling eggs",
+   "action_ids": [
+    "P03-20240216-185832-1096",
+    "P03-20240216-185832-1097",
+    "P03-20240216-185832-1098",
+    "P03-20240216-185832-1099",
+    "P03-20240216-185832-1100",
+    "P03-20240216-185832-1101",
+    "P03-20240216-185832-1102",
+    "P03-20240216-185832-1103"
+   ],
+   "rationale": "The person throws away an eggshell, washes raw egg off their hands, and dries them."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Turn on the correct oven",
+   "action_ids": [
+    "P03-20240216-185832-1111",
+    "P03-20240216-185832-1112",
+    "P03-20240216-185832-1113",
+    "P03-20240216-185832-1114",
+    "P03-20240216-185832-1115",
+    "P03-20240216-185832-1116",
+    "P03-20240216-185832-1117"
+   ],
+   "rationale": "The person turns on the upper oven, realizes it's the wrong one, turns it off, and turns on the lower oven instead."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Put away the food waste bin",
+   "action_ids": [
+    "P03-20240216-185832-1120",
+    "P03-20240216-185832-1121",
+    "P03-20240216-185832-1122",
+    "P03-20240216-185832-1123",
+    "P03-20240216-185832-1124"
+   ],
+   "rationale": "The person closes the food waste bin and returns it to the cupboard under the sink."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Dry hands and handle the spatula",
+   "action_ids": [
+    "P03-20240216-185832-1130",
+    "P03-20240216-185832-1131",
+    "P03-20240216-185832-1132",
+    "P03-20240216-185832-1133",
+    "P03-20240216-185832-1138"
+   ],
+   "rationale": "The person dries their hands with a cloth and briefly picks up and puts down the spatula."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Retrieve a large baking tray",
+   "action_ids": [
+    "P03-20240216-185832-1151",
+    "P03-20240216-185832-1152",
+    "P03-20240216-185832-1153",
+    "P03-20240216-185832-1154",
+    "P03-20240216-185832-1155"
+   ],
+   "rationale": "The person opens the lower cupboard, moves a small baking tray out of the way, and takes out a large baking tray."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Prepare to wash the kale",
+   "action_ids": [
+    "P03-20240216-185832-1156",
+    "P03-20240216-185832-1157",
+    "P03-20240216-185832-1158",
+    "P03-20240216-185832-1159",
+    "P03-20240216-185832-1160",
+    "P03-20240216-185832-1161",
+    "P03-20240216-185832-1162",
+    "P03-20240216-185832-1163",
+    "P03-20240216-185832-1164",
+    "P03-20240216-185832-1165",
+    "P03-20240216-185832-1166",
+    "P03-20240216-185832-1167",
+    "P03-20240216-185832-1168",
+    "P03-20240216-185832-1169",
+    "P03-20240216-185832-1170",
+    "P03-20240216-185832-1171"
+   ],
+   "rationale": "The person inspects the kale, sets up the colander in the sink, adjusts the water temperature, and begins placing kale into the colander."
+  },
+  {
+   "goal_id": "e13",
+   "description": "Pour kale into the colander and dispose of the bag",
+   "action_ids": [
+    "P03-20240216-185832-1172",
+    "P03-20240216-185832-1173",
+    "P03-20240216-185832-1174",
+    "P03-20240216-185832-1175",
+    "P03-20240216-185832-1176",
+    "P03-20240216-185832-1177",
+    "P03-20240216-185832-1178",
+    "P03-20240216-185832-1179"
+   ],
+   "rationale": "The person empties the rest of the kale into the colander, picks up spilled leaves, and throws the empty plastic bag into the recycling bin."
+  },
+  {
+   "goal_id": "e14",
+   "description": "Wash the kale in the colander",
+   "action_ids": [
+    "P03-20240216-185832-1184",
+    "P03-20240216-185832-1185",
+    "P03-20240216-185832-1186",
+    "P03-20240216-185832-1187",
+    "P03-20240216-185832-1188",
+    "P03-20240216-185832-1189",
+    "P03-20240216-185832-1190",
+    "P03-20240216-185832-1191",
+    "P03-20240216-185832-1192"
+   ],
+   "rationale": "The person fills the colander with water to wash the kale, collects and rinses spilled leaves, and drains the water."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P03-20240216-185832-1000",
+  "P03-20240216-185832-1023",
+  "P03-20240216-185832-1058",
+  "P03-20240216-185832-1060",
+  "P03-20240216-185832-1071",
+  "P03-20240216-185832-1104",
+  "P03-20240216-185832-1105",
+  "P03-20240216-185832-1110",
+  "P03-20240216-185832-1118",
+  "P03-20240216-185832-1119",
+  "P03-20240216-185832-1139",
+  "P03-20240216-185832-1142",
+  "P03-20240216-185832-1143",
+  "P03-20240216-185832-1144",
+  "P03-20240216-185832-1148",
+  "P03-20240216-185832-1149",
+  "P03-20240216-185832-1150",
+  "P03-20240216-185832-1180",
+  "P03-20240216-185832-1181"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

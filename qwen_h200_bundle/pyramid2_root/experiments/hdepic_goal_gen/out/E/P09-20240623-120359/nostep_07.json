@@ -1,0 +1,200 @@
+{
+ "overall_goal": "Perform various kitchen tasks including cleaning, stirring a saucepan, processing mango, and retrieving containers",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Wash the chopping board and dry hands",
+   "action_ids": [
+    "P09-20240623-120359-785",
+    "P09-20240623-120359-786",
+    "P09-20240623-120359-787",
+    "P09-20240623-120359-788",
+    "P09-20240623-120359-789",
+    "P09-20240623-120359-790",
+    "P09-20240623-120359-791",
+    "P09-20240623-120359-792"
+   ],
+   "rationale": "The person rinses the chopping board under the tap, places it in the draining rack, and dries their hands on a towel."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Stir the contents of the saucepan and add water from the kettle",
+   "action_ids": [
+    "P09-20240623-120359-793",
+    "P09-20240623-120359-794",
+    "P09-20240623-120359-795",
+    "P09-20240623-120359-796",
+    "P09-20240623-120359-797",
+    "P09-20240623-120359-798",
+    "P09-20240623-120359-799",
+    "P09-20240623-120359-800",
+    "P09-20240623-120359-801",
+    "P09-20240623-120359-802",
+    "P09-20240623-120359-803",
+    "P09-20240623-120359-804",
+    "P09-20240623-120359-805",
+    "P09-20240623-120359-806",
+    "P09-20240623-120359-807",
+    "P09-20240623-120359-808",
+    "P09-20240623-120359-809"
+   ],
+   "rationale": "The person removes the saucepan lid, stirs the food, pours in water from the kettle, and replaces the lid."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Process mango and handle the blender lid",
+   "action_ids": [
+    "P09-20240623-120359-810",
+    "P09-20240623-120359-811",
+    "P09-20240623-120359-814",
+    "P09-20240623-120359-815",
+    "P09-20240623-120359-816",
+    "P09-20240623-120359-817",
+    "P09-20240623-120359-820",
+    "P09-20240623-120359-821",
+    "P09-20240623-120359-828",
+    "P09-20240623-120359-832"
+   ],
+   "rationale": "The person cuts mango bits, handles mango skin and seeds, and repositions the blender lid on the counter."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Clean up the workspace and wipe hands",
+   "action_ids": [
+    "P09-20240623-120359-843",
+    "P09-20240623-120359-844",
+    "P09-20240623-120359-845",
+    "P09-20240623-120359-846",
+    "P09-20240623-120359-847",
+    "P09-20240623-120359-850",
+    "P09-20240623-120359-851",
+    "P09-20240623-120359-852",
+    "P09-20240623-120359-853",
+    "P09-20240623-120359-854",
+    "P09-20240623-120359-855",
+    "P09-20240623-120359-856",
+    "P09-20240623-120359-857",
+    "P09-20240623-120359-858",
+    "P09-20240623-120359-859",
+    "P09-20240623-120359-860",
+    "P09-20240623-120359-861"
+   ],
+   "rationale": "The person wipes their hands, places the blender lid back on, and clears the counter by moving the knife, chop board, and chili discard."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Store the ice tray and water bottle in the freezer",
+   "action_ids": [
+    "P09-20240623-120359-862",
+    "P09-20240623-120359-863",
+    "P09-20240623-120359-864",
+    "P09-20240623-120359-865",
+    "P09-20240623-120359-866"
+   ],
+   "rationale": "The person picks up an ice tray and a bottle of cold water and places them into the freezer."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Turn off and detach the blender cup",
+   "action_ids": [
+    "P09-20240623-120359-867",
+    "P09-20240623-120359-868",
+    "P09-20240623-120359-869",
+    "P09-20240623-120359-870"
+   ],
+   "rationale": "The person turns off the blender, detaches the cup, and places it on the counter."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Inspect and stir the saucepan while adding water",
+   "action_ids": [
+    "P09-20240623-120359-871",
+    "P09-20240623-120359-872",
+    "P09-20240623-120359-873",
+    "P09-20240623-120359-874",
+    "P09-20240623-120359-875",
+    "P09-20240623-120359-876",
+    "P09-20240623-120359-877",
+    "P09-20240623-120359-878",
+    "P09-20240623-120359-879",
+    "P09-20240623-120359-880",
+    "P09-20240623-120359-881"
+   ],
+   "rationale": "The person lifts the saucepan lid to inspect it, stirs the contents, adds water from the kettle, and adjusts the hob's heating level."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Retrieve storage containers from the cupboards and drawers",
+   "action_ids": [
+    "P09-20240623-120359-882",
+    "P09-20240623-120359-883",
+    "P09-20240623-120359-884",
+    "P09-20240623-120359-885",
+    "P09-20240623-120359-886",
+    "P09-20240623-120359-887",
+    "P09-20240623-120359-888",
+    "P09-20240623-120359-889",
+    "P09-20240623-120359-890",
+    "P09-20240623-120359-891",
+    "P09-20240623-120359-892",
+    "P09-20240623-120359-893",
+    "P09-20240623-120359-894",
+    "P09-20240623-120359-895",
+    "P09-20240623-120359-896",
+    "P09-20240623-120359-897",
+    "P09-20240623-120359-898"
+   ],
+   "rationale": "The person opens various cupboards and drawers to retrieve bowls, tupperware, and a lunchbox."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Stir the saucepan and drain excess oil from the food",
+   "action_ids": [
+    "P09-20240623-120359-899",
+    "P09-20240623-120359-900",
+    "P09-20240623-120359-901",
+    "P09-20240623-120359-902",
+    "P09-20240623-120359-903",
+    "P09-20240623-120359-904",
+    "P09-20240623-120359-905",
+    "P09-20240623-120359-906",
+    "P09-20240623-120359-907",
+    "P09-20240623-120359-908",
+    "P09-20240623-120359-909",
+    "P09-20240623-120359-910"
+   ],
+   "rationale": "The person stirs the saucepan, places the lunchbox on the counter, and then tilts the saucepan to pour out excess oil before wiping its edge."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Check the tenderness of the meat in the saucepan and add water",
+   "action_ids": [
+    "P09-20240623-120359-911",
+    "P09-20240623-120359-912",
+    "P09-20240623-120359-913",
+    "P09-20240623-120359-914",
+    "P09-20240623-120359-915",
+    "P09-20240623-120359-916",
+    "P09-20240623-120359-917",
+    "P09-20240623-120359-918",
+    "P09-20240623-120359-919",
+    "P09-20240623-120359-920",
+    "P09-20240623-120359-921",
+    "P09-20240623-120359-922",
+    "P09-20240623-120359-923",
+    "P09-20240623-120359-924",
+    "P09-20240623-120359-925",
+    "P09-20240623-120359-926",
+    "P09-20240623-120359-927",
+    "P09-20240623-120359-928",
+    "P09-20240623-120359-929"
+   ],
+   "rationale": "The person stirs the saucepan, adds water, retrieves a fork to check the meat's tenderness, and then adds more water."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "overall_goal": "Pour the eggs over the potatoes and onions and cook the mixture evenly on low heat.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Pour the eggs into the pan and distribute the mixture evenly.",
+   "action_ids": [
+    "P03-20240216-185832-1449",
+    "P03-20240216-185832-1450",
+    "P03-20240216-185832-1451",
+    "P03-20240216-185832-1452",
+    "P03-20240216-185832-1453",
+    "P03-20240216-185832-1454",
+    "P03-20240216-185832-1455",
+    "P03-20240216-185832-1456",
+    "P03-20240216-185832-1457"
+   ],
+   "rationale": "The person pours the eggs from the bowl, places the empty bowl in the sink, and uses the spatula and pan tilting to ensure the liquid egg covers the potatoes and onions evenly."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Lower the heat and continue pressing and tilting the pan to cook the eggs.",
+   "action_ids": [
+    "P03-20240216-185832-1458",
+    "P03-20240216-185832-1459",
+    "P03-20240216-185832-1460",
+    "P03-20240216-185832-1461",
+    "P03-20240216-185832-1462",
+    "P03-20240216-185832-1463",
+    "P03-20240216-185832-1464",
+    "P03-20240216-185832-1465"
+   ],
+   "rationale": "The person reduces the hob heat and repeatedly presses the mixture with the spatula and tilts the pan to ensure even cooking without burning."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Clean the spatula and loosen the edges of the omelette to prevent sticking.",
+   "action_ids": [
+    "P03-20240216-185832-1466",
+    "P03-20240216-185832-1467",
+    "P03-20240216-185832-1468",
+    "P03-20240216-185832-1470",
+    "P03-20240216-185832-1471",
+    "P03-20240216-185832-1472"
+   ],
+   "rationale": "The person taps and scrapes the spatula to remove stuck food, pats the mixture, and runs the spatula around the edges to check for sticking before resting the tools."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

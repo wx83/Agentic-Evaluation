@@ -1,0 +1,42 @@
+{
+ "overall_goal": "Boil water and prepare ingredients and tools for making couscous",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Fill the kettle with water and turn it on to boil",
+   "action_ids": [
+    "P08-20240617-184909-155",
+    "P08-20240617-184909-157",
+    "P08-20240617-184909-158",
+    "P08-20240617-184909-159",
+    "P08-20240617-184909-160",
+    "P08-20240617-184909-161",
+    "P08-20240617-184909-162",
+    "P08-20240617-184909-163"
+   ],
+   "rationale": "The person fills the kettle with tap water, places it on the counter, and plugs it in to start boiling."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Prepare the measuring cups, couscous, and boiled water for mixing",
+   "action_ids": [
+    "P08-20240617-184909-206",
+    "P08-20240617-184909-207",
+    "P08-20240617-184909-208",
+    "P08-20240617-184909-209",
+    "P08-20240617-184909-210",
+    "P08-20240617-184909-211",
+    "P08-20240617-184909-212",
+    "P08-20240617-184909-213"
+   ],
+   "rationale": "The person gathers measuring cups, reads the couscous instructions, retrieves the kettle with boiled water, and opens the couscous bag to prepare for measuring."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P08-20240617-184909-156"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

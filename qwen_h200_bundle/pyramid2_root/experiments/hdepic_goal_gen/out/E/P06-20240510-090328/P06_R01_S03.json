@@ -1,0 +1,87 @@
+{
+ "overall_goal": "Heat a frying pan and grease it evenly with butter",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Place the frying pan on the stove and turn on the heat",
+   "action_ids": [
+    "P06-20240510-090328-250",
+    "P06-20240510-090328-251",
+    "P06-20240510-090328-320",
+    "P06-20240510-090328-321"
+   ],
+   "rationale": "The person sets the pan on the gas stove and turns on the flame to begin heating it."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve butter and a butter knife",
+   "action_ids": [
+    "P06-20240510-090328-317",
+    "P06-20240510-090328-318",
+    "P06-20240510-090328-319",
+    "P06-20240510-090328-322",
+    "P06-20240510-090328-323",
+    "P06-20240510-090328-324",
+    "P06-20240510-090328-325",
+    "P06-20240510-090328-326",
+    "P06-20240510-090328-327"
+   ],
+   "rationale": "The person fetches a pack of butter from the refrigerator and a knife from a drawer to prepare for greasing the pan."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Cut a piece of butter",
+   "action_ids": [
+    "P06-20240510-090328-331",
+    "P06-20240510-090328-332",
+    "P06-20240510-090328-333",
+    "P06-20240510-090328-334",
+    "P06-20240510-090328-363"
+   ],
+   "rationale": "The person opens the butter packet and uses the knife to cut off a small piece."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Melt and spread butter on the heated pan",
+   "action_ids": [
+    "P06-20240510-090328-366",
+    "P06-20240510-090328-367",
+    "P06-20240510-090328-370",
+    "P06-20240510-090328-371",
+    "P06-20240510-090328-372",
+    "P06-20240510-090328-374",
+    "P06-20240510-090328-375",
+    "P06-20240510-090328-376"
+   ],
+   "rationale": "The person places the cut butter onto the hot pan, adjusts the flame, and spreads the melting butter evenly across the surface."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Add and spread additional butter on the pan",
+   "action_ids": [
+    "P06-20240510-090328-413",
+    "P06-20240510-090328-524",
+    "P06-20240510-090328-525",
+    "P06-20240510-090328-526",
+    "P06-20240510-090328-527",
+    "P06-20240510-090328-528",
+    "P06-20240510-090328-529",
+    "P06-20240510-090328-548",
+    "P06-20240510-090328-549",
+    "P06-20240510-090328-550"
+   ],
+   "rationale": "The person cuts more butter and uses a spoon to transfer and spread the extra butter onto the frying pan."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P06-20240510-090328-328",
+  "P06-20240510-090328-329",
+  "P06-20240510-090328-330",
+  "P06-20240510-090328-364",
+  "P06-20240510-090328-365"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

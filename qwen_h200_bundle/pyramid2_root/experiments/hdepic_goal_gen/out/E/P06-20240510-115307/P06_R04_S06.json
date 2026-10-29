@@ -1,0 +1,54 @@
+{
+ "overall_goal": "Add spices and salt to the mixture and saute uniformly",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Add coriander powder and salt to the pan",
+   "action_ids": [
+    "P06-20240510-115307-327",
+    "P06-20240510-115307-328",
+    "P06-20240510-115307-329",
+    "P06-20240510-115307-330",
+    "P06-20240510-115307-334",
+    "P06-20240510-115307-335",
+    "P06-20240510-115307-336",
+    "P06-20240510-115307-337"
+   ],
+   "rationale": "The person scoops coriander powder and salt from their respective jars and adds them to the frying pan."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Add red chilli powder, spices, and turmeric powder to the pan",
+   "action_ids": [
+    "P06-20240510-115307-339",
+    "P06-20240510-115307-340",
+    "P06-20240510-115307-341",
+    "P06-20240510-115307-342",
+    "P06-20240510-115307-344",
+    "P06-20240510-115307-345",
+    "P06-20240510-115307-346",
+    "P06-20240510-115307-347",
+    "P06-20240510-115307-350",
+    "P06-20240510-115307-351",
+    "P06-20240510-115307-352"
+   ],
+   "rationale": "The person opens several spice jars, including red chilli and turmeric, and adds their contents to the frying pan."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Mix and saute the contents in the pan",
+   "action_ids": [
+    "P06-20240510-115307-362",
+    "P06-20240510-115307-363",
+    "P06-20240510-115307-372",
+    "P06-20240510-115307-376"
+   ],
+   "rationale": "The person uses a spatula to stir and mix the spices into the mixture in the frying pan."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

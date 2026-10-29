@@ -1,0 +1,8 @@
+# pyramid2 主流程(出题 / judge 走 Gemini NV gateway)额外需要的包;可以和 requirements.txt 装在同一个 env 里。原机器版本。
+google-genai==2.20.0
+requests==2.34.2
+numpy==2.5.2
+pillow==12.3.0
+pandas==3.0.6
+pydantic
+huggingface_hub

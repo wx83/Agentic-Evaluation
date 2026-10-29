@@ -1,0 +1,25 @@
+{
+ "overall_goal": "Prepare the lemon for the sauce by washing it.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve and wash the lemon and tomatoes.",
+   "action_ids": [
+    "P04-20240413-142619-412",
+    "P04-20240413-142619-410",
+    "P04-20240413-142619-421",
+    "P04-20240413-142619-422",
+    "P04-20240413-142619-423",
+    "P04-20240413-142619-424",
+    "P04-20240413-142619-425",
+    "P04-20240413-142619-426"
+   ],
+   "rationale": "The person retrieves the lemon, places it on the chopping board, and then takes it along with tomatoes to the sink to wash them before returning them to the board."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

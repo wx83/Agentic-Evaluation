@@ -1,0 +1,35 @@
+{
+ "overall_goal": "Soak the dried mushrooms in boiling water",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Boil water and pour it over the dried mushrooms",
+   "action_ids": [
+    "P07-20240529-191007-2",
+    "P07-20240529-191007-3",
+    "P07-20240529-191007-135",
+    "P07-20240529-191007-136",
+    "P07-20240529-191007-137",
+    "P07-20240529-191007-138"
+   ],
+   "rationale": "The person turns on the kettle to heat the water, then pours the boiling water into the jug containing the mushrooms, checking the measurement to ensure the correct amount."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Stir the mushrooms to ensure they soak properly",
+   "action_ids": [
+    "P07-20240529-191007-142",
+    "P07-20240529-191007-143",
+    "P07-20240529-191007-358",
+    "P07-20240529-191007-359",
+    "P07-20240529-191007-360"
+   ],
+   "rationale": "The person retrieves a fork and uses it to stir the mushrooms and boiling water together, then taps off the excess water and sets the fork aside."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

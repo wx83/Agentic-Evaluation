@@ -1,0 +1,21 @@
+{
+ "overall_goal": "Turn on the oven to preheat.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Set the oven temperature and start the preheating process.",
+   "action_ids": [
+    "P08-20240617-184909-7",
+    "P08-20240617-184909-11"
+   ],
+   "rationale": "The user interacts with the oven's controls to set the temperature and begin preheating."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P08-20240617-184909-722"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

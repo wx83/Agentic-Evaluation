@@ -1,0 +1,200 @@
+{
+ "overall_goal": "Clean dishes, prepare a pan with oil on the hob, and organize the kitchen counter",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Wash the small saucepan",
+   "action_ids": [
+    "P09-20240622-154652-327",
+    "P09-20240622-154652-328",
+    "P09-20240622-154652-329",
+    "P09-20240622-154652-330",
+    "P09-20240622-154652-331",
+    "P09-20240622-154652-332",
+    "P09-20240622-154652-333",
+    "P09-20240622-154652-334",
+    "P09-20240622-154652-335",
+    "P09-20240622-154652-336",
+    "P09-20240622-154652-337",
+    "P09-20240622-154652-338",
+    "P09-20240622-154652-341",
+    "P09-20240622-154652-339",
+    "P09-20240622-154652-340",
+    "P09-20240622-154652-342",
+    "P09-20240622-154652-343"
+   ],
+   "rationale": "The person empties a pot and then scrubs and rinses a small saucepan in the sink."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Wash the big pot and rinse the saucepan again",
+   "action_ids": [
+    "P09-20240622-154652-344",
+    "P09-20240622-154652-345",
+    "P09-20240622-154652-346",
+    "P09-20240622-154652-347",
+    "P09-20240622-154652-348",
+    "P09-20240622-154652-349",
+    "P09-20240622-154652-350",
+    "P09-20240622-154652-351",
+    "P09-20240622-154652-352",
+    "P09-20240622-154652-353",
+    "P09-20240622-154652-354",
+    "P09-20240622-154652-355",
+    "P09-20240622-154652-356",
+    "P09-20240622-154652-357",
+    "P09-20240622-154652-358",
+    "P09-20240622-154652-359",
+    "P09-20240622-154652-360",
+    "P09-20240622-154652-361"
+   ],
+   "rationale": "The person scrubs and rinses a large pot, then gives the small saucepan an additional rinse."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Heat the saucepan on the hob",
+   "action_ids": [
+    "P09-20240622-154652-362",
+    "P09-20240622-154652-363",
+    "P09-20240622-154652-364",
+    "P09-20240622-154652-387",
+    "P09-20240622-154652-388",
+    "P09-20240622-154652-389",
+    "P09-20240622-154652-391",
+    "P09-20240622-154652-390",
+    "P09-20240622-154652-392"
+   ],
+   "rationale": "The person places the washed saucepan on the hob, turns on the heat, and later drains excess water before placing it back."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Wash a spoon and unclog the sink",
+   "action_ids": [
+    "P09-20240622-154652-365",
+    "P09-20240622-154652-366",
+    "P09-20240622-154652-367",
+    "P09-20240622-154652-368",
+    "P09-20240622-154652-369",
+    "P09-20240622-154652-370",
+    "P09-20240622-154652-371",
+    "P09-20240622-154652-372",
+    "P09-20240622-154652-373",
+    "P09-20240622-154652-374",
+    "P09-20240622-154652-375",
+    "P09-20240622-154652-376",
+    "P09-20240622-154652-377"
+   ],
+   "rationale": "The person washes a spoon, uses it to unclog the sink, and then washes it again before storing it."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P09-20240622-154652-378",
+    "P09-20240622-154652-379",
+    "P09-20240622-154652-380",
+    "P09-20240622-154652-381",
+    "P09-20240622-154652-382",
+    "P09-20240622-154652-383",
+    "P09-20240622-154652-384",
+    "P09-20240622-154652-385",
+    "P09-20240622-154652-386"
+   ],
+   "rationale": "The person uses hand wash to clean their hands and dries them with a towel from the rack."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Retrieve a skimmer",
+   "action_ids": [
+    "P09-20240622-154652-393",
+    "P09-20240622-154652-394",
+    "P09-20240622-154652-395",
+    "P09-20240622-154652-396",
+    "P09-20240622-154652-397",
+    "P09-20240622-154652-398",
+    "P09-20240622-154652-399",
+    "P09-20240622-154652-400"
+   ],
+   "rationale": "The person opens a drawer, takes out a skimmer, and places it on the countertop."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Add oil to the pan",
+   "action_ids": [
+    "P09-20240622-154652-401",
+    "P09-20240622-154652-402",
+    "P09-20240622-154652-403",
+    "P09-20240622-154652-404",
+    "P09-20240622-154652-405",
+    "P09-20240622-154652-406",
+    "P09-20240622-154652-407",
+    "P09-20240622-154652-408",
+    "P09-20240622-154652-409",
+    "P09-20240622-154652-410",
+    "P09-20240622-154652-411",
+    "P09-20240622-154652-412",
+    "P09-20240622-154652-413"
+   ],
+   "rationale": "The person retrieves a bottle of oil and pours it into the pan on the hob."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Store the oil and organize spices in the cupboard",
+   "action_ids": [
+    "P09-20240622-154652-414",
+    "P09-20240622-154652-415",
+    "P09-20240622-154652-416",
+    "P09-20240622-154652-417",
+    "P09-20240622-154652-421",
+    "P09-20240622-154652-418",
+    "P09-20240622-154652-419",
+    "P09-20240622-154652-420",
+    "P09-20240622-154652-422",
+    "P09-20240622-154652-423",
+    "P09-20240622-154652-424",
+    "P09-20240622-154652-425",
+    "P09-20240622-154652-426",
+    "P09-20240622-154652-427",
+    "P09-20240622-154652-428",
+    "P09-20240622-154652-429"
+   ],
+   "rationale": "The person puts the oil bottle away in the cupboard, rearranging spice bottles to make room."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Organize the spice basket",
+   "action_ids": [
+    "P09-20240622-154652-430",
+    "P09-20240622-154652-431",
+    "P09-20240622-154652-432",
+    "P09-20240622-154652-433",
+    "P09-20240622-154652-434",
+    "P09-20240622-154652-435",
+    "P09-20240622-154652-436",
+    "P09-20240622-154652-437",
+    "P09-20240622-154652-438"
+   ],
+   "rationale": "The person takes down a spice basket, places spice bottles into it, and returns it to the top of the cupboard."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Clean the countertop",
+   "action_ids": [
+    "P09-20240622-154652-439",
+    "P09-20240622-154652-440",
+    "P09-20240622-154652-441",
+    "P09-20240622-154652-442",
+    "P09-20240622-154652-443",
+    "P09-20240622-154652-444",
+    "P09-20240622-154652-445",
+    "P09-20240622-154652-446"
+   ],
+   "rationale": "The person wipes the counter with a rag while holding items, then adjusts the hob."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

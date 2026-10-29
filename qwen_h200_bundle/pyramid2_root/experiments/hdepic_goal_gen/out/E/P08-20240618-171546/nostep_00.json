@@ -1,0 +1,201 @@
+{
+ "overall_goal": "Cook minced beef and vegetables in a wok while managing kitchen cleanup and organization.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare and add the minced beef to the wok",
+   "action_ids": [
+    "P08-20240618-171546-7",
+    "P08-20240618-171546-8",
+    "P08-20240618-171546-9",
+    "P08-20240618-171546-10",
+    "P08-20240618-171546-11",
+    "P08-20240618-171546-12",
+    "P08-20240618-171546-14",
+    "P08-20240618-171546-15",
+    "P08-20240618-171546-16",
+    "P08-20240618-171546-17"
+   ],
+   "rationale": "The person retrieves the bag of minced beef, cuts it open with scissors, and moves it to the wok."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Season the meat in the wok",
+   "action_ids": [
+    "P08-20240618-171546-39",
+    "P08-20240618-171546-40",
+    "P08-20240618-171546-41",
+    "P08-20240618-171546-42",
+    "P08-20240618-171546-84",
+    "P08-20240618-171546-85"
+   ],
+   "rationale": "The person uses salt, pepper, and oregano to season the meat cooking in the wok."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Stir and cook the meat and onions",
+   "action_ids": [
+    "P08-20240618-171546-1",
+    "P08-20240618-171546-2",
+    "P08-20240618-171546-51",
+    "P08-20240618-171546-52",
+    "P08-20240618-171546-53",
+    "P08-20240618-171546-54",
+    "P08-20240618-171546-63",
+    "P08-20240618-171546-72",
+    "P08-20240618-171546-73",
+    "P08-20240618-171546-74",
+    "P08-20240618-171546-75",
+    "P08-20240618-171546-76",
+    "P08-20240618-171546-86",
+    "P08-20240618-171546-131",
+    "P08-20240618-171546-132",
+    "P08-20240618-171546-133",
+    "P08-20240618-171546-134",
+    "P08-20240618-171546-135",
+    "P08-20240618-171546-136",
+    "P08-20240618-171546-137"
+   ],
+   "rationale": "The person repeatedly uses a spatula to mix the minced beef and onions in the wok to ensure they cook evenly."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Add vegetables to the wok and mix them in",
+   "action_ids": [
+    "P08-20240618-171546-141",
+    "P08-20240618-171546-142",
+    "P08-20240618-171546-143",
+    "P08-20240618-171546-144",
+    "P08-20240618-171546-145",
+    "P08-20240618-171546-146",
+    "P08-20240618-171546-147",
+    "P08-20240618-171546-148"
+   ],
+   "rationale": "The person scoops a bowl of vegetables into the wok and stirs them into the minced meat."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Open the can of tomato sauce",
+   "action_ids": [
+    "P08-20240618-171546-104",
+    "P08-20240618-171546-105",
+    "P08-20240618-171546-106",
+    "P08-20240618-171546-107",
+    "P08-20240618-171546-108",
+    "P08-20240618-171546-109",
+    "P08-20240618-171546-110",
+    "P08-20240618-171546-111",
+    "P08-20240618-171546-112",
+    "P08-20240618-171546-113",
+    "P08-20240618-171546-114"
+   ],
+   "rationale": "The person retrieves a can opener from the drawer and uses it to open a can of tomato sauce."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Wash the dirty dishes in the sink",
+   "action_ids": [
+    "P08-20240618-171546-162",
+    "P08-20240618-171546-163",
+    "P08-20240618-171546-164",
+    "P08-20240618-171546-165",
+    "P08-20240618-171546-166",
+    "P08-20240618-171546-167",
+    "P08-20240618-171546-168",
+    "P08-20240618-171546-169",
+    "P08-20240618-171546-170",
+    "P08-20240618-171546-171",
+    "P08-20240618-171546-172",
+    "P08-20240618-171546-173",
+    "P08-20240618-171546-174",
+    "P08-20240618-171546-175",
+    "P08-20240618-171546-176",
+    "P08-20240618-171546-177",
+    "P08-20240618-171546-178"
+   ],
+   "rationale": "The person washes a metal bowl, a peeler, and a mug with soap and water, then places them on the drying rack."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Clean and dry the kitchen scale",
+   "action_ids": [
+    "P08-20240618-171546-179",
+    "P08-20240618-171546-180",
+    "P08-20240618-171546-181",
+    "P08-20240618-171546-182",
+    "P08-20240618-171546-183",
+    "P08-20240618-171546-184"
+   ],
+   "rationale": "The person wipes down the kitchen scale with a sponge and dries it with a paper towel."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Throw away trash and food scraps",
+   "action_ids": [
+    "P08-20240618-171546-29",
+    "P08-20240618-171546-30",
+    "P08-20240618-171546-31",
+    "P08-20240618-171546-71",
+    "P08-20240618-171546-98",
+    "P08-20240618-171546-99",
+    "P08-20240618-171546-100",
+    "P08-20240618-171546-190",
+    "P08-20240618-171546-191",
+    "P08-20240618-171546-192",
+    "P08-20240618-171546-205",
+    "P08-20240618-171546-206"
+   ],
+   "rationale": "The person gathers plastic bags, an empty bottle, and food scraps to throw them into the trash can, recycling bin, or sink."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Store ingredients and tools, and wipe the counter",
+   "action_ids": [
+    "P08-20240618-171546-69",
+    "P08-20240618-171546-70",
+    "P08-20240618-171546-83",
+    "P08-20240618-171546-187",
+    "P08-20240618-171546-188",
+    "P08-20240618-171546-189",
+    "P08-20240618-171546-203",
+    "P08-20240618-171546-204",
+    "P08-20240618-171546-208",
+    "P08-20240618-171546-210"
+   ],
+   "rationale": "The person puts away the seasoning shakers, olive oil, scissors, and can opener, then wipes the kitchen counter clean."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Stir the mixed ingredients in the wok",
+   "action_ids": [
+    "P08-20240618-171546-193",
+    "P08-20240618-171546-194",
+    "P08-20240618-171546-195",
+    "P08-20240618-171546-196",
+    "P08-20240618-171546-197",
+    "P08-20240618-171546-198",
+    "P08-20240618-171546-199"
+   ],
+   "rationale": "The person removes a pan from the wok and continues to stir the meat and vegetables together."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P08-20240618-171546-6",
+  "P08-20240618-171546-13",
+  "P08-20240618-171546-36",
+  "P08-20240618-171546-37",
+  "P08-20240618-171546-48",
+  "P08-20240618-171546-49",
+  "P08-20240618-171546-50",
+  "P08-20240618-171546-97",
+  "P08-20240618-171546-103",
+  "P08-20240618-171546-185",
+  "P08-20240618-171546-186",
+  "P08-20240618-171546-207",
+  "P08-20240618-171546-209"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

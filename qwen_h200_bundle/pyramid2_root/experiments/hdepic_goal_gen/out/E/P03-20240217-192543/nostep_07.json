@@ -1,0 +1,125 @@
+{
+ "overall_goal": "Wash utensils, monitor the baking pizza, handle a smoke alarm, and serve the pizza",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Monitor the pizza baking in the oven",
+   "action_ids": [
+    "P03-20240217-192543-1099",
+    "P03-20240217-192543-1100",
+    "P03-20240217-192543-1105",
+    "P03-20240217-192543-1106"
+   ],
+   "rationale": "The person repeatedly opens and closes the pizza oven lid to check on the baking progress."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Wash the wooden spoon and scissors",
+   "action_ids": [
+    "P03-20240217-192543-1109",
+    "P03-20240217-192543-1110",
+    "P03-20240217-192543-1111",
+    "P03-20240217-192543-1112",
+    "P03-20240217-192543-1113",
+    "P03-20240217-192543-1114",
+    "P03-20240217-192543-1115",
+    "P03-20240217-192543-1116",
+    "P03-20240217-192543-1117",
+    "P03-20240217-192543-1119",
+    "P03-20240217-192543-1118",
+    "P03-20240217-192543-1121",
+    "P03-20240217-192543-1120",
+    "P03-20240217-192543-1122",
+    "P03-20240217-192543-1123"
+   ],
+   "rationale": "The person prepares the sponge with washing up liquid and scrubs the wooden spoon and scissors."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Rinse the utensils and dry hands",
+   "action_ids": [
+    "P03-20240217-192543-1124",
+    "P03-20240217-192543-1125",
+    "P03-20240217-192543-1126",
+    "P03-20240217-192543-1127",
+    "P03-20240217-192543-1128",
+    "P03-20240217-192543-1129",
+    "P03-20240217-192543-1130",
+    "P03-20240217-192543-1131",
+    "P03-20240217-192543-1132",
+    "P03-20240217-192543-1133",
+    "P03-20240217-192543-1134",
+    "P03-20240217-192543-1135",
+    "P03-20240217-192543-1136"
+   ],
+   "rationale": "The person turns on the tap, rinses the washed utensils, places them in the drying rack, and dries their hands."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Turn the pizza and absorb excess moisture",
+   "action_ids": [
+    "P03-20240217-192543-1137",
+    "P03-20240217-192543-1138",
+    "P03-20240217-192543-1139",
+    "P03-20240217-192543-1140",
+    "P03-20240217-192543-1141",
+    "P03-20240217-192543-1142",
+    "P03-20240217-192543-1143",
+    "P03-20240217-192543-1144",
+    "P03-20240217-192543-1145",
+    "P03-20240217-192543-1146",
+    "P03-20240217-192543-1147",
+    "P03-20240217-192543-1148"
+   ],
+   "rationale": "The person uses spatulas to turn the pizza in the oven and dabs it with kitchen paper to remove moisture."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Turn off the oven and handle the smoke alarm",
+   "action_ids": [
+    "P03-20240217-192543-1149",
+    "P03-20240217-192543-1150",
+    "P03-20240217-192543-1152",
+    "P03-20240217-192543-1153",
+    "P03-20240217-192543-1154",
+    "P03-20240217-192543-1155",
+    "P03-20240217-192543-1156",
+    "P03-20240217-192543-1157",
+    "P03-20240217-192543-1158"
+   ],
+   "rationale": "The person checks the pizza, turns off the oven, and addresses the triggered smoke alarm by shushing it and opening the door."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Remove the pizza from the oven and serve",
+   "action_ids": [
+    "P03-20240217-192543-1159",
+    "P03-20240217-192543-1160",
+    "P03-20240217-192543-1161",
+    "P03-20240217-192543-1162",
+    "P03-20240217-192543-1163",
+    "P03-20240217-192543-1164",
+    "P03-20240217-192543-1165",
+    "P03-20240217-192543-1166",
+    "P03-20240217-192543-1167",
+    "P03-20240217-192543-1168",
+    "P03-20240217-192543-1169"
+   ],
+   "rationale": "The person takes the baked pizza out of the oven, dabs it again, and places the plate on the table."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P03-20240217-192543-1098",
+  "P03-20240217-192543-1101",
+  "P03-20240217-192543-1102",
+  "P03-20240217-192543-1103",
+  "P03-20240217-192543-1104",
+  "P03-20240217-192543-1107",
+  "P03-20240217-192543-1108",
+  "P03-20240217-192543-1151"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

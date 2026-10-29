@@ -1,0 +1,35 @@
+{
+ "overall_goal": "Cook and stir the mushrooms in the pan",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Stir the mushrooms and retrieve fallen pieces",
+   "action_ids": [
+    "P07-20240529-194518-3",
+    "P07-20240529-194518-4",
+    "P07-20240529-194518-5",
+    "P07-20240529-194518-6",
+    "P07-20240529-194518-7"
+   ],
+   "rationale": "The person stirs the mushrooms, picks up a piece that fell onto the hob, returns it to the pan, and continues stirring."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Continue stirring the mushrooms and check the heat setting",
+   "action_ids": [
+    "P07-20240529-194518-8",
+    "P07-20240529-194518-9",
+    "P07-20240529-194518-10",
+    "P07-20240529-194518-11",
+    "P07-20240529-194518-12",
+    "P07-20240529-194518-13"
+   ],
+   "rationale": "The person taps the spatula to release mushroom pieces, stirs and shakes the pan, checks the hob setting underneath, and resumes stirring."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

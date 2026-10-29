@@ -1,0 +1,208 @@
+{
+ "overall_goal": "Clean the kitchen, load the dishwasher, and manage cooking time while waiting for the food to cook",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Dry and put away washed cutlery",
+   "action_ids": [
+    "P03-20240217-131219-962",
+    "P03-20240217-131219-963",
+    "P03-20240217-131219-964",
+    "P03-20240217-131219-965",
+    "P03-20240217-131219-966",
+    "P03-20240217-131219-967",
+    "P03-20240217-131219-968",
+    "P03-20240217-131219-969",
+    "P03-20240217-131219-970",
+    "P03-20240217-131219-971",
+    "P03-20240217-131219-972",
+    "P03-20240217-131219-973"
+   ],
+   "rationale": "The person dries the washed cutlery, puts it away in the cupboard, and cleans up a crumb from the shelf."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Check the food and adjust the heat",
+   "action_ids": [
+    "P03-20240217-131219-974",
+    "P03-20240217-131219-975",
+    "P03-20240217-131219-979",
+    "P03-20240217-131219-980"
+   ],
+   "rationale": "The person lifts the lid of the frying pan to check the food and adjusts the heat on the hob."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Load dirty dishes into the dishwasher",
+   "action_ids": [
+    "P03-20240217-131219-981",
+    "P03-20240217-131219-982",
+    "P03-20240217-131219-983",
+    "P03-20240217-131219-984",
+    "P03-20240217-131219-985",
+    "P03-20240217-131219-986",
+    "P03-20240217-131219-987",
+    "P03-20240217-131219-988",
+    "P03-20240217-131219-989",
+    "P03-20240217-131219-990",
+    "P03-20240217-131219-991",
+    "P03-20240217-131219-992",
+    "P03-20240217-131219-993",
+    "P03-20240217-131219-994",
+    "P03-20240217-131219-995",
+    "P03-20240217-131219-996",
+    "P03-20240217-131219-997"
+   ],
+   "rationale": "The person gathers dirty dishes, scrubs them, and loads them into the dishwasher."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Rinse and dry a bowl",
+   "action_ids": [
+    "P03-20240217-131219-998",
+    "P03-20240217-131219-999",
+    "P03-20240217-131219-1000",
+    "P03-20240217-131219-1001",
+    "P03-20240217-131219-1002",
+    "P03-20240217-131219-1003",
+    "P03-20240217-131219-1004",
+    "P03-20240217-131219-1005",
+    "P03-20240217-131219-1006",
+    "P03-20240217-131219-1007"
+   ],
+   "rationale": "The person rinses a mostly clean bowl under the tap, dries it with a cloth, and sets it on the table."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Scrub and load more cutlery into the dishwasher",
+   "action_ids": [
+    "P03-20240217-131219-1008",
+    "P03-20240217-131219-1009",
+    "P03-20240217-131219-1010",
+    "P03-20240217-131219-1011",
+    "P03-20240217-131219-1012",
+    "P03-20240217-131219-1013",
+    "P03-20240217-131219-1014",
+    "P03-20240217-131219-1015",
+    "P03-20240217-131219-1016",
+    "P03-20240217-131219-1017",
+    "P03-20240217-131219-1018"
+   ],
+   "rationale": "The person scrubs a knife and a teaspoon to remove food residue and places them into the dishwasher."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Check the food, recipe, and cooking time",
+   "action_ids": [
+    "P03-20240217-131219-1019",
+    "P03-20240217-131219-1020",
+    "P03-20240217-131219-1024",
+    "P03-20240217-131219-1025",
+    "P03-20240217-131219-1026",
+    "P03-20240217-131219-1027"
+   ],
+   "rationale": "The person checks the food in the frying pan again, reads the recipe card, and checks the cooking time."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Clean a stain on jeans",
+   "action_ids": [
+    "P03-20240217-131219-1028",
+    "P03-20240217-131219-1029",
+    "P03-20240217-131219-1030",
+    "P03-20240217-131219-1031",
+    "P03-20240217-131219-1032",
+    "P03-20240217-131219-1034",
+    "P03-20240217-131219-1035",
+    "P03-20240217-131219-1036"
+   ],
+   "rationale": "The person wets an orange cloth and uses it to wipe a stain off their jeans before hanging it up."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Dispose of plastic waste",
+   "action_ids": [
+    "P03-20240217-131219-1033",
+    "P03-20240217-131219-1037",
+    "P03-20240217-131219-1038",
+    "P03-20240217-131219-1039",
+    "P03-20240217-131219-1040",
+    "P03-20240217-131219-1041",
+    "P03-20240217-131219-1042"
+   ],
+   "rationale": "The person picks up bits of plastic waste and throws them into the recycling bin."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Gather food waste from the sink and throw it away",
+   "action_ids": [
+    "P03-20240217-131219-1043",
+    "P03-20240217-131219-1044",
+    "P03-20240217-131219-1045",
+    "P03-20240217-131219-1046",
+    "P03-20240217-131219-1047",
+    "P03-20240217-131219-1048",
+    "P03-20240217-131219-1049",
+    "P03-20240217-131219-1050",
+    "P03-20240217-131219-1051",
+    "P03-20240217-131219-1052",
+    "P03-20240217-131219-1053",
+    "P03-20240217-131219-1054",
+    "P03-20240217-131219-1055",
+    "P03-20240217-131219-1056",
+    "P03-20240217-131219-1057",
+    "P03-20240217-131219-1058",
+    "P03-20240217-131219-1059"
+   ],
+   "rationale": "The person wipes the sink to gather food bits and throws the collected waste into the food waste bin."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Rinse the sink strainer and wipe the sink clean",
+   "action_ids": [
+    "P03-20240217-131219-1060",
+    "P03-20240217-131219-1061",
+    "P03-20240217-131219-1062",
+    "P03-20240217-131219-1063",
+    "P03-20240217-131219-1064",
+    "P03-20240217-131219-1065",
+    "P03-20240217-131219-1066",
+    "P03-20240217-131219-1067",
+    "P03-20240217-131219-1068",
+    "P03-20240217-131219-1069",
+    "P03-20240217-131219-1070",
+    "P03-20240217-131219-1071",
+    "P03-20240217-131219-1072",
+    "P03-20240217-131219-1073"
+   ],
+   "rationale": "The person rinses the sink strainer, wipes the sink clean with a sponge, and dries their hands."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Wash scissors, dry hands, and stop the cooking timer",
+   "action_ids": [
+    "P03-20240217-131219-1074",
+    "P03-20240217-131219-1075",
+    "P03-20240217-131219-1076",
+    "P03-20240217-131219-1077",
+    "P03-20240217-131219-1078",
+    "P03-20240217-131219-1079",
+    "P03-20240217-131219-1080",
+    "P03-20240217-131219-1081",
+    "P03-20240217-131219-1082",
+    "P03-20240217-131219-1083",
+    "P03-20240217-131219-1084",
+    "P03-20240217-131219-1085",
+    "P03-20240217-131219-1086"
+   ],
+   "rationale": "The person washes a pair of scissors, dries their hands, stops the cooking timer, and picks up a spatula."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P03-20240217-131219-961"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

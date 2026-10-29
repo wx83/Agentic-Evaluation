@@ -1,0 +1,208 @@
+{
+ "overall_goal": "Clean the kitchen utensils, serve food, and tidy up the workspace",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Wipe the tabletop and prepare the sponge to clean the first batch of utensils",
+   "action_ids": [
+    "P06-20240511-102207-569",
+    "P06-20240511-102207-570",
+    "P06-20240511-102207-571",
+    "P06-20240511-102207-572",
+    "P06-20240511-102207-573",
+    "P06-20240511-102207-574",
+    "P06-20240511-102207-575",
+    "P06-20240511-102207-576",
+    "P06-20240511-102207-577",
+    "P06-20240511-102207-578",
+    "P06-20240511-102207-579",
+    "P06-20240511-102207-580",
+    "P06-20240511-102207-581"
+   ],
+   "rationale": "The person wipes the tabletop and then applies dishwashing liquid to a sponge to clean a spatula."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Clean the first batch of utensils with the sponge",
+   "action_ids": [
+    "P06-20240511-102207-582",
+    "P06-20240511-102207-583",
+    "P06-20240511-102207-584",
+    "P06-20240511-102207-585",
+    "P06-20240511-102207-586",
+    "P06-20240511-102207-587",
+    "P06-20240511-102207-588",
+    "P06-20240511-102207-589"
+   ],
+   "rationale": "The person uses the soapy sponge to scrub a cup, milk frother, frying pan, and chopping board."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Rinse and place the first batch of utensils in the crockery tray",
+   "action_ids": [
+    "P06-20240511-102207-590",
+    "P06-20240511-102207-591",
+    "P06-20240511-102207-592",
+    "P06-20240511-102207-593",
+    "P06-20240511-102207-594",
+    "P06-20240511-102207-595",
+    "P06-20240511-102207-596",
+    "P06-20240511-102207-597",
+    "P06-20240511-102207-598",
+    "P06-20240511-102207-599",
+    "P06-20240511-102207-600",
+    "P06-20240511-102207-601"
+   ],
+   "rationale": "The person washes the scrubbed chopping board, milk frother, spatula, cup, and frying pan under running water and places them in the tray."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Clean the second batch of utensils with the sponge",
+   "action_ids": [
+    "P06-20240511-102207-602",
+    "P06-20240511-102207-603",
+    "P06-20240511-102207-604",
+    "P06-20240511-102207-605",
+    "P06-20240511-102207-606",
+    "P06-20240511-102207-607",
+    "P06-20240511-102207-608",
+    "P06-20240511-102207-609",
+    "P06-20240511-102207-610",
+    "P06-20240511-102207-611",
+    "P06-20240511-102207-612",
+    "P06-20240511-102207-613",
+    "P06-20240511-102207-614",
+    "P06-20240511-102207-615",
+    "P06-20240511-102207-616",
+    "P06-20240511-102207-617",
+    "P06-20240511-102207-618"
+   ],
+   "rationale": "The person uses the sponge to scrub a glass, spoon, knife, bowls, spoons, and a cup."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Rinse and place the second batch of utensils in the crockery tray",
+   "action_ids": [
+    "P06-20240511-102207-619",
+    "P06-20240511-102207-620",
+    "P06-20240511-102207-621",
+    "P06-20240511-102207-622",
+    "P06-20240511-102207-623",
+    "P06-20240511-102207-624",
+    "P06-20240511-102207-625",
+    "P06-20240511-102207-626",
+    "P06-20240511-102207-627",
+    "P06-20240511-102207-628",
+    "P06-20240511-102207-629",
+    "P06-20240511-102207-630",
+    "P06-20240511-102207-631",
+    "P06-20240511-102207-632",
+    "P06-20240511-102207-633"
+   ],
+   "rationale": "The person washes the scrubbed bowls, spoons, cup, glass, and knife under running water and places them in the tray."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Wipe the tabletop, clean the sink area, and wash hands",
+   "action_ids": [
+    "P06-20240511-102207-634",
+    "P06-20240511-102207-635",
+    "P06-20240511-102207-636",
+    "P06-20240511-102207-637",
+    "P06-20240511-102207-638",
+    "P06-20240511-102207-639",
+    "P06-20240511-102207-640",
+    "P06-20240511-102207-641",
+    "P06-20240511-102207-642",
+    "P06-20240511-102207-643",
+    "P06-20240511-102207-644",
+    "P06-20240511-102207-645",
+    "P06-20240511-102207-646",
+    "P06-20240511-102207-647",
+    "P06-20240511-102207-648"
+   ],
+   "rationale": "The person wipes the tabletop, cleans the sink area with the sponge, and washes their hands with dishwashing liquid."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Put away the milk frother and dry hands",
+   "action_ids": [
+    "P06-20240511-102207-649",
+    "P06-20240511-102207-650",
+    "P06-20240511-102207-651",
+    "P06-20240511-102207-652",
+    "P06-20240511-102207-653",
+    "P06-20240511-102207-654",
+    "P06-20240511-102207-655"
+   ],
+   "rationale": "The person places the milk frother in its stand and then dries their hands with a tablecloth."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Serve ketchup with the food",
+   "action_ids": [
+    "P06-20240511-102207-656",
+    "P06-20240511-102207-657",
+    "P06-20240511-102207-658",
+    "P06-20240511-102207-659",
+    "P06-20240511-102207-660",
+    "P06-20240511-102207-661",
+    "P06-20240511-102207-662",
+    "P06-20240511-102207-663",
+    "P06-20240511-102207-664"
+   ],
+   "rationale": "The person pours ketchup onto a plate with a bread omelette and then stores the ketchup bottle in the cabinet."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Add milk to the coffee and mix",
+   "action_ids": [
+    "P06-20240511-102207-665",
+    "P06-20240511-102207-666",
+    "P06-20240511-102207-667",
+    "P06-20240511-102207-668",
+    "P06-20240511-102207-669",
+    "P06-20240511-102207-670",
+    "P06-20240511-102207-671",
+    "P06-20240511-102207-672",
+    "P06-20240511-102207-673"
+   ],
+   "rationale": "The person pours milk from a carton into a cup and mixes the coffee with a spoon."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Wipe the tabletop and store the milk in the refrigerator",
+   "action_ids": [
+    "P06-20240511-102207-681",
+    "P06-20240511-102207-682",
+    "P06-20240511-102207-683",
+    "P06-20240511-102207-684",
+    "P06-20240511-102207-685",
+    "P06-20240511-102207-686",
+    "P06-20240511-102207-687",
+    "P06-20240511-102207-688"
+   ],
+   "rationale": "The person wipes the tabletop with a tablecloth and then places the milk carton in the refrigerator."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Prepare the pressure cooker for washing",
+   "action_ids": [
+    "P06-20240511-102207-689",
+    "P06-20240511-102207-690",
+    "P06-20240511-102207-691",
+    "P06-20240511-102207-692",
+    "P06-20240511-102207-693",
+    "P06-20240511-102207-694"
+   ],
+   "rationale": "The person moves the pressure cooker to the sink and pours dishwashing liquid into it."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P06-20240511-102207-568"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

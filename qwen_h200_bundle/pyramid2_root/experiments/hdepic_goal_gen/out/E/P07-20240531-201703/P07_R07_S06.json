@@ -1,0 +1,77 @@
+{
+ "overall_goal": "Add sweetcorn, beans, and chopped avocado to the salad bowl",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Open the tin of sweetcorn and add it to the bowl",
+   "action_ids": [
+    "P07-20240531-201703-291",
+    "P07-20240531-201703-326",
+    "P07-20240531-201703-328",
+    "P07-20240531-201703-329",
+    "P07-20240531-201703-330",
+    "P07-20240531-201703-331",
+    "P07-20240531-201703-335",
+    "P07-20240531-201703-336",
+    "P07-20240531-201703-337"
+   ],
+   "rationale": "The person opens the sweetcorn tin, scoops it into a bowl on the scale, and then transfers it to the main salad bowl."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Open and drain the tin of beans",
+   "action_ids": [
+    "P07-20240531-201703-339",
+    "P07-20240531-201703-342",
+    "P07-20240531-201703-343",
+    "P07-20240531-201703-344",
+    "P07-20240531-201703-345",
+    "P07-20240531-201703-346",
+    "P07-20240531-201703-347",
+    "P07-20240531-201703-348",
+    "P07-20240531-201703-349",
+    "P07-20240531-201703-350",
+    "P07-20240531-201703-351",
+    "P07-20240531-201703-352",
+    "P07-20240531-201703-353"
+   ],
+   "rationale": "The person retrieves a can opener, makes multiple attempts to open the tin of beans, and then drains the liquid into the sink."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Weigh and add the beans to the bowl",
+   "action_ids": [
+    "P07-20240531-201703-354",
+    "P07-20240531-201703-355",
+    "P07-20240531-201703-356",
+    "P07-20240531-201703-359",
+    "P07-20240531-201703-360"
+   ],
+   "rationale": "The person pours and scoops the drained beans into a bowl on the scale, then transfers them to the main salad bowl."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Chop, weigh, and add the avocado to the bowl",
+   "action_ids": [
+    "P07-20240531-201703-363",
+    "P07-20240531-201703-364",
+    "P07-20240531-201703-365",
+    "P07-20240531-201703-366",
+    "P07-20240531-201703-367",
+    "P07-20240531-201703-368",
+    "P07-20240531-201703-371",
+    "P07-20240531-201703-372",
+    "P07-20240531-201703-373",
+    "P07-20240531-201703-374"
+   ],
+   "rationale": "The person cuts the avocado into chunks, weighs it, and scoops the chunks into the main salad bowl, removing any stray skin."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P07-20240531-201703-327"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

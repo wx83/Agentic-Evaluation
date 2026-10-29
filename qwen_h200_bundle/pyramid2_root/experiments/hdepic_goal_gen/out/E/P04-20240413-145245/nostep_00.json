@@ -1,0 +1,187 @@
+{
+ "overall_goal": "Set up the cooking station, manage the cooking chicken, and prepare the workspace for serving and weighing.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Set up the electric hob and pan for cooking",
+   "action_ids": [
+    "P04-20240413-145245-1",
+    "P04-20240413-145245-2",
+    "P04-20240413-145245-7",
+    "P04-20240413-145245-8",
+    "P04-20240413-145245-9",
+    "P04-20240413-145245-10",
+    "P04-20240413-145245-11",
+    "P04-20240413-145245-12",
+    "P04-20240413-145245-13",
+    "P04-20240413-145245-14",
+    "P04-20240413-145245-15",
+    "P04-20240413-145245-18",
+    "P04-20240413-145245-20",
+    "P04-20240413-145245-21",
+    "P04-20240413-145245-69",
+    "P04-20240413-145245-70",
+    "P04-20240413-145245-71",
+    "P04-20240413-145245-92"
+   ],
+   "rationale": "The person retrieves a pan, clears space by moving the weighing scale, plugs in and turns on the electric hob, and positions the pan on the burner."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve cooking utensils and ingredients",
+   "action_ids": [
+    "P04-20240413-145245-16",
+    "P04-20240413-145245-17",
+    "P04-20240413-145245-22",
+    "P04-20240413-145245-23",
+    "P04-20240413-145245-24",
+    "P04-20240413-145245-25",
+    "P04-20240413-145245-26",
+    "P04-20240413-145245-27",
+    "P04-20240413-145245-28",
+    "P04-20240413-145245-29",
+    "P04-20240413-145245-30",
+    "P04-20240413-145245-37",
+    "P04-20240413-145245-38",
+    "P04-20240413-145245-39",
+    "P04-20240413-145245-40",
+    "P04-20240413-145245-41",
+    "P04-20240413-145245-42",
+    "P04-20240413-145245-43",
+    "P04-20240413-145245-67",
+    "P04-20240413-145245-68"
+   ],
+   "rationale": "The person brings the bowl of chicken marinade to the cooking area and searches through drawers to find the appropriate spatula and tongs for cooking."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Prepare the workspace and discard lettuce core",
+   "action_ids": [
+    "P04-20240413-145245-84",
+    "P04-20240413-145245-85",
+    "P04-20240413-145245-86",
+    "P04-20240413-145245-87",
+    "P04-20240413-145245-88",
+    "P04-20240413-145245-89",
+    "P04-20240413-145245-90",
+    "P04-20240413-145245-91",
+    "P04-20240413-145245-93",
+    "P04-20240413-145245-94",
+    "P04-20240413-145245-97",
+    "P04-20240413-145245-109",
+    "P04-20240413-145245-110",
+    "P04-20240413-145245-111",
+    "P04-20240413-145245-112",
+    "P04-20240413-145245-125",
+    "P04-20240413-145245-126",
+    "P04-20240413-145245-150",
+    "P04-20240413-145245-167",
+    "P04-20240413-145245-282"
+   ],
+   "rationale": "The person retrieves a bowl, clears space on the countertop, manages the chopping board and knife, throws away the lettuce core, and gathers the shredded lettuce into a neat pile."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Check and manage the cooking chicken",
+   "action_ids": [
+    "P04-20240413-145245-113",
+    "P04-20240413-145245-124",
+    "P04-20240413-145245-151",
+    "P04-20240413-145245-161",
+    "P04-20240413-145245-233",
+    "P04-20240413-145245-236",
+    "P04-20240413-145245-292"
+   ],
+   "rationale": "The person repeatedly picks up and puts down the tongs to check on the chicken cooking in the pan, and adjusts the heat on the electric hob."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Retrieve a fork from the cutlery drawer",
+   "action_ids": [
+    "P04-20240413-145245-162",
+    "P04-20240413-145245-163",
+    "P04-20240413-145245-164",
+    "P04-20240413-145245-165",
+    "P04-20240413-145245-166",
+    "P04-20240413-145245-232"
+   ],
+   "rationale": "The person opens the cabinet and cutlery drawer to get a fresh fork, then closes the drawer and cabinet before putting the fork down."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Transfer the cooked chicken to a serving bowl",
+   "action_ids": [
+    "P04-20240413-145245-237",
+    "P04-20240413-145245-238",
+    "P04-20240413-145245-239",
+    "P04-20240413-145245-240",
+    "P04-20240413-145245-248",
+    "P04-20240413-145245-249",
+    "P04-20240413-145245-250",
+    "P04-20240413-145245-251",
+    "P04-20240413-145245-252",
+    "P04-20240413-145245-253",
+    "P04-20240413-145245-254",
+    "P04-20240413-145245-255",
+    "P04-20240413-145245-256",
+    "P04-20240413-145245-257",
+    "P04-20240413-145245-258",
+    "P04-20240413-145245-259"
+   ],
+   "rationale": "The person selects a suitable serving bowl from the upper shelf and uses tongs to move all the cooked chicken pieces from the hot pan into the bowl, then places the bowl on a cooling rack."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Wash the empty marinade bowl and rinse hands",
+   "action_ids": [
+    "P04-20240413-145245-272",
+    "P04-20240413-145245-273",
+    "P04-20240413-145245-274",
+    "P04-20240413-145245-275",
+    "P04-20240413-145245-276",
+    "P04-20240413-145245-277",
+    "P04-20240413-145245-278",
+    "P04-20240413-145245-279",
+    "P04-20240413-145245-280",
+    "P04-20240413-145245-281",
+    "P04-20240413-145245-302",
+    "P04-20240413-145245-303",
+    "P04-20240413-145245-304",
+    "P04-20240413-145245-305",
+    "P04-20240413-145245-306",
+    "P04-20240413-145245-308",
+    "P04-20240413-145245-315"
+   ],
+   "rationale": "The person turns on the tap to scrub and rinse out the empty chicken marinade bowl, empties the water, shakes off excess water, and dries their hands with a rag."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Set up the weighing scale for the washed lettuce",
+   "action_ids": [
+    "P04-20240413-145245-283",
+    "P04-20240413-145245-307",
+    "P04-20240413-145245-309",
+    "P04-20240413-145245-310",
+    "P04-20240413-145245-311",
+    "P04-20240413-145245-312",
+    "P04-20240413-145245-313",
+    "P04-20240413-145245-314",
+    "P04-20240413-145245-316",
+    "P04-20240413-145245-317",
+    "P04-20240413-145245-318",
+    "P04-20240413-145245-319"
+   ],
+   "rationale": "The person clears the weighing scale, places a conical bowl on it, turns the scale on, and positions the sieve of washed lettuce over the bowl to prepare for weighing."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P04-20240413-145245-19",
+  "P04-20240413-145245-83",
+  "P04-20240413-145245-95",
+  "P04-20240413-145245-96"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,222 @@
+{
+ "overall_goal": "Clean up the kitchen, wash hands, and put away ingredients and utensils",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Put the yogurt in the refrigerator",
+   "action_ids": [
+    "P04-20240413-151722-208",
+    "P04-20240413-151722-209",
+    "P04-20240413-151722-210",
+    "P04-20240413-151722-211",
+    "P04-20240413-151722-212"
+   ],
+   "rationale": "The person picks up the yogurt container, opens the refrigerator, places it inside, and closes the door."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Get a plate from the cabinet",
+   "action_ids": [
+    "P04-20240413-151722-215",
+    "P04-20240413-151722-216",
+    "P04-20240413-151722-217",
+    "P04-20240413-151722-218",
+    "P04-20240413-151722-219"
+   ],
+   "rationale": "The person opens the upper cabinet, retrieves a plate, and closes the cabinet doors."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P04-20240413-151722-232",
+    "P04-20240413-151722-233",
+    "P04-20240413-151722-234",
+    "P04-20240413-151722-235",
+    "P04-20240413-151722-236",
+    "P04-20240413-151722-237",
+    "P04-20240413-151722-238",
+    "P04-20240413-151722-239",
+    "P04-20240413-151722-240",
+    "P04-20240413-151722-241",
+    "P04-20240413-151722-242",
+    "P04-20240413-151722-243",
+    "P04-20240413-151722-244"
+   ],
+   "rationale": "The person turns on the tap, washes hands with soap and water, shakes off excess water, and dries them with a kitchen rag."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Get a tablespoon from the cutlery drawer",
+   "action_ids": [
+    "P04-20240413-151722-264",
+    "P04-20240413-151722-265",
+    "P04-20240413-151722-266",
+    "P04-20240413-151722-267",
+    "P04-20240413-151722-268"
+   ],
+   "rationale": "The person opens the lower cabinet and drawer, takes out a tablespoon, and closes the drawer and cabinet."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Stack used bowls near the sink",
+   "action_ids": [
+    "P04-20240413-151722-477",
+    "P04-20240413-151722-478",
+    "P04-20240413-151722-479",
+    "P04-20240413-151722-480",
+    "P04-20240413-151722-481",
+    "P04-20240413-151722-482",
+    "P04-20240413-151722-483",
+    "P04-20240413-151722-484"
+   ],
+   "rationale": "The person gathers multiple empty bowls, stacks them together, and places the stack on a plate next to the kitchen sink."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P04-20240413-151722-485",
+    "P04-20240413-151722-486",
+    "P04-20240413-151722-487",
+    "P04-20240413-151722-488",
+    "P04-20240413-151722-489",
+    "P04-20240413-151722-490",
+    "P04-20240413-151722-491",
+    "P04-20240413-151722-492",
+    "P04-20240413-151722-493"
+   ],
+   "rationale": "The person washes their hands under the tap, shakes off the water, and dries them using a kitchen rag."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Throw fallen food bits into the rubbish bin",
+   "action_ids": [
+    "P04-20240413-151722-496",
+    "P04-20240413-151722-497",
+    "P04-20240413-151722-498",
+    "P04-20240413-151722-499"
+   ],
+   "rationale": "The person picks up bits of food that fell on the countertop and throws them into the rubbish bin."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Put the sauce bowl in the refrigerator",
+   "action_ids": [
+    "P04-20240413-151722-500",
+    "P04-20240413-151722-501",
+    "P04-20240413-151722-502",
+    "P04-20240413-151722-503"
+   ],
+   "rationale": "The person picks up the bowl of prepared sauce, opens the refrigerator, places it inside, and closes the door."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Gather used bowls and cutlery in the sink",
+   "action_ids": [
+    "P04-20240413-151722-508",
+    "P04-20240413-151722-509",
+    "P04-20240413-151722-510",
+    "P04-20240413-151722-511",
+    "P04-20240413-151722-512",
+    "P04-20240413-151722-513",
+    "P04-20240413-151722-514",
+    "P04-20240413-151722-515",
+    "P04-20240413-151722-516",
+    "P04-20240413-151722-517"
+   ],
+   "rationale": "The person stacks smaller bowls into a large bowl and places used cutlery into the kitchen sink to be washed later."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P04-20240413-151722-518",
+    "P04-20240413-151722-519",
+    "P04-20240413-151722-520",
+    "P04-20240413-151722-521",
+    "P04-20240413-151722-524",
+    "P04-20240413-151722-525",
+    "P04-20240413-151722-526"
+   ],
+   "rationale": "The person rinses their hands under the tap, shakes off the water, and dries them with the kitchen rag."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Put away condiment jars and olive oil",
+   "action_ids": [
+    "P04-20240413-151722-530",
+    "P04-20240413-151722-531",
+    "P04-20240413-151722-532",
+    "P04-20240413-151722-533",
+    "P04-20240413-151722-534",
+    "P04-20240413-151722-535",
+    "P04-20240413-151722-536",
+    "P04-20240413-151722-537",
+    "P04-20240413-151722-538",
+    "P04-20240413-151722-539",
+    "P04-20240413-151722-540",
+    "P04-20240413-151722-541",
+    "P04-20240413-151722-542",
+    "P04-20240413-151722-543",
+    "P04-20240413-151722-544",
+    "P04-20240413-151722-545",
+    "P04-20240413-151722-546",
+    "P04-20240413-151722-547",
+    "P04-20240413-151722-548"
+   ],
+   "rationale": "The person gathers multiple condiment jars and a bottle of olive oil from the countertop and places them neatly into the bottom cabinet."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Put away the bag of tortillas",
+   "action_ids": [
+    "P04-20240413-151722-549",
+    "P04-20240413-151722-550",
+    "P04-20240413-151722-551",
+    "P04-20240413-151722-552",
+    "P04-20240413-151722-553"
+   ],
+   "rationale": "The person picks up the bag of tortillas, shakes it to gather them together, and places the bag on the cooling rack."
+  },
+  {
+   "goal_id": "e13",
+   "description": "Put away the measuring cup",
+   "action_ids": [
+    "P04-20240413-151722-554",
+    "P04-20240413-151722-555",
+    "P04-20240413-151722-556",
+    "P04-20240413-151722-557",
+    "P04-20240413-151722-558"
+   ],
+   "rationale": "The person picks up the plastic measuring cup, opens the utensil drawer, places the cup inside, and closes the drawer."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P04-20240413-151722-213",
+  "P04-20240413-151722-214",
+  "P04-20240413-151722-230",
+  "P04-20240413-151722-231",
+  "P04-20240413-151722-245",
+  "P04-20240413-151722-263",
+  "P04-20240413-151722-312",
+  "P04-20240413-151722-317",
+  "P04-20240413-151722-318",
+  "P04-20240413-151722-476",
+  "P04-20240413-151722-494",
+  "P04-20240413-151722-495",
+  "P04-20240413-151722-504",
+  "P04-20240413-151722-505",
+  "P04-20240413-151722-506",
+  "P04-20240413-151722-507",
+  "P04-20240413-151722-522",
+  "P04-20240413-151722-523",
+  "P04-20240413-151722-527",
+  "P04-20240413-151722-528",
+  "P04-20240413-151722-529"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

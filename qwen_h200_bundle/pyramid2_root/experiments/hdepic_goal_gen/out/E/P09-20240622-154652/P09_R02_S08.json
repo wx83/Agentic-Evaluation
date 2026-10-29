@@ -1,0 +1,30 @@
+{
+ "overall_goal": "Test the heat of the oil",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Test the oil temperature using water drops",
+   "action_ids": [
+    "P09-20240622-154652-486",
+    "P09-20240622-154652-487",
+    "P09-20240622-154652-488",
+    "P09-20240622-154652-489",
+    "P09-20240622-154652-490"
+   ],
+   "rationale": "The person wets their fingers at the sink and sprinkles water into the pan to check if the oil is hot enough."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P09-20240622-154652-491",
+  "P09-20240622-154652-492",
+  "P09-20240622-154652-493",
+  "P09-20240622-154652-497",
+  "P09-20240622-154652-498",
+  "P09-20240622-154652-499",
+  "P09-20240622-154652-500"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

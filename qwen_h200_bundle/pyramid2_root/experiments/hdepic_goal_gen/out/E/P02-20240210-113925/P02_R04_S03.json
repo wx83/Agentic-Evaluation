@@ -1,0 +1,57 @@
+{
+ "overall_goal": "Mix the eggs and cook them in a heated pan.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Whisk the eggs and turn on the stove.",
+   "action_ids": [
+    "P02-20240210-113925-210",
+    "P02-20240210-113925-211",
+    "P02-20240210-113925-212",
+    "P02-20240210-113925-213",
+    "P02-20240210-113925-214",
+    "P02-20240210-113925-215",
+    "P02-20240210-113925-217",
+    "P02-20240210-113925-218"
+   ],
+   "rationale": "The person retrieves a fork, begins whisking the eggs, and turns on the gas to start heating the pan."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Season the eggs and distribute oil in the heated pan.",
+   "action_ids": [
+    "P02-20240210-113925-227",
+    "P02-20240210-113925-228",
+    "P02-20240210-113925-229",
+    "P02-20240210-113925-230",
+    "P02-20240210-113925-231",
+    "P02-20240210-113925-232",
+    "P02-20240210-113925-233",
+    "P02-20240210-113925-234",
+    "P02-20240210-113925-235"
+   ],
+   "rationale": "The person whisks black pepper into the eggs, clears the workspace, checks the pan's heat, and tilts it to coat the surface evenly with oil."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Pour the eggs into the pan, clean the utensils, and adjust the heat.",
+   "action_ids": [
+    "P02-20240210-113925-236",
+    "P02-20240210-113925-237",
+    "P02-20240210-113925-238",
+    "P02-20240210-113925-239",
+    "P02-20240210-113925-240",
+    "P02-20240210-113925-241",
+    "P02-20240210-113925-242"
+   ],
+   "rationale": "The person pours the egg mixture into the pan, scrapes out the remaining egg, places the dirty utensils in the sink to soak, and lowers the heat to cook the eggs properly."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P02-20240210-113925-216"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

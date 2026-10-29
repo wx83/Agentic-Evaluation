@@ -1,0 +1,34 @@
+{
+ "overall_goal": "Measure the correct amount of risotto rice",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare the rice and bowl for measuring",
+   "action_ids": [
+    "P07-20240529-191007-487",
+    "P07-20240529-191007-488",
+    "P07-20240529-191007-489",
+    "P07-20240529-191007-490"
+   ],
+   "rationale": "The person retrieves the jar of rice, checks the recipe, opens the jar, and positions the bowl to get ready for measuring."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Pour and adjust the amount of rice",
+   "action_ids": [
+    "P07-20240529-191007-494",
+    "P07-20240529-191007-495",
+    "P07-20240529-191007-496",
+    "P07-20240529-191007-497",
+    "P07-20240529-191007-498",
+    "P07-20240529-191007-499"
+   ],
+   "rationale": "The person pours rice into the bowl, then retrieves a spoon to remove excess rice and return it to the jar to get the exact measurement."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

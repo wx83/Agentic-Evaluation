@@ -1,0 +1,81 @@
+{
+ "overall_goal": "Measure, melt, and stir butter in a microwavable jug",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Set up the weighing scale and measuring jug",
+   "action_ids": [
+    "P07-20240530-102543-92",
+    "P07-20240530-102543-93",
+    "P07-20240530-102543-94",
+    "P07-20240530-102543-95",
+    "P07-20240530-102543-96"
+   ],
+   "rationale": "The person retrieves the digital scale and measuring jug, placing the jug on the scale and turning it on to prepare for measuring."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve a knife and unwrap the butter",
+   "action_ids": [
+    "P07-20240530-102543-97",
+    "P07-20240530-102543-98",
+    "P07-20240530-102543-99",
+    "P07-20240530-102543-100",
+    "P07-20240530-102543-101",
+    "P07-20240530-102543-102"
+   ],
+   "rationale": "The person brings out the wrapped butter, gets a knife from the drawer, and unwraps the butter for cutting."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Cut the butter and measure it into the jug",
+   "action_ids": [
+    "P07-20240530-102543-103",
+    "P07-20240530-102543-104",
+    "P07-20240530-102543-105",
+    "P07-20240530-102543-106",
+    "P07-20240530-102543-107",
+    "P07-20240530-102543-108",
+    "P07-20240530-102543-109",
+    "P07-20240530-102543-110"
+   ],
+   "rationale": "The person uses the knife to cut pieces of butter and drops them into the measuring jug on the scale."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Place the jug of butter into the microwave to heat",
+   "action_ids": [
+    "P07-20240530-102543-113",
+    "P07-20240530-102543-114",
+    "P07-20240530-102543-115",
+    "P07-20240530-102543-116",
+    "P07-20240530-102543-118",
+    "P07-20240530-102543-119"
+   ],
+   "rationale": "The person puts down the knife, opens the microwave, places the jug inside, and sets the time to melt the butter."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Remove the melted butter from the microwave and stir it",
+   "action_ids": [
+    "P07-20240530-102543-132",
+    "P07-20240530-102543-133",
+    "P07-20240530-102543-134",
+    "P07-20240530-102543-135",
+    "P07-20240530-102543-136",
+    "P07-20240530-102543-137",
+    "P07-20240530-102543-138",
+    "P07-20240530-102543-139",
+    "P07-20240530-102543-160"
+   ],
+   "rationale": "The person retrieves a fork, takes the jug out of the microwave, and stirs the melted butter while checking the measurement."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P07-20240530-102543-117"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

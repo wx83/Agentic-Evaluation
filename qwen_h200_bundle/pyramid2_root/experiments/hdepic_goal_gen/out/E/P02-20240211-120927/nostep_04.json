@@ -1,0 +1,187 @@
+{
+ "overall_goal": "Manage baking items in the oven, check the consistency of the curd mixture, and transfer baked cheese straws to a plate",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Rearrange items in the oven and set the timer",
+   "action_ids": [
+    "P02-20240211-120927-658",
+    "P02-20240211-120927-659",
+    "P02-20240211-120927-660",
+    "P02-20240211-120927-661",
+    "P02-20240211-120927-662",
+    "P02-20240211-120927-663",
+    "P02-20240211-120927-664",
+    "P02-20240211-120927-665",
+    "P02-20240211-120927-666",
+    "P02-20240211-120927-667",
+    "P02-20240211-120927-668",
+    "P02-20240211-120927-669",
+    "P02-20240211-120927-670",
+    "P02-20240211-120927-671",
+    "P02-20240211-120927-672",
+    "P02-20240211-120927-673",
+    "P02-20240211-120927-674",
+    "P02-20240211-120927-675"
+   ],
+   "rationale": "The person moves muffin trays and jam jars around inside the oven, closes the door, and sets the oven timer."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Check the water level under the mixing bowl",
+   "action_ids": [
+    "P02-20240211-120927-676",
+    "P02-20240211-120927-678",
+    "P02-20240211-120927-679",
+    "P02-20240211-120927-680",
+    "P02-20240211-120927-681",
+    "P02-20240211-120927-682",
+    "P02-20240211-120927-683",
+    "P02-20240211-120927-684",
+    "P02-20240211-120927-685",
+    "P02-20240211-120927-688",
+    "P02-20240211-120927-689",
+    "P02-20240211-120927-691",
+    "P02-20240211-120927-690",
+    "P02-20240211-120927-692",
+    "P02-20240211-120927-693",
+    "P02-20240211-120927-694",
+    "P02-20240211-120927-695",
+    "P02-20240211-120927-696"
+   ],
+   "rationale": "The person puts on pan grippers to lift the mixing bowl and checks the boiling water in the saucepan underneath it."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Get a saucer and teaspoon to taste the curd mixture",
+   "action_ids": [
+    "P02-20240211-120927-698",
+    "P02-20240211-120927-699",
+    "P02-20240211-120927-700",
+    "P02-20240211-120927-701",
+    "P02-20240211-120927-702",
+    "P02-20240211-120927-703",
+    "P02-20240211-120927-704",
+    "P02-20240211-120927-705",
+    "P02-20240211-120927-706",
+    "P02-20240211-120927-707",
+    "P02-20240211-120927-708",
+    "P02-20240211-120927-709",
+    "P02-20240211-120927-710",
+    "P02-20240211-120927-711",
+    "P02-20240211-120927-712",
+    "P02-20240211-120927-713",
+    "P02-20240211-120927-715"
+   ],
+   "rationale": "The person retrieves a teaspoon and a saucer, spoons some curd mixture onto the saucer, and tastes it."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Check the thickness and consistency of the curd mixture",
+   "action_ids": [
+    "P02-20240211-120927-717",
+    "P02-20240211-120927-718",
+    "P02-20240211-120927-719",
+    "P02-20240211-120927-720",
+    "P02-20240211-120927-721",
+    "P02-20240211-120927-722",
+    "P02-20240211-120927-723",
+    "P02-20240211-120927-724",
+    "P02-20240211-120927-725",
+    "P02-20240211-120927-726",
+    "P02-20240211-120927-727",
+    "P02-20240211-120927-728",
+    "P02-20240211-120927-729",
+    "P02-20240211-120927-730",
+    "P02-20240211-120927-731",
+    "P02-20240211-120927-732",
+    "P02-20240211-120927-733",
+    "P02-20240211-120927-734"
+   ],
+   "rationale": "The person repeatedly drags a spoon and finger through the curd mixture to test its thickness and tastes it to ensure it is set."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Wash the saucer and teaspoon",
+   "action_ids": [
+    "P02-20240211-120927-735",
+    "P02-20240211-120927-736",
+    "P02-20240211-120927-737",
+    "P02-20240211-120927-738",
+    "P02-20240211-120927-739",
+    "P02-20240211-120927-740",
+    "P02-20240211-120927-741",
+    "P02-20240211-120927-742",
+    "P02-20240211-120927-743",
+    "P02-20240211-120927-744",
+    "P02-20240211-120927-745",
+    "P02-20240211-120927-746",
+    "P02-20240211-120927-751",
+    "P02-20240211-120927-747",
+    "P02-20240211-120927-748",
+    "P02-20240211-120927-749",
+    "P02-20240211-120927-750",
+    "P02-20240211-120927-752"
+   ],
+   "rationale": "The person washes the used saucer and teaspoon in the sink with a sponge and places them on the drying rack."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Check the tart cases and turn off the oven",
+   "action_ids": [
+    "P02-20240211-120927-716",
+    "P02-20240211-120927-754",
+    "P02-20240211-120927-755",
+    "P02-20240211-120927-756"
+   ],
+   "rationale": "The person checks the remaining time on the oven, inspects the tart cases, and turns the oven off."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Detach the cheese straws from the baking tray",
+   "action_ids": [
+    "P02-20240211-120927-757",
+    "P02-20240211-120927-758",
+    "P02-20240211-120927-759",
+    "P02-20240211-120927-760",
+    "P02-20240211-120927-761",
+    "P02-20240211-120927-762",
+    "P02-20240211-120927-763",
+    "P02-20240211-120927-764",
+    "P02-20240211-120927-765",
+    "P02-20240211-120927-766",
+    "P02-20240211-120927-767"
+   ],
+   "rationale": "The person gets a spatula and uses it to loosen and detach the baked cheese straws from the bottom of the baking tray."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Transfer the cheese straws to a plate",
+   "action_ids": [
+    "P02-20240211-120927-768",
+    "P02-20240211-120927-769",
+    "P02-20240211-120927-770",
+    "P02-20240211-120927-771",
+    "P02-20240211-120927-772",
+    "P02-20240211-120927-773",
+    "P02-20240211-120927-774",
+    "P02-20240211-120927-775",
+    "P02-20240211-120927-776",
+    "P02-20240211-120927-777",
+    "P02-20240211-120927-778",
+    "P02-20240211-120927-779",
+    "P02-20240211-120927-780",
+    "P02-20240211-120927-781",
+    "P02-20240211-120927-782"
+   ],
+   "rationale": "The person retrieves a plate from the cupboard and uses the spatula to transfer the detached cheese straws onto it."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P02-20240211-120927-753"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

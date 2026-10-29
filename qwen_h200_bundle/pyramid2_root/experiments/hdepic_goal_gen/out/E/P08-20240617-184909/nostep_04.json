@@ -1,0 +1,45 @@
+{
+ "overall_goal": "Remove the fish cakes from the oven, prepare for serving, and tidy up the kitchen counter",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Remove the baking tray from the oven and take the fish cakes off the tray",
+   "action_ids": [
+    "P08-20240617-184909-778",
+    "P08-20240617-184909-779",
+    "P08-20240617-184909-780",
+    "P08-20240617-184909-782",
+    "P08-20240617-184909-783",
+    "P08-20240617-184909-790"
+   ],
+   "rationale": "The person puts on an oven mitt, opens the oven, pulls out the baking tray, and uses a spatula to remove the fish cakes."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Prepare the plate and cutlery for serving",
+   "action_ids": [
+    "P08-20240617-184909-791",
+    "P08-20240617-184909-792",
+    "P08-20240617-184909-793",
+    "P08-20240617-184909-794"
+   ],
+   "rationale": "The person reconsiders using the oven mitt, pulls a plate forward, and opens a drawer to grab cutlery."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Tidy up the baking tray and tea towel",
+   "action_ids": [
+    "P08-20240617-184909-797",
+    "P08-20240617-184909-798",
+    "P08-20240617-184909-799",
+    "P08-20240617-184909-800"
+   ],
+   "rationale": "The person moves the baking tray and oven mitt out of the way, then folds and hangs the tea towel on the oven door."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

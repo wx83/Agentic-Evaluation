@@ -1,0 +1,34 @@
+{
+ "overall_goal": "Simmer the soup and check the tenderness of the carrots",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Stir the simmering soup",
+   "action_ids": [
+    "P01-20240203-135502-30",
+    "P01-20240203-135502-31"
+   ],
+   "rationale": "The person manages the pot lid and stirs the soup to ensure it cooks evenly."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Check if the carrots are tender",
+   "action_ids": [
+    "P01-20240203-135502-246",
+    "P01-20240203-135502-247",
+    "P01-20240203-135502-248",
+    "P01-20240203-135502-249",
+    "P01-20240203-135502-250",
+    "P01-20240203-135502-251",
+    "P01-20240203-135502-252",
+    "P01-20240203-135502-253"
+   ],
+   "rationale": "The person extracts a piece of carrot, breaks it on a plate to test its tenderness, and returns the pieces to the pot."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

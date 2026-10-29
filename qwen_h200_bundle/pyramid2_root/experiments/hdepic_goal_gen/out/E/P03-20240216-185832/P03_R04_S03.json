@@ -1,0 +1,124 @@
+{
+ "overall_goal": "Prepare the egg mixture by cracking, seasoning, and whisking the eggs",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve eggs from the fridge",
+   "action_ids": [
+    "P03-20240216-185832-1024",
+    "P03-20240216-185832-1025",
+    "P03-20240216-185832-1026",
+    "P03-20240216-185832-1027",
+    "P03-20240216-185832-1028",
+    "P03-20240216-185832-1029",
+    "P03-20240216-185832-1030",
+    "P03-20240216-185832-1031",
+    "P03-20240216-185832-1032",
+    "P03-20240216-185832-1033",
+    "P03-20240216-185832-1034",
+    "P03-20240216-185832-1035",
+    "P03-20240216-185832-1036",
+    "P03-20240216-185832-1037",
+    "P03-20240216-185832-1038"
+   ],
+   "rationale": "The person opens the fridge, takes out multiple eggs from the egg box, and places them into a colander on the counter."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Get a mixing bowl from the cupboard",
+   "action_ids": [
+    "P03-20240216-185832-1039",
+    "P03-20240216-185832-1040",
+    "P03-20240216-185832-1041",
+    "P03-20240216-185832-1042",
+    "P03-20240216-185832-1059",
+    "P03-20240216-185832-1072"
+   ],
+   "rationale": "The person opens a cupboard, takes out a white bowl, and positions it on the kitchen counter."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Crack the first batch of eggs into the bowl",
+   "action_ids": [
+    "P03-20240216-185832-1073",
+    "P03-20240216-185832-1074",
+    "P03-20240216-185832-1075",
+    "P03-20240216-185832-1076",
+    "P03-20240216-185832-1077",
+    "P03-20240216-185832-1078",
+    "P03-20240216-185832-1079",
+    "P03-20240216-185832-1080",
+    "P03-20240216-185832-1081",
+    "P03-20240216-185832-1082",
+    "P03-20240216-185832-1083",
+    "P03-20240216-185832-1084"
+   ],
+   "rationale": "The person cracks several eggs one by one, pours the raw eggs into the bowl, and discards the shells into the food waste bin."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Crack the remaining eggs into the bowl",
+   "action_ids": [
+    "P03-20240216-185832-1085",
+    "P03-20240216-185832-1086",
+    "P03-20240216-185832-1087",
+    "P03-20240216-185832-1088",
+    "P03-20240216-185832-1089",
+    "P03-20240216-185832-1090",
+    "P03-20240216-185832-1091",
+    "P03-20240216-185832-1092",
+    "P03-20240216-185832-1093",
+    "P03-20240216-185832-1094",
+    "P03-20240216-185832-1095"
+   ],
+   "rationale": "The person continues to crack the rest of the eggs into the bowl and throws the remaining shells into the bin."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Remove eggshell fragments and whisk the eggs",
+   "action_ids": [
+    "P03-20240216-185832-1125",
+    "P03-20240216-185832-1126",
+    "P03-20240216-185832-1127",
+    "P03-20240216-185832-1128",
+    "P03-20240216-185832-1129"
+   ],
+   "rationale": "The person uses a fork to fish out a piece of eggshell from the bowl, then stirs the egg yolks and whites together."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Season the eggs with salt and whisk",
+   "action_ids": [
+    "P03-20240216-185832-1140",
+    "P03-20240216-185832-1141",
+    "P03-20240216-185832-1145",
+    "P03-20240216-185832-1146",
+    "P03-20240216-185832-1147"
+   ],
+   "rationale": "The person adds salt to the egg mixture and whisks it again to ensure the seasoning is well distributed."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Give the eggs a final whisk",
+   "action_ids": [
+    "P03-20240216-185832-1444",
+    "P03-20240216-185832-1445",
+    "P03-20240216-185832-1446",
+    "P03-20240216-185832-1447"
+   ],
+   "rationale": "The person picks up the bowl and gives the egg mixture one last stir with the fork before cooking."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P03-20240216-185832-1120",
+  "P03-20240216-185832-1121",
+  "P03-20240216-185832-1122",
+  "P03-20240216-185832-1123",
+  "P03-20240216-185832-1124",
+  "P03-20240216-185832-1448"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

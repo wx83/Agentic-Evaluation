@@ -1,0 +1,47 @@
+{
+ "overall_goal": "Prepare and add garam masala powder to the dish",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve and arrange ingredient jars and packets on the countertop",
+   "action_ids": [
+    "P04-20240415-175615-43",
+    "P04-20240415-175615-44",
+    "P04-20240415-175615-45",
+    "P04-20240415-175615-52",
+    "P04-20240415-175615-53",
+    "P04-20240415-175615-54",
+    "P04-20240415-175615-55",
+    "P04-20240415-175615-56"
+   ],
+   "rationale": "The person gathers various jars and spice packets, including the garam masala, and organizes them on the counter for use."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Open the bag of garam masala powder",
+   "action_ids": [
+    "P04-20240415-175615-202",
+    "P04-20240415-175615-203",
+    "P04-20240415-175615-204",
+    "P04-20240415-175615-205",
+    "P04-20240415-175615-206"
+   ],
+   "rationale": "The person removes the rubber band sealing the garam masala bag and pulls the opening apart to make it accessible."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Scoop and add the garam masala powder",
+   "action_ids": [
+    "P04-20240415-175615-218",
+    "P04-20240415-175615-219",
+    "P04-20240415-175615-220"
+   ],
+   "rationale": "The person uses a tablespoon to scoop the garam masala powder from the bag and adds it to the masala plate."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

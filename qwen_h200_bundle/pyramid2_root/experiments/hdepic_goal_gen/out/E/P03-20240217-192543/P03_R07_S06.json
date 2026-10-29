@@ -1,0 +1,63 @@
+{
+ "overall_goal": "Prepare the workspace with semolina flour and stretch the pizza dough",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve the semolina flour and pizza dough",
+   "action_ids": [
+    "P03-20240217-192543-737",
+    "P03-20240217-192543-738",
+    "P03-20240217-192543-739",
+    "P03-20240217-192543-742",
+    "P03-20240217-192543-743",
+    "P03-20240217-192543-744"
+   ],
+   "rationale": "The person retrieves the semolina flour from the cupboard and the pizza dough from the fridge, placing them on the kitchen counter."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Prepare the workspace with semolina flour",
+   "action_ids": [
+    "P03-20240217-192543-760",
+    "P03-20240217-192543-761",
+    "P03-20240217-192543-762",
+    "P03-20240217-192543-763",
+    "P03-20240217-192543-764",
+    "P03-20240217-192543-765"
+   ],
+   "rationale": "The person opens the semolina flour bag, clears space on the counter, and pours the flour onto the surface to prevent the dough from sticking."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Transfer the pizza dough from the container to the counter",
+   "action_ids": [
+    "P03-20240217-192543-769",
+    "P03-20240217-192543-770",
+    "P03-20240217-192543-771",
+    "P03-20240217-192543-772",
+    "P03-20240217-192543-773"
+   ],
+   "rationale": "The person flips the dough container upside down and taps, lifts, and pulls the dough to detach it from the plastic box onto the floured counter."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Coat the dough with semolina flour and stretch it",
+   "action_ids": [
+    "P03-20240217-192543-775",
+    "P03-20240217-192543-776",
+    "P03-20240217-192543-777",
+    "P03-20240217-192543-778",
+    "P03-20240217-192543-779",
+    "P03-20240217-192543-780",
+    "P03-20240217-192543-781",
+    "P03-20240217-192543-787"
+   ],
+   "rationale": "The person flips the dough to coat it in flour, pushes aside an extra piece, and stretches the dough using their fingertips and the backs of their hands."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

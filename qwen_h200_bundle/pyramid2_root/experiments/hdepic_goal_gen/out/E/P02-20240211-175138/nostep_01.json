@@ -1,0 +1,222 @@
+{
+ "overall_goal": "Perform miscellaneous kitchen tasks including cleaning, checking the recipe, and organizing ingredients",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Check the recipe",
+   "action_ids": [
+    "P02-20240211-175138-316",
+    "P02-20240211-175138-317",
+    "P02-20240211-175138-318",
+    "P02-20240211-175138-319",
+    "P02-20240211-175138-320"
+   ],
+   "rationale": "The person lifts, flips, and reads the recipe pages to ensure all spices are added."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Put away the olive oil",
+   "action_ids": [
+    "P02-20240211-175138-325",
+    "P02-20240211-175138-341",
+    "P02-20240211-175138-342",
+    "P02-20240211-175138-343",
+    "P02-20240211-175138-344",
+    "P02-20240211-175138-345",
+    "P02-20240211-175138-346",
+    "P02-20240211-175138-347"
+   ],
+   "rationale": "The person clears the spoon, closes the olive oil bottle, and places it on the countertop."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Retrieve the lemon from the fridge",
+   "action_ids": [
+    "P02-20240211-175138-351",
+    "P02-20240211-175138-349",
+    "P02-20240211-175138-350"
+   ],
+   "rationale": "The person opens the fridge and vegetable drawer to get a lemon packet."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Remove lemon seeds from the spice mixture",
+   "action_ids": [
+    "P02-20240211-175138-370",
+    "P02-20240211-175138-371",
+    "P02-20240211-175138-372",
+    "P02-20240211-175138-373",
+    "P02-20240211-175138-374",
+    "P02-20240211-175138-375",
+    "P02-20240211-175138-376",
+    "P02-20240211-175138-377",
+    "P02-20240211-175138-378",
+    "P02-20240211-175138-379",
+    "P02-20240211-175138-381",
+    "P02-20240211-175138-380",
+    "P02-20240211-175138-382",
+    "P02-20240211-175138-383",
+    "P02-20240211-175138-384",
+    "P02-20240211-175138-385"
+   ],
+   "rationale": "The person carefully picks out fallen lemon seeds from the mixing bowl and throws them into the food bin."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P02-20240211-175138-388",
+    "P02-20240211-175138-389",
+    "P02-20240211-175138-390",
+    "P02-20240211-175138-391",
+    "P02-20240211-175138-392",
+    "P02-20240211-175138-393",
+    "P02-20240211-175138-394",
+    "P02-20240211-175138-395",
+    "P02-20240211-175138-396",
+    "P02-20240211-175138-397",
+    "P02-20240211-175138-398",
+    "P02-20240211-175138-399",
+    "P02-20240211-175138-400",
+    "P02-20240211-175138-401"
+   ],
+   "rationale": "The person uses soap and water to wash lemon juice off their hands, then dries them with a towel."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Return the mushrooms to the fridge",
+   "action_ids": [
+    "P02-20240211-175138-402",
+    "P02-20240211-175138-403",
+    "P02-20240211-175138-404",
+    "P02-20240211-175138-405",
+    "P02-20240211-175138-406",
+    "P02-20240211-175138-407"
+   ],
+   "rationale": "The person picks up the mushrooms and places them back into the vegetable drawer of the fridge."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Distribute the mushrooms evenly on the baking tray",
+   "action_ids": [
+    "P02-20240211-175138-527",
+    "P02-20240211-175138-534",
+    "P02-20240211-175138-535",
+    "P02-20240211-175138-536",
+    "P02-20240211-175138-537",
+    "P02-20240211-175138-538",
+    "P02-20240211-175138-539"
+   ],
+   "rationale": "The person uses a tablespoon and shakes the baking tray to spread out the mushroom slices."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Search for kitchen foil in the drawers",
+   "action_ids": [
+    "P02-20240211-175138-540",
+    "P02-20240211-175138-541",
+    "P02-20240211-175138-542",
+    "P02-20240211-175138-549",
+    "P02-20240211-175138-550"
+   ],
+   "rationale": "The person opens and closes drawers looking for kitchen foil, eventually putting it back."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Check the recipe and adjust the alarm",
+   "action_ids": [
+    "P02-20240211-175138-561",
+    "P02-20240211-175138-562",
+    "P02-20240211-175138-563",
+    "P02-20240211-175138-564",
+    "P02-20240211-175138-565"
+   ],
+   "rationale": "The person reads the recipe to find the next step and increases the alarm time."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Clean the cutting board and countertop",
+   "action_ids": [
+    "P02-20240211-175138-570",
+    "P02-20240211-175138-571",
+    "P02-20240211-175138-572",
+    "P02-20240211-175138-573",
+    "P02-20240211-175138-574",
+    "P02-20240211-175138-575",
+    "P02-20240211-175138-576",
+    "P02-20240211-175138-577",
+    "P02-20240211-175138-581",
+    "P02-20240211-175138-578",
+    "P02-20240211-175138-579",
+    "P02-20240211-175138-580"
+   ],
+   "rationale": "The person clears onion skins, tears off kitchen roll, wipes the surfaces, and throws the waste into the bin."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Put away the coriander packet",
+   "action_ids": [
+    "P02-20240211-175138-582",
+    "P02-20240211-175138-583",
+    "P02-20240211-175138-584",
+    "P02-20240211-175138-585",
+    "P02-20240211-175138-586",
+    "P02-20240211-175138-587"
+   ],
+   "rationale": "The person places the coriander packet into a basket and stores it in the kitchen cupboard."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Prepare the cutting board and onion for chopping",
+   "action_ids": [
+    "P02-20240211-175138-623",
+    "P02-20240211-175138-624",
+    "P02-20240211-175138-625",
+    "P02-20240211-175138-626"
+   ],
+   "rationale": "The person clears onion bits from the knife and board, then places a new onion down to be cut."
+  },
+  {
+   "goal_id": "e13",
+   "description": "Transfer the chopped onions into a bowl",
+   "action_ids": [
+    "P02-20240211-175138-695",
+    "P02-20240211-175138-696",
+    "P02-20240211-175138-697",
+    "P02-20240211-175138-698",
+    "P02-20240211-175138-699",
+    "P02-20240211-175138-700",
+    "P02-20240211-175138-701",
+    "P02-20240211-175138-702",
+    "P02-20240211-175138-703",
+    "P02-20240211-175138-704"
+   ],
+   "rationale": "The person retrieves a bowl from the cupboard and scrapes the chopped onions from the cutting board into it."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P02-20240211-175138-321",
+  "P02-20240211-175138-324",
+  "P02-20240211-175138-348",
+  "P02-20240211-175138-408",
+  "P02-20240211-175138-409",
+  "P02-20240211-175138-410",
+  "P02-20240211-175138-411",
+  "P02-20240211-175138-475",
+  "P02-20240211-175138-476",
+  "P02-20240211-175138-477",
+  "P02-20240211-175138-588",
+  "P02-20240211-175138-675",
+  "P02-20240211-175138-676",
+  "P02-20240211-175138-677",
+  "P02-20240211-175138-678",
+  "P02-20240211-175138-705",
+  "P02-20240211-175138-706",
+  "P02-20240211-175138-707",
+  "P02-20240211-175138-715"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

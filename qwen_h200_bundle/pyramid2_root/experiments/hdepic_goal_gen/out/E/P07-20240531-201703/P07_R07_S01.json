@@ -1,0 +1,20 @@
+{
+ "overall_goal": "Preheat the oven",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Turn on and set the oven temperature",
+   "action_ids": [
+    "P07-20240531-201703-6",
+    "P07-20240531-201703-7",
+    "P07-20240531-201703-8"
+   ],
+   "rationale": "The person turns on the oven and adjusts the dials to set the temperature."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

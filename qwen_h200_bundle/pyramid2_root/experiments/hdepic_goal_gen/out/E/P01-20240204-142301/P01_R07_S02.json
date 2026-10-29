@@ -1,0 +1,67 @@
+{
+ "overall_goal": "Prepare chicken stock and add it along with extra water to the pan",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare a mug with hot water",
+   "action_ids": [
+    "P01-20240204-142301-437",
+    "P01-20240204-142301-438",
+    "P01-20240204-142301-439",
+    "P01-20240204-142301-440",
+    "P01-20240204-142301-441",
+    "P01-20240204-142301-442"
+   ],
+   "rationale": "The person retrieves a mug from the cupboard, places it on the counter, and pours hot water into it from the kettle."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve a chicken stock cube and a spoon",
+   "action_ids": [
+    "P01-20240204-142301-447",
+    "P01-20240204-142301-448",
+    "P01-20240204-142301-449",
+    "P01-20240204-142301-450",
+    "P01-20240204-142301-451",
+    "P01-20240204-142301-452",
+    "P01-20240204-142301-453"
+   ],
+   "rationale": "The person gets a chicken stock cube from the fridge and a small spoon from the drawer to prepare the stock."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Dissolve the chicken stock cube in the hot water",
+   "action_ids": [
+    "P01-20240204-142301-454",
+    "P01-20240204-142301-455",
+    "P01-20240204-142301-456",
+    "P01-20240204-142301-457",
+    "P01-20240204-142301-458",
+    "P01-20240204-142301-464",
+    "P01-20240204-142301-465",
+    "P01-20240204-142301-466",
+    "P01-20240204-142301-467",
+    "P01-20240204-142301-468",
+    "P01-20240204-142301-469"
+   ],
+   "rationale": "The person unwraps the stock cube, drops it into the mug of hot water, and uses the spoon to break it apart and stir until it is fully dissolved."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Add the dissolved chicken stock and extra water to the pan",
+   "action_ids": [
+    "P01-20240204-142301-600",
+    "P01-20240204-142301-602",
+    "P01-20240204-142301-603",
+    "P01-20240204-142301-610",
+    "P01-20240204-142301-611"
+   ],
+   "rationale": "The person pours the prepared chicken stock from the mug into the pan, then uses the kettle to add additional hot water as needed."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

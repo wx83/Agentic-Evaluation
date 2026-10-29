@@ -1,0 +1,129 @@
+{
+ "overall_goal": "Crush biscuits in a food processor, measure them into a bowl, and combine them with the heated date mixture",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Assemble the food processor",
+   "action_ids": [
+    "P01-20240204-121042-251",
+    "P01-20240204-121042-252",
+    "P01-20240204-121042-253",
+    "P01-20240204-121042-254",
+    "P01-20240204-121042-255",
+    "P01-20240204-121042-256",
+    "P01-20240204-121042-257",
+    "P01-20240204-121042-258",
+    "P01-20240204-121042-272",
+    "P01-20240204-121042-274",
+    "P01-20240204-121042-275",
+    "P01-20240204-121042-276",
+    "P01-20240204-121042-277"
+   ],
+   "rationale": "The person retrieves the food processor components, plugs in the motor, and assembles the bowl and blade."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Add the first batch of biscuits to the food processor",
+   "action_ids": [
+    "P01-20240204-121042-279",
+    "P01-20240204-121042-280",
+    "P01-20240204-121042-281",
+    "P01-20240204-121042-282",
+    "P01-20240204-121042-283",
+    "P01-20240204-121042-284"
+   ],
+   "rationale": "The person opens a package of biscuits and empties its contents into the food processor bowl."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Open a new packet of biscuits and discard the empty packaging",
+   "action_ids": [
+    "P01-20240204-121042-299",
+    "P01-20240204-121042-300",
+    "P01-20240204-121042-301",
+    "P01-20240204-121042-302",
+    "P01-20240204-121042-303",
+    "P01-20240204-121042-304",
+    "P01-20240204-121042-305",
+    "P01-20240204-121042-306",
+    "P01-20240204-121042-307",
+    "P01-20240204-121042-308",
+    "P01-20240204-121042-309"
+   ],
+   "rationale": "The person retrieves a new packet of biscuits, opens it, and throws the empty packaging into the waste bin."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Add the second batch of biscuits to the food processor",
+   "action_ids": [
+    "P01-20240204-121042-314",
+    "P01-20240204-121042-315",
+    "P01-20240204-121042-316",
+    "P01-20240204-121042-317",
+    "P01-20240204-121042-318",
+    "P01-20240204-121042-319",
+    "P01-20240204-121042-320"
+   ],
+   "rationale": "The person adds more biscuits from the newly opened packet into the food processor bowl."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Crush the biscuits using the food processor",
+   "action_ids": [
+    "P01-20240204-121042-322",
+    "P01-20240204-121042-323",
+    "P01-20240204-121042-324",
+    "P01-20240204-121042-325",
+    "P01-20240204-121042-326",
+    "P01-20240204-121042-327",
+    "P01-20240204-121042-328",
+    "P01-20240204-121042-329",
+    "P01-20240204-121042-330",
+    "P01-20240204-121042-331",
+    "P01-20240204-121042-332"
+   ],
+   "rationale": "The person places the lid on the food processor and operates it to crush the biscuits into smaller pieces."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Measure the crushed biscuits into a bowl",
+   "action_ids": [
+    "P01-20240204-121042-333",
+    "P01-20240204-121042-334",
+    "P01-20240204-121042-335",
+    "P01-20240204-121042-336",
+    "P01-20240204-121042-337",
+    "P01-20240204-121042-352",
+    "P01-20240204-121042-353",
+    "P01-20240204-121042-354",
+    "P01-20240204-121042-355",
+    "P01-20240204-121042-356",
+    "P01-20240204-121042-357",
+    "P01-20240204-121042-365",
+    "P01-20240204-121042-366"
+   ],
+   "rationale": "The person prepares a bowl and a glass, then pours the crushed biscuits from the food processor into the glass to measure them before emptying them into the bowl."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Transfer the date mixture from the pot to the biscuit bowl",
+   "action_ids": [
+    "P01-20240204-121042-625",
+    "P01-20240204-121042-626",
+    "P01-20240204-121042-627",
+    "P01-20240204-121042-628",
+    "P01-20240204-121042-629",
+    "P01-20240204-121042-630"
+   ],
+   "rationale": "The person removes the pot of dates from the heat and pours the sticky date mixture into the bowl containing the crushed biscuits."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P01-20240204-121042-273",
+  "P01-20240204-121042-313"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

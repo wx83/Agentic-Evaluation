@@ -1,0 +1,194 @@
+{
+ "overall_goal": "Complete intermediate kitchen tasks including finishing the mushrooms, peeling garlic, loading the dishwasher, and preparing the tomato sauce.",
+ "goals": [
+  {
+   "goal_id": "g1",
+   "description": "Finish cooking the mushrooms",
+   "action_ids": [
+    "P03-20240217-192543-491",
+    "P03-20240217-192543-492",
+    "P03-20240217-192543-493",
+    "P03-20240217-192543-494",
+    "P03-20240217-192543-495",
+    "P03-20240217-192543-496"
+   ],
+   "rationale": "The person turns off the hob, stirs the mushrooms one last time, and moves the pan out of the way."
+  },
+  {
+   "goal_id": "g2",
+   "description": "Peel the garlic cloves",
+   "action_ids": [
+    "P03-20240217-192543-497",
+    "P03-20240217-192543-498",
+    "P03-20240217-192543-499",
+    "P03-20240217-192543-500",
+    "P03-20240217-192543-501",
+    "P03-20240217-192543-502",
+    "P03-20240217-192543-503",
+    "P03-20240217-192543-504",
+    "P03-20240217-192543-505",
+    "P03-20240217-192543-506",
+    "P03-20240217-192543-507",
+    "P03-20240217-192543-508",
+    "P03-20240217-192543-509",
+    "P03-20240217-192543-510",
+    "P03-20240217-192543-511",
+    "P03-20240217-192543-512",
+    "P03-20240217-192543-514",
+    "P03-20240217-192543-515",
+    "P03-20240217-192543-516",
+    "P03-20240217-192543-517"
+   ],
+   "rationale": "The person peels multiple garlic cloves using their hands and a knife, discarding the skins on the kitchen top."
+  },
+  {
+   "goal_id": "g3",
+   "description": "Manage the boiled egg",
+   "action_ids": [
+    "P03-20240217-192543-513",
+    "P03-20240217-192543-518",
+    "P03-20240217-192543-519",
+    "P03-20240217-192543-607"
+   ],
+   "rationale": "The person checks the time, turns off the hob for the boiled egg, moves the saucepan, and later retrieves the cooled egg to peel it."
+  },
+  {
+   "goal_id": "g4",
+   "description": "Load items into the dishwasher",
+   "action_ids": [
+    "P03-20240217-192543-524",
+    "P03-20240217-192543-525",
+    "P03-20240217-192543-526",
+    "P03-20240217-192543-527",
+    "P03-20240217-192543-528",
+    "P03-20240217-192543-529",
+    "P03-20240217-192543-530",
+    "P03-20240217-192543-531",
+    "P03-20240217-192543-532",
+    "P03-20240217-192543-533",
+    "P03-20240217-192543-534",
+    "P03-20240217-192543-535",
+    "P03-20240217-192543-536",
+    "P03-20240217-192543-537",
+    "P03-20240217-192543-538",
+    "P03-20240217-192543-539",
+    "P03-20240217-192543-540",
+    "P03-20240217-192543-541",
+    "P03-20240217-192543-542",
+    "P03-20240217-192543-543",
+    "P03-20240217-192543-544",
+    "P03-20240217-192543-545"
+   ],
+   "rationale": "The person rinses a small bowl and loads it along with a cup and filter into the dishwasher, rearranging the racks to make room."
+  },
+  {
+   "goal_id": "g5",
+   "description": "Add olive oil to the saucepan",
+   "action_ids": [
+    "P03-20240217-192543-548",
+    "P03-20240217-192543-549",
+    "P03-20240217-192543-550",
+    "P03-20240217-192543-551",
+    "P03-20240217-192543-552",
+    "P03-20240217-192543-553",
+    "P03-20240217-192543-554",
+    "P03-20240217-192543-555",
+    "P03-20240217-192543-556",
+    "P03-20240217-192543-557"
+   ],
+   "rationale": "The person retrieves olive oil from a drawer, turns on the hob, pours the oil into a saucepan, and puts the oil can away."
+  },
+  {
+   "goal_id": "g6",
+   "description": "Stir-fry the garlic cloves",
+   "action_ids": [
+    "P03-20240217-192543-560",
+    "P03-20240217-192543-561",
+    "P03-20240217-192543-562",
+    "P03-20240217-192543-563",
+    "P03-20240217-192543-566",
+    "P03-20240217-192543-567",
+    "P03-20240217-192543-569",
+    "P03-20240217-192543-570",
+    "P03-20240217-192543-571",
+    "P03-20240217-192543-572",
+    "P03-20240217-192543-573",
+    "P03-20240217-192543-574",
+    "P03-20240217-192543-575",
+    "P03-20240217-192543-576",
+    "P03-20240217-192543-577",
+    "P03-20240217-192543-578",
+    "P03-20240217-192543-579",
+    "P03-20240217-192543-580"
+   ],
+   "rationale": "The person adds garlic cloves to the hot oil, gets a spoon, and stir-fries the garlic while managing the heat by lifting the pan and adjusting the hob."
+  },
+  {
+   "goal_id": "g7",
+   "description": "Add tomato sauce to the saucepan and stir",
+   "action_ids": [
+    "P03-20240217-192543-581",
+    "P03-20240217-192543-582",
+    "P03-20240217-192543-583",
+    "P03-20240217-192543-584",
+    "P03-20240217-192543-585",
+    "P03-20240217-192543-586",
+    "P03-20240217-192543-587",
+    "P03-20240217-192543-588",
+    "P03-20240217-192543-589",
+    "P03-20240217-192543-590",
+    "P03-20240217-192543-591",
+    "P03-20240217-192543-602",
+    "P03-20240217-192543-603",
+    "P03-20240217-192543-604",
+    "P03-20240217-192543-605"
+   ],
+   "rationale": "The person pours tomato sauce into the saucepan, closes the bottle, and stirs the sauce into the garlic and oil using spoons."
+  },
+  {
+   "goal_id": "g8",
+   "description": "Store the tomato sauce bottle in the fridge",
+   "action_ids": [
+    "P03-20240217-192543-592",
+    "P03-20240217-192543-593",
+    "P03-20240217-192543-594",
+    "P03-20240217-192543-595",
+    "P03-20240217-192543-596",
+    "P03-20240217-192543-597",
+    "P03-20240217-192543-598",
+    "P03-20240217-192543-599",
+    "P03-20240217-192543-600",
+    "P03-20240217-192543-601"
+   ],
+   "rationale": "The person wipes the tomato sauce bottle and places it in the fridge, rearranging items to make room for it on the bottom tray."
+  },
+  {
+   "goal_id": "g9",
+   "description": "Clean up eggshells from the kitchen top",
+   "action_ids": [
+    "P03-20240217-192543-618",
+    "P03-20240217-192543-619",
+    "P03-20240217-192543-620",
+    "P03-20240217-192543-621",
+    "P03-20240217-192543-622",
+    "P03-20240217-192543-623"
+   ],
+   "rationale": "The person wipes their hands and gathers eggshell fragments from the kitchen top to clean the area."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P03-20240217-192543-546",
+  "P03-20240217-192543-547",
+  "P03-20240217-192543-558",
+  "P03-20240217-192543-559",
+  "P03-20240217-192543-564",
+  "P03-20240217-192543-565",
+  "P03-20240217-192543-568",
+  "P03-20240217-192543-606",
+  "P03-20240217-192543-613"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

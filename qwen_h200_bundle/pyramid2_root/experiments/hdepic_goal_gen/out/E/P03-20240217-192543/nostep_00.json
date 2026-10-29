@@ -1,0 +1,208 @@
+{
+ "overall_goal": "Prepare the kitchen workspace and retrieve necessary ingredients and utensils for cooking",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Move the table and chairs",
+   "action_ids": [
+    "P03-20240217-192543-1",
+    "P03-20240217-192543-2",
+    "P03-20240217-192543-3",
+    "P03-20240217-192543-4"
+   ],
+   "rationale": "The person slides the table and chairs across the floor to rearrange the furniture and make space."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve ingredients from the fridge",
+   "action_ids": [
+    "P03-20240217-192543-5",
+    "P03-20240217-192543-6",
+    "P03-20240217-192543-9",
+    "P03-20240217-192543-10",
+    "P03-20240217-192543-11",
+    "P03-20240217-192543-12",
+    "P03-20240217-192543-13",
+    "P03-20240217-192543-14",
+    "P03-20240217-192543-15",
+    "P03-20240217-192543-16",
+    "P03-20240217-192543-17",
+    "P03-20240217-192543-18",
+    "P03-20240217-192543-19",
+    "P03-20240217-192543-20",
+    "P03-20240217-192543-21"
+   ],
+   "rationale": "The person opens the fridge, moves vegetables around to access a bowl and mushrooms, and takes them out before closing the fridge."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Inspect and set aside the bowl of ragu and mushrooms",
+   "action_ids": [
+    "P03-20240217-192543-22",
+    "P03-20240217-192543-23",
+    "P03-20240217-192543-24",
+    "P03-20240217-192543-25",
+    "P03-20240217-192543-26",
+    "P03-20240217-192543-27",
+    "P03-20240217-192543-28",
+    "P03-20240217-192543-29",
+    "P03-20240217-192543-30",
+    "P03-20240217-192543-31"
+   ],
+   "rationale": "The person checks the contents of a bowl, covers it with a plate, and moves it along with a box of mushrooms to the kitchen counter."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Put away clean dishes and utensils",
+   "action_ids": [
+    "P03-20240217-192543-32",
+    "P03-20240217-192543-33",
+    "P03-20240217-192543-34",
+    "P03-20240217-192543-35",
+    "P03-20240217-192543-36",
+    "P03-20240217-192543-37",
+    "P03-20240217-192543-38",
+    "P03-20240217-192543-39",
+    "P03-20240217-192543-40",
+    "P03-20240217-192543-41",
+    "P03-20240217-192543-42",
+    "P03-20240217-192543-45",
+    "P03-20240217-192543-46",
+    "P03-20240217-192543-47"
+   ],
+   "rationale": "The person takes various clean items like a glass, jug, saucers, and a knife from the drying rack and places them into the cupboards."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Retrieve pans from the cupboard",
+   "action_ids": [
+    "P03-20240217-192543-48",
+    "P03-20240217-192543-49",
+    "P03-20240217-192543-50",
+    "P03-20240217-192543-51"
+   ],
+   "rationale": "The person opens the top cupboard, removes a saucepan, and sets aside the protective padding to access the pans."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Dry the washed aubergine",
+   "action_ids": [
+    "P03-20240217-192543-70",
+    "P03-20240217-192543-71",
+    "P03-20240217-192543-72",
+    "P03-20240217-192543-73",
+    "P03-20240217-192543-74",
+    "P03-20240217-192543-75",
+    "P03-20240217-192543-76",
+    "P03-20240217-192543-77",
+    "P03-20240217-192543-78",
+    "P03-20240217-192543-79",
+    "P03-20240217-192543-80",
+    "P03-20240217-192543-81"
+   ],
+   "rationale": "The person shakes excess water off the aubergine, retrieves a cloth from the cupboard, wipes the aubergine dry, and hangs the cloth."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Retrieve oil, tomato sauce, and a saucepan",
+   "action_ids": [
+    "P03-20240217-192543-124",
+    "P03-20240217-192543-129",
+    "P03-20240217-192543-130",
+    "P03-20240217-192543-131",
+    "P03-20240217-192543-132",
+    "P03-20240217-192543-133",
+    "P03-20240217-192543-134",
+    "P03-20240217-192543-135",
+    "P03-20240217-192543-136",
+    "P03-20240217-192543-137",
+    "P03-20240217-192543-138",
+    "P03-20240217-192543-140"
+   ],
+   "rationale": "The person opens drawers to put away oil and take out tomato sauce, then opens a cupboard to get a small saucepan."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Check the oil temperature and wash hands",
+   "action_ids": [
+    "P03-20240217-192543-142",
+    "P03-20240217-192543-143",
+    "P03-20240217-192543-144",
+    "P03-20240217-192543-145",
+    "P03-20240217-192543-146",
+    "P03-20240217-192543-147",
+    "P03-20240217-192543-148",
+    "P03-20240217-192543-149",
+    "P03-20240217-192543-150"
+   ],
+   "rationale": "The person tests the oil in the frying pan, accidentally gets oil on their fingers, and washes and dries their hands at the sink."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Retrieve cooking utensils from the drawers",
+   "action_ids": [
+    "P03-20240217-192543-157",
+    "P03-20240217-192543-158",
+    "P03-20240217-192543-159",
+    "P03-20240217-192543-160",
+    "P03-20240217-192543-161",
+    "P03-20240217-192543-162",
+    "P03-20240217-192543-163",
+    "P03-20240217-192543-164",
+    "P03-20240217-192543-165",
+    "P03-20240217-192543-166"
+   ],
+   "rationale": "The person searches through multiple drawers to find and take out a wooden spoon and a dough scraper."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Retrieve seasonings from the cupboard",
+   "action_ids": [
+    "P03-20240217-192543-169",
+    "P03-20240217-192543-170",
+    "P03-20240217-192543-172",
+    "P03-20240217-192543-173",
+    "P03-20240217-192543-174",
+    "P03-20240217-192543-180"
+   ],
+   "rationale": "The person opens the cupboard, looks through the containers, and takes out salt and a black pepper grinder."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Wash and dry oily hands",
+   "action_ids": [
+    "P03-20240217-192543-200",
+    "P03-20240217-192543-201",
+    "P03-20240217-192543-202",
+    "P03-20240217-192543-203",
+    "P03-20240217-192543-204",
+    "P03-20240217-192543-205",
+    "P03-20240217-192543-206",
+    "P03-20240217-192543-207"
+   ],
+   "rationale": "After realizing their hands are oily from handling food, the person stops to wash and dry their hands at the sink."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P03-20240217-192543-43",
+  "P03-20240217-192543-44",
+  "P03-20240217-192543-56",
+  "P03-20240217-192543-61",
+  "P03-20240217-192543-62",
+  "P03-20240217-192543-82",
+  "P03-20240217-192543-83",
+  "P03-20240217-192543-94",
+  "P03-20240217-192543-122",
+  "P03-20240217-192543-123",
+  "P03-20240217-192543-141",
+  "P03-20240217-192543-155",
+  "P03-20240217-192543-156",
+  "P03-20240217-192543-181",
+  "P03-20240217-192543-199",
+  "P03-20240217-192543-208"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

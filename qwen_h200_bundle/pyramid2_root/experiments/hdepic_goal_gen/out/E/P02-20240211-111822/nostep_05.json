@@ -1,0 +1,153 @@
+{
+ "overall_goal": "Clean the kitchen tools and surfaces while monitoring the cooking mixture",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Empty the citrus juicer guard into the food bin",
+   "action_ids": [
+    "P02-20240211-111822-979",
+    "P02-20240211-111822-980",
+    "P02-20240211-111822-981",
+    "P02-20240211-111822-982",
+    "P02-20240211-111822-983",
+    "P02-20240211-111822-984",
+    "P02-20240211-111822-985",
+    "P02-20240211-111822-986",
+    "P02-20240211-111822-987",
+    "P02-20240211-111822-988",
+    "P02-20240211-111822-989",
+    "P02-20240211-111822-990"
+   ],
+   "rationale": "The person taps and scrapes the citrus juicer guard to remove pulp and seeds into the food bin before putting it away."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Wash the citrus juicer and guard",
+   "action_ids": [
+    "P02-20240211-111822-991",
+    "P02-20240211-111822-992",
+    "P02-20240211-111822-993",
+    "P02-20240211-111822-994",
+    "P02-20240211-111822-995",
+    "P02-20240211-111822-996",
+    "P02-20240211-111822-997",
+    "P02-20240211-111822-998",
+    "P02-20240211-111822-999",
+    "P02-20240211-111822-1001",
+    "P02-20240211-111822-1000"
+   ],
+   "rationale": "The person uses a sponge to clean the citrus juicer and its guard, then places them in the drying rack."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Empty the washing up bowl and dry hands",
+   "action_ids": [
+    "P02-20240211-111822-1002",
+    "P02-20240211-111822-1003",
+    "P02-20240211-111822-1004",
+    "P02-20240211-111822-1005",
+    "P02-20240211-111822-1006",
+    "P02-20240211-111822-1007"
+   ],
+   "rationale": "The person tips out the dirty water from the washing up bowl, places it back in the sink, and dries their hands."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Dry the large plastic spoon",
+   "action_ids": [
+    "P02-20240211-111822-1008",
+    "P02-20240211-111822-1009",
+    "P02-20240211-111822-1010",
+    "P02-20240211-111822-1011",
+    "P02-20240211-111822-1012",
+    "P02-20240211-111822-1013"
+   ],
+   "rationale": "The person uses a tea towel to dry a recently washed plastic spoon, then hangs the towel on the radiator."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Check the raspberry and lemon curd mixture",
+   "action_ids": [
+    "P02-20240211-111822-1015",
+    "P02-20240211-111822-1017",
+    "P02-20240211-111822-1018",
+    "P02-20240211-111822-1019",
+    "P02-20240211-111822-1068",
+    "P02-20240211-111822-1069"
+   ],
+   "rationale": "The person visually inspects the cooking mixture and taps the spoon against the bowl to remove excess curd."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Prepare a new bowl of soapy water and clear the sink drain",
+   "action_ids": [
+    "P02-20240211-111822-1020",
+    "P02-20240211-111822-1021",
+    "P02-20240211-111822-1022",
+    "P02-20240211-111822-1023",
+    "P02-20240211-111822-1024",
+    "P02-20240211-111822-1025",
+    "P02-20240211-111822-1026",
+    "P02-20240211-111822-1027",
+    "P02-20240211-111822-1028",
+    "P02-20240211-111822-1033",
+    "P02-20240211-111822-1034",
+    "P02-20240211-111822-1035",
+    "P02-20240211-111822-1036",
+    "P02-20240211-111822-1037",
+    "P02-20240211-111822-1038",
+    "P02-20240211-111822-1039"
+   ],
+   "rationale": "The person adds washing up liquid to the bowl, turns on the hot water, and clears a blockage in the drain so the sink empties properly."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Wipe down the countertop",
+   "action_ids": [
+    "P02-20240211-111822-1040",
+    "P02-20240211-111822-1041",
+    "P02-20240211-111822-1042",
+    "P02-20240211-111822-1043",
+    "P02-20240211-111822-1044",
+    "P02-20240211-111822-1045",
+    "P02-20240211-111822-1046",
+    "P02-20240211-111822-1047",
+    "P02-20240211-111822-1048",
+    "P02-20240211-111822-1049",
+    "P02-20240211-111822-1050",
+    "P02-20240211-111822-1051",
+    "P02-20240211-111822-1052",
+    "P02-20240211-111822-1053"
+   ],
+   "rationale": "The person wets a sponge and uses it to clean the countertop, sweeping dirt into the food bin."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Clear the countertop surface",
+   "action_ids": [
+    "P02-20240211-111822-1054",
+    "P02-20240211-111822-1055",
+    "P02-20240211-111822-1056",
+    "P02-20240211-111822-1057",
+    "P02-20240211-111822-1058",
+    "P02-20240211-111822-1059",
+    "P02-20240211-111822-1060",
+    "P02-20240211-111822-1061"
+   ],
+   "rationale": "The person moves the glass countertop protectors and the recipe book out of the way to free up space."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P02-20240211-111822-1014",
+  "P02-20240211-111822-1031",
+  "P02-20240211-111822-1029",
+  "P02-20240211-111822-1030",
+  "P02-20240211-111822-1032",
+  "P02-20240211-111822-1070",
+  "P02-20240211-111822-1071"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

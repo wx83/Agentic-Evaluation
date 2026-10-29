@@ -1,0 +1,83 @@
+{
+ "overall_goal": "Combine sugar, coffee, and a small amount of hot water in a cup to prepare for beating",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve ingredients and tools",
+   "action_ids": [
+    "P06-20240511-102207-403",
+    "P06-20240511-102207-406",
+    "P06-20240511-102207-407",
+    "P06-20240511-102207-408",
+    "P06-20240511-102207-410",
+    "P06-20240511-102207-411",
+    "P06-20240511-102207-412",
+    "P06-20240511-102207-413",
+    "P06-20240511-102207-414"
+   ],
+   "rationale": "The person gathers the necessary tools and ingredients, including a spoon, coffee, and sugar, to prepare the mixture."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Add sugar to the cup",
+   "action_ids": [
+    "P06-20240511-102207-415",
+    "P06-20240511-102207-416",
+    "P06-20240511-102207-417",
+    "P06-20240511-102207-418",
+    "P06-20240511-102207-419",
+    "P06-20240511-102207-420"
+   ],
+   "rationale": "The person opens the sugar jar and spoons multiple tablespoons of sugar into the cup."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Measure and add coffee to the cup",
+   "action_ids": [
+    "P06-20240511-102207-437",
+    "P06-20240511-102207-438",
+    "P06-20240511-102207-442",
+    "P06-20240511-102207-443",
+    "P06-20240511-102207-444",
+    "P06-20240511-102207-445",
+    "P06-20240511-102207-446",
+    "P06-20240511-102207-448",
+    "P06-20240511-102207-449",
+    "P06-20240511-102207-450",
+    "P06-20240511-102207-458",
+    "P06-20240511-102207-460",
+    "P06-20240511-102207-461",
+    "P06-20240511-102207-462",
+    "P06-20240511-102207-463",
+    "P06-20240511-102207-464"
+   ],
+   "rationale": "The person uses a weighing balance to measure the coffee and then transfers it into the cup with the sugar."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Prepare hot water and add it to the mixture",
+   "action_ids": [
+    "P06-20240511-102207-472",
+    "P06-20240511-102207-473",
+    "P06-20240511-102207-474",
+    "P06-20240511-102207-475",
+    "P06-20240511-102207-476",
+    "P06-20240511-102207-477",
+    "P06-20240511-102207-504",
+    "P06-20240511-102207-505",
+    "P06-20240511-102207-506"
+   ],
+   "rationale": "The person fills and boils the electric kettle, then carefully adds a small amount of hot water to the cup to wet the ingredients."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P06-20240511-102207-409",
+  "P06-20240511-102207-439",
+  "P06-20240511-102207-440",
+  "P06-20240511-102207-441"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

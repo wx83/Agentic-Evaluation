@@ -1,0 +1,168 @@
+{
+ "overall_goal": "Roll out the puff pastry on a floured surface and cut it into strips.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve the flour and rolling pin.",
+   "action_ids": [
+    "P02-20240211-115653-21",
+    "P02-20240211-115653-22",
+    "P02-20240211-115653-23",
+    "P02-20240211-115653-113",
+    "P02-20240211-115653-114",
+    "P02-20240211-115653-115",
+    "P02-20240211-115653-116"
+   ],
+   "rationale": "The person fetches the container of flour and the rolling pin from their respective storage locations to prepare for rolling out the pastry."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Flour the work surface and place the puff pastry.",
+   "action_ids": [
+    "P02-20240211-115653-136",
+    "P02-20240211-115653-137",
+    "P02-20240211-115653-138",
+    "P02-20240211-115653-139",
+    "P02-20240211-115653-143",
+    "P02-20240211-115653-144",
+    "P02-20240211-115653-145",
+    "P02-20240211-115653-146",
+    "P02-20240211-115653-147",
+    "P02-20240211-115653-148",
+    "P02-20240211-115653-149",
+    "P02-20240211-115653-152",
+    "P02-20240211-115653-153",
+    "P02-20240211-115653-154"
+   ],
+   "rationale": "The person opens the flour, dusts the countertop to prevent sticking, and transfers the puff pastry onto the floured surface."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Flour the rolling pin and begin rolling out the pastry.",
+   "action_ids": [
+    "P02-20240211-115653-178",
+    "P02-20240211-115653-179",
+    "P02-20240211-115653-180",
+    "P02-20240211-115653-181",
+    "P02-20240211-115653-182",
+    "P02-20240211-115653-183",
+    "P02-20240211-115653-184",
+    "P02-20240211-115653-185",
+    "P02-20240211-115653-186",
+    "P02-20240211-115653-187",
+    "P02-20240211-115653-188",
+    "P02-20240211-115653-189",
+    "P02-20240211-115653-190",
+    "P02-20240211-115653-191",
+    "P02-20240211-115653-192",
+    "P02-20240211-115653-193",
+    "P02-20240211-115653-194",
+    "P02-20240211-115653-195",
+    "P02-20240211-115653-196",
+    "P02-20240211-115653-197"
+   ],
+   "rationale": "The person coats the rolling pin with flour and starts flattening the pastry, crimping the edges and flipping it to ensure an even roll."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Remove air pockets and continue rolling the pastry.",
+   "action_ids": [
+    "P02-20240211-115653-198",
+    "P02-20240211-115653-199",
+    "P02-20240211-115653-200",
+    "P02-20240211-115653-201",
+    "P02-20240211-115653-202",
+    "P02-20240211-115653-203",
+    "P02-20240211-115653-204",
+    "P02-20240211-115653-205",
+    "P02-20240211-115653-206",
+    "P02-20240211-115653-207",
+    "P02-20240211-115653-208",
+    "P02-20240211-115653-209",
+    "P02-20240211-115653-211",
+    "P02-20240211-115653-210"
+   ],
+   "rationale": "The person pushes down on the pastry to eliminate air bubbles, rotates it, and continues to roll it flat."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Fold edges, flip, and finish rolling the pastry.",
+   "action_ids": [
+    "P02-20240211-115653-212",
+    "P02-20240211-115653-213",
+    "P02-20240211-115653-214",
+    "P02-20240211-115653-215",
+    "P02-20240211-115653-216",
+    "P02-20240211-115653-217",
+    "P02-20240211-115653-218",
+    "P02-20240211-115653-221",
+    "P02-20240211-115653-219",
+    "P02-20240211-115653-220",
+    "P02-20240211-115653-222",
+    "P02-20240211-115653-223",
+    "P02-20240211-115653-224",
+    "P02-20240211-115653-225",
+    "P02-20240211-115653-226"
+   ],
+   "rationale": "The person folds in the edges to shape the pastry, flips it over, and gives it a final roll to reach the desired thickness."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Clean and flour the knife for cutting.",
+   "action_ids": [
+    "P02-20240211-115653-230",
+    "P02-20240211-115653-231",
+    "P02-20240211-115653-232",
+    "P02-20240211-115653-233",
+    "P02-20240211-115653-234",
+    "P02-20240211-115653-235"
+   ],
+   "rationale": "The person wipes the serrated knife with a towel and rubs flour onto the blade so it cuts cleanly through the dough."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Cut the pastry into strips.",
+   "action_ids": [
+    "P02-20240211-115653-236",
+    "P02-20240211-115653-237",
+    "P02-20240211-115653-238",
+    "P02-20240211-115653-239",
+    "P02-20240211-115653-240",
+    "P02-20240211-115653-241",
+    "P02-20240211-115653-242",
+    "P02-20240211-115653-243",
+    "P02-20240211-115653-244",
+    "P02-20240211-115653-245",
+    "P02-20240211-115653-246",
+    "P02-20240211-115653-247",
+    "P02-20240211-115653-248",
+    "P02-20240211-115653-249",
+    "P02-20240211-115653-250",
+    "P02-20240211-115653-251",
+    "P02-20240211-115653-252",
+    "P02-20240211-115653-253",
+    "P02-20240211-115653-254",
+    "P02-20240211-115653-255"
+   ],
+   "rationale": "The person repeatedly slices the flattened pastry into even strips, occasionally re-flouring the knife to prevent sticking."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Cut the pastry strips in half.",
+   "action_ids": [
+    "P02-20240211-115653-256",
+    "P02-20240211-115653-257",
+    "P02-20240211-115653-258",
+    "P02-20240211-115653-259",
+    "P02-20240211-115653-260",
+    "P02-20240211-115653-261"
+   ],
+   "rationale": "The person groups the cut strips together and slices down the center to halve their length."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

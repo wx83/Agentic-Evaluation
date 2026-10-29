@@ -1,0 +1,19 @@
+{
+ "overall_goal": "Serve the meal and prepare to eat",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Serve the food and get utensils for eating",
+   "action_ids": [
+    "P08-20240613-123547-211",
+    "P08-20240613-123547-221"
+   ],
+   "rationale": "The person places the bowl on a plate and retrieves a fork to eat the meal."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

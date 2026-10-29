@@ -1,0 +1,201 @@
+{
+ "overall_goal": "Clean the hand blender parts, retrieve ingredients and tools, and set up the weighing scales.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Gather the hand blender parts to be washed",
+   "action_ids": [
+    "P02-20240211-111822-2",
+    "P02-20240211-111822-3",
+    "P02-20240211-111822-4",
+    "P02-20240211-111822-5",
+    "P02-20240211-111822-6",
+    "P02-20240211-111822-7"
+   ],
+   "rationale": "The person moves the hand blender attachment, cup, and cord to the sink area to prepare for washing them."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Prepare the sink with hot soapy water",
+   "action_ids": [
+    "P02-20240211-111822-9",
+    "P02-20240211-111822-10",
+    "P02-20240211-111822-11",
+    "P02-20240211-111822-12",
+    "P02-20240211-111822-13",
+    "P02-20240211-111822-14",
+    "P02-20240211-111822-15",
+    "P02-20240211-111822-16"
+   ],
+   "rationale": "The person turns on the hot water and adds washing up liquid to the sink to create soapy water for cleaning."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Wash the hand blender cup and lid",
+   "action_ids": [
+    "P02-20240211-111822-17",
+    "P02-20240211-111822-18",
+    "P02-20240211-111822-19",
+    "P02-20240211-111822-20",
+    "P02-20240211-111822-21",
+    "P02-20240211-111822-22",
+    "P02-20240211-111822-23",
+    "P02-20240211-111822-24",
+    "P02-20240211-111822-25",
+    "P02-20240211-111822-26",
+    "P02-20240211-111822-27",
+    "P02-20240211-111822-28",
+    "P02-20240211-111822-29",
+    "P02-20240211-111822-30",
+    "P02-20240211-111822-31",
+    "P02-20240211-111822-32",
+    "P02-20240211-111822-33"
+   ],
+   "rationale": "The person uses a sponge and soapy water to thoroughly clean the inside and outside of the hand blender cup and its lid."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Wash the hand blender attachment",
+   "action_ids": [
+    "P02-20240211-111822-34",
+    "P02-20240211-111822-35",
+    "P02-20240211-111822-36",
+    "P02-20240211-111822-37",
+    "P02-20240211-111822-38",
+    "P02-20240211-111822-39",
+    "P02-20240211-111822-40",
+    "P02-20240211-111822-41",
+    "P02-20240211-111822-42",
+    "P02-20240211-111822-43",
+    "P02-20240211-111822-44",
+    "P02-20240211-111822-45",
+    "P02-20240211-111822-46",
+    "P02-20240211-111822-47"
+   ],
+   "rationale": "The person submerges and scrubs the hand blender attachment in the hot soapy water to clean it."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Rinse the hand blender parts with cold water",
+   "action_ids": [
+    "P02-20240211-111822-51",
+    "P02-20240211-111822-48",
+    "P02-20240211-111822-49",
+    "P02-20240211-111822-50",
+    "P02-20240211-111822-52",
+    "P02-20240211-111822-53",
+    "P02-20240211-111822-54",
+    "P02-20240211-111822-55",
+    "P02-20240211-111822-56",
+    "P02-20240211-111822-57",
+    "P02-20240211-111822-58",
+    "P02-20240211-111822-59"
+   ],
+   "rationale": "The person rinses the soap off the hand blender cup, lid, and attachment under cold running water."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Dry the hand blender parts with a tea towel",
+   "action_ids": [
+    "P02-20240211-111822-60",
+    "P02-20240211-111822-61",
+    "P02-20240211-111822-63",
+    "P02-20240211-111822-64",
+    "P02-20240211-111822-65",
+    "P02-20240211-111822-66",
+    "P02-20240211-111822-67",
+    "P02-20240211-111822-69",
+    "P02-20240211-111822-71",
+    "P02-20240211-111822-70"
+   ],
+   "rationale": "The person uses a tea towel to dry the freshly washed hand blender attachment and cup before placing them on the countertop."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Retrieve the grater and lemons for the recipe",
+   "action_ids": [
+    "P02-20240211-111822-72",
+    "P02-20240211-111822-73",
+    "P02-20240211-111822-74",
+    "P02-20240211-111822-78",
+    "P02-20240211-111822-85",
+    "P02-20240211-111822-86",
+    "P02-20240211-111822-87",
+    "P02-20240211-111822-88",
+    "P02-20240211-111822-89"
+   ],
+   "rationale": "The person searches the cupboards to find a grater and retrieves a bag of lemons from the fridge."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Put the lemons back in the fridge",
+   "action_ids": [
+    "P02-20240211-111822-170",
+    "P02-20240211-111822-171",
+    "P02-20240211-111822-172",
+    "P02-20240211-111822-173",
+    "P02-20240211-111822-174",
+    "P02-20240211-111822-175",
+    "P02-20240211-111822-176"
+   ],
+   "rationale": "The person opens the fridge and places the bag of lemons back into the fruit and vegetable drawer."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Unbox, set up, and tare the weighing scales",
+   "action_ids": [
+    "P02-20240211-111822-177",
+    "P02-20240211-111822-178",
+    "P02-20240211-111822-179",
+    "P02-20240211-111822-180",
+    "P02-20240211-111822-181",
+    "P02-20240211-111822-182",
+    "P02-20240211-111822-183",
+    "P02-20240211-111822-184",
+    "P02-20240211-111822-185",
+    "P02-20240211-111822-186",
+    "P02-20240211-111822-187",
+    "P02-20240211-111822-188",
+    "P02-20240211-111822-189",
+    "P02-20240211-111822-190",
+    "P02-20240211-111822-191",
+    "P02-20240211-111822-192"
+   ],
+   "rationale": "The person takes the weighing scales out of their box, turns them on, and tares them with a saucer on top."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Manage the raspberries and store the punnet",
+   "action_ids": [
+    "P02-20240211-111822-193",
+    "P02-20240211-111822-225",
+    "P02-20240211-111822-226",
+    "P02-20240211-111822-237",
+    "P02-20240211-111822-238",
+    "P02-20240211-111822-239",
+    "P02-20240211-111822-240",
+    "P02-20240211-111822-241"
+   ],
+   "rationale": "The person handles a punnet of raspberries, removes excess fruit, and puts the punnet back into the fridge."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P02-20240211-111822-1",
+  "P02-20240211-111822-8",
+  "P02-20240211-111822-62",
+  "P02-20240211-111822-68",
+  "P02-20240211-111822-125",
+  "P02-20240211-111822-126",
+  "P02-20240211-111822-136",
+  "P02-20240211-111822-164",
+  "P02-20240211-111822-165",
+  "P02-20240211-111822-166",
+  "P02-20240211-111822-167",
+  "P02-20240211-111822-168",
+  "P02-20240211-111822-169"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "overall_goal": "Preheat the oven.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Turn on the oven.",
+   "action_ids": [
+    "P08-20240614-125650-4",
+    "P08-20240614-125650-5"
+   ],
+   "rationale": "The person turns the oven knobs to switch the oven on."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Remove baking trays from the oven.",
+   "action_ids": [
+    "P08-20240614-125650-6",
+    "P08-20240614-125650-7",
+    "P08-20240614-125650-8",
+    "P08-20240614-125650-9",
+    "P08-20240614-125650-10"
+   ],
+   "rationale": "The person opens the oven, takes out the baking trays to make space, places them on the stove, and closes the door."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Set the oven temperature.",
+   "action_ids": [
+    "P08-20240614-125650-11",
+    "P08-20240614-125650-80"
+   ],
+   "rationale": "The person interacts with the oven screen and knob to adjust the temperature for preheating."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

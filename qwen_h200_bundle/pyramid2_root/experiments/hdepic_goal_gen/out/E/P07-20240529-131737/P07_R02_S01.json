@@ -1,0 +1,19 @@
+{
+ "overall_goal": "Turn on and preheat the oven",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Set the oven mode and temperature",
+   "action_ids": [
+    "P07-20240529-131737-1",
+    "P07-20240529-131737-2"
+   ],
+   "rationale": "The person adjusts the oven dials to configure the baking setting and temperature."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

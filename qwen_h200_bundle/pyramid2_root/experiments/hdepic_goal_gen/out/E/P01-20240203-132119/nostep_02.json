@@ -1,0 +1,102 @@
+{
+ "overall_goal": "Search for food processor parts and measure out portions of ground biscuits",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Search for and retrieve food processor parts",
+   "action_ids": [
+    "P01-20240203-132119-252",
+    "P01-20240203-132119-257",
+    "P01-20240203-132119-258",
+    "P01-20240203-132119-277",
+    "P01-20240203-132119-278",
+    "P01-20240203-132119-279",
+    "P01-20240203-132119-280",
+    "P01-20240203-132119-294",
+    "P01-20240203-132119-295",
+    "P01-20240203-132119-296",
+    "P01-20240203-132119-297",
+    "P01-20240203-132119-298",
+    "P01-20240203-132119-299",
+    "P01-20240203-132119-300",
+    "P01-20240203-132119-303"
+   ],
+   "rationale": "The person opens cupboards and drawers, looking through various pieces to find the correct parts for the food processor."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Measure the first glass of ground biscuits",
+   "action_ids": [
+    "P01-20240203-132119-382",
+    "P01-20240203-132119-383",
+    "P01-20240203-132119-384",
+    "P01-20240203-132119-385",
+    "P01-20240203-132119-386",
+    "P01-20240203-132119-387",
+    "P01-20240203-132119-388",
+    "P01-20240203-132119-389",
+    "P01-20240203-132119-390",
+    "P01-20240203-132119-391",
+    "P01-20240203-132119-392",
+    "P01-20240203-132119-393",
+    "P01-20240203-132119-394",
+    "P01-20240203-132119-395",
+    "P01-20240203-132119-396",
+    "P01-20240203-132119-397",
+    "P01-20240203-132119-398",
+    "P01-20240203-132119-399",
+    "P01-20240203-132119-400",
+    "P01-20240203-132119-401"
+   ],
+   "rationale": "The person retrieves a glass, opens the food processor, removes the blade, and pours the ground biscuits into the glass to measure them before emptying them into a bowl."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Measure the second glass of ground biscuits",
+   "action_ids": [
+    "P01-20240203-132119-419",
+    "P01-20240203-132119-420",
+    "P01-20240203-132119-421",
+    "P01-20240203-132119-422",
+    "P01-20240203-132119-423",
+    "P01-20240203-132119-424",
+    "P01-20240203-132119-425",
+    "P01-20240203-132119-426",
+    "P01-20240203-132119-427",
+    "P01-20240203-132119-428",
+    "P01-20240203-132119-429",
+    "P01-20240203-132119-431",
+    "P01-20240203-132119-430",
+    "P01-20240203-132119-432",
+    "P01-20240203-132119-433",
+    "P01-20240203-132119-434",
+    "P01-20240203-132119-435"
+   ],
+   "rationale": "The person opens the food processor, removes the blade, and pours the remaining biscuits into a glass to measure a second portion."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Reassemble the food processor",
+   "action_ids": [
+    "P01-20240203-132119-436",
+    "P01-20240203-132119-437",
+    "P01-20240203-132119-438",
+    "P01-20240203-132119-439",
+    "P01-20240203-132119-455",
+    "P01-20240203-132119-456"
+   ],
+   "rationale": "The person places the bowl back onto the food processor base, inserts the blade, and closes the lid to reassemble the appliance."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P01-20240203-132119-256",
+  "P01-20240203-132119-346",
+  "P01-20240203-132119-416",
+  "P01-20240203-132119-417",
+  "P01-20240203-132119-418"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

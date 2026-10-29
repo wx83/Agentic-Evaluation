@@ -1,0 +1,39 @@
+{
+ "overall_goal": "Extract an egg yolk and incorporate it into the main mixture.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Fetch an egg and position a small bowl.",
+   "action_ids": [
+    "P07-20240530-102543-195",
+    "P07-20240530-102543-196",
+    "P07-20240530-102543-197",
+    "P07-20240530-102543-198",
+    "P07-20240530-102543-199",
+    "P07-20240530-102543-200",
+    "P07-20240530-102543-201"
+   ],
+   "rationale": "The person prepares the workspace by moving a small bowl into place and retrieving an egg from the cupboard."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Separate the egg yolk from the white and add it to the main bowl.",
+   "action_ids": [
+    "P07-20240530-102543-202",
+    "P07-20240530-102543-203",
+    "P07-20240530-102543-204",
+    "P07-20240530-102543-205",
+    "P07-20240530-102543-206",
+    "P07-20240530-102543-207",
+    "P07-20240530-102543-208",
+    "P07-20240530-102543-209"
+   ],
+   "rationale": "The person cracks the egg, carefully separates the yolk from the white by passing it between the shell halves, and pours the yolk into the large bowl of ingredients."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

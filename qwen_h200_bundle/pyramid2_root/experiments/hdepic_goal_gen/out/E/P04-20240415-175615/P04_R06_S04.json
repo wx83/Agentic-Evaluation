@@ -1,0 +1,116 @@
+{
+ "overall_goal": "Gather and measure the oil, ghee, spices, and cashews needed for sauteing",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve spoons from the cutlery drawer",
+   "action_ids": [
+    "P04-20240415-175615-19",
+    "P04-20240415-175615-20",
+    "P04-20240415-175615-21",
+    "P04-20240415-175615-22",
+    "P04-20240415-175615-23",
+    "P04-20240415-175615-24",
+    "P04-20240415-175615-25",
+    "P04-20240415-175615-26",
+    "P04-20240415-175615-27",
+    "P04-20240415-175615-28",
+    "P04-20240415-175615-29",
+    "P04-20240415-175615-30"
+   ],
+   "rationale": "The person opens the cutlery drawer, selects multiple spoons, stacks them, and places them on the chopping board for later use."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve olive oil and ghee",
+   "action_ids": [
+    "P04-20240415-175615-32",
+    "P04-20240415-175615-33",
+    "P04-20240415-175615-34",
+    "P04-20240415-175615-38",
+    "P04-20240415-175615-39",
+    "P04-20240415-175615-40"
+   ],
+   "rationale": "The person fetches the bottle of olive oil from the cabinet and the packet of ghee from the refrigerator, placing them on the chopping board."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Prepare the weighing scale and measure bay leaves",
+   "action_ids": [
+    "P04-20240415-175615-50",
+    "P04-20240415-175615-51",
+    "P04-20240415-175615-116",
+    "P04-20240415-175615-117",
+    "P04-20240415-175615-118",
+    "P04-20240415-175615-119",
+    "P04-20240415-175615-120",
+    "P04-20240415-175615-121",
+    "P04-20240415-175615-122",
+    "P04-20240415-175615-123",
+    "P04-20240415-175615-124"
+   ],
+   "rationale": "The person sets up the electronic weighing scale and spice containers, then opens the bag of bay leaves to extract and place them on the measuring plate."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Measure out cinnamon sticks and cloves",
+   "action_ids": [
+    "P04-20240415-175615-129",
+    "P04-20240415-175615-130",
+    "P04-20240415-175615-131",
+    "P04-20240415-175615-132",
+    "P04-20240415-175615-135",
+    "P04-20240415-175615-136",
+    "P04-20240415-175615-137",
+    "P04-20240415-175615-138",
+    "P04-20240415-175615-139",
+    "P04-20240415-175615-140",
+    "P04-20240415-175615-141"
+   ],
+   "rationale": "The person opens the respective bags for cinnamon sticks and cloves, taking out the required amounts and adding them to the spice plate."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Measure out anise flower and cardamom",
+   "action_ids": [
+    "P04-20240415-175615-144",
+    "P04-20240415-175615-145",
+    "P04-20240415-175615-146",
+    "P04-20240415-175615-147",
+    "P04-20240415-175615-148",
+    "P04-20240415-175615-149",
+    "P04-20240415-175615-150",
+    "P04-20240415-175615-151",
+    "P04-20240415-175615-152",
+    "P04-20240415-175615-153",
+    "P04-20240415-175615-154",
+    "P04-20240415-175615-155"
+   ],
+   "rationale": "The person retrieves anise flowers and cardamoms from their bags, places them on the plate, and seals the bags."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Measure out cashew nuts",
+   "action_ids": [
+    "P04-20240415-175615-156",
+    "P04-20240415-175615-157",
+    "P04-20240415-175615-158",
+    "P04-20240415-175615-159",
+    "P04-20240415-175615-160",
+    "P04-20240415-175615-161",
+    "P04-20240415-175615-162",
+    "P04-20240415-175615-163",
+    "P04-20240415-175615-164",
+    "P04-20240415-175615-165",
+    "P04-20240415-175615-166",
+    "P04-20240415-175615-167"
+   ],
+   "rationale": "The person sorts through the plastic bags to find the cashews, opens the bag, breaks a cashew in half, and places the nuts on the masala plate."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

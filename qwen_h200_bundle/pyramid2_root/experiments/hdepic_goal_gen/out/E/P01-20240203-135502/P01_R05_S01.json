@@ -1,0 +1,180 @@
+{
+ "overall_goal": "Make the chocolate sauce by melting butter and mixing it with cocoa powder and condensed milk",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare the pot and wooden spoon for cooking",
+   "action_ids": [
+    "P01-20240203-135502-39",
+    "P01-20240203-135502-40",
+    "P01-20240203-135502-41",
+    "P01-20240203-135502-42",
+    "P01-20240203-135502-45",
+    "P01-20240203-135502-46",
+    "P01-20240203-135502-47"
+   ],
+   "rationale": "The person retrieves a pot and a wooden spoon, placing them near the hob to be used for making the sauce."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Prepare and melt the butter in the pot",
+   "action_ids": [
+    "P01-20240203-135502-50",
+    "P01-20240203-135502-51",
+    "P01-20240203-135502-52",
+    "P01-20240203-135502-100",
+    "P01-20240203-135502-101",
+    "P01-20240203-135502-102",
+    "P01-20240203-135502-103",
+    "P01-20240203-135502-104",
+    "P01-20240203-135502-105",
+    "P01-20240203-135502-106",
+    "P01-20240203-135502-107",
+    "P01-20240203-135502-108",
+    "P01-20240203-135502-113",
+    "P01-20240203-135502-114",
+    "P01-20240203-135502-115"
+   ],
+   "rationale": "The person unwraps, cuts, and places the butter into the pot, then turns on the hob to start melting it."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Gather ingredients and tools for measuring cocoa",
+   "action_ids": [
+    "P01-20240203-135502-117",
+    "P01-20240203-135502-118",
+    "P01-20240203-135502-119",
+    "P01-20240203-135502-120",
+    "P01-20240203-135502-122",
+    "P01-20240203-135502-123",
+    "P01-20240203-135502-124",
+    "P01-20240203-135502-125",
+    "P01-20240203-135502-126",
+    "P01-20240203-135502-127"
+   ],
+   "rationale": "The person collects the cans of cocoa and condensed milk, along with a spoon, cup, and scale to prepare for measuring."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Open the cocoa can and measure the cocoa powder",
+   "action_ids": [
+    "P01-20240203-135502-128",
+    "P01-20240203-135502-129",
+    "P01-20240203-135502-130",
+    "P01-20240203-135502-131",
+    "P01-20240203-135502-132",
+    "P01-20240203-135502-133",
+    "P01-20240203-135502-134",
+    "P01-20240203-135502-135",
+    "P01-20240203-135502-136",
+    "P01-20240203-135502-137",
+    "P01-20240203-135502-138",
+    "P01-20240203-135502-139"
+   ],
+   "rationale": "The person opens the cocoa can and scoops the required amount of cocoa powder into a cup on the scale."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Open the can of condensed milk",
+   "action_ids": [
+    "P01-20240203-135502-164",
+    "P01-20240203-135502-165",
+    "P01-20240203-135502-166",
+    "P01-20240203-135502-167",
+    "P01-20240203-135502-168",
+    "P01-20240203-135502-169",
+    "P01-20240203-135502-170",
+    "P01-20240203-135502-171",
+    "P01-20240203-135502-186",
+    "P01-20240203-135502-187",
+    "P01-20240203-135502-188",
+    "P01-20240203-135502-189"
+   ],
+   "rationale": "The person uses a can opener and a knife to carefully remove the lid from the can of condensed milk."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Add cocoa powder to the melted butter and stir",
+   "action_ids": [
+    "P01-20240203-135502-172",
+    "P01-20240203-135502-174",
+    "P01-20240203-135502-176",
+    "P01-20240203-135502-177",
+    "P01-20240203-135502-180",
+    "P01-20240203-135502-181",
+    "P01-20240203-135502-182",
+    "P01-20240203-135502-183",
+    "P01-20240203-135502-184",
+    "P01-20240203-135502-194",
+    "P01-20240203-135502-195",
+    "P01-20240203-135502-199",
+    "P01-20240203-135502-201",
+    "P01-20240203-135502-200",
+    "P01-20240203-135502-202"
+   ],
+   "rationale": "The person pours the measured cocoa powder into the pot with the melting butter and stirs them together while adjusting the heat."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Pour condensed milk into the pot and begin mixing",
+   "action_ids": [
+    "P01-20240203-135502-203",
+    "P01-20240203-135502-204",
+    "P01-20240203-135502-205",
+    "P01-20240203-135502-206",
+    "P01-20240203-135502-207",
+    "P01-20240203-135502-208",
+    "P01-20240203-135502-209",
+    "P01-20240203-135502-210"
+   ],
+   "rationale": "The person adds the condensed milk to the butter and cocoa mixture, stirring quickly to combine the ingredients."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Continue stirring the sauce until it boils and turn off the heat",
+   "action_ids": [
+    "P01-20240203-135502-239",
+    "P01-20240203-135502-240",
+    "P01-20240203-135502-241",
+    "P01-20240203-135502-242",
+    "P01-20240203-135502-243",
+    "P01-20240203-135502-256",
+    "P01-20240203-135502-257",
+    "P01-20240203-135502-258",
+    "P01-20240203-135502-259",
+    "P01-20240203-135502-260",
+    "P01-20240203-135502-261",
+    "P01-20240203-135502-262",
+    "P01-20240203-135502-263",
+    "P01-20240203-135502-264"
+   ],
+   "rationale": "The person continuously stirs the mixture to ensure it is homogeneous, waits for it to boil, and then turns off the hob."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P01-20240203-135502-265",
+  "P01-20240203-135502-266",
+  "P01-20240203-135502-267",
+  "P01-20240203-135502-270",
+  "P01-20240203-135502-271",
+  "P01-20240203-135502-272",
+  "P01-20240203-135502-274",
+  "P01-20240203-135502-275",
+  "P01-20240203-135502-276",
+  "P01-20240203-135502-278",
+  "P01-20240203-135502-279",
+  "P01-20240203-135502-280",
+  "P01-20240203-135502-281",
+  "P01-20240203-135502-282",
+  "P01-20240203-135502-283",
+  "P01-20240203-135502-284",
+  "P01-20240203-135502-285",
+  "P01-20240203-135502-286",
+  "P01-20240203-135502-287",
+  "P01-20240203-135502-288"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

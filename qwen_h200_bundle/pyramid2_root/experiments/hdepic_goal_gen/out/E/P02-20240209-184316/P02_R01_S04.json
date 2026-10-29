@@ -1,0 +1,25 @@
+{
+ "overall_goal": "Incorporate tomato puree into the dish and cook it",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Add tomato puree to the pan",
+   "action_ids": [
+    "P02-20240209-184316-783",
+    "P02-20240209-184316-784",
+    "P02-20240209-184316-785",
+    "P02-20240209-184316-816",
+    "P02-20240209-184316-817"
+   ],
+   "rationale": "The person closes the fridge after retrieving the tomato puree, places it on the counter, and squeezes it into the frying pan."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P02-20240209-184316-31",
+  "P02-20240209-184316-32"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

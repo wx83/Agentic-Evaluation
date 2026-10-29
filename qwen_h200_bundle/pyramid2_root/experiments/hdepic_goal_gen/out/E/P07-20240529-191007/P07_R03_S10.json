@@ -1,0 +1,46 @@
+{
+ "overall_goal": "Add and stir the dried and chopped mushrooms into the frying pan",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Pour the dried mushrooms from the glass jug into the frying pan",
+   "action_ids": [
+    "P07-20240529-191007-546",
+    "P07-20240529-191007-547",
+    "P07-20240529-191007-548",
+    "P07-20240529-191007-549"
+   ],
+   "rationale": "The person picks up the glass jug, pours the mushrooms into the pan, taps the spatula, and sets the jug down."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Add the chopped mushrooms from the cardboard trays into the frying pan",
+   "action_ids": [
+    "P07-20240529-191007-550",
+    "P07-20240529-191007-551",
+    "P07-20240529-191007-552",
+    "P07-20240529-191007-553",
+    "P07-20240529-191007-554",
+    "P07-20240529-191007-555",
+    "P07-20240529-191007-556"
+   ],
+   "rationale": "The person empties two cardboard trays of chopped mushrooms into the pan, shaking them and removing any remaining bits."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Stir the mushrooms into the frying pan mixture",
+   "action_ids": [
+    "P07-20240529-191007-560",
+    "P07-20240529-191007-561",
+    "P07-20240529-191007-562",
+    "P07-20240529-191007-563"
+   ],
+   "rationale": "The person picks up the spatula, stirs the ingredients in the pan, and taps the spatula to clean it off."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

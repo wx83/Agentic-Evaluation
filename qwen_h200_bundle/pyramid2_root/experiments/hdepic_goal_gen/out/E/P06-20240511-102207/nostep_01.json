@@ -1,0 +1,215 @@
+{
+ "overall_goal": "Prepare and cook a bread omelet while logging ingredient weights",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P06-20240511-102207-121",
+    "P06-20240511-102207-122",
+    "P06-20240511-102207-123",
+    "P06-20240511-102207-124",
+    "P06-20240511-102207-125",
+    "P06-20240511-102207-126",
+    "P06-20240511-102207-127"
+   ],
+   "rationale": "The person washes their hands in the sink and dries them with a tablecloth to ensure hygiene before cooking."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Record recipe details and prepare the weighing scale",
+   "action_ids": [
+    "P06-20240511-102207-128",
+    "P06-20240511-102207-129",
+    "P06-20240511-102207-130",
+    "P06-20240511-102207-131",
+    "P06-20240511-102207-132",
+    "P06-20240511-102207-133",
+    "P06-20240511-102207-134",
+    "P06-20240511-102207-135"
+   ],
+   "rationale": "The person writes in a notebook and turns the weighing scale on and off to prepare for logging ingredients."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Retrieve spices and record ingredients",
+   "action_ids": [
+    "P06-20240511-102207-136",
+    "P06-20240511-102207-137",
+    "P06-20240511-102207-138",
+    "P06-20240511-102207-139",
+    "P06-20240511-102207-140",
+    "P06-20240511-102207-141",
+    "P06-20240511-102207-142",
+    "P06-20240511-102207-143",
+    "P06-20240511-102207-144",
+    "P06-20240511-102207-145",
+    "P06-20240511-102207-146",
+    "P06-20240511-102207-147",
+    "P06-20240511-102207-148"
+   ],
+   "rationale": "The person gets a spoon and spice bottles from the cabinet, then writes more ingredient details in the notebook."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Season the eggs with salt and chilli powder",
+   "action_ids": [
+    "P06-20240511-102207-149",
+    "P06-20240511-102207-150",
+    "P06-20240511-102207-151",
+    "P06-20240511-102207-152",
+    "P06-20240511-102207-153",
+    "P06-20240511-102207-154",
+    "P06-20240511-102207-155",
+    "P06-20240511-102207-156",
+    "P06-20240511-102207-157"
+   ],
+   "rationale": "The person adds salt and red chilli powder to the bowl of eggs to season the mixture."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Return spices to the cabinet and get a spoon",
+   "action_ids": [
+    "P06-20240511-102207-158",
+    "P06-20240511-102207-159",
+    "P06-20240511-102207-160",
+    "P06-20240511-102207-161",
+    "P06-20240511-102207-162",
+    "P06-20240511-102207-163",
+    "P06-20240511-102207-164"
+   ],
+   "rationale": "The person puts the spice bottles back into the cabinet and retrieves another spoon from the drawer."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Add onions and mix the egg batter",
+   "action_ids": [
+    "P06-20240511-102207-165",
+    "P06-20240511-102207-166",
+    "P06-20240511-102207-167",
+    "P06-20240511-102207-168",
+    "P06-20240511-102207-169",
+    "P06-20240511-102207-170"
+   ],
+   "rationale": "The person adds chopped onions to the eggs and mixes everything together to create the omelet batter."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Weigh the bread and record its weight",
+   "action_ids": [
+    "P06-20240511-102207-171",
+    "P06-20240511-102207-172",
+    "P06-20240511-102207-173",
+    "P06-20240511-102207-174",
+    "P06-20240511-102207-175",
+    "P06-20240511-102207-176",
+    "P06-20240511-102207-177",
+    "P06-20240511-102207-178",
+    "P06-20240511-102207-179",
+    "P06-20240511-102207-180",
+    "P06-20240511-102207-181",
+    "P06-20240511-102207-182",
+    "P06-20240511-102207-183",
+    "P06-20240511-102207-184",
+    "P06-20240511-102207-185",
+    "P06-20240511-102207-186"
+   ],
+   "rationale": "The person opens the bread packet, places slices on the scale, records the weight, and puts the bread aside."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Retrieve butter and utensils for weighing",
+   "action_ids": [
+    "P06-20240511-102207-187",
+    "P06-20240511-102207-188",
+    "P06-20240511-102207-189",
+    "P06-20240511-102207-190",
+    "P06-20240511-102207-191",
+    "P06-20240511-102207-192",
+    "P06-20240511-102207-193",
+    "P06-20240511-102207-194"
+   ],
+   "rationale": "The person gets the butter, places it on the chopping board, and retrieves a butter knife and spoon from the drawer."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Cut and weigh the butter",
+   "action_ids": [
+    "P06-20240511-102207-195",
+    "P06-20240511-102207-196",
+    "P06-20240511-102207-197",
+    "P06-20240511-102207-198",
+    "P06-20240511-102207-199",
+    "P06-20240511-102207-200",
+    "P06-20240511-102207-201",
+    "P06-20240511-102207-202",
+    "P06-20240511-102207-203",
+    "P06-20240511-102207-204",
+    "P06-20240511-102207-205",
+    "P06-20240511-102207-206",
+    "P06-20240511-102207-207",
+    "P06-20240511-102207-208"
+   ],
+   "rationale": "The person prepares the scale, cuts a piece of butter, and places it on the spoon on the scale to measure it."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Record the butter weight and adjust the scale",
+   "action_ids": [
+    "P06-20240511-102207-209",
+    "P06-20240511-102207-210",
+    "P06-20240511-102207-211",
+    "P06-20240511-102207-212",
+    "P06-20240511-102207-213",
+    "P06-20240511-102207-214",
+    "P06-20240511-102207-215",
+    "P06-20240511-102207-216"
+   ],
+   "rationale": "The person wipes their hands, writes the butter's weight in the notebook, and makes final adjustments to the butter on the scale."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Prepare the stove and melt butter in the pan",
+   "action_ids": [
+    "P06-20240511-102207-217",
+    "P06-20240511-102207-218",
+    "P06-20240511-102207-219",
+    "P06-20240511-102207-221",
+    "P06-20240511-102207-222",
+    "P06-20240511-102207-224",
+    "P06-20240511-102207-225",
+    "P06-20240511-102207-226",
+    "P06-20240511-102207-227",
+    "P06-20240511-102207-228",
+    "P06-20240511-102207-229"
+   ],
+   "rationale": "The person turns on the gas, balances the pan, wipes their hands, turns on the chimney, and spreads the butter in the pan to melt."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Cook the egg mixture with bread and prepare more butter",
+   "action_ids": [
+    "P06-20240511-102207-230",
+    "P06-20240511-102207-231",
+    "P06-20240511-102207-232",
+    "P06-20240511-102207-233",
+    "P06-20240511-102207-234",
+    "P06-20240511-102207-235",
+    "P06-20240511-102207-236",
+    "P06-20240511-102207-237",
+    "P06-20240511-102207-238",
+    "P06-20240511-102207-239",
+    "P06-20240511-102207-240"
+   ],
+   "rationale": "The person pours the egg batter into the pan, adds a slice of bread, flips it, lowers the flame, and cuts more butter."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P06-20240511-102207-220",
+  "P06-20240511-102207-223"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

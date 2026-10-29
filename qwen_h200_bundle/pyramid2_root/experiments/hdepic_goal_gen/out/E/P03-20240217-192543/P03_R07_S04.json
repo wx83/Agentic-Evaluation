@@ -1,0 +1,41 @@
+{
+ "overall_goal": "Hard-boil an egg in a saucepan",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Place the egg in the saucepan",
+   "action_ids": [
+    "P03-20240217-192543-139",
+    "P03-20240217-192543-337",
+    "P03-20240217-192543-338",
+    "P03-20240217-192543-339"
+   ],
+   "rationale": "The person prepares the saucepan and places the egg inside after retrieving it from the fridge."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Fill the saucepan with water",
+   "action_ids": [
+    "P03-20240217-192543-340",
+    "P03-20240217-192543-341",
+    "P03-20240217-192543-342",
+    "P03-20240217-192543-343"
+   ],
+   "rationale": "The person carries the saucepan to the sink and fills it with tap water."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Heat the saucepan on the hob",
+   "action_ids": [
+    "P03-20240217-192543-344",
+    "P03-20240217-192543-345"
+   ],
+   "rationale": "The person places the water-filled saucepan on the hob and turns it on to boil the egg."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

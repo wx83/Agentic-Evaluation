@@ -1,0 +1,208 @@
+{
+ "overall_goal": "Clean up the workspace, manage ingredients, and transfer chopped vegetables to bowls.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P03-20240218-190556-235",
+    "P03-20240218-190556-236",
+    "P03-20240218-190556-237",
+    "P03-20240218-190556-238",
+    "P03-20240218-190556-239",
+    "P03-20240218-190556-240"
+   ],
+   "rationale": "The person turns on the tap, rinses their hands, and dries them with a cloth."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Prepare the scale and read the recipe",
+   "action_ids": [
+    "P03-20240218-190556-241",
+    "P03-20240218-190556-242",
+    "P03-20240218-190556-243",
+    "P03-20240218-190556-244",
+    "P03-20240218-190556-245",
+    "P03-20240218-190556-246"
+   ],
+   "rationale": "The person moves the recipe card, grabs the scale, places a colander on it, and reads the recipe."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Retrieve ingredients from the fridge",
+   "action_ids": [
+    "P03-20240218-190556-247",
+    "P03-20240218-190556-248",
+    "P03-20240218-190556-268",
+    "P03-20240218-190556-269",
+    "P03-20240218-190556-270"
+   ],
+   "rationale": "The person opens the fridge to get a plant-based burger and a box of mushrooms."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Manage mushroom boxes and recycle packaging",
+   "action_ids": [
+    "P03-20240218-190556-251",
+    "P03-20240218-190556-267",
+    "P03-20240218-190556-277",
+    "P03-20240218-190556-278",
+    "P03-20240218-190556-279",
+    "P03-20240218-190556-280",
+    "P03-20240218-190556-281",
+    "P03-20240218-190556-282",
+    "P03-20240218-190556-283",
+    "P03-20240218-190556-284",
+    "P03-20240218-190556-285",
+    "P03-20240218-190556-286",
+    "P03-20240218-190556-287",
+    "P03-20240218-190556-288",
+    "P03-20240218-190556-289",
+    "P03-20240218-190556-290",
+    "P03-20240218-190556-291",
+    "P03-20240218-190556-292",
+    "P03-20240218-190556-293"
+   ],
+   "rationale": "The person puts a mushroom box back in the fridge, then breaks down an empty mushroom box and throws the cardboard and plastic into their respective recycling bins."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Transfer sliced mushrooms to a bowl",
+   "action_ids": [
+    "P03-20240218-190556-386",
+    "P03-20240218-190556-387",
+    "P03-20240218-190556-388",
+    "P03-20240218-190556-389",
+    "P03-20240218-190556-391",
+    "P03-20240218-190556-392",
+    "P03-20240218-190556-393",
+    "P03-20240218-190556-394",
+    "P03-20240218-190556-395",
+    "P03-20240218-190556-396",
+    "P03-20240218-190556-397",
+    "P03-20240218-190556-398",
+    "P03-20240218-190556-399"
+   ],
+   "rationale": "The person moves sliced mushrooms from the chopping board into a bowl, picking up any slices that fall on the counter."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Clean up potato peels and peeler",
+   "action_ids": [
+    "P03-20240218-190556-390",
+    "P03-20240218-190556-400",
+    "P03-20240218-190556-401",
+    "P03-20240218-190556-403",
+    "P03-20240218-190556-404"
+   ],
+   "rationale": "The person gathers potato skins from the chopping board and floor, and taps the peeler to clean it."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Rearrange items on the kitchen counter",
+   "action_ids": [
+    "P03-20240218-190556-402",
+    "P03-20240218-190556-405",
+    "P03-20240218-190556-406",
+    "P03-20240218-190556-407",
+    "P03-20240218-190556-408"
+   ],
+   "rationale": "The person turns the chopping board and moves the recipe card and plastic colander to make space."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Clean hands and knife from onion bits",
+   "action_ids": [
+    "P03-20240218-190556-449",
+    "P03-20240218-190556-450",
+    "P03-20240218-190556-451",
+    "P03-20240218-190556-454",
+    "P03-20240218-190556-455",
+    "P03-20240218-190556-457",
+    "P03-20240218-190556-458"
+   ],
+   "rationale": "The person wipes onion bits off their hands using a knife, then washes and dries their hands."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Retrieve ingredients and tools for cooking",
+   "action_ids": [
+    "P03-20240218-190556-459",
+    "P03-20240218-190556-467",
+    "P03-20240218-190556-468",
+    "P03-20240218-190556-471",
+    "P03-20240218-190556-472",
+    "P03-20240218-190556-475",
+    "P03-20240218-190556-476",
+    "P03-20240218-190556-477"
+   ],
+   "rationale": "The person opens drawers and the fridge to get tomato puree, butter, and a small bowl."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Transfer chopped onion to a small bowl",
+   "action_ids": [
+    "P03-20240218-190556-478",
+    "P03-20240218-190556-479",
+    "P03-20240218-190556-482",
+    "P03-20240218-190556-483",
+    "P03-20240218-190556-484",
+    "P03-20240218-190556-485",
+    "P03-20240218-190556-486",
+    "P03-20240218-190556-487",
+    "P03-20240218-190556-488",
+    "P03-20240218-190556-489",
+    "P03-20240218-190556-490",
+    "P03-20240218-190556-491",
+    "P03-20240218-190556-492",
+    "P03-20240218-190556-493",
+    "P03-20240218-190556-494",
+    "P03-20240218-190556-495",
+    "P03-20240218-190556-496",
+    "P03-20240218-190556-497",
+    "P03-20240218-190556-498"
+   ],
+   "rationale": "The person pushes chopped onions from the chopping board into a bowl and gathers any spilled pieces from the counter."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Dispose of food waste into the bin",
+   "action_ids": [
+    "P03-20240218-190556-452",
+    "P03-20240218-190556-453",
+    "P03-20240218-190556-480",
+    "P03-20240218-190556-481",
+    "P03-20240218-190556-499",
+    "P03-20240218-190556-500",
+    "P03-20240218-190556-501",
+    "P03-20240218-190556-502",
+    "P03-20240218-190556-503",
+    "P03-20240218-190556-504",
+    "P03-20240218-190556-505",
+    "P03-20240218-190556-506",
+    "P03-20240218-190556-507",
+    "P03-20240218-190556-508"
+   ],
+   "rationale": "The person gathers onion and potato peels from the counter and floor, opens the food waste bin, and throws the peels inside."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P03-20240218-190556-224",
+  "P03-20240218-190556-225",
+  "P03-20240218-190556-233",
+  "P03-20240218-190556-294",
+  "P03-20240218-190556-409",
+  "P03-20240218-190556-410",
+  "P03-20240218-190556-420",
+  "P03-20240218-190556-421",
+  "P03-20240218-190556-422",
+  "P03-20240218-190556-456",
+  "P03-20240218-190556-464",
+  "P03-20240218-190556-465",
+  "P03-20240218-190556-466"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

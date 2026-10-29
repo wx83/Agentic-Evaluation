@@ -1,0 +1,201 @@
+{
+ "overall_goal": "Tend to the cooking food, wash the dishes, and clean the kitchen counters",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Tend to the food cooking in the pan",
+   "action_ids": [
+    "P08-20240617-184909-432",
+    "P08-20240617-184909-438",
+    "P08-20240617-184909-445",
+    "P08-20240617-184909-449",
+    "P08-20240617-184909-450",
+    "P08-20240617-184909-451",
+    "P08-20240617-184909-452",
+    "P08-20240617-184909-457",
+    "P08-20240617-184909-458",
+    "P08-20240617-184909-474",
+    "P08-20240617-184909-505",
+    "P08-20240617-184909-512",
+    "P08-20240617-184909-516",
+    "P08-20240617-184909-571"
+   ],
+   "rationale": "The person repeatedly checks the pan, adjusts the temperature, stirs the food with a spatula, and waits for it to cook."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Check the oven",
+   "action_ids": [
+    "P08-20240617-184909-439",
+    "P08-20240617-184909-440",
+    "P08-20240617-184909-441",
+    "P08-20240617-184909-444"
+   ],
+   "rationale": "The person puts on an oven mitt and opens the oven door to check inside."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Retrieve and put away seasonings",
+   "action_ids": [
+    "P08-20240617-184909-479",
+    "P08-20240617-184909-485",
+    "P08-20240617-184909-486",
+    "P08-20240617-184909-494",
+    "P08-20240617-184909-495",
+    "P08-20240617-184909-509",
+    "P08-20240617-184909-510",
+    "P08-20240617-184909-511"
+   ],
+   "rationale": "The person handles a pepper grinder and a bottle of sesame oil, eventually closing the bottle and returning it to the cabinet."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Clean up food scraps and throw them away",
+   "action_ids": [
+    "P08-20240617-184909-501",
+    "P08-20240617-184909-502",
+    "P08-20240617-184909-503",
+    "P08-20240617-184909-504",
+    "P08-20240617-184909-568",
+    "P08-20240617-184909-569",
+    "P08-20240617-184909-570",
+    "P08-20240617-184909-605",
+    "P08-20240617-184909-606"
+   ],
+   "rationale": "The person picks up fallen food scraps from the floor and counter, throws them in the trash, and wipes their hands."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Prepare the sink and wash the cutting board",
+   "action_ids": [
+    "P08-20240617-184909-475",
+    "P08-20240617-184909-476",
+    "P08-20240617-184909-517",
+    "P08-20240617-184909-518",
+    "P08-20240617-184909-519",
+    "P08-20240617-184909-520",
+    "P08-20240617-184909-521",
+    "P08-20240617-184909-522",
+    "P08-20240617-184909-523",
+    "P08-20240617-184909-524",
+    "P08-20240617-184909-525",
+    "P08-20240617-184909-526",
+    "P08-20240617-184909-527",
+    "P08-20240617-184909-528",
+    "P08-20240617-184909-529",
+    "P08-20240617-184909-530"
+   ],
+   "rationale": "The person brings items to the sink, prepares the sponge with dish soap, and washes the cutting board."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Wash the pot top, bowl, and plate",
+   "action_ids": [
+    "P08-20240617-184909-531",
+    "P08-20240617-184909-532",
+    "P08-20240617-184909-533",
+    "P08-20240617-184909-534",
+    "P08-20240617-184909-535",
+    "P08-20240617-184909-538",
+    "P08-20240617-184909-539",
+    "P08-20240617-184909-540",
+    "P08-20240617-184909-541",
+    "P08-20240617-184909-542",
+    "P08-20240617-184909-543",
+    "P08-20240617-184909-544",
+    "P08-20240617-184909-545"
+   ],
+   "rationale": "The person continues washing dishes, specifically cleaning a pot lid, a bowl, and a grey plate, placing them on the drying rack."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Wash the air fryer parts and measuring cups",
+   "action_ids": [
+    "P08-20240617-184909-536",
+    "P08-20240617-184909-537",
+    "P08-20240617-184909-546",
+    "P08-20240617-184909-547",
+    "P08-20240617-184909-548",
+    "P08-20240617-184909-549",
+    "P08-20240617-184909-550",
+    "P08-20240617-184909-551",
+    "P08-20240617-184909-552",
+    "P08-20240617-184909-553",
+    "P08-20240617-184909-554",
+    "P08-20240617-184909-555",
+    "P08-20240617-184909-556",
+    "P08-20240617-184909-557",
+    "P08-20240617-184909-558",
+    "P08-20240617-184909-559",
+    "P08-20240617-184909-560"
+   ],
+   "rationale": "The person cleans the air fryer vents, tray, and interior, as well as a mug and measuring cups, before turning off the tap."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Put away the baking tray and aluminum foil",
+   "action_ids": [
+    "P08-20240617-184909-561",
+    "P08-20240617-184909-562",
+    "P08-20240617-184909-563",
+    "P08-20240617-184909-564",
+    "P08-20240617-184909-565",
+    "P08-20240617-184909-566"
+   ],
+   "rationale": "The person organizes the drying rack by moving a baking tray and puts a package of aluminum foil away in a cabinet."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Wash the knives and tongs",
+   "action_ids": [
+    "P08-20240617-184909-577",
+    "P08-20240617-184909-578",
+    "P08-20240617-184909-579",
+    "P08-20240617-184909-580",
+    "P08-20240617-184909-581",
+    "P08-20240617-184909-582",
+    "P08-20240617-184909-583",
+    "P08-20240617-184909-584",
+    "P08-20240617-184909-585",
+    "P08-20240617-184909-586",
+    "P08-20240617-184909-587",
+    "P08-20240617-184909-588",
+    "P08-20240617-184909-589",
+    "P08-20240617-184909-590",
+    "P08-20240617-184909-591",
+    "P08-20240617-184909-592",
+    "P08-20240617-184909-593",
+    "P08-20240617-184909-594",
+    "P08-20240617-184909-595"
+   ],
+   "rationale": "The person gathers utensils, turns the tap back on, and washes knives and tongs with a sponge before placing them on the drying rack."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Clean and put away the kitchen scale",
+   "action_ids": [
+    "P08-20240617-184909-596",
+    "P08-20240617-184909-597",
+    "P08-20240617-184909-598",
+    "P08-20240617-184909-599",
+    "P08-20240617-184909-600",
+    "P08-20240617-184909-601",
+    "P08-20240617-184909-602",
+    "P08-20240617-184909-603",
+    "P08-20240617-184909-604"
+   ],
+   "rationale": "The person wipes down the kitchen scale and the surrounding counter space, turns the scale off, and pushes it to the back of the counter."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P08-20240617-184909-461",
+  "P08-20240617-184909-506",
+  "P08-20240617-184909-507",
+  "P08-20240617-184909-508",
+  "P08-20240617-184909-576"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

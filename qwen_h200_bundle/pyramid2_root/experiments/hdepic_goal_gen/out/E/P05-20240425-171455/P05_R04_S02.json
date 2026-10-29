@@ -1,0 +1,133 @@
+{
+ "overall_goal": "Chop the bacon, add it to a pan with oil, and fry it until crispy while seasoning with pepper",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve ingredients and set up the workspace",
+   "action_ids": [
+    "P05-20240425-171455-98",
+    "P05-20240425-171455-99",
+    "P05-20240425-171455-100",
+    "P05-20240425-171455-111",
+    "P05-20240425-171455-110",
+    "P05-20240425-171455-112",
+    "P05-20240425-171455-113",
+    "P05-20240425-171455-114",
+    "P05-20240425-171455-135",
+    "P05-20240425-171455-136",
+    "P05-20240425-171455-137"
+   ],
+   "rationale": "The person fetches the bacon from the fridge and sets up the chopping board and pan on the counter."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Open the bacon packet and select slices",
+   "action_ids": [
+    "P05-20240425-171455-140",
+    "P05-20240425-171455-141",
+    "P05-20240425-171455-142",
+    "P05-20240425-171455-143",
+    "P05-20240425-171455-144",
+    "P05-20240425-171455-145",
+    "P05-20240425-171455-146",
+    "P05-20240425-171455-147",
+    "P05-20240425-171455-148",
+    "P05-20240425-171455-149"
+   ],
+   "rationale": "The person cuts open the bacon packaging and counts out the desired number of slices."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Chop the bacon and transfer it to the pan",
+   "action_ids": [
+    "P05-20240425-171455-150",
+    "P05-20240425-171455-151",
+    "P05-20240425-171455-152",
+    "P05-20240425-171455-153",
+    "P05-20240425-171455-154",
+    "P05-20240425-171455-155",
+    "P05-20240425-171455-156",
+    "P05-20240425-171455-160",
+    "P05-20240425-171455-161",
+    "P05-20240425-171455-162",
+    "P05-20240425-171455-163",
+    "P05-20240425-171455-164",
+    "P05-20240425-171455-165",
+    "P05-20240425-171455-166",
+    "P05-20240425-171455-167",
+    "P05-20240425-171455-168",
+    "P05-20240425-171455-169"
+   ],
+   "rationale": "The person slices the selected bacon on the chopping board and scrapes the pieces into the frying pan."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Add oil to the pan and place it on the cooker",
+   "action_ids": [
+    "P05-20240425-171455-174",
+    "P05-20240425-171455-175",
+    "P05-20240425-171455-189",
+    "P05-20240425-171455-190",
+    "P05-20240425-171455-191",
+    "P05-20240425-171455-192",
+    "P05-20240425-171455-193",
+    "P05-20240425-171455-194",
+    "P05-20240425-171455-195"
+   ],
+   "rationale": "The person pours a small amount of olive oil over the bacon and moves the pan onto the hot stove."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Stir and fry the bacon on the cooker",
+   "action_ids": [
+    "P05-20240425-171455-199",
+    "P05-20240425-171455-200",
+    "P05-20240425-171455-201",
+    "P05-20240425-171455-202",
+    "P05-20240425-171455-203",
+    "P05-20240425-171455-204",
+    "P05-20240425-171455-244",
+    "P05-20240425-171455-260",
+    "P05-20240425-171455-261",
+    "P05-20240425-171455-262",
+    "P05-20240425-171455-277",
+    "P05-20240425-171455-278",
+    "P05-20240425-171455-299"
+   ],
+   "rationale": "The person uses a wooden spoon to stir and toss the bacon as it cooks on the heat."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Move the pan and continue cooking with pepper",
+   "action_ids": [
+    "P05-20240425-171455-311",
+    "P05-20240425-171455-310",
+    "P05-20240425-171455-312",
+    "P05-20240425-171455-313",
+    "P05-20240425-171455-314",
+    "P05-20240425-171455-315",
+    "P05-20240425-171455-316",
+    "P05-20240425-171455-356",
+    "P05-20240425-171455-357",
+    "P05-20240425-171455-358",
+    "P05-20240425-171455-359",
+    "P05-20240425-171455-360",
+    "P05-20240425-171455-381",
+    "P05-20240425-171455-382",
+    "P05-20240425-171455-383",
+    "P05-20240425-171455-384",
+    "P05-20240425-171455-386"
+   ],
+   "rationale": "The person shifts the pan to a cooler side of the stove, prepares the black pepper, and continues to stir the bacon."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P05-20240425-171455-101",
+  "P05-20240425-171455-109",
+  "P05-20240425-171455-385"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

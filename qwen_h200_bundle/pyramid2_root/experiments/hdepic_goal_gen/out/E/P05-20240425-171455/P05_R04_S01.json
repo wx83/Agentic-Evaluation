@@ -1,0 +1,66 @@
+{
+ "overall_goal": "Boil pasta in salted water",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Fill the kettle with water",
+   "action_ids": [
+    "P05-20240425-171455-88",
+    "P05-20240425-171455-89",
+    "P05-20240425-171455-90",
+    "P05-20240425-171455-91",
+    "P05-20240425-171455-92"
+   ],
+   "rationale": "The person opens the kettle, fills it with tap water, and places it on its base to boil."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Prepare the saucepan with boiling salted water",
+   "action_ids": [
+    "P05-20240425-171455-185",
+    "P05-20240425-171455-186",
+    "P05-20240425-171455-246",
+    "P05-20240425-171455-247",
+    "P05-20240425-171455-248",
+    "P05-20240425-171455-249",
+    "P05-20240425-171455-250",
+    "P05-20240425-171455-251",
+    "P05-20240425-171455-254",
+    "P05-20240425-171455-255",
+    "P05-20240425-171455-256"
+   ],
+   "rationale": "The person retrieves a saucepan, places it on the cooker, pours boiling water from the kettle into it, and adds salt."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Weigh the pasta",
+   "action_ids": [
+    "P05-20240425-171455-304",
+    "P05-20240425-171455-305",
+    "P05-20240425-171455-306",
+    "P05-20240425-171455-307",
+    "P05-20240425-171455-308",
+    "P05-20240425-171455-309"
+   ],
+   "rationale": "The person turns on the scales, places the pasta on them to measure the correct amount, and then sets it aside."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Add pasta to the boiling water and cover the pan",
+   "action_ids": [
+    "P05-20240425-171455-319",
+    "P05-20240425-171455-320",
+    "P05-20240425-171455-321",
+    "P05-20240425-171455-322",
+    "P05-20240425-171455-323",
+    "P05-20240425-171455-324"
+   ],
+   "rationale": "The person opens the pasta packet, pours it into the boiling water, shakes the pan to prevent sticking, and covers it with a lid."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

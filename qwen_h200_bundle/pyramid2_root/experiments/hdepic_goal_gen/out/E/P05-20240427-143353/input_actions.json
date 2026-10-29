@@ -1,0 +1,6613 @@
+{
+ "video_id": "P05-20240427-143353",
+ "existing_label": "Stir Fry (P05_R06)",
+ "source": "HD_EPIC_Narrations.pkl (official)",
+ "actions": [
+  {
+   "action_id": "P05-20240427-143353-1",
+   "start_s": 1.0,
+   "end_s": 4.34,
+   "narration": "Close door behind me with right hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "door",
+    "me"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-2",
+   "start_s": 4.44,
+   "end_s": 9.95,
+   "narration": "Open window with right hand because I'm hot.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "window"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-3",
+   "start_s": 10.05,
+   "end_s": 13.94,
+   "narration": "Take pan from shelf above cooker with right hand.",
+   "verbs": [
+    "take"
+   ],
+   "nouns": [
+    "pan",
+    "shelf",
+    "cooker"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-4",
+   "start_s": 13.99,
+   "end_s": 15.95,
+   "narration": "open drawer with left hand",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-5",
+   "start_s": 15.97,
+   "end_s": 17.24,
+   "narration": "take scales out of drawer with left hand",
+   "verbs": [
+    "take"
+   ],
+   "nouns": [
+    "scales",
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-6",
+   "start_s": 17.31,
+   "end_s": 17.99,
+   "narration": "Close drawer behind me with hip.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "drawer",
+    "me",
+    "hip"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-7",
+   "start_s": 17.98,
+   "end_s": 20.62,
+   "narration": "Place scales on counter with left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "scales",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-8",
+   "start_s": 20.4,
+   "end_s": 21.89,
+   "narration": "Turn on scales with left thumb whilst placing them on the counter.",
+   "verbs": [
+    "turn on",
+    "place"
+   ],
+   "nouns": [
+    "scales",
+    "left thumb",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-9",
+   "start_s": 21.61,
+   "end_s": 23.53,
+   "narration": "Remove the lid from pan with right hand whilst placing pan on scales with left hand.",
+   "verbs": [
+    "remove",
+    "place"
+   ],
+   "nouns": [
+    "lid",
+    "pan",
+    "scales"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-10",
+   "start_s": 23.63,
+   "end_s": 24.13,
+   "narration": "place pan lid on counter with right hand",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "pan lid",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-11",
+   "start_s": 27.02,
+   "end_s": 28.6,
+   "narration": "Remove sieve from rail above cooker with left hand whilst moving the warmer out of the way with my right hand.",
+   "verbs": [
+    "remove",
+    "move"
+   ],
+   "nouns": [
+    "sieve",
+    "rail",
+    "cooker",
+    "warmer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-12",
+   "start_s": 28.7,
+   "end_s": 30.77,
+   "narration": "Transfer scales to left hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "scales"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-13",
+   "start_s": 32.53,
+   "end_s": 33.35,
+   "narration": "Place scales on top of pan which is on top of the scales with left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "scales",
+    "top of pan",
+    "top of scales"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-14",
+   "start_s": 33.45,
+   "end_s": 35.73,
+   "narration": "Use right middle finger to change the unit on the scales from ounces to grams.",
+   "verbs": [
+    "change"
+   ],
+   "nouns": [
+    "right middle finger",
+    "unit",
+    "scales",
+    "ounces",
+    "grams"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-15",
+   "start_s": 36.66,
+   "end_s": 37.37,
+   "narration": "Open the cupboard with right hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "cupboard"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-16",
+   "start_s": 37.94,
+   "end_s": 38.63,
+   "narration": "Take out the bag of rice from the cupboard with my right hand.",
+   "verbs": [
+    "take out"
+   ],
+   "nouns": [
+    "bag of rice",
+    "cupboard"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-17",
+   "start_s": 38.64,
+   "end_s": 39.33,
+   "narration": "Transfer rice to my left hand so I can close the cupboard door with my right hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "rice",
+    "cupboard door"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-18",
+   "start_s": 40.32,
+   "end_s": 41.28,
+   "narration": "place rice on the counter with my left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "rice",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-19",
+   "start_s": 40.95,
+   "end_s": 41.64,
+   "narration": "Adjust the unit on scales with my right index finger.",
+   "verbs": [
+    "adjust"
+   ],
+   "nouns": [
+    "unit",
+    "scales",
+    "right index finger"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-20",
+   "start_s": 41.74,
+   "end_s": 43.6,
+   "narration": "Adjust the unit on scales with my right index finger.",
+   "verbs": [
+    "adjust"
+   ],
+   "nouns": [
+    "unit",
+    "scales",
+    "right index finger"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-21",
+   "start_s": 44.13,
+   "end_s": 45.25,
+   "narration": "Widen opening in rice bag with my right hand.",
+   "verbs": [
+    "open in"
+   ],
+   "nouns": [
+    "widen",
+    "rice bag"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-22",
+   "start_s": 47.79,
+   "end_s": 64.69,
+   "narration": "pour rice into the sieve above the pan with my right hand and left hand",
+   "verbs": [
+    "pour"
+   ],
+   "nouns": [
+    "rice",
+    "sieve",
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-23",
+   "start_s": 64.18,
+   "end_s": 65.79,
+   "narration": "Place rice bag down on counter with both hands.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "rice bag",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-24",
+   "start_s": 66.34,
+   "end_s": 66.94,
+   "narration": "pick up rice bag with both hands because I've decided I want more rice.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "rice bag",
+    "more rice"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-25",
+   "start_s": 67.57,
+   "end_s": 68.95,
+   "narration": "Pour rice into sieve above pan on scales with both hands.",
+   "verbs": [
+    "pour"
+   ],
+   "nouns": [
+    "rice",
+    "sieve",
+    "pan",
+    "scales"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-26",
+   "start_s": 71.13,
+   "end_s": 73.94,
+   "narration": "I decide that I still need more rice, so pour rice into sieve above scales with both hands.",
+   "verbs": [
+    "pour"
+   ],
+   "nouns": [
+    "more rice",
+    "rice",
+    "sieve",
+    "scales"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-27",
+   "start_s": 75.67,
+   "end_s": 77.28,
+   "narration": "Place bag of rice on counter with both hands.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "bag of rice",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-28",
+   "start_s": 77.79,
+   "end_s": 78.9,
+   "narration": "Move bag of rice to the back of the counter with my right hand.",
+   "verbs": [
+    "move"
+   ],
+   "nouns": [
+    "bag of rice",
+    "back of counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-29",
+   "start_s": 78.9,
+   "end_s": 81.87,
+   "narration": "Pick up sieve with rice in it from pan.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "sieve",
+    "rice",
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-30",
+   "start_s": 81.62,
+   "end_s": 82.24,
+   "narration": "Transfer sieve to left hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "sieve"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-31",
+   "start_s": 82.49,
+   "end_s": 84.5,
+   "narration": "pick up washing up bowl from sink because i want the water to rinse the rice to go directly down the drain",
+   "verbs": [
+    "pick up",
+    "rinse"
+   ],
+   "nouns": [
+    "washing up bowl",
+    "sink",
+    "water",
+    "rice",
+    "drain"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-32",
+   "start_s": 84.6,
+   "end_s": 86.0,
+   "narration": "put down washing up bowl in left hand side of sink so right hand side is clear",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "washing up bowl",
+    "left hand side of sink",
+    "right hand side"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-33",
+   "start_s": 86.1,
+   "end_s": 86.8,
+   "narration": "Turn on cold tap with right hand whilst holding the sieve with rice in in my left hand.",
+   "verbs": [
+    "turn on",
+    "hold"
+   ],
+   "nouns": [
+    "cold tap",
+    "sieve",
+    "rice"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-34",
+   "start_s": 86.9,
+   "end_s": 88.46,
+   "narration": "move tap around the sink so the water rinses the rubbish down the plug",
+   "verbs": [
+    "move"
+   ],
+   "nouns": [
+    "tap",
+    "sink",
+    "water",
+    "rubbish",
+    "plug"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-35",
+   "start_s": 88.77,
+   "end_s": 89.87,
+   "narration": "Transfer sieve to right hand and rinse under the cold water. This is how it washes the starch out of the rice so it doesn't stick.",
+   "verbs": [
+    "transfer",
+    "rinse under"
+   ],
+   "nouns": [
+    "sieve",
+    "cold water",
+    "starch",
+    "rice"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-36",
+   "start_s": 89.97,
+   "end_s": 130.7,
+   "narration": "Shake sieve with rice in to rinse the starch out under the running water.",
+   "verbs": [
+    "shake",
+    "rinse out"
+   ],
+   "nouns": [
+    "sieve",
+    "rice",
+    "starch",
+    "running water"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-37",
+   "start_s": 131.21,
+   "end_s": 132.56,
+   "narration": "turn off cold tap with my left hand whilst holding the sieve with my right hand.",
+   "verbs": [
+    "turn off",
+    "hold"
+   ],
+   "nouns": [
+    "cold tap",
+    "sieve"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-38",
+   "start_s": 132.15,
+   "end_s": 138.38,
+   "narration": "Shake sieve with rice in up and down above sink to get rid of excess water.",
+   "verbs": [
+    "shake",
+    "get rid of"
+   ],
+   "nouns": [
+    "sieve",
+    "rice",
+    "sink",
+    "excess water"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-39",
+   "start_s": 139.82,
+   "end_s": 140.64,
+   "narration": "Tip washed rice from sieve into pan, which is on the scales.",
+   "verbs": [
+    "tip"
+   ],
+   "nouns": [
+    "washed rice",
+    "sieve",
+    "pan",
+    "scales",
+    "."
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-40",
+   "start_s": 140.74,
+   "end_s": 143.6,
+   "narration": "Tap the sieve on pan to get rid of any rice that's left over in the sieve.",
+   "verbs": [
+    "tap",
+    "get rid of"
+   ],
+   "nouns": [
+    "sieve",
+    "pan",
+    "any rice"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-41",
+   "start_s": 142.83,
+   "end_s": 143.38,
+   "narration": "Turn over sieve.",
+   "verbs": [
+    "turn over"
+   ],
+   "nouns": [
+    "sieve"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-42",
+   "start_s": 145.46,
+   "end_s": 147.7,
+   "narration": "hang sieve on the rail above the cooker with my right hand.",
+   "verbs": [
+    "hang"
+   ],
+   "nouns": [
+    "sieve",
+    "rail",
+    "cooker"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-43",
+   "start_s": 149.5,
+   "end_s": 151.01,
+   "narration": "Turn off scales with my right middle finger.",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "scales",
+    "right middle finger"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-44",
+   "start_s": 151.77,
+   "end_s": 152.52,
+   "narration": "pick up glass of water from the draining board with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "glass of water",
+    "draining board"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-45",
+   "start_s": 152.62,
+   "end_s": 153.16,
+   "narration": "Turn on tap with my right hand whilst holding the glass in my left hand.",
+   "verbs": [
+    "turn on",
+    "hold"
+   ],
+   "nouns": [
+    "tap",
+    "glass"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-46",
+   "start_s": 153.26,
+   "end_s": 153.57,
+   "narration": "transfer glass to right hand and hold under the running water.",
+   "verbs": [
+    "transfer",
+    "hold under"
+   ],
+   "nouns": [
+    "glass",
+    "running water"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-47",
+   "start_s": 153.67,
+   "end_s": 155.24,
+   "narration": "Turn on the tap more with my left hand so the glass fills up faster.",
+   "verbs": [
+    "turn on"
+   ],
+   "nouns": [
+    "tap",
+    "glass"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-48",
+   "start_s": 154.8,
+   "end_s": 155.54,
+   "narration": "Turn off tap with my left hand whilst holding glass in my right hand.",
+   "verbs": [
+    "turn off",
+    "hold"
+   ],
+   "nouns": [
+    "tap",
+    "glass"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-49",
+   "start_s": 156.55,
+   "end_s": 157.99,
+   "narration": "turn on the scales with my left index finger while holding a glass of water in my right hand",
+   "verbs": [
+    "turn on",
+    "hold"
+   ],
+   "nouns": [
+    "scales",
+    "left index finger",
+    "glass of water"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-50",
+   "start_s": 159.68,
+   "end_s": 162.37,
+   "narration": "Pour water from the pint glass in my right hand into the pan with rice in which is on the scales.",
+   "verbs": [
+    "pour"
+   ],
+   "nouns": [
+    "water",
+    "pint glass",
+    "pan",
+    "rice",
+    "scales"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-51",
+   "start_s": 168.18,
+   "end_s": 169.81,
+   "narration": "Turn on tap with my left hand whilst holding the pint glass under the tap with my right hand.",
+   "verbs": [
+    "turn on",
+    "hold"
+   ],
+   "nouns": [
+    "tap",
+    "pint glass"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-52",
+   "start_s": 169.91,
+   "end_s": 170.42,
+   "narration": "Turn off tap with my left hand.",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "tap"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-53",
+   "start_s": 171.49,
+   "end_s": 180.75,
+   "narration": "Pour water from the pint glass in my right hand into the pan with rice in it.",
+   "verbs": [
+    "pour"
+   ],
+   "nouns": [
+    "water",
+    "pint glass",
+    "pan",
+    "rice"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-54",
+   "start_s": 180.73,
+   "end_s": 181.51,
+   "narration": "Put down pint glass on the counter with my right hand.",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "pint glass",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-55",
+   "start_s": 181.61,
+   "end_s": 182.74,
+   "narration": "pick up the pan from the scales with both hands.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "pan",
+    "scales"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-56",
+   "start_s": 182.84,
+   "end_s": 183.44,
+   "narration": "Transfer pan just to right hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-57",
+   "start_s": 183.54,
+   "end_s": 185.2,
+   "narration": "Pick up pan lid from counter with my left hand whilst holding the pan of rice in my right hand.",
+   "verbs": [
+    "pick up",
+    "hold"
+   ],
+   "nouns": [
+    "pan lid",
+    "counter",
+    "pan of rice"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-58",
+   "start_s": 186.82,
+   "end_s": 187.84,
+   "narration": "Put pan down on cooker with my right hand whilst holding the lid in my left hand.",
+   "verbs": [
+    "put down",
+    "hold"
+   ],
+   "nouns": [
+    "pan",
+    "cooker",
+    "lid"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-59",
+   "start_s": 187.84,
+   "end_s": 190.84,
+   "narration": "Scrape rice from the side of the pan down into the water with my right hand.",
+   "verbs": [
+    "scrape"
+   ],
+   "nouns": [
+    "rice",
+    "side of pan",
+    "water"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-60",
+   "start_s": 190.93,
+   "end_s": 191.52,
+   "narration": "Put lid of pan down on counter with my left hand.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "lid of pan",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-61",
+   "start_s": 191.74,
+   "end_s": 193.2,
+   "narration": "Take pinch of salt from the salt container at the back left of the cooker with my left hand.",
+   "verbs": [
+    "take"
+   ],
+   "nouns": [
+    "pinch of salt",
+    "salt container",
+    "back left of cooker"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-62",
+   "start_s": 193.02,
+   "end_s": 194.95,
+   "narration": "Sprinkle salt into the rice pan with my left hand.",
+   "verbs": [
+    "sprinkle"
+   ],
+   "nouns": [
+    "salt",
+    "rice pan"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-63",
+   "start_s": 195.8,
+   "end_s": 196.75,
+   "narration": "shake pan with my right hand to mix in the salt.",
+   "verbs": [
+    "shake",
+    "mix in"
+   ],
+   "nouns": [
+    "pan",
+    "salt"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-64",
+   "start_s": 196.9,
+   "end_s": 197.15,
+   "narration": "Pick up lid from the counter with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "lid",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-65",
+   "start_s": 197.28,
+   "end_s": 200.33,
+   "narration": "scrape rice down into the pan from the side so that it's under the water with my right hand.",
+   "verbs": [
+    "scrape down"
+   ],
+   "nouns": [
+    "rice",
+    "pan",
+    "side",
+    "water"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-66",
+   "start_s": 200.43,
+   "end_s": 201.54,
+   "narration": "Shake excess water off my hand into the pan.",
+   "verbs": [
+    "shake"
+   ],
+   "nouns": [
+    "excess water",
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-67",
+   "start_s": 201.55,
+   "end_s": 202.34,
+   "narration": "place the lid on pan with left hand",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "lid",
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-68",
+   "start_s": 202.44,
+   "end_s": 203.35,
+   "narration": "Lift up right hand cooker lid with my right hand.",
+   "verbs": [
+    "lift"
+   ],
+   "nouns": [
+    "right hand cooker lid"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-69",
+   "start_s": 203.4,
+   "end_s": 204.46,
+   "narration": "Slide the pan of rice onto the cool side of the cooker on the right with my left hand.",
+   "verbs": [
+    "slide"
+   ],
+   "nouns": [
+    "pan of rice",
+    "cool side of cooker",
+    "right"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-70",
+   "start_s": 207.9,
+   "end_s": 209.15,
+   "narration": "Take phone out of pocket with my right hand.",
+   "verbs": [
+    "take"
+   ],
+   "nouns": [
+    "phone",
+    "pocket"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-71",
+   "start_s": 209.25,
+   "end_s": 211.59,
+   "narration": "Set timer on my phone.",
+   "verbs": [
+    "set"
+   ],
+   "nouns": [
+    "timer",
+    "phone"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-72",
+   "start_s": 210.8,
+   "end_s": 213.01,
+   "narration": "sleep phone with my right thumb",
+   "verbs": [
+    "sleep"
+   ],
+   "nouns": [
+    "phone",
+    "right thumb"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-73",
+   "start_s": 214.61,
+   "end_s": 215.63,
+   "narration": "Place phone in my right hand pocket with my right hand",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "phone",
+    "right hand pocket"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-74",
+   "start_s": 215.03,
+   "end_s": 215.78,
+   "narration": "Turn off scales with my left index finger.",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "scales",
+    "left index finger"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-75",
+   "start_s": 215.72,
+   "end_s": 217.65,
+   "narration": "Pick up scales from the counter with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "scales",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-76",
+   "start_s": 220.25,
+   "end_s": 221.4,
+   "narration": "Place scales on the counter with my left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "scales",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-77",
+   "start_s": 223.78,
+   "end_s": 224.34,
+   "narration": "Pick up empty pint glass from the counter with my right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "empty pint glass",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-78",
+   "start_s": 224.9,
+   "end_s": 226.37,
+   "narration": "Turn on cold tap with my left hand whilst holding the pint glass under the tap with my right hand.",
+   "verbs": [
+    "turn on",
+    "hold"
+   ],
+   "nouns": [
+    "cold tap",
+    "pint glass",
+    "tap"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-79",
+   "start_s": 226.47,
+   "end_s": 228.12,
+   "narration": "turn off cold tap with my left hand.",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "cold tap"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-80",
+   "start_s": 228.22,
+   "end_s": 230.64,
+   "narration": "Use my right hand to take a drink of water from the pint glass.",
+   "verbs": [
+    "take"
+   ],
+   "nouns": [
+    "drink of water",
+    "pint glass"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-81",
+   "start_s": 233.0,
+   "end_s": 237.25,
+   "narration": "Transfer pint glass to my left hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "pint glass"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-82",
+   "start_s": 237.07,
+   "end_s": 238.19,
+   "narration": "Place empty pint glass down on the draining board with my left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "empty pint glass",
+    "draining board"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-83",
+   "start_s": 238.2,
+   "end_s": 241.77,
+   "narration": "Pick up bag of rice from the counter with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bag of rice",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-84",
+   "start_s": 241.79,
+   "end_s": 243.42,
+   "narration": "open cupboard with my right hand",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "cupboard"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-85",
+   "start_s": 243.14,
+   "end_s": 244.55,
+   "narration": "Place rice on bottom shelf of cupboard with both hands.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "rice",
+    "bottom shelf of cupboard"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-86",
+   "start_s": 244.49,
+   "end_s": 246.13,
+   "narration": "Close cupboard door with my right hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "cupboard door"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-87",
+   "start_s": 246.09,
+   "end_s": 248.98,
+   "narration": "Open fridge door with my right hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "fridge door"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-88",
+   "start_s": 248.94,
+   "end_s": 251.44,
+   "narration": "take out carrot from the third shelf down in the fridge with my left hand.",
+   "verbs": [
+    "take out"
+   ],
+   "nouns": [
+    "carrot",
+    "third shelf",
+    "fridge"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-89",
+   "start_s": 251.41,
+   "end_s": 254.79,
+   "narration": "Open the plastic bag in the third shelf down in the fridge with both hands whilst holding a carrot in my left hand.",
+   "verbs": [
+    "open",
+    "hold"
+   ],
+   "nouns": [
+    "plastic bag",
+    "third shelf",
+    "fridge",
+    "carrot"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-90",
+   "start_s": 254.05,
+   "end_s": 259.14,
+   "narration": "Take a carrot out of the plastic bag on the third shelf down in the fridge in my right hand whilst holding a carrot in my left hand.",
+   "verbs": [
+    "take",
+    "hold"
+   ],
+   "nouns": [
+    "carrot",
+    "plastic bag",
+    "third shelf",
+    "fridge"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-91",
+   "start_s": 260.76,
+   "end_s": 261.76,
+   "narration": "Push bag of carrots back towards the back of the third shelf down in the fridge with my right hand.",
+   "verbs": [
+    "push"
+   ],
+   "nouns": [
+    "bag of carrots",
+    "back of third shelf",
+    "fridge"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-92",
+   "start_s": 272.32,
+   "end_s": 274.96,
+   "narration": "Take spring onions out of a third shelf up in the fridge with my right hand.",
+   "verbs": [
+    "take"
+   ],
+   "nouns": [
+    "spring onions",
+    "third shelf",
+    "fridge"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-93",
+   "start_s": 288.8,
+   "end_s": 290.63,
+   "narration": "Close fridge door with my right hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "fridge door"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-94",
+   "start_s": 293.28,
+   "end_s": 294.33,
+   "narration": "place carrots and spring onions down on the counter with my left hand",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "carrots",
+    "spring onions",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-95",
+   "start_s": 295.77,
+   "end_s": 296.92,
+   "narration": "Open the corner cupboard with my left hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "corner cupboard"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-96",
+   "start_s": 297.72,
+   "end_s": 298.45,
+   "narration": "take sriracha sauce out of the top shelf of the corner cupboard with my right hand.",
+   "verbs": [
+    "take"
+   ],
+   "nouns": [
+    "sriracha sauce",
+    "top shelf of corner cupboard"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-97",
+   "start_s": 298.55,
+   "end_s": 298.9,
+   "narration": "Transfer sriracha sauce to my left hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "sriracha sauce"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-98",
+   "start_s": 299.25,
+   "end_s": 300.09,
+   "narration": "Take out soy sauce from the top shelf of the cupboard with my right hand.",
+   "verbs": [
+    "take out"
+   ],
+   "nouns": [
+    "soy sauce",
+    "top shelf of cupboard"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-99",
+   "start_s": 300.13,
+   "end_s": 301.94,
+   "narration": "Look at label of soy sauce to check that I've got the correct one.",
+   "verbs": [
+    "look at"
+   ],
+   "nouns": [
+    "label of soy sauce",
+    "correct one"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-100",
+   "start_s": 302.52,
+   "end_s": 303.38,
+   "narration": "Close the corner cupboard door with my right hand whilst holding the soy sauce.",
+   "verbs": [
+    "close",
+    "hold"
+   ],
+   "nouns": [
+    "corner cupboard door",
+    "soy sauce"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-101",
+   "start_s": 304.61,
+   "end_s": 305.9,
+   "narration": "Place sriracha and soy sauce down on counter with both hands.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "sriracha",
+    "soy sauce",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-102",
+   "start_s": 306.0,
+   "end_s": 308.56,
+   "narration": "open cupboard door",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "cupboard door"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-103",
+   "start_s": 308.66,
+   "end_s": 310.63,
+   "narration": "Take peanut butter out of the top shelf of the cupboard with my right hand.",
+   "verbs": [
+    "take"
+   ],
+   "nouns": [
+    "peanut butter",
+    "top shelf of cupboard"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-104",
+   "start_s": 310.73,
+   "end_s": 311.51,
+   "narration": "Place peanut butter back on the top shelf with a cup with my right hand",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "peanut butter",
+    "top shelf",
+    "cup"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-105",
+   "start_s": 311.61,
+   "end_s": 312.85,
+   "narration": "take out the other peanut butter from the top shelf of the cupboard with my right hand because I like it more.",
+   "verbs": [
+    "take out"
+   ],
+   "nouns": [
+    "other peanut butter",
+    "top shelf of cupboard"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-106",
+   "start_s": 312.91,
+   "end_s": 313.55,
+   "narration": "Close the cupboard door with my left hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "cupboard door"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-107",
+   "start_s": 313.65,
+   "end_s": 315.41,
+   "narration": "Place peanut butter on the counter with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "peanut butter",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-108",
+   "start_s": 317.89,
+   "end_s": 319.68,
+   "narration": "open drawer with my left hand",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-109",
+   "start_s": 319.78,
+   "end_s": 321.03,
+   "narration": "Take teaspoon out of the cupboard drawer with my right hand.",
+   "verbs": [
+    "take"
+   ],
+   "nouns": [
+    "teaspoon",
+    "cupboard drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-111",
+   "start_s": 321.0,
+   "end_s": 324.25,
+   "narration": "transfer teaspoon to my left hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "teaspoon"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-110",
+   "start_s": 321.11,
+   "end_s": 323.48,
+   "narration": "Close cutlery drawer with my left hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "cutlery drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-112",
+   "start_s": 324.33,
+   "end_s": 327.27,
+   "narration": "Open the fridge door with my right hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "fridge door"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-113",
+   "start_s": 325.2,
+   "end_s": 340.7,
+   "narration": "close the fridge door with my right hand because I couldn't find what I was looking for.",
+   "verbs": [
+    "close",
+    "find",
+    "look for"
+   ],
+   "nouns": [
+    "fridge door"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-114",
+   "start_s": 339.15,
+   "end_s": 342.55,
+   "narration": "Open the cupboard door with my right hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "cupboard door"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-115",
+   "start_s": 341.9,
+   "end_s": 343.58,
+   "narration": "Open the cupboard door with my right hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "cupboard door"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-116",
+   "start_s": 343.25,
+   "end_s": 345.85,
+   "narration": "Take tin of coconut out of the top shelf of the cupboard with my right hand.",
+   "verbs": [
+    "take"
+   ],
+   "nouns": [
+    "tin of coconut",
+    "top shelf of cupboard"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-117",
+   "start_s": 345.85,
+   "end_s": 346.76,
+   "narration": "Close cupboard door with my left hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "cupboard door"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-118",
+   "start_s": 346.86,
+   "end_s": 347.48,
+   "narration": "Close cupboard door with my right hand whilst also holding a tin of coconut milk.",
+   "verbs": [
+    "close",
+    "hold"
+   ],
+   "nouns": [
+    "cupboard door",
+    "tin of coconut milk"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-119",
+   "start_s": 347.3,
+   "end_s": 351.31,
+   "narration": "Place a tin of coconut milk down on the countertop with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "tin of coconut milk",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-120",
+   "start_s": 351.26,
+   "end_s": 352.03,
+   "narration": "Transfer teaspoon to my right hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "teaspoon"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-121",
+   "start_s": 351.7,
+   "end_s": 352.82,
+   "narration": "Place teaspoon on the counter with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "teaspoon",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-122",
+   "start_s": 357.96,
+   "end_s": 359.1,
+   "narration": "Take knife out of the knife block in the drawer with my left hand.",
+   "verbs": [
+    "take"
+   ],
+   "nouns": [
+    "knife",
+    "knife block",
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-123",
+   "start_s": 359.2,
+   "end_s": 360.51,
+   "narration": "close the drawer with my right hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-124",
+   "start_s": 360.54,
+   "end_s": 362.56,
+   "narration": "Open vertical drawer with my right hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "vertical drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-125",
+   "start_s": 362.47,
+   "end_s": 364.48,
+   "narration": "Take chopping board out of the top shelf of the drawer with my right hand.",
+   "verbs": [
+    "take"
+   ],
+   "nouns": [
+    "chopping board",
+    "top shelf of drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-126",
+   "start_s": 364.44,
+   "end_s": 364.83,
+   "narration": "closer drawer with my leg.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "drawer",
+    "leg"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-127",
+   "start_s": 364.93,
+   "end_s": 365.97,
+   "narration": "place knife and chopping board down on counter",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "knife",
+    "chopping board",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-128",
+   "start_s": 366.06,
+   "end_s": 367.4,
+   "narration": "Take red onion and add to the basket on the wall with my left hand.",
+   "verbs": [
+    "take",
+    "add to"
+   ],
+   "nouns": [
+    "red onion",
+    "basket",
+    "wall"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-129",
+   "start_s": 367.46,
+   "end_s": 368.65,
+   "narration": "Place the onion down on chopping board with my left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "onion",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-130",
+   "start_s": 368.75,
+   "end_s": 370.56,
+   "narration": "brush bit of onion skin off the chopping board using the knife in my right hand because I don't want to accidentally eat it.",
+   "verbs": [
+    "brush"
+   ],
+   "nouns": [
+    "bit of onion skin",
+    "chopping board",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-131",
+   "start_s": 369.0,
+   "end_s": 375.0,
+   "narration": "Chop the onion in half using the knife in my right hand whilst holding the onion in my left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "onion",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-132",
+   "start_s": 375.1,
+   "end_s": 375.85,
+   "narration": "pick up onion half",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "onion"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-133",
+   "start_s": 375.95,
+   "end_s": 377.79,
+   "narration": "place one onion and half back in the basket on the wall because I don't want to eat a whole onion in one go.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "one onion",
+    "half",
+    "basket",
+    "wall",
+    "whole onion",
+    "one go"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-134",
+   "start_s": 377.8,
+   "end_s": 379.53,
+   "narration": "Brush onion skin off the chopping board with my right hand.",
+   "verbs": [
+    "brush"
+   ],
+   "nouns": [
+    "onion skin",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-135",
+   "start_s": 379.4,
+   "end_s": 380.15,
+   "narration": "pick up a knife with my right hand",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-136",
+   "start_s": 380.25,
+   "end_s": 381.5,
+   "narration": "scrape excess onion skin off the chopping board using the knife blade with my right hand.",
+   "verbs": [
+    "scrape"
+   ],
+   "nouns": [
+    "excess onion skin",
+    "chopping board",
+    "knife blade"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-137",
+   "start_s": 381.14,
+   "end_s": 382.64,
+   "narration": "Place the onion on the chopping board and chop off the root.",
+   "verbs": [
+    "place",
+    "chop off"
+   ],
+   "nouns": [
+    "onion",
+    "chopping board",
+    "root"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-138",
+   "start_s": 382.7,
+   "end_s": 384.45,
+   "narration": "Chop off the other end of the onion using the knife.",
+   "verbs": [
+    "chop off"
+   ],
+   "nouns": [
+    "other end of onion",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-139",
+   "start_s": 384.35,
+   "end_s": 384.8,
+   "narration": "Scrape root and top of onion off the chopping board with my knife blade in my right hand.",
+   "verbs": [
+    "scrape"
+   ],
+   "nouns": [
+    "root",
+    "top of onion",
+    "chopping board",
+    "knife blade"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-140",
+   "start_s": 384.89,
+   "end_s": 385.26,
+   "narration": "Put down knife on the chopping board with my right hand.",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "knife",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-141",
+   "start_s": 385.46,
+   "end_s": 392.99,
+   "narration": "Peel outer layer of onion skin off of the onion half.",
+   "verbs": [
+    "peel"
+   ],
+   "nouns": [
+    "outer layer of onion skin",
+    "onion half"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-142",
+   "start_s": 392.87,
+   "end_s": 393.53,
+   "narration": "throw a layer of onion skin on the counter with my right hand.",
+   "verbs": [
+    "throw"
+   ],
+   "nouns": [
+    "layer of onion skin",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-143",
+   "start_s": 393.56,
+   "end_s": 394.23,
+   "narration": "pick up the knife with my right hand",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-144",
+   "start_s": 394.33,
+   "end_s": 395.84,
+   "narration": "Scrape excess onion skin off the chopping board using the knife in my right hand.",
+   "verbs": [
+    "scrape"
+   ],
+   "nouns": [
+    "excess onion skin",
+    "chopping board",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-145",
+   "start_s": 395.88,
+   "end_s": 398.26,
+   "narration": "Scrape knife on chopping board to get rid of excess onion skin off the blade with my right hand.",
+   "verbs": [
+    "scrape",
+    "get rid of"
+   ],
+   "nouns": [
+    "knife",
+    "chopping board",
+    "excess onion skin",
+    "blade"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-146",
+   "start_s": 398.05,
+   "end_s": 399.0,
+   "narration": "Slide onion from one corner of the chopping board to the centre with my left hand.",
+   "verbs": [
+    "slide"
+   ],
+   "nouns": [
+    "onion",
+    "one corner of chopping board",
+    "centre"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-147",
+   "start_s": 399.09,
+   "end_s": 404.28,
+   "narration": "Chop onion half into quarters using the knife in my right hand whilst guiding with my left hand.",
+   "verbs": [
+    "chop",
+    "guide with"
+   ],
+   "nouns": [
+    "onion",
+    "quarters",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-148",
+   "start_s": 404.26,
+   "end_s": 406.08,
+   "narration": "Move onion pieces towards the top left of the chopping board using the knife in my right hand and my left hand.",
+   "verbs": [
+    "move"
+   ],
+   "nouns": [
+    "onion pieces",
+    "top left of chopping board",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-149",
+   "start_s": 405.7,
+   "end_s": 408.96,
+   "narration": "pick up carrot with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "carrot"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-150",
+   "start_s": 408.93,
+   "end_s": 412.54,
+   "narration": "Place tip of carrot on chopping board and chop off bad bit of carrot using the knife in my right hand.",
+   "verbs": [
+    "place",
+    "chop off"
+   ],
+   "nouns": [
+    "tip of carrot",
+    "chopping board",
+    "bad bit of carrot",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-151",
+   "start_s": 413.47,
+   "end_s": 413.99,
+   "narration": "Chop off end of carrot using the knife in my right hand.",
+   "verbs": [
+    "chop off"
+   ],
+   "nouns": [
+    "end of carrot",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-152",
+   "start_s": 413.89,
+   "end_s": 414.56,
+   "narration": "Slide discarded bits of carrots off the chopping board using the knife in my right hand.",
+   "verbs": [
+    "slide"
+   ],
+   "nouns": [
+    "discarded bits of carrots",
+    "chopping board",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-153",
+   "start_s": 414.66,
+   "end_s": 416.19,
+   "narration": "Turn over carrot in both hands whilst holding a knife in my right hand. This is to see if there are any more bad bits that I need to chop off.",
+   "verbs": [
+    "turn over",
+    "hold",
+    "be"
+   ],
+   "nouns": [
+    "carrot",
+    "knife",
+    "there",
+    "any more bad bits"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-154",
+   "start_s": 416.19,
+   "end_s": 421.38,
+   "narration": "Chop a bad bit of carrot using the knife in my right hand whilst holding the carrot in my left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "bad bit of carrot",
+    "knife",
+    "carrot"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-155",
+   "start_s": 421.29,
+   "end_s": 422.54,
+   "narration": "Pick up carrot in both hands and turn over to see if there are any more bad bits left on it.",
+   "verbs": [
+    "pick up",
+    "turn over",
+    "be"
+   ],
+   "nouns": [
+    "carrot",
+    "there",
+    "any more bad bits"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-156",
+   "start_s": 422.43,
+   "end_s": 423.37,
+   "narration": "Scrape discarded carrot off the chopping board using the knife in my right hand.",
+   "verbs": [
+    "scrape"
+   ],
+   "nouns": [
+    "discarded carrot",
+    "chopping board",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-157",
+   "start_s": 423.38,
+   "end_s": 426.43,
+   "narration": "slice another bad bit of carrot off using the knife in my right hand.",
+   "verbs": [
+    "slice off"
+   ],
+   "nouns": [
+    "another bad bit of carrot",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-158",
+   "start_s": 426.47,
+   "end_s": 427.38,
+   "narration": "Place carrot down on chopping board with my left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "carrot",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-159",
+   "start_s": 427.17,
+   "end_s": 447.15,
+   "narration": "Slice carrot using the knife in my right hand, using my left hand as a guide.",
+   "verbs": [
+    "slice"
+   ],
+   "nouns": [
+    "carrot",
+    "knife",
+    "guide"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-160",
+   "start_s": 446.86,
+   "end_s": 448.2,
+   "narration": "Place root of carrot that I don't want on the counter.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "root of carrot",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-161",
+   "start_s": 447.98,
+   "end_s": 448.72,
+   "narration": "pick up other carrot that's unsliced with my left hand from the counter",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "other carrot",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-162",
+   "start_s": 449.31,
+   "end_s": 450.27,
+   "narration": "slice off bad bit of carrot using the knife in my right hand.",
+   "verbs": [
+    "slice off"
+   ],
+   "nouns": [
+    "bad bit of carrot",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-163",
+   "start_s": 450.68,
+   "end_s": 451.42,
+   "narration": "Pick up Carrot with both hands and turn over to see if there are any bad bits that need chopping off.",
+   "verbs": [
+    "pick up",
+    "turn over",
+    "be"
+   ],
+   "nouns": [
+    "carrot",
+    "there",
+    "any bad bits"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-164",
+   "start_s": 452.11,
+   "end_s": 453.61,
+   "narration": "Move carrot that's already sliced up to the top of the chopping board so it's out of the way when I chop the next one.",
+   "verbs": [
+    "move up",
+    "chop"
+   ],
+   "nouns": [
+    "carrot",
+    "top of chopping board",
+    "next one"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-165",
+   "start_s": 453.68,
+   "end_s": 454.2,
+   "narration": "place carrot down on chopping board at left hand",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "carrot",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-166",
+   "start_s": 454.26,
+   "end_s": 457.19,
+   "narration": "slice carrot using the knife in my right hand whilst using my left hand as a guide.",
+   "verbs": [
+    "slice"
+   ],
+   "nouns": [
+    "carrot",
+    "knife",
+    "guide"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-167",
+   "start_s": 457.29,
+   "end_s": 458.24,
+   "narration": "Pick up end of carrot with my right hand because I don't want to eat it.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "end of carrot"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-168",
+   "start_s": 458.34,
+   "end_s": 459.08,
+   "narration": "throw away end of carrot with the rest of the food rubbish on the counter",
+   "verbs": [
+    "throw"
+   ],
+   "nouns": [
+    "end of carrot",
+    "rest of food rubbish",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-169",
+   "start_s": 459.71,
+   "end_s": 476.65,
+   "narration": "slice the carrot using the knife of my right hand.",
+   "verbs": [
+    "slice"
+   ],
+   "nouns": [
+    "carrot"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-171",
+   "start_s": 476.84,
+   "end_s": 477.81,
+   "narration": "Put root of carrot down with the rest of the food rubbish at my left hand.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "root of carrot",
+    "rest of food rubbish"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-170",
+   "start_s": 477.02,
+   "end_s": 477.46,
+   "narration": "pick up root of carrot from the chopping board with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "root of carrot",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-172",
+   "start_s": 477.91,
+   "end_s": 478.86,
+   "narration": "Pick up spring onions from the counter with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spring onions",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-173",
+   "start_s": 478.52,
+   "end_s": 480.29,
+   "narration": "Pull the elastic band holding the spring onions together off using my right hand, whilst also holding a knife in the right hand.",
+   "verbs": [
+    "pull",
+    "hold"
+   ],
+   "nouns": [
+    "elastic band",
+    "spring onions",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-174",
+   "start_s": 479.95,
+   "end_s": 483.84,
+   "narration": "Scrape all chopped ingredients over to one side of the chopping board. This leaves room to chop up the spring onions.",
+   "verbs": [
+    "scrape over",
+    "chop up"
+   ],
+   "nouns": [
+    "chopped ingredients",
+    "one side of chopping board",
+    "room",
+    "spring onions"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-175",
+   "start_s": 483.61,
+   "end_s": 485.18,
+   "narration": "Place spring onions down on the counter with my left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spring onions",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-176",
+   "start_s": 485.28,
+   "end_s": 486.96,
+   "narration": "pick up spring onions from the counter with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spring onions",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-177",
+   "start_s": 487.06,
+   "end_s": 488.61,
+   "narration": "chop away bad bits of spring onions",
+   "verbs": [
+    "chop away"
+   ],
+   "nouns": [
+    "bad bits of spring onions"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-178",
+   "start_s": 488.71,
+   "end_s": 491.19,
+   "narration": "pull away outer layer of spring onion with my right hand",
+   "verbs": [
+    "pull"
+   ],
+   "nouns": [
+    "outer layer of spring onion"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-179",
+   "start_s": 491.22,
+   "end_s": 494.35,
+   "narration": "chop away bad bits of spring onions using the knife in my right hand",
+   "verbs": [
+    "chop away"
+   ],
+   "nouns": [
+    "bad bits of spring onions",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-180",
+   "start_s": 493.24,
+   "end_s": 497.02,
+   "narration": "Pick up spring onion with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spring onion"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-181",
+   "start_s": 498.26,
+   "end_s": 500.08,
+   "narration": "Chop off end of spring onion.",
+   "verbs": [
+    "chop off"
+   ],
+   "nouns": [
+    "end of spring onion"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-182",
+   "start_s": 500.44,
+   "end_s": 501.94,
+   "narration": "Put down spring onion.",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "spring onion"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-183",
+   "start_s": 502.38,
+   "end_s": 504.01,
+   "narration": "chop off the end of the spring onion using the knife with my right hand",
+   "verbs": [
+    "chop off"
+   ],
+   "nouns": [
+    "end of spring onion",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-184",
+   "start_s": 504.1,
+   "end_s": 504.69,
+   "narration": "Put down spring onion",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "spring onion"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-185",
+   "start_s": 505.17,
+   "end_s": 505.68,
+   "narration": "Pick up spring onion from the counter with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spring onion",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-186",
+   "start_s": 506.29,
+   "end_s": 506.75,
+   "narration": "chop off end of spring onion using the knife in my right hand",
+   "verbs": [
+    "chop off"
+   ],
+   "nouns": [
+    "end of spring onion",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-187",
+   "start_s": 507.59,
+   "end_s": 510.47,
+   "narration": "Chop off bad bits of spring onion using the knife in my right hand.",
+   "verbs": [
+    "chop off"
+   ],
+   "nouns": [
+    "bad bits of spring onion",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-188",
+   "start_s": 511.37,
+   "end_s": 514.9,
+   "narration": "Pick up all three spring onions together with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "three spring onions"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-189",
+   "start_s": 515.21,
+   "end_s": 516.09,
+   "narration": "Put a knife on the chopping board with my right hand.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "knife",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-190",
+   "start_s": 516.57,
+   "end_s": 518.02,
+   "narration": "Turn off scales with my right middle finger.",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "scales",
+    "right middle finger"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-191",
+   "start_s": 521.27,
+   "end_s": 522.6,
+   "narration": "Pick up metal bowl from the shelf under the sink with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "metal bowl",
+    "shelf",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-192",
+   "start_s": 522.66,
+   "end_s": 526.13,
+   "narration": "transfer bowl to right hand and then place on the scales",
+   "verbs": [
+    "transfer",
+    "place on"
+   ],
+   "nouns": [
+    "bowl",
+    "scales"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-193",
+   "start_s": 526.23,
+   "end_s": 527.22,
+   "narration": "Turn on the scales with my right middle finger.",
+   "verbs": [
+    "turn on"
+   ],
+   "nouns": [
+    "scales",
+    "right middle finger"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-194",
+   "start_s": 527.25,
+   "end_s": 527.85,
+   "narration": "Pick up knife with my right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-195",
+   "start_s": 527.9,
+   "end_s": 528.95,
+   "narration": "Place a knife on the counter with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "knife",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-196",
+   "start_s": 528.85,
+   "end_s": 529.5,
+   "narration": "pick up spring onions from the chopping board with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spring onions",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-197",
+   "start_s": 529.53,
+   "end_s": 530.05,
+   "narration": "Transfer Spring Onions to Right Hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "spring onions"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-198",
+   "start_s": 530.01,
+   "end_s": 530.9,
+   "narration": "Place spring onions in the metal bowl on the scales of my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spring onions",
+    "metal bowl"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-199",
+   "start_s": 530.93,
+   "end_s": 533.38,
+   "narration": "take out spring onions from the metal bowl on the scales of my right hand.",
+   "verbs": [
+    "take out"
+   ],
+   "nouns": [
+    "spring onions",
+    "metal bowl"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-200",
+   "start_s": 533.35,
+   "end_s": 533.93,
+   "narration": "Place spring onions on the counter with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spring onions",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-201",
+   "start_s": 534.07,
+   "end_s": 536.94,
+   "narration": "pick up onion from the chopping board with both hands.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "onion",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-202",
+   "start_s": 537.02,
+   "end_s": 538.37,
+   "narration": "Place onions in the metal bowl on the scales.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "onions",
+    "metal bowl",
+    "scales"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-203",
+   "start_s": 538.46,
+   "end_s": 543.79,
+   "narration": "Reset scales to zero using my middle finger.",
+   "verbs": [
+    "reset"
+   ],
+   "nouns": [
+    "scales",
+    "zero",
+    "middle finger"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-204",
+   "start_s": 543.89,
+   "end_s": 545.43,
+   "narration": "Realise I accidentally turned off the scales instead of setting them to zero. So turn them on with my right hand middle finger.",
+   "verbs": [
+    "turn off",
+    "set",
+    "turn on"
+   ],
+   "nouns": [
+    "scales",
+    "zero",
+    "right hand middle finger"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-205",
+   "start_s": 545.53,
+   "end_s": 547.48,
+   "narration": "Realise that scales again didn't turn on, so turn them on with my right middle finger.",
+   "verbs": [
+    "turn on"
+   ],
+   "nouns": [
+    "scales",
+    "right middle finger"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-206",
+   "start_s": 546.78,
+   "end_s": 547.42,
+   "narration": "pick up chopping board from the counter with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "chopping board",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-207",
+   "start_s": 547.26,
+   "end_s": 552.77,
+   "narration": "Slide the carrots on the chopping board into the metal bowl which is on the scales with my right hand.",
+   "verbs": [
+    "slide"
+   ],
+   "nouns": [
+    "carrots",
+    "chopping board",
+    "metal bowl",
+    "scales"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-208",
+   "start_s": 552.27,
+   "end_s": 554.86,
+   "narration": "pick up piece of carrot that had fallen on the counter with my right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "piece of carrot",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-209",
+   "start_s": 554.95,
+   "end_s": 555.45,
+   "narration": "Place carrot in a metal bowl on top of the scales in my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "carrot",
+    "metal bowl",
+    "top of scales"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-210",
+   "start_s": 555.54,
+   "end_s": 557.18,
+   "narration": "Turn off scales with my right index finger",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "scales",
+    "right index finger"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-211",
+   "start_s": 556.98,
+   "end_s": 557.83,
+   "narration": "pick up spring onions with my left hand",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spring onions"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-212",
+   "start_s": 562.32,
+   "end_s": 563.06,
+   "narration": "turn on cold tap with my right hand.",
+   "verbs": [
+    "turn on"
+   ],
+   "nouns": [
+    "cold tap"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-213",
+   "start_s": 563.1,
+   "end_s": 563.51,
+   "narration": "Adjust taps so it's more towards the centre of the sink with my right hand.",
+   "verbs": [
+    "adjust"
+   ],
+   "nouns": [
+    "taps",
+    "centre of sink"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-214",
+   "start_s": 563.5,
+   "end_s": 568.52,
+   "narration": "Rinse spring onions under the tap with both hands.",
+   "verbs": [
+    "rinse"
+   ],
+   "nouns": [
+    "spring onions",
+    "tap"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-215",
+   "start_s": 568.62,
+   "end_s": 569.51,
+   "narration": "turn off tap with my right hand.",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "tap"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-216",
+   "start_s": 569.61,
+   "end_s": 574.1,
+   "narration": "Transfer spring onions to right hand and shake above the sink to get rid of excess water.",
+   "verbs": [
+    "transfer",
+    "shake above",
+    "get rid of"
+   ],
+   "nouns": [
+    "spring onions",
+    "sink",
+    "excess water"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-217",
+   "start_s": 574.2,
+   "end_s": 576.14,
+   "narration": "Transfer spring onions to left hand and place on chopping board.",
+   "verbs": [
+    "transfer",
+    "place on"
+   ],
+   "nouns": [
+    "spring onions",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-218",
+   "start_s": 577.89,
+   "end_s": 578.53,
+   "narration": "pick up knife with my right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-219",
+   "start_s": 578.57,
+   "end_s": 596.82,
+   "narration": "Slice spring onions using the knife in my right hand, using my left hand as a guide.",
+   "verbs": [
+    "slice"
+   ],
+   "nouns": [
+    "spring onions",
+    "knife",
+    "guide"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-220",
+   "start_s": 596.5,
+   "end_s": 597.77,
+   "narration": "pick up bits of spring onion that had fallen off the chopping board with my left hand and place back onto chopping board.",
+   "verbs": [
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "bits of spring onion",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-221",
+   "start_s": 598.88,
+   "end_s": 599.79,
+   "narration": "Place the knife and chopping board down on the counter with my left hand.",
+   "verbs": [
+    "place down"
+   ],
+   "nouns": [
+    "knife",
+    "chopping board",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-222",
+   "start_s": 603.32,
+   "end_s": 604.84,
+   "narration": "Take garlic out of the basket on the wall at the top with my left hand.",
+   "verbs": [
+    "take"
+   ],
+   "nouns": [
+    "garlic",
+    "basket",
+    "wall"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-223",
+   "start_s": 604.94,
+   "end_s": 606.42,
+   "narration": "Take one bulb of garlic out of the garlic packet.",
+   "verbs": [
+    "take"
+   ],
+   "nouns": [
+    "one bulb of garlic",
+    "garlic packet"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-224",
+   "start_s": 606.44,
+   "end_s": 606.92,
+   "narration": "throw garlic that I'm not using on the counter with my left hand.",
+   "verbs": [
+    "throw"
+   ],
+   "nouns": [
+    "garlic",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-225",
+   "start_s": 606.97,
+   "end_s": 614.59,
+   "narration": "Using both hands, take out a clove of garlic from the bulb.",
+   "verbs": [
+    "take out"
+   ],
+   "nouns": [
+    "clove of garlic",
+    "bulb"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-226",
+   "start_s": 614.53,
+   "end_s": 615.29,
+   "narration": "Pick up clove of garlic from the counter.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "clove of garlic",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-227",
+   "start_s": 616.62,
+   "end_s": 619.73,
+   "narration": "Put garlic that I don't want in the golden bowl on the bottom shelf in the corner with both hands.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "garlic",
+    "golden bowl",
+    "bottom shelf",
+    "corner"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-228",
+   "start_s": 619.83,
+   "end_s": 621.13,
+   "narration": "Pick up the knife in my right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-229",
+   "start_s": 621.15,
+   "end_s": 622.53,
+   "narration": "Scrape spring onion over to one side of the chopping board to leave room to chop the garlic.",
+   "verbs": [
+    "scrape",
+    "leave",
+    "chop"
+   ],
+   "nouns": [
+    "spring onion",
+    "one side of chopping board",
+    "room",
+    "garlic"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-230",
+   "start_s": 622.63,
+   "end_s": 623.25,
+   "narration": "place garlic down on chopping board with left hand",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "garlic",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-231",
+   "start_s": 622.91,
+   "end_s": 623.75,
+   "narration": "Place knife blade on top of the garlic and hit down with my left hand to crush it.",
+   "verbs": [
+    "place",
+    "hit with",
+    "crush"
+   ],
+   "nouns": [
+    "knife blade",
+    "top of garlic",
+    "garlic"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-232",
+   "start_s": 623.79,
+   "end_s": 627.2,
+   "narration": "slice end of garlic",
+   "verbs": [
+    "slice"
+   ],
+   "nouns": [
+    "end of garlic"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-233",
+   "start_s": 627.15,
+   "end_s": 629.13,
+   "narration": "Slice the other end off the garlic using the knife in my right hand",
+   "verbs": [
+    "slice"
+   ],
+   "nouns": [
+    "other end",
+    "garlic",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-234",
+   "start_s": 629.2,
+   "end_s": 631.74,
+   "narration": "shake garlic off the knife with my right hand whilst picking up the garlic in my left hand",
+   "verbs": [
+    "shake",
+    "pick up"
+   ],
+   "nouns": [
+    "garlic",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-235",
+   "start_s": 631.49,
+   "end_s": 633.36,
+   "narration": "remove rest of the garlic skin",
+   "verbs": [
+    "remove"
+   ],
+   "nouns": [
+    "rest of garlic skin"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-236",
+   "start_s": 633.15,
+   "end_s": 635.63,
+   "narration": "crush garlic with left hand on the chopping board.",
+   "verbs": [
+    "crush"
+   ],
+   "nouns": [
+    "garlic",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-237",
+   "start_s": 635.67,
+   "end_s": 637.19,
+   "narration": "move the rest of the garlic skin with both hands whilst holding the knife in my right hand.",
+   "verbs": [
+    "move",
+    "hold"
+   ],
+   "nouns": [
+    "rest of garlic skin",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-238",
+   "start_s": 637.27,
+   "end_s": 640.06,
+   "narration": "place garlic down on the chopping board with my left hand while scraping excess garlic skin off the chopping board using the knife in my right hand",
+   "verbs": [
+    "place",
+    "scrape"
+   ],
+   "nouns": [
+    "garlic",
+    "chopping board",
+    "excess garlic skin",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-239",
+   "start_s": 639.97,
+   "end_s": 649.57,
+   "narration": "slice garlic using the knife in my right hand.",
+   "verbs": [
+    "slice"
+   ],
+   "nouns": [
+    "garlic",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-240",
+   "start_s": 647.72,
+   "end_s": 651.76,
+   "narration": "Remove excess garlic from the knife blade which was stuck there with my left hand whilst holding the knife in my right hand.",
+   "verbs": [
+    "remove",
+    "hold"
+   ],
+   "nouns": [
+    "excess garlic",
+    "knife blade",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-241",
+   "start_s": 650.33,
+   "end_s": 651.12,
+   "narration": "place the knife down on the chopping board with my right hand.",
+   "verbs": [
+    "place down"
+   ],
+   "nouns": [
+    "knife",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-242",
+   "start_s": 654.4,
+   "end_s": 655.87,
+   "narration": "Open the bottom drawer with my left hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "bottom drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-243",
+   "start_s": 655.89,
+   "end_s": 658.21,
+   "narration": "Take out bag of cashew nuts in the bottom drawer with my right hand.",
+   "verbs": [
+    "take"
+   ],
+   "nouns": [
+    "bag of cashew nuts",
+    "bottom drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-244",
+   "start_s": 658.13,
+   "end_s": 658.84,
+   "narration": "Close bottom drawer with my left hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "bottom drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-245",
+   "start_s": 658.9,
+   "end_s": 659.45,
+   "narration": "transfer Cashew nuts to my left hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "cashew nuts"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-246",
+   "start_s": 659.53,
+   "end_s": 661.2,
+   "narration": "turn on the scales with my right index finger",
+   "verbs": [
+    "turn on"
+   ],
+   "nouns": [
+    "scales",
+    "right index finger"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-247",
+   "start_s": 661.2,
+   "end_s": 664.55,
+   "narration": "Weigh bag of cashew nuts by putting them on top of the bowl of carrots.",
+   "verbs": [
+    "weigh",
+    "put"
+   ],
+   "nouns": [
+    "bag of cashew nuts",
+    "cashew nuts",
+    "top of bowl of carrots"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-248",
+   "start_s": 664.57,
+   "end_s": 667.45,
+   "narration": "pick up bag of cashew nuts from on top of the scales with my right hand",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bag of cashew nuts",
+    "top of scales"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-249",
+   "start_s": 667.52,
+   "end_s": 667.99,
+   "narration": "transfer Cashew nuts to left hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "cashew nuts"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-251",
+   "start_s": 668.0,
+   "end_s": 670.07,
+   "narration": "Place cashew nuts at the back of a counter with my left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "cashew nuts",
+    "back of counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-250",
+   "start_s": 668.03,
+   "end_s": 669.04,
+   "narration": "Turn off scales with my right index finger.",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "scales",
+    "right index finger"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-252",
+   "start_s": 672.17,
+   "end_s": 673.51,
+   "narration": "Open top drawer with my left hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "top drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-253",
+   "start_s": 674.79,
+   "end_s": 676.06,
+   "narration": "move around plastic bags in the drawer with my right hand.",
+   "verbs": [
+    "move around"
+   ],
+   "nouns": [
+    "plastic bags",
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-254",
+   "start_s": 675.99,
+   "end_s": 676.74,
+   "narration": "Close drawer with my left hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-255",
+   "start_s": 676.65,
+   "end_s": 677.74,
+   "narration": "Open drawer with my left hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-256",
+   "start_s": 678.64,
+   "end_s": 679.95,
+   "narration": "pick up Tin Opener from the drawer with my right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "tin opener",
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-257",
+   "start_s": 680.34,
+   "end_s": 680.99,
+   "narration": "Close drawer with my left hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-258",
+   "start_s": 683.14,
+   "end_s": 684.19,
+   "narration": "Remove bowl of chopped up carrots and add some on top of the scales with my right hand.",
+   "verbs": [
+    "remove",
+    "add"
+   ],
+   "nouns": [
+    "bowl of chopped up carrots",
+    "some",
+    "top of scales"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-259",
+   "start_s": 684.15,
+   "end_s": 685.45,
+   "narration": "Turn on scales with my right index finger.",
+   "verbs": [
+    "turn on"
+   ],
+   "nouns": [
+    "scales",
+    "right index finger"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-260",
+   "start_s": 686.52,
+   "end_s": 687.97,
+   "narration": "Pick up sriracha sauce from the counter in my right hand and place it on the scales.",
+   "verbs": [
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "sriracha sauce",
+    "counter",
+    "scales"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-261",
+   "start_s": 690.53,
+   "end_s": 691.26,
+   "narration": "pick up Sriracha from the chopping board with my right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "sriracha",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-262",
+   "start_s": 691.29,
+   "end_s": 691.95,
+   "narration": "Place sriracha back on the counter with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "sriracha",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-263",
+   "start_s": 691.95,
+   "end_s": 692.98,
+   "narration": "Pick up soy sauce from the counter with my right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "soy sauce",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-264",
+   "start_s": 692.96,
+   "end_s": 694.4,
+   "narration": "Place soy sauce on the scales with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "soy sauce",
+    "scales"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-265",
+   "start_s": 695.66,
+   "end_s": 698.26,
+   "narration": "Remove soy sauce from scales with my right hand and place it on the counter.",
+   "verbs": [
+    "remove",
+    "place"
+   ],
+   "nouns": [
+    "soy sauce",
+    "scales",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-266",
+   "start_s": 698.29,
+   "end_s": 699.14,
+   "narration": "pick up a jar of peanut butter from the counter with my right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "jar of peanut butter",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-267",
+   "start_s": 699.11,
+   "end_s": 700.23,
+   "narration": "Place a jar of peanut butter on the scales of my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "jar of peanut butter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-268",
+   "start_s": 702.11,
+   "end_s": 703.25,
+   "narration": "Pick up jar of peanut butter from the scales with my right hand and place on the counter",
+   "verbs": [
+    "pick up",
+    "place on"
+   ],
+   "nouns": [
+    "jar of peanut butter",
+    "scales",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-269",
+   "start_s": 703.35,
+   "end_s": 703.91,
+   "narration": "pick up tin of coconut milk with my right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "tin of coconut milk"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-270",
+   "start_s": 703.77,
+   "end_s": 705.3,
+   "narration": "Shake tin of coconut milk with my right hand so the fat and water mix.",
+   "verbs": [
+    "shake"
+   ],
+   "nouns": [
+    "tin of coconut milk",
+    "fat",
+    "water"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-271",
+   "start_s": 706.8,
+   "end_s": 707.46,
+   "narration": "Place jar of coconut milk on the counter with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "jar of coconut milk",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-272",
+   "start_s": 708.12,
+   "end_s": 718.66,
+   "narration": "Open the tin of coconut milk using the tin opener.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "tin of coconut milk",
+    "tin opener"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-273",
+   "start_s": 718.6,
+   "end_s": 719.9,
+   "narration": "Place tin opener on the counter with my right hand because I'm finished with it.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "tin opener",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-274",
+   "start_s": 719.92,
+   "end_s": 724.19,
+   "narration": "Remove lid of coconut milk with my right hand.",
+   "verbs": [
+    "remove"
+   ],
+   "nouns": [
+    "lid of coconut milk"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-275",
+   "start_s": 724.29,
+   "end_s": 726.64,
+   "narration": "Shake excess coconut milk off the lid with my right hand.",
+   "verbs": [
+    "shake"
+   ],
+   "nouns": [
+    "excess coconut milk",
+    "lid"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-276",
+   "start_s": 728.39,
+   "end_s": 729.26,
+   "narration": "Lick thumb because I got some coconut milk on it.",
+   "verbs": [
+    "lick",
+    "got"
+   ],
+   "nouns": [
+    "thumb",
+    "some coconut milk"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-277",
+   "start_s": 729.48,
+   "end_s": 731.08,
+   "narration": "Use the left thumb to get excess solid coconut milk off the lid.",
+   "verbs": [
+    "get"
+   ],
+   "nouns": [
+    "left thumb",
+    "excess solid coconut milk",
+    "lid"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-278",
+   "start_s": 731.18,
+   "end_s": 731.86,
+   "narration": "lick thumb because it has coconut milk on it.",
+   "verbs": [
+    "lick"
+   ],
+   "nouns": [
+    "thumb",
+    "coconut milk"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-279",
+   "start_s": 732.23,
+   "end_s": 733.05,
+   "narration": "Turn on the cold tap with my left hand whilst holding the lid of the coconut milk under the cold tap with my right hand.",
+   "verbs": [
+    "turn on",
+    "hold"
+   ],
+   "nouns": [
+    "cold tap",
+    "lid of coconut milk"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-280",
+   "start_s": 733.15,
+   "end_s": 734.68,
+   "narration": "Rinse a lid of coconut milk under running water.",
+   "verbs": [
+    "rinse"
+   ],
+   "nouns": [
+    "lid of coconut milk",
+    "running water"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-281",
+   "start_s": 734.6,
+   "end_s": 735.29,
+   "narration": "turn off cold tap with my left hand.",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "cold tap"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-282",
+   "start_s": 735.11,
+   "end_s": 735.92,
+   "narration": "Shake excess water off the coconut milk lid with my right hand into the sink.",
+   "verbs": [
+    "shake"
+   ],
+   "nouns": [
+    "excess water",
+    "coconut milk lid",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-283",
+   "start_s": 736.02,
+   "end_s": 738.41,
+   "narration": "Place it in the recycling bag with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "coconut milk lid",
+    "recycling bag"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-284",
+   "start_s": 741.4,
+   "end_s": 742.37,
+   "narration": "Lift up washing up bowl from the left hand side of the sink with my right hand.",
+   "verbs": [
+    "lift up"
+   ],
+   "nouns": [
+    "washing up bowl",
+    "left hand side of sink"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-285",
+   "start_s": 742.47,
+   "end_s": 743.16,
+   "narration": "place washing up bowl back in the sink with my right hand because I've realised I don't need it yet.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "washing up bowl",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-286",
+   "start_s": 743.26,
+   "end_s": 743.99,
+   "narration": "pick up the washing up sponge from the draining board in my right hand",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "washing up sponge",
+    "draining board"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-287",
+   "start_s": 746.23,
+   "end_s": 751.83,
+   "narration": "Wipe up spilt coconut milk from the counter with my right hand using the washing up sponge.",
+   "verbs": [
+    "wipe up"
+   ],
+   "nouns": [
+    "spilt coconut milk",
+    "counter",
+    "washing up sponge"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-288",
+   "start_s": 754.61,
+   "end_s": 757.07,
+   "narration": "Turn on cold tap with my left hand.",
+   "verbs": [
+    "turn on"
+   ],
+   "nouns": [
+    "cold tap"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-289",
+   "start_s": 757.17,
+   "end_s": 758.92,
+   "narration": "Rinse, washing up sponge under the running water.",
+   "verbs": [
+    "rinse under",
+    "wash up"
+   ],
+   "nouns": [
+    "sponge",
+    "running water"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-290",
+   "start_s": 759.02,
+   "end_s": 760.31,
+   "narration": "put down washing up sponge at the back of the sink with my right hand",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "washing up sponge",
+    "back of sink"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-291",
+   "start_s": 760.14,
+   "end_s": 760.75,
+   "narration": "Rinse hands onto the running water.",
+   "verbs": [
+    "rinse"
+   ],
+   "nouns": [
+    "running water"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-292",
+   "start_s": 760.85,
+   "end_s": 761.97,
+   "narration": "turn off cold tap with my right hand.",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "cold tap"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-293",
+   "start_s": 762.07,
+   "end_s": 766.15,
+   "narration": "dry hands on towel that's hanging on the wall.",
+   "verbs": [
+    "dry"
+   ],
+   "nouns": [
+    "towel",
+    "wall"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-294",
+   "start_s": 766.25,
+   "end_s": 770.88,
+   "narration": "Pick up coconut milk from the counter with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "coconut milk",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-295",
+   "start_s": 770.98,
+   "end_s": 772.46,
+   "narration": "Place coconut milk on the scales with my left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "coconut milk",
+    "scales"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-296",
+   "start_s": 772.56,
+   "end_s": 775.69,
+   "narration": "Take phone out of pocket with my right hand.",
+   "verbs": [
+    "take"
+   ],
+   "nouns": [
+    "phone",
+    "pocket"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-297",
+   "start_s": 775.62,
+   "end_s": 777.67,
+   "narration": "check timer on my phone with my right hand",
+   "verbs": [
+    "check"
+   ],
+   "nouns": [
+    "timer",
+    "phone"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-298",
+   "start_s": 777.75,
+   "end_s": 781.39,
+   "narration": "place my phone back in my pocket with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "phone",
+    "pocket"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-299",
+   "start_s": 781.49,
+   "end_s": 785.08,
+   "narration": "Move rice half off the cooker hob with my right hand. This means it won't be quite so hot.",
+   "verbs": [
+    "move"
+   ],
+   "nouns": [
+    "rice",
+    "cooker hob"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-300",
+   "start_s": 785.18,
+   "end_s": 788.72,
+   "narration": "Pick up coconut milk from the scales with my right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "coconut milk",
+    "scales"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-301",
+   "start_s": 788.55,
+   "end_s": 789.61,
+   "narration": "Place coconut milk on the counter with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "coconut milk",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-302",
+   "start_s": 790.59,
+   "end_s": 791.38,
+   "narration": "pick up knife with my right hand and chopping board with my left hand",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "knife",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-303",
+   "start_s": 791.48,
+   "end_s": 792.08,
+   "narration": "put down a knife and chopping board on the counter",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "knife",
+    "chopping board",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-304",
+   "start_s": 792.08,
+   "end_s": 792.86,
+   "narration": "Pick up garlic from the counter with my right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "garlic",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-305",
+   "start_s": 792.92,
+   "end_s": 793.78,
+   "narration": "Place garlic in the top basket hanging on the wall with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "garlic",
+    "top basket",
+    "wall"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-306",
+   "start_s": 793.69,
+   "end_s": 795.18,
+   "narration": "Pick up recycling container with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "recycling container"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-307",
+   "start_s": 795.21,
+   "end_s": 797.07,
+   "narration": "Take the lid off recycling container with my right hand.",
+   "verbs": [
+    "take"
+   ],
+   "nouns": [
+    "lid",
+    "recycling container"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-308",
+   "start_s": 796.93,
+   "end_s": 797.63,
+   "narration": "Place recycling container lid on the counter with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "recycling container lid",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-309",
+   "start_s": 797.71,
+   "end_s": 809.49,
+   "narration": "Using my right hand, scrape food waste from the counter into the recycling bucket, which is held in my left hand under the counter.",
+   "verbs": [
+    "scrape"
+   ],
+   "nouns": [
+    "food waste",
+    "counter",
+    "recycling bucket"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-310",
+   "start_s": 809.42,
+   "end_s": 811.24,
+   "narration": "Pick up Recycling container lid with my right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "recycling container lid"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-311",
+   "start_s": 811.22,
+   "end_s": 812.0,
+   "narration": "Place the recycling container on my counter with my left hand and then place the lid on it with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "recycling container",
+    "counter",
+    "lid"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-312",
+   "start_s": 812.48,
+   "end_s": 813.11,
+   "narration": "Pick up recycling container from the counter with both hands.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "recycling container",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-313",
+   "start_s": 813.36,
+   "end_s": 814.28,
+   "narration": "Place recycling container on the counter with my left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "recycling container",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-314",
+   "start_s": 814.83,
+   "end_s": 815.95,
+   "narration": "shake my hand because it's got some food waste on it.",
+   "verbs": [
+    "shake"
+   ],
+   "nouns": [
+    "some food waste"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-315",
+   "start_s": 817.09,
+   "end_s": 818.09,
+   "narration": "Adjust washing up bowl in the left hand sink with both hands.",
+   "verbs": [
+    "adjust"
+   ],
+   "nouns": [
+    "washing up bowl",
+    "left hand sink"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-316",
+   "start_s": 818.41,
+   "end_s": 819.25,
+   "narration": "turn on cold tap with my left hand.",
+   "verbs": [
+    "turn on"
+   ],
+   "nouns": [
+    "cold tap"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-317",
+   "start_s": 819.35,
+   "end_s": 820.24,
+   "narration": "rinse both my hands under the running water",
+   "verbs": [
+    "rinse"
+   ],
+   "nouns": [
+    "running water"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-318",
+   "start_s": 820.34,
+   "end_s": 821.0,
+   "narration": "turn off the cold tap with my right hand.",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "cold tap"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-319",
+   "start_s": 821.44,
+   "end_s": 822.24,
+   "narration": "Shake water off my hands into the sink.",
+   "verbs": [
+    "shake"
+   ],
+   "nouns": [
+    "water",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-320",
+   "start_s": 822.63,
+   "end_s": 824.01,
+   "narration": "dry my hands on the towel that's hanging on the wall.",
+   "verbs": [
+    "dry"
+   ],
+   "nouns": [
+    "towel",
+    "wall"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-321",
+   "start_s": 824.72,
+   "end_s": 825.44,
+   "narration": "Turn on light with my right hand.",
+   "verbs": [
+    "turn on"
+   ],
+   "nouns": [
+    "light"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-322",
+   "start_s": 826.26,
+   "end_s": 827.8,
+   "narration": "open dishwasher door with my left hand",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "dishwasher door"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-323",
+   "start_s": 829.44,
+   "end_s": 831.67,
+   "narration": "Open the cutlery drawer of the dishwasher with my left hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "cutlery drawer of dishwasher"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-324",
+   "start_s": 832.89,
+   "end_s": 834.2,
+   "narration": "Pick up dirty spoons from the dirty bowl on the counter with both hands.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "dirty spoons",
+    "dirty bowl",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-325",
+   "start_s": 835.92,
+   "end_s": 836.53,
+   "narration": "open bin with my right foot",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "bin",
+    "right foot"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-326",
+   "start_s": 836.61,
+   "end_s": 837.51,
+   "narration": "Use the spoon of my right hand to scrape the teabag off the spoon in my left hand into the bin.",
+   "verbs": [
+    "scrape"
+   ],
+   "nouns": [
+    "teabag",
+    "spoon",
+    "bin"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-327",
+   "start_s": 838.36,
+   "end_s": 838.94,
+   "narration": "Put dirty spoons in the cutlery drawer of the dishwasher.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "dirty spoons",
+    "cutlery drawer of dishwasher"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-328",
+   "start_s": 840.49,
+   "end_s": 841.36,
+   "narration": "pick up lid with my left hand and dirty serving spoon with my right hand",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "lid",
+    "serving spoon"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-329",
+   "start_s": 841.91,
+   "end_s": 843.15,
+   "narration": "Place serving spoon in the cutlery drawer of the dishwasher with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "serving spoon",
+    "cutlery drawer of dishwasher"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-330",
+   "start_s": 843.25,
+   "end_s": 844.42,
+   "narration": "close the cutlery drawer of the dishwasher with my right hand",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "cutlery drawer of dishwasher"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-331",
+   "start_s": 843.64,
+   "end_s": 846.14,
+   "narration": "Open the middle drawer of the dishwasher with my right hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "middle drawer of dishwasher"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-332",
+   "start_s": 846.17,
+   "end_s": 848.49,
+   "narration": "Put the pan lid in the middle drawer of the dishwasher.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "pan lid",
+    "middle drawer of dishwasher"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-333",
+   "start_s": 848.59,
+   "end_s": 850.34,
+   "narration": "pick up the dirty plastic bowl from the counter with my right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "dirty plastic bowl",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-334",
+   "start_s": 850.44,
+   "end_s": 851.74,
+   "narration": "Close the middle drawer of the dishwasher with my left hand whilst holding the dirty bowl in my right hand.",
+   "verbs": [
+    "close",
+    "hold"
+   ],
+   "nouns": [
+    "middle drawer of dishwasher",
+    "dirty bowl"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-335",
+   "start_s": 851.54,
+   "end_s": 853.04,
+   "narration": "Open the bottom drawer of the dishwasher with my left hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "bottom drawer of dishwasher"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-336",
+   "start_s": 853.14,
+   "end_s": 854.39,
+   "narration": "Place the dirty plastic bowl in the bottom drawer of the dishwasher with the left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "dirty plastic bowl",
+    "bottom drawer of dishwasher"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-337",
+   "start_s": 854.49,
+   "end_s": 857.24,
+   "narration": "Adjust metal bowl in the dishwasher with my left hand so it's lower and doesn't get hit by the spinny part of the dishwasher.",
+   "verbs": [
+    "adjust"
+   ],
+   "nouns": [
+    "metal bowl",
+    "dishwasher",
+    "spinny part of dishwasher"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-338",
+   "start_s": 857.34,
+   "end_s": 859.34,
+   "narration": "pick up dirty pan from counter with both hands",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "dirty pan",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-339",
+   "start_s": 859.44,
+   "end_s": 860.19,
+   "narration": "Place the dirty pan in the bottom drawer of the dishwasher with both hands.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "dirty pan",
+    "bottom drawer of dishwasher"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-340",
+   "start_s": 860.29,
+   "end_s": 864.25,
+   "narration": "pick up dirty plastic lid from the counter with my right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "dirty plastic lid",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-341",
+   "start_s": 864.73,
+   "end_s": 865.64,
+   "narration": "Place a dirty plastic lid in the bottom drawer of the dishwasher with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "dirty plastic lid",
+    "bottom drawer of dishwasher"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-342",
+   "start_s": 865.48,
+   "end_s": 867.35,
+   "narration": "Pick up Dirty Bowl from the counter with my right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "dirty bowl",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-343",
+   "start_s": 867.04,
+   "end_s": 869.18,
+   "narration": "pick up plastic lid from the bottom drawer of the dishwasher in my left hand to make room for the dirty plate in my right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "plastic lid",
+    "bottom drawer of dishwasher",
+    "room",
+    "dirty plate"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-344",
+   "start_s": 868.97,
+   "end_s": 870.3,
+   "narration": "Place the dirty plate in the bottom drawer of the dishwasher with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "dirty plate",
+    "bottom drawer of dishwasher"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-345",
+   "start_s": 870.3,
+   "end_s": 871.25,
+   "narration": "Place a plastic lid in the bottom drawer of the dishwasher with my left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "plastic lid",
+    "bottom drawer of dishwasher"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-346",
+   "start_s": 871.26,
+   "end_s": 873.2,
+   "narration": "Pick up dirty bowls from the counter with my right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "dirty bowls",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-347",
+   "start_s": 872.93,
+   "end_s": 875.44,
+   "narration": "Open the middle drawer of the dishwasher with my left hand whilst holding the dirty bowl in my right hand.",
+   "verbs": [
+    "open",
+    "hold"
+   ],
+   "nouns": [
+    "middle drawer of dishwasher",
+    "dirty bowl"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-348",
+   "start_s": 875.12,
+   "end_s": 877.18,
+   "narration": "Realise that there's no space in the middle drawer of the dishwasher, so close it with my left hand.",
+   "verbs": [
+    "be in",
+    "close"
+   ],
+   "nouns": [
+    "there",
+    "no space",
+    "middle drawer of dishwasher"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-349",
+   "start_s": 877.51,
+   "end_s": 878.39,
+   "narration": "Place dirty bowl back on the counter with my right hand because there wasn't any space in the dishwasher.",
+   "verbs": [
+    "place",
+    "be"
+   ],
+   "nouns": [
+    "dirty bowl",
+    "counter",
+    "there",
+    "any space",
+    "dishwasher"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-350",
+   "start_s": 878.24,
+   "end_s": 882.54,
+   "narration": "Pick up dishwasher tablet from the jar on the shelf under the sink with my right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "dishwasher tablet",
+    "jar",
+    "shelf",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-351",
+   "start_s": 880.57,
+   "end_s": 882.5,
+   "narration": "Close the bottom drawer of the dishwasher with my left hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "bottom drawer of dishwasher"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-352",
+   "start_s": 882.6,
+   "end_s": 883.86,
+   "narration": "place the dishwasher tablet in the powder part of the door of the dishwasher with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "dishwasher tablet",
+    "powder part of door of dishwasher"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-353",
+   "start_s": 883.96,
+   "end_s": 886.62,
+   "narration": "close the dishwasher powder container with my right hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "dishwasher powder container"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-354",
+   "start_s": 886.66,
+   "end_s": 887.68,
+   "narration": "Close the dishwasher door with my left hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "dishwasher door"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-355",
+   "start_s": 887.78,
+   "end_s": 892.6,
+   "narration": "Turn on the dishwasher with my left hand.",
+   "verbs": [
+    "turn on"
+   ],
+   "nouns": [
+    "dishwasher"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-356",
+   "start_s": 892.69,
+   "end_s": 893.95,
+   "narration": "Adjust the setting on the dishwasher so it's quicker with my left hand.",
+   "verbs": [
+    "adjust"
+   ],
+   "nouns": [
+    "setting",
+    "dishwasher"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-357",
+   "start_s": 893.98,
+   "end_s": 895.0,
+   "narration": "Press the start button on the dishwasher with my left hand.",
+   "verbs": [
+    "press"
+   ],
+   "nouns": [
+    "start button",
+    "dishwasher"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-358",
+   "start_s": 895.1,
+   "end_s": 896.74,
+   "narration": "Turn on the cold tap with my left hand.",
+   "verbs": [
+    "turn on"
+   ],
+   "nouns": [
+    "cold tap"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-359",
+   "start_s": 896.71,
+   "end_s": 901.09,
+   "narration": "Rinse both hands under the running water.",
+   "verbs": [
+    "rinse"
+   ],
+   "nouns": [
+    "running water"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-360",
+   "start_s": 901.19,
+   "end_s": 903.67,
+   "narration": "Shake excess water off hands.",
+   "verbs": [
+    "shake"
+   ],
+   "nouns": [
+    "excess water"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-361",
+   "start_s": 903.4,
+   "end_s": 904.82,
+   "narration": "Pick up pint glass with left hand from the back of the draining board.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "pint glass",
+    "back of draining board"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-362",
+   "start_s": 904.79,
+   "end_s": 905.71,
+   "narration": "transfer pint glass to right hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "pint glass"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-363",
+   "start_s": 905.63,
+   "end_s": 907.65,
+   "narration": "hold pint glass under running water with right hand whilst turning on the cold tap more with my left hand.",
+   "verbs": [
+    "hold",
+    "turn on"
+   ],
+   "nouns": [
+    "pint glass",
+    "running water",
+    "cold tap"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-364",
+   "start_s": 907.75,
+   "end_s": 908.32,
+   "narration": "turn off the cold tap with my left hand.",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "cold tap"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-365",
+   "start_s": 908.42,
+   "end_s": 915.78,
+   "narration": "Take a drink from the pint glass of water held in my right hand.",
+   "verbs": [
+    "take"
+   ],
+   "nouns": [
+    "drink",
+    "pint glass of water"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-366",
+   "start_s": 915.6,
+   "end_s": 916.88,
+   "narration": "Transfer pint glass to left hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "pint glass"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-367",
+   "start_s": 916.67,
+   "end_s": 918.56,
+   "narration": "Check the cold tap is turned off with my right hand.",
+   "verbs": [
+    "turn"
+   ],
+   "nouns": [
+    "cold tap"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-368",
+   "start_s": 918.46,
+   "end_s": 919.22,
+   "narration": "Place the pint glass at the back of the draining board with my left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "pint glass",
+    "back of draining board"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-369",
+   "start_s": 919.2,
+   "end_s": 922.28,
+   "narration": "dry hands on the towel hanging on the wall",
+   "verbs": [
+    "dry"
+   ],
+   "nouns": [
+    "towel",
+    "wall"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-370",
+   "start_s": 930.36,
+   "end_s": 932.23,
+   "narration": "pick up bowl on the draining board because it's on top of the pan that I need to use with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bowl",
+    "draining board",
+    "top of pan"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-371",
+   "start_s": 932.14,
+   "end_s": 932.79,
+   "narration": "transfer bowl to the right hand",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-372",
+   "start_s": 932.81,
+   "end_s": 933.66,
+   "narration": "place bowl on the counter below the cutlery drawer with my right hand",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "bowl",
+    "counter",
+    "cutlery drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-373",
+   "start_s": 934.87,
+   "end_s": 937.87,
+   "narration": "pick up pan lid with my left hand and pan with my right hand from the draining board",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "pan lid",
+    "pan",
+    "draining board"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-374",
+   "start_s": 936.61,
+   "end_s": 940.29,
+   "narration": "Remove pink washing up gloves from the pan handle with my left hand whilst holding the lid.",
+   "verbs": [
+    "remove",
+    "hold"
+   ],
+   "nouns": [
+    "pink washing up gloves",
+    "pan handle",
+    "lid"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-375",
+   "start_s": 940.39,
+   "end_s": 941.11,
+   "narration": "Place pink washing up gloves on the draining board with my left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "pink washing up gloves",
+    "draining board"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-376",
+   "start_s": 943.74,
+   "end_s": 944.47,
+   "narration": "place lid on the counter with my left hand",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "lid",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-377",
+   "start_s": 944.57,
+   "end_s": 947.36,
+   "narration": "lift the cooker lid on the hot side of the cooker with my left hand whilst holding the pan in my right hand",
+   "verbs": [
+    "lift",
+    "hold"
+   ],
+   "nouns": [
+    "cooker lid",
+    "hot side of cooker",
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-378",
+   "start_s": 947.29,
+   "end_s": 948.42,
+   "narration": "Place pan on the left hand side of the cooker with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "pan",
+    "left hand side of cooker"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-379",
+   "start_s": 948.42,
+   "end_s": 949.8,
+   "narration": "Pick up pan lid with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "pan lid"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-380",
+   "start_s": 949.76,
+   "end_s": 952.02,
+   "narration": "Place lid on the pan on the hot side of the cooker. I'm going to let the pan heat up for a bit before putting anything in it.",
+   "verbs": [
+    "place",
+    "put"
+   ],
+   "nouns": [
+    "lid",
+    "pan",
+    "hot side of cooker",
+    "bit",
+    "anything"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-381",
+   "start_s": 956.0,
+   "end_s": 959.12,
+   "narration": "Check timer on the rice on my phone with my right hand.",
+   "verbs": [
+    "check"
+   ],
+   "nouns": [
+    "timer",
+    "rice",
+    "phone"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-382",
+   "start_s": 959.22,
+   "end_s": 960.56,
+   "narration": "Place phone back in pocket with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "phone",
+    "pocket"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-383",
+   "start_s": 978.85,
+   "end_s": 982.77,
+   "narration": "Open the drawer with my left hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-384",
+   "start_s": 982.7,
+   "end_s": 985.54,
+   "narration": "Close the drawer with my left hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-385",
+   "start_s": 985.63,
+   "end_s": 986.38,
+   "narration": "pick up the knife with my right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-386",
+   "start_s": 986.17,
+   "end_s": 987.26,
+   "narration": "pick up a packet of cashew nuts from the counter with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "packet of cashew nuts",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-387",
+   "start_s": 987.29,
+   "end_s": 993.0,
+   "narration": "Use the knife to open the packet of cashew nuts.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "knife",
+    "packet of cashew nuts"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-388",
+   "start_s": 993.1,
+   "end_s": 993.71,
+   "narration": "Place knife on the counter with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "knife",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-389",
+   "start_s": 993.33,
+   "end_s": 995.56,
+   "narration": "pull off the top of the cashew nut packet that I've cut with my right hand",
+   "verbs": [
+    "pull off"
+   ],
+   "nouns": [
+    "top of cashew nut packet"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-390",
+   "start_s": 995.46,
+   "end_s": 996.35,
+   "narration": "throw top corner of cashew nut packet on the counter with my right hand.",
+   "verbs": [
+    "throw"
+   ],
+   "nouns": [
+    "top corner of cashew nut packet",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-391",
+   "start_s": 998.98,
+   "end_s": 999.64,
+   "narration": "Place the cashew nut packet on the counter with my left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "cashew nut packet",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-392",
+   "start_s": 1001.18,
+   "end_s": 1002.03,
+   "narration": "Pick up groundnut oil from the bottom shelf in the corner with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "groundnut oil",
+    "bottom shelf",
+    "corner"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-393",
+   "start_s": 1003.54,
+   "end_s": 1004.19,
+   "narration": "Pick up the lid of the pan with my right hand whilst holding the groundnut all in my left hand.",
+   "verbs": [
+    "pick up",
+    "hold"
+   ],
+   "nouns": [
+    "lid of pan",
+    "groundnut"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-394",
+   "start_s": 1005.65,
+   "end_s": 1011.44,
+   "narration": "Pour ground nut oil into the pan with my left hand. I'm using ground nut oil because it doesn't burn at high temperatures.",
+   "verbs": [
+    "pour"
+   ],
+   "nouns": [
+    "ground nut oil",
+    "pan",
+    "high temperatures"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-395",
+   "start_s": 1011.94,
+   "end_s": 1017.54,
+   "narration": "Pick up pan with right hand and swirl the groundnut all around the base, whilst holding the groundnut all in my left hand.",
+   "verbs": [
+    "pick up",
+    "swirl",
+    "hold"
+   ],
+   "nouns": [
+    "pan",
+    "groundnut",
+    "base"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-396",
+   "start_s": 1017.64,
+   "end_s": 1018.64,
+   "narration": "Place pan back on the hot plate of the cooker with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "pan",
+    "hot plate of cooker"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-397",
+   "start_s": 1019.19,
+   "end_s": 1019.64,
+   "narration": "pick up pan lid with my right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "pan lid"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-398",
+   "start_s": 1019.87,
+   "end_s": 1021.29,
+   "narration": "Place pan lid on the pan which is on the cooker with my right hand",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "pan lid",
+    "pan",
+    "cooker"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-399",
+   "start_s": 1020.96,
+   "end_s": 1021.98,
+   "narration": "Place groundnut oil on the counter with my left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "groundnut oil",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-400",
+   "start_s": 1022.08,
+   "end_s": 1024.34,
+   "narration": "Slide ground nut oil to the back of the counter with my left hand.",
+   "verbs": [
+    "slide"
+   ],
+   "nouns": [
+    "ground nut oil",
+    "back of counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-401",
+   "start_s": 1034.5,
+   "end_s": 1035.18,
+   "narration": "Pick up knife from the counter with my right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "knife",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-402",
+   "start_s": 1035.28,
+   "end_s": 1036.16,
+   "narration": "pick up rubbish on the counter with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "rubbish",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-403",
+   "start_s": 1036.01,
+   "end_s": 1036.4,
+   "narration": "Place knife back down on the counter with my right hand",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "knife",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-404",
+   "start_s": 1040.41,
+   "end_s": 1041.16,
+   "narration": "Place rubbish in the plastic recycling bag with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "rubbish",
+    "plastic recycling bag"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-405",
+   "start_s": 1045.51,
+   "end_s": 1046.12,
+   "narration": "Lift up pan lid with my right hand. I'm going to check whether the pan is hot enough.",
+   "verbs": [
+    "lift up"
+   ],
+   "nouns": [
+    "pan lid",
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-406",
+   "start_s": 1046.22,
+   "end_s": 1047.75,
+   "narration": "Place lid back on pan with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "lid",
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-407",
+   "start_s": 1047.85,
+   "end_s": 1048.85,
+   "narration": "Pick up knife with my left hand from the can.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "knife",
+    "can"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-408",
+   "start_s": 1048.95,
+   "end_s": 1049.63,
+   "narration": "transfer knife to right hand",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-409",
+   "start_s": 1051.78,
+   "end_s": 1052.33,
+   "narration": "Turn on the cold tap with my left hand.",
+   "verbs": [
+    "turn on"
+   ],
+   "nouns": [
+    "cold tap"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-410",
+   "start_s": 1052.14,
+   "end_s": 1052.81,
+   "narration": "transfer knife to left hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-411",
+   "start_s": 1052.79,
+   "end_s": 1053.78,
+   "narration": "Turn on the kettle with my right hand.",
+   "verbs": [
+    "turn on"
+   ],
+   "nouns": [
+    "kettle"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-412",
+   "start_s": 1053.75,
+   "end_s": 1055.32,
+   "narration": "Turn on the cold tap more with my right hand.",
+   "verbs": [
+    "turn on"
+   ],
+   "nouns": [
+    "cold tap"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-413",
+   "start_s": 1055.33,
+   "end_s": 1056.32,
+   "narration": "Pick up washing up brush with my right hand whilst holding the knife in my left hand under the running water.",
+   "verbs": [
+    "pick up",
+    "hold"
+   ],
+   "nouns": [
+    "washing up brush",
+    "knife",
+    "running water"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-414",
+   "start_s": 1056.37,
+   "end_s": 1058.62,
+   "narration": "scrub the knife blade using the washing up brush in my right hand",
+   "verbs": [
+    "scrub"
+   ],
+   "nouns": [
+    "knife blade",
+    "washing up brush"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-415",
+   "start_s": 1058.57,
+   "end_s": 1061.34,
+   "narration": "Turn open the knife and scrub the other half of the knife blade under the running water.",
+   "verbs": [
+    "turn",
+    "scrub"
+   ],
+   "nouns": [
+    "knife",
+    "other half of knife blade",
+    "running water"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-416",
+   "start_s": 1061.32,
+   "end_s": 1061.61,
+   "narration": "Rinse the knife under the running water.",
+   "verbs": [
+    "rinse"
+   ],
+   "nouns": [
+    "knife",
+    "running water"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-417",
+   "start_s": 1061.71,
+   "end_s": 1062.56,
+   "narration": "Put down the washing up brush in the right hand side of the sink with my right hand.",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "washing up brush",
+    "right hand side of sink"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-418",
+   "start_s": 1062.07,
+   "end_s": 1064.89,
+   "narration": "Realize that the knife blade isn't completely clean, so stop putting down the washing up brush and re-brush the knife.",
+   "verbs": [
+    "rebrush"
+   ],
+   "nouns": [
+    "knife blade",
+    "washing up brush",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-419",
+   "start_s": 1064.62,
+   "end_s": 1065.22,
+   "narration": "Rinse the knife under the running water.",
+   "verbs": [
+    "rinse"
+   ],
+   "nouns": [
+    "knife",
+    "running water"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-420",
+   "start_s": 1065.32,
+   "end_s": 1065.94,
+   "narration": "Put the washing up brush down in the sink with my right hand.",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "washing up brush",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-421",
+   "start_s": 1066.59,
+   "end_s": 1067.74,
+   "narration": "turn off the cold tap with my right hand.",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "cold tap"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-422",
+   "start_s": 1067.79,
+   "end_s": 1068.25,
+   "narration": "Transfer the knife to my right hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-423",
+   "start_s": 1068.9,
+   "end_s": 1073.51,
+   "narration": "dry the knife using the towel on the wall",
+   "verbs": [
+    "dry"
+   ],
+   "nouns": [
+    "knife",
+    "towel",
+    "wall"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-424",
+   "start_s": 1073.61,
+   "end_s": 1074.59,
+   "narration": "Transfer the knife to my left hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-425",
+   "start_s": 1076.75,
+   "end_s": 1077.65,
+   "narration": "Open the drawer with my right hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-426",
+   "start_s": 1077.75,
+   "end_s": 1080.19,
+   "narration": "Place the knife in the knife block in the drawer with my left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "knife",
+    "knife block",
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-427",
+   "start_s": 1080.29,
+   "end_s": 1082.44,
+   "narration": "realize that it doesn't fit in the middle slot of the knife block. So put the knife in the leftmost slot of the knife block with my left hand.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "knife",
+    "middle slot of knife block",
+    "leftmost slot of knife block"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-428",
+   "start_s": 1082.53,
+   "end_s": 1083.24,
+   "narration": "Close the drawer with my right hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-429",
+   "start_s": 1083.94,
+   "end_s": 1084.69,
+   "narration": "pick up bowl which contains chopped carrot and onions with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bowl",
+    "chopped carrot",
+    "onions"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-430",
+   "start_s": 1086.17,
+   "end_s": 1087.69,
+   "narration": "Go to remove the lid of the pan with my right hand, but realise I haven't got a spatula yet, so stop.",
+   "verbs": [
+    "go with",
+    "remove",
+    "get"
+   ],
+   "nouns": [
+    "lid of pan",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-431",
+   "start_s": 1088.17,
+   "end_s": 1089.11,
+   "narration": "Remove spatula from the hook above the cooker with my right hand.",
+   "verbs": [
+    "remove"
+   ],
+   "nouns": [
+    "spatula",
+    "hook",
+    "cooker"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-432",
+   "start_s": 1089.21,
+   "end_s": 1090.09,
+   "narration": "place spatula on the cooker and counter with my right hand.",
+   "verbs": [
+    "place",
+    "counter with"
+   ],
+   "nouns": [
+    "spatula",
+    "cooker"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-433",
+   "start_s": 1090.19,
+   "end_s": 1091.14,
+   "narration": "Remove lid of the pan with my right hand whilst holding the bowl of onions and carrots in my left hand.",
+   "verbs": [
+    "remove",
+    "hold"
+   ],
+   "nouns": [
+    "lid of pan",
+    "bowl of onions",
+    "carrots"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-434",
+   "start_s": 1091.24,
+   "end_s": 1092.1,
+   "narration": "place lid on cooker with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "lid",
+    "cooker"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-435",
+   "start_s": 1092.2,
+   "end_s": 1093.24,
+   "narration": "shake pan with my right hand so the oil is spread around the bottom.",
+   "verbs": [
+    "shake"
+   ],
+   "nouns": [
+    "pan",
+    "oil",
+    "bottom"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-436",
+   "start_s": 1093.3,
+   "end_s": 1097.72,
+   "narration": "pick up onion from the bowl and add to the pan with my right hand.",
+   "verbs": [
+    "pick up",
+    "add to"
+   ],
+   "nouns": [
+    "onion",
+    "bowl",
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-437",
+   "start_s": 1097.06,
+   "end_s": 1100.05,
+   "narration": "pick up onion from the bowl and add to the pan with my right hand.",
+   "verbs": [
+    "pick up",
+    "add to"
+   ],
+   "nouns": [
+    "onion",
+    "bowl",
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-438",
+   "start_s": 1100.15,
+   "end_s": 1102.37,
+   "narration": "pick up onion from the bowl and add to the pan with my right hand",
+   "verbs": [
+    "pick up",
+    "add to"
+   ],
+   "nouns": [
+    "onion",
+    "bowl",
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-439",
+   "start_s": 1101.83,
+   "end_s": 1109.58,
+   "narration": "Scrape some of the carrots in the bowl into the pan with my right hand.",
+   "verbs": [
+    "scrape"
+   ],
+   "nouns": [
+    "some of carrots",
+    "bowl",
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-440",
+   "start_s": 1109.33,
+   "end_s": 1110.33,
+   "narration": "Pick up Spatula with my right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-441",
+   "start_s": 1110.74,
+   "end_s": 1118.24,
+   "narration": "Stir carrots and onions around the pan using the spatula in my right hand.",
+   "verbs": [
+    "stir"
+   ],
+   "nouns": [
+    "carrots",
+    "onions",
+    "pan",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-442",
+   "start_s": 1118.25,
+   "end_s": 1120.57,
+   "narration": "Scrape more carrots into the pan with my right hand, so I've left half of them. I don't want to overfill the pan, otherwise the stuff won't fry properly.",
+   "verbs": [
+    "scrape"
+   ],
+   "nouns": [
+    "more carrots",
+    "pan",
+    "half of more carrots",
+    "stuff"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-443",
+   "start_s": 1120.51,
+   "end_s": 1122.34,
+   "narration": "Place the bowl of carrots back down on the counter with my left hand and place the spatula in the bowl with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "bowl of carrots",
+    "counter",
+    "spatula",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-444",
+   "start_s": 1122.44,
+   "end_s": 1124.37,
+   "narration": "pick up a bowl of carrots from the counter with my left hand and the spatula from the bowl with my right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bowl of carrots",
+    "counter",
+    "spatula",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-445",
+   "start_s": 1124.12,
+   "end_s": 1126.3,
+   "narration": "I've realised that I can fit more in the pan, so scrape more carrots into the pan with a spatula in my right hand.",
+   "verbs": [
+    "fit",
+    "scrape"
+   ],
+   "nouns": [
+    "more",
+    "pan",
+    "more carrots",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-446",
+   "start_s": 1129.23,
+   "end_s": 1130.82,
+   "narration": "Using my right hand, shake the pan.",
+   "verbs": [
+    "shake"
+   ],
+   "nouns": [
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-447",
+   "start_s": 1130.5,
+   "end_s": 1133.14,
+   "narration": "I've accidentally thrown some food on the floor when shaking the pan, so I bend down to pick up food from the floor.",
+   "verbs": [
+    "shake",
+    "bend",
+    "pick up"
+   ],
+   "nouns": [
+    "some food",
+    "floor",
+    "pan",
+    "food"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-448",
+   "start_s": 1133.24,
+   "end_s": 1137.95,
+   "narration": "Pick up food from the floor with both hands.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "food",
+    "floor"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-449",
+   "start_s": 1139.39,
+   "end_s": 1140.22,
+   "narration": "open the bin with my right foot",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "bin",
+    "right foot"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-450",
+   "start_s": 1140.32,
+   "end_s": 1140.76,
+   "narration": "throw food that had gone on the floor in the bin with my right hand",
+   "verbs": [
+    "throw"
+   ],
+   "nouns": [
+    "food",
+    "floor",
+    "bin"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-451",
+   "start_s": 1141.37,
+   "end_s": 1142.35,
+   "narration": "Turn on tap with my left hand.",
+   "verbs": [
+    "turn on"
+   ],
+   "nouns": [
+    "tap"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-452",
+   "start_s": 1142.45,
+   "end_s": 1143.74,
+   "narration": "Rinse my hands under the cold water.",
+   "verbs": [
+    "rinse"
+   ],
+   "nouns": [
+    "cold water"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-453",
+   "start_s": 1143.84,
+   "end_s": 1144.71,
+   "narration": "Turn off the cold tap with my right hand.",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "cold tap"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-454",
+   "start_s": 1144.81,
+   "end_s": 1146.44,
+   "narration": "dry hands on the towel hanging on the rail.",
+   "verbs": [
+    "dry"
+   ],
+   "nouns": [
+    "towel",
+    "rail"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-455",
+   "start_s": 1148.09,
+   "end_s": 1149.04,
+   "narration": "Place towel on the back of the chair with my left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "towel",
+    "back of chair"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-456",
+   "start_s": 1150.34,
+   "end_s": 1151.38,
+   "narration": "Pick up a spatula from the metal bowl on the counter with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spatula",
+    "metal bowl",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-457",
+   "start_s": 1151.63,
+   "end_s": 1152.2,
+   "narration": "Transfer spatula to my right hand and start stirring the carrots and onions which are in the pan.",
+   "verbs": [
+    "transfer",
+    "stir"
+   ],
+   "nouns": [
+    "spatula",
+    "carrots",
+    "onions",
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-458",
+   "start_s": 1152.52,
+   "end_s": 1153.7,
+   "narration": "shake the pan with my left hand while stirring with a spatula in my right hand.",
+   "verbs": [
+    "shake",
+    "stir with"
+   ],
+   "nouns": [
+    "pan",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-459",
+   "start_s": 1153.75,
+   "end_s": 1158.67,
+   "narration": "Shake spatula above the pan to get rid of any food off it with my right hand.",
+   "verbs": [
+    "shake",
+    "get rid of"
+   ],
+   "nouns": [
+    "spatula",
+    "pan",
+    "any food"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-460",
+   "start_s": 1160.36,
+   "end_s": 1161.35,
+   "narration": "Pick up the lid of the pan with my left hand from the top of the cooker.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "lid of pan",
+    "top of cooker"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-461",
+   "start_s": 1161.15,
+   "end_s": 1162.92,
+   "narration": "Place the lid of the pan on the pan with my left hand whilst holding the sriracha in my right hand.",
+   "verbs": [
+    "place",
+    "hold"
+   ],
+   "nouns": [
+    "lid of pan",
+    "pan",
+    "sriracha"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-462",
+   "start_s": 1163.02,
+   "end_s": 1163.69,
+   "narration": "Transfer spatula to left hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-463",
+   "start_s": 1163.72,
+   "end_s": 1167.51,
+   "narration": "Place the spatula on counter with my left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spatula",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-464",
+   "start_s": 1166.69,
+   "end_s": 1174.87,
+   "narration": "check the timer on my phone with my right hand",
+   "verbs": [
+    "check"
+   ],
+   "nouns": [
+    "timer",
+    "phone"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-465",
+   "start_s": 1174.54,
+   "end_s": 1179.83,
+   "narration": "place my phone back in my pocket with my right hand",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "phone",
+    "pocket"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-466",
+   "start_s": 1179.46,
+   "end_s": 1181.48,
+   "narration": "pick up the spatula with my left hand from the counter.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spatula",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-467",
+   "start_s": 1181.43,
+   "end_s": 1182.6,
+   "narration": "Transfer the spatula to my right hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-468",
+   "start_s": 1182.66,
+   "end_s": 1184.82,
+   "narration": "Lift up the lid of the pan with my right hand whilst holding the spatula.",
+   "verbs": [
+    "lift up",
+    "hold"
+   ],
+   "nouns": [
+    "lid of pan",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-469",
+   "start_s": 1184.8,
+   "end_s": 1185.62,
+   "narration": "Add a bit of onion that had fallen out of the pan onto the cooker with my left hand back to the pan.",
+   "verbs": [
+    "add"
+   ],
+   "nouns": [
+    "bit of onion",
+    "pan",
+    "cooker"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-470",
+   "start_s": 1185.56,
+   "end_s": 1186.23,
+   "narration": "Place lid of pan back on cooker with right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "lid of pan",
+    "cooker"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-471",
+   "start_s": 1186.18,
+   "end_s": 1191.81,
+   "narration": "Whilst holding the pan handle in my left hand, use my right hand to stir the pan with the spatula.",
+   "verbs": [
+    "hold",
+    "stir"
+   ],
+   "nouns": [
+    "pan handle",
+    "pan",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-472",
+   "start_s": 1192.06,
+   "end_s": 1202.51,
+   "narration": "shake the pan with my left hand while stirring with the spatula in my right hand.",
+   "verbs": [
+    "shake",
+    "stir with"
+   ],
+   "nouns": [
+    "pan",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-473",
+   "start_s": 1202.71,
+   "end_s": 1205.21,
+   "narration": "Make sure that pieces of carrots in the pan are separated using the spatula in my right hand.",
+   "verbs": [
+    "separate"
+   ],
+   "nouns": [
+    "pieces of carrots",
+    "pan",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-474",
+   "start_s": 1205.65,
+   "end_s": 1206.81,
+   "narration": "Pick up lid with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "lid"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-475",
+   "start_s": 1207.01,
+   "end_s": 1208.26,
+   "narration": "put lid back on the pan with my left hand.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "lid",
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-476",
+   "start_s": 1209.95,
+   "end_s": 1210.83,
+   "narration": "pick up the bowl with the remaining carrots on the counter with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bowl",
+    "remaining carrots",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-477",
+   "start_s": 1210.56,
+   "end_s": 1210.81,
+   "narration": "Place the spatula on the counter with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spatula",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-478",
+   "start_s": 1212.21,
+   "end_s": 1214.91,
+   "narration": "Use my right hand to remove the carrots from the bowl and place them on the chopping board. This will make room in the bowl for the cooked vegetables.",
+   "verbs": [
+    "remove",
+    "place"
+   ],
+   "nouns": [
+    "carrots",
+    "bowl",
+    "chopping board",
+    "room",
+    "cooked vegetables"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-479",
+   "start_s": 1216.77,
+   "end_s": 1217.51,
+   "narration": "Place the bowl on the counter with my left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "bowl",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-480",
+   "start_s": 1221.65,
+   "end_s": 1223.01,
+   "narration": "slide peanut butter jar out of the way of the spatula with my left hand.",
+   "verbs": [
+    "slide"
+   ],
+   "nouns": [
+    "peanut butter jar",
+    "way of spatula"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-481",
+   "start_s": 1229.44,
+   "end_s": 1230.6,
+   "narration": "Open the cutlery drawer with my right hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "cutlery drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-482",
+   "start_s": 1231.15,
+   "end_s": 1232.04,
+   "narration": "Pick up spoon from the cut through drawer with my right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spoon",
+    "cut through drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-483",
+   "start_s": 1232.5,
+   "end_s": 1233.24,
+   "narration": "Close the cutlery drawer with my left hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "cutlery drawer"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-484",
+   "start_s": 1232.74,
+   "end_s": 1238.24,
+   "narration": "Transfer spoon to my left hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-485",
+   "start_s": 1238.68,
+   "end_s": 1239.28,
+   "narration": "Place the spoon on the counter with my left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spoon",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-486",
+   "start_s": 1238.79,
+   "end_s": 1242.29,
+   "narration": "pick up the spatula from the counter with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spatula",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-487",
+   "start_s": 1242.29,
+   "end_s": 1242.7,
+   "narration": "transfer the spatula to my right hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-488",
+   "start_s": 1243.11,
+   "end_s": 1243.53,
+   "narration": "Pick up the lid of the pan with my left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "lid of pan"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-489",
+   "start_s": 1244.04,
+   "end_s": 1245.76,
+   "narration": "Stir the carrots and onions in the pan using the spatula in my right hand.",
+   "verbs": [
+    "stir"
+   ],
+   "nouns": [
+    "carrots",
+    "onions",
+    "pan",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-490",
+   "start_s": 1246.5,
+   "end_s": 1247.41,
+   "narration": "place spatula down in the pan with my right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spatula",
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-491",
+   "start_s": 1247.45,
+   "end_s": 1248.07,
+   "narration": "Pick up a piece of carrot that had fallen out of the pan and I wanted to cook with my right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "piece of carrot",
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-492",
+   "start_s": 1248.17,
+   "end_s": 1248.47,
+   "narration": "Put a piece of carrot back into the pan with my right hand.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "piece of carrot",
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-493",
+   "start_s": 1248.57,
+   "end_s": 1249.0,
+   "narration": "Put pan lid down with my left hand",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "pan lid"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-494",
+   "start_s": 1249.1,
+   "end_s": 1249.93,
+   "narration": "Stir the carrots and onions in the pan using the spatula with my right hand whilst holding the pan with my left hand.",
+   "verbs": [
+    "stir",
+    "hold"
+   ],
+   "nouns": [
+    "carrots",
+    "onions",
+    "pan",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P05-20240427-143353-495",
+   "start_s": 1249.88,
+   "end_s": 1250.4,
+   "narration": "Put down spatula in the pan with my right hand.",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "spatula",
+    "pan"
+   ]
+  }
+ ]
+}

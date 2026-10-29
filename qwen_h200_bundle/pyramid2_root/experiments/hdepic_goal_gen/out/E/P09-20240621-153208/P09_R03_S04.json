@@ -1,0 +1,49 @@
+{
+ "overall_goal": "Sweeten the hibiscus drink and transfer it to a saucepan to cool",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Refill the sugar jar",
+   "action_ids": [
+    "P09-20240621-153208-253",
+    "P09-20240621-153208-254",
+    "P09-20240621-153208-255",
+    "P09-20240621-153208-256",
+    "P09-20240621-153208-257",
+    "P09-20240621-153208-258",
+    "P09-20240621-153208-261",
+    "P09-20240621-153208-259",
+    "P09-20240621-153208-260",
+    "P09-20240621-153208-262"
+   ],
+   "rationale": "The person retrieves a bag and a jar of sugar, opens them, and refills the jar to ensure there is sugar available for the recipe."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Rinse the saucepan",
+   "action_ids": [
+    "P09-20240621-153208-356",
+    "P09-20240621-153208-357",
+    "P09-20240621-153208-358",
+    "P09-20240621-153208-359"
+   ],
+   "rationale": "The person washes and rinses the saucepan at the sink to prepare a clean vessel for the drink."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Add sugar and transfer the hibiscus drink to the saucepan",
+   "action_ids": [
+    "P09-20240621-153208-371",
+    "P09-20240621-153208-372",
+    "P09-20240621-153208-373",
+    "P09-20240621-153208-375"
+   ],
+   "rationale": "The person adds sugar to the saucepan and then pours the hibiscus drink from the pyrex bowl into the saucepan to mix and cool."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

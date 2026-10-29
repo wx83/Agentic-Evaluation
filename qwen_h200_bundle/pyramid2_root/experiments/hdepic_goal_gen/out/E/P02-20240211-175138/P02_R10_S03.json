@@ -1,0 +1,40 @@
+{
+ "overall_goal": "Cover the mushrooms with foil, weigh them down with a baking tray, and roast them in the oven.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Cover the mushrooms with foil and weigh them down with a baking tray",
+   "action_ids": [
+    "P02-20240211-175138-543",
+    "P02-20240211-175138-544",
+    "P02-20240211-175138-545",
+    "P02-20240211-175138-546",
+    "P02-20240211-175138-547",
+    "P02-20240211-175138-548",
+    "P02-20240211-175138-551",
+    "P02-20240211-175138-552",
+    "P02-20240211-175138-553",
+    "P02-20240211-175138-554",
+    "P02-20240211-175138-555"
+   ],
+   "rationale": "The person retrieves a sheet of foil, covers the mushrooms, and places a heavier baking tray on top to weigh them down."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Place the mushrooms in the oven and set the timer",
+   "action_ids": [
+    "P02-20240211-175138-556",
+    "P02-20240211-175138-557",
+    "P02-20240211-175138-558",
+    "P02-20240211-175138-559",
+    "P02-20240211-175138-560"
+   ],
+   "rationale": "The person picks up the stacked baking trays, puts them in the oven, and sets the roasting timer."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

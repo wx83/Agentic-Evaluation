@@ -1,0 +1,116 @@
+{
+ "overall_goal": "Prepare, chop, and wash shredded lettuce for the wraps.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Inspect the romaine lettuce and retrieve a sieve.",
+   "action_ids": [
+    "P04-20240413-145245-72",
+    "P04-20240413-145245-73",
+    "P04-20240413-145245-74",
+    "P04-20240413-145245-75",
+    "P04-20240413-145245-76",
+    "P04-20240413-145245-77",
+    "P04-20240413-145245-78",
+    "P04-20240413-145245-79",
+    "P04-20240413-145245-80",
+    "P04-20240413-145245-81",
+    "P04-20240413-145245-82"
+   ],
+   "rationale": "The person inspects the lettuce leaves and retrieves a sieve from the drawer to prepare for washing."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Wash the whole head of romaine lettuce.",
+   "action_ids": [
+    "P04-20240413-145245-98",
+    "P04-20240413-145245-99",
+    "P04-20240413-145245-100",
+    "P04-20240413-145245-101",
+    "P04-20240413-145245-102",
+    "P04-20240413-145245-103",
+    "P04-20240413-145245-104",
+    "P04-20240413-145245-105"
+   ],
+   "rationale": "The person takes the whole head of lettuce to the sink and washes it under the tap before cutting."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Remove the core and make longitudinal cuts on the lettuce.",
+   "action_ids": [
+    "P04-20240413-145245-106",
+    "P04-20240413-145245-107",
+    "P04-20240413-145245-108",
+    "P04-20240413-145245-127",
+    "P04-20240413-145245-128",
+    "P04-20240413-145245-129",
+    "P04-20240413-145245-130",
+    "P04-20240413-145245-131",
+    "P04-20240413-145245-132",
+    "P04-20240413-145245-133",
+    "P04-20240413-145245-134",
+    "P04-20240413-145245-135",
+    "P04-20240413-145245-136",
+    "P04-20240413-145245-137",
+    "P04-20240413-145245-138",
+    "P04-20240413-145245-139"
+   ],
+   "rationale": "The person removes the core of the lettuce and makes several longitudinal cuts along the head."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Slice the lettuce crosswise to shred it and gather the pieces.",
+   "action_ids": [
+    "P04-20240413-145245-140",
+    "P04-20240413-145245-141",
+    "P04-20240413-145245-142",
+    "P04-20240413-145245-143",
+    "P04-20240413-145245-144",
+    "P04-20240413-145245-145",
+    "P04-20240413-145245-146",
+    "P04-20240413-145245-147",
+    "P04-20240413-145245-148",
+    "P04-20240413-145245-149"
+   ],
+   "rationale": "The person slices across the longitudinal cuts to create shredded lettuce and gathers the pieces into a pile."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Transfer the shredded lettuce into the sieve.",
+   "action_ids": [
+    "P04-20240413-145245-284",
+    "P04-20240413-145245-285",
+    "P04-20240413-145245-286",
+    "P04-20240413-145245-287",
+    "P04-20240413-145245-288",
+    "P04-20240413-145245-289",
+    "P04-20240413-145245-290",
+    "P04-20240413-145245-291"
+   ],
+   "rationale": "The person moves the chopping board and transfers the pile of shredded lettuce into the sieve."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Wash the shredded lettuce in the sieve under running water.",
+   "action_ids": [
+    "P04-20240413-145245-293",
+    "P04-20240413-145245-294",
+    "P04-20240413-145245-295",
+    "P04-20240413-145245-296",
+    "P04-20240413-145245-297",
+    "P04-20240413-145245-298",
+    "P04-20240413-145245-299",
+    "P04-20240413-145245-300",
+    "P04-20240413-145245-301"
+   ],
+   "rationale": "The person washes the shredded lettuce in the sieve under the tap to ensure it is thoroughly clean."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P04-20240413-145245-292"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

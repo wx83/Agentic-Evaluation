@@ -1,0 +1,201 @@
+{
+ "overall_goal": "Prepare and dice microwaved potatoes, and transfer them to a newly oiled frying pan while managing other cooking food.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Check the cooking food in the frying pan.",
+   "action_ids": [
+    "P02-20240209-184316-597",
+    "P02-20240209-184316-598",
+    "P02-20240209-184316-604",
+    "P02-20240209-184316-605",
+    "P02-20240209-184316-606"
+   ],
+   "rationale": "The person checks the heat and handles the frying pan and spatula to monitor the food."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve and unwrap the microwaved potatoes.",
+   "action_ids": [
+    "P02-20240209-184316-615",
+    "P02-20240209-184316-616",
+    "P02-20240209-184316-617",
+    "P02-20240209-184316-618",
+    "P02-20240209-184316-619",
+    "P02-20240209-184316-620",
+    "P02-20240209-184316-621",
+    "P02-20240209-184316-622",
+    "P02-20240209-184316-623",
+    "P02-20240209-184316-624"
+   ],
+   "rationale": "The person opens the microwave, takes out the wrapped potatoes, and unwraps one to place on the chopping board."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Inspect and trim bad parts from the first potato.",
+   "action_ids": [
+    "P02-20240209-184316-625",
+    "P02-20240209-184316-626",
+    "P02-20240209-184316-627",
+    "P02-20240209-184316-628",
+    "P02-20240209-184316-629",
+    "P02-20240209-184316-630",
+    "P02-20240209-184316-631",
+    "P02-20240209-184316-632",
+    "P02-20240209-184316-633",
+    "P02-20240209-184316-634",
+    "P02-20240209-184316-635",
+    "P02-20240209-184316-636"
+   ],
+   "rationale": "The person gets a bread knife and cuts off the bad spots from the first potato, discarding the waste."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Unwrap, inspect, and trim bad parts from the second potato.",
+   "action_ids": [
+    "P02-20240209-184316-637",
+    "P02-20240209-184316-638",
+    "P02-20240209-184316-639",
+    "P02-20240209-184316-640",
+    "P02-20240209-184316-641",
+    "P02-20240209-184316-642",
+    "P02-20240209-184316-643",
+    "P02-20240209-184316-644",
+    "P02-20240209-184316-645",
+    "P02-20240209-184316-646",
+    "P02-20240209-184316-647",
+    "P02-20240209-184316-648",
+    "P02-20240209-184316-649",
+    "P02-20240209-184316-650"
+   ],
+   "rationale": "The person unwraps the second potato, inspects it, and cuts away the black spots, throwing the scraps in the bin."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Dice the first potato.",
+   "action_ids": [
+    "P02-20240209-184316-651",
+    "P02-20240209-184316-652",
+    "P02-20240209-184316-653",
+    "P02-20240209-184316-654",
+    "P02-20240209-184316-655",
+    "P02-20240209-184316-656",
+    "P02-20240209-184316-657",
+    "P02-20240209-184316-658",
+    "P02-20240209-184316-659",
+    "P02-20240209-184316-660",
+    "P02-20240209-184316-661",
+    "P02-20240209-184316-662",
+    "P02-20240209-184316-663",
+    "P02-20240209-184316-664"
+   ],
+   "rationale": "The person cuts the first potato into halves, thirds, and then cubes for cooking."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Dice the second potato.",
+   "action_ids": [
+    "P02-20240209-184316-665",
+    "P02-20240209-184316-666",
+    "P02-20240209-184316-667",
+    "P02-20240209-184316-668",
+    "P02-20240209-184316-671",
+    "P02-20240209-184316-669",
+    "P02-20240209-184316-670",
+    "P02-20240209-184316-672",
+    "P02-20240209-184316-673",
+    "P02-20240209-184316-674",
+    "P02-20240209-184316-675"
+   ],
+   "rationale": "The person cuts the remaining potato into dice-shaped pieces and clears excess potato from the knife."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Clean the knife and dispose of kitchen waste.",
+   "action_ids": [
+    "P02-20240209-184316-676",
+    "P02-20240209-184316-677",
+    "P02-20240209-184316-678",
+    "P02-20240209-184316-679",
+    "P02-20240209-184316-680",
+    "P02-20240209-184316-681",
+    "P02-20240209-184316-683",
+    "P02-20240209-184316-684",
+    "P02-20240209-184316-685",
+    "P02-20240209-184316-686"
+   ],
+   "rationale": "The person wipes the knife with a towel, throws away the towel and an empty onion mesh bag, and clears the chopping board."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Stir and add oil to the food cooking in the frying pan.",
+   "action_ids": [
+    "P02-20240209-184316-687",
+    "P02-20240209-184316-688",
+    "P02-20240209-184316-689",
+    "P02-20240209-184316-690",
+    "P02-20240209-184316-691",
+    "P02-20240209-184316-692",
+    "P02-20240209-184316-693",
+    "P02-20240209-184316-694",
+    "P02-20240209-184316-695",
+    "P02-20240209-184316-696",
+    "P02-20240209-184316-697",
+    "P02-20240209-184316-698",
+    "P02-20240209-184316-699",
+    "P02-20240209-184316-700",
+    "P02-20240209-184316-701",
+    "P02-20240209-184316-702",
+    "P02-20240209-184316-703",
+    "P02-20240209-184316-704",
+    "P02-20240209-184316-705",
+    "P02-20240209-184316-706"
+   ],
+   "rationale": "The person tends to the existing frying pan by stirring the food, adding olive oil, and shaking the pan to ensure even cooking."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Prepare a new frying pan with oil.",
+   "action_ids": [
+    "P02-20240209-184316-708",
+    "P02-20240209-184316-709",
+    "P02-20240209-184316-710",
+    "P02-20240209-184316-711",
+    "P02-20240209-184316-712",
+    "P02-20240209-184316-713",
+    "P02-20240209-184316-714",
+    "P02-20240209-184316-715",
+    "P02-20240209-184316-716",
+    "P02-20240209-184316-717"
+   ],
+   "rationale": "The person retrieves a small frying pan, places it on the hob, turns on the gas, and adds olive oil."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Transfer the diced potatoes into the frying pan.",
+   "action_ids": [
+    "P02-20240209-184316-718",
+    "P02-20240209-184316-719",
+    "P02-20240209-184316-720",
+    "P02-20240209-184316-729",
+    "P02-20240209-184316-730",
+    "P02-20240209-184316-731",
+    "P02-20240209-184316-732",
+    "P02-20240209-184316-733",
+    "P02-20240209-184316-734",
+    "P02-20240209-184316-735"
+   ],
+   "rationale": "The person gathers the diced potatoes on the chopping board, spreads the oil in the pan, and scrapes the potatoes into the pan to cook."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P02-20240209-184316-607",
+  "P02-20240209-184316-682",
+  "P02-20240209-184316-707",
+  "P02-20240209-184316-721"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

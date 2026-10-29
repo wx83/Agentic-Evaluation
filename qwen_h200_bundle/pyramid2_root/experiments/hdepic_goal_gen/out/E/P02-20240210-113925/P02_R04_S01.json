@@ -1,0 +1,103 @@
+{
+ "overall_goal": "Heat oil in a frying pan and cook the bacon medallions, turning them occasionally until browned.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare the frying pan, oil, and bacon packets.",
+   "action_ids": [
+    "P02-20240210-113925-45",
+    "P02-20240210-113925-46",
+    "P02-20240210-113925-47",
+    "P02-20240210-113925-48",
+    "P02-20240210-113925-49",
+    "P02-20240210-113925-53",
+    "P02-20240210-113925-54",
+    "P02-20240210-113925-57",
+    "P02-20240210-113925-58",
+    "P02-20240210-113925-59",
+    "P02-20240210-113925-69",
+    "P02-20240210-113925-71",
+    "P02-20240210-113925-70",
+    "P02-20240210-113925-72"
+   ],
+   "rationale": "The person places the frying pan on the hob, retrieves the bacon packets, and adds oil to the pan to prepare for cooking."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Add the bacon medallions to the frying pan.",
+   "action_ids": [
+    "P02-20240210-113925-73",
+    "P02-20240210-113925-74",
+    "P02-20240210-113925-75",
+    "P02-20240210-113925-76",
+    "P02-20240210-113925-77",
+    "P02-20240210-113925-78",
+    "P02-20240210-113925-79",
+    "P02-20240210-113925-81",
+    "P02-20240210-113925-80",
+    "P02-20240210-113925-82",
+    "P02-20240210-113925-83",
+    "P02-20240210-113925-84"
+   ],
+   "rationale": "The person opens the bacon packets and places the unsmoked and smoked bacon medallions into the heated frying pan."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Flip and adjust the bacon medallions for the first time.",
+   "action_ids": [
+    "P02-20240210-113925-172",
+    "P02-20240210-113925-173",
+    "P02-20240210-113925-174",
+    "P02-20240210-113925-175",
+    "P02-20240210-113925-176",
+    "P02-20240210-113925-177",
+    "P02-20240210-113925-178",
+    "P02-20240210-113925-179",
+    "P02-20240210-113925-181",
+    "P02-20240210-113925-180"
+   ],
+   "rationale": "The person uses a spatula to flip the bacon medallions and adjust their positions to ensure even cooking."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Flip, scrape fat, and adjust the bacon medallions for the second time.",
+   "action_ids": [
+    "P02-20240210-113925-244",
+    "P02-20240210-113925-245",
+    "P02-20240210-113925-246",
+    "P02-20240210-113925-247",
+    "P02-20240210-113925-248",
+    "P02-20240210-113925-249",
+    "P02-20240210-113925-250",
+    "P02-20240210-113925-251",
+    "P02-20240210-113925-252",
+    "P02-20240210-113925-253",
+    "P02-20240210-113925-254",
+    "P02-20240210-113925-255",
+    "P02-20240210-113925-256"
+   ],
+   "rationale": "The person flips the bacon again, scrapes off excess fat, adjusts their positions, and shakes the pan to prevent sticking."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Flip and adjust the bacon medallions for the third time.",
+   "action_ids": [
+    "P02-20240210-113925-341",
+    "P02-20240210-113925-340",
+    "P02-20240210-113925-342",
+    "P02-20240210-113925-343",
+    "P02-20240210-113925-344",
+    "P02-20240210-113925-345",
+    "P02-20240210-113925-346",
+    "P02-20240210-113925-347",
+    "P02-20240210-113925-348"
+   ],
+   "rationale": "The person flips the bacon medallions one more time, adjusts their spacing in the pan, and taps the spatula to clean it."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

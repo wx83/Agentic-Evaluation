@@ -1,0 +1,45 @@
+{
+ "overall_goal": "Cover the marinated chicken with cling film and place it in the fridge",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve and unroll the cling film",
+   "action_ids": [
+    "P01-20240203-184214-253",
+    "P01-20240203-184214-254",
+    "P01-20240203-184214-255",
+    "P01-20240203-184214-256",
+    "P01-20240203-184214-257",
+    "P01-20240203-184214-258"
+   ],
+   "rationale": "The person gets the cling film from the drawer, opens the box, and unrolls the film to prepare for covering the bowl."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Cover and seal the bowl with cling film",
+   "action_ids": [
+    "P01-20240203-184214-259",
+    "P01-20240203-184214-260",
+    "P01-20240203-184214-261",
+    "P01-20240203-184214-267"
+   ],
+   "rationale": "The person places the unrolled cling film over the bowl, tears it from the roll, and seals the edges to make it airtight."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Place the covered bowl in the fridge",
+   "action_ids": [
+    "P01-20240203-184214-268",
+    "P01-20240203-184214-269",
+    "P01-20240203-184214-273",
+    "P01-20240203-184214-274"
+   ],
+   "rationale": "The person carries the bowl to the fridge, temporarily sets it down to open the door, and then places it on the shelf."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "overall_goal": "Prepare couscous by adding boiling water and letting it absorb",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare the pot and add the dry couscous",
+   "action_ids": [
+    "P08-20240617-184909-149",
+    "P08-20240617-184909-169",
+    "P08-20240617-184909-170",
+    "P08-20240617-184909-214",
+    "P08-20240617-184909-215",
+    "P08-20240617-184909-216"
+   ],
+   "rationale": "The person retrieves the couscous, sets up the pot on the stove, and pours the dry couscous into the pot to level it."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Measure boiling water, mix it into the couscous, and cover the pot",
+   "action_ids": [
+    "P08-20240617-184909-218",
+    "P08-20240617-184909-219",
+    "P08-20240617-184909-220",
+    "P08-20240617-184909-221",
+    "P08-20240617-184909-222",
+    "P08-20240617-184909-223",
+    "P08-20240617-184909-224",
+    "P08-20240617-184909-227",
+    "P08-20240617-184909-228",
+    "P08-20240617-184909-230"
+   ],
+   "rationale": "The person measures boiling water, pours it over the couscous, stirs the mixture, and covers the pot to let the water absorb."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Stir and fluff the rested couscous",
+   "action_ids": [
+    "P08-20240617-184909-327",
+    "P08-20240617-184909-328",
+    "P08-20240617-184909-331",
+    "P08-20240617-184909-332"
+   ],
+   "rationale": "After the couscous has absorbed the water, the person stirs and shakes the pot to fluff the grains."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P08-20240617-184909-150",
+  "P08-20240617-184909-171"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

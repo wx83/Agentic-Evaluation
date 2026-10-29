@@ -1,0 +1,132 @@
+{
+ "overall_goal": "Weigh ingredients, log their weights, and clean up the workspace",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Measure, arrange, and log the weight of the fennel seeds",
+   "action_ids": [
+    "P04-20240415-175615-227",
+    "P04-20240415-175615-228",
+    "P04-20240415-175615-229",
+    "P04-20240415-175615-230",
+    "P04-20240415-175615-231",
+    "P04-20240415-175615-232",
+    "P04-20240415-175615-233",
+    "P04-20240415-175615-234",
+    "P04-20240415-175615-235",
+    "P04-20240415-175615-236",
+    "P04-20240415-175615-237",
+    "P04-20240415-175615-238",
+    "P04-20240415-175615-239",
+    "P04-20240415-175615-240",
+    "P04-20240415-175615-241",
+    "P04-20240415-175615-242",
+    "P04-20240415-175615-253"
+   ],
+   "rationale": "The person pours fennel seeds onto a plate, logs their weight in a notebook, and arranges them neatly on the weighing scale."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Seal the spice bags with rubber bands",
+   "action_ids": [
+    "P04-20240415-175615-243",
+    "P04-20240415-175615-244",
+    "P04-20240415-175615-245",
+    "P04-20240415-175615-246",
+    "P04-20240415-175615-247",
+    "P04-20240415-175615-248",
+    "P04-20240415-175615-249",
+    "P04-20240415-175615-250",
+    "P04-20240415-175615-251",
+    "P04-20240415-175615-252"
+   ],
+   "rationale": "The person uses rubber bands to tightly close the bags of fennel seeds and garam masala powder."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Weigh the onion and log its weight",
+   "action_ids": [
+    "P04-20240415-175615-254",
+    "P04-20240415-175615-255",
+    "P04-20240415-175615-256",
+    "P04-20240415-175615-257",
+    "P04-20240415-175615-258",
+    "P04-20240415-175615-259",
+    "P04-20240415-175615-260",
+    "P04-20240415-175615-261",
+    "P04-20240415-175615-262",
+    "P04-20240415-175615-263",
+    "P04-20240415-175615-267",
+    "P04-20240415-175615-268",
+    "P04-20240415-175615-269",
+    "P04-20240415-175615-270"
+   ],
+   "rationale": "The person places an onion on the weighing scale, turns the scale on, and records the measured weight in a notebook before returning the onion to the chopping board."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Weigh the green chillies and log their weight",
+   "action_ids": [
+    "P04-20240415-175615-271",
+    "P04-20240415-175615-272",
+    "P04-20240415-175615-273",
+    "P04-20240415-175615-274",
+    "P04-20240415-175615-275",
+    "P04-20240415-175615-276",
+    "P04-20240415-175615-277",
+    "P04-20240415-175615-280",
+    "P04-20240415-175615-281"
+   ],
+   "rationale": "The person places green chillies on the weighing scale, writes down their weight in the notebook, and moves them back to the chopping board."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Transfer cut ginger and dispose of ginger peels",
+   "action_ids": [
+    "P04-20240415-175615-329",
+    "P04-20240415-175615-330",
+    "P04-20240415-175615-331",
+    "P04-20240415-175615-332",
+    "P04-20240415-175615-333",
+    "P04-20240415-175615-334",
+    "P04-20240415-175615-335",
+    "P04-20240415-175615-336",
+    "P04-20240415-175615-337"
+   ],
+   "rationale": "The person scrapes cut ginger onto the wooden chopping board and throws the peeled ginger skin into the rubbish bin."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Clean hands to remove ingredient residues",
+   "action_ids": [
+    "P04-20240415-175615-370",
+    "P04-20240415-175615-371",
+    "P04-20240415-175615-372",
+    "P04-20240415-175615-386",
+    "P04-20240415-175615-387",
+    "P04-20240415-175615-388",
+    "P04-20240415-175615-389",
+    "P04-20240415-175615-390",
+    "P04-20240415-175615-391",
+    "P04-20240415-175615-392",
+    "P04-20240415-175615-393",
+    "P04-20240415-175615-394"
+   ],
+   "rationale": "The person rubs their hands to remove chilli seeds and garlic skin, then washes and dries their hands at the sink."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P04-20240415-175615-264",
+  "P04-20240415-175615-265",
+  "P04-20240415-175615-266",
+  "P04-20240415-175615-278",
+  "P04-20240415-175615-279",
+  "P04-20240415-175615-282",
+  "P04-20240415-175615-338",
+  "P04-20240415-175615-373"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

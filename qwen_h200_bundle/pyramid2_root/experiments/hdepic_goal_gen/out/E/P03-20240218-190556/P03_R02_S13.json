@@ -1,0 +1,40 @@
+{
+ "overall_goal": "Return the plant-based burger to the sauce and cook it",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Transfer the plant-based burger to the frying pan and mix it with the sauce",
+   "action_ids": [
+    "P03-20240218-190556-1014",
+    "P03-20240218-190556-1015",
+    "P03-20240218-190556-1016",
+    "P03-20240218-190556-1017",
+    "P03-20240218-190556-1018",
+    "P03-20240218-190556-1019",
+    "P03-20240218-190556-1020"
+   ],
+   "rationale": "The person uses a spatula to move the plant-based burger from a plate into the pan, puts the plate away, and stirs the burger into the sauce."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Cook and periodically stir the food in the pan",
+   "action_ids": [
+    "P03-20240218-190556-1047",
+    "P03-20240218-190556-1048",
+    "P03-20240218-190556-1049",
+    "P03-20240218-190556-1138",
+    "P03-20240218-190556-1139",
+    "P03-20240218-190556-1140",
+    "P03-20240218-190556-1141",
+    "P03-20240218-190556-1142",
+    "P03-20240218-190556-1143"
+   ],
+   "rationale": "The person stirs the food multiple times and adjusts the hob heat to ensure the meal cooks properly."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}
