@@ -128,6 +128,7 @@ H200 显存带宽约是这张卡的 2.6 倍,解码会快,视频编码部分提�
 | `pyramid2_root/gemini/` | `nv_gemini.py`(Gemini NV gateway 客户端,不含 key) | GitHub |
 | `pyramid2_root/output/pyramid_v2/contracts/` | 全部合约(223 个 Qwen 合约 + 新加的 `qwen_gx_v16`) | GitHub |
 | `pyramid2_root/experiments/daily_report/*prompts*.md` | 合约引用的 prompt 文件 | GitHub |
+| `pyramid2_root/experiments/hdepic_goal_gen/out/E/<video>/` | Method E 切好的每个 task 的 sub-goal(`merged.json` + 每个 step 一个 json + `audio_tags.json`),50 个视频;`out/picks/` 与生成代码 `method_e.py` 等 | GitHub |
 | `output/pyramid_v2/data/` | 证据库 evidence.jsonl 等、scope/sg 缓存(约 400 MB) | HF private dataset `WitneyWW/pyramid2-qwen-data-1028` |
 | `output/pyramid_v2/media/hdepic_e/` | 已切好的 2280 个 clip(2.2 GB) | 同上 |
 | `output/pyramid_v2/runs/` | 已有 run(gold / none 重放要读 self run,710 MB) | 同上 |
