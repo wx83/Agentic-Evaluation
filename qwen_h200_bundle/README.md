@@ -134,7 +134,8 @@ H200 显存带宽约是这张卡的 2.6 倍,解码会快,视频编码部分提�
 | `output/pyramid_v2/runs/` | 已有 run(gold / none 重放要读 self run,710 MB) | 同上 |
 | `output/_shared/pose/` | HD-EPIC 位姿缓存(代替 318 GB SLAM) | 同上 |
 | `hd-epic/annotations/` | HD-EPIC 官方标注(gaze priming 用) | 同上 |
-| `hd-epic/video/`(可选) | 49 个原视频 68 GB,只有跑新 task / 新窗口才需要 | 同上(`--with-videos`) |
+| `hd-epic/video/`(可选) | 9 个原视频(约 11 GB):已有 Gemini v16 结果的 5 个 task(39/55/13/05/07)+ 新选的 4 个 task 所在视频;只有跑新 task / 新窗口才需要 | 同上(`--with-videos`) |
+| `experiments/daily_report/1028_task_quality.json` | 60 个 Method E task 的 sub-goal 质量打分(重叠 / 中断 / 长度 / 连续度),选 task 用 | GitHub + HF |
 
 合约种类:`examiner_backend` 不写 = Gemini 出题(217 个,v5–v12 等)+ `qwen_gx_v16`(Gemini 出题、Qwen 答题,task 55/39/07/13/05,self + gold);`examiner_backend: qwen_http` = Qwen 出题(qwen_v14 / qwen_v16,6 个)。
 
@@ -157,5 +158,8 @@ nohup ./run_qwen_gx_v16.sh 55 > ../../../logs/pyramid2/run_qwen_gx_v16.log 2>&1 
 ```
 单个合约:`./run_smoke.sh <合约> L1 L2 L3 L4`;gold / none 臂:`GEMINI_BACKEND=nv python3 cli.py replay --contract <gold 合约> --from-run <self run_id>`。
 pyramid2 和 Qwen 服务器不在同一节点时,把合约里的 `qwen_url` 改成服务器节点地址(`qwen_send_media` 已是 true,clip 随请求发送)。
+
+推荐的 task(10-28 按 sub-goal 无重叠、无中断、10–90 s、连续度排序,各来自不同 recipe):
+P04-20240413-151722__P04_R01_S04(Grilled Chicken Wrap)、P07-20240529-131737__P07_R02_S02(task 39)、P07-20240529-191007__P07_R03_S05(Mushroom Risotto)、P02-20240211-120927__P02_R06_S05(Raspberry Lemon Curd Tarts)、P07-20240531-201703__P07_R07_S03(Southwestern Salad);其余 40 个原视频留在原机器 `/mnt/data_new/hd-epic/video/`。
 
 不包含:HF Space 建站 / 推送步骤(原 run 脚本末尾的 `hf_space_*` 部分),以及 Ego4D / EgoPlan / AEA 的 clip 和原视频。
