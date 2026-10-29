@@ -115,3 +115,46 @@ H200 显存带宽约是这张卡的 2.6 倍,解码会快,视频编码部分提�
 - **显存不够**:`disable_talker()` 已省约 10 GB;长 clip 的帧数由 `FPS_MAX_FRAMES`(默认 600)限制,可以调低。
 - **多个客户端同时打一个端口**:会排队不报错,但每个客户端看到的延迟翻倍;按卡分端口。
 - 本文件夹在 H200 上**没有实跑过**(原机器只有一张卡且被占用),第 4 节 smoke test 过了就等于验证通过。
+
+## 8. 在 tillicum 上跑整个 pyramid2(Qwen 相关的全部 case,Gemini 出题)
+
+第 1–7 节只把 Qwen 推理搬过去。这一节把 pyramid2 主流程也搬过去,出题 / scope / judge 仍是 Gemini(走 NVIDIA gateway),答题是本机的 Qwen 服务器。
+
+### 8.1 内容
+
+| 位置 | 内容 | 来源 |
+|---|---|---|
+| `pyramid2_root/agent/bench/` | `config.py`、`clips.py` 等 + `pyramid/` + `pyramid2/`(去掉 `.bak`) | GitHub(本 repo) |
+| `pyramid2_root/gemini/` | `nv_gemini.py`(Gemini NV gateway 客户端,不含 key) | GitHub |
+| `pyramid2_root/output/pyramid_v2/contracts/` | 全部合约(223 个 Qwen 合约 + 新加的 `qwen_gx_v16`) | GitHub |
+| `pyramid2_root/experiments/daily_report/*prompts*.md` | 合约引用的 prompt 文件 | GitHub |
+| `output/pyramid_v2/data/` | 证据库 evidence.jsonl 等、scope/sg 缓存(约 400 MB) | HF private dataset `WitneyWW/pyramid2-qwen-data-1028` |
+| `output/pyramid_v2/media/hdepic_e/` | 已切好的 2280 个 clip(2.2 GB) | 同上 |
+| `output/pyramid_v2/runs/` | 已有 run(gold / none 重放要读 self run,710 MB) | 同上 |
+| `output/_shared/pose/` | HD-EPIC 位姿缓存(代替 318 GB SLAM) | 同上 |
+| `hd-epic/annotations/` | HD-EPIC 官方标注(gaze priming 用) | 同上 |
+| `hd-epic/video/`(可选) | 49 个原视频 68 GB,只有跑新 task / 新窗口才需要 | 同上(`--with-videos`) |
+
+合约种类:`examiner_backend` 不写 = Gemini 出题(217 个,v5–v12 等)+ `qwen_gx_v16`(Gemini 出题、Qwen 答题,task 55/39/07/13/05,self + gold);`examiner_backend: qwen_http` = Qwen 出题(qwen_v14 / qwen_v16,6 个)。
+
+### 8.2 安装
+
+```bash
+git clone -b qwen-h200-bundle git@github.com:wx83/Agentic-Evaluation.git && cd Agentic-Evaluation/qwen_h200_bundle
+pip install -r requirements.txt -r requirements_pyramid2.txt      # 与第 3 节同一个 env 即可
+HF_TOKEN=<你的 HF token> ./setup_pyramid2.sh                       # 下载数据 + 把原机器路径改成本地路径
+export NVIDIA_API_KEY=<Gemini NV gateway key>                      # 只放环境变量,不要写进 repo
+```
+
+### 8.3 运行
+
+```bash
+./start_servers.sh 1 8799                                          # 合约里 qwen_url = http://127.0.0.1:8799,pyramid2 和服务器在同一个节点上跑
+cd pyramid2_root/agent/bench/pyramid2
+GEMINI_BACKEND=nv python3 cli.py preflight --contract ../../../output/pyramid_v2/contracts/p2_hdepicE_1023t_qwen_gx_v16_self__55.json
+nohup ./run_qwen_gx_v16.sh 55 > ../../../logs/pyramid2/run_qwen_gx_v16.log 2>&1 &
+```
+单个合约:`./run_smoke.sh <合约> L1 L2 L3 L4`;gold / none 臂:`GEMINI_BACKEND=nv python3 cli.py replay --contract <gold 合约> --from-run <self run_id>`。
+pyramid2 和 Qwen 服务器不在同一节点时,把合约里的 `qwen_url` 改成服务器节点地址(`qwen_send_media` 已是 true,clip 随请求发送)。
+
+不包含:HF Space 建站 / 推送步骤(原 run 脚本末尾的 `hf_space_*` 部分),以及 Ego4D / EgoPlan / AEA 的 clip 和原视频。

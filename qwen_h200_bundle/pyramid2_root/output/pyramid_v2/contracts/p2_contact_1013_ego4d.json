@@ -1,0 +1,73 @@
+{
+ "protocol_version": "independent-v1",
+ "evaluation_protocol": "OFFLINE_QA",
+ "taxonomy_version": "capability-v3",
+ "prompt_version": "physical-mental-draft1",
+ "phase": "DIAGNOSIS",
+ "n_per_layer": 30,
+ "turn_budget_per_layer": 45,
+ "max_solver_errors": 15,
+ "seed": 1012,
+ "examiner_model": "gcp/google/gemini-3.1-pro-preview",
+ "examiner_thinking": "default",
+ "examiner_max_tokens": 16384,
+ "solver_model": "gcp/google/gemini-3.7-flash",
+ "solver_thinking": "off",
+ "judge_model": "gcp/google/gemini-3.1-pro-preview",
+ "solver_input_spec": {
+  "modalities": [
+   "video",
+   "audio"
+  ],
+  "permitted_media": [],
+  "observation_cutoff": null,
+  "allowed_tools": [],
+  "memory_policy": "fresh_context_per_item"
+ },
+ "coverage_targets": [
+  "physical.objects_properties",
+  "physical.spatial",
+  "physical.dynamics",
+  "task.structure",
+  "human.communication",
+  "human.social"
+ ],
+ "frozen_policy": {
+  "confirmation": {
+   "items_per_skill": 3,
+   "max_items": 18,
+   "format": "single_choice",
+   "pass_threshold": 0.8,
+   "min_distinct_clusters": 3,
+   "max_hypothesis_tests": 3
+  }
+ },
+ "remaining_budget": null,
+ "run_id": "p2_contact_1013_ego4d",
+ "dataset": "ego4d",
+ "videos": [
+  "ab78f4e5-aa25-442c-933f-9b277b1d9715",
+  "9adc0c59-1167-4311-abf3-7b57a0743b1d",
+  "bd970f5b-3fd9-4ae9-9f2b-738e8ca54c1e",
+  "53da674a-089d-428a-a719-e322b2de002b",
+  "e6f1accd-e18d-43ec-b854-e7633b15cbf7"
+ ],
+ "extension_registry": {
+  "enabled_skills": [
+   "contact_action_recognition",
+   "contact_feedback_binding",
+   "contact_state_inference",
+   "contact_conditioned_next_action"
+  ]
+ },
+ "budget_mode": "per_skill",
+ "per_skill_base": 3,
+ "per_skill_followups": 3,
+ "include_skills": [
+  "contact_action_recognition",
+  "contact_feedback_binding",
+  "contact_state_inference",
+  "contact_conditioned_next_action"
+ ],
+ "note": "contact-rich(\u7528\u6237\u5b9a):\u6bcf\u5c42\u4e00\u4e2a\u9700\u8981\u63a5\u89e6\u53cd\u9988\u7684 skill;\u8bc1\u636e\u6765\u81ea narration \u7684\u63a5\u89e6\u52a8\u8bcd\u8bcd\u8868;\u6309 skill \u9884\u7b97 3/3/3"
+}
