@@ -1,0 +1,29 @@
+{
+ "note": "全局不出题、不重放、不计分的 skill;改此文件即生效(controller.active_skills / chain.replay / daily_1023.rows / trajectory_eval.scored / label_eval / Space build 都读 p2config.excluded_skills)。",
+ "skills": {
+  "contact_action_recognition": {
+   "layer": "L1",
+   "decided": "2026-10-27",
+   "decided_by": "用户:把 contact 先拿掉",
+   "reason": "HD-EPIC 没有接触标注,四个 contact skill 都是 narration 动词词表(squeeze/press/twist…)造的;§5 prompt 自己写了 tactile 在 HD-EPIC 未覆盖;v11 15/17、v12 12/12 全对,题太软"
+  },
+  "contact_feedback_binding": {
+   "layer": "L2",
+   "decided": "2026-10-27",
+   "decided_by": "用户:把 contact 先拿掉",
+   "reason": "同上"
+  },
+  "contact_state_inference": {
+   "layer": "L3",
+   "decided": "2026-10-27",
+   "decided_by": "用户:把 contact 先拿掉",
+   "reason": "同上"
+  },
+  "contact_conditioned_next_action": {
+   "layer": "L4",
+   "decided": "2026-10-27",
+   "decided_by": "用户:把 contact 先拿掉",
+   "reason": "同上"
+  }
+ }
+}

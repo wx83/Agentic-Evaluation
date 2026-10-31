@@ -1,0 +1,187 @@
+{
+ "source": "experiments/hdepic_goal_gen/out/E (Method E) + complete_recipes.json",
+ "seed": 1023,
+ "n_per_video": 1,
+ "rule": "per video: steps containing a top-10 audio sub-goal first, then most audio_critical sub-goals, then most sub-goals; sub-goals >= 3 | 10-25: + 50 dense unseen steps (out/picks/e50_steps.json), sub-goals >= 3",
+ "n_candidates": 55,
+ "samples": [
+  {
+   "sample_id": "P09-20240622-154652__P09_R02_S07",
+   "video_id": "P09-20240622-154652",
+   "official_step_id": "P09_R02_S07",
+   "goal": "Dredge each Chicken-cheese ball into flour, then dip into egg and roll in the breadcrumbs, ensuring the entire surface of the chicken ball is covered in breadcrumbs.",
+   "recipe_id": "P09_R02",
+   "recipe_name": "Chicken Cheese Balls",
+   "t0": 6.31,
+   "t1": 232.78,
+   "steps": [
+    {
+     "idx": 1,
+     "text": "Set up the breadcrumbs in a bowl",
+     "t0": 6.31,
+     "t1": 30.05,
+     "action_ids": [
+      "P09-20240622-154652-4",
+      "P09-20240622-154652-5",
+      "P09-20240622-154652-6",
+      "P09-20240622-154652-7",
+      "P09-20240622-154652-8",
+      "P09-20240622-154652-9",
+      "P09-20240622-154652-10",
+      "P09-20240622-154652-11",
+      "P09-20240622-154652-12",
+      "P09-20240622-154652-28",
+      "P09-20240622-154652-31",
+      "P09-20240622-154652-30",
+      "P09-20240622-154652-29",
+      "P09-20240622-154652-32"
+     ],
+     "goal_id": "E_g1",
+     "audio_label": "visual_sufficient",
+     "interrupted": false
+    },
+    {
+     "idx": 2,
+     "text": "Store the breadcrumbs container and prepare the flour bowl",
+     "t0": 30.15,
+     "t1": 40.78,
+     "action_ids": [
+      "P09-20240622-154652-33",
+      "P09-20240622-154652-34",
+      "P09-20240622-154652-35",
+      "P09-20240622-154652-36",
+      "P09-20240622-154652-37",
+      "P09-20240622-154652-38",
+      "P09-20240622-154652-39",
+      "P09-20240622-154652-40",
+      "P09-20240622-154652-41",
+      "P09-20240622-154652-42"
+     ],
+     "goal_id": "E_g2",
+     "audio_label": "visual_sufficient",
+     "interrupted": false
+    },
+    {
+     "idx": 3,
+     "text": "Retrieve flour from the cabinet and pour it into the bowl",
+     "t0": 40.91,
+     "t1": 53.89,
+     "action_ids": [
+      "P09-20240622-154652-43",
+      "P09-20240622-154652-44",
+      "P09-20240622-154652-45",
+      "P09-20240622-154652-46",
+      "P09-20240622-154652-47",
+      "P09-20240622-154652-48",
+      "P09-20240622-154652-49",
+      "P09-20240622-154652-51",
+      "P09-20240622-154652-50",
+      "P09-20240622-154652-52",
+      "P09-20240622-154652-53",
+      "P09-20240622-154652-54"
+     ],
+     "goal_id": "E_g3",
+     "audio_label": "audio_helpful",
+     "interrupted": false
+    },
+    {
+     "idx": 4,
+     "text": "Form the first chicken ball and coat it with flour",
+     "t0": 74.02,
+     "t1": 130.41,
+     "action_ids": [
+      "P09-20240622-154652-70",
+      "P09-20240622-154652-71",
+      "P09-20240622-154652-90",
+      "P09-20240622-154652-91",
+      "P09-20240622-154652-103",
+      "P09-20240622-154652-104",
+      "P09-20240622-154652-105"
+     ],
+     "goal_id": "E_g4",
+     "audio_label": "audio_helpful",
+     "interrupted": false
+    },
+    {
+     "idx": 5,
+     "text": "Dip the first chicken ball in egg and coat it with breadcrumbs",
+     "t0": 130.75,
+     "t1": 149.77,
+     "action_ids": [
+      "P09-20240622-154652-106",
+      "P09-20240622-154652-107",
+      "P09-20240622-154652-108",
+      "P09-20240622-154652-109",
+      "P09-20240622-154652-111",
+      "P09-20240622-154652-110"
+     ],
+     "goal_id": "E_g5",
+     "audio_label": "audio_helpful",
+     "interrupted": false
+    },
+    {
+     "idx": 6,
+     "text": "Form the second chicken ball and coat it with flour",
+     "t0": 165.52,
+     "t1": 220.25,
+     "action_ids": [
+      "P09-20240622-154652-123",
+      "P09-20240622-154652-136",
+      "P09-20240622-154652-137",
+      "P09-20240622-154652-138",
+      "P09-20240622-154652-139",
+      "P09-20240622-154652-140",
+      "P09-20240622-154652-141",
+      "P09-20240622-154652-142",
+      "P09-20240622-154652-143",
+      "P09-20240622-154652-144",
+      "P09-20240622-154652-145",
+      "P09-20240622-154652-146",
+      "P09-20240622-154652-147",
+      "P09-20240622-154652-148",
+      "P09-20240622-154652-149",
+      "P09-20240622-154652-150",
+      "P09-20240622-154652-151"
+     ],
+     "goal_id": "E_g6",
+     "audio_label": "visual_sufficient",
+     "interrupted": false
+    },
+    {
+     "idx": 7,
+     "text": "Dip the second chicken ball in egg, sprinkle with more flour, and coat it with breadcrumbs",
+     "t0": 220.27,
+     "t1": 232.78,
+     "action_ids": [
+      "P09-20240622-154652-152",
+      "P09-20240622-154652-153",
+      "P09-20240622-154652-154",
+      "P09-20240622-154652-155",
+      "P09-20240622-154652-156",
+      "P09-20240622-154652-157",
+      "P09-20240622-154652-158",
+      "P09-20240622-154652-159",
+      "P09-20240622-154652-160",
+      "P09-20240622-154652-161",
+      "P09-20240622-154652-162"
+     ],
+     "goal_id": "E_g7",
+     "audio_label": "audio_helpful",
+     "interrupted": false
+    }
+   ],
+   "n_audio_critical": 0,
+   "has_pick": false,
+   "next_action": {
+    "text": "The step is complete; nothing more needs to be done for it.",
+    "choices": {
+     "A": "Form the second chicken ball and coat it with flour",
+     "B": "Dip the first chicken ball in egg and coat it with breadcrumbs",
+     "C": "The step is complete; nothing more needs to be done for it.",
+     "D": "Dip the second chicken ball in egg, sprinkle with more flour, and coat it with breadcrumbs"
+    },
+    "gold_letter": "C"
+   }
+  }
+ ]
+}

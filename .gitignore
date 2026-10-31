@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.secrets/*
+!.secrets/README.md
+pyramid_v2/media/
+pyramid_v2/_shared/
+pyramid_v2/logs/
+pyramid_v2/runs/*/nohup.log

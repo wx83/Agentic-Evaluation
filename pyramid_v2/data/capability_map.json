@@ -1,0 +1,308 @@
+{
+ "taxonomy_version": "capability-v3",
+ "levels": {
+  "L1": {
+   "name": "Perception",
+   "zh": "感知",
+   "desc": "提取直接可观察的事实"
+  },
+  "L2": {
+   "name": "Understanding",
+   "zh": "理解",
+   "desc": "理解单个 event 内部的对象、动作、模态和状态关系;直接呈现的先后顺序"
+  },
+  "L3": {
+   "name": "Relational Reasoning & Inference",
+   "zh": "关系推理与推断",
+   "desc": "整合不同 event 推导 temporal/spatial relation,或推断目的、隐含状态、未来"
+  },
+  "L4": {
+   "name": "Planning",
+   "zh": "规划",
+   "desc": "给定 goal、当前状态和 constraints,选择能达到目标的行动"
+  }
+ },
+ "note": "capability-v2(10-09):L2 = 单个 event 内的理解;L3 = 跨 event 关系推理 + 隐含推断。v1 存档在 capability_map_v1.json。status=provisional 表示按题型默认分配;medium_order 逐题按证据事件的时间跨度判 L2/L3(见 build.py)。 L4 tab 放的是 R(replan 核验)与 P(任务时间表核验)两组标注卡片(用户决定 10-09)。",
+ "skills": {
+  "easy_sound": {
+   "level": "L1",
+   "skill": "sound_recognition",
+   "status": "provisional",
+   "reason": "gold 为 HD-EPIC sound annotation 类别;直接可听的事实",
+   "conditions": "检查音频是否真的支持该类别(审核记录里有干扰声音也响过的情况)",
+   "lifecycle": "active"
+  },
+  "easy_sound_object": {
+   "level": "L2",
+   "skill": "sound_action_binding",
+   "status": "provisional",
+   "reason": "v3:两个 sound binding 合并——这一声对应 event 里的哪个动作 / 物体",
+   "conditions": "若题面已给明确时刻、只需识别手持物体,改 L1 object_recognition;同时发生不等于声源归属",
+   "lifecycle": "active",
+   "v2": {
+    "level": "L2",
+    "skill": "sound_object_binding",
+    "reason": "把声音事件与同时刻操作的物体绑定"
+   }
+  },
+  "easy_move": {
+   "level": "L2",
+   "skill": "object_state_change",
+   "status": "provisional",
+   "reason": "关联同一 instance 的起点与终点",
+   "conditions": "只问单帧位置的子题归 L1",
+   "lifecycle": "active"
+  },
+  "easy_spatial_near": {
+   "level": "L1",
+   "skill": "spatial_near",
+   "status": "provisional",
+   "reason": "同一时刻可观察的位置关系",
+   "conditions": "核验 anchor timestamp、距离定义、ties",
+   "lifecycle": "active"
+  },
+  "easy_spatial_side": {
+   "level": "L1",
+   "skill": "spatial_side",
+   "status": "provisional",
+   "reason": "同一时刻 camera-relative 左右关系",
+   "conditions": "核验观察者坐标系",
+   "lifecycle": "active"
+  },
+  "low_sound_movement": {
+   "level": "L2",
+   "skill": "sound_action_binding",
+   "status": "provisional",
+   "reason": "v3:并入 sound_action_binding",
+   "conditions": "",
+   "lifecycle": "active",
+   "v2": {
+    "level": "L2",
+    "skill": "sound_movement_binding",
+    "reason": "音频定位时刻,画面确定移动物体"
+   }
+  },
+  "low_spatial_near": {
+   "level": "L1",
+   "skill": "spatial_near",
+   "status": "provisional",
+   "reason": "v3:本质是 L1 单时刻关系,只是时刻靠声音找;作 L1 spatial 的对照变体(anchor=sound),不单列 skill",
+   "conditions": "若时刻可由画面或唯一场景绕过声音,标 shortcut_risk",
+   "lifecycle": "control_variant",
+   "v2": {
+    "level": "L2",
+    "skill": "sound_anchored_spatial_near",
+    "reason": "声音锚定是回答的必需步骤"
+   }
+  },
+  "low_spatial_side": {
+   "level": "L1",
+   "skill": "spatial_side",
+   "status": "provisional",
+   "reason": "v3:同上",
+   "conditions": "同上",
+   "lifecycle": "control_variant",
+   "v2": {
+    "level": "L2",
+    "skill": "sound_anchored_spatial_side",
+    "reason": "声音锚定 + camera-relative 左右"
+   }
+  },
+  "low_purpose": {
+   "level": "split",
+   "skill": "sound_action_binding / sound_anchored_purpose",
+   "status": "unresolved",
+   "reason": "「当时做什么」归 L2,「为了什么」归 L3;复合题需拆子题",
+   "conditions": "本站当前没有这类题",
+   "lifecycle": "active"
+  },
+  "medium_count": {
+   "level": "L1",
+   "skill": "sound_event_count",
+   "status": "provisional",
+   "reason": "整段计数仍是直接可听事实,不因时长上调",
+   "conditions": "明确 event boundary 和计数单位",
+   "lifecycle": "active"
+  },
+  "medium_order": {
+   "level": "L2/L3",
+   "skill": "action_temporal_order / inter_event_temporal_reasoning",
+   "status": "provisional",
+   "reason": "连续清楚展示的三个动作直接读顺序归 L2;分散、间隔大或有相似重复动作需匹配实例并整合时间归 L3",
+   "conditions": "逐题规则:三个证据事件总跨度 ≤ 15 s 且相邻间隔 ≤ 5 s → L2,否则 L3;相似动作重复出现的情况未自动检查",
+   "relation_operation": "temporal_alignment",
+   "lifecycle": "active",
+   "level_rule": {
+    "span_sec": 15,
+    "gap_sec": 5
+   }
+  },
+  "medium_spatial_extreme": {
+   "level": "L3",
+   "skill": "inter_event_spatial_extreme",
+   "status": "provisional",
+   "reason": "整合不同 event 的放置/移动并推导最终距离关系(cross-event state integration + distance comparison)",
+   "conditions": "末帧直接可答归 L1;单个声音锚定 event 内的关系归 L2;需逐题看末帧",
+   "relation_operation": "cross_event_state_update",
+   "lifecycle": "active"
+  },
+  "medium_spatial_order": {
+   "level": "L3",
+   "skill": "inter_event_spatial_order",
+   "status": "provisional",
+   "reason": "跨 event 重建最终空间状态并排序",
+   "conditions": "末帧直接可答归 L1;只定位一个 event 再判断归 L2",
+   "relation_operation": "cross_event_state_update",
+   "lifecycle": "active"
+  },
+  "medium_purpose": {
+   "level": "L3",
+   "skill": "action_purpose_inference",
+   "status": "provisional",
+   "reason": "目的不可直接观察,需从动作推断",
+   "conditions": "narration 的目的从句只是候选 gold,必须可由给定输入支持",
+   "relation_operation": "intent_inference",
+   "lifecycle": "active"
+  },
+  "medium_goal": {
+   "level": "L2",
+   "skill": "activity_recognition",
+   "status": "provisional",
+   "reason": "recipe/activity label 识别:局部 activity recognition",
+   "conditions": "未明说的 final goal 推断才 L3",
+   "lifecycle": "active"
+  },
+  "high_plan_next": {
+   "level": "L3",
+   "skill": "next_activity_prediction",
+   "status": "provisional",
+   "reason": "预测片段之后的活动段标签:未来事件,不是为目标选行动",
+   "conditions": "gold 粒度是活动段标签,与题面「下一个动作」不符(已下线,保留历史题)",
+   "lifecycle": "retired"
+  },
+  "high_plan_route": {
+   "level": "L3",
+   "skill": "cross_scene_spatial_reasoning",
+   "status": "provisional",
+   "reason": "第一段放置位置 + 第二段观察者 pose,变换到第二段 camera frame 得到象限:跨 event 位置整合与坐标变换;不是 route planning",
+   "conditions": "单纯回忆原位置不属于 L3",
+   "relation_operation": "reference_frame_transformation",
+   "lifecycle": "active"
+  },
+  "high_plan_next_action": {
+   "level": "L3",
+   "skill": "next_action_prediction",
+   "status": "provisional",
+   "reason": "切在动作前 0.5 s,下一 narration 是 future outcome gold,不是 normative planning gold",
+   "conditions": "检查 cut 之后无泄漏;下一 narration 未必是紧邻动作",
+   "lifecycle": "active"
+  },
+  "high_plan_next_step": {
+   "level": "L3",
+   "skill": "next_step_prediction",
+   "status": "provisional",
+   "reason": "给 goal 后预测任务中的下一步;仍是预测已发生的未来,未要求为目标选择行动",
+   "conditions": "若题面改为「为完成 goal 应先做什么」且 gold 按可执行性/前置条件评价,才归 L4",
+   "lifecycle": "active"
+  },
+  "high_plan_trajectory": {
+   "level": "L4",
+   "skill": "goal_conditioned_planning",
+   "status": "provisional",
+   "reason": "给 goal + 当前状态,生成行动序列",
+   "conditions": "必须给 goal、state、constraints;4–8 步只是格式约束;gold 待人工核验",
+   "lifecycle": "active"
+  },
+  "high_replan": {
+   "level": "L4",
+   "skill": "failure_conditioned_replanning",
+   "status": "provisional",
+   "reason": "给异常 evidence 与目标,要求修改行动方案",
+   "conditions": "只判断异常原因的题归 L3;gold 待人工核验",
+   "lifecycle": "active"
+  },
+  "easy_tactile_property": {
+   "level": "L3",
+   "skill": "tactile_property_inference",
+   "status": "provisional",
+   "reason": "问触觉在检查什么属性:触觉信号不在输入里,需从动作推断",
+   "conditions": "blind 对照显示可靠常识作答者标 shortcut_risk",
+   "lifecycle": "active"
+  },
+  "noav_control": {
+   "level": "control",
+   "skill": "no_av_control",
+   "status": "confirmed",
+   "reason": "无视频对照,不参与分层",
+   "conditions": "",
+   "lifecycle": "active"
+  },
+  "low_tactile_sound": {
+   "level": "L2",
+   "skill": "sound_tactile_binding",
+   "status": "provisional",
+   "reason": "由接触声判断触觉状态:跨模态关系",
+   "conditions": "gold 未标",
+   "lifecycle": "active"
+  },
+  "low_tactile_visual": {
+   "level": "L2",
+   "skill": "visual_tactile_binding",
+   "status": "provisional",
+   "reason": "由视觉线索(蒸汽、形变)判断触觉状态",
+   "conditions": "",
+   "lifecycle": "active"
+  },
+  "medium_tactile_infer": {
+   "level": "L3",
+   "skill": "tactile_hidden_state_inference",
+   "status": "provisional",
+   "reason": "推断未直接观察的物体状态",
+   "conditions": "",
+   "lifecycle": "active"
+  },
+  "medium_tactile_relation": {
+   "level": "L3",
+   "skill": "tactile_relation_inference",
+   "status": "provisional",
+   "reason": "推断感知与后续行为的关系",
+   "conditions": "",
+   "relation_operation": "cross_event_state_update",
+   "lifecycle": "active"
+  },
+  "needs_touch_control": {
+   "level": "control",
+   "skill": "needs_touch_control",
+   "status": "confirmed",
+   "reason": "对照题,正确答案是 cannot be determined",
+   "conditions": "",
+   "lifecycle": "active"
+  },
+  "high_tactile_next": {
+   "level": "L3",
+   "skill": "next_action_prediction",
+   "status": "provisional",
+   "reason": "预测感知之后实际做的动作:future outcome,不是规划",
+   "conditions": "",
+   "lifecycle": "active"
+  },
+  "action_recognition": {
+   "level": "L2",
+   "skill": "action_recognition",
+   "status": "provisional",
+   "lifecycle": "active",
+   "reason": "v3:这个 event 做了什么动作(verb + object)",
+   "conditions": "单帧可见的物体识别归 L1;动作的目的归 L3"
+  },
+  "event_object_role": {
+   "level": "L2",
+   "skill": "event_object_role",
+   "status": "provisional",
+   "lifecycle": "active",
+   "reason": "v3:event 里被操作的物体 / 工具 / 目的地(narration 名词对;Ego4D EASG 的 instrument / destination)",
+   "conditions": "只问物体名归 L1"
+  }
+ },
+ "v3_note": "2026-10-13 用户定:L1 = 一个时刻直接可观察;L2 = 理解一个 event(动作、被操作物 / 工具 / 目的地、前后状态、短跨度先后、局部活动、声音-动作对应);L3 = 跨 event。sound_anchored_spatial_* 降为 L1 spatial 的对照变体(control_variant),不单列。",
+ "generated_from": "/mnt/work_new/weihanxu/agent/bench/pyramid/capability_map.json"
+}

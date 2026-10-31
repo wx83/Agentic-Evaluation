@@ -1,0 +1,145 @@
+{
+ "note": "人工判定的问题题(item_issue):不计入任何臂的正确率与决策点;按 candidate_id 生效,replay 臂同题一并排除",
+ "items": [
+  {
+   "candidate_id": "cand:p2_hdepicE_1023_pilot_g4_self:L3:010:5400d463",
+   "run": "p2_hdepicE_1023_pilot_g4_self",
+   "label": "L3-010",
+   "skill": "next_step_prediction",
+   "sample_id": "P04-20240414-173337__P04_R05_S05",
+   "reason": "选项 B(参考,sub-goal 5:关火 + 把剩余碎 dosa 移到盘子)与 C(sub-goal 2:把碎 dosa 刮到盘子)是同一动作的两次重复;截断后 5 s 内实际发生的正是 C 描述的动作,判错不公平",
+   "decided_by": "user 2026-10-23",
+   "ts": "2026-10-23"
+  },
+  {
+   "candidate_id": "cand:p2_hdepicE_1023t_g4_gap_self__00:L4:005:bb20aed2",
+   "run": "p2_hdepicE_1023t_g4_gap_self__00",
+   "label": "L4-005 (gap)",
+   "skill": "plan_gap_filling",
+   "sample_id": "P02-20240209-184316__P02_R01_S03",
+   "reason": "gap 题:头 = 洋葱倒进锅,尾 = 修剪第二瓣蒜的前 6 s,隐藏「剥第一瓣蒜并加进锅」;一瓣蒜埋在一锅洋葱里,尾画面几乎没有可见痕迹,两个 agent 三臂全选「无中间步骤」。用户 10-24 判为题目问题",
+   "decided_by": "user 2026-10-24",
+   "ts": "2026-10-24"
+  },
+  {
+   "candidate_id": "cand:p2_hdepicE_1023t_g4_v10_self__00:L3:005:1bdd9e1b",
+   "run": "p2_hdepicE_1023t_g4_v10_self__00",
+   "label": "L3-005 (v10)",
+   "skill": "spatial_state_integration",
+   "sample_id": "P02-20240209-184316__P02_R01_S03",
+   "reason": "流水线残名:参照物或候选项写成「track N (skipped)」(3D 搬运记录里未命名的轨迹),Solver 无从知道是什么;l3ext._nameable 00:51 已过滤,但 v10 进程在修复前已加载旧模块",
+   "decided_by": "pipeline bug (code fixed 10-27 00:51); 待用户确认",
+   "ts": "2026-10-27"
+  },
+  {
+   "candidate_id": "cand:p2_hdepicE_1023t_g4_v10_self__00:L3:010:4e10d45e",
+   "run": "p2_hdepicE_1023t_g4_v10_self__00",
+   "label": "L3-010 (v10)",
+   "skill": "spatial_state_integration",
+   "sample_id": "P02-20240209-184316__P02_R01_S03",
+   "reason": "流水线残名:参照物或候选项写成「track N (skipped)」(3D 搬运记录里未命名的轨迹),Solver 无从知道是什么;l3ext._nameable 00:51 已过滤,但 v10 进程在修复前已加载旧模块",
+   "decided_by": "pipeline bug (code fixed 10-27 00:51); 待用户确认",
+   "ts": "2026-10-27"
+  },
+  {
+   "candidate_id": "cand:p2_hdepicE_1023t_g4_v10_self__00:L3:015:2c0897ac",
+   "run": "p2_hdepicE_1023t_g4_v10_self__00",
+   "label": "L3-015 (v10)",
+   "skill": "spatial_state_integration",
+   "sample_id": "P02-20240209-184316__P02_R01_S03",
+   "reason": "流水线残名:参照物或候选项写成「track N (skipped)」(3D 搬运记录里未命名的轨迹),Solver 无从知道是什么;l3ext._nameable 00:51 已过滤,但 v10 进程在修复前已加载旧模块",
+   "decided_by": "pipeline bug (code fixed 10-27 00:51); 待用户确认",
+   "ts": "2026-10-27"
+  },
+  {
+   "candidate_id": "cand:p2_hdepicE_1023t_g4_v10_self__00:L3:020:06f15f99",
+   "run": "p2_hdepicE_1023t_g4_v10_self__00",
+   "label": "L3-020 (v10)",
+   "skill": "spatial_state_integration",
+   "sample_id": "P02-20240209-184316__P02_R01_S03",
+   "reason": "流水线残名:参照物或候选项写成「track N (skipped)」(3D 搬运记录里未命名的轨迹),Solver 无从知道是什么;l3ext._nameable 00:51 已过滤,但 v10 进程在修复前已加载旧模块",
+   "decided_by": "pipeline bug (code fixed 10-27 00:51); 待用户确认",
+   "ts": "2026-10-27"
+  },
+  {
+   "candidate_id": "cand:p2_hdepicE_1023t_g4_v10_self__00:L3:025:c1d80a6c",
+   "run": "p2_hdepicE_1023t_g4_v10_self__00",
+   "label": "L3-025 (v10)",
+   "skill": "spatial_state_integration",
+   "sample_id": "P02-20240209-184316__P02_R01_S03",
+   "reason": "流水线残名:参照物或候选项写成「track N (skipped)」(3D 搬运记录里未命名的轨迹),Solver 无从知道是什么;l3ext._nameable 00:51 已过滤,但 v10 进程在修复前已加载旧模块",
+   "decided_by": "pipeline bug (code fixed 10-27 00:51); 待用户确认",
+   "ts": "2026-10-27"
+  },
+  {
+   "candidate_id": "cand:p2_hdepicE_1023t_g4_v10_self__02:L3:010:04c87c4b",
+   "run": "p2_hdepicE_1023t_g4_v10_self__02",
+   "label": "L3-010 (v10)",
+   "skill": "spatial_state_integration",
+   "sample_id": "P03-20240217-192543__P03_R07_S02",
+   "reason": "流水线残名:参照物或候选项写成「track N (skipped)」(3D 搬运记录里未命名的轨迹),Solver 无从知道是什么;l3ext._nameable 00:51 已过滤,但 v10 进程在修复前已加载旧模块",
+   "decided_by": "pipeline bug (code fixed 10-27 00:51); 待用户确认",
+   "ts": "2026-10-27"
+  },
+  {
+   "candidate_id": "cand:p2_hdepicE_1023t_g4_v10_self__00:L3:013:70ebb789",
+   "run": "p2_hdepicE_1023t_g4_v10_self__00",
+   "label": "L3-013 (v10)",
+   "skill": "hidden_state_inference",
+   "sample_id": "P02-20240209-184316__P02_R01_S03",
+   "reason": "参考「微波炉 on」来自 narration 75「turn on the microwave plug」(说的是插头)且微波炉会自动停;512 s 又「再开一分钟」说明中途已停过。v2:直接宾语是插头/开关的整条跳过,自动停电器不出 on",
+   "decided_by": "pipeline bug (code fixed 10-27 v2); 待用户确认",
+   "ts": "2026-10-27"
+  },
+  {
+   "candidate_id": "cand:p2_hdepicE_1023t_g4_v10_self__02:L3:027:b7747647",
+   "run": "p2_hdepicE_1023t_g4_v10_self__02",
+   "label": "L3-027 (v10)",
+   "skill": "hidden_state_inference",
+   "sample_id": "P03-20240217-192543__P03_R07_S02",
+   "reason": "narration 27「flip the plate and put it on top of the bowl to cover the bowl」被配成 (cover, plate):问「盘子是否被盖住」,而被盖的是碗;盘子本身是盖子,Solver 答 uncovered 反而合理。v2:cover 取文本里 cover 后面的宾语,盖子类名词不做被盖物",
+   "decided_by": "pipeline bug (code fixed 10-27 v2); 待用户确认",
+   "ts": "2026-10-27"
+  },
+  {
+   "candidate_id": "cand:p2_hdepicE_1023t_g4_v10_self__02:L3:029:a25ed5c8",
+   "run": "p2_hdepicE_1023t_g4_v10_self__02",
+   "label": "L3-029 (v10)",
+   "skill": "hidden_state_inference",
+   "sample_id": "P03-20240217-192543__P03_R07_S02",
+   "reason": "narration 27「flip the plate and put it on top of the bowl to cover the bowl」被配成 (cover, plate):问「盘子是否被盖住」,而被盖的是碗;盘子本身是盖子,Solver 答 uncovered 反而合理。v2:cover 取文本里 cover 后面的宾语,盖子类名词不做被盖物",
+   "decided_by": "pipeline bug (code fixed 10-27 v2); 待用户确认",
+   "ts": "2026-10-27"
+  },
+  {
+   "candidate_id": "cand:p2_hdepicE_1023t_g4_v11_self__00:L3:020:0b052b56",
+   "run": "p2_hdepicE_1023t_g4_v11_self__00",
+   "label": "L3-020 (v11)",
+   "skill": "hidden_state_inference",
+   "sample_id": "P02-20240209-184316__P02_R01_S03",
+   "reason": "参考「microwave 在 clip 结束时是 on」来自 v1 代码把「turn on the microwave plug / 定时」当成电器开着;microwave 属自动停机类(v2 _AUTO_OFF 已排除),与 v10 task00 turn13 同一 bug",
+   "decided_by": "pipeline bug (l3ext v1 code, v11 runs started before v2); 待用户确认",
+   "ts": "2026-10-27"
+  },
+  {
+   "candidate_id": "cand:p2_hdepicE_1023t_g4_v11_self__09:L3:004:c38e2334",
+   "run": "p2_hdepicE_1023t_g4_v11_self__09",
+   "label": "L3-004 (v11)",
+   "skill": "hidden_state_inference",
+   "sample_id": "P08-20240617-184909__P08_R07_S09",
+   "reason": "参考「kitchen tap 在 clip 结束时是 on」不可靠:状态事件是 1486.8「turn the water on」(water→tap),窗口 1526.8–1556.8 之前没有 narration 记录关水,但 1572.6 又「turn the kitchen tap on」,说明中间已关(未 narrate);「状态保持到 clip 结束」假设被证伪",
+   "decided_by": "pipeline bug (l3ext v1 code, v11 runs started before v2); 待用户确认",
+   "ts": "2026-10-27"
+  },
+  {
+   "candidate_id": "cand:p2_hdepicE_1023t_g4_v11_self__09:L3:020:76b809bd",
+   "run": "p2_hdepicE_1023t_g4_v11_self__09",
+   "label": "L3-020 (v11)",
+   "skill": "hidden_state_inference",
+   "sample_id": "P08-20240617-184909__P08_R07_S09",
+   "reason": "参考「trash can 在 clip 结束时是 open」不可靠:状态事件 1430.7 open(窗口 1444.2–1474.2 之前),1483.0 又「open the trash can」、1484.3 close,说明中间已合上(脚踏桶,未 narrate);「状态保持」假设被证伪",
+   "decided_by": "pipeline bug (l3ext v1 code, v11 runs started before v2); 待用户确认",
+   "ts": "2026-10-27"
+  }
+ ]
+}

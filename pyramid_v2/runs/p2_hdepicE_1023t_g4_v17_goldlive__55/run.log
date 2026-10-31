@@ -1,0 +1,126 @@
+[15:22:38] sg planner: P09-20240622-154652__P09_R02_S07: 15 expected events (14 matched to annotations), 14 relations, 7 decision points
+[15:22:38] L1: skills ['spatial_near', 'spatial_side', 'object_recognition', 'object_location_at_time', 'object_grounding']; pools {spatial_near:0, spatial_side:0, object_recognition:7, object_location_at_time:5, object_grounding:16}; NOT_EVALUATED ['spatial_near', 'spatial_side']
+[15:22:38] L1: v17 event loop: 12 units, 25 (unit, skill) items planned
+[15:23:22]   L1 t01 object_recognition               L2 single_choice event s1e1   search -> correct move=stay
+[15:24:06]   L1 t02 object_grounding                 L2 bbox          event s1e1   search -> wrong move=down
+[15:24:49]   L1 t03 object_recognition               L2 single_choice event s2e1   search -> correct move=up
+[15:25:48]   L1 t04 object_location_at_time          L2 single_choice event s2e1   search -> correct move=stay
+[15:26:23]   L1 t05 object_grounding                 L1 bbox          event s2e1   search -> wrong move=stay
+[15:27:02]   L1 t06 object_recognition               L3 single_choice event s3e1   search -> correct move=stay
+[15:27:45]   L1 t07 object_recognition               L3 single_choice event s3e2   search -> correct move=up
+[15:28:21]   L1 turn 8 examiner output rejected (attempt 1): ["question / options must refer to the event s4e1 ('Shape the chicken and cheese mixture into a ball using hands.'): none of its words appear"]
+[15:28:59]   L1 t08 object_recognition               L4 short_answer  event s4e1   search -> correct move=stay
+[15:29:55]   L1 t09 object_recognition               L4 short_answer  event s4e2   search -> wrong move=down
+[15:30:44]   L1 t10 object_location_at_time          L2 single_choice event s4e2   search -> wrong move=down
+[15:32:13]   L1 t11 object_grounding                 L1 bbox          event s4e2   search -> wrong move=stay | boundary=0.5 (floor)
+[15:37:08]   L1 t12 object_recognition               L3 single_choice event s5e1   search -> correct move=stay
+[15:37:51]   L1 t13 object_location_at_time          L1 single_choice event s5e1   search -> wrong move=stay
+[15:38:34]   L1 t14 object_grounding                 L1 bbox          event s5e1   verify -> wrong
+[15:39:21]   L1 t15 object_recognition               L3 single_choice event s6e2   search -> correct move=up | boundary=3.5 (reversals)
+[15:40:13]   L1 t16 object_location_at_time          L1 single_choice event s6e2   search -> correct move=stay
+[15:40:44]   L1 t17 object_grounding                 L1 bbox          event s6e2   verify -> wrong
+[15:42:41]   L1 t18 object_recognition               L4 short_answer  event s6e1   verify -> wrong
+[15:44:44]   L1 t19 object_grounding                 L1 bbox          event s6e1   verify -> wrong
+[15:45:16]   L1 t20 object_recognition               L4 short_answer  event s7e1   verify -> correct
+[15:46:14]   L1 t21 object_location_at_time          L1 single_choice event s7e1   search -> correct move=up
+[15:47:33]   L1 t22 object_grounding                 L1 bbox          event s7e1   verify -> wrong
+[15:48:34]   L1 t23 object_recognition               L4 short_answer  event s7e2   verify -> wrong
+[15:49:48]   L1 t24 object_recognition               L4 short_answer  event s7e3   verify -> correct
+[15:50:39]   L1 t25 object_grounding                 L1 bbox          event s7e3   verify -> wrong
+[15:50:39] L1: EVENT_LOOP_COMPLETE after 25 turns; boundaries object_recognition=3.5(reversals), object_location_at_time=1.75(events_exhausted), object_grounding=0.5(floor)
+[15:50:39] L2: skills ['sound_action_binding', 'object_state_change', 'action_temporal_order', 'action_recognition', 'event_object_role', 'sound_anchored_spatial_near', 'sound_anchored_spatial_side', 'sound_movement_binding']; pools {sound_action_binding:6, object_state_change:5, action_temporal_order:7, action_recognition:7, event_object_role:7, sound_anchored_spatial_near:0, sound_anchored_spatial_side:0, sound_movement_binding:5}; NOT_EVALUATED ['sound_anchored_spatial_near', 'sound_anchored_spatial_side']
+[15:50:39] L2: v17 event loop: 12 units, 58 (unit, skill) items planned
+[15:52:08]   L2 t01 sound_action_binding             L2 single_choice event s1e1   search -> wrong move=down
+[15:53:22]   L2 t02 action_temporal_order            L2 single_choice event s1e1   search -> correct move=stay
+[15:54:07]   L2 t03 action_recognition               L2 single_choice event s1e1   search -> correct move=stay
+[15:55:29]   L2 t04 event_object_role                L2 single_choice event s1e1   search -> correct move=stay
+[15:56:22]   L2 t05 sound_action_binding             L1 single_choice event s2e1   search -> correct move=stay
+[15:57:14]   L2 t06 object_state_change              L2 single_choice event s2e1   search -> correct move=stay
+[15:58:29]   L2 t07 action_temporal_order            L2 single_choice event s2e1   search -> correct move=up
+[15:59:17]   L2 t08 action_recognition               L2 single_choice event s2e1   search -> correct move=up
+[15:59:47]   L2 t09 event_object_role                L2 single_choice event s2e1   search -> correct move=up
+[16:00:47]   L2 t10 sound_movement_binding           L2 single_choice event s2e1   search -> correct move=stay
+[16:01:44]   L2 t11 action_temporal_order            L3 single_choice event s3e1   search -> correct move=stay
+[16:03:00]   L2 t12 action_recognition               L3 single_choice event s3e1   search -> wrong move=down
+[16:03:42]   L2 t13 event_object_role                L3 single_choice event s3e1   search -> correct move=stay
+[16:04:36]   L2 t14 action_temporal_order            L3 single_choice event s3e2   search -> correct move=up
+[16:05:26]   L2 t15 action_recognition               L2 single_choice event s3e2   search -> correct move=stay
+[16:05:58]   L2 t16 event_object_role                L3 single_choice event s3e2   search -> correct move=up
+[16:06:31]   L2 t17 sound_action_binding             L1 single_choice event s4e1   search -> correct move=up
+[16:07:46]   L2 t18 action_temporal_order            L4 short_answer  event s4e1   search -> wrong move=down
+[16:10:22]   L2 t19 action_recognition               L2 single_choice event s4e1   search -> correct move=up | boundary=2.5 (reversals)
+[16:11:50]   L2 turn 20 examiner output rejected (attempt 1): ["question / options must refer to the event s4e1 ('Shape the chicken and cheese mixture into a ball using hands.'): none of its words appear"]
+[16:12:42]   L2 t20 event_object_role                L4 short_answer  event s4e1   search -> correct move=stay
+[16:15:01]   L2 t21 sound_movement_binding           L2 single_choice event s4e1   search -> wrong move=down
+[16:15:59]   L2 t22 sound_action_binding             L2 single_choice event s4e2   search -> correct move=stay
+[16:17:19]   L2 t23 object_state_change              L2 single_choice event s4e2   search -> correct move=up
+[16:18:29]   L2 t24 action_temporal_order            L3 single_choice event s4e2   search -> wrong move=down
+[16:19:39]   L2 t25 action_recognition               L2 single_choice event s4e2   verify -> correct
+[16:20:53]   L2 t26 event_object_role                L4 short_answer  event s4e2   search -> wrong move=down
+[16:21:56]   L2 t27 sound_movement_binding           L1 single_choice event s4e2   search -> correct move=stay
+[16:22:49]   L2 t28 sound_action_binding             L2 single_choice event s5e1   search -> correct move=up
+[16:23:38]   L2 t29 object_state_change              L3 single_choice event s5e1   search -> correct move=stay
+[16:24:16]   L2 t30 action_temporal_order            L2 single_choice event s5e1   search -> correct move=stay
+[16:27:08]   L2 t31 action_recognition               L2 single_choice event s5e1   verify -> correct
+[16:27:42]   L2 t32 event_object_role                L3 single_choice event s5e1   search -> wrong move=down
+[16:28:38]   L2 t33 sound_movement_binding           L1 single_choice event s5e1   search -> correct move=up
+[16:29:21]   L2 t34 sound_action_binding             L3 single_choice event s6e2   search -> correct move=stay
+[16:30:06]   L2 t35 object_state_change              L3 single_choice event s6e2   search -> correct move=up
+[16:30:52]   L2 t36 action_temporal_order            L2 single_choice event s6e2   search -> correct move=up | boundary=3 (reversals)
+[16:31:55]   L2 t37 action_recognition               L2 single_choice event s6e2   verify -> correct
+[16:33:15]   L2 t38 event_object_role                L2 single_choice event s6e2   search -> correct move=stay
+[16:34:14]   L2 t39 sound_movement_binding           L2 single_choice event s6e2   search -> correct move=stay
+[16:36:13]   L2 t40 sound_action_binding             L3 single_choice event s6e1   search -> correct move=up
+[16:36:54]   L2 t41 action_temporal_order            L3 single_choice event s6e1   verify -> wrong
+[16:38:10]   L2 t42 action_recognition               L2 single_choice event s6e1   verify -> correct
+[16:39:47]   L2 t43 event_object_role                L2 single_choice event s6e1   search -> correct move=up | boundary=3 (reversals)
+[16:42:51]   L2 t44 sound_movement_binding           L2 single_choice event s6e1   search -> wrong move=down | boundary=1.5 (reversals)
+[16:43:15]   L2 turn 45 examiner output rejected (attempt 1): ["question / options must refer to the event s7e1 ('Dip the second floured chicken ball into the egg bowl.'): none of its words appear"]
+[16:44:14]   L2 t45 sound_action_binding             L4 short_answer  event s7e1   search -> wrong move=down | boundary=2.5 (reversals)
+[16:45:06]   L2 t46 object_state_change              L4 short_answer  event s7e1   search -> correct move=stay
+[16:46:02]   L2 t47 action_temporal_order            L3 single_choice event s7e1   verify -> wrong
+[16:48:34]   L2 t48 action_recognition               L2 single_choice event s7e1   verify -> correct
+[16:49:19]   L2 t49 event_object_role                L3 single_choice event s7e1   verify -> wrong
+[16:49:51]   L2 t50 sound_movement_binding           L2 single_choice event s7e1   verify -> wrong
+[16:50:24]   L2 t51 sound_action_binding             L2 single_choice event s7e2   verify -> correct
+[16:51:05]   L2 t52 action_temporal_order            L3 single_choice event s7e2   verify -> correct
+[16:51:37]   L2 t53 action_recognition               L2 single_choice event s7e2   verify -> correct
+[16:56:19]   L2 t54 event_object_role                L3 single_choice event s7e2   verify -> correct
+[16:57:41]   L2 t55 sound_movement_binding           L2 single_choice event s7e2   verify -> correct
+[16:58:31]   L2 t56 action_temporal_order            L3 single_choice event s7e3   verify -> wrong
+[16:59:11]   L2 t57 action_recognition               L2 single_choice event s7e3   verify -> correct
+[17:00:16]   L2 t58 event_object_role                L3 single_choice event s7e3   verify -> correct
+[17:00:16] L2: EVENT_LOOP_COMPLETE after 58 turns; boundaries sound_action_binding=2.5(reversals), object_state_change=3.5(events_exhausted), action_temporal_order=3(reversals), action_recognition=2.5(reversals), event_object_role=3(reversals), sound_movement_binding=1.5(reversals)
+[17:00:16] L3: skills ['cross_event_integration', 'hidden_state_inference', 'spatial_state_integration', 'causal_prerequisite_reasoning']; pools {cross_event_integration:48, hidden_state_inference:0, spatial_state_integration:0, causal_prerequisite_reasoning:8}; NOT_EVALUATED ['hidden_state_inference', 'spatial_state_integration']
+[17:00:16] L3: v17 event loop: 14 units, 14 (unit, skill) items planned
+[17:01:53]   L3 t01 cross_event_integration          L2 single_choice relation d6     search -> correct move=stay
+[17:03:01]   L3 t02 cross_event_integration          L2 single_choice relation r1     search -> correct move=up
+[17:06:46]   L3 t03 cross_event_integration          L3 single_choice relation d7     search -> correct move=stay
+[17:07:53]   L3 t04 causal_prerequisite_reasoning    L2 single_choice relation r2     search -> correct move=stay
+[17:08:45]   L3 turn 5 examiner output rejected (attempt 1): ["L3: private.evidence_refs must cite a record of event s4e2 ('Roll the chicken ball in the flour bowl to coat it.')"]
+[17:12:33]   L3 t05 cross_event_integration          L3 single_choice relation d8     search -> correct move=up
+[17:13:44]   L3 t06 causal_prerequisite_reasoning    L2 single_choice relation r3     search -> correct move=up
+[17:15:37]   L3 t07 cross_event_integration          L4 short_answer  relation d1     search -> correct move=stay
+[17:16:08]   L3 turn 8 examiner output rejected (attempt 1): ["L3: private.evidence_refs must cite a record of event s4e2 ('Roll the chicken ball in the flour bowl to coat it.')"]
+[17:17:45]   L3 t08 cross_event_integration          L4 short_answer  relation r4     search -> correct move=stay | boundary=4.5 (ceiling)
+[17:18:49]   L3 turn 9 examiner output rejected (attempt 1): ["L3: private.evidence_refs must cite a record of event s6e2 ('Roll the second chicken ball in the flour bowl.')"]
+[17:20:31]   L3 t09 cross_event_integration          L4 short_answer  relation d2     verify -> correct
+[17:21:08]   L3 turn 10 examiner output rejected (attempt 1): ["L3: private.evidence_refs must cite a record of event s6e2 ('Roll the second chicken ball in the flour bowl.')"]
+[17:23:22]   L3 t10 cross_event_integration          L4 short_answer  relation d3     verify -> correct
+[17:24:37]   L3 t11 cross_event_integration          L4 short_answer  relation r5     verify -> wrong
+[17:25:17]   L3 turn 12 examiner output rejected (attempt 1): ["L3: private.evidence_refs must cite a record of event s6e2 ('Roll the second chicken ball in the flour bowl.')"]
+[17:27:15]   L3 t12 cross_event_integration          L4 short_answer  relation d4     verify -> wrong
+[17:27:58]   L3 turn 13 examiner output rejected (attempt 1): ["L3: private.evidence_refs must cite a record of event s6e2 ('Roll the second chicken ball in the flour bowl.')"]
+[17:30:32]   L3 t13 cross_event_integration          L4 short_answer  relation d5     verify -> correct
+[17:31:25]   L3 t14 cross_event_integration          L4 short_answer  relation r6     verify -> correct
+[17:31:25] L3: EVENT_LOOP_COMPLETE after 14 turns; boundaries cross_event_integration=4.5(ceiling), causal_prerequisite_reasoning=2.0(events_exhausted)
+[17:31:25] L4: skills ['goal_conditioned_planning']; pools {goal_conditioned_planning:5}; NOT_EVALUATED []
+[17:31:47]   L4 turn 1 examiner output rejected (attempt 1): ["goal_conditioned_planning reference must be the recorded next action 'store the breadcrumbs container and prepare the flour bowl' (got 'put away the breadcrumbs container and get the flour bowl ready.')"]
+[17:32:31]   L4 t01 goal_conditioned_planning        L2 single_choice search -> wrong move=down
+[17:33:25]   L4 t02 goal_conditioned_planning        L1 single_choice search -> correct move=stay
+[17:34:03]   L4 t03 goal_conditioned_planning        L1 single_choice search -> correct move=up
+[17:34:33]   L4 turn 4 examiner output rejected (attempt 1): ["goal_conditioned_planning reference must be the recorded next action 'form the second chicken ball and coat it with flour' (got 'mould another portion of the chicken mixture into a ball and dredge it in flour.')"]
+[17:35:13]   L4 t04 goal_conditioned_planning        L2 single_choice search -> correct move=stay
+[17:35:44]   L4 t05 goal_conditioned_planning        L2 single_choice search -> correct move=stay | boundary=1.75 (exhausted_up)
+[17:35:44] L4: STAIRCASE_COMPLETE after 5 turns; boundaries goal_conditioned_planning=1.75(exhausted_up)
+[17:35:44] run finished

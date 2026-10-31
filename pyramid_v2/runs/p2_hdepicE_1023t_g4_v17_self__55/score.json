@@ -1,0 +1,117 @@
+{
+ "run": "p2_hdepicE_1023t_g4_v17_self__55",
+ "layers": {
+  "L1": {
+   "score": 1.583,
+   "mastery": 0.583,
+   "n_skills": 3,
+   "n_converged": 2
+  },
+  "L2": {
+   "score": 2.625,
+   "mastery": 0.625,
+   "n_skills": 6,
+   "n_converged": 5
+  },
+  "L3": {
+   "score": 3.688,
+   "mastery": 0.688,
+   "n_skills": 2,
+   "n_converged": 1
+  },
+  "L4": {
+   "score": 4.75,
+   "mastery": 0.75,
+   "n_skills": 1,
+   "n_converged": 0
+  }
+ },
+ "skills": {
+  "object_recognition": {
+   "layer": "L1",
+   "boundary": 4.5,
+   "score": 2.0,
+   "stop": "ceiling",
+   "converged": true
+  },
+  "object_location_at_time": {
+   "layer": "L1",
+   "boundary": 3.5,
+   "score": 1.75,
+   "stop": "events_exhausted",
+   "converged": false
+  },
+  "object_grounding": {
+   "layer": "L1",
+   "boundary": 0.5,
+   "score": 1.0,
+   "stop": "floor",
+   "converged": true
+  },
+  "sound_action_binding": {
+   "layer": "L2",
+   "boundary": 3.5,
+   "score": 2.75,
+   "stop": "reversals",
+   "converged": true
+  },
+  "object_state_change": {
+   "layer": "L2",
+   "boundary": 3.5,
+   "score": 2.75,
+   "stop": "events_exhausted",
+   "converged": false
+  },
+  "action_temporal_order": {
+   "layer": "L2",
+   "boundary": 1.5,
+   "score": 2.25,
+   "stop": "reversals",
+   "converged": true
+  },
+  "action_recognition": {
+   "layer": "L2",
+   "boundary": 4.5,
+   "score": 3.0,
+   "stop": "ceiling",
+   "converged": true
+  },
+  "event_object_role": {
+   "layer": "L2",
+   "boundary": 4.5,
+   "score": 3.0,
+   "stop": "ceiling",
+   "converged": true
+  },
+  "sound_movement_binding": {
+   "layer": "L2",
+   "boundary": 0.5,
+   "score": 2.0,
+   "stop": "floor",
+   "converged": true
+  },
+  "cross_event_integration": {
+   "layer": "L3",
+   "boundary": 4.5,
+   "score": 4.0,
+   "stop": "ceiling",
+   "converged": true
+  },
+  "causal_prerequisite_reasoning": {
+   "layer": "L3",
+   "boundary": 2.0,
+   "score": 3.375,
+   "stop": "events_exhausted",
+   "converged": false
+  },
+  "goal_conditioned_planning": {
+   "layer": "L4",
+   "boundary": 3.5,
+   "score": 4.75,
+   "stop": "exhausted_at_level",
+   "converged": false
+  }
+ },
+ "pyramid": 2.646,
+ "height": 4
+}
