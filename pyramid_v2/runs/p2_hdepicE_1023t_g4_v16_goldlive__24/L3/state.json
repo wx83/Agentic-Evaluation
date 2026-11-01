@@ -1,0 +1,129 @@
+{
+ "turn": 10,
+ "phase": "DONE",
+ "stop_reason": "STAIRCASE_COMPLETE",
+ "solver_errors": 0,
+ "frozen_clusters": [
+  "9af1e75ceccf3787",
+  "cc7c87e4aa0554a3"
+ ],
+ "consec_inconclusive": 0,
+ "confirmation": null,
+ "not_evaluated": {},
+ "unresolved_by_skill": {
+  "cross_event_integration": 0,
+  "hidden_state_inference": 0,
+  "spatial_state_integration": 2,
+  "causal_prerequisite_reasoning": 0
+ },
+ "examiner_errors": 0,
+ "stair": {
+  "cross_event_integration": {
+   "level": 4,
+   "streak": 0,
+   "trace": [
+    {
+     "turn": 1,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 2,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 3,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 4,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 5,
+     "level": 4,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 6,
+     "level": 4,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "last_dir": "up",
+   "phase": "done",
+   "stop": "ceiling",
+   "boundary": 4.5,
+   "unconverged": false,
+   "verify": [],
+   "invalid_streak": 0,
+   "floor_hits": 0
+  },
+  "hidden_state_inference": {
+   "level": 2,
+   "streak": 1,
+   "trace": [
+    {
+     "turn": 7,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "last_dir": null,
+   "phase": "done",
+   "stop": "exhausted_at_level",
+   "boundary": 2.0,
+   "unconverged": true,
+   "verify": [],
+   "invalid_streak": 0,
+   "floor_hits": 0
+  },
+  "spatial_state_integration": {
+   "level": 2,
+   "streak": 0,
+   "trace": [],
+   "reversal_levels": [],
+   "last_dir": null,
+   "phase": "done",
+   "stop": "exhausted_at_level",
+   "boundary": null,
+   "unconverged": true,
+   "verify": [],
+   "invalid_streak": 2,
+   "floor_hits": 0
+  },
+  "causal_prerequisite_reasoning": {
+   "level": 2,
+   "streak": 1,
+   "trace": [
+    {
+     "turn": 10,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "last_dir": null,
+   "phase": "done",
+   "stop": "exhausted_at_level",
+   "boundary": 2.0,
+   "unconverged": true,
+   "verify": [],
+   "invalid_streak": 0,
+   "floor_hits": 0
+  }
+ }
+}

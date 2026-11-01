@@ -11,7 +11,8 @@ import numpy as np
 
 SLAM_ROOT = Path("/mnt/data_new/hd-epic/SLAM-and-Gaze")
 VIDEO_ROOT = Path("/mnt/data_new/hd-epic/video")
-POSE_DIR = Path("/mnt/work_new/weihanxu/output/_shared/pose")
+import os
+POSE_DIR = Path(os.environ.get("P2_POSE_DIR", "/mnt/work_new/weihanxu/output/_shared/pose"))   # bundle: $P2_POSE_DIR (setup_full_data.sh sets it)
 HZ = 10.0
 POSE_VERSION = 1
 

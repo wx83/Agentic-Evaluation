@@ -1,0 +1,124 @@
+{
+ "run": "p2_hdepicE_1023t_g4_v16_goldlive__39",
+ "layers": {
+  "L1": {
+   "score": 1.625,
+   "mastery": 0.625,
+   "n_skills": 2,
+   "n_converged": 1
+  },
+  "L2": {
+   "score": 2.792,
+   "mastery": 0.792,
+   "n_skills": 6,
+   "n_converged": 4
+  },
+  "L3": {
+   "score": 3.688,
+   "mastery": 0.688,
+   "n_skills": 2,
+   "n_converged": 1
+  },
+  "L4": {
+   "score": 4.438,
+   "mastery": 0.438,
+   "n_skills": 1,
+   "n_converged": 0
+  }
+ },
+ "skills": {
+  "object_recognition": {
+   "layer": "L1",
+   "boundary": 4.5,
+   "score": 2.0,
+   "stop": "ceiling",
+   "converged": true
+  },
+  "object_location_at_time": {
+   "layer": "L1",
+   "boundary": null,
+   "score": null,
+   "stop": "exhausted_at_level",
+   "converged": false
+  },
+  "object_grounding": {
+   "layer": "L1",
+   "boundary": 1.5,
+   "score": 1.25,
+   "stop": "exhausted_down",
+   "converged": false
+  },
+  "sound_action_binding": {
+   "layer": "L2",
+   "boundary": 3.5,
+   "score": 2.75,
+   "stop": "exhausted_at_level",
+   "converged": false
+  },
+  "object_state_change": {
+   "layer": "L2",
+   "boundary": 4.5,
+   "score": 3.0,
+   "stop": "ceiling",
+   "converged": true
+  },
+  "action_temporal_order": {
+   "layer": "L2",
+   "boundary": 4.5,
+   "score": 3.0,
+   "stop": "ceiling",
+   "converged": true
+  },
+  "action_recognition": {
+   "layer": "L2",
+   "boundary": 4.5,
+   "score": 3.0,
+   "stop": "ceiling",
+   "converged": true
+  },
+  "event_object_role": {
+   "layer": "L2",
+   "boundary": 4.5,
+   "score": 3.0,
+   "stop": "ceiling",
+   "converged": true
+  },
+  "sound_anchored_spatial_near": {
+   "layer": "L2",
+   "boundary": 0.5,
+   "score": 2.0,
+   "stop": "exhausted_at_level",
+   "converged": false
+  },
+  "sound_movement_binding": {
+   "layer": "L2",
+   "boundary": null,
+   "score": null,
+   "stop": "exhausted_at_level",
+   "converged": false
+  },
+  "cross_event_integration": {
+   "layer": "L3",
+   "boundary": 4.5,
+   "score": 4.0,
+   "stop": "ceiling",
+   "converged": true
+  },
+  "causal_prerequisite_reasoning": {
+   "layer": "L3",
+   "boundary": 2.0,
+   "score": 3.375,
+   "stop": "exhausted_at_level",
+   "converged": false
+  },
+  "goal_conditioned_planning": {
+   "layer": "L4",
+   "boundary": 2.25,
+   "score": 4.438,
+   "stop": "exhausted_at_level",
+   "converged": false
+  }
+ },
+ "pyramid": 2.543,
+ "height": 3
+}

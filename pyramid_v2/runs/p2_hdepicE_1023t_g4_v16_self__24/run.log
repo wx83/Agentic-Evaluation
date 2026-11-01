@@ -1,0 +1,128 @@
+[16:59:17] sg planner: P02-20240211-175138__P02_R10_S01: 19 expected events (19 matched to annotations), 9 relations, 14 decision points
+[16:59:17] L1: skills ['spatial_near', 'spatial_side', 'object_recognition', 'object_location_at_time', 'object_grounding']; pools {spatial_near:1, spatial_side:2, object_recognition:8, object_location_at_time:6, object_grounding:16}; NOT_EVALUATED []
+[17:00:10]   L1 t01 spatial_near                     L2 single_choice search -> wrong move=stay | boundary=1.5 (exhausted_down)
+[17:00:58]   L1 t02 spatial_side                     L2 single_choice search -> correct move=stay
+[17:01:35]   L1 turn 3 examiner output rejected (attempt 1): ["option text appears in question: 'baking tray'"]
+[17:02:19]   L1 t03 spatial_side                     L2 single_choice search -> correct move=up
+[17:02:54]   L1 turn 4 examiner output rejected (attempt 1): ["option text appears in question: 'baking tray'"]
+[17:03:36]   L1 t04 spatial_side                     L3 single_choice search -> correct move=stay [reused event]
+[17:03:36]   L1 spatial_side: no cluster for level 3 (search) -> exhausted_at_level boundary=3.5
+[17:04:47]   L1 t05 object_recognition               L2 single_choice search -> correct move=stay
+[17:06:04]   L1 t06 object_recognition               L2 single_choice search -> correct move=up
+[17:07:36]   L1 t07 object_recognition               L3 single_choice search -> correct move=stay
+[17:08:42]   L1 turn 8 examiner output rejected (attempt 1): ["question / options must refer to the event s5e1 ('The water running sound stops.'): none of its words appear", "L1 tier 3: private.evidence_refs must include one of the band anchor records ['hdepic_e:P02-20240211-175138:narration:128', 'hdepic_e:P02-20240211-175138:narration:128~2', 'hdepic_e:P02-20240211-175138:narration:132', 'hdepic_e:P02-20240211-175138:narration:132~2'] (the perceptual target of this tier)"]
+[17:10:18]   L1 t08 object_recognition               L3 single_choice search -> correct move=up
+[17:11:07]   L1 turn 9 examiner output rejected (attempt 1): ["question / options must refer to the event s8e1 ('The water running sound stops.'): none of its words appear"]
+[17:12:06]   L1 t09 object_recognition               L4 short_answer  search -> wrong move=down
+[17:13:47]   L1 t10 object_recognition               L3 single_choice search -> correct move=stay
+[17:14:56]   L1 t11 object_recognition               L3 single_choice search -> correct move=up | boundary=3.5 (reversals)
+[17:16:28]   L1 t12 object_location_at_time          L2 single_choice search -> correct move=stay
+[17:17:19]   L1 t13 object_location_at_time          L2 single_choice search -> correct move=up
+[17:18:58]   L1 t14 object_location_at_time          L3 single_choice search -> correct move=stay
+[17:20:33]   L1 t15 object_location_at_time          L3 single_choice search -> correct move=up [reused event]
+[17:21:50]   L1 t16 object_location_at_time          L4 short_answer  search -> wrong move=down [reused event]
+[17:22:30]   L1 t17 object_location_at_time          L3 single_choice search -> correct move=stay
+[17:23:23]   L1 t18 object_location_at_time          L3 single_choice search -> correct move=up | boundary=3.5 (reversals)
+[17:24:12]   L1 t19 object_grounding                 L2 bbox          search -> correct move=stay
+[17:24:38]   L1 t20 object_grounding                 L2 bbox          search -> correct move=up
+[17:25:07]   L1 t21 object_grounding                 L3 bbox          search -> wrong move=down
+[17:25:58]   L1 t22 object_grounding                 L2 bbox          search -> correct move=stay
+[17:28:12]   L1 t23 object_grounding                 L2 bbox          search -> wrong move=down
+[17:28:51]   L1 t24 object_grounding                 L1 bbox          search -> correct move=stay
+[17:29:24]   L1 t25 object_grounding                 L1 bbox          search -> wrong move=stay
+[17:29:58]   L1 t26 object_grounding                 L1 bbox          search -> wrong move=stay | boundary=0.5 (floor)
+[17:29:58] L1: STAIRCASE_COMPLETE after 26 turns; boundaries spatial_near=1.5(exhausted_down), spatial_side=3.5(exhausted_at_level), object_recognition=3.5(reversals), object_location_at_time=3.5(reversals), object_grounding=0.5(floor)
+[17:29:58] L2: skills ['sound_action_binding', 'object_state_change', 'action_temporal_order', 'action_recognition', 'event_object_role', 'sound_anchored_spatial_near', 'sound_anchored_spatial_side', 'sound_movement_binding']; pools {sound_action_binding:7, object_state_change:6, action_temporal_order:8, action_recognition:8, event_object_role:8, sound_anchored_spatial_near:1, sound_anchored_spatial_side:2, sound_movement_binding:5}; NOT_EVALUATED []
+[17:31:35]   L2 t01 sound_action_binding             L2 single_choice search -> correct move=stay
+[17:35:06]   L2 t02 sound_action_binding             L2 single_choice search -> wrong move=down
+[17:37:28]   L2 t03 sound_action_binding             L1 single_choice search -> correct move=stay
+[17:39:11]   L2 t04 sound_action_binding             L1 single_choice search -> correct move=up
+[17:40:38]   L2 t05 sound_action_binding             L2 single_choice search -> correct move=stay
+[17:41:49]   L2 t06 sound_action_binding             L2 single_choice search -> correct move=up
+[17:43:02]   L2 t07 sound_action_binding             L3 single_choice search -> correct move=stay
+[17:43:57]   L2 t08 sound_action_binding             L3 single_choice search -> correct move=up [reused event]
+[17:44:53]   L2 turn 9 examiner output rejected (attempt 1): ["question / options must refer to the event s1e2 ('The packets of mushrooms are placed on the counter.'): none of its words appear"]
+[17:46:11]   L2 t09 sound_action_binding             L4 short_answer  search -> correct move=stay [reused event]
+[17:47:49]   L2 t10 sound_action_binding             L4 short_answer  search -> correct move=stay [reused event] | boundary=4.5 (ceiling)
+[17:48:59]   L2 t11 object_state_change              L2 single_choice search -> correct move=stay
+[17:50:05]   L2 t12 object_state_change              L2 single_choice search -> correct move=up
+[17:51:37]   L2 t13 object_state_change              L3 single_choice search -> correct move=stay
+[17:53:32]   L2 t14 object_state_change              L3 single_choice search -> correct move=up
+[17:54:20]   L2 turn 15 examiner output rejected (attempt 1): ["question / options must refer to the event s6e2 ('Water running sound starts.'): none of its words appear"]
+[17:56:23]   L2 t15 object_state_change              L4 short_answer  search -> correct move=stay
+[17:59:24]   L2 t16 object_state_change              L4 short_answer  search -> correct move=stay | boundary=4.5 (ceiling)
+[18:00:21]   L2 t17 action_temporal_order            L2 -             search -> evidence_unresolved
+[18:00:59]   L2 t18 action_temporal_order            L2 -             search -> evidence_unresolved
+[18:02:23]   L2 t19 action_temporal_order            L2 single_choice search -> correct move=stay
+[18:02:36]   L2 t20 action_temporal_order            L2 -             search -> evidence_unresolved
+[18:02:58]   L2 t21 action_temporal_order            L2 -             search -> evidence_unresolved
+[18:03:44]   L2 turn 22 examiner output rejected (attempt 1): ["private.sg_event_id must be one of the offered expected events ['s8e1', 's8e2'] (the question must be about that event)"]
+[18:04:38]   L2 t22 action_temporal_order            L2 single_choice search -> correct move=up
+[18:06:31]   L2 t23 action_temporal_order            L3 single_choice search -> correct move=stay
+[18:07:45]   L2 t24 action_temporal_order            L3 single_choice search -> correct move=up
+[18:08:50]   L2 t25 action_temporal_order            L4 short_answer  search -> correct move=stay [reused event]
+[18:10:56]   L2 t26 action_temporal_order            L4 short_answer  search -> correct move=stay [reused event] | boundary=4.5 (ceiling)
+[18:11:54]   L2 t27 action_recognition               L2 single_choice search -> correct move=stay
+[18:12:52]   L2 t28 action_recognition               L2 single_choice search -> correct move=up
+[18:14:17]   L2 t29 action_recognition               L3 single_choice search -> correct move=stay
+[18:15:34]   L2 t30 action_recognition               L3 single_choice search -> correct move=up
+[18:16:45]   L2 t31 action_recognition               L4 short_answer  search -> correct move=stay
+[18:18:04]   L2 t32 action_recognition               L4 short_answer  search -> correct move=stay | boundary=4.5 (ceiling)
+[18:18:52]   L2 t33 event_object_role                L2 single_choice search -> correct move=stay
+[18:19:16]   L2 t34 event_object_role                L2 single_choice search -> correct move=up
+[18:19:40]   L2 turn 35 examiner output rejected (attempt 1): ["option text appears in question: 'the punnet of mushrooms'"]
+[18:20:50]   L2 t35 event_object_role                L3 single_choice search -> correct move=stay
+[18:21:47]   L2 t36 event_object_role                L3 single_choice search -> correct move=up
+[18:23:05]   L2 t37 event_object_role                L4 short_answer  search -> correct move=stay
+[18:24:26]   L2 t38 event_object_role                L4 short_answer  search -> correct move=stay | boundary=4.5 (ceiling)
+[18:25:33]   L2 t39 sound_anchored_spatial_near      L2 single_choice search -> wrong move=down
+[18:27:11]   L2 t40 sound_anchored_spatial_near      L1 single_choice search -> wrong move=stay [reused event]
+[18:27:11]   L2 sound_anchored_spatial_near: no cluster for level 1 (search) -> exhausted_at_level boundary=0.5
+[18:28:32]   L2 t41 sound_anchored_spatial_side      L2 single_choice search -> correct move=stay
+[18:30:27]   L2 t42 sound_anchored_spatial_side      L2 single_choice search -> correct move=up
+[18:31:22]   L2 t43 sound_anchored_spatial_side      L3 single_choice search -> correct move=stay [reused event]
+[18:32:04]   L2 t44 sound_anchored_spatial_side      L3 single_choice search -> correct move=up [reused event]
+[18:32:46]   L2 turn 45 examiner output rejected (attempt 1): ['reference answer appears in question']
+[18:33:53]   L2 t45 sound_anchored_spatial_side      L4 short_answer  search -> correct move=stay [reused event]
+[18:34:26]   L2 turn 46 examiner output rejected (attempt 1): ['reference answer appears in question']
+[18:35:27]   L2 t46 sound_anchored_spatial_side      L4 short_answer  search -> wrong move=down [reused event]
+[18:36:10]   L2 t47 sound_anchored_spatial_side      L1 single_choice search -> wrong move=stay [reused event]
+[18:36:53]   L2 t48 sound_anchored_spatial_side      L1 single_choice search -> correct move=stay [reused event]
+[18:36:53]   L2 sound_anchored_spatial_side: no cluster for level 1 (search) -> exhausted_at_level boundary=2.25
+[18:38:18]   L2 t49 sound_movement_binding           L2 single_choice search -> wrong move=down
+[18:39:08]   L2 turn 50 examiner output rejected (attempt 1): ["option text appears in question: 'the baking tray'"]
+[18:40:41]   L2 t50 sound_movement_binding           L1 single_choice search -> correct move=stay
+[18:42:26]   L2 t51 sound_movement_binding           L1 single_choice search -> correct move=up
+[18:43:44]   L2 t52 sound_movement_binding           L2 -             search -> evidence_unresolved
+[18:44:33]   L2 t53 sound_movement_binding           L2 -             search -> evidence_unresolved
+[18:45:40]   L2 turn 54 examiner output rejected (attempt 1): ["option text appears in question: 'the baking tray'"]
+[18:46:14]   L2 t54 sound_movement_binding           L2 single_choice search -> wrong move=down [reused event] | boundary=1.5 (reversals)
+[18:46:15] L2: STAIRCASE_COMPLETE after 54 turns; boundaries sound_action_binding=4.5(ceiling), object_state_change=4.5(ceiling), action_temporal_order=4.5(ceiling), action_recognition=4.5(ceiling), event_object_role=4.5(ceiling), sound_anchored_spatial_near=0.5(exhausted_at_level), sound_anchored_spatial_side=2.25(exhausted_at_level), sound_movement_binding=1.5(reversals)
+[18:46:15] L3: skills ['cross_event_integration', 'hidden_state_inference', 'spatial_state_integration', 'causal_prerequisite_reasoning']; pools {cross_event_integration:20, hidden_state_inference:4, spatial_state_integration:8, causal_prerequisite_reasoning:4}; NOT_EVALUATED []
+[18:48:14]   L3 t01 cross_event_integration          L2 single_choice search -> correct move=stay
+[18:50:47]   L3 t02 cross_event_integration          L2 single_choice search -> correct move=up
+[18:51:55]   L3 t03 cross_event_integration          L3 single_choice search -> correct move=stay
+[18:53:05]   L3 t04 cross_event_integration          L3 single_choice search -> correct move=up
+[18:55:14]   L3 t05 cross_event_integration          L4 short_answer  search -> correct move=stay
+[18:57:47]   L3 t06 cross_event_integration          L4 short_answer  search -> correct move=stay | boundary=4.5 (ceiling)
+[18:59:00]   L3 t07 hidden_state_inference           L2 single_choice search -> correct move=stay
+[18:59:00]   L3 hidden_state_inference: no cluster for level 2 (search) -> exhausted_at_level boundary=2.0
+[19:00:06]   L3 t08 spatial_state_integration        L2 -             search -> evidence_unresolved
+[19:00:44]   L3 t09 spatial_state_integration        L2 -             search -> evidence_unresolved
+[19:00:44]   L3 spatial_state_integration: no cluster for level 2 (search) -> exhausted_at_level boundary=None
+[19:02:13]   L3 t10 causal_prerequisite_reasoning    L2 single_choice search -> correct move=stay
+[19:02:13]   L3 causal_prerequisite_reasoning: no cluster for level 2 (search) -> exhausted_at_level boundary=2.0
+[19:02:13] L3: STAIRCASE_COMPLETE after 10 turns; boundaries cross_event_integration=4.5(ceiling), hidden_state_inference=2.0(exhausted_at_level), spatial_state_integration=None(exhausted_at_level), causal_prerequisite_reasoning=2.0(exhausted_at_level)
+[19:02:13] L4: skills ['goal_conditioned_planning']; pools {goal_conditioned_planning:5}; NOT_EVALUATED []
+[19:02:37]   L4 turn 1 examiner output rejected (attempt 1): ["evidence_refs not in context: ['hdepic_e:P02-20240211-175138:gemini_subgoal:P02_R10_S01/s9']"]
+[19:02:56]   L4 turn 1 examiner output rejected (attempt 2): ["goal_conditioned_planning reference must be the recorded next action 'line the baking tray with foil and preheat the oven' (got 'prepare the baking tray and turn on the oven.')"]
+[19:02:56]   L4 t01 goal_conditioned_planning        L2 single_choice search -> item_invalid
+[19:03:17]   L4 turn 2 examiner output rejected (attempt 1): ["goal_conditioned_planning reference must be the recorded next action 'line the baking tray with foil and preheat the oven' (got 'prepare the baking tray with foil and turn on the oven to preheat.')"]
+[19:05:10]   L4 t02 goal_conditioned_planning        L2 single_choice search -> correct move=stay [reused event]
+[19:06:05]   L4 t03 goal_conditioned_planning        L2 single_choice search -> correct move=up
+[19:07:44]   L4 t04 goal_conditioned_planning        L4 plan          search -> wrong move=down
+[19:08:38]   L4 turn 5 examiner output rejected (attempt 1): ["goal_conditioned_planning reference must be the recorded next action 'slice the first few mushrooms and place them in the mixing bowl' (got 'start slicing the mushrooms and put the slices into the mixing bowl.')"]
+[19:09:55]   L4 t05 goal_conditioned_planning        L2 single_choice search -> correct move=stay
+[19:10:36]   L4 t06 goal_conditioned_planning        L2 single_choice search -> correct move=stay | boundary=3.25 (exhausted_up)
+[19:10:36] L4: STAIRCASE_COMPLETE after 6 turns; boundaries goal_conditioned_planning=3.25(exhausted_up)
+[19:10:36] run finished

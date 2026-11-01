@@ -1,0 +1,76 @@
+{
+ "turn": 7,
+ "phase": "DONE",
+ "stop_reason": "STAIRCASE_COMPLETE",
+ "solver_errors": 0,
+ "frozen_clusters": [],
+ "consec_inconclusive": 0,
+ "confirmation": null,
+ "not_evaluated": {},
+ "unresolved_by_skill": {
+  "goal_conditioned_planning": 0
+ },
+ "examiner_errors": 0,
+ "stair": {
+  "goal_conditioned_planning": {
+   "level": 2,
+   "streak": 0,
+   "trace": [
+    {
+     "turn": 1,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 2,
+     "level": 2,
+     "verdict": "wrong",
+     "reused": false
+    },
+    {
+     "turn": 3,
+     "level": 1,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 4,
+     "level": 1,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 5,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 6,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 7,
+     "level": 3,
+     "verdict": "wrong",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [
+    1,
+    3
+   ],
+   "last_dir": "down",
+   "phase": "done",
+   "stop": "reversals",
+   "boundary": 2,
+   "unconverged": false,
+   "verify": [],
+   "invalid_streak": 0,
+   "floor_hits": 0
+  }
+ }
+}

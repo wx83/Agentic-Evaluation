@@ -551,7 +551,9 @@ def l4_clusters(store, ti, plan, skill):
         cutoff = steps[k - 1]["t0"] if k <= n else ti["t1"]
         t0 = prev["t0"]
         if cutoff - t0 < MIN_WIN: t0 = max(0.0, cutoff - MIN_WIN)
+        if L4_WINDOW_SEC: t0 = max(0.0, cutoff - L4_WINDOW_SEC)          # 10-31 l4_window_sec:只看决策点前 N 秒,更早的信息只能来自 history
         win = [round(t0, 3), round(cutoff, 3)]
+        meta_note = f"L4 clip = last {L4_WINDOW_SEC:g} s before the decision point (contract l4_window_sec)" if L4_WINDOW_SEC else None
         core = [ti["seg"]] + [ti["step_rec"][s["idx"]] for s in steps if s["idx"] in ti["step_rec"] and s["t1"] <= cutoff + 0.1]
         core += [r for r in _recs(store, vid, win[0], win[1], kinds={"action_narration"})]
         fut = [dict(ti["step_rec"][s["idx"]], solver_access="answer_only") for s in steps if s["idx"] in ti["step_rec"] and s["t0"] >= cutoff - 1e-6][:3]
@@ -559,12 +561,17 @@ def l4_clusters(store, ti, plan, skill):
         core += fut
         remaining = [s for s in steps if s["t0"] >= cutoff - 1e-6]
         meta = {"kind": "L4", "idx": k, "prev_idx": prev["idx"], "decision": (real.get(k) or {}).get("why", ""), "n_remaining": len(remaining),
-                "remaining_sub_goals": [{"idx": s["idx"], "text": s["text"]} for s in remaining], "final": k > n}
+                "remaining_sub_goals": [{"idx": s["idx"], "text": s["text"]} for s in remaining], "final": k > n, **({"window_note": meta_note} if meta_note else {})}
         out.append(_mk_cluster(skill, ti, store, windows=[win], cutoff=win[1], anchor=ti["step_rec"].get(prev["idx"], ti["seg"]), core=core, sg_meta=meta))
     return out
 
 
+L4_WINDOW_SEC = None                 # 10-31(合约 l4_window_sec):L4 clip 只取决策点前 N 秒;None = 前一个 sub-goal 整段(v16/v17 默认)
+
+
 def build_pools(store, contract, plan_by_task, skills, layer, seed=0):
+    global L4_WINDOW_SEC
+    L4_WINDOW_SEC = float(contract["l4_window_sec"]) if contract.get("l4_window_sec") else None
     pools = {}
     for cap in skills:
         cl = []

@@ -1,0 +1,470 @@
+{
+ "task_id": "P07-20240529-131737__P07_R02_S02",
+ "prompt_hash": "9091a759b6",
+ "model": "gcp/google/gemini-3.1-pro-preview",
+ "created": "2026-10-28T12:56:51",
+ "input": {
+  "task_id": "P07-20240529-131737__P07_R02_S02",
+  "goal": "Rinse the chickpeas, then place the chickpeas on a towel and lightly towel dry them so they aren't wet from rinsing. You can remove any loose skins at this time too.",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "text": "Open the can of chickpeas."
+   },
+   {
+    "idx": 2,
+    "text": "Drain the chickpeas and rinse the can."
+   },
+   {
+    "idx": 3,
+    "text": "Rinse and drain the chickpeas in the colander."
+   },
+   {
+    "idx": 4,
+    "text": "Transfer the chickpeas to paper towels and dry them."
+   },
+   {
+    "idx": 5,
+    "text": "Remove loose skins from the chickpeas."
+   },
+   {
+    "idx": 6,
+    "text": "Transfer the chickpeas to a baking tray and continue removing loose skins."
+   }
+  ],
+  "skills": {
+   "object_recognition": "L1: which object is in hand / being handled at the moment of the event",
+   "spatial_near": "L1: at the moment of the event, which of the listed objects is nearest to a reference object (3D positions from the dataset)",
+   "spatial_side": "L1: at the moment of the event, which listed object is leftmost / rightmost from the wearer's viewpoint",
+   "object_location_at_time": "L1: on which surface / fixture / container an object is put down at the event",
+   "object_grounding": "L1: localise the object of the event in a frame (bounding box)",
+   "action_recognition": "L2: what action (verb + object) the event is",
+   "event_object_role": "L2: which object is acted on, with which tool, to which destination in the event",
+   "action_temporal_order": "L2: the order of two actions shown close together inside one sub-goal",
+   "sound_action_binding": "L2: which action / object produced the sound heard",
+   "object_state_change": "L2: where an object was taken from and where it went in one movement",
+   "sound_movement_binding": "L2: which object movement coincides with the sound",
+   "sound_anchored_spatial_near": "L2: at the moment of a sound, which listed object is nearest to a reference object",
+   "sound_anchored_spatial_side": "L2: at the moment of a sound, which listed object is leftmost / rightmost for the wearer"
+  },
+  "l3_relation_types": {
+   "object_continuity": "the same object / ingredient appears in an event of sub-goal k and an event of the ADJACENT sub-goal k+1; what happened to it between them (chopped broccoli -> in the pan)",
+   "state_change": "how the state of an object differs between the two events (whole -> chopped, empty -> full, raw -> browned)",
+   "causal_prerequisite": "the earlier event is a physical prerequisite of the later one (could not be done without it)",
+   "hidden_state": "an appliance / container state was set in the earlier event and is not visible in the later segment; what is its state at the end of the later segment",
+   "spatial_end_state": "after placements in the two events, which listed object ends nearest / farthest to a reference object (needs 3D records)"
+  },
+  "n_sub_goals": 6
+ },
+ "plan": {
+  "task_id": "P07-20240529-131737__P07_R02_S02",
+  "goal": "Rinse the chickpeas, then place the chickpeas on a towel and lightly towel dry them so they aren't wet from rinsing. You can remove any loose skins at this time too.",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "events": [
+     {
+      "event_id": "s1e1",
+      "sub_goal": 1,
+      "type": "action",
+      "description": "The person opens the can of chickpeas using a pull tab or can opener.",
+      "objects": [
+       "can",
+       "chickpeas",
+       "can opener"
+      ],
+      "verbs": [
+       "open",
+       "pull"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "Provides access to the chickpeas inside the can."
+     },
+     {
+      "event_id": "s1e2",
+      "sub_goal": 1,
+      "type": "sound",
+      "description": "A popping or cracking sound is heard as the can seal is broken.",
+      "objects": [
+       "can"
+      ],
+      "verbs": [
+       "pop",
+       "crack"
+      ],
+      "skills": [
+       "sound_action_binding"
+      ],
+      "relevance": "Indicates the can has been successfully opened."
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 2,
+    "events": [
+     {
+      "event_id": "s2e1",
+      "sub_goal": 2,
+      "type": "action",
+      "description": "The person tips the can to pour the aquafaba liquid down the sink drain.",
+      "objects": [
+       "can",
+       "liquid",
+       "sink"
+      ],
+      "verbs": [
+       "pour",
+       "drain"
+      ],
+      "skills": [
+       "action_recognition",
+       "object_state_change"
+      ],
+      "relevance": "Removes the initial canning liquid from the chickpeas."
+     },
+     {
+      "event_id": "s2e2",
+      "sub_goal": 2,
+      "type": "action",
+      "description": "The person runs tap water into the can to rinse the remaining liquid.",
+      "objects": [
+       "can",
+       "water",
+       "faucet"
+      ],
+      "verbs": [
+       "run",
+       "rinse"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "Cleans the residual starchy liquid from the can and chickpeas."
+     },
+     {
+      "event_id": "s2e3",
+      "sub_goal": 2,
+      "type": "sound",
+      "description": "The sound of running water splashing into the metal can.",
+      "objects": [
+       "water",
+       "can"
+      ],
+      "verbs": [
+       "splash",
+       "run"
+      ],
+      "skills": [
+       "sound_action_binding"
+      ],
+      "relevance": "Confirms the rinsing action is occurring."
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 3,
+    "events": [
+     {
+      "event_id": "s3e1",
+      "sub_goal": 3,
+      "type": "action",
+      "description": "The person pours the chickpeas from the can into a colander.",
+      "objects": [
+       "chickpeas",
+       "can",
+       "colander"
+      ],
+      "verbs": [
+       "pour",
+       "empty"
+      ],
+      "skills": [
+       "action_recognition",
+       "object_state_change"
+      ],
+      "relevance": "Transfers the chickpeas to a tool suitable for thorough rinsing."
+     },
+     {
+      "event_id": "s3e2",
+      "sub_goal": 3,
+      "type": "action",
+      "description": "The person runs water over the chickpeas in the colander.",
+      "objects": [
+       "chickpeas",
+       "water",
+       "colander"
+      ],
+      "verbs": [
+       "rinse",
+       "run"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "Washes the chickpeas thoroughly."
+     },
+     {
+      "event_id": "s3e3",
+      "sub_goal": 3,
+      "type": "action",
+      "description": "The person shakes the colander up and down to drain the excess water.",
+      "objects": [
+       "colander",
+       "chickpeas"
+      ],
+      "verbs": [
+       "shake",
+       "drain"
+      ],
+      "skills": [
+       "action_recognition"
+      ],
+      "relevance": "Removes the bulk of the rinsing water before towel drying."
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 4,
+    "events": [
+     {
+      "event_id": "s4e1",
+      "sub_goal": 4,
+      "type": "action",
+      "description": "The person dumps the rinsed chickpeas from the colander onto paper towels.",
+      "objects": [
+       "chickpeas",
+       "colander",
+       "paper towels"
+      ],
+      "verbs": [
+       "dump",
+       "transfer"
+      ],
+      "skills": [
+       "action_recognition",
+       "object_state_change"
+      ],
+      "relevance": "Moves the chickpeas to an absorbent surface for drying."
+     },
+     {
+      "event_id": "s4e2",
+      "sub_goal": 4,
+      "type": "action",
+      "description": "The person gently rubs or pats the chickpeas with another paper towel.",
+      "objects": [
+       "chickpeas",
+       "paper towels"
+      ],
+      "verbs": [
+       "rub",
+       "pat"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "Dries the chickpeas so they are not wet for the next cooking step."
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 5,
+    "events": [
+     {
+      "event_id": "s5e1",
+      "sub_goal": 5,
+      "type": "action",
+      "description": "The person pinches individual chickpeas to slide off their translucent skins.",
+      "objects": [
+       "chickpeas",
+       "skins",
+       "fingers"
+      ],
+      "verbs": [
+       "pinch",
+       "remove"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "Improves the texture of the chickpeas by removing the loose skins."
+     },
+     {
+      "event_id": "s5e2",
+      "sub_goal": 5,
+      "type": "placement",
+      "description": "The person discards the removed skins into a pile or a waste bin.",
+      "objects": [
+       "skins",
+       "bin"
+      ],
+      "verbs": [
+       "discard",
+       "put"
+      ],
+      "skills": [
+       "object_location_at_time"
+      ],
+      "relevance": "Separates the unwanted skins from the prepped chickpeas."
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 6,
+    "events": [
+     {
+      "event_id": "s6e1",
+      "sub_goal": 6,
+      "type": "action",
+      "description": "The person moves the dried chickpeas from the paper towels onto a baking tray.",
+      "objects": [
+       "chickpeas",
+       "paper towels",
+       "baking tray"
+      ],
+      "verbs": [
+       "move",
+       "transfer"
+      ],
+      "skills": [
+       "action_recognition",
+       "object_state_change"
+      ],
+      "relevance": "Prepares the chickpeas for roasting or further processing."
+     },
+     {
+      "event_id": "s6e2",
+      "sub_goal": 6,
+      "type": "action",
+      "description": "The person picks off any remaining loose skins from the chickpeas now on the tray.",
+      "objects": [
+       "chickpeas",
+       "skins",
+       "baking tray"
+      ],
+      "verbs": [
+       "pick",
+       "remove"
+      ],
+      "skills": [
+       "action_recognition"
+      ],
+      "relevance": "Ensures all loose skins are removed before cooking."
+     }
+    ],
+    "irrelevant": ""
+   }
+  ],
+  "relations": [
+   {
+    "rel_id": "r1",
+    "type": "causal_prerequisite",
+    "skill": "causal_prerequisite_reasoning",
+    "events": [
+     "s1e1",
+     "s2e1"
+    ],
+    "ask": "Why was the person able to pour liquid out of the can?",
+    "answer_hint": "The can was opened in the previous step."
+   },
+   {
+    "rel_id": "r2",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s2e2",
+     "s3e1"
+    ],
+    "ask": "What is being poured into the colander?",
+    "answer_hint": "The chickpeas that were just rinsed inside the can."
+   },
+   {
+    "rel_id": "r3",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s3e3",
+     "s4e1"
+    ],
+    "ask": "Where did the chickpeas on the paper towels come from?",
+    "answer_hint": "They were transferred from the colander after being shaken dry."
+   },
+   {
+    "rel_id": "r4",
+    "type": "state_change",
+    "skill": "cross_event_integration",
+    "events": [
+     "s4e2",
+     "s5e1"
+    ],
+    "ask": "What is the moisture state of the chickpeas being peeled?",
+    "answer_hint": "They were just patted dry with paper towels."
+   },
+   {
+    "rel_id": "r5",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s5e1",
+     "s6e1"
+    ],
+    "ask": "What is being transferred to the baking tray?",
+    "answer_hint": "The chickpeas that just had their loose skins removed."
+   }
+  ],
+  "decision_points": [
+   {
+    "idx": 2,
+    "real": true,
+    "why": "Deciding to drain the liquid directly from the can before fully emptying the chickpeas is a distinct procedural choice."
+   },
+   {
+    "idx": 3,
+    "real": true,
+    "why": "Moving from rinsing inside the can to using a colander for a more thorough rinse requires fetching a new tool and changing the action."
+   },
+   {
+    "idx": 4,
+    "real": true,
+    "why": "Transitioning from washing to drying requires setting up paper towels and changing the physical interaction with the chickpeas."
+   },
+   {
+    "idx": 5,
+    "real": true,
+    "why": "Moving from bulk drying to the meticulous, individual task of peeling skins is a major shift in action and focus."
+   },
+   {
+    "idx": 6,
+    "real": true,
+    "why": "Deciding to transfer the chickpeas to a baking tray to finish the peeling process involves a spatial relocation and preparing for the next recipe stage."
+   },
+   {
+    "idx": 7,
+    "real": true,
+    "why": "The task is complete; deciding to stop peeling skins and move on to the next recipe step (like seasoning or roasting) is a real decision."
+   }
+  ]
+ },
+ "warnings": [],
+ "usage": {
+  "tok_in": 1648,
+  "tok_out": 2829,
+  "tok_think": 1721,
+  "model_version": "gemini-3.1-pro-preview",
+  "finish_reason": "FinishReason.STOP"
+ },
+ "status": "ok",
+ "raw_len": 10395
+}

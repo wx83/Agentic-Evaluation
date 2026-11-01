@@ -1,0 +1,338 @@
+{
+ "layer": "L3",
+ "stop_reason": "STAIRCASE_COMPLETE",
+ "phase": "DONE",
+ "turns": 10,
+ "scored": 8,
+ "correct": 8,
+ "raw_acc": 1.0,
+ "cluster_dedup_acc": 1.0,
+ "followup_items": 0,
+ "by_verdict": {
+  "correct": 8,
+  "evidence_unresolved": 2
+ },
+ "by_format": {
+  "single_choice": 6,
+  "short_answer": 2
+ },
+ "by_skill": {
+  "cross_event_integration": {
+   "verdict": "boundary>=4",
+   "scored": 6,
+   "correct": 6,
+   "clusters": 6,
+   "staircase": {
+    "boundary": 4.5,
+    "stop": "ceiling",
+    "unconverged": false,
+    "phase": "done",
+    "levels_tested": [
+     2,
+     3,
+     4
+    ],
+    "per_level": {
+     "2": "2/2",
+     "3": "2/2",
+     "4": "2/2"
+    },
+    "n_search": 6,
+    "n_reused_events": 0,
+    "trace": [
+     {
+      "turn": 1,
+      "level": 2,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 2,
+      "level": 2,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 3,
+      "level": 3,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 4,
+      "level": 3,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 5,
+      "level": 4,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 6,
+      "level": 4,
+      "verdict": "correct",
+      "reused": false
+     }
+    ],
+    "reversal_levels": [],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  "hidden_state_inference": {
+   "verdict": "boundary 2.0",
+   "scored": 1,
+   "correct": 1,
+   "clusters": 1,
+   "staircase": {
+    "boundary": 2.0,
+    "stop": "exhausted_at_level",
+    "unconverged": true,
+    "phase": "done",
+    "levels_tested": [
+     2
+    ],
+    "per_level": {
+     "2": "1/1"
+    },
+    "n_search": 1,
+    "n_reused_events": 0,
+    "trace": [
+     {
+      "turn": 7,
+      "level": 2,
+      "verdict": "correct",
+      "reused": false
+     }
+    ],
+    "reversal_levels": [],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": [
+    7
+   ]
+  },
+  "spatial_state_integration": {
+   "verdict": "not_started",
+   "scored": 0,
+   "correct": 0,
+   "clusters": 0,
+   "staircase": {
+    "boundary": null,
+    "stop": "exhausted_at_level",
+    "unconverged": true,
+    "phase": "done",
+    "levels_tested": [],
+    "per_level": {},
+    "n_search": 0,
+    "n_reused_events": 0,
+    "trace": [],
+    "reversal_levels": [],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": []
+  },
+  "causal_prerequisite_reasoning": {
+   "verdict": "boundary 2.0",
+   "scored": 1,
+   "correct": 1,
+   "clusters": 1,
+   "staircase": {
+    "boundary": 2.0,
+    "stop": "exhausted_at_level",
+    "unconverged": true,
+    "phase": "done",
+    "levels_tested": [
+     2
+    ],
+    "per_level": {
+     "2": "1/1"
+    },
+    "n_search": 1,
+    "n_reused_events": 0,
+    "trace": [
+     {
+      "turn": 10,
+      "level": 2,
+      "verdict": "correct",
+      "reused": false
+     }
+    ],
+    "reversal_levels": [],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": [
+    10
+   ]
+  }
+ },
+ "stair": {
+  "cross_event_integration": {
+   "boundary": 4.5,
+   "stop": "ceiling",
+   "unconverged": false,
+   "phase": "done",
+   "levels_tested": [
+    2,
+    3,
+    4
+   ],
+   "per_level": {
+    "2": "2/2",
+    "3": "2/2",
+    "4": "2/2"
+   },
+   "n_search": 6,
+   "n_reused_events": 0,
+   "trace": [
+    {
+     "turn": 1,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 2,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 3,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 4,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 5,
+     "level": 4,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 6,
+     "level": 4,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "verify": [],
+   "boundary_confirmed": null
+  },
+  "hidden_state_inference": {
+   "boundary": 2.0,
+   "stop": "exhausted_at_level",
+   "unconverged": true,
+   "phase": "done",
+   "levels_tested": [
+    2
+   ],
+   "per_level": {
+    "2": "1/1"
+   },
+   "n_search": 1,
+   "n_reused_events": 0,
+   "trace": [
+    {
+     "turn": 7,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "verify": [],
+   "boundary_confirmed": null
+  },
+  "spatial_state_integration": {
+   "boundary": null,
+   "stop": "exhausted_at_level",
+   "unconverged": true,
+   "phase": "done",
+   "levels_tested": [],
+   "per_level": {},
+   "n_search": 0,
+   "n_reused_events": 0,
+   "trace": [],
+   "reversal_levels": [],
+   "verify": [],
+   "boundary_confirmed": null
+  },
+  "causal_prerequisite_reasoning": {
+   "boundary": 2.0,
+   "stop": "exhausted_at_level",
+   "unconverged": true,
+   "phase": "done",
+   "levels_tested": [
+    2
+   ],
+   "per_level": {
+    "2": "1/1"
+   },
+   "n_search": 1,
+   "n_reused_events": 0,
+   "trace": [
+    {
+     "turn": 10,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "verify": [],
+   "boundary_confirmed": null
+  }
+ },
+ "hypotheses": [
+  {
+   "hypothesis_id": "h:spatial_state_integration:item_defect:8",
+   "skill": "spatial_state_integration",
+   "type": "item_defect",
+   "evidence_cluster_id": "9af1e75ceccf3787",
+   "original_turn": 8,
+   "opened_turn": 8,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "Need a spatial_relation record for the object nearest to the cutting board after the foil is placed on the tray."
+  },
+  {
+   "hypothesis_id": "h:spatial_state_integration:item_defect:9",
+   "skill": "spatial_state_integration",
+   "type": "item_defect",
+   "evidence_cluster_id": "cc7c87e4aa0554a3",
+   "original_turn": 9,
+   "opened_turn": 9,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "Need a spatial_relation record indicating which object is nearest to the first batch of mushrooms after the second packet is opened."
+  }
+ ],
+ "confirmation": null,
+ "not_evaluated": {}
+}

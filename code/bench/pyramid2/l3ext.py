@@ -777,7 +777,7 @@ _PRIME = {}
 def _priming(vid):
     if not _PRIME:
         import json as _j
-        p = Path("/mnt/data_new/hd-epic/annotations/data/eye-gaze-priming/priming_info.json")
+        p = Path(__import__("os").environ.get("HDEPIC_ANNOT_ROOT", "/mnt/data_new/hd-epic/annotations")) / "data/eye-gaze-priming/priming_info.json"
         _PRIME.update(_j.load(open(p)) if p.exists() else {"_": {}})
     return _PRIME.get(vid) or {}
 

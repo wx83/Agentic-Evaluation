@@ -1,0 +1,1600 @@
+{
+ "task_id": "P01-20240203-184214__P01_R08_S01",
+ "prompt_hash": "009fa068af",
+ "model": "gcp/google/gemini-3.1-pro-preview",
+ "created": "2026-10-29T13:15:55",
+ "input": {
+  "task_id": "P01-20240203-184214__P01_R08_S01",
+  "goal": "Mix all the ingredients except for the chicken. Pour into a large container and add the chicken thighs.",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "text": "Get the bowl and open the chicken container"
+   },
+   {
+    "idx": 2,
+    "text": "Separate, wash, and place the first batch of chicken pieces into the bowl"
+   },
+   {
+    "idx": 3,
+    "text": "Separate, wash, and place the remaining chicken pieces into the bowl"
+   },
+   {
+    "idx": 4,
+    "text": "Add vinegar to the chicken"
+   },
+   {
+    "idx": 5,
+    "text": "Retrieve lemon and soy sauce, and pour soy sauce into the bowl"
+   },
+   {
+    "idx": 6,
+    "text": "Squeeze the first lemon into the bowl and remove fallen seeds"
+   },
+   {
+    "idx": 7,
+    "text": "Cut and squeeze another lemon into the bowl"
+   },
+   {
+    "idx": 8,
+    "text": "Add rosemary to the bowl"
+   },
+   {
+    "idx": 9,
+    "text": "Add oregano and spice mix to the bowl"
+   },
+   {
+    "idx": 10,
+    "text": "Break the garlic head and peel the outer cover"
+   },
+   {
+    "idx": 11,
+    "text": "Peel and chop the garlic cloves into the bowl"
+   }
+  ],
+  "skills": {
+   "object_recognition": "L1: which object is in hand / being handled at the moment of the event",
+   "spatial_near": "L1: at the moment of the event, which of the listed objects is nearest to a reference object (3D positions from the dataset)",
+   "spatial_side": "L1: at the moment of the event, which listed object is leftmost / rightmost from the wearer's viewpoint",
+   "object_location_at_time": "L1: on which surface / fixture / container an object is put down at the event",
+   "object_grounding": "L1: localise the object of the event in a frame (bounding box)",
+   "action_recognition": "L2: what action (verb + object) the event is",
+   "event_object_role": "L2: which object is acted on, with which tool, to which destination in the event",
+   "action_temporal_order": "L2: the order of two actions shown close together inside one sub-goal",
+   "sound_action_binding": "L2: which action / object produced the sound heard",
+   "object_state_change": "L2: where an object was taken from and where it went in one movement",
+   "sound_movement_binding": "L2: which object movement coincides with the sound",
+   "sound_anchored_spatial_near": "L2: at the moment of a sound, which listed object is nearest to a reference object",
+   "sound_anchored_spatial_side": "L2: at the moment of a sound, which listed object is leftmost / rightmost for the wearer"
+  },
+  "l3_relation_types": {
+   "object_continuity": "the same object / ingredient appears in an event of sub-goal k and an event of the ADJACENT sub-goal k+1; what happened to it between them (chopped broccoli -> in the pan)",
+   "state_change": "how the state of an object differs between the two events (whole -> chopped, empty -> full, raw -> browned)",
+   "causal_prerequisite": "the earlier event is a physical prerequisite of the later one (could not be done without it)",
+   "hidden_state": "an appliance / container state was set in the earlier event and is not visible in the later segment; what is its state at the end of the later segment",
+   "spatial_end_state": "after placements in the two events, which listed object ends nearest / farthest to a reference object (needs 3D records)"
+  },
+  "n_sub_goals": 11
+ },
+ "plan": {
+  "task_id": "P01-20240203-184214__P01_R08_S01",
+  "goal": "Mix all the ingredients except for the chicken. Pour into a large container and add the chicken thighs.",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "events": [
+     {
+      "event_id": "s1e1",
+      "sub_goal": 1,
+      "type": "placement",
+      "description": "The bowl is placed on the counter.",
+      "objects": [
+       "bowl",
+       "counter"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_recognition",
+       "object_location_at_time"
+      ],
+      "relevance": "prepares the container to receive the ingredients",
+      "time": [
+       20.033,
+       37.55
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-184214:movement:22c376cd58a97c85:aad3fb3151e7cbaf",
+       "hdepic_e:P01-20240203-184214:narration:20",
+       "hdepic_e:P01-20240203-184214:movement:aacf63abf1fdb2f6:894f93d5780985b8",
+       "hdepic_e:P01-20240203-184214:movement:118b72d19313ec0d:62428ec0714a56ac",
+       "hdepic_e:P01-20240203-184214:movement:22c376cd58a97c85:6b4e28e606532643"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 3.5",
+      "centre": 28.791
+     },
+     {
+      "event_id": "s1e2",
+      "sub_goal": 1,
+      "type": "state",
+      "description": "The chicken container is opened.",
+      "objects": [
+       "chicken container",
+       "lid"
+      ],
+      "verbs": [
+       "open"
+      ],
+      "skills": [
+       "object_recognition",
+       "object_state_change"
+      ],
+      "relevance": "provides access to the raw chicken",
+      "time": [
+       27.8,
+       29.05
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-184214:narration:15",
+       "hdepic_e:P01-20240203-184214:movement:118b72d19313ec0d:62428ec0714a56ac"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 5.5",
+      "centre": 28.425
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 2,
+    "events": [
+     {
+      "event_id": "s2e1",
+      "sub_goal": 2,
+      "type": "action",
+      "description": "Chicken pieces are washed under running water.",
+      "objects": [
+       "chicken",
+       "water",
+       "sink"
+      ],
+      "verbs": [
+       "wash"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role",
+       "sound_action_binding"
+      ],
+      "relevance": "cleans the first batch of chicken",
+      "time": [
+       46.17,
+       53.79
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-184214:narration:25",
+       "hdepic_e:P01-20240203-184214:narration:26",
+       "hdepic_e:P01-20240203-184214:sound:3653",
+       "hdepic_e:P01-20240203-184214:sound:3654",
+       "hdepic_e:P01-20240203-184214:movement:2699488fc25b183c:80cb1dd19b669208"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 4.5",
+      "centre": 49.98
+     },
+     {
+      "event_id": "s2e2",
+      "sub_goal": 2,
+      "type": "placement",
+      "description": "The washed chicken pieces are placed into the bowl.",
+      "objects": [
+       "chicken",
+       "bowl"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_location_at_time",
+       "object_state_change"
+      ],
+      "relevance": "adds the first batch of chicken to the mixing bowl",
+      "time": [
+       37.733,
+       54.92
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-184214:movement:118b72d19313ec0d:0fe85b502eb6cd0b",
+       "hdepic_e:P01-20240203-184214:narration:27",
+       "hdepic_e:P01-20240203-184214:movement:ba4f890a06630751:62b85a4c70ad6faa",
+       "hdepic_e:P01-20240203-184214:movement:6d5a2a025452cd9a:6764548665cdcaac",
+       "hdepic_e:P01-20240203-184214:movement:2699488fc25b183c:80cb1dd19b669208"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 5.5",
+      "centre": 46.326
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 3,
+    "events": [
+     {
+      "event_id": "s3e1",
+      "sub_goal": 3,
+      "type": "action",
+      "description": "The remaining chicken pieces are washed under the tap.",
+      "objects": [
+       "chicken",
+       "water",
+       "sink"
+      ],
+      "verbs": [
+       "wash"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "cleans the rest of the chicken",
+      "time": [
+       73.9,
+       77.92
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-184214:narration:34",
+       "hdepic_e:P01-20240203-184214:sound:3659",
+       "hdepic_e:P01-20240203-184214:movement:30dfb93c005e5f3a:8611db730418d488"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 3.0",
+      "centre": 75.91
+     },
+     {
+      "event_id": "s3e2",
+      "sub_goal": 3,
+      "type": "placement",
+      "description": "The remaining washed chicken is placed into the bowl.",
+      "objects": [
+       "chicken",
+       "bowl"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_location_at_time"
+      ],
+      "relevance": "completes adding all the chicken to the bowl",
+      "time": [
+       56.7,
+       78.69
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-184214:movement:118b72d19313ec0d:1c1b227877d0fd8b",
+       "hdepic_e:P01-20240203-184214:narration:35",
+       "hdepic_e:P01-20240203-184214:movement:f69f6f181316e90d:c00a04d75e8f51db",
+       "hdepic_e:P01-20240203-184214:movement:30dfb93c005e5f3a:8611db730418d488"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 4.0",
+      "centre": 67.695
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 4,
+    "events": [
+     {
+      "event_id": "s4e1",
+      "sub_goal": 4,
+      "type": "action",
+      "description": "Vinegar is poured from its bottle into the bowl over the chicken.",
+      "objects": [
+       "vinegar",
+       "bottle",
+       "bowl",
+       "chicken"
+      ],
+      "verbs": [
+       "pour"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "adds the first liquid marinade ingredient",
+      "time": [
+       144.58,
+       154.94
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-184214:narration:66",
+       "hdepic_e:P01-20240203-184214:narration:67",
+       "hdepic_e:P01-20240203-184214:narration:68"
+      ],
+      "matched": true,
+      "match_note": "3 narration(s), best score 6.0",
+      "centre": 149.76
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 5,
+    "events": [
+     {
+      "event_id": "s5e1",
+      "sub_goal": 5,
+      "type": "action",
+      "description": "Soy sauce is poured into the bowl.",
+      "objects": [
+       "soy sauce",
+       "bottle",
+       "bowl"
+      ],
+      "verbs": [
+       "pour"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "adds the second liquid marinade ingredient",
+      "time": [
+       200.92,
+       208.29
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-184214:narration:92",
+       "hdepic_e:P01-20240203-184214:narration:94"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 9.5",
+      "centre": 204.605
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 6,
+    "events": [
+     {
+      "event_id": "s6e1",
+      "sub_goal": 6,
+      "type": "action",
+      "description": "A lemon half is squeezed over the bowl.",
+      "objects": [
+       "lemon",
+       "bowl"
+      ],
+      "verbs": [
+       "squeeze"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "adds fresh lemon juice to the marinade",
+      "time": [
+       235.72,
+       236.45
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-184214:narration:103",
+       "hdepic_e:P01-20240203-184214:movement:b56f15fa47435854:859d20629ab69579"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 5.5",
+      "centre": 236.085
+     },
+     {
+      "event_id": "s6e2",
+      "sub_goal": 6,
+      "type": "action",
+      "description": "Fallen lemon seeds are picked out of the bowl.",
+      "objects": [
+       "seeds",
+       "bowl"
+      ],
+      "verbs": [
+       "remove",
+       "pick"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "removes unwanted seeds from the mixture",
+      "time": [
+       278.95,
+       284.0
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-184214:narration:112"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 6.5",
+      "centre": 281.475
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 7,
+    "events": [
+     {
+      "event_id": "s7e1",
+      "sub_goal": 7,
+      "type": "action",
+      "description": "Another lemon is cut in half with a knife on a cutting board.",
+      "objects": [
+       "lemon",
+       "knife",
+       "cutting board"
+      ],
+      "verbs": [
+       "cut"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "prepares the second lemon for squeezing",
+      "time": [
+       323.97,
+       328.23
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-184214:narration:124",
+       "hdepic_e:P01-20240203-184214:narration:125",
+       "hdepic_e:P01-20240203-184214:sound:3738",
+       "hdepic_e:P01-20240203-184214:movement:6d32d471b8151a64:547476fe74366a6d"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 7.5",
+      "centre": 326.1
+     },
+     {
+      "event_id": "s7e2",
+      "sub_goal": 7,
+      "type": "action",
+      "description": "The newly cut lemon halves are squeezed into the bowl.",
+      "objects": [
+       "lemon",
+       "bowl"
+      ],
+      "verbs": [
+       "squeeze"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "adds more lemon juice to the marinade",
+      "time": [
+       335.35,
+       344.46
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-184214:narration:131",
+       "hdepic_e:P01-20240203-184214:movement:4dab8760b1cee85a:7aa8cfcbd22ec7b4"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 5.5",
+      "centre": 339.905
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 8,
+    "events": [
+     {
+      "event_id": "s8e1",
+      "sub_goal": 8,
+      "type": "action",
+      "description": "Rosemary is sprinkled into the bowl.",
+      "objects": [
+       "rosemary",
+       "bowl"
+      ],
+      "verbs": [
+       "sprinkle",
+       "add"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "adds herbal flavoring to the marinade",
+      "time": [
+       400.35,
+       401.05
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-184214:narration:162"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 4.0",
+      "centre": 400.7
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 9,
+    "events": [
+     {
+      "event_id": "s9e1",
+      "sub_goal": 9,
+      "type": "action",
+      "description": "Oregano is added to the bowl.",
+      "objects": [
+       "oregano",
+       "bowl"
+      ],
+      "verbs": [
+       "add"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "adds more herbs to the marinade",
+      "time": [
+       445.35,
+       449.81
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-184214:narration:183"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 4.0",
+      "centre": 447.58
+     },
+     {
+      "event_id": "s9e2",
+      "sub_goal": 9,
+      "type": "action",
+      "description": "Spice mix is poured into the bowl.",
+      "objects": [
+       "spice mix",
+       "bowl"
+      ],
+      "verbs": [
+       "pour",
+       "add"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "adds dry spices to the marinade",
+      "time": [
+       456.19,
+       459.9
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-184214:narration:188",
+       "hdepic_e:P01-20240203-184214:narration:189"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 7.0",
+      "centre": 458.045
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 10,
+    "events": [
+     {
+      "event_id": "s10e1",
+      "sub_goal": 10,
+      "type": "action",
+      "description": "A head of garlic is broken apart into individual cloves.",
+      "objects": [
+       "garlic head",
+       "garlic cloves"
+      ],
+      "verbs": [
+       "break",
+       "separate"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "separates the cloves for peeling",
+      "time": [
+       468.54,
+       471.22
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-184214:narration:194",
+       "hdepic_e:P01-20240203-184214:movement:b4e149844b17da3b:e467ac7af9c9ea05",
+       "hdepic_e:P01-20240203-184214:movement:5c91b75e7c7e193f:d989805b2c59dcc5"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 9.5",
+      "centre": 469.88
+     },
+     {
+      "event_id": "s10e2",
+      "sub_goal": 10,
+      "type": "action",
+      "description": "The outer papery cover of the garlic is peeled off.",
+      "objects": [
+       "garlic",
+       "skin"
+      ],
+      "verbs": [
+       "peel"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "removes the inedible outer layers",
+      "time": [
+       471.93,
+       474.19
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-184214:narration:196",
+       "hdepic_e:P01-20240203-184214:movement:3499d69f0de1cae0:8bf931dc7d4ed3fd"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 5.0",
+      "centre": 473.06
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 11,
+    "events": [
+     {
+      "event_id": "s11e1",
+      "sub_goal": 11,
+      "type": "action",
+      "description": "Individual garlic cloves are peeled.",
+      "objects": [
+       "garlic cloves",
+       "skin"
+      ],
+      "verbs": [
+       "peel"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "prepares the cloves for chopping",
+      "time": [
+       497.3,
+       503.75
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-184214:narration:212",
+       "hdepic_e:P01-20240203-184214:narration:214",
+       "hdepic_e:P01-20240203-184214:movement:6a7a9cda174cdbc1:4a27300b48a23d20"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 3.5",
+      "centre": 500.525
+     },
+     {
+      "event_id": "s11e2",
+      "sub_goal": 11,
+      "type": "action",
+      "description": "The peeled garlic cloves are chopped with a knife.",
+      "objects": [
+       "garlic cloves",
+       "knife",
+       "cutting board"
+      ],
+      "verbs": [
+       "chop"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "minces the garlic to release flavor",
+      "time": [
+       496.71,
+       500.65
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-184214:narration:211",
+       "hdepic_e:P01-20240203-184214:narration:212",
+       "hdepic_e:P01-20240203-184214:movement:6a7a9cda174cdbc1:4a27300b48a23d20"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 6.5",
+      "centre": 498.68
+     },
+     {
+      "event_id": "s11e3",
+      "sub_goal": 11,
+      "type": "placement",
+      "description": "The chopped garlic is scraped into the bowl.",
+      "objects": [
+       "garlic",
+       "knife",
+       "bowl"
+      ],
+      "verbs": [
+       "scrape",
+       "add"
+      ],
+      "skills": [
+       "action_recognition",
+       "object_location_at_time"
+      ],
+      "relevance": "adds the final ingredient to the marinade",
+      "time": [
+       495.71,
+       571.667
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-184214:movement:aacf63abf1fdb2f6:4f171559adde55ec",
+       "hdepic_e:P01-20240203-184214:narration:222",
+       "hdepic_e:P01-20240203-184214:movement:6a7a9cda174cdbc1:4a27300b48a23d20",
+       "hdepic_e:P01-20240203-184214:movement:3499d69f0de1cae0:7318773b3814091b",
+       "hdepic_e:P01-20240203-184214:movement:3814360e1e87f24d:a2c3f6048eef3074"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 7.5",
+      "centre": 533.688
+     }
+    ],
+    "irrelevant": ""
+   }
+  ],
+  "relations": [
+   {
+    "rel_id": "r1",
+    "type": "causal_prerequisite",
+    "skill": "causal_prerequisite_reasoning",
+    "events": [
+     "s1e1",
+     "s2e2"
+    ],
+    "ask": "Why was the chicken placed in that specific location?",
+    "answer_hint": "The bowl was placed on the counter in the previous step to receive the chicken.",
+    "source": "planner"
+   },
+   {
+    "rel_id": "r2",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s2e2",
+     "s3e2"
+    ],
+    "ask": "What is already in the bowl when the remaining chicken is added?",
+    "answer_hint": "The first batch of chicken was placed there previously.",
+    "source": "planner"
+   },
+   {
+    "rel_id": "r3",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s4e1",
+     "s5e1"
+    ],
+    "ask": "What liquid is already in the bowl when the soy sauce is poured?",
+    "answer_hint": "Vinegar was poured into the bowl in the previous step.",
+    "source": "planner"
+   },
+   {
+    "rel_id": "r4",
+    "type": "causal_prerequisite",
+    "skill": "causal_prerequisite_reasoning",
+    "events": [
+     "s10e1",
+     "s11e1"
+    ],
+    "ask": "What had to be done to the garlic before the individual cloves could be peeled?",
+    "answer_hint": "The head of garlic was broken apart into cloves.",
+    "source": "planner"
+   },
+   {
+    "rel_id": "r5",
+    "type": "state_change",
+    "skill": "cross_event_integration",
+    "events": [
+     "s10e2",
+     "s11e2"
+    ],
+    "ask": "How did the state of the garlic change before it was chopped?",
+    "answer_hint": "It went from being in a whole head with skin to separated, peeled cloves.",
+    "source": "planner"
+   },
+   {
+    "rel_id": "d1",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s2e1",
+     "s3e1"
+    ],
+    "source": "derived",
+    "ask": "what happened to the shared object (chicken, sink, water) between the earlier event and the later one; what the later event shows that the earlier did not",
+    "answer_hint": "Chicken pieces are washed under running water. -> The remaining chicken pieces are washed under the tap."
+   },
+   {
+    "rel_id": "d2",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s3e2",
+     "s4e1"
+    ],
+    "source": "derived",
+    "ask": "what happened to the shared object (bowl, chicken) between the earlier event and the later one; what the later event shows that the earlier did not",
+    "answer_hint": "The remaining washed chicken is placed into the bowl. -> Vinegar is poured from its bottle into the bowl over the chicken."
+   },
+   {
+    "rel_id": "d3",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s6e1",
+     "s7e2"
+    ],
+    "source": "derived",
+    "ask": "what happened to the shared object (bowl, lemon) between the earlier event and the later one; what the later event shows that the earlier did not",
+    "answer_hint": "A lemon half is squeezed over the bowl. -> The newly cut lemon halves are squeezed into the bowl."
+   },
+   {
+    "rel_id": "d4",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s10e1",
+     "s11e2"
+    ],
+    "source": "derived",
+    "ask": "what happened to the shared object (clov, garlic) between the earlier event and the later one; what the later event shows that the earlier did not",
+    "answer_hint": "A head of garlic is broken apart into individual cloves. -> The peeled garlic cloves are chopped with a knife."
+   },
+   {
+    "rel_id": "d5",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s10e2",
+     "s11e1"
+    ],
+    "source": "derived",
+    "ask": "what happened to the shared object (garlic, skin) between the earlier event and the later one; what the later event shows that the earlier did not",
+    "answer_hint": "The outer papery cover of the garlic is peeled off. -> Individual garlic cloves are peeled."
+   },
+   {
+    "rel_id": "d6",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s1e2",
+     "s2e2"
+    ],
+    "source": "derived",
+    "ask": "what happened to the shared object (chicken) between the earlier event and the later one; what the later event shows that the earlier did not",
+    "answer_hint": "The chicken container is opened. -> The washed chicken pieces are placed into the bowl."
+   },
+   {
+    "rel_id": "d7",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s1e2",
+     "s2e1"
+    ],
+    "source": "derived",
+    "ask": "what happened to the shared object (chicken) between the earlier event and the later one; what the later event shows that the earlier did not",
+    "answer_hint": "The chicken container is opened. -> Chicken pieces are washed under running water."
+   },
+   {
+    "rel_id": "d8",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s2e2",
+     "s3e1"
+    ],
+    "source": "derived",
+    "ask": "what happened to the shared object (chicken) between the earlier event and the later one; what the later event shows that the earlier did not",
+    "answer_hint": "The washed chicken pieces are placed into the bowl. -> The remaining chicken pieces are washed under the tap."
+   }
+  ],
+  "decision_points": [
+   {
+    "idx": 2,
+    "real": true,
+    "why": "Deciding to start washing and adding the first batch of chicken after preparing the containers."
+   },
+   {
+    "idx": 3,
+    "real": false,
+    "why": "Just continuing the exact same washing and placing process for the remaining chicken pieces."
+   },
+   {
+    "idx": 4,
+    "real": true,
+    "why": "Transitioning from handling raw chicken to adding the first liquid marinade ingredient."
+   },
+   {
+    "idx": 5,
+    "real": true,
+    "why": "Moving on to the next specific liquid ingredient (soy sauce)."
+   },
+   {
+    "idx": 6,
+    "real": true,
+    "why": "Switching from pouring bottled liquids to squeezing fresh lemon."
+   },
+   {
+    "idx": 7,
+    "real": false,
+    "why": "Continuing to add lemon juice by preparing and squeezing a second lemon."
+   },
+   {
+    "idx": 8,
+    "real": true,
+    "why": "Transitioning from liquids and juices to dry herbs."
+   },
+   {
+    "idx": 9,
+    "real": false,
+    "why": "Continuing to add dry seasonings (oregano and spice mix)."
+   },
+   {
+    "idx": 10,
+    "real": true,
+    "why": "Switching from adding ready-to-use spices to preparing fresh garlic."
+   },
+   {
+    "idx": 11,
+    "real": false,
+    "why": "Continuing the garlic preparation by peeling, chopping, and adding it."
+   },
+   {
+    "idx": 12,
+    "real": true,
+    "why": "The marinade ingredients are all added; deciding the task is complete."
+   }
+  ],
+  "events": {
+   "s1e1": {
+    "event_id": "s1e1",
+    "sub_goal": 1,
+    "type": "placement",
+    "description": "The bowl is placed on the counter.",
+    "objects": [
+     "bowl",
+     "counter"
+    ],
+    "verbs": [
+     "place"
+    ],
+    "skills": [
+     "object_recognition",
+     "object_location_at_time"
+    ],
+    "relevance": "prepares the container to receive the ingredients",
+    "time": [
+     20.033,
+     37.55
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-184214:movement:22c376cd58a97c85:aad3fb3151e7cbaf",
+     "hdepic_e:P01-20240203-184214:narration:20",
+     "hdepic_e:P01-20240203-184214:movement:aacf63abf1fdb2f6:894f93d5780985b8",
+     "hdepic_e:P01-20240203-184214:movement:118b72d19313ec0d:62428ec0714a56ac",
+     "hdepic_e:P01-20240203-184214:movement:22c376cd58a97c85:6b4e28e606532643"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 3.5",
+    "centre": 28.791
+   },
+   "s1e2": {
+    "event_id": "s1e2",
+    "sub_goal": 1,
+    "type": "state",
+    "description": "The chicken container is opened.",
+    "objects": [
+     "chicken container",
+     "lid"
+    ],
+    "verbs": [
+     "open"
+    ],
+    "skills": [
+     "object_recognition",
+     "object_state_change"
+    ],
+    "relevance": "provides access to the raw chicken",
+    "time": [
+     27.8,
+     29.05
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-184214:narration:15",
+     "hdepic_e:P01-20240203-184214:movement:118b72d19313ec0d:62428ec0714a56ac"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 5.5",
+    "centre": 28.425
+   },
+   "s2e1": {
+    "event_id": "s2e1",
+    "sub_goal": 2,
+    "type": "action",
+    "description": "Chicken pieces are washed under running water.",
+    "objects": [
+     "chicken",
+     "water",
+     "sink"
+    ],
+    "verbs": [
+     "wash"
+    ],
+    "skills": [
+     "action_recognition",
+     "event_object_role",
+     "sound_action_binding"
+    ],
+    "relevance": "cleans the first batch of chicken",
+    "time": [
+     46.17,
+     53.79
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-184214:narration:25",
+     "hdepic_e:P01-20240203-184214:narration:26",
+     "hdepic_e:P01-20240203-184214:sound:3653",
+     "hdepic_e:P01-20240203-184214:sound:3654",
+     "hdepic_e:P01-20240203-184214:movement:2699488fc25b183c:80cb1dd19b669208"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 4.5",
+    "centre": 49.98
+   },
+   "s2e2": {
+    "event_id": "s2e2",
+    "sub_goal": 2,
+    "type": "placement",
+    "description": "The washed chicken pieces are placed into the bowl.",
+    "objects": [
+     "chicken",
+     "bowl"
+    ],
+    "verbs": [
+     "place"
+    ],
+    "skills": [
+     "object_location_at_time",
+     "object_state_change"
+    ],
+    "relevance": "adds the first batch of chicken to the mixing bowl",
+    "time": [
+     37.733,
+     54.92
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-184214:movement:118b72d19313ec0d:0fe85b502eb6cd0b",
+     "hdepic_e:P01-20240203-184214:narration:27",
+     "hdepic_e:P01-20240203-184214:movement:ba4f890a06630751:62b85a4c70ad6faa",
+     "hdepic_e:P01-20240203-184214:movement:6d5a2a025452cd9a:6764548665cdcaac",
+     "hdepic_e:P01-20240203-184214:movement:2699488fc25b183c:80cb1dd19b669208"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 5.5",
+    "centre": 46.326
+   },
+   "s3e1": {
+    "event_id": "s3e1",
+    "sub_goal": 3,
+    "type": "action",
+    "description": "The remaining chicken pieces are washed under the tap.",
+    "objects": [
+     "chicken",
+     "water",
+     "sink"
+    ],
+    "verbs": [
+     "wash"
+    ],
+    "skills": [
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "cleans the rest of the chicken",
+    "time": [
+     73.9,
+     77.92
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-184214:narration:34",
+     "hdepic_e:P01-20240203-184214:sound:3659",
+     "hdepic_e:P01-20240203-184214:movement:30dfb93c005e5f3a:8611db730418d488"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 3.0",
+    "centre": 75.91
+   },
+   "s3e2": {
+    "event_id": "s3e2",
+    "sub_goal": 3,
+    "type": "placement",
+    "description": "The remaining washed chicken is placed into the bowl.",
+    "objects": [
+     "chicken",
+     "bowl"
+    ],
+    "verbs": [
+     "place"
+    ],
+    "skills": [
+     "object_location_at_time"
+    ],
+    "relevance": "completes adding all the chicken to the bowl",
+    "time": [
+     56.7,
+     78.69
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-184214:movement:118b72d19313ec0d:1c1b227877d0fd8b",
+     "hdepic_e:P01-20240203-184214:narration:35",
+     "hdepic_e:P01-20240203-184214:movement:f69f6f181316e90d:c00a04d75e8f51db",
+     "hdepic_e:P01-20240203-184214:movement:30dfb93c005e5f3a:8611db730418d488"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 4.0",
+    "centre": 67.695
+   },
+   "s4e1": {
+    "event_id": "s4e1",
+    "sub_goal": 4,
+    "type": "action",
+    "description": "Vinegar is poured from its bottle into the bowl over the chicken.",
+    "objects": [
+     "vinegar",
+     "bottle",
+     "bowl",
+     "chicken"
+    ],
+    "verbs": [
+     "pour"
+    ],
+    "skills": [
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "adds the first liquid marinade ingredient",
+    "time": [
+     144.58,
+     154.94
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-184214:narration:66",
+     "hdepic_e:P01-20240203-184214:narration:67",
+     "hdepic_e:P01-20240203-184214:narration:68"
+    ],
+    "matched": true,
+    "match_note": "3 narration(s), best score 6.0",
+    "centre": 149.76
+   },
+   "s5e1": {
+    "event_id": "s5e1",
+    "sub_goal": 5,
+    "type": "action",
+    "description": "Soy sauce is poured into the bowl.",
+    "objects": [
+     "soy sauce",
+     "bottle",
+     "bowl"
+    ],
+    "verbs": [
+     "pour"
+    ],
+    "skills": [
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "adds the second liquid marinade ingredient",
+    "time": [
+     200.92,
+     208.29
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-184214:narration:92",
+     "hdepic_e:P01-20240203-184214:narration:94"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 9.5",
+    "centre": 204.605
+   },
+   "s6e1": {
+    "event_id": "s6e1",
+    "sub_goal": 6,
+    "type": "action",
+    "description": "A lemon half is squeezed over the bowl.",
+    "objects": [
+     "lemon",
+     "bowl"
+    ],
+    "verbs": [
+     "squeeze"
+    ],
+    "skills": [
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "adds fresh lemon juice to the marinade",
+    "time": [
+     235.72,
+     236.45
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-184214:narration:103",
+     "hdepic_e:P01-20240203-184214:movement:b56f15fa47435854:859d20629ab69579"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 5.5",
+    "centre": 236.085
+   },
+   "s6e2": {
+    "event_id": "s6e2",
+    "sub_goal": 6,
+    "type": "action",
+    "description": "Fallen lemon seeds are picked out of the bowl.",
+    "objects": [
+     "seeds",
+     "bowl"
+    ],
+    "verbs": [
+     "remove",
+     "pick"
+    ],
+    "skills": [
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "removes unwanted seeds from the mixture",
+    "time": [
+     278.95,
+     284.0
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-184214:narration:112"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 6.5",
+    "centre": 281.475
+   },
+   "s7e1": {
+    "event_id": "s7e1",
+    "sub_goal": 7,
+    "type": "action",
+    "description": "Another lemon is cut in half with a knife on a cutting board.",
+    "objects": [
+     "lemon",
+     "knife",
+     "cutting board"
+    ],
+    "verbs": [
+     "cut"
+    ],
+    "skills": [
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "prepares the second lemon for squeezing",
+    "time": [
+     323.97,
+     328.23
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-184214:narration:124",
+     "hdepic_e:P01-20240203-184214:narration:125",
+     "hdepic_e:P01-20240203-184214:sound:3738",
+     "hdepic_e:P01-20240203-184214:movement:6d32d471b8151a64:547476fe74366a6d"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 7.5",
+    "centre": 326.1
+   },
+   "s7e2": {
+    "event_id": "s7e2",
+    "sub_goal": 7,
+    "type": "action",
+    "description": "The newly cut lemon halves are squeezed into the bowl.",
+    "objects": [
+     "lemon",
+     "bowl"
+    ],
+    "verbs": [
+     "squeeze"
+    ],
+    "skills": [
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "adds more lemon juice to the marinade",
+    "time": [
+     335.35,
+     344.46
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-184214:narration:131",
+     "hdepic_e:P01-20240203-184214:movement:4dab8760b1cee85a:7aa8cfcbd22ec7b4"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 5.5",
+    "centre": 339.905
+   },
+   "s8e1": {
+    "event_id": "s8e1",
+    "sub_goal": 8,
+    "type": "action",
+    "description": "Rosemary is sprinkled into the bowl.",
+    "objects": [
+     "rosemary",
+     "bowl"
+    ],
+    "verbs": [
+     "sprinkle",
+     "add"
+    ],
+    "skills": [
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "adds herbal flavoring to the marinade",
+    "time": [
+     400.35,
+     401.05
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-184214:narration:162"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 4.0",
+    "centre": 400.7
+   },
+   "s9e1": {
+    "event_id": "s9e1",
+    "sub_goal": 9,
+    "type": "action",
+    "description": "Oregano is added to the bowl.",
+    "objects": [
+     "oregano",
+     "bowl"
+    ],
+    "verbs": [
+     "add"
+    ],
+    "skills": [
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "adds more herbs to the marinade",
+    "time": [
+     445.35,
+     449.81
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-184214:narration:183"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 4.0",
+    "centre": 447.58
+   },
+   "s9e2": {
+    "event_id": "s9e2",
+    "sub_goal": 9,
+    "type": "action",
+    "description": "Spice mix is poured into the bowl.",
+    "objects": [
+     "spice mix",
+     "bowl"
+    ],
+    "verbs": [
+     "pour",
+     "add"
+    ],
+    "skills": [
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "adds dry spices to the marinade",
+    "time": [
+     456.19,
+     459.9
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-184214:narration:188",
+     "hdepic_e:P01-20240203-184214:narration:189"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 7.0",
+    "centre": 458.045
+   },
+   "s10e1": {
+    "event_id": "s10e1",
+    "sub_goal": 10,
+    "type": "action",
+    "description": "A head of garlic is broken apart into individual cloves.",
+    "objects": [
+     "garlic head",
+     "garlic cloves"
+    ],
+    "verbs": [
+     "break",
+     "separate"
+    ],
+    "skills": [
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "separates the cloves for peeling",
+    "time": [
+     468.54,
+     471.22
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-184214:narration:194",
+     "hdepic_e:P01-20240203-184214:movement:b4e149844b17da3b:e467ac7af9c9ea05",
+     "hdepic_e:P01-20240203-184214:movement:5c91b75e7c7e193f:d989805b2c59dcc5"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 9.5",
+    "centre": 469.88
+   },
+   "s10e2": {
+    "event_id": "s10e2",
+    "sub_goal": 10,
+    "type": "action",
+    "description": "The outer papery cover of the garlic is peeled off.",
+    "objects": [
+     "garlic",
+     "skin"
+    ],
+    "verbs": [
+     "peel"
+    ],
+    "skills": [
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "removes the inedible outer layers",
+    "time": [
+     471.93,
+     474.19
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-184214:narration:196",
+     "hdepic_e:P01-20240203-184214:movement:3499d69f0de1cae0:8bf931dc7d4ed3fd"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 5.0",
+    "centre": 473.06
+   },
+   "s11e1": {
+    "event_id": "s11e1",
+    "sub_goal": 11,
+    "type": "action",
+    "description": "Individual garlic cloves are peeled.",
+    "objects": [
+     "garlic cloves",
+     "skin"
+    ],
+    "verbs": [
+     "peel"
+    ],
+    "skills": [
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "prepares the cloves for chopping",
+    "time": [
+     497.3,
+     503.75
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-184214:narration:212",
+     "hdepic_e:P01-20240203-184214:narration:214",
+     "hdepic_e:P01-20240203-184214:movement:6a7a9cda174cdbc1:4a27300b48a23d20"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 3.5",
+    "centre": 500.525
+   },
+   "s11e2": {
+    "event_id": "s11e2",
+    "sub_goal": 11,
+    "type": "action",
+    "description": "The peeled garlic cloves are chopped with a knife.",
+    "objects": [
+     "garlic cloves",
+     "knife",
+     "cutting board"
+    ],
+    "verbs": [
+     "chop"
+    ],
+    "skills": [
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "minces the garlic to release flavor",
+    "time": [
+     496.71,
+     500.65
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-184214:narration:211",
+     "hdepic_e:P01-20240203-184214:narration:212",
+     "hdepic_e:P01-20240203-184214:movement:6a7a9cda174cdbc1:4a27300b48a23d20"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 6.5",
+    "centre": 498.68
+   },
+   "s11e3": {
+    "event_id": "s11e3",
+    "sub_goal": 11,
+    "type": "placement",
+    "description": "The chopped garlic is scraped into the bowl.",
+    "objects": [
+     "garlic",
+     "knife",
+     "bowl"
+    ],
+    "verbs": [
+     "scrape",
+     "add"
+    ],
+    "skills": [
+     "action_recognition",
+     "object_location_at_time"
+    ],
+    "relevance": "adds the final ingredient to the marinade",
+    "time": [
+     495.71,
+     571.667
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-184214:movement:aacf63abf1fdb2f6:4f171559adde55ec",
+     "hdepic_e:P01-20240203-184214:narration:222",
+     "hdepic_e:P01-20240203-184214:movement:6a7a9cda174cdbc1:4a27300b48a23d20",
+     "hdepic_e:P01-20240203-184214:movement:3499d69f0de1cae0:7318773b3814091b",
+     "hdepic_e:P01-20240203-184214:movement:3814360e1e87f24d:a2c3f6048eef3074"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 7.5",
+    "centre": 533.688
+   }
+  }
+ },
+ "warnings": [],
+ "usage": {
+  "tok_in": 1746,
+  "tok_out": 3681,
+  "tok_think": 3982,
+  "model_version": "gemini-3.1-pro-preview",
+  "finish_reason": "FinishReason.STOP"
+ },
+ "status": "ok",
+ "raw_len": 13174
+}

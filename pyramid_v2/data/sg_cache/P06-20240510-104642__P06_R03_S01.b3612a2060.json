@@ -1,0 +1,1119 @@
+{
+ "task_id": "P06-20240510-104642__P06_R03_S01",
+ "prompt_hash": "b3612a2060",
+ "model": "gcp/google/gemini-3.1-pro-preview",
+ "created": "2026-10-28T18:13:58",
+ "input": {
+  "task_id": "P06-20240510-104642__P06_R03_S01",
+  "goal": "Chop half of the onion into smaller pieces and other half into larger bits. Chop the tomatoes into smaller pieces and grind them in a grinder with fresh garlic and green chillies to make a smooth tomato puree. Chop some green chillies into pieces and add them into the puree.",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "text": "Retrieve ingredients from the refrigerator and place them on the tabletop."
+   },
+   {
+    "idx": 2,
+    "text": "Retrieve tools including a chopping board, knife, and scissors."
+   },
+   {
+    "idx": 3,
+    "text": "Retrieve onions and peel the first batch."
+   },
+   {
+    "idx": 4,
+    "text": "Weigh and peel more onions."
+   },
+   {
+    "idx": 5,
+    "text": "Chop the first half of the onions."
+   },
+   {
+    "idx": 6,
+    "text": "Chop the remaining onions."
+   },
+   {
+    "idx": 7,
+    "text": "Separate the chopped onion pieces."
+   },
+   {
+    "idx": 8,
+    "text": "Transfer the chopped onions into a bowl."
+   },
+   {
+    "idx": 9,
+    "text": "Retrieve, weigh, and wash tomatoes."
+   },
+   {
+    "idx": 10,
+    "text": "Slice the first batch of tomatoes and place them in the mixer jar."
+   },
+   {
+    "idx": 11,
+    "text": "Slice the second batch of tomatoes and place them in the mixer jar."
+   },
+   {
+    "idx": 12,
+    "text": "Slice the third batch of tomatoes and place them in the mixer jar."
+   },
+   {
+    "idx": 13,
+    "text": "Slice the fourth batch of tomatoes and place them in the mixer jar."
+   },
+   {
+    "idx": 14,
+    "text": "Slice the final tomatoes and adjust the jar contents."
+   },
+   {
+    "idx": 15,
+    "text": "Wash, weigh, and slice green chillies into the mixer jar."
+   },
+   {
+    "idx": 16,
+    "text": "Retrieve, peel, crush garlic and add it to the mixer jar."
+   },
+   {
+    "idx": 17,
+    "text": "Blend the tomatoes, chillies, and garlic to make a puree and pour it into a bowl."
+   },
+   {
+    "idx": 18,
+    "text": "Add remaining chopped tomatoes to the jar and blend them."
+   },
+   {
+    "idx": 19,
+    "text": "Pour the blended puree into the bowl and rinse the jar."
+   },
+   {
+    "idx": 20,
+    "text": "Retrieve, prepare, and wash additional green chillies."
+   },
+   {
+    "idx": 21,
+    "text": "Chop the green chillies and add them to the puree bowl."
+   }
+  ],
+  "skills": {
+   "object_recognition": "L1: which object is in hand / being handled at the moment of the event",
+   "spatial_near": "L1: at the moment of the event, which of the listed objects is nearest to a reference object (3D positions from the dataset)",
+   "spatial_side": "L1: at the moment of the event, which listed object is leftmost / rightmost from the wearer's viewpoint",
+   "object_location_at_time": "L1: on which surface / fixture / container an object is put down at the event",
+   "object_grounding": "L1: localise the object of the event in a frame (bounding box)",
+   "action_recognition": "L2: what action (verb + object) the event is",
+   "event_object_role": "L2: which object is acted on, with which tool, to which destination in the event",
+   "action_temporal_order": "L2: the order of two actions shown close together inside one sub-goal",
+   "sound_action_binding": "L2: which action / object produced the sound heard",
+   "object_state_change": "L2: where an object was taken from and where it went in one movement",
+   "sound_movement_binding": "L2: which object movement coincides with the sound",
+   "sound_anchored_spatial_near": "L2: at the moment of a sound, which listed object is nearest to a reference object",
+   "sound_anchored_spatial_side": "L2: at the moment of a sound, which listed object is leftmost / rightmost for the wearer"
+  },
+  "l3_relation_types": {
+   "object_continuity": "the same object / ingredient appears in an event of sub-goal k and an event of the ADJACENT sub-goal k+1; what happened to it between them (chopped broccoli -> in the pan)",
+   "state_change": "how the state of an object differs between the two events (whole -> chopped, empty -> full, raw -> browned)",
+   "causal_prerequisite": "the earlier event is a physical prerequisite of the later one (could not be done without it)",
+   "hidden_state": "an appliance / container state was set in the earlier event and is not visible in the later segment; what is its state at the end of the later segment",
+   "spatial_end_state": "after placements in the two events, which listed object ends nearest / farthest to a reference object (needs 3D records)"
+  },
+  "n_sub_goals": 21
+ },
+ "plan": {
+  "task_id": "P06-20240510-104642__P06_R03_S01",
+  "goal": "Chop half of the onion into smaller pieces and other half into larger bits. Chop the tomatoes into smaller pieces and grind them in a grinder with fresh garlic and green chillies to make a smooth tomato puree. Chop some green chillies into pieces and add them into the puree.",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "events": [
+     {
+      "event_id": "s1e1",
+      "sub_goal": 1,
+      "type": "action",
+      "description": "The person takes ingredients out of the refrigerator.",
+      "objects": [
+       "refrigerator",
+       "ingredients"
+      ],
+      "verbs": [
+       "take"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition"
+      ],
+      "relevance": "gets the ingredients needed for the recipe"
+     },
+     {
+      "event_id": "s1e2",
+      "sub_goal": 1,
+      "type": "placement",
+      "description": "The ingredients are placed on the tabletop.",
+      "objects": [
+       "ingredients",
+       "tabletop"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_location_at_time",
+       "object_recognition"
+      ],
+      "relevance": "positions the ingredients for preparation"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 2,
+    "events": [
+     {
+      "event_id": "s2e1",
+      "sub_goal": 2,
+      "type": "placement",
+      "description": "A chopping board is placed on the counter.",
+      "objects": [
+       "chopping board",
+       "counter"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_location_at_time",
+       "object_recognition"
+      ],
+      "relevance": "sets up the cutting surface"
+     },
+     {
+      "event_id": "s2e2",
+      "sub_goal": 2,
+      "type": "placement",
+      "description": "A knife is placed on the counter.",
+      "objects": [
+       "knife",
+       "counter"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_location_at_time",
+       "object_recognition"
+      ],
+      "relevance": "provides the cutting tool"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 3,
+    "events": [
+     {
+      "event_id": "s3e1",
+      "sub_goal": 3,
+      "type": "action",
+      "description": "The person peels an onion.",
+      "objects": [
+       "onion"
+      ],
+      "verbs": [
+       "peel"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition"
+      ],
+      "relevance": "prepares the onion for chopping"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 4,
+    "events": [
+     {
+      "event_id": "s4e1",
+      "sub_goal": 4,
+      "type": "placement",
+      "description": "Onions are placed on the scale.",
+      "objects": [
+       "onion",
+       "scale"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_location_at_time",
+       "object_recognition"
+      ],
+      "relevance": "measures the required amount of onions"
+     },
+     {
+      "event_id": "s4e2",
+      "sub_goal": 4,
+      "type": "action",
+      "description": "The person peels the additional onions.",
+      "objects": [
+       "onion"
+      ],
+      "verbs": [
+       "peel"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition"
+      ],
+      "relevance": "prepares more onions for chopping"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 5,
+    "events": [
+     {
+      "event_id": "s5e1",
+      "sub_goal": 5,
+      "type": "action",
+      "description": "The person chops the onion into smaller pieces with the knife.",
+      "objects": [
+       "onion",
+       "knife"
+      ],
+      "verbs": [
+       "chop"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "achieves the first part of the onion chopping goal"
+     },
+     {
+      "event_id": "s5e2",
+      "sub_goal": 5,
+      "type": "sound",
+      "description": "A chopping sound is heard as the knife hits the board.",
+      "objects": [
+       "knife",
+       "chopping board"
+      ],
+      "verbs": [
+       "chop"
+      ],
+      "skills": [
+       "sound_action_binding",
+       "sound_movement_binding"
+      ],
+      "relevance": "indicates the chopping action"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 6,
+    "events": [
+     {
+      "event_id": "s6e1",
+      "sub_goal": 6,
+      "type": "action",
+      "description": "The person chops the remaining onions into larger bits.",
+      "objects": [
+       "onion",
+       "knife"
+      ],
+      "verbs": [
+       "chop"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition"
+      ],
+      "relevance": "achieves the second part of the onion chopping goal"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 7,
+    "events": [
+     {
+      "event_id": "s7e1",
+      "sub_goal": 7,
+      "type": "action",
+      "description": "The person separates the chopped onion pieces on the board.",
+      "objects": [
+       "onion",
+       "chopping board"
+      ],
+      "verbs": [
+       "separate"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition"
+      ],
+      "relevance": "ensures the pieces are distinct"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 8,
+    "events": [
+     {
+      "event_id": "s8e1",
+      "sub_goal": 8,
+      "type": "placement",
+      "description": "The chopped onions are transferred into a bowl.",
+      "objects": [
+       "onion",
+       "bowl"
+      ],
+      "verbs": [
+       "transfer"
+      ],
+      "skills": [
+       "object_location_at_time",
+       "object_state_change"
+      ],
+      "relevance": "stores the chopped onions"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 9,
+    "events": [
+     {
+      "event_id": "s9e1",
+      "sub_goal": 9,
+      "type": "placement",
+      "description": "Tomatoes are placed on the scale.",
+      "objects": [
+       "tomato",
+       "scale"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_location_at_time",
+       "object_recognition"
+      ],
+      "relevance": "measures the tomatoes"
+     },
+     {
+      "event_id": "s9e2",
+      "sub_goal": 9,
+      "type": "action",
+      "description": "The tomatoes are washed under running water.",
+      "objects": [
+       "tomato",
+       "water"
+      ],
+      "verbs": [
+       "wash"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition"
+      ],
+      "relevance": "cleans the tomatoes"
+     },
+     {
+      "event_id": "s9e3",
+      "sub_goal": 9,
+      "type": "sound",
+      "description": "Water is heard running.",
+      "objects": [
+       "water"
+      ],
+      "verbs": [
+       "run"
+      ],
+      "skills": [
+       "sound_action_binding"
+      ],
+      "relevance": "indicates the washing action"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 10,
+    "events": [
+     {
+      "event_id": "s10e1",
+      "sub_goal": 10,
+      "type": "action",
+      "description": "The person slices the tomatoes with the knife.",
+      "objects": [
+       "tomato",
+       "knife"
+      ],
+      "verbs": [
+       "slice"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "prepares the tomatoes for blending"
+     },
+     {
+      "event_id": "s10e2",
+      "sub_goal": 10,
+      "type": "placement",
+      "description": "The sliced tomatoes are placed into the mixer jar.",
+      "objects": [
+       "tomato",
+       "mixer jar"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_location_at_time",
+       "object_state_change"
+      ],
+      "relevance": "loads the blender"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 11,
+    "events": [
+     {
+      "event_id": "s11e1",
+      "sub_goal": 11,
+      "type": "action",
+      "description": "More tomatoes are sliced and placed into the mixer jar.",
+      "objects": [
+       "tomato",
+       "mixer jar",
+       "knife"
+      ],
+      "verbs": [
+       "slice",
+       "place"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition"
+      ],
+      "relevance": "continues loading the blender"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 12,
+    "events": [
+     {
+      "event_id": "s12e1",
+      "sub_goal": 12,
+      "type": "action",
+      "description": "More tomatoes are sliced and placed into the mixer jar.",
+      "objects": [
+       "tomato",
+       "mixer jar",
+       "knife"
+      ],
+      "verbs": [
+       "slice",
+       "place"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition"
+      ],
+      "relevance": "continues loading the blender"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 13,
+    "events": [
+     {
+      "event_id": "s13e1",
+      "sub_goal": 13,
+      "type": "action",
+      "description": "More tomatoes are sliced and placed into the mixer jar.",
+      "objects": [
+       "tomato",
+       "mixer jar",
+       "knife"
+      ],
+      "verbs": [
+       "slice",
+       "place"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition"
+      ],
+      "relevance": "continues loading the blender"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 14,
+    "events": [
+     {
+      "event_id": "s14e1",
+      "sub_goal": 14,
+      "type": "action",
+      "description": "The final tomatoes are sliced and placed into the mixer jar.",
+      "objects": [
+       "tomato",
+       "mixer jar",
+       "knife"
+      ],
+      "verbs": [
+       "slice",
+       "place"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition"
+      ],
+      "relevance": "finishes loading the tomatoes"
+     },
+     {
+      "event_id": "s14e2",
+      "sub_goal": 14,
+      "type": "action",
+      "description": "The contents of the mixer jar are pushed down.",
+      "objects": [
+       "mixer jar",
+       "tomato"
+      ],
+      "verbs": [
+       "push"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition"
+      ],
+      "relevance": "makes room for more ingredients"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 15,
+    "events": [
+     {
+      "event_id": "s15e1",
+      "sub_goal": 15,
+      "type": "action",
+      "description": "Green chillies are washed under running water.",
+      "objects": [
+       "green chilli",
+       "water"
+      ],
+      "verbs": [
+       "wash"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition"
+      ],
+      "relevance": "cleans the chillies"
+     },
+     {
+      "event_id": "s15e2",
+      "sub_goal": 15,
+      "type": "placement",
+      "description": "The green chillies are placed on the scale.",
+      "objects": [
+       "green chilli",
+       "scale"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_location_at_time",
+       "object_recognition"
+      ],
+      "relevance": "measures the chillies"
+     },
+     {
+      "event_id": "s15e3",
+      "sub_goal": 15,
+      "type": "action",
+      "description": "The green chillies are sliced and placed into the mixer jar.",
+      "objects": [
+       "green chilli",
+       "mixer jar",
+       "knife"
+      ],
+      "verbs": [
+       "slice",
+       "place"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition"
+      ],
+      "relevance": "adds chillies to the puree mixture"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 16,
+    "events": [
+     {
+      "event_id": "s16e1",
+      "sub_goal": 16,
+      "type": "action",
+      "description": "Garlic cloves are peeled and crushed.",
+      "objects": [
+       "garlic"
+      ],
+      "verbs": [
+       "peel",
+       "crush"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition"
+      ],
+      "relevance": "prepares the garlic"
+     },
+     {
+      "event_id": "s16e2",
+      "sub_goal": 16,
+      "type": "placement",
+      "description": "The crushed garlic is added to the mixer jar.",
+      "objects": [
+       "garlic",
+       "mixer jar"
+      ],
+      "verbs": [
+       "add"
+      ],
+      "skills": [
+       "object_location_at_time",
+       "object_state_change"
+      ],
+      "relevance": "adds garlic to the puree mixture"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 17,
+    "events": [
+     {
+      "event_id": "s17e1",
+      "sub_goal": 17,
+      "type": "state",
+      "description": "The blender is turned on.",
+      "objects": [
+       "blender"
+      ],
+      "verbs": [
+       "turn"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition"
+      ],
+      "relevance": "starts the blending process"
+     },
+     {
+      "event_id": "s17e2",
+      "sub_goal": 17,
+      "type": "sound",
+      "description": "A loud blending sound is heard.",
+      "objects": [
+       "blender"
+      ],
+      "verbs": [
+       "blend"
+      ],
+      "skills": [
+       "sound_action_binding"
+      ],
+      "relevance": "indicates the blending action"
+     },
+     {
+      "event_id": "s17e3",
+      "sub_goal": 17,
+      "type": "placement",
+      "description": "The puree is poured from the mixer jar into a bowl.",
+      "objects": [
+       "puree",
+       "mixer jar",
+       "bowl"
+      ],
+      "verbs": [
+       "pour"
+      ],
+      "skills": [
+       "object_location_at_time",
+       "object_state_change"
+      ],
+      "relevance": "transfers the puree"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 18,
+    "events": [
+     {
+      "event_id": "s18e1",
+      "sub_goal": 18,
+      "type": "placement",
+      "description": "Remaining chopped tomatoes are added to the mixer jar.",
+      "objects": [
+       "tomato",
+       "mixer jar"
+      ],
+      "verbs": [
+       "add"
+      ],
+      "skills": [
+       "object_location_at_time",
+       "object_state_change"
+      ],
+      "relevance": "loads the rest of the tomatoes"
+     },
+     {
+      "event_id": "s18e2",
+      "sub_goal": 18,
+      "type": "state",
+      "description": "The blender is turned on again.",
+      "objects": [
+       "blender"
+      ],
+      "verbs": [
+       "turn"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition"
+      ],
+      "relevance": "blends the remaining tomatoes"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 19,
+    "events": [
+     {
+      "event_id": "s19e1",
+      "sub_goal": 19,
+      "type": "placement",
+      "description": "The blended puree is poured into the bowl.",
+      "objects": [
+       "puree",
+       "bowl"
+      ],
+      "verbs": [
+       "pour"
+      ],
+      "skills": [
+       "object_location_at_time",
+       "object_state_change"
+      ],
+      "relevance": "transfers the rest of the puree"
+     },
+     {
+      "event_id": "s19e2",
+      "sub_goal": 19,
+      "type": "action",
+      "description": "The mixer jar is rinsed under running water.",
+      "objects": [
+       "mixer jar",
+       "water"
+      ],
+      "verbs": [
+       "rinse"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition"
+      ],
+      "relevance": "cleans the jar"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 20,
+    "events": [
+     {
+      "event_id": "s20e1",
+      "sub_goal": 20,
+      "type": "action",
+      "description": "Additional green chillies are washed under running water.",
+      "objects": [
+       "green chilli",
+       "water"
+      ],
+      "verbs": [
+       "wash"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition"
+      ],
+      "relevance": "cleans the chillies for the final step"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 21,
+    "events": [
+     {
+      "event_id": "s21e1",
+      "sub_goal": 21,
+      "type": "action",
+      "description": "The green chillies are chopped with the knife.",
+      "objects": [
+       "green chilli",
+       "knife"
+      ],
+      "verbs": [
+       "chop"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition"
+      ],
+      "relevance": "prepares the chillies to be added to the puree"
+     },
+     {
+      "event_id": "s21e2",
+      "sub_goal": 21,
+      "type": "placement",
+      "description": "The chopped green chillies are added to the puree bowl.",
+      "objects": [
+       "green chilli",
+       "puree",
+       "bowl"
+      ],
+      "verbs": [
+       "add"
+      ],
+      "skills": [
+       "object_location_at_time",
+       "object_state_change"
+      ],
+      "relevance": "completes the final goal step"
+     }
+    ],
+    "irrelevant": ""
+   }
+  ],
+  "relations": [
+   {
+    "rel_id": "r1",
+    "type": "state_change",
+    "skill": "cross_event_integration",
+    "events": [
+     "s4e2",
+     "s5e1"
+    ],
+    "ask": "What was the state of the onions before they were chopped?",
+    "answer_hint": "The onions were peeled in the previous step."
+   },
+   {
+    "rel_id": "r2",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s7e1",
+     "s8e1"
+    ],
+    "ask": "What happened to the separated onion pieces?",
+    "answer_hint": "They were transferred into a bowl."
+   },
+   {
+    "rel_id": "r3",
+    "type": "state_change",
+    "skill": "cross_event_integration",
+    "events": [
+     "s9e2",
+     "s10e1"
+    ],
+    "ask": "What was the state of the tomatoes when they were sliced?",
+    "answer_hint": "They were washed in the previous step."
+   },
+   {
+    "rel_id": "r4",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s14e2",
+     "s15e3"
+    ],
+    "ask": "What was added to the mixer jar after the tomatoes were pushed down?",
+    "answer_hint": "Green chillies were sliced and added to the jar."
+   },
+   {
+    "rel_id": "r5",
+    "type": "causal_prerequisite",
+    "skill": "causal_prerequisite_reasoning",
+    "events": [
+     "s16e2",
+     "s17e1"
+    ],
+    "ask": "What was the last ingredient added before the blender was turned on?",
+    "answer_hint": "Crushed garlic was added to the mixer jar."
+   },
+   {
+    "rel_id": "r6",
+    "type": "state_change",
+    "skill": "cross_event_integration",
+    "events": [
+     "s18e2",
+     "s19e1"
+    ],
+    "ask": "What was the state of the tomatoes after the blender was turned on again?",
+    "answer_hint": "They were blended into a puree."
+   },
+   {
+    "rel_id": "r7",
+    "type": "causal_prerequisite",
+    "skill": "causal_prerequisite_reasoning",
+    "events": [
+     "s20e1",
+     "s21e1"
+    ],
+    "ask": "What was done to the green chillies before they were chopped?",
+    "answer_hint": "They were washed under running water."
+   }
+  ],
+  "decision_points": [
+   {
+    "idx": 2,
+    "real": true,
+    "why": "Deciding to get the tools after getting the ingredients."
+   },
+   {
+    "idx": 3,
+    "real": true,
+    "why": "Deciding to start preparing the onions."
+   },
+   {
+    "idx": 4,
+    "real": false,
+    "why": "Continuing to prepare onions."
+   },
+   {
+    "idx": 5,
+    "real": true,
+    "why": "Moving from peeling to chopping the onions."
+   },
+   {
+    "idx": 6,
+    "real": false,
+    "why": "Continuing to chop onions."
+   },
+   {
+    "idx": 7,
+    "real": true,
+    "why": "Deciding to separate the pieces instead of chopping more."
+   },
+   {
+    "idx": 8,
+    "real": true,
+    "why": "Deciding to transfer the onions to a bowl."
+   },
+   {
+    "idx": 9,
+    "real": true,
+    "why": "Moving on to the next ingredient, tomatoes."
+   },
+   {
+    "idx": 10,
+    "real": true,
+    "why": "Starting to slice the tomatoes."
+   },
+   {
+    "idx": 11,
+    "real": false,
+    "why": "Continuing to slice tomatoes."
+   },
+   {
+    "idx": 12,
+    "real": false,
+    "why": "Continuing to slice tomatoes."
+   },
+   {
+    "idx": 13,
+    "real": false,
+    "why": "Continuing to slice tomatoes."
+   },
+   {
+    "idx": 14,
+    "real": false,
+    "why": "Continuing to slice tomatoes."
+   },
+   {
+    "idx": 15,
+    "real": true,
+    "why": "Moving on to the next ingredient, green chillies."
+   },
+   {
+    "idx": 16,
+    "real": true,
+    "why": "Moving on to the next ingredient, garlic."
+   },
+   {
+    "idx": 17,
+    "real": true,
+    "why": "Deciding to blend the ingredients now that they are in the jar."
+   },
+   {
+    "idx": 18,
+    "real": true,
+    "why": "Deciding to blend the remaining tomatoes."
+   },
+   {
+    "idx": 19,
+    "real": true,
+    "why": "Deciding to pour the puree and clean the jar."
+   },
+   {
+    "idx": 20,
+    "real": true,
+    "why": "Deciding to prepare the final batch of green chillies."
+   },
+   {
+    "idx": 21,
+    "real": true,
+    "why": "Deciding to chop and add the chillies to the puree."
+   },
+   {
+    "idx": 22,
+    "real": true,
+    "why": "The task is complete."
+   }
+  ]
+ },
+ "warnings": [],
+ "usage": {
+  "tok_in": 2013,
+  "tok_out": 6315,
+  "tok_think": 5391,
+  "model_version": "gemini-3.1-pro-preview",
+  "finish_reason": "FinishReason.STOP"
+ },
+ "status": "ok",
+ "raw_len": 22430
+}

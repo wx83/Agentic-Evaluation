@@ -140,7 +140,7 @@ def context_hash(ctx):
 
 # ---- 10-28(用户定:Qwen 做 Examiner 时输入裁到 ≤ 50k token;Gemini 合约不走这里)----
 _TOK = None
-QWEN_PATH = "/mnt/work_new/weihanxu/agent/Qwen3-Omni/Qwen3-Omni-30B-A3B-Instruct"
+QWEN_PATH = __import__("os").environ.get("QWEN_PATH", "/mnt/work_new/weihanxu/agent/Qwen3-Omni/Qwen3-Omni-30B-A3B-Instruct")   # tokenizer only; falls back to chars/3 when missing
 
 
 def n_tokens(s):

@@ -1,0 +1,216 @@
+{
+ "turn": 19,
+ "phase": "DONE",
+ "stop_reason": "EVENT_LOOP_COMPLETE",
+ "solver_errors": 0,
+ "frozen_clusters": [],
+ "consec_inconclusive": 0,
+ "confirmation": null,
+ "not_evaluated": {},
+ "unresolved_by_skill": {
+  "spatial_near": 0,
+  "spatial_side": 0,
+  "object_recognition": 0,
+  "object_location_at_time": 0,
+  "object_grounding": 0
+ },
+ "examiner_errors": 0,
+ "stair": {
+  "spatial_near": {
+   "level": 2,
+   "streak": 1,
+   "trace": [
+    {
+     "turn": 1,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "last_dir": null,
+   "phase": "done",
+   "stop": "events_exhausted",
+   "boundary": 1.0,
+   "unconverged": true,
+   "verify": [],
+   "invalid_streak": 0,
+   "floor_hits": 0
+  },
+  "spatial_side": {
+   "level": 1,
+   "streak": 0,
+   "trace": [
+    {
+     "turn": 2,
+     "level": 2,
+     "verdict": "wrong",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "last_dir": "down",
+   "phase": "done",
+   "stop": "events_exhausted",
+   "boundary": 1.0,
+   "unconverged": true,
+   "verify": [],
+   "invalid_streak": 0,
+   "floor_hits": 0
+  },
+  "object_recognition": {
+   "level": 3,
+   "streak": 0,
+   "trace": [
+    {
+     "turn": 3,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 6,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 9,
+     "level": 3,
+     "verdict": "wrong",
+     "reused": false
+    },
+    {
+     "turn": 10,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 12,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [
+    3,
+    2
+   ],
+   "last_dir": "up",
+   "phase": "done",
+   "stop": "reversals",
+   "boundary": 2.5,
+   "unconverged": false,
+   "verify": [
+    {
+     "level": 2,
+     "expect": "correct",
+     "verdict": "correct",
+     "turn": 13
+    },
+    {
+     "level": 2,
+     "expect": "correct",
+     "verdict": "correct",
+     "turn": 14
+    },
+    {
+     "level": 2,
+     "expect": "correct",
+     "verdict": "correct",
+     "turn": 16
+    },
+    {
+     "level": 2,
+     "expect": "correct",
+     "verdict": "correct",
+     "turn": 18
+    }
+   ],
+   "invalid_streak": 0,
+   "floor_hits": 0,
+   "_announced": true
+  },
+  "object_location_at_time": {
+   "level": 1,
+   "streak": 0,
+   "trace": [
+    {
+     "turn": 4,
+     "level": 2,
+     "verdict": "wrong",
+     "reused": false
+    },
+    {
+     "turn": 7,
+     "level": 1,
+     "verdict": "wrong",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "last_dir": "down",
+   "phase": "done",
+   "stop": "events_exhausted",
+   "boundary": 1.5,
+   "unconverged": true,
+   "verify": [],
+   "invalid_streak": 0,
+   "floor_hits": 1
+  },
+  "object_grounding": {
+   "level": 1,
+   "streak": 0,
+   "trace": [
+    {
+     "turn": 5,
+     "level": 2,
+     "verdict": "wrong",
+     "reused": false
+    },
+    {
+     "turn": 8,
+     "level": 1,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 11,
+     "level": 1,
+     "verdict": "wrong",
+     "reused": false
+    },
+    {
+     "turn": 15,
+     "level": 1,
+     "verdict": "wrong",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "last_dir": "down",
+   "phase": "done",
+   "stop": "floor",
+   "boundary": 0.5,
+   "unconverged": false,
+   "verify": [
+    {
+     "level": 1,
+     "expect": "wrong",
+     "verdict": "wrong",
+     "turn": 17
+    },
+    {
+     "level": 1,
+     "expect": "wrong",
+     "verdict": "wrong",
+     "turn": 19
+    }
+   ],
+   "invalid_streak": 0,
+   "floor_hits": 2,
+   "_announced": true
+  }
+ }
+}

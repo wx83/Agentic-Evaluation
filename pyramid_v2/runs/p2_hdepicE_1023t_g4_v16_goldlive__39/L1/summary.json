@@ -1,0 +1,357 @@
+{
+ "layer": "L1",
+ "stop_reason": "STAIRCASE_COMPLETE",
+ "phase": "DONE",
+ "turns": 14,
+ "scored": 8,
+ "correct": 7,
+ "raw_acc": 0.875,
+ "cluster_dedup_acc": 0.8,
+ "followup_items": 0,
+ "by_verdict": {
+  "correct": 7,
+  "evidence_unresolved": 6,
+  "wrong": 1
+ },
+ "by_format": {
+  "single_choice": 2,
+  "short_answer": 2,
+  "bbox": 4
+ },
+ "by_skill": {
+  "spatial_near": {
+   "verdict": "not_evaluated",
+   "reason": "no expected-event cluster for this skill on this task (sg mode)"
+  },
+  "spatial_side": {
+   "verdict": "not_evaluated",
+   "reason": "no expected-event cluster for this skill on this task (sg mode)"
+  },
+  "object_recognition": {
+   "verdict": "boundary>=4",
+   "scored": 4,
+   "correct": 4,
+   "clusters": 2,
+   "staircase": {
+    "boundary": 4.5,
+    "stop": "ceiling",
+    "unconverged": false,
+    "phase": "done",
+    "levels_tested": [
+     3,
+     4
+    ],
+    "per_level": {
+     "3": "2/2",
+     "4": "2/2"
+    },
+    "n_search": 4,
+    "n_reused_events": 2,
+    "trace": [
+     {
+      "turn": 1,
+      "level": 3,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 4,
+      "level": 3,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 7,
+      "level": 4,
+      "verdict": "correct",
+      "reused": true
+     },
+     {
+      "turn": 8,
+      "level": 4,
+      "verdict": "correct",
+      "reused": true
+     }
+    ],
+    "reversal_levels": [],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": [
+    1,
+    4,
+    7,
+    8
+   ]
+  },
+  "object_location_at_time": {
+   "verdict": "not_started",
+   "scored": 0,
+   "correct": 0,
+   "clusters": 0,
+   "staircase": {
+    "boundary": null,
+    "stop": "exhausted_at_level",
+    "unconverged": true,
+    "phase": "done",
+    "levels_tested": [],
+    "per_level": {},
+    "n_search": 0,
+    "n_reused_events": 0,
+    "trace": [],
+    "reversal_levels": [],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": []
+  },
+  "object_grounding": {
+   "verdict": "boundary 1.5",
+   "scored": 4,
+   "correct": 3,
+   "clusters": 3,
+   "staircase": {
+    "boundary": 1.5,
+    "stop": "exhausted_down",
+    "unconverged": true,
+    "phase": "done",
+    "levels_tested": [
+     1,
+     2
+    ],
+    "per_level": {
+     "1": "2/2",
+     "2": "1/2"
+    },
+    "n_search": 4,
+    "n_reused_events": 1,
+    "trace": [
+     {
+      "turn": 11,
+      "level": 1,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 12,
+      "level": 1,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 13,
+      "level": 2,
+      "verdict": "correct",
+      "reused": true
+     },
+     {
+      "turn": 14,
+      "level": 2,
+      "verdict": "wrong",
+      "reused": false
+     }
+    ],
+    "reversal_levels": [],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": [
+    11,
+    12,
+    13,
+    14
+   ]
+  }
+ },
+ "stair": {
+  "object_recognition": {
+   "boundary": 4.5,
+   "stop": "ceiling",
+   "unconverged": false,
+   "phase": "done",
+   "levels_tested": [
+    3,
+    4
+   ],
+   "per_level": {
+    "3": "2/2",
+    "4": "2/2"
+   },
+   "n_search": 4,
+   "n_reused_events": 2,
+   "trace": [
+    {
+     "turn": 1,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 4,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 7,
+     "level": 4,
+     "verdict": "correct",
+     "reused": true
+    },
+    {
+     "turn": 8,
+     "level": 4,
+     "verdict": "correct",
+     "reused": true
+    }
+   ],
+   "reversal_levels": [],
+   "verify": [],
+   "boundary_confirmed": null
+  },
+  "object_location_at_time": {
+   "boundary": null,
+   "stop": "exhausted_at_level",
+   "unconverged": true,
+   "phase": "done",
+   "levels_tested": [],
+   "per_level": {},
+   "n_search": 0,
+   "n_reused_events": 0,
+   "trace": [],
+   "reversal_levels": [],
+   "verify": [],
+   "boundary_confirmed": null
+  },
+  "object_grounding": {
+   "boundary": 1.5,
+   "stop": "exhausted_down",
+   "unconverged": true,
+   "phase": "done",
+   "levels_tested": [
+    1,
+    2
+   ],
+   "per_level": {
+    "1": "2/2",
+    "2": "1/2"
+   },
+   "n_search": 4,
+   "n_reused_events": 1,
+   "trace": [
+    {
+     "turn": 11,
+     "level": 1,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 12,
+     "level": 1,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 13,
+     "level": 2,
+     "verdict": "correct",
+     "reused": true
+    },
+    {
+     "turn": 14,
+     "level": 2,
+     "verdict": "wrong",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "verify": [],
+   "boundary_confirmed": null
+  }
+ },
+ "hypotheses": [
+  {
+   "hypothesis_id": "h:object_recognition:item_defect:2",
+   "skill": "object_recognition",
+   "type": "item_defect",
+   "evidence_cluster_id": "2cce721b07f86c36",
+   "original_turn": 2,
+   "opened_turn": 2,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "The only record in sg.bands[3] is narration:43, which ends at 89.27. The required window for its mapped event s3e1 is [89.905, 99.905]. Therefore, the target action is not observable in the required clip. Please provide a tier 3 record that is observable within the required L1 window, or adjust the "
+  },
+  {
+   "hypothesis_id": "h:object_recognition:item_defect:3",
+   "skill": "object_recognition",
+   "type": "item_defect",
+   "evidence_cluster_id": "362bd92484f979b6",
+   "original_turn": 3,
+   "opened_turn": 3,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "The only record in sg.bands[3] is narration:68, which ends at 133.15. The required window for its mapped event s4e1 is [135.0, 145.0]. Therefore, the target action is not observable in the required clip. Please provide a tier 3 record that is observable within the required L1 window, or adjust the w"
+  },
+  {
+   "hypothesis_id": "h:object_recognition:item_defect:5",
+   "skill": "object_recognition",
+   "type": "item_defect",
+   "evidence_cluster_id": "d48a135690115d5d",
+   "original_turn": 5,
+   "opened_turn": 5,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "The only record in sg.bands[4] is narration:22, which ends at 51.84. The required window for its mapped event s1e1 is [52.84, 62.84]. Therefore, the target action is not observable in the required clip. Please provide a tier 4 record that is observable within the required L1 window, or adjust the wi"
+  },
+  {
+   "hypothesis_id": "h:object_recognition:item_defect:6",
+   "skill": "object_recognition",
+   "type": "item_defect",
+   "evidence_cluster_id": "2b9a77afa959d61f",
+   "original_turn": 6,
+   "opened_turn": 6,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "{'missing_information': 'The records in sg.bands[4] (narration:107 and narration:109) end at 205.55 and 207.9 respectively. The required window for their mapped event s6e1 is [189.555, 199.555]. Therefore, the target actions are not observable in the required clip.', 'verification_condition': 'Pleas"
+  },
+  {
+   "hypothesis_id": "h:object_location_at_time:item_defect:9",
+   "skill": "object_location_at_time",
+   "type": "item_defect",
+   "evidence_cluster_id": "74e3afdb806753d0",
+   "original_turn": 9,
+   "opened_turn": 9,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "{'missing_information': 'The only record in sg.bands[2] is movement:81e7468655846c5a:a48e43b3e96312b9, which ends at 72.69. The required window for its mapped event s2e3 is [76.75, 86.75]. Therefore, the target transition is not observable in the required clip.', 'verification_condition': 'Please pr"
+  },
+  {
+   "hypothesis_id": "h:object_location_at_time:item_defect:10",
+   "skill": "object_location_at_time",
+   "type": "item_defect",
+   "evidence_cluster_id": "4635cd1c458e7d82",
+   "original_turn": 10,
+   "opened_turn": 10,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "{'missing_information': 'The only record in sg.bands[1] (fallback for tier 2) is movement:b56c4123852a90da:2cdcb1d4061b6db7, which starts at 131.966 and ends at 135.326. The required window for its mapped event s4e1 is [135.0, 145.0]. Therefore, the target transition is mostly outside the required c"
+  }
+ ],
+ "confirmation": null,
+ "not_evaluated": {
+  "spatial_near": "no expected-event cluster for this skill on this task (sg mode)",
+  "spatial_side": "no expected-event cluster for this skill on this task (sg mode)"
+ }
+}

@@ -1,0 +1,372 @@
+{
+ "layer": "L1",
+ "stop_reason": "EVENT_LOOP_COMPLETE",
+ "phase": "DONE",
+ "turns": 14,
+ "scored": 14,
+ "correct": 11,
+ "raw_acc": 0.786,
+ "cluster_dedup_acc": 0.786,
+ "followup_items": 0,
+ "by_verdict": {
+  "correct": 11,
+  "wrong": 3
+ },
+ "by_format": {
+  "single_choice": 6,
+  "bbox": 2,
+  "short_answer": 6
+ },
+ "by_skill": {
+  "spatial_near": {
+   "verdict": "not_evaluated",
+   "reason": "no expected-event cluster for this skill on this task (sg mode)"
+  },
+  "spatial_side": {
+   "verdict": "not_evaluated",
+   "reason": "no expected-event cluster for this skill on this task (sg mode)"
+  },
+  "object_recognition": {
+   "verdict": "boundary>=4",
+   "scored": 10,
+   "correct": 9,
+   "clusters": 10,
+   "staircase": {
+    "boundary": 4.5,
+    "stop": "ceiling",
+    "unconverged": false,
+    "phase": "done",
+    "levels_tested": [
+     2,
+     3,
+     4
+    ],
+    "per_level": {
+     "2": "2/2",
+     "3": "2/2",
+     "4": "5/6"
+    },
+    "n_search": 6,
+    "n_reused_events": 0,
+    "trace": [
+     {
+      "turn": 1,
+      "level": 2,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 2,
+      "level": 2,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 5,
+      "level": 3,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 6,
+      "level": 3,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 7,
+      "level": 4,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 8,
+      "level": 4,
+      "verdict": "correct",
+      "reused": false
+     }
+    ],
+    "reversal_levels": [],
+    "verify": [
+     {
+      "level": 4,
+      "expect": "correct",
+      "verdict": "correct",
+      "turn": 11
+     },
+     {
+      "level": 4,
+      "expect": "correct",
+      "verdict": "correct",
+      "turn": 12
+     },
+     {
+      "level": 4,
+      "expect": "correct",
+      "verdict": "correct",
+      "turn": 13
+     },
+     {
+      "level": 4,
+      "expect": "correct",
+      "verdict": "wrong",
+      "turn": 14
+     }
+    ],
+    "boundary_confirmed": false
+   },
+   "turns": [
+    1,
+    2,
+    5,
+    6,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14
+   ]
+  },
+  "object_location_at_time": {
+   "verdict": "boundary 2.0",
+   "scored": 2,
+   "correct": 2,
+   "clusters": 2,
+   "staircase": {
+    "boundary": 2.0,
+    "stop": "events_exhausted",
+    "unconverged": true,
+    "phase": "done",
+    "levels_tested": [
+     2
+    ],
+    "per_level": {
+     "2": "2/2"
+    },
+    "n_search": 2,
+    "n_reused_events": 0,
+    "trace": [
+     {
+      "turn": 3,
+      "level": 2,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 9,
+      "level": 2,
+      "verdict": "correct",
+      "reused": false
+     }
+    ],
+    "reversal_levels": [],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": [
+    3,
+    9
+   ]
+  },
+  "object_grounding": {
+   "verdict": "boundary 1.5",
+   "scored": 2,
+   "correct": 0,
+   "clusters": 2,
+   "staircase": {
+    "boundary": 1.5,
+    "stop": "events_exhausted",
+    "unconverged": true,
+    "phase": "done",
+    "levels_tested": [
+     1,
+     2
+    ],
+    "per_level": {
+     "1": "0/1",
+     "2": "0/1"
+    },
+    "n_search": 2,
+    "n_reused_events": 0,
+    "trace": [
+     {
+      "turn": 4,
+      "level": 2,
+      "verdict": "wrong",
+      "reused": false
+     },
+     {
+      "turn": 10,
+      "level": 1,
+      "verdict": "wrong",
+      "reused": false
+     }
+    ],
+    "reversal_levels": [],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": [
+    4,
+    10
+   ]
+  }
+ },
+ "stair": {
+  "object_recognition": {
+   "boundary": 4.5,
+   "stop": "ceiling",
+   "unconverged": false,
+   "phase": "done",
+   "levels_tested": [
+    2,
+    3,
+    4
+   ],
+   "per_level": {
+    "2": "2/2",
+    "3": "2/2",
+    "4": "5/6"
+   },
+   "n_search": 6,
+   "n_reused_events": 0,
+   "trace": [
+    {
+     "turn": 1,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 2,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 5,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 6,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 7,
+     "level": 4,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 8,
+     "level": 4,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "verify": [
+    {
+     "level": 4,
+     "expect": "correct",
+     "verdict": "correct",
+     "turn": 11
+    },
+    {
+     "level": 4,
+     "expect": "correct",
+     "verdict": "correct",
+     "turn": 12
+    },
+    {
+     "level": 4,
+     "expect": "correct",
+     "verdict": "correct",
+     "turn": 13
+    },
+    {
+     "level": 4,
+     "expect": "correct",
+     "verdict": "wrong",
+     "turn": 14
+    }
+   ],
+   "boundary_confirmed": false
+  },
+  "object_location_at_time": {
+   "boundary": 2.0,
+   "stop": "events_exhausted",
+   "unconverged": true,
+   "phase": "done",
+   "levels_tested": [
+    2
+   ],
+   "per_level": {
+    "2": "2/2"
+   },
+   "n_search": 2,
+   "n_reused_events": 0,
+   "trace": [
+    {
+     "turn": 3,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 9,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "verify": [],
+   "boundary_confirmed": null
+  },
+  "object_grounding": {
+   "boundary": 1.5,
+   "stop": "events_exhausted",
+   "unconverged": true,
+   "phase": "done",
+   "levels_tested": [
+    1,
+    2
+   ],
+   "per_level": {
+    "1": "0/1",
+    "2": "0/1"
+   },
+   "n_search": 2,
+   "n_reused_events": 0,
+   "trace": [
+    {
+     "turn": 4,
+     "level": 2,
+     "verdict": "wrong",
+     "reused": false
+    },
+    {
+     "turn": 10,
+     "level": 1,
+     "verdict": "wrong",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "verify": [],
+   "boundary_confirmed": null
+  }
+ },
+ "hypotheses": [],
+ "confirmation": null,
+ "not_evaluated": {
+  "spatial_near": "no expected-event cluster for this skill on this task (sg mode)",
+  "spatial_side": "no expected-event cluster for this skill on this task (sg mode)"
+ }
+}

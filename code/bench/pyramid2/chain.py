@@ -255,7 +255,69 @@ def history_for(run_dir, layer, sample_id, mode, cap=12, exclude_same_answer=Tru
             "select": select, "per_layer": sel_stats,
             "turns": [[h["layer"], h["turn"]] for h in rows], "depth_available": depth(run_dir, layer, sample_id),
             "render": render,
-            "text": (__import__("sg").render_grouped(rows, mode, label, render) if (select == "by_subgoal" or (select == "by_event" and not event_ids)) else globals()["render"](rows, mode, label, render))}
+            "text": (render_facts(rows, mode, label, run_dir, grouped=(select == "by_subgoal" or (select == "by_event" and not event_ids))) if render == "facts" else
+                     __import__("sg").render_grouped(rows, mode, label, render) if (select == "by_subgoal" or (select == "by_event" and not event_ids)) else globals()["render"](rows, mode, label, render))}
+
+
+
+# ------------------------------------------------------------------ 10-31 history_render = "facts":把「题 + 答案」改写成陈述句(Gemini 3.1 Pro),按 (question, answer) 缓存
+FACTS_MODEL = "gcp/google/gemini-3.1-pro-preview"
+FACTS_CACHE = P.DATA / "fact_cache.jsonl"
+FACTS_HEADER = {
+    "neutral": "Facts established about this task so far by earlier checks, in the order the parts of the task happened:",
+    "own": "Statements about this task derived from your own earlier answers. They were not checked and some may be wrong; treat them as your own unverified impressions, not as facts:",
+    "verified": "Facts about this task that have been checked and verified as correct. You can rely on them as established facts, in the order the parts of the task happened:",
+}
+FACTS_SYS = """You rewrite question-answer pairs about a first-person cooking video into declarative statements.
+For each pair, write ONE short declarative sentence that states the answer as a fact, keeping every object name, location, time reference
+("about 7 seconds into the clip", "when the jug is placed") and viewpoint phrase exactly as given. Do not add information, do not hedge,
+do not mention "the question" or "the answer". If the answer is "(no answer)" or empty, write "No answer was given about: <question>".
+Return exactly one JSON object: {"statements": ["<sentence for pair 1>", "<sentence for pair 2>", ...]} in the same order and count as the input."""
+_FACTS = None
+
+
+def _facts_load():
+    global _FACTS
+    if _FACTS is None:
+        _FACTS = {}
+        if FACTS_CACHE.exists():
+            for r in read_jsonl(FACTS_CACHE): _FACTS[r["key"]] = r["statement"]
+    return _FACTS
+
+
+def facts_for(pairs, run_dir=None):
+    """pairs = [(question, answer_text)] -> [statement];未缓存的一次性交给 Gemini 改写。改写失败时退回 "<question> -> <answer>"。"""
+    import hashlib
+    cache = _facts_load()
+    keys = [hashlib.sha1(json.dumps([q, a], ensure_ascii=False).encode()).hexdigest()[:16] for q, a in pairs]
+    todo = [(i, k) for i, k in enumerate(keys) if k not in cache]
+    if todo:
+        from examiner import call, jparse
+        user = json.dumps({"pairs": [{"question": pairs[i][0], "answer": pairs[i][1]} for i, _ in todo]}, ensure_ascii=False)
+        try:
+            text, _u = call(FACTS_SYS, user, FACTS_MODEL, max_tokens=8192, thinking="default", run_dir=run_dir, role="facts")
+            out = jparse(text).get("statements") or []
+            if len(out) != len(todo): raise ValueError(f"facts: got {len(out)} statements for {len(todo)} pairs")
+        except Exception as e:
+            out = [f"{pairs[i][0]} -> {pairs[i][1]}" for i, _ in todo]
+            if run_dir: (Path(run_dir) / "facts_errors.log").open("a").write(f"{time.strftime('%H:%M:%S')} {str(e)[:200]}\n")
+        with FACTS_CACHE.open("a") as f:
+            for (i, k), st_ in zip(todo, out):
+                cache[k] = str(st_); f.write(json.dumps({"key": k, "question": pairs[i][0], "answer": pairs[i][1], "statement": str(st_)}, ensure_ascii=False) + "\n")
+    return [cache[k] for k in keys]
+
+
+def render_facts(rows, mode, label=None, run_dir=None, grouped=True):
+    if not rows: return ""
+    label = label or "neutral"
+    pairs = [((h.get("question") or "").strip().replace("\n", " "), answer_text(h, mode, "qa")) for h in rows]
+    stmts = facts_for(pairs, run_dir)
+    L = [FACTS_HEADER[label]]; g = None
+    for h, st_ in zip(rows, stmts):
+        if grouped and h.get("_group") != g:
+            g = h.get("_group"); L.append(f"[Part {g}]")
+        L.append(f"- ({h['layer']} {LAYER_NAME.get(h['layer'], '')}) {st_}")
+    return "\n".join(L) + "\n"
 
 
 # ------------------------------------------------------------------ gold replay

@@ -1,0 +1,66 @@
+{
+ "layer": "L2",
+ "stop_reason": "REPLAY_OF:p2_hdepicE_1023t_g4_v16_self__07",
+ "phase": "DONE",
+ "turns": 40,
+ "scored": 40,
+ "correct": 30,
+ "raw_acc": 0.75,
+ "cluster_dedup_acc": 0.763,
+ "followup_items": 0,
+ "by_verdict": {
+  "wrong": 10,
+  "correct": 30
+ },
+ "by_format": {
+  "single_choice": 34,
+  "short_answer": 6
+ },
+ "by_skill": {
+  "sound_action_binding": {
+   "verdict": "not_evaluated",
+   "reason": "no expected-event cluster for this skill on this task (sg mode)"
+  },
+  "object_state_change": {
+   "verdict": "not_evaluated",
+   "reason": "no expected-event cluster for this skill on this task (sg mode)"
+  },
+  "action_temporal_order": {
+   "verdict": "not_evaluated",
+   "reason": "no expected-event cluster for this skill on this task (sg mode)"
+  },
+  "action_recognition": {
+   "verdict": "not_evaluated",
+   "reason": "no expected-event cluster for this skill on this task (sg mode)"
+  },
+  "event_object_role": {
+   "verdict": "not_evaluated",
+   "reason": "no expected-event cluster for this skill on this task (sg mode)"
+  },
+  "sound_anchored_spatial_near": {
+   "verdict": "not_evaluated",
+   "reason": "no expected-event cluster for this skill on this task (sg mode)"
+  },
+  "sound_anchored_spatial_side": {
+   "verdict": "not_evaluated",
+   "reason": "no expected-event cluster for this skill on this task (sg mode)"
+  },
+  "sound_movement_binding": {
+   "verdict": "not_evaluated",
+   "reason": "no expected-event cluster for this skill on this task (sg mode)"
+  }
+ },
+ "stair": null,
+ "hypotheses": [],
+ "confirmation": null,
+ "not_evaluated": {
+  "sound_action_binding": "no expected-event cluster for this skill on this task (sg mode)",
+  "object_state_change": "no expected-event cluster for this skill on this task (sg mode)",
+  "action_temporal_order": "no expected-event cluster for this skill on this task (sg mode)",
+  "action_recognition": "no expected-event cluster for this skill on this task (sg mode)",
+  "event_object_role": "no expected-event cluster for this skill on this task (sg mode)",
+  "sound_anchored_spatial_near": "no expected-event cluster for this skill on this task (sg mode)",
+  "sound_anchored_spatial_side": "no expected-event cluster for this skill on this task (sg mode)",
+  "sound_movement_binding": "no expected-event cluster for this skill on this task (sg mode)"
+ }
+}
