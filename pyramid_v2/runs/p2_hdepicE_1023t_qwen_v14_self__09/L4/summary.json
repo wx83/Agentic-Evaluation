@@ -1,0 +1,92 @@
+{
+ "layer": "L4",
+ "stop_reason": "STAIRCASE_COMPLETE",
+ "phase": "DONE",
+ "turns": 3,
+ "scored": 0,
+ "correct": 0,
+ "raw_acc": null,
+ "cluster_dedup_acc": null,
+ "followup_items": 0,
+ "by_verdict": {
+  "item_invalid": 3
+ },
+ "by_format": {},
+ "by_skill": {
+  "goal_conditioned_planning": {
+   "verdict": "not_started",
+   "scored": 0,
+   "correct": 0,
+   "clusters": 0,
+   "staircase": {
+    "boundary": null,
+    "stop": "examiner_failed",
+    "unconverged": false,
+    "phase": "done",
+    "levels_tested": [],
+    "per_level": {},
+    "n_search": 0,
+    "n_reused_events": 0,
+    "trace": [],
+    "reversal_levels": [],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": []
+  },
+  "plan_gap_filling": {
+   "verdict": "not_started",
+   "scored": 0,
+   "correct": 0,
+   "clusters": 0,
+   "staircase": {
+    "boundary": null,
+    "stop": "exhausted_at_level",
+    "unconverged": true,
+    "phase": "done",
+    "levels_tested": [],
+    "per_level": {},
+    "n_search": 0,
+    "n_reused_events": 0,
+    "trace": [],
+    "reversal_levels": [],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": []
+  }
+ },
+ "stair": {
+  "goal_conditioned_planning": {
+   "boundary": null,
+   "stop": "examiner_failed",
+   "unconverged": false,
+   "phase": "done",
+   "levels_tested": [],
+   "per_level": {},
+   "n_search": 0,
+   "n_reused_events": 0,
+   "trace": [],
+   "reversal_levels": [],
+   "verify": [],
+   "boundary_confirmed": null
+  },
+  "plan_gap_filling": {
+   "boundary": null,
+   "stop": "exhausted_at_level",
+   "unconverged": true,
+   "phase": "done",
+   "levels_tested": [],
+   "per_level": {},
+   "n_search": 0,
+   "n_reused_events": 0,
+   "trace": [],
+   "reversal_levels": [],
+   "verify": [],
+   "boundary_confirmed": null
+  }
+ },
+ "hypotheses": [],
+ "confirmation": null,
+ "not_evaluated": {}
+}

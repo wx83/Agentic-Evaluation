@@ -1,0 +1,102 @@
+{
+ "layer": "L4",
+ "stop_reason": "STAIRCASE_COMPLETE",
+ "phase": "DONE",
+ "turns": 7,
+ "scored": 2,
+ "correct": 1,
+ "raw_acc": 0.5,
+ "cluster_dedup_acc": 0.5,
+ "followup_items": 0,
+ "by_verdict": {
+  "item_invalid": 5,
+  "wrong": 1,
+  "correct": 1
+ },
+ "by_format": {
+  "single_choice": 2
+ },
+ "by_skill": {
+  "goal_conditioned_planning": {
+   "verdict": "boundary 1.5",
+   "scored": 2,
+   "correct": 1,
+   "clusters": 2,
+   "staircase": {
+    "boundary": 1.5,
+    "stop": "examiner_failed",
+    "unconverged": true,
+    "phase": "done",
+    "levels_tested": [
+     1,
+     2
+    ],
+    "per_level": {
+     "1": "1/1",
+     "2": "0/1"
+    },
+    "n_search": 2,
+    "n_reused_events": 2,
+    "trace": [
+     {
+      "turn": 2,
+      "level": 2,
+      "verdict": "wrong",
+      "reused": true
+     },
+     {
+      "turn": 4,
+      "level": 1,
+      "verdict": "correct",
+      "reused": true
+     }
+    ],
+    "reversal_levels": [],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": [
+    2,
+    4
+   ]
+  }
+ },
+ "stair": {
+  "goal_conditioned_planning": {
+   "boundary": 1.5,
+   "stop": "examiner_failed",
+   "unconverged": true,
+   "phase": "done",
+   "levels_tested": [
+    1,
+    2
+   ],
+   "per_level": {
+    "1": "1/1",
+    "2": "0/1"
+   },
+   "n_search": 2,
+   "n_reused_events": 2,
+   "trace": [
+    {
+     "turn": 2,
+     "level": 2,
+     "verdict": "wrong",
+     "reused": true
+    },
+    {
+     "turn": 4,
+     "level": 1,
+     "verdict": "correct",
+     "reused": true
+    }
+   ],
+   "reversal_levels": [],
+   "verify": [],
+   "boundary_confirmed": null
+  }
+ },
+ "hypotheses": [],
+ "confirmation": null,
+ "not_evaluated": {}
+}

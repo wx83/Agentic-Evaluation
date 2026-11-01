@@ -1,3 +1,4 @@
+import os
 #!/usr/bin/env python3
 """pyramid2 命令行:dry-run / propose / run / report / preflight / check-joins / audit-leaks / stats。"""
 import argparse, json, sys, collections
@@ -117,7 +118,7 @@ def cmd_preflight(a):
         if not m: continue
         if (k == "examiner_model" and c.get("examiner_backend") == "qwen_http") or (k == "solver_model" and c.get("solver_backend") == "qwen_http"):   # 10-28:本地 Qwen 不在 NVIDIA 模型表里,改探活
             try:
-                requests.get(c.get("qwen_url", "http://127.0.0.1:8799") + "/", timeout=5); probe = "OK(qwen_server up)"
+                requests.get((os.environ.get("QWEN_URL") or c.get("qwen_url", "http://127.0.0.1:8799")) + "/", timeout=5); probe = "OK(qwen_server up)"
             except Exception as e:
                 probe = f"FAIL {type(e).__name__}"; ok = False
             print(f"{k:15s} {m:40s} listed=skipped probe={probe!r}"); continue

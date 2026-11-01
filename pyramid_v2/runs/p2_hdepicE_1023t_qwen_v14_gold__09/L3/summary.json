@@ -1,0 +1,89 @@
+{
+ "layer": "L3",
+ "stop_reason": "REPLAY_OF:p2_hdepicE_1023t_qwen_v14_self__09",
+ "phase": "DONE",
+ "turns": 24,
+ "scored": 5,
+ "correct": 2,
+ "raw_acc": 0.4,
+ "cluster_dedup_acc": 0.4,
+ "followup_items": 0,
+ "by_verdict": {
+  "correct": 2,
+  "wrong": 3
+ },
+ "by_format": {
+  "single_choice": 5
+ },
+ "by_skill": {
+  "inter_event_temporal_reasoning": {
+   "verdict": "inconclusive",
+   "reason": "no scored items"
+  },
+  "inter_event_spatial_extreme": {
+   "verdict": "mixed",
+   "scored": 2,
+   "correct": 1,
+   "clusters": 2,
+   "cluster_first_correct": 1,
+   "wrong_explained_as_chance": 0,
+   "supported_hypotheses": [],
+   "pass_verified_on_fresh_event": false,
+   "turns": [
+    5,
+    6
+   ]
+  },
+  "inter_event_spatial_order": {
+   "verdict": "inconclusive",
+   "reason": "no scored items"
+  },
+  "cross_event_integration": {
+   "verdict": "inconclusive",
+   "reason": "no scored items"
+  },
+  "hidden_state_inference": {
+   "verdict": "mixed",
+   "scored": 2,
+   "correct": 0,
+   "clusters": 2,
+   "cluster_first_correct": 0,
+   "wrong_explained_as_chance": 0,
+   "supported_hypotheses": [],
+   "pass_verified_on_fresh_event": false,
+   "turns": [
+    18,
+    19
+   ]
+  },
+  "spatial_state_integration": {
+   "verdict": "inconclusive",
+   "reason": "no scored items"
+  },
+  "causal_prerequisite_reasoning": {
+   "verdict": "inconclusive",
+   "scored": 1,
+   "correct": 1,
+   "clusters": 1,
+   "cluster_first_correct": 1,
+   "wrong_explained_as_chance": 0,
+   "supported_hypotheses": [],
+   "pass_verified_on_fresh_event": false,
+   "turns": [
+    24
+   ]
+  },
+  "egocentric_frame_transform": {
+   "verdict": "inconclusive",
+   "reason": "no scored items"
+  },
+  "gaze_primed_next_pickup": {
+   "verdict": "inconclusive",
+   "reason": "no scored items"
+  }
+ },
+ "stair": null,
+ "hypotheses": [],
+ "confirmation": null,
+ "not_evaluated": {}
+}

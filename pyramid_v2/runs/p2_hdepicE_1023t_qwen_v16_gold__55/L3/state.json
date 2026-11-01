@@ -1,0 +1,18 @@
+{
+ "turn": 14,
+ "phase": "DONE",
+ "stop_reason": "REPLAY_OF:p2_hdepicE_1023t_qwen_v16_self__55",
+ "solver_errors": 0,
+ "frozen_clusters": [],
+ "consec_inconclusive": 0,
+ "confirmation": null,
+ "not_evaluated": {
+  "cross_event_integration": "no expected-event cluster for this skill on this task (sg mode)",
+  "hidden_state_inference": "no expected-event cluster for this skill on this task (sg mode)",
+  "spatial_state_integration": "no expected-event cluster for this skill on this task (sg mode)",
+  "causal_prerequisite_reasoning": "no expected-event cluster for this skill on this task (sg mode)"
+ },
+ "unresolved_by_skill": {},
+ "examiner_errors": 0,
+ "stair": {}
+}

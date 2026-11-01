@@ -1,0 +1,43 @@
+{
+ "turn": 7,
+ "phase": "DONE",
+ "stop_reason": "STAIRCASE_COMPLETE",
+ "solver_errors": 0,
+ "frozen_clusters": [],
+ "consec_inconclusive": 0,
+ "confirmation": null,
+ "not_evaluated": {},
+ "unresolved_by_skill": {
+  "goal_conditioned_planning": 0
+ },
+ "examiner_errors": 0,
+ "stair": {
+  "goal_conditioned_planning": {
+   "level": 1,
+   "streak": 1,
+   "trace": [
+    {
+     "turn": 2,
+     "level": 2,
+     "verdict": "wrong",
+     "reused": true
+    },
+    {
+     "turn": 4,
+     "level": 1,
+     "verdict": "correct",
+     "reused": true
+    }
+   ],
+   "reversal_levels": [],
+   "last_dir": "down",
+   "phase": "done",
+   "stop": "examiner_failed",
+   "boundary": 1.5,
+   "unconverged": true,
+   "verify": [],
+   "invalid_streak": 3,
+   "floor_hits": 0
+  }
+ }
+}

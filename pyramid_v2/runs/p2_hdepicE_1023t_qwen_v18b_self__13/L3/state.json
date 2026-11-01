@@ -1,0 +1,62 @@
+{
+ "turn": 2,
+ "phase": "DIAGNOSIS",
+ "stop_reason": null,
+ "solver_errors": 0,
+ "frozen_clusters": [],
+ "consec_inconclusive": 0,
+ "confirmation": null,
+ "not_evaluated": {
+  "hidden_state_inference": "no expected-event cluster for this skill on this task (sg mode)",
+  "spatial_state_integration": "no expected-event cluster for this skill on this task (sg mode)"
+ },
+ "unresolved_by_skill": {
+  "cross_event_integration": 0,
+  "causal_prerequisite_reasoning": 0
+ },
+ "examiner_errors": 0,
+ "stair": {
+  "cross_event_integration": {
+   "level": 2,
+   "streak": 1,
+   "trace": [
+    {
+     "turn": 1,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "last_dir": null,
+   "phase": "search",
+   "stop": null,
+   "boundary": null,
+   "unconverged": false,
+   "verify": [],
+   "invalid_streak": 0,
+   "floor_hits": 0
+  },
+  "causal_prerequisite_reasoning": {
+   "level": 2,
+   "streak": 1,
+   "trace": [
+    {
+     "turn": 2,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "last_dir": null,
+   "phase": "search",
+   "stop": null,
+   "boundary": null,
+   "unconverged": false,
+   "verify": [],
+   "invalid_streak": 0,
+   "floor_hits": 0
+  }
+ }
+}

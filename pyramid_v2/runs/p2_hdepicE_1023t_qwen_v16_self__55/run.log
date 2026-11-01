@@ -1,0 +1,124 @@
+[15:27:09] sg planner: P09-20240622-154652__P09_R02_S07: 15 expected events (15 matched to annotations), 14 relations, 7 decision points
+[15:27:09] L1: skills ['spatial_near', 'spatial_side', 'object_recognition', 'object_location_at_time', 'object_grounding']; pools {spatial_near:0, spatial_side:0, object_recognition:7, object_location_at_time:5, object_grounding:16}; NOT_EVALUATED ['spatial_near', 'spatial_side']
+[15:28:32]   L1 t01 object_recognition               L2 single_choice search -> correct move=stay
+[15:29:33]   L1 t02 object_recognition               L2 single_choice search -> wrong move=down
+[15:30:33]   L1 t03 object_recognition               L1 single_choice search -> wrong move=stay
+[15:32:01]   L1 t04 object_recognition               L1 single_choice search -> wrong move=stay | boundary=0.5 (floor)
+[15:33:11]   L1 t05 object_location_at_time          L2 single_choice search -> correct move=stay
+[15:33:58]   L1 turn 6 examiner output rejected (attempt 1): ["evidence_refs not in context: ['hdepic_e:P09-20240622-154652:sound:46964']", "option text appears in question: 'on the counter'"]
+[15:33:58]   L1 t06 object_location_at_time          L2 single_choice search -> item_invalid
+[15:34:56]   L1 t07 object_location_at_time          L2 single_choice search -> wrong move=down [reused event]
+[15:35:28]   L1 turn 8 examiner output rejected (attempt 1): ["option text appears in question: 'on the counter'"]
+[15:35:28]   L1 t08 object_location_at_time          L1 single_choice search -> item_invalid [reused event]
+[15:36:27]   L1 t09 object_location_at_time          L1 single_choice search -> wrong move=stay
+[15:37:28]   L1 t10 object_location_at_time          L1 single_choice search -> wrong move=stay | boundary=0.5 (floor)
+[15:37:58]   L1 turn 11 examiner output rejected (attempt 1): ['grounding item: private.grounding = {"object": \'lid of breadcrumb container\'}']
+[15:37:58]   L1 t11 object_grounding                 L2 bbox          search -> item_invalid
+[15:38:30]   L1 turn 12 examiner output rejected (attempt 1): ['grounding item: private.grounding = {"object": \'lid of breadcrumb container\'}']
+[15:38:30]   L1 t12 object_grounding                 L2 bbox          search -> item_invalid [reused event]
+[15:39:00]   L1 turn 13 examiner output rejected (attempt 1): ['grounding item: private.grounding = {"object": \'lid of breadcrumb container\'}']
+[15:39:00]   L1 t13 object_grounding                 L2 bbox          search -> item_invalid | boundary=None (examiner_failed)
+[15:39:00] L1: STAIRCASE_COMPLETE after 13 turns; boundaries object_recognition=0.5(floor), object_location_at_time=0.5(floor), object_grounding=None(examiner_failed)
+[15:39:00] L2: skills ['sound_action_binding', 'object_state_change', 'action_temporal_order', 'action_recognition', 'event_object_role', 'sound_anchored_spatial_near', 'sound_anchored_spatial_side', 'sound_movement_binding']; pools {sound_action_binding:6, object_state_change:5, action_temporal_order:7, action_recognition:7, event_object_role:7, sound_anchored_spatial_near:0, sound_anchored_spatial_side:0, sound_movement_binding:5}; NOT_EVALUATED ['sound_anchored_spatial_near', 'sound_anchored_spatial_side']
+[15:39:39]   L2 turn 1 examiner output rejected (attempt 1): ["evidence_refs not in context: ['hdepic_e:P09-20240622-154652:sound:46963']", "private.sg_event_id must be one of the offered expected events ['s1e1', 's1e2'] (the question must be about that event)"]
+[15:39:39]   L2 t01 sound_action_binding             L2 single_choice search -> item_invalid
+[15:41:07]   L2 t02 sound_action_binding             L2 single_choice search -> correct move=stay [reused event]
+[15:42:05]   L2 t03 sound_action_binding             L2 single_choice search -> wrong move=down
+[15:43:15]   L2 t04 sound_action_binding             L1 single_choice search -> wrong move=stay
+[15:44:22]   L2 t05 sound_action_binding             L1 single_choice search -> wrong move=stay | boundary=0.5 (floor)
+[15:45:03]   L2 turn 6 examiner output rejected (attempt 1): ["option text appears in question: 'on the counter'"]
+[15:45:03]   L2 t06 object_state_change              L2 single_choice search -> item_invalid
+[15:45:41]   L2 turn 7 examiner output rejected (attempt 1): ["option text appears in question: 'on the counter'"]
+[15:45:41]   L2 t07 object_state_change              L2 single_choice search -> item_invalid [reused event]
+[15:46:51]   L2 turn 8 examiner output rejected (attempt 1): ["private.sg_event_id must be one of the offered expected events ['s4e1', 's4e2'] (the question must be about that event)"]
+[15:46:51]   L2 t08 object_state_change              L2 single_choice search -> item_invalid | boundary=None (examiner_failed)
+[15:48:04]   L2 turn 9 examiner output rejected (attempt 1): ["evidence_refs not in context: ['hdepic_e:P09-20240622-154652:sound:46963']"]
+[15:48:04]   L2 t09 action_temporal_order            L2 single_choice search -> item_invalid
+[15:48:40]   L2 turn 10 examiner output rejected (attempt 1): ["evidence_refs not in context: ['hdepic_e:P09-20240622-154652:sound:46963']"]
+[15:48:40]   L2 t10 action_temporal_order            L2 single_choice search -> item_invalid [reused event]
+[15:55:42]   L2 t11 action_temporal_order            L2 single_choice search -> correct move=stay
+[15:56:54]   L2 turn 12 examiner output rejected (attempt 1): ['single_choice needs 4 options']
+[15:56:54]   L2 t12 action_temporal_order            L2 single_choice search -> item_invalid
+[15:58:33]   L2 t13 action_temporal_order            L2 single_choice search -> correct move=up [reused event]
+[15:59:10]   L2 turn 14 examiner output rejected (attempt 1): ["option text appears in question: 'first, they roll the chicken ball in their hands to improve its shape. immediately after, they pick up the tupperware of flour.'"]
+[15:59:10]   L2 t14 action_temporal_order            L3 single_choice search -> item_invalid
+[15:59:53]   L2 turn 15 examiner output rejected (attempt 1): ['duplicate options', "option text appears in question: 'first, they roll the chicken ball in their hands to improve its shape. immediately after, they pick up the container of flour.'", "option text appears in question: 'first, they roll the chicken ball in their hands to improve its shape. immediately after, they pick up the container of flour.'"]
+[15:59:53]   L2 t15 action_temporal_order            L3 single_choice search -> item_invalid [reused event]
+[16:01:13]   L2 t16 action_temporal_order            L3 single_choice search -> correct move=stay
+[16:03:33]   L2 t17 action_temporal_order            L3 single_choice search -> correct move=up
+[16:04:11]   L2 turn 18 examiner output rejected (attempt 1): ["difficulty level 4 requires format 'short_answer' (got 'single_choice')"]
+[16:04:11]   L2 t18 action_temporal_order            L4 single_choice search -> item_invalid
+[16:04:56]   L2 turn 19 examiner output rejected (attempt 1): ["difficulty level 4 requires format 'short_answer' (got 'single_choice')"]
+[16:04:56]   L2 t19 action_temporal_order            L4 single_choice search -> item_invalid [reused event]
+[16:05:37]   L2 turn 20 examiner output rejected (attempt 1): ["evidence_refs not in context: ['hdepic_e:P09-20240622-154652:sound:46963']", "difficulty level 4 requires format 'short_answer' (got 'single_choice')"]
+[16:05:37]   L2 t20 action_temporal_order            L4 single_choice search -> item_invalid [reused event] | boundary=3 (examiner_failed)
+[16:06:11]   L2 turn 21 examiner output rejected (attempt 1): ["evidence_refs not in context: ['hdepic_e:P09-20240622-154652:sound:46963']"]
+[16:06:11]   L2 t21 action_recognition               L2 single_choice search -> item_invalid
+[16:06:44]   L2 turn 22 examiner output rejected (attempt 1): ["evidence_refs not in context: ['hdepic_e:P09-20240622-154652:sound:46963']"]
+[16:06:44]   L2 t22 action_recognition               L2 single_choice search -> item_invalid [reused event]
+[16:07:44]   L2 t23 action_recognition               L2 single_choice search -> correct move=stay
+[16:08:46]   L2 t24 action_recognition               L2 single_choice search -> correct move=up
+[16:10:13]   L2 t25 action_recognition               L3 single_choice search -> correct move=stay
+[16:11:39]   L2 t26 action_recognition               L3 single_choice search -> correct move=up
+[16:14:45]   L2 t27 action_recognition               L4 short_answer  search -> wrong move=down
+[16:15:48]   L2 t28 action_recognition               L3 single_choice search -> wrong move=down
+[16:17:18]   L2 t29 action_recognition               L2 single_choice search -> correct move=stay [reused event]
+[16:18:30]   L2 t30 action_recognition               L2 single_choice search -> correct move=up [reused event] | boundary=3 (reversals)
+[16:19:53]   L2 t31 event_object_role                L2 single_choice search -> correct move=stay
+[16:24:17]   L2 t32 event_object_role                L2 single_choice search -> correct move=up
+[16:27:05]   L2 t33 event_object_role                L3 single_choice search -> wrong move=down
+[16:28:45]   L2 turn 34 examiner output rejected (attempt 1): ["evidence_refs not in context: ['hdepic_e:P09-20240622-154652:sound:46981', 'hdepic_e:P09-20240622-154652:sound:46983', 'hdepic_e:P09-20240622-154652:sound:46986']", "option text appears in question: 'flour'", "option text appears in question: 'bowl'"]
+[16:28:45]   L2 t34 event_object_role                L2 single_choice search -> item_invalid
+[16:30:19]   L2 turn 35 examiner output rejected (attempt 1): ["option text appears in question: 'flour'", "option text appears in question: 'bowl'", "option text appears in question: 'chicken ball'"]
+[16:30:19]   L2 t35 event_object_role                L2 single_choice search -> item_invalid [reused event]
+[16:31:28]   L2 turn 36 examiner output rejected (attempt 1): ["option text appears in question: 'the bowl of breadcrumbs'", "option text appears in question: 'the egg'"]
+[16:31:28]   L2 t36 event_object_role                L2 single_choice search -> item_invalid | boundary=2.5 (examiner_failed)
+[16:33:41]   L2 t37 sound_movement_binding           L2 single_choice search -> wrong move=down
+[16:35:06]   L2 turn 38 examiner output rejected (attempt 1): ["evidence_refs not in context: ['hdepic_e:P09-20240622-154652:sound:46983', 'hdepic_e:P09-20240622-154652:sound:46986']", 'tier 1: clip must be at most 15 s (got 56.4 s)']
+[16:35:06]   L2 t38 sound_movement_binding           L1 single_choice search -> item_invalid
+[16:36:49]   L2 turn 39 examiner output rejected (attempt 1): ["evidence_refs not in context: ['hdepic_e:P09-20240622-154652:sound:46986']"]
+[16:36:49]   L2 t39 sound_movement_binding           L1 single_choice search -> item_invalid [reused event]
+[16:38:08]   L2 turn 40 examiner output rejected (attempt 1): ['tier 1: clip must be at most 15 s (got 19.0 s)']
+[16:38:08]   L2 t40 sound_movement_binding           L1 single_choice search -> item_invalid | boundary=2 (examiner_failed)
+[16:38:08] L2: STAIRCASE_COMPLETE after 40 turns; boundaries sound_action_binding=0.5(floor), object_state_change=None(examiner_failed), action_temporal_order=3(examiner_failed), action_recognition=3(reversals), event_object_role=2.5(examiner_failed), sound_movement_binding=2(examiner_failed)
+[16:38:08] L3: skills ['cross_event_integration', 'hidden_state_inference', 'spatial_state_integration', 'causal_prerequisite_reasoning']; pools {cross_event_integration:48, hidden_state_inference:0, spatial_state_integration:0, causal_prerequisite_reasoning:8}; NOT_EVALUATED ['hidden_state_inference', 'spatial_state_integration']
+[16:41:57]   L3 t01 cross_event_integration          L2 single_choice search -> correct move=stay
+[16:43:45]   L3 turn 2 examiner output rejected (attempt 1): ['observation_cutoff 141.3 != cluster cutoff 220.25', 'window [40.91, 220.25] extends past observation_cutoff 141.3']
+[16:43:45]   L3 t02 cross_event_integration          L2 single_choice search -> item_invalid
+[16:52:14]   L3 t03 cross_event_integration          L2 single_choice search -> correct move=up [reused event]
+[17:00:36]   L3 t04 cross_event_integration          L3 single_choice search -> correct move=stay
+[17:08:29]   L3 t05 cross_event_integration          L3 single_choice search -> correct move=up
+[17:14:06]   L3 t06 cross_event_integration          L4 short_answer  search -> wrong move=down
+[17:19:48]   L3 t07 cross_event_integration          L3 single_choice search -> correct move=stay
+[17:21:15]   L3 turn 8 examiner output rejected (attempt 1): ["L3: private.evidence_refs must cite a record of event s2e1 ('Place the breadcrumbs container away in a storage area.')", "L3: private.evidence_refs must cite a record of event s3e1 ('Take the flour from the cabinet.')"]
+[17:21:15]   L3 t08 cross_event_integration          L3 single_choice search -> item_invalid
+[17:22:36]   L3 turn 9 examiner output rejected (attempt 1): ["L3: private.evidence_refs must cite a record of event s2e1 ('Place the breadcrumbs container away in a storage area.')", "L3: private.evidence_refs must cite a record of event s3e1 ('Take the flour from the cabinet.')"]
+[17:22:36]   L3 t09 cross_event_integration          L3 single_choice search -> item_invalid [reused event]
+[17:25:03]   L3 turn 10 examiner output rejected (attempt 1): ["evidence_refs not in context: ['hdepic_e:P09-20240622-154652:narration:85', 'hdepic_e:P09-20240622-154652:narration:86', 'hdepic_e:P09-20240622-154652:narration:87']"]
+[17:25:03]   L3 t10 cross_event_integration          L3 single_choice search -> item_invalid | boundary=3.5 (examiner_failed)
+[17:31:05]   L3 t11 causal_prerequisite_reasoning    L2 single_choice search -> correct move=stay
+[17:37:27]   L3 t12 causal_prerequisite_reasoning    L2 single_choice search -> wrong move=down
+[17:39:20]   L3 turn 13 examiner output rejected (attempt 1): ["L3: private.evidence_refs must cite a record of event s2e2 ('Place an empty bowl on the counter for the flour.')"]
+[17:39:20]   L3 t13 causal_prerequisite_reasoning    L1 single_choice search -> item_invalid
+[17:42:36]   L3 t14 causal_prerequisite_reasoning    L1 single_choice search -> correct move=stay [reused event]
+[17:46:49]   L3 turn 15 examiner_call_failed: examiner returned invalid JSON (JSONDecodeError: Expecting ',' delimiter: line 28 column 4 (char 1027); finish=None, len=7085)
+[17:46:49]   L3 t15 causal_prerequisite_reasoning    L1 -             search -> env_failure
+[17:48:19]   L3 turn 16 examiner output rejected (attempt 1): ["L3: private.evidence_refs must cite a record of event s4e2 ('Roll the chicken ball in the flour bowl to coat it.')"]
+[17:48:19]   L3 t16 causal_prerequisite_reasoning    L1 single_choice search -> item_invalid [reused event]
+[17:48:19]   L3 causal_prerequisite_reasoning: no cluster for level 1 (search) -> exhausted_at_level boundary=0.5
+[17:48:19] L3: STAIRCASE_COMPLETE after 16 turns; boundaries cross_event_integration=3.5(examiner_failed), causal_prerequisite_reasoning=0.5(exhausted_at_level)
+[17:48:19] L4: skills ['goal_conditioned_planning']; pools {goal_conditioned_planning:5}; NOT_EVALUATED []
+[17:49:29]   L4 turn 1 examiner output rejected (attempt 1): ['window [30.15, 40.78] extends past observation_cutoff 30.15', "question restates the goal (goal words ['dredge', 'each', 'chicken', 'cheese', 'ball', 'then', 'dip', 'egg', 'roll', 'chicken', 'ball']); describe only what is visible, never the task's purpose", "recorded step after the cutoff appears in question: 'store the breadcrumbs container and prepare the flour bowl'"]
+[17:49:29]   L4 t01 goal_conditioned_planning        L2 plan          search -> item_invalid
+[17:52:53]   L4 t02 goal_conditioned_planning        L2 single_choice search -> wrong move=down [reused event]
+[17:54:41]   L4 turn 3 examiner output rejected (attempt 1): ["goal_conditioned_planning reference must be the recorded next action 'retrieve flour from the cabinet and pour it into the bowl' (got 'store the breadcrumbs container and prepare the flour bowl')"]
+[17:54:41]   L4 t03 goal_conditioned_planning        L1 single_choice search -> item_invalid
+[17:56:57]   L4 t04 goal_conditioned_planning        L1 single_choice search -> correct move=stay [reused event]
+[17:58:04]   L4 turn 5 examiner output rejected (attempt 1): ['observation_cutoff 130.41 != cluster cutoff 74.02', "goal_conditioned_planning reference must be the recorded next action 'form the first chicken ball and coat it with flour' (got 'dip the first chicken ball in egg and coat it with breadcrumbs')"]
+[17:58:04]   L4 t05 goal_conditioned_planning        L1 single_choice search -> item_invalid
+[17:59:19]   L4 turn 6 examiner output rejected (attempt 1): ['window [74.02, 130.41] extends past observation_cutoff 74.02', "recorded step after the cutoff appears in question: 'form the first chicken ball and coat it with flour'", "goal_conditioned_planning reference must be the recorded next action 'form the first chicken ball and coat it with flour' (got 'dip the first chicken ball in egg and coat it with breadcrumbs')"]
+[17:59:19]   L4 t06 goal_conditioned_planning        L1 single_choice search -> item_invalid [reused event]
+[18:00:37]   L4 turn 7 examiner output rejected (attempt 1): ["option text appears in question: 'form the second chicken ball and coat it with flour'", "recorded step after the cutoff appears in question: 'form the second chicken ball and coat it with flour'"]
+[18:00:37]   L4 t07 goal_conditioned_planning        L1 single_choice search -> item_invalid | boundary=1.5 (examiner_failed)
+[18:00:37] L4: STAIRCASE_COMPLETE after 7 turns; boundaries goal_conditioned_planning=1.5(examiner_failed)
+[18:00:37] run finished

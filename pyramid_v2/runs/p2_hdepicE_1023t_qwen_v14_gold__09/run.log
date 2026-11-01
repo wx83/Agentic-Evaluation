@@ -1,0 +1,36 @@
+[16:04:32] L1: nothing to replay
+[16:04:32] L2: nothing to replay
+[16:04:32] L3: nothing to replay
+[16:04:32] L4: nothing to replay
+[16:04:32] replay finished
+[23:53:36]   L1 t05 spatial_side                     replay(gold) self=wrong   -> wrong (hist n=0)
+[23:54:36]   L1 t06 spatial_side                     replay(gold) self=wrong   -> wrong (hist n=0)
+[23:55:36]   L1 t10 object_recognition               replay(gold) self=correct -> correct (hist n=0)
+[23:56:37]   L1 t11 object_recognition               replay(gold) self=correct -> correct (hist n=0)
+[23:57:37]   L1 t12 object_recognition               replay(gold) self=correct -> correct (hist n=0)
+[23:58:37]   L1 t13 object_recognition               replay(gold) self=correct -> correct (hist n=0)
+[23:59:37]   L1 t19 object_location_at_time          replay(gold) self=correct -> correct (hist n=0)
+[00:00:37]   L1 t20 object_location_at_time          replay(gold) self=correct -> correct (hist n=0)
+[00:00:45] L1: replayed 8 items
+[00:01:16]   L2 t01 sound_action_binding             replay(gold) self=correct -> correct (hist n=8)
+[00:02:16]   L2 t07 object_state_change              replay(gold) self=wrong   -> wrong (hist n=8)
+[00:03:17]   L2 t08 object_state_change              replay(gold) self=wrong   -> wrong (hist n=8)
+[00:04:17]   L2 t09 object_state_change              replay(gold) self=wrong   -> wrong (hist n=8)
+[00:04:48]   L2 t10 action_temporal_order            replay(gold) self=wrong   -> wrong (hist n=8)
+[00:05:49]   L2 t14 action_recognition               replay(gold) self=wrong   -> wrong (hist n=8)
+[00:06:49]   L2 t16 action_recognition               replay(gold) self=wrong   -> wrong (hist n=8)
+[00:07:49]   L2 t17 action_recognition               replay(gold) self=correct -> correct (hist n=8)
+[00:08:49]   L2 t18 action_recognition               replay(gold) self=wrong   -> wrong (hist n=8)
+[00:09:49]   L2 t19 event_object_role                replay(gold) self=correct -> correct (hist n=8)
+[00:10:50]   L2 t21 event_object_role                replay(gold) self=wrong   -> wrong (hist n=8)
+[00:11:50]   L2 t23 event_object_role                replay(gold) self=correct -> correct (hist n=8)
+[00:12:51]   L2 t24 event_object_role                replay(gold) self=correct -> correct (hist n=8)
+[00:12:51] L2: replayed 13 items
+[00:13:51]   L3 t05 inter_event_spatial_extreme      replay(gold) self=correct -> correct (hist n=16)
+[00:14:51]   L3 t06 inter_event_spatial_extreme      replay(gold) self=wrong   -> wrong (hist n=16)
+[00:15:52]   L3 t18 hidden_state_inference           replay(gold) self=wrong   -> wrong (hist n=13)
+[00:16:53]   L3 t19 hidden_state_inference           replay(gold) self=wrong   -> wrong (hist n=12)
+[00:17:54]   L3 t24 causal_prerequisite_reasoning    replay(gold) self=correct -> correct (hist n=12)
+[00:17:54] L3: replayed 5 items
+[00:17:54] L4: nothing to replay
+[00:17:54] replay finished

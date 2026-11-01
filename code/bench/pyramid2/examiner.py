@@ -1,4 +1,5 @@
 """Examiner 调用(system = shared + layer prompt + harness,user = runtime context JSON)、输出校验、Solver 可见载荷。"""
+import os
 import json, re, time
 import p2config as P
 import schema, prompts, media as M
@@ -101,7 +102,7 @@ def propose(ctx, layer, contract, run_dir=None, dry_run=False):
     if dry_run:
         return {"_dry_run": True, "system_chars": len(sys_p), "user_chars": len(user)}, {}
     if contract.get("examiner_backend") == "qwen_http":
-        text, u = call_qwen(sys_p, user, contract.get("qwen_examiner_url") or contract.get("qwen_url", "http://127.0.0.1:8765"), max_tokens=contract.get("examiner_max_tokens", 4096),
+        text, u = call_qwen(sys_p, user, contract.get("qwen_examiner_url") or (os.environ.get("QWEN_URL") or contract.get("qwen_url", "http://127.0.0.1:8765")), max_tokens=contract.get("examiner_max_tokens", 4096),
                             run_dir=run_dir, role="examiner", meta={"layer": layer, "skill": ctx.get("current_skill"), "phase": ctx.get("phase")})
     else:
         text, u = call(sys_p, user, contract["examiner_model"], max_tokens=contract.get("examiner_max_tokens", 8192),

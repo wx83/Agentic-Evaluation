@@ -1,0 +1,106 @@
+{
+ "turn": 16,
+ "phase": "DONE",
+ "stop_reason": "STAIRCASE_COMPLETE",
+ "solver_errors": 0,
+ "frozen_clusters": [],
+ "consec_inconclusive": 0,
+ "confirmation": null,
+ "not_evaluated": {
+  "hidden_state_inference": "no expected-event cluster for this skill on this task (sg mode)",
+  "spatial_state_integration": "no expected-event cluster for this skill on this task (sg mode)"
+ },
+ "unresolved_by_skill": {
+  "cross_event_integration": 0,
+  "causal_prerequisite_reasoning": 0
+ },
+ "examiner_errors": 0,
+ "stair": {
+  "cross_event_integration": {
+   "level": 3,
+   "streak": 1,
+   "trace": [
+    {
+     "turn": 1,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 3,
+     "level": 2,
+     "verdict": "correct",
+     "reused": true
+    },
+    {
+     "turn": 4,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 5,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 6,
+     "level": 4,
+     "verdict": "wrong",
+     "reused": false
+    },
+    {
+     "turn": 7,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [
+    4
+   ],
+   "last_dir": "down",
+   "phase": "done",
+   "stop": "examiner_failed",
+   "boundary": 3.5,
+   "unconverged": true,
+   "verify": [],
+   "invalid_streak": 3,
+   "floor_hits": 0
+  },
+  "causal_prerequisite_reasoning": {
+   "level": 1,
+   "streak": 1,
+   "trace": [
+    {
+     "turn": 11,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 12,
+     "level": 2,
+     "verdict": "wrong",
+     "reused": false
+    },
+    {
+     "turn": 14,
+     "level": 1,
+     "verdict": "correct",
+     "reused": true
+    }
+   ],
+   "reversal_levels": [],
+   "last_dir": "down",
+   "phase": "done",
+   "stop": "exhausted_at_level",
+   "boundary": 0.5,
+   "unconverged": true,
+   "verify": [],
+   "invalid_streak": 2,
+   "floor_hits": 0
+  }
+ }
+}

@@ -1,0 +1,368 @@
+{
+ "turn": 47,
+ "phase": "DONE",
+ "stop_reason": "EVENT_LOOP_COMPLETE",
+ "solver_errors": 0,
+ "frozen_clusters": [
+  "a24af1c3cf41041e:s12e2"
+ ],
+ "consec_inconclusive": 0,
+ "confirmation": null,
+ "not_evaluated": {
+  "spatial_side": "no expected-event cluster for this skill on this task (sg mode)"
+ },
+ "unresolved_by_skill": {
+  "spatial_near": 0,
+  "object_recognition": 0,
+  "object_location_at_time": 0,
+  "object_grounding": 0
+ },
+ "examiner_errors": 0,
+ "stair": {
+  "spatial_near": {
+   "level": 1,
+   "streak": 0,
+   "trace": [
+    {
+     "turn": 1,
+     "level": 2,
+     "verdict": "wrong",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "last_dir": "down",
+   "phase": "done",
+   "stop": "events_exhausted",
+   "boundary": 1.0,
+   "unconverged": true,
+   "verify": [],
+   "invalid_streak": 0,
+   "floor_hits": 0
+  },
+  "object_recognition": {
+   "level": 2,
+   "streak": 0,
+   "trace": [
+    {
+     "turn": 2,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 5,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 8,
+     "level": 3,
+     "verdict": "wrong",
+     "reused": false
+    },
+    {
+     "turn": 11,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 14,
+     "level": 2,
+     "verdict": "wrong",
+     "reused": false
+    },
+    {
+     "turn": 16,
+     "level": 1,
+     "verdict": "wrong",
+     "reused": false
+    },
+    {
+     "turn": 17,
+     "level": 1,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 19,
+     "level": 1,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [
+    3,
+    1
+   ],
+   "last_dir": "up",
+   "phase": "done",
+   "stop": "reversals",
+   "boundary": 2,
+   "unconverged": false,
+   "verify": [
+    {
+     "level": 2,
+     "expect": "correct",
+     "verdict": "correct",
+     "turn": 21
+    },
+    {
+     "level": 2,
+     "expect": "correct",
+     "verdict": "correct",
+     "turn": 24
+    },
+    {
+     "level": 2,
+     "expect": "correct",
+     "verdict": "correct",
+     "turn": 27
+    },
+    {
+     "level": 2,
+     "expect": "correct",
+     "verdict": "correct",
+     "turn": 30
+    },
+    {
+     "level": 2,
+     "expect": "correct",
+     "verdict": "wrong",
+     "turn": 32
+    },
+    {
+     "level": 2,
+     "expect": "correct",
+     "verdict": "correct",
+     "turn": 34
+    },
+    {
+     "level": 2,
+     "expect": "correct",
+     "verdict": "wrong",
+     "turn": 37
+    },
+    {
+     "level": 2,
+     "expect": "correct",
+     "verdict": "correct",
+     "turn": 38
+    },
+    {
+     "level": 2,
+     "expect": "correct",
+     "verdict": "correct",
+     "turn": 39
+    },
+    {
+     "level": 2,
+     "expect": "correct",
+     "verdict": "wrong",
+     "turn": 41
+    },
+    {
+     "level": 2,
+     "expect": "correct",
+     "verdict": "correct",
+     "turn": 43
+    },
+    {
+     "level": 2,
+     "expect": "correct",
+     "verdict": "correct",
+     "turn": 46
+    }
+   ],
+   "invalid_streak": 0,
+   "floor_hits": 1,
+   "_announced": true
+  },
+  "object_location_at_time": {
+   "level": 1,
+   "streak": 0,
+   "trace": [
+    {
+     "turn": 3,
+     "level": 2,
+     "verdict": "wrong",
+     "reused": false
+    },
+    {
+     "turn": 6,
+     "level": 1,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 9,
+     "level": 1,
+     "verdict": "wrong",
+     "reused": false
+    },
+    {
+     "turn": 12,
+     "level": 1,
+     "verdict": "wrong",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "last_dir": "down",
+   "phase": "done",
+   "stop": "floor",
+   "boundary": 0.5,
+   "unconverged": false,
+   "verify": [
+    {
+     "level": 1,
+     "expect": "wrong",
+     "verdict": "wrong",
+     "turn": 22
+    },
+    {
+     "level": 1,
+     "expect": "wrong",
+     "verdict": "correct",
+     "turn": 25
+    },
+    {
+     "level": 1,
+     "expect": "wrong",
+     "verdict": "correct",
+     "turn": 28
+    },
+    {
+     "level": 1,
+     "expect": "wrong",
+     "verdict": "correct",
+     "turn": 31
+    },
+    {
+     "level": 1,
+     "expect": "wrong",
+     "verdict": "correct",
+     "turn": 33
+    },
+    {
+     "level": 1,
+     "expect": "wrong",
+     "verdict": "correct",
+     "turn": 35
+    },
+    {
+     "level": 1,
+     "expect": "wrong",
+     "verdict": "wrong",
+     "turn": 40
+    },
+    {
+     "level": 1,
+     "expect": "wrong",
+     "verdict": "wrong",
+     "turn": 47
+    }
+   ],
+   "invalid_streak": 0,
+   "floor_hits": 2,
+   "_announced": true
+  },
+  "object_grounding": {
+   "level": 1,
+   "streak": 0,
+   "trace": [
+    {
+     "turn": 4,
+     "level": 2,
+     "verdict": "wrong",
+     "reused": false
+    },
+    {
+     "turn": 7,
+     "level": 1,
+     "verdict": "wrong",
+     "reused": false
+    },
+    {
+     "turn": 10,
+     "level": 1,
+     "verdict": "wrong",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "last_dir": "down",
+   "phase": "done",
+   "stop": "floor",
+   "boundary": 0.5,
+   "unconverged": false,
+   "verify": [
+    {
+     "level": 1,
+     "expect": "wrong",
+     "verdict": "wrong",
+     "turn": 13
+    },
+    {
+     "level": 1,
+     "expect": "wrong",
+     "verdict": "wrong",
+     "turn": 15
+    },
+    {
+     "level": 1,
+     "expect": "wrong",
+     "verdict": "wrong",
+     "turn": 18
+    },
+    {
+     "level": 1,
+     "expect": "wrong",
+     "verdict": "wrong",
+     "turn": 20
+    },
+    {
+     "level": 1,
+     "expect": "wrong",
+     "verdict": "wrong",
+     "turn": 23
+    },
+    {
+     "level": 1,
+     "expect": "wrong",
+     "verdict": "wrong",
+     "turn": 26
+    },
+    {
+     "level": 1,
+     "expect": "wrong",
+     "verdict": "wrong",
+     "turn": 29
+    },
+    {
+     "level": 1,
+     "expect": "wrong",
+     "verdict": "wrong",
+     "turn": 36
+    },
+    {
+     "level": 1,
+     "expect": "wrong",
+     "verdict": "wrong",
+     "turn": 42
+    },
+    {
+     "level": 1,
+     "expect": "wrong",
+     "verdict": "wrong",
+     "turn": 45
+    }
+   ],
+   "invalid_streak": 0,
+   "floor_hits": 2,
+   "_announced": true
+  }
+ }
+}
