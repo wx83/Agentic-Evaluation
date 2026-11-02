@@ -1,0 +1,26 @@
+{
+ "overall_goal": "Prepare a pan with oil and set it on the cooker to heat",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve a pan, pour oil into it, and place it on the hot cooker",
+   "action_ids": [
+    "P05-20240423-170021-3",
+    "P05-20240423-170021-4",
+    "P05-20240423-170021-9",
+    "P05-20240423-170021-10",
+    "P05-20240423-170021-185",
+    "P05-20240423-170021-186"
+   ],
+   "rationale": "The person gets a pan, adds oil to it, and later transfers the pan to the heat source to warm up."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P05-20240423-170021-391",
+  "P05-20240423-170021-392"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "protocol_version": "independent-v1",
+ "evaluation_protocol": "OFFLINE_QA",
+ "taxonomy_version": "capability-v2",
+ "prompt_version": "physical-mental-draft1",
+ "phase": "DIAGNOSIS",
+ "n_per_layer": 30,
+ "turn_budget_per_layer": 45,
+ "max_solver_errors": 15,
+ "seed": 1012,
+ "examiner_model": "gcp/google/gemini-3.1-pro-preview",
+ "examiner_thinking": "default",
+ "examiner_max_tokens": 16384,
+ "solver_model": "gcp/google/gemini-3.7-flash",
+ "solver_thinking": "off",
+ "judge_model": "gcp/google/gemini-3.1-pro-preview",
+ "solver_input_spec": {
+  "modalities": [
+   "video",
+   "audio"
+  ],
+  "permitted_media": [],
+  "observation_cutoff": null,
+  "allowed_tools": [],
+  "memory_policy": "fresh_context_per_item"
+ },
+ "coverage_targets": [
+  "physical.objects_properties",
+  "physical.spatial",
+  "physical.dynamics",
+  "task.structure"
+ ],
+ "frozen_policy": {
+  "confirmation": {
+   "items_per_skill": 3,
+   "max_items": 18,
+   "format": "single_choice",
+   "pass_threshold": 0.8,
+   "min_distinct_clusters": 3,
+   "max_hypothesis_tests": 3
+  }
+ },
+ "remaining_budget": null,
+ "run_id": "p2_fill_1013_hdepic",
+ "dataset": "hdepic",
+ "videos": [
+  "P02-20240211-120927",
+  "P03-20240216-185832",
+  "P06-20240511-102207",
+  "P08-20240620-180825",
+  "P09-20240623-120359"
+ ],
+ "extension_registry": {
+  "enabled_skills": []
+ },
+ "budget_mode": "per_skill",
+ "per_skill_base": 3,
+ "per_skill_followups": 3,
+ "include_skills": [
+  "next_step_prediction",
+  "goal_conditioned_planning"
+ ],
+ "note": "\u8865\u6d4b 10-12 \u9996\u8f6e\u6ca1\u6d4b\u5230\u7684 skill;\u9884\u7b97\u6309 skill:3 \u4e2a\u72ec\u7acb cluster \u57fa\u7840\u9898 + \u6700\u591a 3 \u9053\u8ffd\u95ee + \u786e\u8ba4 3 \u9898"
+}

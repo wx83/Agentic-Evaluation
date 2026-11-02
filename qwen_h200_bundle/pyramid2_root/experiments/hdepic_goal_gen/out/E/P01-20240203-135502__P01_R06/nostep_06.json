@@ -1,0 +1,56 @@
+{
+ "overall_goal": "Serve the carrot soup into a bowl and prepare to eat it",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve a ladle from the drawer",
+   "action_ids": [
+    "P01-20240203-135502-834",
+    "P01-20240203-135502-835",
+    "P01-20240203-135502-836",
+    "P01-20240203-135502-837"
+   ],
+   "rationale": "The person puts down the bowl to free their hands, opens a drawer, takes out a ladle, and closes the drawer."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Portion the soup from the pot into the bowl",
+   "action_ids": [
+    "P01-20240203-135502-838",
+    "P01-20240203-135502-839",
+    "P01-20240203-135502-840",
+    "P01-20240203-135502-841",
+    "P01-20240203-135502-842",
+    "P01-20240203-135502-843",
+    "P01-20240203-135502-844",
+    "P01-20240203-135502-845",
+    "P01-20240203-135502-846",
+    "P01-20240203-135502-847"
+   ],
+   "rationale": "The person uses the ladle to scoop and stir the soup, pouring it into the bowl before resting the ladle and putting the bowl down."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Retrieve a spoon and carry the served soup",
+   "action_ids": [
+    "P01-20240203-135502-850",
+    "P01-20240203-135502-851",
+    "P01-20240203-135502-852",
+    "P01-20240203-135502-853",
+    "P01-20240203-135502-854",
+    "P01-20240203-135502-855",
+    "P01-20240203-135502-856",
+    "P01-20240203-135502-857"
+   ],
+   "rationale": "The person opens the cutlery drawer, successfully grabs a spoon after dropping it once, places it in the bowl, and carries the meal away to eat."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P01-20240203-135502-848",
+  "P01-20240203-135502-849"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

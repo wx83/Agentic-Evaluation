@@ -1,0 +1,215 @@
+{
+ "overall_goal": "Prepare the cooking area, add and melt oils in the pressure cooker, and measure out the green peas",
+ "goals": [
+  {
+   "goal_id": "g1",
+   "description": "Prepare the cooking area and retrieve the pressure cooker",
+   "action_ids": [
+    "P04-20240415-181212-191",
+    "P04-20240415-181212-192",
+    "P04-20240415-181212-193",
+    "P04-20240415-181212-194",
+    "P04-20240415-181212-196",
+    "P04-20240415-181212-197",
+    "P04-20240415-181212-199"
+   ],
+   "rationale": "The person clears the workspace and takes the pressure cooker out of the cabinet."
+  },
+  {
+   "goal_id": "g2",
+   "description": "Add oil and ghee to the pressure cooker and log the amount",
+   "action_ids": [
+    "P04-20240415-181212-209",
+    "P04-20240415-181212-214",
+    "P04-20240415-181212-224",
+    "P04-20240415-181212-225",
+    "P04-20240415-181212-226",
+    "P04-20240415-181212-227",
+    "P04-20240415-181212-228",
+    "P04-20240415-181212-242",
+    "P04-20240415-181212-243",
+    "P04-20240415-181212-244"
+   ],
+   "rationale": "The person pours olive oil and ghee into the cooker and writes down the measurements in a notebook."
+  },
+  {
+   "goal_id": "g3",
+   "description": "Retrieve and wash the wooden spatula",
+   "action_ids": [
+    "P04-20240415-181212-245",
+    "P04-20240415-181212-246",
+    "P04-20240415-181212-247",
+    "P04-20240415-181212-248",
+    "P04-20240415-181212-249",
+    "P04-20240415-181212-250",
+    "P04-20240415-181212-251",
+    "P04-20240415-181212-252",
+    "P04-20240415-181212-253",
+    "P04-20240415-181212-254",
+    "P04-20240415-181212-255",
+    "P04-20240415-181212-256",
+    "P04-20240415-181212-257",
+    "P04-20240415-181212-258",
+    "P04-20240415-181212-259"
+   ],
+   "rationale": "The person searches the drawers for a wooden spatula, washes it under the tap, and dries it."
+  },
+  {
+   "goal_id": "g4",
+   "description": "Turn on the electric hob and position the pressure cooker",
+   "action_ids": [
+    "P04-20240415-181212-261",
+    "P04-20240415-181212-262",
+    "P04-20240415-181212-263",
+    "P04-20240415-181212-264",
+    "P04-20240415-181212-265",
+    "P04-20240415-181212-266",
+    "P04-20240415-181212-267"
+   ],
+   "rationale": "The person plugs in the electric hob, turns it on, sets the temperature, and places the cooker on the burner."
+  },
+  {
+   "goal_id": "g5",
+   "description": "Melt the ghee and stir the oil in the pressure cooker",
+   "action_ids": [
+    "P04-20240415-181212-269",
+    "P04-20240415-181212-270",
+    "P04-20240415-181212-271",
+    "P04-20240415-181212-272",
+    "P04-20240415-181212-273",
+    "P04-20240415-181212-274",
+    "P04-20240415-181212-275",
+    "P04-20240415-181212-276",
+    "P04-20240415-181212-281",
+    "P04-20240415-181212-282",
+    "P04-20240415-181212-293",
+    "P04-20240415-181212-294"
+   ],
+   "rationale": "The person uses the wooden spatula to break apart the ghee clumps and stir the oils as they heat up."
+  },
+  {
+   "goal_id": "g6",
+   "description": "Close the olive oil bottle and retrieve spices",
+   "action_ids": [
+    "P04-20240415-181212-277",
+    "P04-20240415-181212-278",
+    "P04-20240415-181212-279",
+    "P04-20240415-181212-280",
+    "P04-20240415-181212-283"
+   ],
+   "rationale": "The person puts the lid back on the olive oil bottle, moves it away, and picks up a plate of spices."
+  },
+  {
+   "goal_id": "g7",
+   "description": "Log recipe notes in the notebook",
+   "action_ids": [
+    "P04-20240415-181212-296",
+    "P04-20240415-181212-297",
+    "P04-20240415-181212-298",
+    "P04-20240415-181212-299",
+    "P04-20240415-181212-300",
+    "P04-20240415-181212-301"
+   ],
+   "rationale": "The person opens the notebook and writes down notes about the dish being cooked."
+  },
+  {
+   "goal_id": "g8",
+   "description": "Set up the weighing scale and serving bowl",
+   "action_ids": [
+    "P04-20240415-181212-313",
+    "P04-20240415-181212-314",
+    "P04-20240415-181212-315",
+    "P04-20240415-181212-316",
+    "P04-20240415-181212-317"
+   ],
+   "rationale": "The person retrieves a serving bowl from the cabinet and places it on the weighing scale to prepare for measuring."
+  },
+  {
+   "goal_id": "g9",
+   "description": "Scoop and measure the green peas",
+   "action_ids": [
+    "P04-20240415-181212-318",
+    "P04-20240415-181212-319",
+    "P04-20240415-181212-320",
+    "P04-20240415-181212-321",
+    "P04-20240415-181212-322",
+    "P04-20240415-181212-323",
+    "P04-20240415-181212-324",
+    "P04-20240415-181212-325",
+    "P04-20240415-181212-326",
+    "P04-20240415-181212-327",
+    "P04-20240415-181212-328",
+    "P04-20240415-181212-329",
+    "P04-20240415-181212-330",
+    "P04-20240415-181212-331",
+    "P04-20240415-181212-332",
+    "P04-20240415-181212-333",
+    "P04-20240415-181212-334",
+    "P04-20240415-181212-335"
+   ],
+   "rationale": "The person uses a tumbler to scoop frozen peas from their container into the serving bowl on the scale until the desired weight is reached."
+  },
+  {
+   "goal_id": "g10",
+   "description": "Log the measured amount of green peas and clear the scale",
+   "action_ids": [
+    "P04-20240415-181212-336",
+    "P04-20240415-181212-337",
+    "P04-20240415-181212-338",
+    "P04-20240415-181212-339",
+    "P04-20240415-181212-340",
+    "P04-20240415-181212-341",
+    "P04-20240415-181212-342"
+   ],
+   "rationale": "The person writes down the weight of the peas in the notebook, removes the bowl, and turns off the scale."
+  },
+  {
+   "goal_id": "g11",
+   "description": "Stir and check the contents of the pressure cooker",
+   "action_ids": [
+    "P04-20240415-181212-302",
+    "P04-20240415-181212-304",
+    "P04-20240415-181212-305",
+    "P04-20240415-181212-307",
+    "P04-20240415-181212-309",
+    "P04-20240415-181212-345",
+    "P04-20240415-181212-355",
+    "P04-20240415-181212-363",
+    "P04-20240415-181212-374"
+   ],
+   "rationale": "The person repeatedly picks up and puts down the spatula to check on the heating oils in the pressure cooker."
+  },
+  {
+   "goal_id": "g12",
+   "description": "Organize ingredients and utensils for the next steps",
+   "action_ids": [
+    "P04-20240415-181212-349",
+    "P04-20240415-181212-354",
+    "P04-20240415-181212-361",
+    "P04-20240415-181212-364",
+    "P04-20240415-181212-380",
+    "P04-20240415-181212-381",
+    "P04-20240415-181212-385",
+    "P04-20240415-181212-389"
+   ],
+   "rationale": "The person moves various items around the counter, such as a knife, tablespoon, mortar, and salt jar, to prepare for cooking."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P04-20240415-181212-195",
+  "P04-20240415-181212-201",
+  "P04-20240415-181212-208",
+  "P04-20240415-181212-260",
+  "P04-20240415-181212-268",
+  "P04-20240415-181212-295",
+  "P04-20240415-181212-308",
+  "P04-20240415-181212-312",
+  "P04-20240415-181212-375",
+  "P04-20240415-181212-383",
+  "P04-20240415-181212-384"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

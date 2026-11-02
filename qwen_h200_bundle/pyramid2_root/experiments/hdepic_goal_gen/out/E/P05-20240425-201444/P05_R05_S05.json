@@ -1,0 +1,133 @@
+{
+ "overall_goal": "Divide the chocolate batter into ramekins, bake them in the oven, and unmold them onto plates for serving.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare the workspace and clean the spatula",
+   "action_ids": [
+    "P05-20240425-201444-252",
+    "P05-20240425-201444-253",
+    "P05-20240425-201444-254",
+    "P05-20240425-201444-255",
+    "P05-20240425-201444-256",
+    "P05-20240425-201444-257"
+   ],
+   "rationale": "The person clears space, moves the ramekins closer, and scrapes excess mixture off the spatula before starting to fill the ramekins."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Fill the ramekins with chocolate mixture",
+   "action_ids": [
+    "P05-20240425-201444-258",
+    "P05-20240425-201444-259",
+    "P05-20240425-201444-260",
+    "P05-20240425-201444-261",
+    "P05-20240425-201444-262",
+    "P05-20240425-201444-263",
+    "P05-20240425-201444-264",
+    "P05-20240425-201444-265"
+   ],
+   "rationale": "The person spoons the chocolate mixture into the ramekins and checks the fill level."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Clean the utensils and scrape down the bowl",
+   "action_ids": [
+    "P05-20240425-201444-266",
+    "P05-20240425-201444-267",
+    "P05-20240425-201444-268",
+    "P05-20240425-201444-269",
+    "P05-20240425-201444-270",
+    "P05-20240425-201444-271",
+    "P05-20240425-201444-272",
+    "P05-20240425-201444-273"
+   ],
+   "rationale": "The person licks the spoon, scrapes down the sides of the bowl with the spatula, licks the spatula, and places the dirty utensils aside."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Place the ramekins in the oven to bake",
+   "action_ids": [
+    "P05-20240425-201444-275",
+    "P05-20240425-201444-276",
+    "P05-20240425-201444-277",
+    "P05-20240425-201444-278",
+    "P05-20240425-201444-279",
+    "P05-20240425-201444-280",
+    "P05-20240425-201444-281",
+    "P05-20240425-201444-282"
+   ],
+   "rationale": "The person opens the oven, adjusts the shelf, and places both filled ramekins inside to bake."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Prepare plates for serving the puddings",
+   "action_ids": [
+    "P05-20240425-201444-492",
+    "P05-20240425-201444-493",
+    "P05-20240425-201444-494",
+    "P05-20240425-201444-495"
+   ],
+   "rationale": "The person retrieves plates from the shelf and places them on the counter to serve the puddings."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Remove the baked puddings from the oven",
+   "action_ids": [
+    "P05-20240425-201444-562",
+    "P05-20240425-201444-563",
+    "P05-20240425-201444-564",
+    "P05-20240425-201444-568",
+    "P05-20240425-201444-569",
+    "P05-20240425-201444-570",
+    "P05-20240425-201444-571"
+   ],
+   "rationale": "The person uses oven gloves to take the hot ramekins out of the oven and places them on the counter."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Unmold the first pudding onto a plate",
+   "action_ids": [
+    "P05-20240425-201444-572",
+    "P05-20240425-201444-573",
+    "P05-20240425-201444-574",
+    "P05-20240425-201444-575",
+    "P05-20240425-201444-576",
+    "P05-20240425-201444-577",
+    "P05-20240425-201444-578",
+    "P05-20240425-201444-579",
+    "P05-20240425-201444-580",
+    "P05-20240425-201444-581",
+    "P05-20240425-201444-582",
+    "P05-20240425-201444-583",
+    "P05-20240425-201444-584",
+    "P05-20240425-201444-585",
+    "P05-20240425-201444-586"
+   ],
+   "rationale": "The person loosens the pudding with a knife, places a plate on top, flips it over using a towel, and removes the hot ramekin."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Unmold the second pudding onto a plate",
+   "action_ids": [
+    "P05-20240425-201444-587",
+    "P05-20240425-201444-588",
+    "P05-20240425-201444-589",
+    "P05-20240425-201444-590",
+    "P05-20240425-201444-591",
+    "P05-20240425-201444-592",
+    "P05-20240425-201444-593",
+    "P05-20240425-201444-594",
+    "P05-20240425-201444-595",
+    "P05-20240425-201444-596",
+    "P05-20240425-201444-597"
+   ],
+   "rationale": "The person loosens the second pudding, flips it onto a plate using a towel, and removes the ramekin to serve."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

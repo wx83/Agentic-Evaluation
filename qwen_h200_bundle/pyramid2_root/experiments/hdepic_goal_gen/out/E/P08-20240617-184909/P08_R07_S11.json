@@ -1,0 +1,70 @@
+{
+ "overall_goal": "Serve the couscous, vegetables, and fish cakes into bowls and set out cutlery",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Serve couscous into the bowls",
+   "action_ids": [
+    "P08-20240617-184909-662",
+    "P08-20240617-184909-663",
+    "P08-20240617-184909-664",
+    "P08-20240617-184909-665",
+    "P08-20240617-184909-666",
+    "P08-20240617-184909-667",
+    "P08-20240617-184909-668",
+    "P08-20240617-184909-669",
+    "P08-20240617-184909-670",
+    "P08-20240617-184909-673"
+   ],
+   "rationale": "The person prepares the serving bowls and transfers the couscous from the pan into them using a spatula."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Serve vegetables into the bowls",
+   "action_ids": [
+    "P08-20240617-184909-728",
+    "P08-20240617-184909-729",
+    "P08-20240617-184909-730",
+    "P08-20240617-184909-731",
+    "P08-20240617-184909-732",
+    "P08-20240617-184909-733",
+    "P08-20240617-184909-734",
+    "P08-20240617-184909-735",
+    "P08-20240617-184909-736",
+    "P08-20240617-184909-737",
+    "P08-20240617-184909-738"
+   ],
+   "rationale": "The person uses a spaghetti spoon and spatula to transfer the cooked vegetables from the pan into the serving bowls, then places the empty pan in the sink."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Serve fish cakes onto the bowls",
+   "action_ids": [
+    "P08-20240617-184909-781",
+    "P08-20240617-184909-784",
+    "P08-20240617-184909-785",
+    "P08-20240617-184909-786",
+    "P08-20240617-184909-787",
+    "P08-20240617-184909-788",
+    "P08-20240617-184909-789"
+   ],
+   "rationale": "The person brings the baking tray over and transfers the fish cakes onto the prepared bowls."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Place cutlery for serving",
+   "action_ids": [
+    "P08-20240617-184909-795",
+    "P08-20240617-184909-796"
+   ],
+   "rationale": "The person arranges the plates and places a knife and fork on each to complete the serving setup."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P08-20240617-184909-797"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

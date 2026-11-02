@@ -1,0 +1,189 @@
+{
+ "overall_goal": "Prepare the ingredients for the wraps by gathering, peeling, and chopping the onion and tomatoes.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve and organize the ingredients",
+   "action_ids": [
+    "P04-20240413-142619-394",
+    "P04-20240413-142619-395",
+    "P04-20240413-142619-396",
+    "P04-20240413-142619-400",
+    "P04-20240413-142619-401",
+    "P04-20240413-142619-402",
+    "P04-20240413-142619-403",
+    "P04-20240413-142619-404",
+    "P04-20240413-142619-405",
+    "P04-20240413-142619-406",
+    "P04-20240413-142619-420"
+   ],
+   "rationale": "The person gathers the onion, lettuce, and tomatoes from their storage and places them on the chopping board."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Open the lettuce bag and take out lettuce",
+   "action_ids": [
+    "P04-20240413-142619-430",
+    "P04-20240413-142619-431",
+    "P04-20240413-142619-432",
+    "P04-20240413-142619-433",
+    "P04-20240413-142619-434",
+    "P04-20240413-142619-435",
+    "P04-20240413-142619-436",
+    "P04-20240413-142619-437",
+    "P04-20240413-142619-438"
+   ],
+   "rationale": "The person uses scissors to open the lettuce bag and extracts a piece of lettuce."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Peel and halve the onion",
+   "action_ids": [
+    "P04-20240413-142619-465",
+    "P04-20240413-142619-466",
+    "P04-20240413-142619-467",
+    "P04-20240413-142619-468",
+    "P04-20240413-142619-469",
+    "P04-20240413-142619-470",
+    "P04-20240413-142619-471",
+    "P04-20240413-142619-472",
+    "P04-20240413-142619-473",
+    "P04-20240413-142619-474",
+    "P04-20240413-142619-475"
+   ],
+   "rationale": "The person cuts the ends off the onion, halves it, and peels away the outer layers."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Finely chop the onion",
+   "action_ids": [
+    "P04-20240413-142619-476",
+    "P04-20240413-142619-477",
+    "P04-20240413-142619-478",
+    "P04-20240413-142619-479",
+    "P04-20240413-142619-480",
+    "P04-20240413-142619-481",
+    "P04-20240413-142619-482",
+    "P04-20240413-142619-483",
+    "P04-20240413-142619-484",
+    "P04-20240413-142619-485",
+    "P04-20240413-142619-486",
+    "P04-20240413-142619-487",
+    "P04-20240413-142619-488"
+   ],
+   "rationale": "The person uses a knife to finely chop the peeled onion halves into small pieces."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Transfer the chopped onion into a bowl",
+   "action_ids": [
+    "P04-20240413-142619-489",
+    "P04-20240413-142619-490",
+    "P04-20240413-142619-491",
+    "P04-20240413-142619-492",
+    "P04-20240413-142619-493",
+    "P04-20240413-142619-494",
+    "P04-20240413-142619-495",
+    "P04-20240413-142619-496",
+    "P04-20240413-142619-497"
+   ],
+   "rationale": "The person retrieves a small bowl and transfers the chopped onion pieces into it."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Prepare the chopping board and weigh a tomato",
+   "action_ids": [
+    "P04-20240413-142619-498",
+    "P04-20240413-142619-499",
+    "P04-20240413-142619-500",
+    "P04-20240413-142619-501",
+    "P04-20240413-142619-502"
+   ],
+   "rationale": "The person clears the chopping board, weighs a tomato, and moves the onion to prepare for chopping tomatoes."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Remove seeds from the first tomato",
+   "action_ids": [
+    "P04-20240413-142619-507",
+    "P04-20240413-142619-508",
+    "P04-20240413-142619-509",
+    "P04-20240413-142619-510",
+    "P04-20240413-142619-511",
+    "P04-20240413-142619-512",
+    "P04-20240413-142619-513",
+    "P04-20240413-142619-514",
+    "P04-20240413-142619-515",
+    "P04-20240413-142619-516",
+    "P04-20240413-142619-517",
+    "P04-20240413-142619-518",
+    "P04-20240413-142619-519",
+    "P04-20240413-142619-520",
+    "P04-20240413-142619-521",
+    "P04-20240413-142619-522",
+    "P04-20240413-142619-523",
+    "P04-20240413-142619-524",
+    "P04-20240413-142619-525"
+   ],
+   "rationale": "The person cuts the first tomato and scoops out its seeds to prepare it for fine chopping."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Finely chop the first tomato",
+   "action_ids": [
+    "P04-20240413-142619-526",
+    "P04-20240413-142619-527",
+    "P04-20240413-142619-528",
+    "P04-20240413-142619-529",
+    "P04-20240413-142619-530",
+    "P04-20240413-142619-531",
+    "P04-20240413-142619-532",
+    "P04-20240413-142619-533"
+   ],
+   "rationale": "The person finely chops the deseeded pieces of the first tomato."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Remove seeds from the second tomato",
+   "action_ids": [
+    "P04-20240413-142619-541",
+    "P04-20240413-142619-542",
+    "P04-20240413-142619-543",
+    "P04-20240413-142619-544",
+    "P04-20240413-142619-545",
+    "P04-20240413-142619-546",
+    "P04-20240413-142619-547",
+    "P04-20240413-142619-548",
+    "P04-20240413-142619-549",
+    "P04-20240413-142619-550",
+    "P04-20240413-142619-551",
+    "P04-20240413-142619-552",
+    "P04-20240413-142619-553",
+    "P04-20240413-142619-554",
+    "P04-20240413-142619-555",
+    "P04-20240413-142619-556"
+   ],
+   "rationale": "The person cuts the second tomato into quarters and removes the seeds from each piece."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Finely chop the second tomato",
+   "action_ids": [
+    "P04-20240413-142619-557",
+    "P04-20240413-142619-558",
+    "P04-20240413-142619-559",
+    "P04-20240413-142619-560",
+    "P04-20240413-142619-561",
+    "P04-20240413-142619-562",
+    "P04-20240413-142619-563",
+    "P04-20240413-142619-564"
+   ],
+   "rationale": "The person finely chops the deseeded quarters of the second tomato into small pieces."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

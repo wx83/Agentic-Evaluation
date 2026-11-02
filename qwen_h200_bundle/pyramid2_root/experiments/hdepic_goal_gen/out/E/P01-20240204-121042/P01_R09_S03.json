@@ -1,0 +1,38 @@
+{
+ "overall_goal": "Cool the mixture and mix it well",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Mix the hot dates and biscuits with a spatula and check the temperature",
+   "action_ids": [
+    "P01-20240204-121042-633",
+    "P01-20240204-121042-634",
+    "P01-20240204-121042-635",
+    "P01-20240204-121042-636",
+    "P01-20240204-121042-637",
+    "P01-20240204-121042-638"
+   ],
+   "rationale": "The person uses a spatula to mix and break up the hot dates and biscuits, then touches the mixture to check if it has cooled down."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Attempt to mix the mixture by hand and switch back to the spatula",
+   "action_ids": [
+    "P01-20240204-121042-654",
+    "P01-20240204-121042-655",
+    "P01-20240204-121042-656",
+    "P01-20240204-121042-657",
+    "P01-20240204-121042-658",
+    "P01-20240204-121042-659",
+    "P01-20240204-121042-660",
+    "P01-20240204-121042-661"
+   ],
+   "rationale": "The person cleans off the spatula to try mixing by hand, but finds the mixture is still too hot and resumes breaking it apart with the spatula."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,116 @@
+{
+ "overall_goal": "Tidy the kitchen, wash the juicer parts, and serve the fresh orange juice",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Tidy the countertop and cover the pan",
+   "action_ids": [
+    "P01-20240204-142301-599",
+    "P01-20240204-142301-601",
+    "P01-20240204-142301-604",
+    "P01-20240204-142301-605",
+    "P01-20240204-142301-612",
+    "P01-20240204-142301-613",
+    "P01-20240204-142301-615",
+    "P01-20240204-142301-616",
+    "P01-20240204-142301-617",
+    "P01-20240204-142301-618"
+   ],
+   "rationale": "The person moves a mug, kettle, and wooden spoon out of the way before covering the pan with a lid."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Scrape and rinse the juicer top part",
+   "action_ids": [
+    "P01-20240204-142301-620",
+    "P01-20240204-142301-621",
+    "P01-20240204-142301-622",
+    "P01-20240204-142301-623",
+    "P01-20240204-142301-628",
+    "P01-20240204-142301-629",
+    "P01-20240204-142301-630",
+    "P01-20240204-142301-631",
+    "P01-20240204-142301-632",
+    "P01-20240204-142301-633"
+   ],
+   "rationale": "The person uses a knife to scrape the juicer strainer, then removes the top part of the juicer and rinses it under the tap."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Empty and rinse the juicer strainer",
+   "action_ids": [
+    "P01-20240204-142301-634",
+    "P01-20240204-142301-635",
+    "P01-20240204-142301-636",
+    "P01-20240204-142301-637",
+    "P01-20240204-142301-638",
+    "P01-20240204-142301-639",
+    "P01-20240204-142301-640",
+    "P01-20240204-142301-641",
+    "P01-20240204-142301-642",
+    "P01-20240204-142301-643",
+    "P01-20240204-142301-644",
+    "P01-20240204-142301-645",
+    "P01-20240204-142301-646",
+    "P01-20240204-142301-647"
+   ],
+   "rationale": "The person empties the orange bits from the strainer into the food waste bin, rinses the strainer thoroughly, and dries their hands."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Serve the fresh orange juice",
+   "action_ids": [
+    "P01-20240204-142301-624",
+    "P01-20240204-142301-625",
+    "P01-20240204-142301-626",
+    "P01-20240204-142301-627",
+    "P01-20240204-142301-648",
+    "P01-20240204-142301-649",
+    "P01-20240204-142301-650",
+    "P01-20240204-142301-651",
+    "P01-20240204-142301-652",
+    "P01-20240204-142301-653"
+   ],
+   "rationale": "The person retrieves a glass from the cupboard and pours the freshly squeezed orange juice from the food processor bowl into it."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Wash the food processor bowl",
+   "action_ids": [
+    "P01-20240204-142301-654",
+    "P01-20240204-142301-655",
+    "P01-20240204-142301-656",
+    "P01-20240204-142301-657",
+    "P01-20240204-142301-658",
+    "P01-20240204-142301-659",
+    "P01-20240204-142301-660",
+    "P01-20240204-142301-661",
+    "P01-20240204-142301-662",
+    "P01-20240204-142301-663",
+    "P01-20240204-142301-664",
+    "P01-20240204-142301-665",
+    "P01-20240204-142301-666"
+   ],
+   "rationale": "The person rinses, lathers with a sponge, and washes the food processor bowl before placing it on the drainer."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Cover the pot and prepare to empty the food waste bin",
+   "action_ids": [
+    "P01-20240204-142301-667",
+    "P01-20240204-142301-668",
+    "P01-20240204-142301-669",
+    "P01-20240204-142301-670",
+    "P01-20240204-142301-671"
+   ],
+   "rationale": "The person places a lid on a pot, dries their hands, and lifts the heavy food waste bin to empty it."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P01-20240204-142301-619"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

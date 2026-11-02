@@ -1,0 +1,6311 @@
+{
+ "video_id": "P02-20240209-184316",
+ "sub_goals": {
+  "E_g1": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "cutting"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.18,
+   "completion_cues": {},
+   "location_cues": {
+    "open / close": "cupboard, drawer or fridge"
+   },
+   "sound_events": [
+    {
+     "t0": 10.2,
+     "t1": 11.0,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 12.1,
+     "t1": 12.4,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 13.2,
+     "t1": 13.5,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 14.0,
+     "t1": 14.5,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 15.2,
+     "t1": 15.5,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 16.3,
+     "t1": 17.2,
+     "class": "open / close"
+    },
+    {
+     "t0": 16.7,
+     "t1": 19.9,
+     "class": "metal / plastic collision"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g2": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "kettle / mixer / appliance": "appliance running (stops when done)"
+   },
+   "location_cues": {
+    "kettle / mixer / appliance": "appliance fixture (kettle, blender, air fryer...)"
+   },
+   "sound_events": [
+    {
+     "t0": 21.6,
+     "t1": 26.5,
+     "class": "rustle"
+    },
+    {
+     "t0": 78.9,
+     "t1": 378.7,
+     "class": "kettle / mixer / appliance"
+    },
+    {
+     "t0": 83.7,
+     "t1": 84.0,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 88.3,
+     "t1": 89.5,
+     "class": "rustle"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g3": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "wash"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "kettle / mixer / appliance": "appliance running (stops when done)"
+   },
+   "location_cues": {
+    "kettle / mixer / appliance": "appliance fixture (kettle, blender, air fryer...)",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 78.9,
+     "t1": 378.7,
+     "class": "kettle / mixer / appliance"
+    },
+    {
+     "t0": 92.7,
+     "t1": 93.1,
+     "class": "water"
+    },
+    {
+     "t0": 93.9,
+     "t1": 103.9,
+     "class": "water"
+    },
+    {
+     "t0": 105.0,
+     "t1": 108.2,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 105.9,
+     "t1": 106.4,
+     "class": "water"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g4": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "cut"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "kettle / mixer / appliance": "appliance running (stops when done)"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "kettle / mixer / appliance": "appliance fixture (kettle, blender, air fryer...)",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 78.9,
+     "t1": 378.7,
+     "class": "kettle / mixer / appliance"
+    },
+    {
+     "t0": 105.0,
+     "t1": 108.2,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 110.1,
+     "t1": 111.7,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 111.8,
+     "t1": 112.3,
+     "class": "water"
+    },
+    {
+     "t0": 112.2,
+     "t1": 112.6,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 113.8,
+     "t1": 114.1,
+     "class": "water"
+    },
+    {
+     "t0": 114.5,
+     "t1": 115.9,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 117.5,
+     "t1": 117.9,
+     "class": "water"
+    },
+    {
+     "t0": 119.8,
+     "t1": 120.8,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 121.8,
+     "t1": 122.1,
+     "class": "water"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g5": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "kettle / mixer / appliance": "appliance running (stops when done)"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "kettle / mixer / appliance": "appliance fixture (kettle, blender, air fryer...)",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 78.9,
+     "t1": 378.7,
+     "class": "kettle / mixer / appliance"
+    },
+    {
+     "t0": 124.2,
+     "t1": 124.5,
+     "class": "water"
+    },
+    {
+     "t0": 127.4,
+     "t1": 128.2,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 130.3,
+     "t1": 130.9,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 132.0,
+     "t1": 132.5,
+     "class": "water"
+    },
+    {
+     "t0": 134.5,
+     "t1": 136.3,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 138.1,
+     "t1": 138.6,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 141.5,
+     "t1": 141.8,
+     "class": "water"
+    },
+    {
+     "t0": 143.1,
+     "t1": 144.7,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 144.8,
+     "t1": 145.2,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 145.9,
+     "t1": 146.2,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 147.7,
+     "t1": 148.3,
+     "class": "ceramic-only collision"
+    },
+    {
+     "t0": 149.5,
+     "t1": 150.5,
+     "class": "ceramic / marble collision"
+    },
+    {
+     "t0": 150.6,
+     "t1": 151.2,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 153.1,
+     "t1": 154.1,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 154.5,
+     "t1": 155.0,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 156.2,
+     "t1": 156.5,
+     "class": "metal / plastic collision"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g6": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "kettle / mixer / appliance": "appliance running (stops when done)"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "kettle / mixer / appliance": "appliance fixture (kettle, blender, air fryer...)",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 78.9,
+     "t1": 378.7,
+     "class": "kettle / mixer / appliance"
+    },
+    {
+     "t0": 159.5,
+     "t1": 161.3,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 162.5,
+     "t1": 163.1,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 163.3,
+     "t1": 163.6,
+     "class": "water"
+    },
+    {
+     "t0": 164.7,
+     "t1": 164.9,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 167.8,
+     "t1": 169.7,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 170.3,
+     "t1": 172.4,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 177.2,
+     "t1": 179.5,
+     "class": "cut / chop"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g7": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "cut"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "kettle / mixer / appliance": "appliance running (stops when done)"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "kettle / mixer / appliance": "appliance fixture (kettle, blender, air fryer...)",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 78.9,
+     "t1": 378.7,
+     "class": "kettle / mixer / appliance"
+    },
+    {
+     "t0": 183.7,
+     "t1": 184.7,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 185.6,
+     "t1": 185.8,
+     "class": "water"
+    },
+    {
+     "t0": 186.0,
+     "t1": 187.4,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 187.7,
+     "t1": 187.9,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 189.1,
+     "t1": 190.1,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 190.6,
+     "t1": 191.0,
+     "class": "water"
+    },
+    {
+     "t0": 192.4,
+     "t1": 193.6,
+     "class": "cut / chop"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g8": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "cut"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "kettle / mixer / appliance": "appliance running (stops when done)"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "kettle / mixer / appliance": "appliance fixture (kettle, blender, air fryer...)",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 78.9,
+     "t1": 378.7,
+     "class": "kettle / mixer / appliance"
+    },
+    {
+     "t0": 196.1,
+     "t1": 196.5,
+     "class": "water"
+    },
+    {
+     "t0": 199.2,
+     "t1": 200.2,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 202.5,
+     "t1": 204.2,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 206.7,
+     "t1": 207.6,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 207.9,
+     "t1": 208.2,
+     "class": "water"
+    },
+    {
+     "t0": 209.2,
+     "t1": 209.5,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 210.3,
+     "t1": 210.5,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 214.0,
+     "t1": 214.2,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 214.5,
+     "t1": 214.8,
+     "class": "water"
+    },
+    {
+     "t0": 221.3,
+     "t1": 221.7,
+     "class": "water"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g9": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "kettle / mixer / appliance": "appliance running (stops when done)"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "kettle / mixer / appliance": "appliance fixture (kettle, blender, air fryer...)",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 78.9,
+     "t1": 378.7,
+     "class": "kettle / mixer / appliance"
+    },
+    {
+     "t0": 224.7,
+     "t1": 225.0,
+     "class": "metal / ceramic collision"
+    },
+    {
+     "t0": 228.8,
+     "t1": 229.2,
+     "class": "water"
+    },
+    {
+     "t0": 230.4,
+     "t1": 230.7,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 231.4,
+     "t1": 231.9,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 235.8,
+     "t1": 236.2,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 236.3,
+     "t1": 236.6,
+     "class": "water"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g10": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "cut"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "kettle / mixer / appliance": "appliance running (stops when done)"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "kettle / mixer / appliance": "appliance fixture (kettle, blender, air fryer...)",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 78.9,
+     "t1": 378.7,
+     "class": "kettle / mixer / appliance"
+    },
+    {
+     "t0": 240.1,
+     "t1": 240.9,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 243.5,
+     "t1": 244.2,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 244.2,
+     "t1": 244.7,
+     "class": "water"
+    },
+    {
+     "t0": 244.4,
+     "t1": 244.7,
+     "class": "metal-only collision"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g11": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "kettle / mixer / appliance": "appliance running (stops when done)"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "kettle / mixer / appliance": "appliance fixture (kettle, blender, air fryer...)",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 78.9,
+     "t1": 378.7,
+     "class": "kettle / mixer / appliance"
+    },
+    {
+     "t0": 252.5,
+     "t1": 252.8,
+     "class": "water"
+    },
+    {
+     "t0": 255.7,
+     "t1": 256.9,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 259.8,
+     "t1": 262.8,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 261.5,
+     "t1": 261.8,
+     "class": "water"
+    },
+    {
+     "t0": 264.2,
+     "t1": 264.5,
+     "class": "water"
+    },
+    {
+     "t0": 265.1,
+     "t1": 265.7,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 267.3,
+     "t1": 268.6,
+     "class": "cut / chop"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g12": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "cut"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "kettle / mixer / appliance": "appliance running (stops when done)"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "kettle / mixer / appliance": "appliance fixture (kettle, blender, air fryer...)",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 78.9,
+     "t1": 378.7,
+     "class": "kettle / mixer / appliance"
+    },
+    {
+     "t0": 271.1,
+     "t1": 272.1,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 272.4,
+     "t1": 272.7,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 274.1,
+     "t1": 274.7,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 275.9,
+     "t1": 276.6,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 279.2,
+     "t1": 279.4,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 280.2,
+     "t1": 280.4,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 281.5,
+     "t1": 281.8,
+     "class": "water"
+    },
+    {
+     "t0": 286.2,
+     "t1": 289.4,
+     "class": "cut / chop"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g13": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "cut"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "kettle / mixer / appliance": "appliance running (stops when done)"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "kettle / mixer / appliance": "appliance fixture (kettle, blender, air fryer...)",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 78.9,
+     "t1": 378.7,
+     "class": "kettle / mixer / appliance"
+    },
+    {
+     "t0": 292.6,
+     "t1": 293.0,
+     "class": "water"
+    },
+    {
+     "t0": 294.2,
+     "t1": 294.9,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 296.8,
+     "t1": 297.2,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 297.8,
+     "t1": 298.0,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 299.1,
+     "t1": 299.6,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 303.0,
+     "t1": 304.7,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 304.9,
+     "t1": 305.1,
+     "class": "water"
+    },
+    {
+     "t0": 308.7,
+     "t1": 309.1,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 312.8,
+     "t1": 313.3,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 318.9,
+     "t1": 319.2,
+     "class": "water"
+    },
+    {
+     "t0": 319.8,
+     "t1": 320.8,
+     "class": "cut / chop"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g14": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "kettle / mixer / appliance": "appliance running (stops when done)"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "kettle / mixer / appliance": "appliance fixture (kettle, blender, air fryer...)",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 78.9,
+     "t1": 378.7,
+     "class": "kettle / mixer / appliance"
+    },
+    {
+     "t0": 324.2,
+     "t1": 325.7,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 329.0,
+     "t1": 329.3,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 334.8,
+     "t1": 335.0,
+     "class": "water"
+    },
+    {
+     "t0": 337.7,
+     "t1": 338.1,
+     "class": "cut / chop"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g15": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "kettle / mixer / appliance": "appliance running (stops when done)"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "kettle / mixer / appliance": "appliance fixture (kettle, blender, air fryer...)",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 78.9,
+     "t1": 378.7,
+     "class": "kettle / mixer / appliance"
+    },
+    {
+     "t0": 345.0,
+     "t1": 345.3,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 346.0,
+     "t1": 346.3,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 346.8,
+     "t1": 348.5,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 350.1,
+     "t1": 351.0,
+     "class": "metal / marble collision"
+    },
+    {
+     "t0": 351.9,
+     "t1": 352.3,
+     "class": "water"
+    },
+    {
+     "t0": 355.3,
+     "t1": 355.6,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 356.0,
+     "t1": 358.0,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 359.4,
+     "t1": 360.0,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 362.0,
+     "t1": 362.3,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 362.7,
+     "t1": 364.3,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 365.9,
+     "t1": 366.9,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 368.3,
+     "t1": 369.5,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 370.2,
+     "t1": 371.2,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 371.6,
+     "t1": 373.0,
+     "class": "cut / chop"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g16": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "beep": "appliance / timer finished or started",
+    "kettle / mixer / appliance": "appliance running (stops when done)"
+   },
+   "location_cues": {
+    "beep": "appliance fixture (oven, microwave, scale)",
+    "cut / chop": "chopping board on counter",
+    "kettle / mixer / appliance": "appliance fixture (kettle, blender, air fryer...)"
+   },
+   "sound_events": [
+    {
+     "t0": 78.9,
+     "t1": 378.7,
+     "class": "kettle / mixer / appliance"
+    },
+    {
+     "t0": 374.6,
+     "t1": 375.0,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 375.7,
+     "t1": 377.0,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 377.4,
+     "t1": 378.0,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 378.5,
+     "t1": 379.2,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 378.7,
+     "t1": 379.1,
+     "class": "beep"
+    },
+    {
+     "t0": 379.5,
+     "t1": 380.0,
+     "class": "beep"
+    },
+    {
+     "t0": 380.4,
+     "t1": 381.1,
+     "class": "beep"
+    },
+    {
+     "t0": 380.8,
+     "t1": 381.1,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 381.6,
+     "t1": 381.9,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 381.7,
+     "t1": 382.1,
+     "class": "beep"
+    },
+    {
+     "t0": 382.5,
+     "t1": 383.2,
+     "class": "beep"
+    },
+    {
+     "t0": 382.6,
+     "t1": 383.0,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 383.4,
+     "t1": 384.4,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 386.9,
+     "t1": 387.3,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 388.0,
+     "t1": 388.3,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 389.0,
+     "t1": 390.6,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 391.9,
+     "t1": 392.3,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 392.6,
+     "t1": 396.3,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 397.4,
+     "t1": 400.2,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 402.1,
+     "t1": 402.4,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 402.8,
+     "t1": 403.7,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 404.1,
+     "t1": 405.3,
+     "class": "cut / chop"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g17": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.57,
+   "completion_cues": {},
+   "location_cues": {
+    "cut / chop": "chopping board on counter"
+   },
+   "sound_events": [
+    {
+     "t0": 407.9,
+     "t1": 408.9,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 409.2,
+     "t1": 409.6,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 410.3,
+     "t1": 410.6,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 411.1,
+     "t1": 412.1,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 412.7,
+     "t1": 413.2,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 415.2,
+     "t1": 416.2,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 416.8,
+     "t1": 417.1,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 417.9,
+     "t1": 418.2,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 418.9,
+     "t1": 419.4,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 419.9,
+     "t1": 420.9,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 422.9,
+     "t1": 423.2,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 423.8,
+     "t1": 424.1,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 424.6,
+     "t1": 426.2,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 427.6,
+     "t1": 427.8,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 428.5,
+     "t1": 428.7,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 429.3,
+     "t1": 430.1,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 430.4,
+     "t1": 430.7,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 430.8,
+     "t1": 431.2,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 431.7,
+     "t1": 432.5,
+     "class": "metal / ceramic collision"
+    },
+    {
+     "t0": 432.7,
+     "t1": 433.0,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 433.9,
+     "t1": 436.3,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 437.6,
+     "t1": 442.0,
+     "class": "cut / chop"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g18": {
+   "label": "audio_critical",
+   "cue_words": [
+    "frying"
+   ],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "kettle / mixer / appliance": "appliance running (stops when done)",
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "kettle / mixer / appliance": "appliance fixture (kettle, blender, air fryer...)",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 513.7,
+     "t1": 573.3,
+     "class": "kettle / mixer / appliance"
+    },
+    {
+     "t0": 515.8,
+     "t1": 516.5,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 517.9,
+     "t1": 518.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 519.4,
+     "t1": 519.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 521.6,
+     "t1": 522.1,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 536.0,
+     "t1": 536.6,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 537.4,
+     "t1": 537.7,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 539.7,
+     "t1": 540.5,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 677.5,
+     "t1": 677.9,
+     "class": "metal-only collision"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g19": {
+   "label": "audio_critical",
+   "cue_words": [
+    "stir"
+   ],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1304.9,
+     "t1": 1306.1,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1306.1,
+     "t1": 1306.4,
+     "class": "metal / marble collision"
+    },
+    {
+     "t0": 1311.1,
+     "t1": 1313.2,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1315.5,
+     "t1": 1316.4,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1317.7,
+     "t1": 1331.5,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1331.8,
+     "t1": 1332.2,
+     "class": "metal / wood collision"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g20": {
+   "label": "audio_critical",
+   "cue_words": [
+    "stirring"
+   ],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "open / close": "cupboard, drawer or fridge",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1354.7,
+     "t1": 1355.7,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1356.0,
+     "t1": 1374.1,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1374.3,
+     "t1": 1374.8,
+     "class": "metal / marble collision"
+    },
+    {
+     "t0": 1377.3,
+     "t1": 1377.8,
+     "class": "metal / marble collision"
+    },
+    {
+     "t0": 1378.7,
+     "t1": 1380.8,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1380.9,
+     "t1": 1382.2,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1382.7,
+     "t1": 1383.0,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 1386.4,
+     "t1": 1386.8,
+     "class": "open / close"
+    },
+    {
+     "t0": 1387.4,
+     "t1": 1388.5,
+     "class": "rustle"
+    },
+    {
+     "t0": 1388.2,
+     "t1": 1389.2,
+     "class": "open / close"
+    },
+    {
+     "t0": 1390.0,
+     "t1": 1390.3,
+     "class": "open / close"
+    },
+    {
+     "t0": 1392.8,
+     "t1": 1393.1,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1394.7,
+     "t1": 1397.1,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1397.4,
+     "t1": 1397.9,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1398.3,
+     "t1": 1399.5,
+     "class": "metal / wood collision"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g21": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "click": "switch, lid or latch state changed"
+   },
+   "location_cues": {
+    "footstep": "person moving between zones",
+    "open / close": "cupboard, drawer or fridge"
+   },
+   "sound_events": [
+    {
+     "t0": 21.6,
+     "t1": 23.4,
+     "class": "open / close"
+    },
+    {
+     "t0": 21.6,
+     "t1": 26.5,
+     "class": "rustle"
+    },
+    {
+     "t0": 24.9,
+     "t1": 25.2,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 28.7,
+     "t1": 34.0,
+     "class": "rustle"
+    },
+    {
+     "t0": 28.8,
+     "t1": 29.8,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 467.7,
+     "t1": 509.9,
+     "class": "click"
+    },
+    {
+     "t0": 476.8,
+     "t1": 486.2,
+     "class": "rustle"
+    },
+    {
+     "t0": 487.4,
+     "t1": 487.9,
+     "class": "rustle"
+    },
+    {
+     "t0": 489.1,
+     "t1": 489.6,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 490.7,
+     "t1": 491.7,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 492.6,
+     "t1": 493.0,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 494.6,
+     "t1": 495.2,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 495.8,
+     "t1": 496.1,
+     "class": "metal / ceramic collision"
+    },
+    {
+     "t0": 497.0,
+     "t1": 497.3,
+     "class": "metal / ceramic collision"
+    },
+    {
+     "t0": 498.0,
+     "t1": 499.1,
+     "class": "footstep"
+    },
+    {
+     "t0": 499.4,
+     "t1": 505.0,
+     "class": "rustle"
+    },
+    {
+     "t0": 505.4,
+     "t1": 505.8,
+     "class": "metal / plastic collision"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g22": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "cut"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "kettle / mixer / appliance": "appliance running (stops when done)",
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "kettle / mixer / appliance": "appliance fixture (kettle, blender, air fryer...)",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 513.7,
+     "t1": 573.3,
+     "class": "kettle / mixer / appliance"
+    },
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 547.5,
+     "t1": 547.8,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 548.4,
+     "t1": 549.2,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 550.4,
+     "t1": 551.4,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 552.7,
+     "t1": 553.2,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 553.8,
+     "t1": 554.2,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 554.7,
+     "t1": 555.0,
+     "class": "cut / chop"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g23": {
+   "label": "audio_critical",
+   "cue_words": [],
+   "strong_sound_classes": [
+    "beep"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "beep": "appliance / timer finished or started",
+    "kettle / mixer / appliance": "appliance running (stops when done)",
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "beep": "appliance fixture (oven, microwave, scale)",
+    "cut / chop": "chopping board on counter",
+    "kettle / mixer / appliance": "appliance fixture (kettle, blender, air fryer...)",
+    "sizzling / boiling": "hob",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 513.7,
+     "t1": 573.3,
+     "class": "kettle / mixer / appliance"
+    },
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 556.5,
+     "t1": 564.0,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 564.1,
+     "t1": 564.4,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 566.9,
+     "t1": 567.9,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 568.4,
+     "t1": 568.8,
+     "class": "water"
+    },
+    {
+     "t0": 570.4,
+     "t1": 575.0,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 573.3,
+     "t1": 577.9,
+     "class": "beep"
+    },
+    {
+     "t0": 575.8,
+     "t1": 576.0,
+     "class": "water"
+    },
+    {
+     "t0": 576.2,
+     "t1": 576.5,
+     "class": "cut / chop"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g24": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "slice"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "beep": "appliance / timer finished or started",
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "beep": "appliance fixture (oven, microwave, scale)",
+    "cut / chop": "chopping board on counter",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 573.3,
+     "t1": 577.9,
+     "class": "beep"
+    },
+    {
+     "t0": 578.3,
+     "t1": 580.3,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 580.8,
+     "t1": 581.4,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 582.9,
+     "t1": 583.6,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 585.1,
+     "t1": 587.5,
+     "class": "cut / chop"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g25": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "cut"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "sizzling / boiling": "hob",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 590.9,
+     "t1": 591.2,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 592.0,
+     "t1": 592.2,
+     "class": "water"
+    },
+    {
+     "t0": 592.5,
+     "t1": 593.5,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 593.9,
+     "t1": 595.9,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 594.5,
+     "t1": 594.9,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 596.2,
+     "t1": 596.4,
+     "class": "metal / marble collision"
+    },
+    {
+     "t0": 597.8,
+     "t1": 600.0,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 600.8,
+     "t1": 601.2,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 601.7,
+     "t1": 602.2,
+     "class": "metal / plastic collision"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g26": {
+   "label": "audio_critical",
+   "cue_words": [],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "sizzling / boiling": "hob",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 605.2,
+     "t1": 608.5,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 608.5,
+     "t1": 608.8,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 610.2,
+     "t1": 610.5,
+     "class": "water"
+    },
+    {
+     "t0": 611.1,
+     "t1": 612.0,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 613.2,
+     "t1": 613.6,
+     "class": "metal / wood collision"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g27": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "slice"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "sizzling / boiling": "hob",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 614.1,
+     "t1": 615.9,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 616.2,
+     "t1": 618.4,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 618.6,
+     "t1": 619.4,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 620.2,
+     "t1": 620.5,
+     "class": "water"
+    },
+    {
+     "t0": 621.4,
+     "t1": 623.1,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 623.6,
+     "t1": 624.1,
+     "class": "slide object"
+    },
+    {
+     "t0": 624.6,
+     "t1": 625.5,
+     "class": "slide object"
+    },
+    {
+     "t0": 625.6,
+     "t1": 626.0,
+     "class": "metal / plastic collision"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g28": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "cut"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "sizzling / boiling": "hob",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 629.4,
+     "t1": 629.7,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 629.9,
+     "t1": 630.5,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 631.2,
+     "t1": 631.5,
+     "class": "water"
+    },
+    {
+     "t0": 631.5,
+     "t1": 632.5,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 633.1,
+     "t1": 634.7,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 634.2,
+     "t1": 634.7,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 637.3,
+     "t1": 637.8,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 638.2,
+     "t1": 638.7,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 640.6,
+     "t1": 640.9,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 643.3,
+     "t1": 643.6,
+     "class": "water"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g29": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "sizzling / boiling": "hob",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 643.3,
+     "t1": 643.6,
+     "class": "water"
+    },
+    {
+     "t0": 643.8,
+     "t1": 644.1,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 649.1,
+     "t1": 651.3,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 652.2,
+     "t1": 652.4,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 655.5,
+     "t1": 657.0,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 657.5,
+     "t1": 657.9,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 661.0,
+     "t1": 663.8,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 664.4,
+     "t1": 664.7,
+     "class": "metal / marble collision"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g30": {
+   "label": "audio_critical",
+   "cue_words": [
+    "slice"
+   ],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "sizzling / boiling": "hob",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 665.2,
+     "t1": 667.5,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 668.0,
+     "t1": 668.3,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 668.6,
+     "t1": 669.0,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 670.5,
+     "t1": 672.3,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 672.6,
+     "t1": 673.0,
+     "class": "water"
+    },
+    {
+     "t0": 672.9,
+     "t1": 673.7,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 674.1,
+     "t1": 674.4,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 675.2,
+     "t1": 675.7,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 676.3,
+     "t1": 676.9,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 677.5,
+     "t1": 677.9,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 680.9,
+     "t1": 681.1,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 682.4,
+     "t1": 682.9,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 684.5,
+     "t1": 690.8,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 691.0,
+     "t1": 691.3,
+     "class": "metal / wood collision"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g31": {
+   "label": "audio_critical",
+   "cue_words": [],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 695.7,
+     "t1": 696.0,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 697.4,
+     "t1": 698.0,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 698.3,
+     "t1": 698.7,
+     "class": "metal / plastic collision"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g32": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 712.4,
+     "t1": 712.7,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 714.2,
+     "t1": 714.4,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 715.1,
+     "t1": 715.4,
+     "class": "metal / plastic collision"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g33": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 720.6,
+     "t1": 720.9,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 722.4,
+     "t1": 722.8,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 723.5,
+     "t1": 723.8,
+     "class": "metal / plastic collision"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g34": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 733.3,
+     "t1": 733.6,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 734.8,
+     "t1": 735.1,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 735.6,
+     "t1": 736.0,
+     "class": "metal / plastic collision"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g35": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "slice"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 748.7,
+     "t1": 750.3,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 751.7,
+     "t1": 754.1,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 754.6,
+     "t1": 754.8,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 755.6,
+     "t1": 755.9,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 758.6,
+     "t1": 760.5,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 763.0,
+     "t1": 764.5,
+     "class": "cut / chop"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g36": {
+   "label": "audio_critical",
+   "cue_words": [
+    "stir"
+   ],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 771.1,
+     "t1": 775.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 777.1,
+     "t1": 778.1,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 779.6,
+     "t1": 782.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 788.8,
+     "t1": 790.5,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 791.5,
+     "t1": 791.7,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 794.2,
+     "t1": 794.5,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 795.5,
+     "t1": 796.5,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 797.0,
+     "t1": 797.3,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 799.6,
+     "t1": 799.8,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 800.3,
+     "t1": 800.6,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 801.2,
+     "t1": 801.5,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 801.9,
+     "t1": 802.6,
+     "class": "ceramic-only collision"
+    },
+    {
+     "t0": 802.4,
+     "t1": 813.5,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 814.5,
+     "t1": 815.0,
+     "class": "metal / ceramic collision"
+    },
+    {
+     "t0": 815.9,
+     "t1": 816.2,
+     "class": "glass / marble collision"
+    },
+    {
+     "t0": 817.9,
+     "t1": 820.1,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 822.8,
+     "t1": 823.5,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 823.7,
+     "t1": 824.2,
+     "class": "metal / wood collision"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g37": {
+   "label": "audio_critical",
+   "cue_words": [],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 827.1,
+     "t1": 827.9,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 829.3,
+     "t1": 831.2,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 831.4,
+     "t1": 831.8,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 832.2,
+     "t1": 832.8,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 833.0,
+     "t1": 833.2,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 833.4,
+     "t1": 834.1,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 834.3,
+     "t1": 834.6,
+     "class": "metal / wood collision"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g38": {
+   "label": "audio_critical",
+   "cue_words": [
+    "stir"
+   ],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1048.5,
+     "t1": 1051.0,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1054.1,
+     "t1": 1055.5,
+     "class": "metal / wood collision"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g39": {
+   "label": "audio_critical",
+   "cue_words": [],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "open / close": "cupboard, drawer or fridge",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1078.3,
+     "t1": 1080.1,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 1080.7,
+     "t1": 1081.0,
+     "class": "open / close"
+    },
+    {
+     "t0": 1081.3,
+     "t1": 1083.0,
+     "class": "metal / plastic collision"
+    }
+   ],
+   "official_step_label": "audio_helpful"
+  },
+  "E_g40": {
+   "label": "audio_critical",
+   "cue_words": [
+    "turn on"
+   ],
+   "strong_sound_classes": [
+    "click"
+   ],
+   "sound_event_coverage": 0.68,
+   "completion_cues": {
+    "click": "switch, lid or latch state changed"
+   },
+   "location_cues": {},
+   "sound_events": [
+    {
+     "t0": 465.6,
+     "t1": 466.0,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 466.7,
+     "t1": 467.1,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 467.7,
+     "t1": 509.9,
+     "class": "click"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g41": {
+   "label": "audio_critical",
+   "cue_words": [
+    "pour"
+   ],
+   "strong_sound_classes": [
+    "click"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "click": "switch, lid or latch state changed"
+   },
+   "location_cues": {
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 467.7,
+     "t1": 509.9,
+     "class": "click"
+    },
+    {
+     "t0": 470.1,
+     "t1": 470.6,
+     "class": "water"
+    },
+    {
+     "t0": 471.6,
+     "t1": 472.2,
+     "class": "water"
+    },
+    {
+     "t0": 495.8,
+     "t1": 496.1,
+     "class": "metal / ceramic collision"
+    },
+    {
+     "t0": 497.0,
+     "t1": 497.3,
+     "class": "metal / ceramic collision"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g42": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "wash"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "sizzling / boiling": "hob",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 958.3,
+     "t1": 959.1,
+     "class": "rustle"
+    },
+    {
+     "t0": 959.4,
+     "t1": 959.7,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 963.1,
+     "t1": 963.4,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 964.8,
+     "t1": 991.2,
+     "class": "water"
+    },
+    {
+     "t0": 982.2,
+     "t1": 982.7,
+     "class": "water"
+    },
+    {
+     "t0": 983.1,
+     "t1": 983.4,
+     "class": "water"
+    },
+    {
+     "t0": 986.7,
+     "t1": 987.0,
+     "class": "metal / wood collision"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g43": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "slice"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1011.8,
+     "t1": 1012.1,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 1013.5,
+     "t1": 1014.2,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 1014.8,
+     "t1": 1015.1,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 1016.9,
+     "t1": 1017.2,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 1018.8,
+     "t1": 1019.1,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 1020.9,
+     "t1": 1021.3,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 1022.7,
+     "t1": 1023.4,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 1023.9,
+     "t1": 1024.3,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 1026.9,
+     "t1": 1027.3,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 1027.7,
+     "t1": 1029.0,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 1029.4,
+     "t1": 1029.9,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 1031.6,
+     "t1": 1032.0,
+     "class": "cut / chop"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g44": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "slice"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1032.4,
+     "t1": 1032.9,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 1033.9,
+     "t1": 1034.2,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 1035.3,
+     "t1": 1035.9,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 1036.5,
+     "t1": 1037.5,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 1038.6,
+     "t1": 1039.2,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 1040.6,
+     "t1": 1041.0,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 1041.6,
+     "t1": 1042.1,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 1042.6,
+     "t1": 1043.0,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 1043.7,
+     "t1": 1044.1,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 1139.2,
+     "t1": 1139.4,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 1140.4,
+     "t1": 1140.6,
+     "class": "metal / plastic collision"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g45": {
+   "label": "audio_critical",
+   "cue_words": [],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1141.4,
+     "t1": 1141.9,
+     "class": "metal / plastic collision"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g46": {
+   "label": "audio_critical",
+   "cue_words": [
+    "stir"
+   ],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1157.1,
+     "t1": 1158.6,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1162.2,
+     "t1": 1162.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1163.7,
+     "t1": 1164.3,
+     "class": "metal / ceramic collision"
+    },
+    {
+     "t0": 1168.0,
+     "t1": 1168.4,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1168.1,
+     "t1": 1175.4,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1176.3,
+     "t1": 1176.6,
+     "class": "wood-only collision"
+    },
+    {
+     "t0": 1177.2,
+     "t1": 1177.5,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1181.8,
+     "t1": 1183.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1185.1,
+     "t1": 1186.5,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1186.5,
+     "t1": 1186.9,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 1209.2,
+     "t1": 1211.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1212.5,
+     "t1": 1215.5,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1217.0,
+     "t1": 1223.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1224.9,
+     "t1": 1225.3,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1227.1,
+     "t1": 1228.7,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1229.1,
+     "t1": 1236.8,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1300.5,
+     "t1": 1302.0,
+     "class": "stir / mix / whisk"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g47": {
+   "label": "audio_critical",
+   "cue_words": [
+    "open"
+   ],
+   "strong_sound_classes": [
+    "click"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "click": "switch, lid or latch state changed",
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "open / close": "cupboard, drawer or fridge",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1270.2,
+     "t1": 1284.6,
+     "class": "rustle"
+    },
+    {
+     "t0": 1277.2,
+     "t1": 1278.2,
+     "class": "rustle"
+    },
+    {
+     "t0": 1279.0,
+     "t1": 1279.6,
+     "class": "rustle"
+    },
+    {
+     "t0": 1280.9,
+     "t1": 1281.4,
+     "class": "open / close"
+    },
+    {
+     "t0": 1282.7,
+     "t1": 1283.0,
+     "class": "click"
+    },
+    {
+     "t0": 1287.4,
+     "t1": 1288.9,
+     "class": "open / close"
+    },
+    {
+     "t0": 1289.5,
+     "t1": 1289.9,
+     "class": "open / close"
+    },
+    {
+     "t0": 1290.4,
+     "t1": 1292.3,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 1292.7,
+     "t1": 1296.8,
+     "class": "rustle"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g48": {
+   "label": "audio_critical",
+   "cue_words": [],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "open / close": "cupboard, drawer or fridge",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1415.2,
+     "t1": 1416.1,
+     "class": "rustle"
+    },
+    {
+     "t0": 1422.3,
+     "t1": 1422.7,
+     "class": "rustle"
+    },
+    {
+     "t0": 1423.2,
+     "t1": 1423.6,
+     "class": "open / close"
+    },
+    {
+     "t0": 1424.3,
+     "t1": 1432.6,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1432.6,
+     "t1": 1434.4,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1435.8,
+     "t1": 1437.5,
+     "class": "plastic / glass collision"
+    },
+    {
+     "t0": 1438.3,
+     "t1": 1439.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1442.4,
+     "t1": 1443.5,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 1445.5,
+     "t1": 1446.4,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1447.0,
+     "t1": 1447.7,
+     "class": "open / close"
+    },
+    {
+     "t0": 1448.5,
+     "t1": 1461.4,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1455.5,
+     "t1": 1456.5,
+     "class": "metal / wood collision"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g49": {
+   "label": "audio_critical",
+   "cue_words": [],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1470.8,
+     "t1": 1477.3,
+     "class": "rustle"
+    },
+    {
+     "t0": 1477.8,
+     "t1": 1481.9,
+     "class": "rustle"
+    },
+    {
+     "t0": 1484.1,
+     "t1": 1491.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1493.0,
+     "t1": 1493.8,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1494.7,
+     "t1": 1498.5,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1500.7,
+     "t1": 1509.7,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1509.7,
+     "t1": 1510.5,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1511.3,
+     "t1": 1512.2,
+     "class": "metal / wood collision"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g50": {
+   "label": "audio_critical",
+   "cue_words": [
+    "stir"
+   ],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 1544.7,
+     "t1": 1681.5,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1551.7,
+     "t1": 1559.0,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1558.8,
+     "t1": 1559.1,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1561.4,
+     "t1": 1561.7,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1629.7,
+     "t1": 1644.1,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1644.8,
+     "t1": 1645.1,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1645.7,
+     "t1": 1646.5,
+     "class": "metal / wood collision"
+    }
+   ],
+   "official_step_label": "audio_critical"
+  },
+  "E_g51": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.39,
+   "completion_cues": {},
+   "location_cues": {
+    "open / close": "cupboard, drawer or fridge"
+   },
+   "sound_events": [
+    {
+     "t0": 15.2,
+     "t1": 15.5,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 16.3,
+     "t1": 17.2,
+     "class": "open / close"
+    },
+    {
+     "t0": 16.7,
+     "t1": 19.9,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 19.3,
+     "t1": 20.0,
+     "class": "open / close"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g52": {
+   "label": "visual_sufficient",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.17,
+   "completion_cues": {},
+   "location_cues": {
+    "open / close": "cupboard, drawer or fridge"
+   },
+   "sound_events": [
+    {
+     "t0": 20.4,
+     "t1": 20.7,
+     "class": "open / close"
+    },
+    {
+     "t0": 21.6,
+     "t1": 23.4,
+     "class": "open / close"
+    },
+    {
+     "t0": 21.6,
+     "t1": 26.5,
+     "class": "rustle"
+    },
+    {
+     "t0": 24.9,
+     "t1": 25.2,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 28.7,
+     "t1": 34.0,
+     "class": "rustle"
+    },
+    {
+     "t0": 28.8,
+     "t1": 29.8,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 31.6,
+     "t1": 32.0,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 34.5,
+     "t1": 36.1,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 35.7,
+     "t1": 46.7,
+     "class": "rustle"
+    },
+    {
+     "t0": 45.2,
+     "t1": 45.5,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 45.8,
+     "t1": 48.6,
+     "class": "open / close"
+    },
+    {
+     "t0": 46.3,
+     "t1": 47.8,
+     "class": "metal / plastic collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g53": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "wash"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {},
+   "location_cues": {
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 49.1,
+     "t1": 49.4,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 50.6,
+     "t1": 59.5,
+     "class": "water"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g54": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.09,
+   "completion_cues": {},
+   "location_cues": {
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 50.6,
+     "t1": 59.5,
+     "class": "water"
+    },
+    {
+     "t0": 60.0,
+     "t1": 60.2,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 60.5,
+     "t1": 60.7,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 61.0,
+     "t1": 61.6,
+     "class": "rustle"
+    },
+    {
+     "t0": 62.1,
+     "t1": 62.3,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 62.8,
+     "t1": 63.1,
+     "class": "rustle"
+    },
+    {
+     "t0": 63.9,
+     "t1": 64.2,
+     "class": "water"
+    },
+    {
+     "t0": 64.6,
+     "t1": 65.8,
+     "class": "rustle"
+    },
+    {
+     "t0": 66.7,
+     "t1": 74.1,
+     "class": "rustle"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g55": {
+   "label": "audio_critical",
+   "cue_words": [
+    "microwave"
+   ],
+   "strong_sound_classes": [
+    "beep",
+    "click"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "beep": "appliance / timer finished or started",
+    "click": "switch, lid or latch state changed",
+    "kettle / mixer / appliance": "appliance running (stops when done)"
+   },
+   "location_cues": {
+    "beep": "appliance fixture (oven, microwave, scale)",
+    "kettle / mixer / appliance": "appliance fixture (kettle, blender, air fryer...)",
+    "open / close": "cupboard, drawer or fridge"
+   },
+   "sound_events": [
+    {
+     "t0": 66.7,
+     "t1": 74.1,
+     "class": "rustle"
+    },
+    {
+     "t0": 74.3,
+     "t1": 74.7,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 74.9,
+     "t1": 75.5,
+     "class": "rustle"
+    },
+    {
+     "t0": 75.2,
+     "t1": 75.7,
+     "class": "metal / ceramic collision"
+    },
+    {
+     "t0": 76.2,
+     "t1": 77.1,
+     "class": "open / close"
+    },
+    {
+     "t0": 77.8,
+     "t1": 80.2,
+     "class": "beep"
+    },
+    {
+     "t0": 78.9,
+     "t1": 378.7,
+     "class": "kettle / mixer / appliance"
+    },
+    {
+     "t0": 467.7,
+     "t1": 509.9,
+     "class": "click"
+    },
+    {
+     "t0": 506.9,
+     "t1": 507.7,
+     "class": "open / close"
+    },
+    {
+     "t0": 508.1,
+     "t1": 508.4,
+     "class": "paper-only collision"
+    },
+    {
+     "t0": 509.4,
+     "t1": 510.1,
+     "class": "metal / ceramic collision"
+    },
+    {
+     "t0": 510.4,
+     "t1": 511.4,
+     "class": "open / close"
+    },
+    {
+     "t0": 512.2,
+     "t1": 512.5,
+     "class": "click"
+    },
+    {
+     "t0": 513.4,
+     "t1": 513.7,
+     "class": "beep"
+    },
+    {
+     "t0": 513.7,
+     "t1": 573.3,
+     "class": "kettle / mixer / appliance"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g56": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "wash"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.83,
+   "completion_cues": {},
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "footstep": "person moving between zones",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 444.2,
+     "t1": 445.3,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 445.6,
+     "t1": 452.5,
+     "class": "water"
+    },
+    {
+     "t0": 451.1,
+     "t1": 455.4,
+     "class": "footstep"
+    },
+    {
+     "t0": 455.4,
+     "t1": 455.9,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 455.7,
+     "t1": 456.0,
+     "class": "water"
+    },
+    {
+     "t0": 456.3,
+     "t1": 458.9,
+     "class": "footstep"
+    },
+    {
+     "t0": 457.9,
+     "t1": 458.1,
+     "class": "water"
+    },
+    {
+     "t0": 459.3,
+     "t1": 462.2,
+     "class": "footstep"
+    },
+    {
+     "t0": 459.9,
+     "t1": 460.1,
+     "class": "water"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g57": {
+   "label": "audio_critical",
+   "cue_words": [],
+   "strong_sound_classes": [
+    "click",
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "click": "switch, lid or latch state changed",
+    "kettle / mixer / appliance": "appliance running (stops when done)",
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "kettle / mixer / appliance": "appliance fixture (kettle, blender, air fryer...)",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 467.7,
+     "t1": 509.9,
+     "class": "click"
+    },
+    {
+     "t0": 495.8,
+     "t1": 496.1,
+     "class": "metal / ceramic collision"
+    },
+    {
+     "t0": 513.7,
+     "t1": 573.3,
+     "class": "kettle / mixer / appliance"
+    },
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 536.0,
+     "t1": 536.6,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 537.4,
+     "t1": 537.7,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 539.7,
+     "t1": 540.5,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 540.8,
+     "t1": 541.1,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 676.3,
+     "t1": 676.9,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 677.5,
+     "t1": 677.9,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 680.9,
+     "t1": 681.1,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 682.4,
+     "t1": 682.9,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 684.5,
+     "t1": 690.8,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 691.0,
+     "t1": 691.3,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 795.5,
+     "t1": 796.5,
+     "class": "metal / wood collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g58": {
+   "label": "audio_critical",
+   "cue_words": [],
+   "strong_sound_classes": [
+    "click",
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "click": "switch, lid or latch state changed",
+    "kettle / mixer / appliance": "appliance running (stops when done)",
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "footstep": "person moving between zones",
+    "kettle / mixer / appliance": "appliance fixture (kettle, blender, air fryer...)",
+    "open / close": "cupboard, drawer or fridge",
+    "sizzling / boiling": "hob",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 4.5,
+     "t1": 5.9,
+     "class": "open / close"
+    },
+    {
+     "t0": 6.8,
+     "t1": 8.5,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 442.7,
+     "t1": 443.0,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 443.4,
+     "t1": 443.8,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 444.2,
+     "t1": 445.3,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 445.6,
+     "t1": 452.5,
+     "class": "water"
+    },
+    {
+     "t0": 451.1,
+     "t1": 455.4,
+     "class": "footstep"
+    },
+    {
+     "t0": 455.4,
+     "t1": 455.9,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 455.7,
+     "t1": 456.0,
+     "class": "water"
+    },
+    {
+     "t0": 456.3,
+     "t1": 458.9,
+     "class": "footstep"
+    },
+    {
+     "t0": 457.9,
+     "t1": 458.1,
+     "class": "water"
+    },
+    {
+     "t0": 459.3,
+     "t1": 462.2,
+     "class": "footstep"
+    },
+    {
+     "t0": 459.9,
+     "t1": 460.1,
+     "class": "water"
+    },
+    {
+     "t0": 460.7,
+     "t1": 461.0,
+     "class": "water"
+    },
+    {
+     "t0": 462.2,
+     "t1": 462.5,
+     "class": "water"
+    },
+    {
+     "t0": 463.1,
+     "t1": 463.9,
+     "class": "water"
+    },
+    {
+     "t0": 464.1,
+     "t1": 464.4,
+     "class": "footstep"
+    },
+    {
+     "t0": 464.8,
+     "t1": 465.2,
+     "class": "water"
+    },
+    {
+     "t0": 464.8,
+     "t1": 465.2,
+     "class": "ceramic-only collision"
+    },
+    {
+     "t0": 465.6,
+     "t1": 466.0,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 466.7,
+     "t1": 467.1,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 467.7,
+     "t1": 509.9,
+     "class": "click"
+    },
+    {
+     "t0": 470.1,
+     "t1": 470.6,
+     "class": "water"
+    },
+    {
+     "t0": 471.6,
+     "t1": 472.2,
+     "class": "water"
+    },
+    {
+     "t0": 473.0,
+     "t1": 473.3,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 473.7,
+     "t1": 474.6,
+     "class": "footstep"
+    },
+    {
+     "t0": 475.4,
+     "t1": 475.8,
+     "class": "metal / ceramic collision"
+    },
+    {
+     "t0": 476.8,
+     "t1": 486.2,
+     "class": "rustle"
+    },
+    {
+     "t0": 487.4,
+     "t1": 487.9,
+     "class": "rustle"
+    },
+    {
+     "t0": 489.1,
+     "t1": 489.6,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 490.7,
+     "t1": 491.7,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 513.7,
+     "t1": 573.3,
+     "class": "kettle / mixer / appliance"
+    },
+    {
+     "t0": 515.8,
+     "t1": 516.5,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 517.9,
+     "t1": 518.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 519.4,
+     "t1": 519.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 521.6,
+     "t1": 522.1,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 693.6,
+     "t1": 694.1,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 766.6,
+     "t1": 767.0,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 797.0,
+     "t1": 797.3,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 799.6,
+     "t1": 799.8,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 800.3,
+     "t1": 800.6,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 801.2,
+     "t1": 801.5,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 801.9,
+     "t1": 802.6,
+     "class": "ceramic-only collision"
+    },
+    {
+     "t0": 802.4,
+     "t1": 813.5,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 814.5,
+     "t1": 815.0,
+     "class": "metal / ceramic collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g59": {
+   "label": "audio_critical",
+   "cue_words": [],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 815.9,
+     "t1": 816.2,
+     "class": "glass / marble collision"
+    },
+    {
+     "t0": 817.9,
+     "t1": 820.1,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 822.8,
+     "t1": 823.5,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 823.7,
+     "t1": 824.2,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 824.6,
+     "t1": 824.9,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 825.2,
+     "t1": 825.5,
+     "class": "metal / plastic collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g60": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "open / close": "cupboard, drawer or fridge",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 835.8,
+     "t1": 836.4,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 836.8,
+     "t1": 837.2,
+     "class": "open / close"
+    },
+    {
+     "t0": 838.2,
+     "t1": 838.5,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 839.4,
+     "t1": 839.8,
+     "class": "open / close"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g61": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "open / close": "cupboard, drawer or fridge",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 845.9,
+     "t1": 847.7,
+     "class": "open / close"
+    },
+    {
+     "t0": 849.2,
+     "t1": 849.6,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 850.5,
+     "t1": 850.9,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 852.9,
+     "t1": 853.3,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 854.3,
+     "t1": 854.6,
+     "class": "metal / plastic collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g62": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 860.7,
+     "t1": 861.4,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 863.1,
+     "t1": 863.4,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 868.6,
+     "t1": 868.9,
+     "class": "stir / mix / whisk"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g63": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "dice"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 873.8,
+     "t1": 874.2,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 877.1,
+     "t1": 877.5,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 879.4,
+     "t1": 879.7,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 880.3,
+     "t1": 880.7,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 882.4,
+     "t1": 883.3,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 883.8,
+     "t1": 884.2,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 886.0,
+     "t1": 886.3,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 886.9,
+     "t1": 887.2,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 888.9,
+     "t1": 890.2,
+     "class": "stir / mix / whisk"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g64": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "dice"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 893.5,
+     "t1": 894.0,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 894.4,
+     "t1": 894.7,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 896.8,
+     "t1": 897.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 898.9,
+     "t1": 900.6,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 901.7,
+     "t1": 902.1,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 902.5,
+     "t1": 902.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 903.8,
+     "t1": 905.0,
+     "class": "stir / mix / whisk"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g65": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 909.3,
+     "t1": 909.7,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 910.6,
+     "t1": 911.7,
+     "class": "rustle"
+    },
+    {
+     "t0": 912.8,
+     "t1": 913.8,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 915.8,
+     "t1": 917.2,
+     "class": "plastic-only collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g66": {
+   "label": "audio_critical",
+   "cue_words": [
+    "stir"
+   ],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 919.5,
+     "t1": 922.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 922.6,
+     "t1": 922.9,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 924.9,
+     "t1": 925.2,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 928.0,
+     "t1": 928.4,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 929.8,
+     "t1": 932.3,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 932.8,
+     "t1": 933.1,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 934.7,
+     "t1": 937.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 938.0,
+     "t1": 938.4,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 938.9,
+     "t1": 939.5,
+     "class": "metal / wood collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g67": {
+   "label": "audio_critical",
+   "cue_words": [],
+   "strong_sound_classes": [
+    "click",
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "click": "switch, lid or latch state changed",
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "open / close": "cupboard, drawer or fridge",
+    "sizzling / boiling": "hob",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 941.7,
+     "t1": 942.1,
+     "class": "open / close"
+    },
+    {
+     "t0": 942.9,
+     "t1": 943.8,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 945.2,
+     "t1": 945.6,
+     "class": "open / close"
+    },
+    {
+     "t0": 945.9,
+     "t1": 946.2,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 946.5,
+     "t1": 947.7,
+     "class": "click"
+    },
+    {
+     "t0": 948.4,
+     "t1": 948.7,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 949.0,
+     "t1": 951.3,
+     "class": "water"
+    },
+    {
+     "t0": 951.8,
+     "t1": 952.1,
+     "class": "metal / plastic collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g68": {
+   "label": "audio_critical",
+   "cue_words": [],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 953.8,
+     "t1": 954.2,
+     "class": "slide object"
+    },
+    {
+     "t0": 954.7,
+     "t1": 955.2,
+     "class": "slide object"
+    },
+    {
+     "t0": 956.0,
+     "t1": 956.4,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 964.8,
+     "t1": 991.2,
+     "class": "water"
+    },
+    {
+     "t0": 991.2,
+     "t1": 991.4,
+     "class": "metal / marble collision"
+    },
+    {
+     "t0": 991.6,
+     "t1": 992.4,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 993.1,
+     "t1": 993.9,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 994.9,
+     "t1": 995.3,
+     "class": "water"
+    },
+    {
+     "t0": 996.4,
+     "t1": 996.7,
+     "class": "water"
+    },
+    {
+     "t0": 997.3,
+     "t1": 997.7,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 998.1,
+     "t1": 998.4,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 999.7,
+     "t1": 1000.3,
+     "class": "water"
+    },
+    {
+     "t0": 1000.1,
+     "t1": 1000.9,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 1001.5,
+     "t1": 1001.9,
+     "class": "water"
+    },
+    {
+     "t0": 1002.0,
+     "t1": 1003.2,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1003.7,
+     "t1": 1005.3,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1005.8,
+     "t1": 1006.1,
+     "class": "water"
+    },
+    {
+     "t0": 1006.2,
+     "t1": 1006.5,
+     "class": "metal / plastic collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g69": {
+   "label": "audio_critical",
+   "cue_words": [
+    "stir"
+   ],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1048.5,
+     "t1": 1051.0,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1054.1,
+     "t1": 1055.5,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1055.8,
+     "t1": 1056.1,
+     "class": "metal / plastic collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g70": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "wash"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "footstep": "person moving between zones",
+    "open / close": "cupboard, drawer or fridge",
+    "sizzling / boiling": "hob",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1057.4,
+     "t1": 1058.0,
+     "class": "open / close"
+    },
+    {
+     "t0": 1058.5,
+     "t1": 1060.0,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 1060.2,
+     "t1": 1061.0,
+     "class": "open / close"
+    },
+    {
+     "t0": 1065.1,
+     "t1": 1066.6,
+     "class": "footstep"
+    },
+    {
+     "t0": 1067.5,
+     "t1": 1074.0,
+     "class": "water"
+    },
+    {
+     "t0": 1075.5,
+     "t1": 1076.0,
+     "class": "metal-only collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g71": {
+   "label": "audio_critical",
+   "cue_words": [
+    "stir"
+   ],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1084.8,
+     "t1": 1087.0,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1087.4,
+     "t1": 1088.0,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1088.2,
+     "t1": 1088.5,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1088.9,
+     "t1": 1089.2,
+     "class": "plastic-only collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g72": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1094.8,
+     "t1": 1095.0,
+     "class": "plastic / marble collision"
+    },
+    {
+     "t0": 1095.3,
+     "t1": 1095.6,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 1096.0,
+     "t1": 1096.2,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 1100.7,
+     "t1": 1101.0,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 1101.4,
+     "t1": 1101.9,
+     "class": "metal / marble collision"
+    },
+    {
+     "t0": 1102.3,
+     "t1": 1108.7,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 1109.7,
+     "t1": 1110.1,
+     "class": "metal / marble collision"
+    },
+    {
+     "t0": 1110.8,
+     "t1": 1111.1,
+     "class": "metal / marble collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g73": {
+   "label": "audio_critical",
+   "cue_words": [
+    "stir"
+   ],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1111.8,
+     "t1": 1119.2,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1119.7,
+     "t1": 1120.3,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1120.6,
+     "t1": 1121.0,
+     "class": "plastic-only collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g74": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "open / close": "cupboard, drawer or fridge",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1077.7,
+     "t1": 1078.0,
+     "class": "open / close"
+    },
+    {
+     "t0": 1078.3,
+     "t1": 1080.1,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 1133.1,
+     "t1": 1133.6,
+     "class": "open / close"
+    },
+    {
+     "t0": 1134.1,
+     "t1": 1136.0,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 1136.4,
+     "t1": 1136.9,
+     "class": "open / close"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g75": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1151.8,
+     "t1": 1152.5,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 1153.6,
+     "t1": 1154.0,
+     "class": "plastic-only collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g76": {
+   "label": "audio_critical",
+   "cue_words": [
+    "stir"
+   ],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "footstep": "person moving between zones",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1177.2,
+     "t1": 1177.5,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1181.8,
+     "t1": 1183.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1185.1,
+     "t1": 1186.5,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1186.5,
+     "t1": 1186.9,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 1187.3,
+     "t1": 1193.4,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1196.0,
+     "t1": 1197.3,
+     "class": "footstep"
+    },
+    {
+     "t0": 1197.7,
+     "t1": 1201.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1202.8,
+     "t1": 1207.0,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1207.2,
+     "t1": 1207.7,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1208.5,
+     "t1": 1208.8,
+     "class": "metal / plastic collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g77": {
+   "label": "audio_critical",
+   "cue_words": [
+    "stir"
+   ],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1209.2,
+     "t1": 1211.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1212.5,
+     "t1": 1215.5,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1217.0,
+     "t1": 1223.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1224.9,
+     "t1": 1225.3,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1227.1,
+     "t1": 1228.7,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1229.1,
+     "t1": 1236.8,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1237.0,
+     "t1": 1237.3,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1237.7,
+     "t1": 1238.1,
+     "class": "metal / ceramic collision"
+    },
+    {
+     "t0": 1238.4,
+     "t1": 1238.8,
+     "class": "metal / plastic collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g78": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "open / close": "cupboard, drawer or fridge",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1238.4,
+     "t1": 1238.8,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 1240.8,
+     "t1": 1241.8,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 1240.9,
+     "t1": 1248.9,
+     "class": "plastic / paper collision"
+    },
+    {
+     "t0": 1249.6,
+     "t1": 1250.0,
+     "class": "open / close"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g79": {
+   "label": "audio_critical",
+   "cue_words": [],
+   "strong_sound_classes": [
+    "click",
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "click": "switch, lid or latch state changed",
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "open / close": "cupboard, drawer or fridge",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1254.7,
+     "t1": 1255.5,
+     "class": "open / close"
+    },
+    {
+     "t0": 1256.1,
+     "t1": 1257.1,
+     "class": "open / close"
+    },
+    {
+     "t0": 1258.0,
+     "t1": 1259.8,
+     "class": "open / close"
+    },
+    {
+     "t0": 1263.0,
+     "t1": 1263.7,
+     "class": "open / close"
+    },
+    {
+     "t0": 1265.7,
+     "t1": 1266.0,
+     "class": "click"
+    },
+    {
+     "t0": 1267.2,
+     "t1": 1267.5,
+     "class": "slide object"
+    },
+    {
+     "t0": 1268.7,
+     "t1": 1269.0,
+     "class": "open / close"
+    },
+    {
+     "t0": 1270.2,
+     "t1": 1284.6,
+     "class": "rustle"
+    },
+    {
+     "t0": 1275.6,
+     "t1": 1276.5,
+     "class": "open / close"
+    },
+    {
+     "t0": 1277.2,
+     "t1": 1278.2,
+     "class": "rustle"
+    },
+    {
+     "t0": 1279.0,
+     "t1": 1279.6,
+     "class": "rustle"
+    },
+    {
+     "t0": 1280.9,
+     "t1": 1281.4,
+     "class": "open / close"
+    },
+    {
+     "t0": 1282.7,
+     "t1": 1283.0,
+     "class": "click"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g80": {
+   "label": "audio_critical",
+   "cue_words": [],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "open / close": "cupboard, drawer or fridge",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1287.4,
+     "t1": 1288.9,
+     "class": "open / close"
+    },
+    {
+     "t0": 1289.5,
+     "t1": 1289.9,
+     "class": "open / close"
+    },
+    {
+     "t0": 1290.4,
+     "t1": 1292.3,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 1292.7,
+     "t1": 1296.8,
+     "class": "rustle"
+    },
+    {
+     "t0": 1297.4,
+     "t1": 1298.0,
+     "class": "open / close"
+    },
+    {
+     "t0": 1299.0,
+     "t1": 1299.3,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 1299.4,
+     "t1": 1299.9,
+     "class": "open / close"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g81": {
+   "label": "audio_critical",
+   "cue_words": [],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1334.8,
+     "t1": 1336.2,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1336.5,
+     "t1": 1337.2,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 1339.0,
+     "t1": 1339.3,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 1341.0,
+     "t1": 1342.4,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1342.7,
+     "t1": 1342.9,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 1344.3,
+     "t1": 1346.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1348.6,
+     "t1": 1349.1,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1350.6,
+     "t1": 1353.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1354.2,
+     "t1": 1354.8,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1354.7,
+     "t1": 1355.7,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1382.7,
+     "t1": 1383.0,
+     "class": "plastic-only collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g82": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "open / close": "cupboard, drawer or fridge",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1386.4,
+     "t1": 1386.8,
+     "class": "open / close"
+    },
+    {
+     "t0": 1387.4,
+     "t1": 1388.5,
+     "class": "rustle"
+    },
+    {
+     "t0": 1388.2,
+     "t1": 1389.2,
+     "class": "open / close"
+    },
+    {
+     "t0": 1390.0,
+     "t1": 1390.3,
+     "class": "open / close"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g83": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "footstep": "person moving between zones",
+    "sizzling / boiling": "hob",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1403.5,
+     "t1": 1405.0,
+     "class": "water"
+    },
+    {
+     "t0": 1405.3,
+     "t1": 1405.6,
+     "class": "footstep"
+    },
+    {
+     "t0": 1405.9,
+     "t1": 1406.2,
+     "class": "water"
+    },
+    {
+     "t0": 1410.6,
+     "t1": 1411.0,
+     "class": "water"
+    },
+    {
+     "t0": 1413.4,
+     "t1": 1413.7,
+     "class": "metal-only collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g84": {
+   "label": "audio_critical",
+   "cue_words": [],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "open / close": "cupboard, drawer or fridge",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1413.9,
+     "t1": 1414.4,
+     "class": "open / close"
+    },
+    {
+     "t0": 1415.2,
+     "t1": 1416.1,
+     "class": "rustle"
+    },
+    {
+     "t0": 1422.3,
+     "t1": 1422.7,
+     "class": "rustle"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g85": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "open / close": "cupboard, drawer or fridge",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1435.8,
+     "t1": 1437.5,
+     "class": "plastic / glass collision"
+    },
+    {
+     "t0": 1438.3,
+     "t1": 1439.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1442.4,
+     "t1": 1443.5,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 1445.5,
+     "t1": 1446.4,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1447.0,
+     "t1": 1447.7,
+     "class": "open / close"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g86": {
+   "label": "audio_critical",
+   "cue_words": [
+    "stir"
+   ],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "open / close": "cupboard, drawer or fridge",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1423.2,
+     "t1": 1423.6,
+     "class": "open / close"
+    },
+    {
+     "t0": 1424.3,
+     "t1": 1432.6,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1432.6,
+     "t1": 1434.4,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1435.8,
+     "t1": 1437.5,
+     "class": "plastic / glass collision"
+    },
+    {
+     "t0": 1438.3,
+     "t1": 1439.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1442.4,
+     "t1": 1443.5,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 1445.5,
+     "t1": 1446.4,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1447.0,
+     "t1": 1447.7,
+     "class": "open / close"
+    },
+    {
+     "t0": 1448.5,
+     "t1": 1461.4,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1455.5,
+     "t1": 1456.5,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1462.0,
+     "t1": 1462.2,
+     "class": "metal / wood collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g87": {
+   "label": "audio_critical",
+   "cue_words": [],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1470.8,
+     "t1": 1477.3,
+     "class": "rustle"
+    },
+    {
+     "t0": 1477.8,
+     "t1": 1481.9,
+     "class": "rustle"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g88": {
+   "label": "audio_critical",
+   "cue_words": [
+    "stir"
+   ],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1514.5,
+     "t1": 1517.3,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1518.1,
+     "t1": 1519.3,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1518.9,
+     "t1": 1520.6,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1521.1,
+     "t1": 1521.7,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1523.4,
+     "t1": 1526.5,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1526.5,
+     "t1": 1527.4,
+     "class": "metal / wood collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g89": {
+   "label": "audio_critical",
+   "cue_words": [],
+   "strong_sound_classes": [
+    "click"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "click": "switch, lid or latch state changed",
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "open / close": "cupboard, drawer or fridge",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 518.8,
+     "t1": 1534.8,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1528.5,
+     "t1": 1529.4,
+     "class": "rustle"
+    },
+    {
+     "t0": 1529.5,
+     "t1": 1530.8,
+     "class": "open / close"
+    },
+    {
+     "t0": 1531.7,
+     "t1": 1541.0,
+     "class": "rustle"
+    },
+    {
+     "t0": 1533.1,
+     "t1": 1533.4,
+     "class": "click"
+    },
+    {
+     "t0": 1536.6,
+     "t1": 1537.6,
+     "class": "open / close"
+    },
+    {
+     "t0": 1541.9,
+     "t1": 1542.4,
+     "class": "open / close"
+    },
+    {
+     "t0": 1543.3,
+     "t1": 1543.5,
+     "class": "click"
+    },
+    {
+     "t0": 1543.9,
+     "t1": 1544.5,
+     "class": "open / close"
+    },
+    {
+     "t0": 1544.7,
+     "t1": 1681.5,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1547.1,
+     "t1": 1547.8,
+     "class": "open / close"
+    },
+    {
+     "t0": 1548.2,
+     "t1": 1549.6,
+     "class": "open / close"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g90": {
+   "label": "audio_critical",
+   "cue_words": [
+    "stir"
+   ],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 1544.7,
+     "t1": 1681.5,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1551.7,
+     "t1": 1559.0,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1558.8,
+     "t1": 1559.1,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1561.4,
+     "t1": 1561.7,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1562.3,
+     "t1": 1563.5,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1563.4,
+     "t1": 1563.9,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1565.3,
+     "t1": 1572.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1573.5,
+     "t1": 1574.3,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1574.8,
+     "t1": 1575.1,
+     "class": "plastic-only collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g91": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "open / close": "cupboard, drawer or fridge",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 1544.7,
+     "t1": 1681.5,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1583.2,
+     "t1": 1584.6,
+     "class": "plastic / ceramic collision"
+    },
+    {
+     "t0": 1584.9,
+     "t1": 1585.8,
+     "class": "ceramic-only collision"
+    },
+    {
+     "t0": 1586.6,
+     "t1": 1587.6,
+     "class": "open / close"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g92": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 1544.7,
+     "t1": 1681.5,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1588.9,
+     "t1": 1589.7,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1590.1,
+     "t1": 1590.4,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 1590.7,
+     "t1": 1592.8,
+     "class": "ceramic-only collision"
+    },
+    {
+     "t0": 1595.2,
+     "t1": 1597.6,
+     "class": "metal / ceramic collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g93": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "scrub / scrape / scour / wipe": "sink or counter",
+    "sizzling / boiling": "hob",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 1544.7,
+     "t1": 1681.5,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1595.2,
+     "t1": 1597.6,
+     "class": "metal / ceramic collision"
+    },
+    {
+     "t0": 1597.7,
+     "t1": 1598.0,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 1598.2,
+     "t1": 1598.6,
+     "class": "plastic / ceramic collision"
+    },
+    {
+     "t0": 1599.0,
+     "t1": 1599.8,
+     "class": "metal / ceramic collision"
+    },
+    {
+     "t0": 1599.8,
+     "t1": 1600.6,
+     "class": "metal / ceramic collision"
+    },
+    {
+     "t0": 1602.9,
+     "t1": 1603.1,
+     "class": "metal / ceramic collision"
+    },
+    {
+     "t0": 1605.5,
+     "t1": 1605.9,
+     "class": "rustle"
+    },
+    {
+     "t0": 1606.1,
+     "t1": 1606.5,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 1607.9,
+     "t1": 1610.5,
+     "class": "scrub / scrape / scour / wipe"
+    },
+    {
+     "t0": 1613.0,
+     "t1": 1614.5,
+     "class": "water"
+    },
+    {
+     "t0": 1614.5,
+     "t1": 1615.5,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1617.3,
+     "t1": 1618.1,
+     "class": "plastic-only collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g94": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "open / close": "cupboard, drawer or fridge",
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 1544.7,
+     "t1": 1681.5,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1622.2,
+     "t1": 1622.7,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 1623.3,
+     "t1": 1624.7,
+     "class": "open / close"
+    },
+    {
+     "t0": 1625.5,
+     "t1": 1625.7,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 1629.7,
+     "t1": 1644.1,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1644.8,
+     "t1": 1645.1,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1645.7,
+     "t1": 1646.5,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1647.1,
+     "t1": 1647.3,
+     "class": "metal / plastic collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g95": {
+   "label": "audio_critical",
+   "cue_words": [
+    "turn off"
+   ],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 1544.7,
+     "t1": 1681.5,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1629.7,
+     "t1": 1644.1,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1644.8,
+     "t1": 1645.1,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1645.7,
+     "t1": 1646.5,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1647.1,
+     "t1": 1647.3,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 1648.2,
+     "t1": 1649.0,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 1650.0,
+     "t1": 1650.3,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 1653.1,
+     "t1": 1653.4,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1653.7,
+     "t1": 1654.2,
+     "class": "ceramic-only collision"
+    },
+    {
+     "t0": 1654.6,
+     "t1": 1655.4,
+     "class": "ceramic / wood collision"
+    },
+    {
+     "t0": 1656.7,
+     "t1": 1657.4,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1661.2,
+     "t1": 1671.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1672.2,
+     "t1": 1675.6,
+     "class": "metal / wood collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g96": {
+   "label": "audio_critical",
+   "cue_words": [],
+   "strong_sound_classes": [
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob"
+   },
+   "sound_events": [
+    {
+     "t0": 1544.7,
+     "t1": 1681.5,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1678.1,
+     "t1": 1684.7,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1686.8,
+     "t1": 1687.8,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1693.0,
+     "t1": 1693.6,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1695.0,
+     "t1": 1695.4,
+     "class": "metal-only collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g97": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.88,
+   "completion_cues": {},
+   "location_cues": {},
+   "sound_events": [
+    {
+     "t0": 1695.9,
+     "t1": 1697.6,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1699.8,
+     "t1": 1711.5,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1713.3,
+     "t1": 1714.5,
+     "class": "metal / wood collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g98": {
+   "label": "audio_critical",
+   "cue_words": [
+    "scrape"
+   ],
+   "strong_sound_classes": [
+    "click",
+    "sizzling / boiling"
+   ],
+   "sound_event_coverage": 1.0,
+   "completion_cues": {
+    "click": "switch, lid or latch state changed",
+    "sizzling / boiling": "pan or pot reached cooking temperature"
+   },
+   "location_cues": {
+    "sizzling / boiling": "hob",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 1716.2,
+     "t1": 1717.3,
+     "class": "click"
+    },
+    {
+     "t0": 1716.8,
+     "t1": 1769.4,
+     "class": "sizzling / boiling"
+    },
+    {
+     "t0": 1720.6,
+     "t1": 1721.6,
+     "class": "water"
+    },
+    {
+     "t0": 1721.7,
+     "t1": 1722.5,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 1724.1,
+     "t1": 1725.7,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 1726.1,
+     "t1": 1726.7,
+     "class": "ceramic / wood collision"
+    },
+    {
+     "t0": 1726.9,
+     "t1": 1727.5,
+     "class": "water"
+    },
+    {
+     "t0": 1727.5,
+     "t1": 1728.2,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1728.9,
+     "t1": 1729.2,
+     "class": "water"
+    },
+    {
+     "t0": 1729.8,
+     "t1": 1730.1,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 1730.3,
+     "t1": 1730.6,
+     "class": "water"
+    },
+    {
+     "t0": 1731.2,
+     "t1": 1731.6,
+     "class": "water"
+    },
+    {
+     "t0": 1732.1,
+     "t1": 1732.4,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1733.2,
+     "t1": 1760.3,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1733.9,
+     "t1": 1734.2,
+     "class": "water"
+    },
+    {
+     "t0": 1734.7,
+     "t1": 1735.0,
+     "class": "water"
+    },
+    {
+     "t0": 1737.2,
+     "t1": 1737.6,
+     "class": "water"
+    },
+    {
+     "t0": 1739.6,
+     "t1": 1740.1,
+     "class": "water"
+    },
+    {
+     "t0": 1752.2,
+     "t1": 1752.7,
+     "class": "water"
+    },
+    {
+     "t0": 1761.7,
+     "t1": 1765.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1766.1,
+     "t1": 1767.1,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1767.2,
+     "t1": 1768.2,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 1769.6,
+     "t1": 1769.9,
+     "class": "click"
+    },
+    {
+     "t0": 1770.8,
+     "t1": 1771.7,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 1772.5,
+     "t1": 1773.5,
+     "class": "water"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g99": {
+   "label": "visual_sufficient",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.12,
+   "completion_cues": {},
+   "location_cues": {
+    "open / close": "cupboard, drawer or fridge",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 1772.5,
+     "t1": 1773.5,
+     "class": "water"
+    },
+    {
+     "t0": 1773.9,
+     "t1": 1774.2,
+     "class": "metal / paper collision"
+    },
+    {
+     "t0": 1774.6,
+     "t1": 1775.2,
+     "class": "metal / paper collision"
+    },
+    {
+     "t0": 1774.6,
+     "t1": 1783.6,
+     "class": "rustle"
+    },
+    {
+     "t0": 1775.6,
+     "t1": 1776.0,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 1784.2,
+     "t1": 1785.1,
+     "class": "open / close"
+    }
+   ],
+   "official_step_label": null
+  }
+ },
+ "official_step_labels": {
+  "P02_R01_S02": "audio_critical",
+  "P02_R01_S03": "audio_critical",
+  "P02_R01_S04": "audio_helpful",
+  "P02_R01_S01": "audio_critical",
+  "P02_R01_S05": "audio_critical",
+  "P02_R01_S06": "audio_critical",
+  "P02_R02_S01": "audio_critical",
+  "P02_R02_S02": "audio_helpful",
+  "P02_R02_S03": "audio_critical",
+  "P02_R02_S04": "audio_helpful",
+  "P02_R02_S07": "audio_helpful",
+  "P02_R02_S06": "audio_helpful",
+  "P02_R02_S05": "audio_critical"
+ },
+ "source": "HD_EPIC_Sounds.csv (official events) + av_goal_finder rules (ours); no model"
+}

@@ -1,0 +1,200 @@
+{
+ "overall_goal": "Clean the workspace, retrieve ingredients, and log their nutritional values",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Clean and organize the kitchen counter to prepare for cooking",
+   "action_ids": [
+    "P08-20240617-130401-3",
+    "P08-20240617-130401-4",
+    "P08-20240617-130401-5",
+    "P08-20240617-130401-6",
+    "P08-20240617-130401-7",
+    "P08-20240617-130401-8",
+    "P08-20240617-130401-9",
+    "P08-20240617-130401-10",
+    "P08-20240617-130401-11",
+    "P08-20240617-130401-12",
+    "P08-20240617-130401-13"
+   ],
+   "rationale": "The person wipes the counter, throws away trash, and moves appliances and towels to clear space."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve ingredients and set up the kitchen scale",
+   "action_ids": [
+    "P08-20240617-130401-15",
+    "P08-20240617-130401-21",
+    "P08-20240617-130401-29",
+    "P08-20240617-130401-30",
+    "P08-20240617-130401-46",
+    "P08-20240617-130401-50",
+    "P08-20240617-130401-51",
+    "P08-20240617-130401-52",
+    "P08-20240617-130401-53",
+    "P08-20240617-130401-54",
+    "P08-20240617-130401-55"
+   ],
+   "rationale": "The person gets vegetables and canned food from the fridge and cabinets, and prepares the scale for measuring."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Record the nutritional values of the pasta, cucumber, and tomatoes",
+   "action_ids": [
+    "P08-20240617-130401-1",
+    "P08-20240617-130401-2",
+    "P08-20240617-130401-56",
+    "P08-20240617-130401-57",
+    "P08-20240617-130401-58",
+    "P08-20240617-130401-59",
+    "P08-20240617-130401-60",
+    "P08-20240617-130401-61",
+    "P08-20240617-130401-78",
+    "P08-20240617-130401-79",
+    "P08-20240617-130401-80",
+    "P08-20240617-130401-107",
+    "P08-20240617-130401-108",
+    "P08-20240617-130401-109",
+    "P08-20240617-130401-110",
+    "P08-20240617-130401-136",
+    "P08-20240617-130401-137",
+    "P08-20240617-130401-138",
+    "P08-20240617-130401-139",
+    "P08-20240617-130401-158"
+   ],
+   "rationale": "The person uses their phone to scan barcodes and log the nutritional information of various ingredients."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Prepare to boil pasta and gather tools",
+   "action_ids": [
+    "P08-20240617-130401-62",
+    "P08-20240617-130401-63",
+    "P08-20240617-130401-64",
+    "P08-20240617-130401-86",
+    "P08-20240617-130401-87",
+    "P08-20240617-130401-88",
+    "P08-20240617-130401-98",
+    "P08-20240617-130401-99"
+   ],
+   "rationale": "The person picks up the pasta, grabs measuring cups, and retrieves a knife to start cooking."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Clean up the workspace and put away ingredients",
+   "action_ids": [
+    "P08-20240617-130401-128",
+    "P08-20240617-130401-129",
+    "P08-20240617-130401-130",
+    "P08-20240617-130401-131",
+    "P08-20240617-130401-132",
+    "P08-20240617-130401-133",
+    "P08-20240617-130401-167",
+    "P08-20240617-130401-168"
+   ],
+   "rationale": "The person puts the pasta bag back in the cupboard and clears scraps and tools from the counter."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Clean the cutting board and counter from food scraps",
+   "action_ids": [
+    "P08-20240617-130401-190",
+    "P08-20240617-130401-191",
+    "P08-20240617-130401-192",
+    "P08-20240617-130401-193",
+    "P08-20240617-130401-194",
+    "P08-20240617-130401-195",
+    "P08-20240617-130401-196",
+    "P08-20240617-130401-197",
+    "P08-20240617-130401-198"
+   ],
+   "rationale": "The person scrapes food waste off the cutting board and counter into the trash can."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Rearrange ingredients and clean celery",
+   "action_ids": [
+    "P08-20240617-130401-184",
+    "P08-20240617-130401-199",
+    "P08-20240617-130401-205",
+    "P08-20240617-130401-206",
+    "P08-20240617-130401-207",
+    "P08-20240617-130401-217",
+    "P08-20240617-130401-218",
+    "P08-20240617-130401-219",
+    "P08-20240617-130401-220",
+    "P08-20240617-130401-221",
+    "P08-20240617-130401-222",
+    "P08-20240617-130401-223"
+   ],
+   "rationale": "The person moves vegetables around to make space and takes the celery to the sink to wash it."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Manage the boiling pasta and retrieve more ingredients",
+   "action_ids": [
+    "P08-20240617-130401-187",
+    "P08-20240617-130401-188",
+    "P08-20240617-130401-232",
+    "P08-20240617-130401-236",
+    "P08-20240617-130401-237",
+    "P08-20240617-130401-251",
+    "P08-20240617-130401-252",
+    "P08-20240617-130401-257",
+    "P08-20240617-130401-258",
+    "P08-20240617-130401-259",
+    "P08-20240617-130401-261",
+    "P08-20240617-130401-260"
+   ],
+   "rationale": "The person adds pasta to the pot, adjusts it on the stove, and gets a can of beans from the cabinet."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Record the nutritional values of the onion, celery, and carrots",
+   "action_ids": [
+    "P08-20240617-130401-175",
+    "P08-20240617-130401-177",
+    "P08-20240617-130401-178",
+    "P08-20240617-130401-226",
+    "P08-20240617-130401-227",
+    "P08-20240617-130401-228",
+    "P08-20240617-130401-262",
+    "P08-20240617-130401-263",
+    "P08-20240617-130401-267",
+    "P08-20240617-130401-268",
+    "P08-20240617-130401-269",
+    "P08-20240617-130401-270",
+    "P08-20240617-130401-271",
+    "P08-20240617-130401-272",
+    "P08-20240617-130401-273",
+    "P08-20240617-130401-293",
+    "P08-20240617-130401-294",
+    "P08-20240617-130401-295"
+   ],
+   "rationale": "The person continues using their phone to log the nutritional data for the remaining vegetables."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Check the boiling pasta and clean up food scraps",
+   "action_ids": [
+    "P08-20240617-130401-274",
+    "P08-20240617-130401-284",
+    "P08-20240617-130401-285",
+    "P08-20240617-130401-289",
+    "P08-20240617-130401-292",
+    "P08-20240617-130401-320",
+    "P08-20240617-130401-321",
+    "P08-20240617-130401-322",
+    "P08-20240617-130401-323",
+    "P08-20240617-130401-324",
+    "P08-20240617-130401-325"
+   ],
+   "rationale": "The person checks the pot on the stove and then gathers more food scraps to throw in the trash."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

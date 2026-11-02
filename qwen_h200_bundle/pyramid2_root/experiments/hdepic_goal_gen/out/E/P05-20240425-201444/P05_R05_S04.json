@@ -1,0 +1,84 @@
+{
+ "overall_goal": "Grease and coat two ramekins with butter and flour",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve and prepare the ramekins",
+   "action_ids": [
+    "P05-20240425-201444-207",
+    "P05-20240425-201444-208",
+    "P05-20240425-201444-209",
+    "P05-20240425-201444-210",
+    "P05-20240425-201444-211",
+    "P05-20240425-201444-212"
+   ],
+   "rationale": "The person retrieves ramekins from the dishwasher, wipes them out, and places them on the counter to prepare for greasing."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Grease the first ramekin with butter",
+   "action_ids": [
+    "P05-20240425-201444-213",
+    "P05-20240425-201444-214",
+    "P05-20240425-201444-215",
+    "P05-20240425-201444-216",
+    "P05-20240425-201444-217"
+   ],
+   "rationale": "The person takes butter from the dish and spreads it around the inside of the first ramekin to prevent the mixture from sticking."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Grease the second ramekin with butter",
+   "action_ids": [
+    "P05-20240425-201444-218",
+    "P05-20240425-201444-219",
+    "P05-20240425-201444-220",
+    "P05-20240425-201444-221",
+    "P05-20240425-201444-222",
+    "P05-20240425-201444-223"
+   ],
+   "rationale": "The person uses excess butter from the first ramekin and additional butter from the dish to coat the inside of the second ramekin."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Apply the first coat of flour to the ramekins",
+   "action_ids": [
+    "P05-20240425-201444-224",
+    "P05-20240425-201444-225",
+    "P05-20240425-201444-226",
+    "P05-20240425-201444-227",
+    "P05-20240425-201444-228",
+    "P05-20240425-201444-229",
+    "P05-20240425-201444-230",
+    "P05-20240425-201444-231",
+    "P05-20240425-201444-232",
+    "P05-20240425-201444-233"
+   ],
+   "rationale": "The person adds a spoonful of flour to one ramekin and shakes both ramekins together to distribute the flour evenly across their insides."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Apply a second coat of flour and remove excess",
+   "action_ids": [
+    "P05-20240425-201444-234",
+    "P05-20240425-201444-235",
+    "P05-20240425-201444-236",
+    "P05-20240425-201444-237",
+    "P05-20240425-201444-238",
+    "P05-20240425-201444-239",
+    "P05-20240425-201444-240",
+    "P05-20240425-201444-241",
+    "P05-20240425-201444-242",
+    "P05-20240425-201444-243",
+    "P05-20240425-201444-244",
+    "P05-20240425-201444-245"
+   ],
+   "rationale": "Realizing more flour is needed, the person adds another spoonful, shakes the ramekins together again, and empties the excess flour into a pan."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

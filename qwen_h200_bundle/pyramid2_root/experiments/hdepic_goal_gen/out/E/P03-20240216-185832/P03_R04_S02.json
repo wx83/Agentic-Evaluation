@@ -1,0 +1,171 @@
+{
+ "overall_goal": "Fry the potatoes in oil, add salt, and stir frequently while splitting chunks to check doneness",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare the frying pan and add oil",
+   "action_ids": [
+    "P03-20240216-185832-490",
+    "P03-20240216-185832-491",
+    "P03-20240216-185832-492",
+    "P03-20240216-185832-637",
+    "P03-20240216-185832-638",
+    "P03-20240216-185832-639",
+    "P03-20240216-185832-640",
+    "P03-20240216-185832-645",
+    "P03-20240216-185832-646",
+    "P03-20240216-185832-647",
+    "P03-20240216-185832-648"
+   ],
+   "rationale": "The person dries the frying pan, places it on the hob, and pours olive oil into it."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve salt and lid, and clear space",
+   "action_ids": [
+    "P03-20240216-185832-641",
+    "P03-20240216-185832-642",
+    "P03-20240216-185832-643",
+    "P03-20240216-185832-644",
+    "P03-20240216-185832-654",
+    "P03-20240216-185832-655",
+    "P03-20240216-185832-656",
+    "P03-20240216-185832-657"
+   ],
+   "rationale": "The person gets salt from the cupboard, a lid, and moves items on the counter to make space."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Add salt to the potatoes and stir",
+   "action_ids": [
+    "P03-20240216-185832-659",
+    "P03-20240216-185832-660",
+    "P03-20240216-185832-665",
+    "P03-20240216-185832-666",
+    "P03-20240216-185832-667",
+    "P03-20240216-185832-668",
+    "P03-20240216-185832-669",
+    "P03-20240216-185832-671",
+    "P03-20240216-185832-672",
+    "P03-20240216-185832-673",
+    "P03-20240216-185832-674",
+    "P03-20240216-185832-675",
+    "P03-20240216-185832-676",
+    "P03-20240216-185832-677",
+    "P03-20240216-185832-678",
+    "P03-20240216-185832-679"
+   ],
+   "rationale": "The person sprinkles salt onto the potatoes in the pan and stirs them to distribute the salt evenly."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Stir the potatoes and cover with lid",
+   "action_ids": [
+    "P03-20240216-185832-714",
+    "P03-20240216-185832-715",
+    "P03-20240216-185832-716",
+    "P03-20240216-185832-717",
+    "P03-20240216-185832-718",
+    "P03-20240216-185832-747",
+    "P03-20240216-185832-748",
+    "P03-20240216-185832-749",
+    "P03-20240216-185832-750",
+    "P03-20240216-185832-751"
+   ],
+   "rationale": "The person stirs the potatoes and places a glass lid on the frying pan to prevent oil from spilling."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Stir the potatoes, lower the heat, and return spilled chunks",
+   "action_ids": [
+    "P03-20240216-185832-785",
+    "P03-20240216-185832-786",
+    "P03-20240216-185832-787",
+    "P03-20240216-185832-788",
+    "P03-20240216-185832-789",
+    "P03-20240216-185832-790",
+    "P03-20240216-185832-803",
+    "P03-20240216-185832-804",
+    "P03-20240216-185832-805",
+    "P03-20240216-185832-806"
+   ],
+   "rationale": "The person stirs the potatoes, lowers the hob heat, and picks up a spilled potato chunk to return it to the pan."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Stir the potatoes, lower the heat again, and tap the spatula",
+   "action_ids": [
+    "P03-20240216-185832-853",
+    "P03-20240216-185832-854",
+    "P03-20240216-185832-855",
+    "P03-20240216-185832-856",
+    "P03-20240216-185832-857",
+    "P03-20240216-185832-900",
+    "P03-20240216-185832-901",
+    "P03-20240216-185832-902",
+    "P03-20240216-185832-903",
+    "P03-20240216-185832-904",
+    "P03-20240216-185832-905",
+    "P03-20240216-185832-906"
+   ],
+   "rationale": "The person continues stirring, lowers the heat further, returns another spilled chunk, and taps the spatula to remove stuck bits."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Stir the potatoes and return spilled chunks",
+   "action_ids": [
+    "P03-20240216-185832-936",
+    "P03-20240216-185832-937",
+    "P03-20240216-185832-938",
+    "P03-20240216-185832-939",
+    "P03-20240216-185832-940",
+    "P03-20240216-185832-941",
+    "P03-20240216-185832-942",
+    "P03-20240216-185832-943"
+   ],
+   "rationale": "The person stirs the potatoes and carefully returns multiple spilled potato chunks back into the frying pan."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Stir the potatoes and split chunks to check doneness",
+   "action_ids": [
+    "P03-20240216-185832-1012",
+    "P03-20240216-185832-1013",
+    "P03-20240216-185832-1014",
+    "P03-20240216-185832-1015",
+    "P03-20240216-185832-1016",
+    "P03-20240216-185832-1045",
+    "P03-20240216-185832-1046",
+    "P03-20240216-185832-1047",
+    "P03-20240216-185832-1048",
+    "P03-20240216-185832-1106",
+    "P03-20240216-185832-1107",
+    "P03-20240216-185832-1108",
+    "P03-20240216-185832-1109"
+   ],
+   "rationale": "The person stirs the potatoes and uses the spatula to split chunks to see if they are cooked."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Continue stirring and splitting potato chunks",
+   "action_ids": [
+    "P03-20240216-185832-1134",
+    "P03-20240216-185832-1135",
+    "P03-20240216-185832-1136",
+    "P03-20240216-185832-1137",
+    "P03-20240216-185832-1182",
+    "P03-20240216-185832-1183",
+    "P03-20240216-185832-1240",
+    "P03-20240216-185832-1241"
+   ],
+   "rationale": "The person continues to stir the potatoes and split more chunks to check if they are well cooked."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P03-20240216-185832-670"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

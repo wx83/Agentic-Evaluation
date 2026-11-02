@@ -1,0 +1,63 @@
+{
+ "overall_goal": "Serve a bowl of soup and prepare to eat it.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Clear counter space and retrieve a ladle",
+   "action_ids": [
+    "P01-20240203-135502-833",
+    "P01-20240203-135502-834",
+    "P01-20240203-135502-835",
+    "P01-20240203-135502-836",
+    "P01-20240203-135502-837"
+   ],
+   "rationale": "The person moves items out of the way to place the bowl and then fetches a ladle from the drawer."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Serve soup into the bowl",
+   "action_ids": [
+    "P01-20240203-135502-838",
+    "P01-20240203-135502-839",
+    "P01-20240203-135502-840",
+    "P01-20240203-135502-841",
+    "P01-20240203-135502-842",
+    "P01-20240203-135502-843",
+    "P01-20240203-135502-844",
+    "P01-20240203-135502-845",
+    "P01-20240203-135502-846",
+    "P01-20240203-135502-847"
+   ],
+   "rationale": "The person uses the ladle to scoop and pour soup from the pot into the bowl, stirring it in the process."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Dry hands and adjust the oven temperature",
+   "action_ids": [
+    "P01-20240203-135502-848",
+    "P01-20240203-135502-849"
+   ],
+   "rationale": "The person takes a brief pause from serving to dry their hands and adjust the preheating oven."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Retrieve a spoon and carry the served soup",
+   "action_ids": [
+    "P01-20240203-135502-850",
+    "P01-20240203-135502-851",
+    "P01-20240203-135502-852",
+    "P01-20240203-135502-853",
+    "P01-20240203-135502-854",
+    "P01-20240203-135502-855",
+    "P01-20240203-135502-856",
+    "P01-20240203-135502-857"
+   ],
+   "rationale": "The person opens a drawer to get a spoon, places it in the bowl, and carries the meal away to eat."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

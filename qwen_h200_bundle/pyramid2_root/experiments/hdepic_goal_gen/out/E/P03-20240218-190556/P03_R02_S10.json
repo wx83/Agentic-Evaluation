@@ -1,0 +1,40 @@
+{
+ "overall_goal": "Add and mix tomato puree into the frying pan.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve and open the tomato puree tube.",
+   "action_ids": [
+    "P03-20240218-190556-469",
+    "P03-20240218-190556-470",
+    "P03-20240218-190556-810",
+    "P03-20240218-190556-812",
+    "P03-20240218-190556-813",
+    "P03-20240218-190556-814",
+    "P03-20240218-190556-815",
+    "P03-20240218-190556-816"
+   ],
+   "rationale": "The person closes the drawer, places the tomato puree tube on the counter, and later picks it up to open and pierce its foil seal."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Measure and mix the tomato puree into the pan.",
+   "action_ids": [
+    "P03-20240218-190556-817",
+    "P03-20240218-190556-818",
+    "P03-20240218-190556-819",
+    "P03-20240218-190556-820",
+    "P03-20240218-190556-821",
+    "P03-20240218-190556-829"
+   ],
+   "rationale": "The person retrieves a spoon from the cupboard, uses it to measure a spoonful of tomato puree, adds it to the frying pan, and stirs the ingredients together."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P03-20240218-190556-830"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

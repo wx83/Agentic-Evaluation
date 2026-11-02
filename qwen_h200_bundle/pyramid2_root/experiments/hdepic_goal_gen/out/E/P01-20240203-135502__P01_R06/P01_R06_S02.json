@@ -1,0 +1,187 @@
+{
+ "overall_goal": "Puree the soup with a hand blender, then prepare and stir in the spice mix and fresh coriander",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Assemble the hand blender and position the pot of soup",
+   "action_ids": [
+    "P01-20240203-135502-684",
+    "P01-20240203-135502-685",
+    "P01-20240203-135502-686",
+    "P01-20240203-135502-687",
+    "P01-20240203-135502-688",
+    "P01-20240203-135502-689",
+    "P01-20240203-135502-690",
+    "P01-20240203-135502-691",
+    "P01-20240203-135502-692",
+    "P01-20240203-135502-693",
+    "P01-20240203-135502-694",
+    "P01-20240203-135502-695",
+    "P01-20240203-135502-696"
+   ],
+   "rationale": "The person unboxes, assembles, and plugs in the hand blender, then moves the hot pot of soup closer to prepare for blending."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Puree the soup using the right hand",
+   "action_ids": [
+    "P01-20240203-135502-699",
+    "P01-20240203-135502-700",
+    "P01-20240203-135502-701",
+    "P01-20240203-135502-702",
+    "P01-20240203-135502-703",
+    "P01-20240203-135502-704",
+    "P01-20240203-135502-705",
+    "P01-20240203-135502-706",
+    "P01-20240203-135502-707",
+    "P01-20240203-135502-708",
+    "P01-20240203-135502-709",
+    "P01-20240203-135502-710",
+    "P01-20240203-135502-711",
+    "P01-20240203-135502-712",
+    "P01-20240203-135502-713",
+    "P01-20240203-135502-714",
+    "P01-20240203-135502-715",
+    "P01-20240203-135502-716",
+    "P01-20240203-135502-717"
+   ],
+   "rationale": "The person repeatedly dips, turns on, and moves the hand blender through the soup to puree the carrots."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Switch hands and continue pureeing the soup",
+   "action_ids": [
+    "P01-20240203-135502-718",
+    "P01-20240203-135502-719",
+    "P01-20240203-135502-720",
+    "P01-20240203-135502-721",
+    "P01-20240203-135502-722",
+    "P01-20240203-135502-723",
+    "P01-20240203-135502-724",
+    "P01-20240203-135502-725",
+    "P01-20240203-135502-726",
+    "P01-20240203-135502-727"
+   ],
+   "rationale": "The person transfers the blender to the left hand to rest the right hand, continuing to blend until the soup is smooth."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Measure and add spice mix to the soup",
+   "action_ids": [
+    "P01-20240203-135502-730",
+    "P01-20240203-135502-731",
+    "P01-20240203-135502-732",
+    "P01-20240203-135502-733",
+    "P01-20240203-135502-734"
+   ],
+   "rationale": "The person opens the spice jar, measures the spice into the lid, and pours it into the pureed soup."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Blend the spice mix into the soup",
+   "action_ids": [
+    "P01-20240203-135502-738",
+    "P01-20240203-135502-739",
+    "P01-20240203-135502-741",
+    "P01-20240203-135502-742",
+    "P01-20240203-135502-744",
+    "P01-20240203-135502-745",
+    "P01-20240203-135502-746",
+    "P01-20240203-135502-758",
+    "P01-20240203-135502-759"
+   ],
+   "rationale": "The person uses the hand blender to stir and blend the newly added spice mix into the soup."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Retrieve coriander, chopping board, and strainer",
+   "action_ids": [
+    "P01-20240203-135502-762",
+    "P01-20240203-135502-763",
+    "P01-20240203-135502-765",
+    "P01-20240203-135502-768",
+    "P01-20240203-135502-769",
+    "P01-20240203-135502-770",
+    "P01-20240203-135502-771",
+    "P01-20240203-135502-772",
+    "P01-20240203-135502-773",
+    "P01-20240203-135502-774",
+    "P01-20240203-135502-775",
+    "P01-20240203-135502-776"
+   ],
+   "rationale": "The person gathers the necessary items, including the coriander, a chopping board, and a strainer from the cupboard, to prepare the fresh herbs."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Place coriander in the strainer and wash it",
+   "action_ids": [
+    "P01-20240203-135502-777",
+    "P01-20240203-135502-778",
+    "P01-20240203-135502-781",
+    "P01-20240203-135502-779",
+    "P01-20240203-135502-782",
+    "P01-20240203-135502-780",
+    "P01-20240203-135502-783",
+    "P01-20240203-135502-784",
+    "P01-20240203-135502-785",
+    "P01-20240203-135502-786",
+    "P01-20240203-135502-787"
+   ],
+   "rationale": "The person transfers handfuls of coriander into the strainer and rinses it under the tap to remove dirt."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Separate the coriander leaves from the stems",
+   "action_ids": [
+    "P01-20240203-135502-788",
+    "P01-20240203-135502-789",
+    "P01-20240203-135502-790",
+    "P01-20240203-135502-791",
+    "P01-20240203-135502-792",
+    "P01-20240203-135502-793",
+    "P01-20240203-135502-794",
+    "P01-20240203-135502-795",
+    "P01-20240203-135502-796",
+    "P01-20240203-135502-797"
+   ],
+   "rationale": "The person picks through the washed coriander, separating the leaves onto the chopping board and discarding the stems."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Dry hands, retrieve a knife, and chop the coriander leaves",
+   "action_ids": [
+    "P01-20240203-135502-798",
+    "P01-20240203-135502-799",
+    "P01-20240203-135502-800",
+    "P01-20240203-135502-801",
+    "P01-20240203-135502-802",
+    "P01-20240203-135502-803",
+    "P01-20240203-135502-804",
+    "P01-20240203-135502-805",
+    "P01-20240203-135502-806"
+   ],
+   "rationale": "The person dries their hands, gets a knife from the drawer, and coarsely chops the coriander leaves on the board."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Blend the soup further and stir in the chopped coriander",
+   "action_ids": [
+    "P01-20240203-135502-809",
+    "P01-20240203-135502-810",
+    "P01-20240203-135502-823",
+    "P01-20240203-135502-824",
+    "P01-20240203-135502-827"
+   ],
+   "rationale": "The person briefly blends the soup again, then slides the chopped coriander into the pot and stirs it in with a spatula."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P01-20240203-135502-740",
+  "P01-20240203-135502-743",
+  "P01-20240203-135502-764"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

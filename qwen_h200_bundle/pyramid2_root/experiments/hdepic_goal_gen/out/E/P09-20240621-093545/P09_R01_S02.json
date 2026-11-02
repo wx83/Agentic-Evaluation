@@ -1,0 +1,264 @@
+{
+ "overall_goal": "Prepare, boil, and add the chicken chunks to the pot",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve the package of chicken from the fridge",
+   "action_ids": [
+    "P09-20240621-093545-9",
+    "P09-20240621-093545-10",
+    "P09-20240621-093545-11",
+    "P09-20240621-093545-12",
+    "P09-20240621-093545-13",
+    "P09-20240621-093545-14",
+    "P09-20240621-093545-15",
+    "P09-20240621-093545-16",
+    "P09-20240621-093545-18",
+    "P09-20240621-093545-19",
+    "P09-20240621-093545-20"
+   ],
+   "rationale": "The person reaches into the fridge and pulls out the package of chicken."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Rearrange items in the fridge and close the door",
+   "action_ids": [
+    "P09-20240621-093545-21",
+    "P09-20240621-093545-23",
+    "P09-20240621-093545-24",
+    "P09-20240621-093545-25",
+    "P09-20240621-093545-26",
+    "P09-20240621-093545-27",
+    "P09-20240621-093545-28",
+    "P09-20240621-093545-29",
+    "P09-20240621-093545-30",
+    "P09-20240621-093545-32",
+    "P09-20240621-093545-33",
+    "P09-20240621-093545-34",
+    "P09-20240621-093545-35"
+   ],
+   "rationale": "The person moves yogurt cups around to organize the fridge shelf before closing the door and walking away."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Retrieve the chopping board and knife",
+   "action_ids": [
+    "P09-20240621-093545-80",
+    "P09-20240621-093545-81",
+    "P09-20240621-093545-82",
+    "P09-20240621-093545-83",
+    "P09-20240621-093545-84"
+   ],
+   "rationale": "The person gets a chopping board from the drawer and a knife from the countertop to prepare for cutting."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Open the chicken package and extract the chicken breasts",
+   "action_ids": [
+    "P09-20240621-093545-85",
+    "P09-20240621-093545-86",
+    "P09-20240621-093545-87",
+    "P09-20240621-093545-88",
+    "P09-20240621-093545-89",
+    "P09-20240621-093545-90",
+    "P09-20240621-093545-91",
+    "P09-20240621-093545-92",
+    "P09-20240621-093545-93",
+    "P09-20240621-093545-94",
+    "P09-20240621-093545-95",
+    "P09-20240621-093545-96",
+    "P09-20240621-093545-98",
+    "P09-20240621-093545-97",
+    "P09-20240621-093545-100",
+    "P09-20240621-093545-101",
+    "P09-20240621-093545-102",
+    "P09-20240621-093545-103",
+    "P09-20240621-093545-104"
+   ],
+   "rationale": "The person cuts open the plastic packaging and pulls out the frozen chicken breasts."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Wash the whole chicken breasts",
+   "action_ids": [
+    "P09-20240621-093545-106",
+    "P09-20240621-093545-107",
+    "P09-20240621-093545-109",
+    "P09-20240621-093545-111",
+    "P09-20240621-093545-112",
+    "P09-20240621-093545-114",
+    "P09-20240621-093545-113",
+    "P09-20240621-093545-115",
+    "P09-20240621-093545-116",
+    "P09-20240621-093545-117",
+    "P09-20240621-093545-118",
+    "P09-20240621-093545-119"
+   ],
+   "rationale": "The person turns on the tap and washes the chicken breasts under running water."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Submerge the chicken breasts in a bowl of water to defrost",
+   "action_ids": [
+    "P09-20240621-093545-120",
+    "P09-20240621-093545-121",
+    "P09-20240621-093545-123",
+    "P09-20240621-093545-122",
+    "P09-20240621-093545-124",
+    "P09-20240621-093545-125",
+    "P09-20240621-093545-126",
+    "P09-20240621-093545-127",
+    "P09-20240621-093545-128",
+    "P09-20240621-093545-129",
+    "P09-20240621-093545-130",
+    "P09-20240621-093545-131",
+    "P09-20240621-093545-132",
+    "P09-20240621-093545-133",
+    "P09-20240621-093545-134",
+    "P09-20240621-093545-135",
+    "P09-20240621-093545-136"
+   ],
+   "rationale": "The person retrieves a bowl, fills it with water, and places the chicken breasts inside to thaw."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Cut the first chicken breast into chunks",
+   "action_ids": [
+    "P09-20240621-093545-205",
+    "P09-20240621-093545-206",
+    "P09-20240621-093545-207",
+    "P09-20240621-093545-208",
+    "P09-20240621-093545-209",
+    "P09-20240621-093545-210",
+    "P09-20240621-093545-211",
+    "P09-20240621-093545-212",
+    "P09-20240621-093545-213",
+    "P09-20240621-093545-214",
+    "P09-20240621-093545-215",
+    "P09-20240621-093545-216",
+    "P09-20240621-093545-217"
+   ],
+   "rationale": "The person uses a knife to slice and dice the first chicken breast on the chopping board."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Cut the second chicken breast into chunks and transfer to a bowl",
+   "action_ids": [
+    "P09-20240621-093545-255",
+    "P09-20240621-093545-256",
+    "P09-20240621-093545-257",
+    "P09-20240621-093545-258",
+    "P09-20240621-093545-259",
+    "P09-20240621-093545-260",
+    "P09-20240621-093545-263",
+    "P09-20240621-093545-261",
+    "P09-20240621-093545-262",
+    "P09-20240621-093545-264",
+    "P09-20240621-093545-265",
+    "P09-20240621-093545-266",
+    "P09-20240621-093545-267"
+   ],
+   "rationale": "The person cuts the remaining chicken breast into smaller pieces and places all the cut chunks into a bowl."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Rinse and drain the cut chicken chunks",
+   "action_ids": [
+    "P09-20240621-093545-268",
+    "P09-20240621-093545-269",
+    "P09-20240621-093545-270",
+    "P09-20240621-093545-271",
+    "P09-20240621-093545-272",
+    "P09-20240621-093545-273",
+    "P09-20240621-093545-274",
+    "P09-20240621-093545-275"
+   ],
+   "rationale": "The person washes the diced chicken in the bowl under the tap and drains the excess water."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Place the chicken chunks in a pot with water",
+   "action_ids": [
+    "P09-20240621-093545-289",
+    "P09-20240621-093545-290",
+    "P09-20240621-093545-291",
+    "P09-20240621-093545-292",
+    "P09-20240621-093545-355",
+    "P09-20240621-093545-356",
+    "P09-20240621-093545-357",
+    "P09-20240621-093545-358",
+    "P09-20240621-093545-359",
+    "P09-20240621-093545-360",
+    "P09-20240621-093545-361",
+    "P09-20240621-093545-362",
+    "P09-20240621-093545-363",
+    "P09-20240621-093545-364",
+    "P09-20240621-093545-365"
+   ],
+   "rationale": "The person retrieves a pot, transfers the chicken chunks into it, and fills it with water for boiling."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Boil and stir the chicken chunks",
+   "action_ids": [
+    "P09-20240621-093545-468",
+    "P09-20240621-093545-469",
+    "P09-20240621-093545-474",
+    "P09-20240621-093545-475",
+    "P09-20240621-093545-476",
+    "P09-20240621-093545-477",
+    "P09-20240621-093545-478",
+    "P09-20240621-093545-479",
+    "P09-20240621-093545-480",
+    "P09-20240621-093545-481",
+    "P09-20240621-093545-482",
+    "P09-20240621-093545-483"
+   ],
+   "rationale": "The person stirs the boiling chicken, drains some water, wipes the pot, and returns it to the heat."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Drain the boiled chicken chunks using a colander",
+   "action_ids": [
+    "P09-20240621-093545-484",
+    "P09-20240621-093545-496",
+    "P09-20240621-093545-497",
+    "P09-20240621-093545-498",
+    "P09-20240621-093545-499",
+    "P09-20240621-093545-500",
+    "P09-20240621-093545-501",
+    "P09-20240621-093545-502",
+    "P09-20240621-093545-503",
+    "P09-20240621-093545-504",
+    "P09-20240621-093545-505",
+    "P09-20240621-093545-515",
+    "P09-20240621-093545-516",
+    "P09-20240621-093545-517",
+    "P09-20240621-093545-518"
+   ],
+   "rationale": "The person retrieves a colander, pours the boiled chicken into it to drain the water, and transfers the meat to a bowl."
+  },
+  {
+   "goal_id": "e13",
+   "description": "Add the cooked chicken chunks to the main dish",
+   "action_ids": [
+    "P09-20240621-093545-606",
+    "P09-20240621-093545-607",
+    "P09-20240621-093545-608"
+   ],
+   "rationale": "The person pours the cooked chicken chunks from the bowl into the main cooking pot."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P09-20240621-093545-334",
+  "P09-20240621-093545-335",
+  "P09-20240621-093545-350",
+  "P09-20240621-093545-351",
+  "P09-20240621-093545-352",
+  "P09-20240621-093545-466"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

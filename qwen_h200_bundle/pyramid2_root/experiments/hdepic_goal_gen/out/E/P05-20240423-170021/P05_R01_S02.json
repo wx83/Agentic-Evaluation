@@ -1,0 +1,388 @@
+{
+ "overall_goal": "Chop and fry the onions, then add the whole spices and chillies",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Get chopping board and knife",
+   "action_ids": [
+    "P05-20240423-170021-12",
+    "P05-20240423-170021-13",
+    "P05-20240423-170021-14",
+    "P05-20240423-170021-15",
+    "P05-20240423-170021-16",
+    "P05-20240423-170021-17",
+    "P05-20240423-170021-18",
+    "P05-20240423-170021-19",
+    "P05-20240423-170021-20"
+   ],
+   "rationale": "The person opens the drawer, takes out the chopping board and knife, and places them on the counter."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Gather onions",
+   "action_ids": [
+    "P05-20240423-170021-21",
+    "P05-20240423-170021-22",
+    "P05-20240423-170021-23",
+    "P05-20240423-170021-24",
+    "P05-20240423-170021-25",
+    "P05-20240423-170021-26",
+    "P05-20240423-170021-27",
+    "P05-20240423-170021-28",
+    "P05-20240423-170021-29",
+    "P05-20240423-170021-30"
+   ],
+   "rationale": "The person selects multiple onions from the basket and places them on the counter next to the chopping board."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Halve the first onion",
+   "action_ids": [
+    "P05-20240423-170021-31",
+    "P05-20240423-170021-32",
+    "P05-20240423-170021-33",
+    "P05-20240423-170021-34",
+    "P05-20240423-170021-35",
+    "P05-20240423-170021-36",
+    "P05-20240423-170021-37",
+    "P05-20240423-170021-38",
+    "P05-20240423-170021-39",
+    "P05-20240423-170021-40"
+   ],
+   "rationale": "The person removes excess peel, chops the first onion down the middle, and prepares to peel it."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Peel and trim the first onion",
+   "action_ids": [
+    "P05-20240423-170021-41",
+    "P05-20240423-170021-42",
+    "P05-20240423-170021-43",
+    "P05-20240423-170021-44",
+    "P05-20240423-170021-45",
+    "P05-20240423-170021-46",
+    "P05-20240423-170021-47",
+    "P05-20240423-170021-48",
+    "P05-20240423-170021-49",
+    "P05-20240423-170021-50",
+    "P05-20240423-170021-51"
+   ],
+   "rationale": "The person peels the outer layers off the first onion halves, clears the peel, and chops off the roots."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Peel and trim the second onion",
+   "action_ids": [
+    "P05-20240423-170021-52",
+    "P05-20240423-170021-53",
+    "P05-20240423-170021-54",
+    "P05-20240423-170021-55",
+    "P05-20240423-170021-56",
+    "P05-20240423-170021-57",
+    "P05-20240423-170021-58",
+    "P05-20240423-170021-59",
+    "P05-20240423-170021-60",
+    "P05-20240423-170021-61",
+    "P05-20240423-170021-62",
+    "P05-20240423-170021-63",
+    "P05-20240423-170021-64",
+    "P05-20240423-170021-65",
+    "P05-20240423-170021-66",
+    "P05-20240423-170021-67",
+    "P05-20240423-170021-68",
+    "P05-20240423-170021-69",
+    "P05-20240423-170021-70"
+   ],
+   "rationale": "The person peels the skin off the second onion halves, clears the board, and chops off the ends."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Peel the third onion",
+   "action_ids": [
+    "P05-20240423-170021-71",
+    "P05-20240423-170021-72",
+    "P05-20240423-170021-73",
+    "P05-20240423-170021-74",
+    "P05-20240423-170021-75",
+    "P05-20240423-170021-76",
+    "P05-20240423-170021-77",
+    "P05-20240423-170021-78",
+    "P05-20240423-170021-79",
+    "P05-20240423-170021-80",
+    "P05-20240423-170021-81",
+    "P05-20240423-170021-82",
+    "P05-20240423-170021-83",
+    "P05-20240423-170021-84"
+   ],
+   "rationale": "The person struggles to peel the outer layers of the third onion, using their fingernails to remove the stubborn skin."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Trim the third onion and clean the chopping board",
+   "action_ids": [
+    "P05-20240423-170021-85",
+    "P05-20240423-170021-86",
+    "P05-20240423-170021-87",
+    "P05-20240423-170021-88",
+    "P05-20240423-170021-89",
+    "P05-20240423-170021-90",
+    "P05-20240423-170021-91",
+    "P05-20240423-170021-92",
+    "P05-20240423-170021-93",
+    "P05-20240423-170021-94"
+   ],
+   "rationale": "The person chops the ends off the third onion, clears the remaining skin from the board and knife, and prepares a clean surface."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Slice the first onion and add to pan",
+   "action_ids": [
+    "P05-20240423-170021-96",
+    "P05-20240423-170021-97",
+    "P05-20240423-170021-98",
+    "P05-20240423-170021-99",
+    "P05-20240423-170021-100",
+    "P05-20240423-170021-101",
+    "P05-20240423-170021-102",
+    "P05-20240423-170021-108",
+    "P05-20240423-170021-109",
+    "P05-20240423-170021-110",
+    "P05-20240423-170021-111",
+    "P05-20240423-170021-112",
+    "P05-20240423-170021-113",
+    "P05-20240423-170021-114",
+    "P05-20240423-170021-115",
+    "P05-20240423-170021-116",
+    "P05-20240423-170021-117",
+    "P05-20240423-170021-118",
+    "P05-20240423-170021-119",
+    "P05-20240423-170021-120"
+   ],
+   "rationale": "The person slices the first onion, discards the root, and slides the chopped pieces into the pan."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Slice the second onion and add to pan",
+   "action_ids": [
+    "P05-20240423-170021-123",
+    "P05-20240423-170021-124",
+    "P05-20240423-170021-125",
+    "P05-20240423-170021-126",
+    "P05-20240423-170021-127",
+    "P05-20240423-170021-128",
+    "P05-20240423-170021-129",
+    "P05-20240423-170021-130",
+    "P05-20240423-170021-131",
+    "P05-20240423-170021-132",
+    "P05-20240423-170021-133",
+    "P05-20240423-170021-134",
+    "P05-20240423-170021-135",
+    "P05-20240423-170021-136",
+    "P05-20240423-170021-137",
+    "P05-20240423-170021-138"
+   ],
+   "rationale": "The person slices the second onion, chops it into smaller chunks, and scrapes it into the pan."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Slice the third onion and add to pan",
+   "action_ids": [
+    "P05-20240423-170021-139",
+    "P05-20240423-170021-140",
+    "P05-20240423-170021-141",
+    "P05-20240423-170021-142",
+    "P05-20240423-170021-143",
+    "P05-20240423-170021-144",
+    "P05-20240423-170021-145",
+    "P05-20240423-170021-146",
+    "P05-20240423-170021-147",
+    "P05-20240423-170021-148",
+    "P05-20240423-170021-149",
+    "P05-20240423-170021-150",
+    "P05-20240423-170021-151",
+    "P05-20240423-170021-152",
+    "P05-20240423-170021-153",
+    "P05-20240423-170021-154",
+    "P05-20240423-170021-155",
+    "P05-20240423-170021-156"
+   ],
+   "rationale": "The person slices the third onion, discards the root, and scrapes the pieces from the chopping board into the pan."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Slice the fourth onion and add to pan",
+   "action_ids": [
+    "P05-20240423-170021-158",
+    "P05-20240423-170021-159",
+    "P05-20240423-170021-160",
+    "P05-20240423-170021-161",
+    "P05-20240423-170021-162",
+    "P05-20240423-170021-163",
+    "P05-20240423-170021-164",
+    "P05-20240423-170021-165",
+    "P05-20240423-170021-167",
+    "P05-20240423-170021-168",
+    "P05-20240423-170021-169",
+    "P05-20240423-170021-170",
+    "P05-20240423-170021-171",
+    "P05-20240423-170021-172",
+    "P05-20240423-170021-173",
+    "P05-20240423-170021-174"
+   ],
+   "rationale": "The person slices the fourth onion, removes remaining skin, discards the root, and scrapes the pieces into the pan."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Slice the fifth onion and add to pan",
+   "action_ids": [
+    "P05-20240423-170021-175",
+    "P05-20240423-170021-176",
+    "P05-20240423-170021-177",
+    "P05-20240423-170021-178",
+    "P05-20240423-170021-179",
+    "P05-20240423-170021-180",
+    "P05-20240423-170021-181",
+    "P05-20240423-170021-182",
+    "P05-20240423-170021-183"
+   ],
+   "rationale": "The person slices the final onion, discards the root, and scrapes the remaining pieces into the pan."
+  },
+  {
+   "goal_id": "e13",
+   "description": "Stir the onions in the pan",
+   "action_ids": [
+    "P05-20240423-170021-188",
+    "P05-20240423-170021-189",
+    "P05-20240423-170021-203",
+    "P05-20240423-170021-204"
+   ],
+   "rationale": "The person retrieves a wooden spoon and stirs the onions in the pan to prevent them from sticking and burning."
+  },
+  {
+   "goal_id": "e14",
+   "description": "Retrieve and chop chillies",
+   "action_ids": [
+    "P05-20240423-170021-206",
+    "P05-20240423-170021-207",
+    "P05-20240423-170021-208",
+    "P05-20240423-170021-209",
+    "P05-20240423-170021-210",
+    "P05-20240423-170021-211",
+    "P05-20240423-170021-212",
+    "P05-20240423-170021-213",
+    "P05-20240423-170021-214",
+    "P05-20240423-170021-215",
+    "P05-20240423-170021-216",
+    "P05-20240423-170021-217",
+    "P05-20240423-170021-218",
+    "P05-20240423-170021-219",
+    "P05-20240423-170021-220",
+    "P05-20240423-170021-221",
+    "P05-20240423-170021-222",
+    "P05-20240423-170021-223",
+    "P05-20240423-170021-224",
+    "P05-20240423-170021-225"
+   ],
+   "rationale": "The person gets a packet of chillies from the freezer, selects a few, slices off the stalks, and chops them into smaller pieces."
+  },
+  {
+   "goal_id": "e15",
+   "description": "Gather spices from the cupboard",
+   "action_ids": [
+    "P05-20240423-170021-239",
+    "P05-20240423-170021-240",
+    "P05-20240423-170021-241",
+    "P05-20240423-170021-242",
+    "P05-20240423-170021-243",
+    "P05-20240423-170021-244",
+    "P05-20240423-170021-245",
+    "P05-20240423-170021-246"
+   ],
+   "rationale": "The person retrieves various spice pots, including curry powder, chilli powder, and smoked paprika, from the cupboard."
+  },
+  {
+   "goal_id": "e16",
+   "description": "Add whole spices to the pan and stir",
+   "action_ids": [
+    "P05-20240423-170021-248",
+    "P05-20240423-170021-249",
+    "P05-20240423-170021-253",
+    "P05-20240423-170021-254",
+    "P05-20240423-170021-255",
+    "P05-20240423-170021-256",
+    "P05-20240423-170021-257",
+    "P05-20240423-170021-258",
+    "P05-20240423-170021-261",
+    "P05-20240423-170021-262",
+    "P05-20240423-170021-263",
+    "P05-20240423-170021-265",
+    "P05-20240423-170021-266"
+   ],
+   "rationale": "The person shakes the pan, opens the cinnamon and cardamom pots, adds the whole spices to the onions, and stirs them in."
+  },
+  {
+   "goal_id": "e17",
+   "description": "Measure ground spices into a bowl",
+   "action_ids": [
+    "P05-20240423-170021-267",
+    "P05-20240423-170021-268",
+    "P05-20240423-170021-269",
+    "P05-20240423-170021-270",
+    "P05-20240423-170021-271",
+    "P05-20240423-170021-272",
+    "P05-20240423-170021-273",
+    "P05-20240423-170021-274",
+    "P05-20240423-170021-275",
+    "P05-20240423-170021-276",
+    "P05-20240423-170021-277",
+    "P05-20240423-170021-278",
+    "P05-20240423-170021-279",
+    "P05-20240423-170021-280",
+    "P05-20240423-170021-281",
+    "P05-20240423-170021-282",
+    "P05-20240423-170021-283",
+    "P05-20240423-170021-284",
+    "P05-20240423-170021-285"
+   ],
+   "rationale": "The person gets measuring spoons and a bowl, then measures out portions of curry powder and chilli powder."
+  },
+  {
+   "goal_id": "e18",
+   "description": "Stir the pan with onions and whole spices",
+   "action_ids": [
+    "P05-20240423-170021-311",
+    "P05-20240423-170021-312",
+    "P05-20240423-170021-313",
+    "P05-20240423-170021-340",
+    "P05-20240423-170021-341",
+    "P05-20240423-170021-356",
+    "P05-20240423-170021-357"
+   ],
+   "rationale": "The person repeatedly stirs and shakes the pan to ensure the onions and whole spices cook evenly without sticking."
+  },
+  {
+   "goal_id": "e19",
+   "description": "Add chopped chillies and garlic to the pan and stir",
+   "action_ids": [
+    "P05-20240423-170021-388",
+    "P05-20240423-170021-389",
+    "P05-20240423-170021-399",
+    "P05-20240423-170021-400",
+    "P05-20240423-170021-401"
+   ],
+   "rationale": "The person scrapes the chopped chillies and frozen garlic into the pan, then stirs and breaks up the garlic."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P05-20240423-170021-6",
+  "P05-20240423-170021-7",
+  "P05-20240423-170021-8",
+  "P05-20240423-170021-11",
+  "P05-20240423-170021-95",
+  "P05-20240423-170021-157"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

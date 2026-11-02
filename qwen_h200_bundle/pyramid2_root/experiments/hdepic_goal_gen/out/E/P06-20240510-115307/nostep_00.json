@@ -1,0 +1,201 @@
+{
+ "overall_goal": "Prepare ingredients, record their weights, and perform miscellaneous kitchen tasks",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Close and store the curry box",
+   "action_ids": [
+    "P06-20240510-115307-1",
+    "P06-20240510-115307-2",
+    "P06-20240510-115307-3",
+    "P06-20240510-115307-4",
+    "P06-20240510-115307-5",
+    "P06-20240510-115307-6"
+   ],
+   "rationale": "The person places the lid on the curry box, closes it securely, and sets it aside on the tabletop."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Prepare green chilies",
+   "action_ids": [
+    "P06-20240510-115307-25",
+    "P06-20240510-115307-26",
+    "P06-20240510-115307-27",
+    "P06-20240510-115307-28",
+    "P06-20240510-115307-29",
+    "P06-20240510-115307-31",
+    "P06-20240510-115307-30",
+    "P06-20240510-115307-32",
+    "P06-20240510-115307-41"
+   ],
+   "rationale": "The person takes green chilies from a bag, removes their stalks, and places them on a plate."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Dry hands",
+   "action_ids": [
+    "P06-20240510-115307-42",
+    "P06-20240510-115307-43",
+    "P06-20240510-115307-44"
+   ],
+   "rationale": "The person picks up a tablecloth and uses it to wipe water from their hands."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Weigh and record the ingredients",
+   "action_ids": [
+    "P06-20240510-115307-45",
+    "P06-20240510-115307-46",
+    "P06-20240510-115307-47",
+    "P06-20240510-115307-48",
+    "P06-20240510-115307-51",
+    "P06-20240510-115307-50",
+    "P06-20240510-115307-52",
+    "P06-20240510-115307-70",
+    "P06-20240510-115307-71",
+    "P06-20240510-115307-72",
+    "P06-20240510-115307-73",
+    "P06-20240510-115307-75",
+    "P06-20240510-115307-76",
+    "P06-20240510-115307-77",
+    "P06-20240510-115307-78",
+    "P06-20240510-115307-79",
+    "P06-20240510-115307-80"
+   ],
+   "rationale": "The person uses a weighing balance and a notebook to measure and log the weights of the tomato, onion, and green chilies."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Chop the green chilies",
+   "action_ids": [
+    "P06-20240510-115307-133",
+    "P06-20240510-115307-134",
+    "P06-20240510-115307-135",
+    "P06-20240510-115307-136",
+    "P06-20240510-115307-137",
+    "P06-20240510-115307-138",
+    "P06-20240510-115307-139",
+    "P06-20240510-115307-141",
+    "P06-20240510-115307-140",
+    "P06-20240510-115307-142",
+    "P06-20240510-115307-143"
+   ],
+   "rationale": "The person uses a knife to chop the green chilies on the chopping board."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Get and weigh the garlic",
+   "action_ids": [
+    "P06-20240510-115307-144",
+    "P06-20240510-115307-145",
+    "P06-20240510-115307-146",
+    "P06-20240510-115307-147",
+    "P06-20240510-115307-148",
+    "P06-20240510-115307-149",
+    "P06-20240510-115307-150",
+    "P06-20240510-115307-151",
+    "P06-20240510-115307-152",
+    "P06-20240510-115307-153",
+    "P06-20240510-115307-154",
+    "P06-20240510-115307-155",
+    "P06-20240510-115307-156",
+    "P06-20240510-115307-157",
+    "P06-20240510-115307-158"
+   ],
+   "rationale": "The person retrieves garlic from a drawer, separates a clove, and records its weight using the balance and notebook."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Peel and chop the garlic",
+   "action_ids": [
+    "P06-20240510-115307-160",
+    "P06-20240510-115307-161",
+    "P06-20240510-115307-162",
+    "P06-20240510-115307-163",
+    "P06-20240510-115307-164",
+    "P06-20240510-115307-165",
+    "P06-20240510-115307-166",
+    "P06-20240510-115307-167",
+    "P06-20240510-115307-168",
+    "P06-20240510-115307-169",
+    "P06-20240510-115307-170",
+    "P06-20240510-115307-171",
+    "P06-20240510-115307-172",
+    "P06-20240510-115307-173",
+    "P06-20240510-115307-174",
+    "P06-20240510-115307-175",
+    "P06-20240510-115307-176",
+    "P06-20240510-115307-177"
+   ],
+   "rationale": "The person peels the garlic clove, discards the peels, and chops the garlic into fine pieces."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Water the plant",
+   "action_ids": [
+    "P06-20240510-115307-183",
+    "P06-20240510-115307-184",
+    "P06-20240510-115307-185",
+    "P06-20240510-115307-186",
+    "P06-20240510-115307-187",
+    "P06-20240510-115307-188",
+    "P06-20240510-115307-189",
+    "P06-20240510-115307-190",
+    "P06-20240510-115307-191",
+    "P06-20240510-115307-192",
+    "P06-20240510-115307-193",
+    "P06-20240510-115307-194"
+   ],
+   "rationale": "The person takes a plant pot to the sink, waters it, washes its plastic box, and places the pot back into the box."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P06-20240510-115307-195",
+    "P06-20240510-115307-196",
+    "P06-20240510-115307-197",
+    "P06-20240510-115307-198",
+    "P06-20240510-115307-199",
+    "P06-20240510-115307-200",
+    "P06-20240510-115307-201"
+   ],
+   "rationale": "The person washes their hands in the sink, shakes off excess water, and dries them with a tablecloth."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Weigh and record the butter",
+   "action_ids": [
+    "P06-20240510-115307-202",
+    "P06-20240510-115307-206",
+    "P06-20240510-115307-207",
+    "P06-20240510-115307-208",
+    "P06-20240510-115307-209",
+    "P06-20240510-115307-210",
+    "P06-20240510-115307-211",
+    "P06-20240510-115307-212",
+    "P06-20240510-115307-219",
+    "P06-20240510-115307-220"
+   ],
+   "rationale": "The person prepares the weighing balance, tares a spoon, and records the weight of the butter in the notebook."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P06-20240510-115307-7",
+  "P06-20240510-115307-8",
+  "P06-20240510-115307-9",
+  "P06-20240510-115307-10",
+  "P06-20240510-115307-12",
+  "P06-20240510-115307-16",
+  "P06-20240510-115307-19",
+  "P06-20240510-115307-33",
+  "P06-20240510-115307-69",
+  "P06-20240510-115307-159",
+  "P06-20240510-115307-178",
+  "P06-20240510-115307-218"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

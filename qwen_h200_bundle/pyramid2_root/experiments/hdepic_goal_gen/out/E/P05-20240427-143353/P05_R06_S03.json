@@ -1,0 +1,211 @@
+{
+ "overall_goal": "Prepare the vegetables and nuts, and fry them in batches in the pan.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve vegetables from the fridge",
+   "action_ids": [
+    "P05-20240427-143353-89",
+    "P05-20240427-143353-90",
+    "P05-20240427-143353-91",
+    "P05-20240427-143353-92",
+    "P05-20240427-143353-93",
+    "P05-20240427-143353-94"
+   ],
+   "rationale": "The person opens the fridge, takes out carrots and spring onions, and places them on the counter."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve chopping tools",
+   "action_ids": [
+    "P05-20240427-143353-122",
+    "P05-20240427-143353-123",
+    "P05-20240427-143353-124",
+    "P05-20240427-143353-125",
+    "P05-20240427-143353-126",
+    "P05-20240427-143353-127"
+   ],
+   "rationale": "The person gets a knife and a chopping board from the drawers and places them on the counter."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Retrieve and halve the red onion",
+   "action_ids": [
+    "P05-20240427-143353-128",
+    "P05-20240427-143353-129",
+    "P05-20240427-143353-130",
+    "P05-20240427-143353-131",
+    "P05-20240427-143353-132",
+    "P05-20240427-143353-133"
+   ],
+   "rationale": "The person takes a red onion, cuts it in half, and puts one half back in the basket."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Peel and chop the red onion half",
+   "action_ids": [
+    "P05-20240427-143353-134",
+    "P05-20240427-143353-135",
+    "P05-20240427-143353-136",
+    "P05-20240427-143353-137",
+    "P05-20240427-143353-138",
+    "P05-20240427-143353-139",
+    "P05-20240427-143353-140",
+    "P05-20240427-143353-141",
+    "P05-20240427-143353-142",
+    "P05-20240427-143353-143",
+    "P05-20240427-143353-144",
+    "P05-20240427-143353-145",
+    "P05-20240427-143353-146",
+    "P05-20240427-143353-147",
+    "P05-20240427-143353-148"
+   ],
+   "rationale": "The person removes the skin and ends of the onion half, chops it into quarters, and clears the board."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Trim the bad parts off the carrots",
+   "action_ids": [
+    "P05-20240427-143353-149",
+    "P05-20240427-143353-150",
+    "P05-20240427-143353-151",
+    "P05-20240427-143353-152",
+    "P05-20240427-143353-153",
+    "P05-20240427-143353-154",
+    "P05-20240427-143353-155",
+    "P05-20240427-143353-156",
+    "P05-20240427-143353-157",
+    "P05-20240427-143353-158"
+   ],
+   "rationale": "The person inspects the carrots and chops off any bad bits before slicing."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Slice the carrots and discard the ends",
+   "action_ids": [
+    "P05-20240427-143353-159",
+    "P05-20240427-143353-160",
+    "P05-20240427-143353-161",
+    "P05-20240427-143353-162",
+    "P05-20240427-143353-163",
+    "P05-20240427-143353-164",
+    "P05-20240427-143353-165",
+    "P05-20240427-143353-166",
+    "P05-20240427-143353-167",
+    "P05-20240427-143353-168",
+    "P05-20240427-143353-169",
+    "P05-20240427-143353-171",
+    "P05-20240427-143353-170"
+   ],
+   "rationale": "The person slices the carrots into pieces and throws away the unwanted root ends."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Prepare and slice the spring onions",
+   "action_ids": [
+    "P05-20240427-143353-172",
+    "P05-20240427-143353-173",
+    "P05-20240427-143353-174",
+    "P05-20240427-143353-175",
+    "P05-20240427-143353-176",
+    "P05-20240427-143353-177",
+    "P05-20240427-143353-178",
+    "P05-20240427-143353-179",
+    "P05-20240427-143353-180",
+    "P05-20240427-143353-181",
+    "P05-20240427-143353-182",
+    "P05-20240427-143353-183",
+    "P05-20240427-143353-184",
+    "P05-20240427-143353-185",
+    "P05-20240427-143353-186",
+    "P05-20240427-143353-187",
+    "P05-20240427-143353-218",
+    "P05-20240427-143353-219"
+   ],
+   "rationale": "The person removes the elastic band, trims the bad parts and ends off the spring onions, and slices them."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Retrieve, peel, and chop the garlic",
+   "action_ids": [
+    "P05-20240427-143353-222",
+    "P05-20240427-143353-223",
+    "P05-20240427-143353-224",
+    "P05-20240427-143353-225",
+    "P05-20240427-143353-226",
+    "P05-20240427-143353-227",
+    "P05-20240427-143353-228",
+    "P05-20240427-143353-229",
+    "P05-20240427-143353-230",
+    "P05-20240427-143353-231",
+    "P05-20240427-143353-232",
+    "P05-20240427-143353-233",
+    "P05-20240427-143353-234",
+    "P05-20240427-143353-235",
+    "P05-20240427-143353-236",
+    "P05-20240427-143353-237",
+    "P05-20240427-143353-238",
+    "P05-20240427-143353-239"
+   ],
+   "rationale": "The person takes a clove of garlic, crushes it to remove the skin, and slices it."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Open the packet of cashew nuts",
+   "action_ids": [
+    "P05-20240427-143353-387",
+    "P05-20240427-143353-388",
+    "P05-20240427-143353-389",
+    "P05-20240427-143353-390",
+    "P05-20240427-143353-391"
+   ],
+   "rationale": "The person uses a knife to cut open the cashew nut packet and discards the top corner."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Add the chopped vegetables to the pan in batches",
+   "action_ids": [
+    "P05-20240427-143353-429",
+    "P05-20240427-143353-430",
+    "P05-20240427-143353-431",
+    "P05-20240427-143353-432",
+    "P05-20240427-143353-433",
+    "P05-20240427-143353-434",
+    "P05-20240427-143353-436",
+    "P05-20240427-143353-437",
+    "P05-20240427-143353-438",
+    "P05-20240427-143353-439",
+    "P05-20240427-143353-440",
+    "P05-20240427-143353-441",
+    "P05-20240427-143353-442",
+    "P05-20240427-143353-443",
+    "P05-20240427-143353-444",
+    "P05-20240427-143353-445"
+   ],
+   "rationale": "The person retrieves a spatula, removes the pan lid, and carefully adds portions of the chopped carrots and onions to the pan."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Stir and fry the vegetables in the pan",
+   "action_ids": [
+    "P05-20240427-143353-446",
+    "P05-20240427-143353-458",
+    "P05-20240427-143353-459",
+    "P05-20240427-143353-471",
+    "P05-20240427-143353-472",
+    "P05-20240427-143353-473",
+    "P05-20240427-143353-489",
+    "P05-20240427-143353-494",
+    "P05-20240427-143353-495"
+   ],
+   "rationale": "The person shakes the pan and uses the spatula to stir the vegetables to ensure they fry evenly."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P05-20240427-143353-447"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

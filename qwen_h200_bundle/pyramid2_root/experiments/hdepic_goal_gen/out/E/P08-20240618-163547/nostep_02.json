@@ -1,0 +1,236 @@
+{
+ "overall_goal": "Clean dishes, manage food scraps, log ingredient nutritional values, and stir the cooking onions",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Add onions to the wok and stir them",
+   "action_ids": [
+    "P08-20240618-163547-504",
+    "P08-20240618-163547-505",
+    "P08-20240618-163547-506",
+    "P08-20240618-163547-507",
+    "P08-20240618-163547-514"
+   ],
+   "rationale": "The person transfers the onions into the wok and shakes it to start cooking."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Prepare and add chilli pepper to the pot",
+   "action_ids": [
+    "P08-20240618-163547-521",
+    "P08-20240618-163547-522",
+    "P08-20240618-163547-523",
+    "P08-20240618-163547-524",
+    "P08-20240618-163547-525"
+   ],
+   "rationale": "The person selects a chilli pepper, cuts it into pieces, and adds it to the pot."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Log the nutritional value of the chilli pepper",
+   "action_ids": [
+    "P08-20240618-163547-526",
+    "P08-20240618-163547-527",
+    "P08-20240618-163547-528"
+   ],
+   "rationale": "The person uses their phone to update the nutritional information for the chilli pepper."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Put away leftover ingredients in the refrigerator",
+   "action_ids": [
+    "P08-20240618-163547-533",
+    "P08-20240618-163547-534",
+    "P08-20240618-163547-535",
+    "P08-20240618-163547-536",
+    "P08-20240618-163547-537",
+    "P08-20240618-163547-538",
+    "P08-20240618-163547-539"
+   ],
+   "rationale": "The person organizes the fridge and stores tupperware and mushrooms."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Prepare the sink and wash the knives",
+   "action_ids": [
+    "P08-20240618-163547-529",
+    "P08-20240618-163547-530",
+    "P08-20240618-163547-540",
+    "P08-20240618-163547-541",
+    "P08-20240618-163547-542",
+    "P08-20240618-163547-543",
+    "P08-20240618-163547-544",
+    "P08-20240618-163547-545",
+    "P08-20240618-163547-546",
+    "P08-20240618-163547-547",
+    "P08-20240618-163547-548",
+    "P08-20240618-163547-549",
+    "P08-20240618-163547-550",
+    "P08-20240618-163547-551",
+    "P08-20240618-163547-552",
+    "P08-20240618-163547-553",
+    "P08-20240618-163547-554"
+   ],
+   "rationale": "The person moves items to the sink, prepares the soapy sponge, and washes and dries the knives."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Wash the cutting board and colander",
+   "action_ids": [
+    "P08-20240618-163547-555",
+    "P08-20240618-163547-556",
+    "P08-20240618-163547-557",
+    "P08-20240618-163547-558",
+    "P08-20240618-163547-559",
+    "P08-20240618-163547-560",
+    "P08-20240618-163547-561",
+    "P08-20240618-163547-562",
+    "P08-20240618-163547-563",
+    "P08-20240618-163547-564",
+    "P08-20240618-163547-565",
+    "P08-20240618-163547-566",
+    "P08-20240618-163547-567",
+    "P08-20240618-163547-568"
+   ],
+   "rationale": "The person scrubs, rinses, and places the cutting board and colander on the drying rack."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Dispose of food scraps and wipe the kitchen counter",
+   "action_ids": [
+    "P08-20240618-163547-520",
+    "P08-20240618-163547-531",
+    "P08-20240618-163547-532",
+    "P08-20240618-163547-569",
+    "P08-20240618-163547-570",
+    "P08-20240618-163547-571",
+    "P08-20240618-163547-578",
+    "P08-20240618-163547-579",
+    "P08-20240618-163547-580",
+    "P08-20240618-163547-581",
+    "P08-20240618-163547-582",
+    "P08-20240618-163547-583",
+    "P08-20240618-163547-584"
+   ],
+   "rationale": "The person gathers food scraps into a bowl, empties them into the trash, and wipes the counter clean."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Wash the metal bowl",
+   "action_ids": [
+    "P08-20240618-163547-572",
+    "P08-20240618-163547-573",
+    "P08-20240618-163547-574",
+    "P08-20240618-163547-575",
+    "P08-20240618-163547-576",
+    "P08-20240618-163547-577"
+   ],
+   "rationale": "The person washes, rinses, and sets the metal bowl to dry."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Stir the onions in the wok",
+   "action_ids": [
+    "P08-20240618-163547-585",
+    "P08-20240618-163547-586",
+    "P08-20240618-163547-587",
+    "P08-20240618-163547-588"
+   ],
+   "rationale": "The person mixes the cooking onions and adjusts the stove temperature."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Wash the plates",
+   "action_ids": [
+    "P08-20240618-163547-592",
+    "P08-20240618-163547-593",
+    "P08-20240618-163547-594",
+    "P08-20240618-163547-595",
+    "P08-20240618-163547-596",
+    "P08-20240618-163547-597",
+    "P08-20240618-163547-598",
+    "P08-20240618-163547-599",
+    "P08-20240618-163547-600",
+    "P08-20240618-163547-601",
+    "P08-20240618-163547-602"
+   ],
+   "rationale": "The person brings small and large plates to the sink, washes them, and places them on the drying rack."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Gather ingredients for the sauce",
+   "action_ids": [
+    "P08-20240618-163547-603",
+    "P08-20240618-163547-604",
+    "P08-20240618-163547-605"
+   ],
+   "rationale": "The person retrieves chopped tomatoes, tomato sauce, and minced beef from the counter."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Stir the onions in the wok again",
+   "action_ids": [
+    "P08-20240618-163547-607",
+    "P08-20240618-163547-608",
+    "P08-20240618-163547-609",
+    "P08-20240618-163547-610",
+    "P08-20240618-163547-611",
+    "P08-20240618-163547-612",
+    "P08-20240618-163547-613"
+   ],
+   "rationale": "The person continues to mix the onions, wipes the sides of the wok, and shakes it."
+  },
+  {
+   "goal_id": "e13",
+   "description": "Log the nutritional value of the minced beef",
+   "action_ids": [
+    "P08-20240618-163547-616",
+    "P08-20240618-163547-617",
+    "P08-20240618-163547-618",
+    "P08-20240618-163547-619",
+    "P08-20240618-163547-620",
+    "P08-20240618-163547-621",
+    "P08-20240618-163547-622",
+    "P08-20240618-163547-623",
+    "P08-20240618-163547-624",
+    "P08-20240618-163547-625",
+    "P08-20240618-163547-633"
+   ],
+   "rationale": "The person scans the barcode on the minced beef packaging with their phone to record its nutritional data."
+  },
+  {
+   "goal_id": "e14",
+   "description": "Stir the onions in the wok once more",
+   "action_ids": [
+    "P08-20240618-163547-626",
+    "P08-20240618-163547-627",
+    "P08-20240618-163547-628",
+    "P08-20240618-163547-629"
+   ],
+   "rationale": "The person mixes the onions again to ensure they cook evenly."
+  },
+  {
+   "goal_id": "e15",
+   "description": "Log the nutritional value of the chopped tomatoes",
+   "action_ids": [
+    "P08-20240618-163547-634",
+    "P08-20240618-163547-635",
+    "P08-20240618-163547-636",
+    "P08-20240618-163547-637",
+    "P08-20240618-163547-638",
+    "P08-20240618-163547-639"
+   ],
+   "rationale": "The person uses their phone to scan the barcode on the can of chopped tomatoes."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P08-20240618-163547-518",
+  "P08-20240618-163547-519",
+  "P08-20240618-163547-606",
+  "P08-20240618-163547-615"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

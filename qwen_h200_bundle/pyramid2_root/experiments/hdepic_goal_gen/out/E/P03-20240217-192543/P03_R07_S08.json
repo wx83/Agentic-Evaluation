@@ -1,0 +1,63 @@
+{
+ "overall_goal": "Bake the pizza in the pizza oven, rotating it halfway through for even cooking",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Set up and plug in the pizza oven",
+   "action_ids": [
+    "P03-20240217-192543-724",
+    "P03-20240217-192543-725",
+    "P03-20240217-192543-726",
+    "P03-20240217-192543-727",
+    "P03-20240217-192543-728",
+    "P03-20240217-192543-729"
+   ],
+   "rationale": "The person retrieves the pizza oven, positions it on the counter, and plugs it into the power socket."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Check the pizza oven temperature and prepare it for baking",
+   "action_ids": [
+    "P03-20240217-192543-897",
+    "P03-20240217-192543-898",
+    "P03-20240217-192543-899",
+    "P03-20240217-192543-917",
+    "P03-20240217-192543-918",
+    "P03-20240217-192543-919",
+    "P03-20240217-192543-921",
+    "P03-20240217-192543-922"
+   ],
+   "rationale": "The person repeatedly checks the oven's temperature by adjusting the knobs and feeling the heat inside before leaving the lid open to insert the pizza."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Transfer the pizza into the oven and start the cooking timer",
+   "action_ids": [
+    "P03-20240217-192543-924",
+    "P03-20240217-192543-925",
+    "P03-20240217-192543-926",
+    "P03-20240217-192543-927"
+   ],
+   "rationale": "The person slides the pizza off the peel onto the oven stone, closes the lid, and sets the timer to begin cooking."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Rotate the pizza and absorb excess moisture during cooking",
+   "action_ids": [
+    "P03-20240217-192543-1012",
+    "P03-20240217-192543-1014",
+    "P03-20240217-192543-1015",
+    "P03-20240217-192543-1016",
+    "P03-20240217-192543-1017",
+    "P03-20240217-192543-1028",
+    "P03-20240217-192543-1029"
+   ],
+   "rationale": "The person uses spatulas to turn the pizza for even cooking and uses kitchen roll to dab away water released by the mozzarella."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

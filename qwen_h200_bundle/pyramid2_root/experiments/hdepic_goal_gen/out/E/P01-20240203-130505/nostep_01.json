@@ -1,0 +1,75 @@
+{
+ "overall_goal": "Finish cooking the meat, rearrange the stovetop, and clean up the workspace",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Check and finish cooking the minced meat",
+   "action_ids": [
+    "P01-20240203-130505-328",
+    "P01-20240203-130505-329",
+    "P01-20240203-130505-330",
+    "P01-20240203-130505-331",
+    "P01-20240203-130505-332",
+    "P01-20240203-130505-333",
+    "P01-20240203-130505-334",
+    "P01-20240203-130505-335",
+    "P01-20240203-130505-336",
+    "P01-20240203-130505-337",
+    "P01-20240203-130505-338"
+   ],
+   "rationale": "The person checks the meat by stirring it, then covers it and turns off the heat as it is ready."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Rearrange pans and items to free up space on the hob",
+   "action_ids": [
+    "P01-20240203-130505-339",
+    "P01-20240203-130505-341",
+    "P01-20240203-130505-340",
+    "P01-20240203-130505-342",
+    "P01-20240203-130505-343"
+   ],
+   "rationale": "The person moves pans and a mug to free up space on the hob and countertop."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Turn on and adjust the burner",
+   "action_ids": [
+    "P01-20240203-130505-344",
+    "P01-20240203-130505-345",
+    "P01-20240203-130505-346",
+    "P01-20240203-130505-347"
+   ],
+   "rationale": "The person turns on and adjusts the heat of a burner for the next cooking step."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Clear onion residue from the spatula",
+   "action_ids": [
+    "P01-20240203-130505-350",
+    "P01-20240203-130505-352",
+    "P01-20240203-130505-353",
+    "P01-20240203-130505-358",
+    "P01-20240203-130505-360",
+    "P01-20240203-130505-361"
+   ],
+   "rationale": "The person repeatedly picks up the spatula, taps it against the pot to remove stuck onion, and puts it down."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Pick up and dispose of food trash from the floor",
+   "action_ids": [
+    "P01-20240203-130505-354",
+    "P01-20240203-130505-355",
+    "P01-20240203-130505-356",
+    "P01-20240203-130505-357"
+   ],
+   "rationale": "The person picks up a piece of food trash from the floor and throws it into the food waste bin."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "overall_goal": "Measure chocolate buttons and butter into a pan.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve a knife and prepare the chocolate buttons.",
+   "action_ids": [
+    "P05-20240425-201444-71",
+    "P05-20240425-201444-72",
+    "P05-20240425-201444-73",
+    "P05-20240425-201444-74",
+    "P05-20240425-201444-75",
+    "P05-20240425-201444-76"
+   ],
+   "rationale": "The person gets a knife from the drawer and opens the jar of chocolate buttons to prepare for measuring."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Weigh the chocolate buttons into the pan.",
+   "action_ids": [
+    "P05-20240425-201444-77",
+    "P05-20240425-201444-78",
+    "P05-20240425-201444-79",
+    "P05-20240425-201444-81",
+    "P05-20240425-201444-85"
+   ],
+   "rationale": "The person pours and carefully adds individual chocolate buttons to reach the desired weight on the scale."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Cut and weigh the butter into the pan.",
+   "action_ids": [
+    "P05-20240425-201444-86",
+    "P05-20240425-201444-87",
+    "P05-20240425-201444-88",
+    "P05-20240425-201444-90",
+    "P05-20240425-201444-91",
+    "P05-20240425-201444-92",
+    "P05-20240425-201444-93",
+    "P05-20240425-201444-94",
+    "P05-20240425-201444-95",
+    "P05-20240425-201444-96",
+    "P05-20240425-201444-97",
+    "P05-20240425-201444-98",
+    "P05-20240425-201444-99"
+   ],
+   "rationale": "The person repeatedly cuts butter from the dish and adds it to the pan on the scale, then moves the pan to the cooker."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P05-20240425-201444-89"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

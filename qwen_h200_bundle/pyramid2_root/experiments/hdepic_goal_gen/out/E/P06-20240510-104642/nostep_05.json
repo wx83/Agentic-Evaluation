@@ -1,0 +1,111 @@
+{
+ "overall_goal": "Store leftover food and clean the kitchen utensils and surfaces",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Transfer curry to a storage container",
+   "action_ids": [
+    "P06-20240510-104642-1118",
+    "P06-20240510-104642-1119",
+    "P06-20240510-104642-1120",
+    "P06-20240510-104642-1121",
+    "P06-20240510-104642-1122",
+    "P06-20240510-104642-1123",
+    "P06-20240510-104642-1124",
+    "P06-20240510-104642-1125",
+    "P06-20240510-104642-1126",
+    "P06-20240510-104642-1131",
+    "P06-20240510-104642-1132"
+   ],
+   "rationale": "The person scoops the curry from the frying pan, places it into a plastic box, and moves the box aside for storage."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Prepare the frying pan for washing",
+   "action_ids": [
+    "P06-20240510-104642-1127",
+    "P06-20240510-104642-1128",
+    "P06-20240510-104642-1129",
+    "P06-20240510-104642-1130",
+    "P06-20240510-104642-1133"
+   ],
+   "rationale": "The person puts the dirty pan in the sink, adds dishwashing liquid, and runs water to soak it before washing."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Scrub the utensils with a soapy sponge",
+   "action_ids": [
+    "P06-20240510-104642-1134",
+    "P06-20240510-104642-1135",
+    "P06-20240510-104642-1136",
+    "P06-20240510-104642-1137",
+    "P06-20240510-104642-1138",
+    "P06-20240510-104642-1139",
+    "P06-20240510-104642-1140",
+    "P06-20240510-104642-1141",
+    "P06-20240510-104642-1142",
+    "P06-20240510-104642-1143",
+    "P06-20240510-104642-1144",
+    "P06-20240510-104642-1145",
+    "P06-20240510-104642-1146"
+   ],
+   "rationale": "The person applies soap to a sponge and thoroughly scrubs the dirty spatula and frying pan in the sink."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Rinse the washed utensils and place them in the drying tray",
+   "action_ids": [
+    "P06-20240510-104642-1147",
+    "P06-20240510-104642-1148",
+    "P06-20240510-104642-1149",
+    "P06-20240510-104642-1150",
+    "P06-20240510-104642-1151",
+    "P06-20240510-104642-1152",
+    "P06-20240510-104642-1153",
+    "P06-20240510-104642-1154"
+   ],
+   "rationale": "The person washes off the soap from the sponge, frying pan, and spatula under running water and sets the utensils in the crockery tray to dry."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P06-20240510-104642-1155",
+    "P06-20240510-104642-1156",
+    "P06-20240510-104642-1157",
+    "P06-20240510-104642-1158",
+    "P06-20240510-104642-1159",
+    "P06-20240510-104642-1161",
+    "P06-20240510-104642-1162",
+    "P06-20240510-104642-1163",
+    "P06-20240510-104642-1164"
+   ],
+   "rationale": "The person rinses their hands under the tap, shakes off excess water, and wipes them dry with a tablecloth before folding it."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Wipe the kitchen surfaces",
+   "action_ids": [
+    "P06-20240510-104642-1160",
+    "P06-20240510-104642-1165",
+    "P06-20240510-104642-1166",
+    "P06-20240510-104642-1167",
+    "P06-20240510-104642-1168",
+    "P06-20240510-104642-1169",
+    "P06-20240510-104642-1170",
+    "P06-20240510-104642-1171",
+    "P06-20240510-104642-1172"
+   ],
+   "rationale": "The person cleans the kitchen surfaces by wiping the weighing balance and the gas stove with a cloth, shaking off dirt, and folding the cloth."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P06-20240510-104642-1117",
+  "P06-20240510-104642-1173",
+  "P06-20240510-104642-1174"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

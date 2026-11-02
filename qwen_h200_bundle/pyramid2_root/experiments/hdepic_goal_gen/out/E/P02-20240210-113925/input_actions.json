@@ -1,0 +1,6569 @@
+{
+ "video_id": "P02-20240210-113925",
+ "existing_label": "Bacon and Egg Sandwich (P02_R04)",
+ "source": "HD_EPIC_Narrations.pkl (official)",
+ "actions": [
+  {
+   "action_id": "P02-20240210-113925-1",
+   "start_s": 4.45,
+   "end_s": 5.95,
+   "narration": "pickup plate from drying rack that is now dry.",
+   "verbs": [
+    "pickup"
+   ],
+   "nouns": [
+    "plate",
+    "drying rack"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-2",
+   "start_s": 6.07,
+   "end_s": 6.49,
+   "narration": "pass plate from the left hand to the right hand.",
+   "verbs": [
+    "pass"
+   ],
+   "nouns": [
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-3",
+   "start_s": 6.58,
+   "end_s": 7.09,
+   "narration": "Place the plate on the countertop that will be used for food prep later.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "plate",
+    "countertop",
+    "food prep"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-4",
+   "start_s": 8.48,
+   "end_s": 10.23,
+   "narration": "Pick up the bread knife from the drying rack that is now dry, which will be used to cut the bread.",
+   "verbs": [
+    "pick up",
+    "cut"
+   ],
+   "nouns": [
+    "bread knife",
+    "drying rack",
+    "bread"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-5",
+   "start_s": 10.32,
+   "end_s": 10.84,
+   "narration": "pass the bread knife from the left hand to the right hand",
+   "verbs": [
+    "pass"
+   ],
+   "nouns": [
+    "bread knife"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-6",
+   "start_s": 10.93,
+   "end_s": 11.63,
+   "narration": "Remove a little bit of packaging that was stuck on the knife.",
+   "verbs": [
+    "remove"
+   ],
+   "nouns": [
+    "little bit of packaging",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-7",
+   "start_s": 11.78,
+   "end_s": 12.13,
+   "narration": "place the little bit of packaging in the sink.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "little bit of packaging",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-8",
+   "start_s": 12.46,
+   "end_s": 13.38,
+   "narration": "Place the bread knife onto the countertop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "bread knife",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-9",
+   "start_s": 15.57,
+   "end_s": 16.57,
+   "narration": "pick up the baguette that will be used for the recipe with the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "baguette",
+    "recipe"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-10",
+   "start_s": 16.92,
+   "end_s": 17.92,
+   "narration": "Place the baguette onto the countertop near the bread knife.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "baguette",
+    "countertop",
+    "bread knife"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-11",
+   "start_s": 18.51,
+   "end_s": 19.47,
+   "narration": "open the fridge with the right hand to get the ingredients",
+   "verbs": [
+    "open",
+    "get"
+   ],
+   "nouns": [
+    "fridge",
+    "ingredients"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-12",
+   "start_s": 20.08,
+   "end_s": 20.99,
+   "narration": "Pick up the bacon medallions in the food bag with the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bacon medallions",
+    "food bag"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-13",
+   "start_s": 22.03,
+   "end_s": 22.62,
+   "narration": "Place the bacon medallions in the food bag on the countertop with the left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "bacon medallions",
+    "food bag",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-14",
+   "start_s": 23.62,
+   "end_s": 24.36,
+   "narration": "pick up the carton of eggs with the left hand from the fridge.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "carton of eggs",
+    "fridge"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-15",
+   "start_s": 25.05,
+   "end_s": 26.46,
+   "narration": "Pick up the larger carton of eggs using the right hand from the fridge.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "larger carton of eggs",
+    "fridge"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-16",
+   "start_s": 26.89,
+   "end_s": 27.76,
+   "narration": "Place the larger carton of eggs on the countertop using the right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "larger carton of eggs",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-17",
+   "start_s": 27.86,
+   "end_s": 28.27,
+   "narration": "Pass the smaller carton of eggs from the left hand to the right hand.",
+   "verbs": [
+    "pass"
+   ],
+   "nouns": [
+    "smaller carton of eggs"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-18",
+   "start_s": 28.37,
+   "end_s": 28.98,
+   "narration": "Place the carton of eggs onto the countertop next to the larger carton.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "carton of eggs",
+    "countertop",
+    "larger carton"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-19",
+   "start_s": 29.69,
+   "end_s": 33.69,
+   "narration": "Look through the fridge thinking of anything else that is needed for the recipe.",
+   "verbs": [
+    "look through"
+   ],
+   "nouns": [
+    "fridge",
+    "anything",
+    "recipe"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-20",
+   "start_s": 33.76,
+   "end_s": 35.33,
+   "narration": "close the fridge with the right hand",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "fridge"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-21",
+   "start_s": 36.0,
+   "end_s": 36.79,
+   "narration": "open the fridge with the right hand, realizing there's more stuff that is required to make the dish.",
+   "verbs": [
+    "open",
+    "be"
+   ],
+   "nouns": [
+    "fridge",
+    "there",
+    "more stuff",
+    "dish"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-22",
+   "start_s": 36.89,
+   "end_s": 41.11,
+   "narration": "search for and then later grab the cheese with the left hand",
+   "verbs": [
+    "search for",
+    "grab"
+   ],
+   "nouns": [
+    "cheese"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-23",
+   "start_s": 41.04,
+   "end_s": 43.17,
+   "narration": "Realising that the cheese is stuck within the fridge, use both hands to slide it from the shelf.",
+   "verbs": [
+    "slide"
+   ],
+   "nouns": [
+    "cheese",
+    "fridge",
+    "shelf"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-24",
+   "start_s": 43.25,
+   "end_s": 43.69,
+   "narration": "Place the block of cheese under the countertop near the bread knife and the baguette.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "block of cheese",
+    "countertop",
+    "bread knife",
+    "baguette"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-25",
+   "start_s": 44.04,
+   "end_s": 44.55,
+   "narration": "Pick up the carton of milk from the lower shelf on the fridge door.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "carton of milk",
+    "lower shelf",
+    "fridge door"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-26",
+   "start_s": 44.65,
+   "end_s": 45.3,
+   "narration": "Close the fridge door as now all the ingredients from the fridge have been acquired.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "fridge door",
+    "ingredients",
+    "fridge"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-27",
+   "start_s": 45.36,
+   "end_s": 46.01,
+   "narration": "Place the carton of milk near the baguette on the countertop with the left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "carton of milk",
+    "baguette",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-28",
+   "start_s": 46.83,
+   "end_s": 47.38,
+   "narration": "Adjust the bacon medallions within the food bag on the countertop to give more space.",
+   "verbs": [
+    "adjust",
+    "give"
+   ],
+   "nouns": [
+    "bacon medallions",
+    "food bag",
+    "countertop",
+    "more space"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-29",
+   "start_s": 47.84,
+   "end_s": 48.85,
+   "narration": "Open the cupboard in the left hand to grab a frying pan or something to cook the bacon with.",
+   "verbs": [
+    "open",
+    "grab",
+    "cook"
+   ],
+   "nouns": [
+    "cupboard",
+    "frying pan",
+    "bacon"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-30",
+   "start_s": 48.84,
+   "end_s": 50.21,
+   "narration": "realise that the frying pans are drying on the drying rack. So go and grab one of the frying pans with the left hand.",
+   "verbs": [
+    "grab"
+   ],
+   "nouns": [
+    "frying pans",
+    "drying rack"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-31",
+   "start_s": 49.45,
+   "end_s": 50.25,
+   "narration": "pick up the medium-sized frying pan from the drying rack with the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "medium-sized frying pan",
+    "drying rack"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-32",
+   "start_s": 52.08,
+   "end_s": 52.73,
+   "narration": "place the frying pan on the medium sized burner on the hob with the left hand",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "frying pan",
+    "medium sized burner",
+    "hob"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-33",
+   "start_s": 53.5,
+   "end_s": 54.01,
+   "narration": "Pick up the olive oil bottle with the right hand to coat the surface of the pan.",
+   "verbs": [
+    "pick up",
+    "coat"
+   ],
+   "nouns": [
+    "olive oil bottle",
+    "surface of pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-34",
+   "start_s": 54.33,
+   "end_s": 54.66,
+   "narration": "Grab the olive oil bottle in both hands, but realise that the frying pan will be too small for the bacon medallions.",
+   "verbs": [
+    "grab"
+   ],
+   "nouns": [
+    "olive oil bottle",
+    "frying pan",
+    "bacon medallions"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-35",
+   "start_s": 55.03,
+   "end_s": 55.35,
+   "narration": "Place the olive oil bottle back onto the side of the countertop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "olive oil bottle",
+    "side of countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-36",
+   "start_s": 55.53,
+   "end_s": 56.2,
+   "narration": "pick up the frying pan with the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-37",
+   "start_s": 58.34,
+   "end_s": 59.57,
+   "narration": "Open the food bag slightly which is containing the bacon medallions.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "food bag",
+    "bacon medallions"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-38",
+   "start_s": 59.97,
+   "end_s": 60.46,
+   "narration": "place the frying pan down onto the countertop briefly",
+   "verbs": [
+    "place down"
+   ],
+   "nouns": [
+    "frying pan",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-41",
+   "start_s": 60.24,
+   "end_s": 60.77,
+   "narration": "Lift up the smallest frying pan from the shelf with the left hand so that they can be stacked properly.",
+   "verbs": [
+    "lift up"
+   ],
+   "nouns": [
+    "smallest frying pan",
+    "shelf"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-39",
+   "start_s": 60.47,
+   "end_s": 61.05,
+   "narration": "Pick up the frying pan with the left hand and transfer it into the right hand to place it back into the cupboard where it belongs.",
+   "verbs": [
+    "pick up",
+    "transfer",
+    "place"
+   ],
+   "nouns": [
+    "frying pan",
+    "cupboard"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-40",
+   "start_s": 62.13,
+   "end_s": 62.8,
+   "narration": "open the cupboard door with the left hand",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "cupboard door"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-42",
+   "start_s": 64.9,
+   "end_s": 65.15,
+   "narration": "Place the smallest frying pan and the two oven gloves within the larger frying pan so that it doesn't damage the bottom.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "smallest frying pan",
+    "two oven gloves",
+    "larger frying pan",
+    "bottom"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-43",
+   "start_s": 65.25,
+   "end_s": 66.5,
+   "narration": "Place the frying pan and the oven gloves back into the cupboard.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "frying pan",
+    "oven gloves",
+    "cupboard"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-44",
+   "start_s": 66.6,
+   "end_s": 67.01,
+   "narration": "close the cupboard door",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "cupboard door"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-45",
+   "start_s": 67.33,
+   "end_s": 68.19,
+   "narration": "Pick up the largest frying pan with the left hand which will have enough space for the bacon medallions to cook.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "largest frying pan",
+    "enough space",
+    "bacon medallions"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-46",
+   "start_s": 69.13,
+   "end_s": 70.31,
+   "narration": "Place the largest frying pan on the large burner within the hob.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "largest frying pan",
+    "large burner",
+    "hob"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-47",
+   "start_s": 71.65,
+   "end_s": 72.14,
+   "narration": "open the food bag that contains both packets of bacon medallions to grab them",
+   "verbs": [
+    "open",
+    "grab"
+   ],
+   "nouns": [
+    "food bag",
+    "packets of bacon medallions"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-48",
+   "start_s": 72.67,
+   "end_s": 75.0,
+   "narration": "Holding the packets of bacon medallions in the left hand and the bag in the right hand, pull out the bacon medallion packets from the bag.",
+   "verbs": [
+    "hold",
+    "pull out"
+   ],
+   "nouns": [
+    "packets of bacon medallions",
+    "bacon medallion packets",
+    "bag"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-49",
+   "start_s": 75.63,
+   "end_s": 76.19,
+   "narration": "place the bacon medallion packets down onto the countertop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "bacon medallion packets",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-50",
+   "start_s": 76.21,
+   "end_s": 77.29,
+   "narration": "pull up both sleeves using the opposite hands",
+   "verbs": [
+    "pull up"
+   ],
+   "nouns": [
+    "sleeves"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-51",
+   "start_s": 77.0,
+   "end_s": 78.13,
+   "narration": "Hold down the burner ignition switch with the left hand whilst twisting the knob with the right hand to turn on the gas hob.",
+   "verbs": [
+    "hold down",
+    "twist",
+    "turn on"
+   ],
+   "nouns": [
+    "burner ignition switch",
+    "knob",
+    "gas hob"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-52",
+   "start_s": 78.23,
+   "end_s": 79.29,
+   "narration": "pick up the olive oil bottle with the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "olive oil bottle"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-53",
+   "start_s": 79.38,
+   "end_s": 79.91,
+   "narration": "Whilst holding the olive oil bottle in the right hand, twist off the cap with the left hand.",
+   "verbs": [
+    "hold",
+    "twist off"
+   ],
+   "nouns": [
+    "olive oil bottle",
+    "cap"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-54",
+   "start_s": 79.98,
+   "end_s": 80.91,
+   "narration": "Pour olive oil into the pan to make sure that the bacon medallions don't stick, as they contain a lot less fat than normal bacon.",
+   "verbs": [
+    "pour"
+   ],
+   "nouns": [
+    "olive oil",
+    "pan",
+    "bacon medallions",
+    "lot less fat",
+    "normal bacon"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-55",
+   "start_s": 80.93,
+   "end_s": 81.98,
+   "narration": "Close the olive oil bottle using the cap in the left hand to screw it in.",
+   "verbs": [
+    "close",
+    "screw"
+   ],
+   "nouns": [
+    "olive oil bottle",
+    "cap"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-56",
+   "start_s": 82.06,
+   "end_s": 82.85,
+   "narration": "Place the olive oil bottle back onto the countertop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "olive oil bottle",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-57",
+   "start_s": 82.95,
+   "end_s": 86.29,
+   "narration": "Lift off the smoked bacon medallion packet from the unsmoked bacon medallion packet and tilt it so that the bacon medallions go towards the end of the packet, which is open.",
+   "verbs": [
+    "lift off",
+    "tilt"
+   ],
+   "nouns": [
+    "smoked bacon medallion packet",
+    "unsmoked bacon medallion packet",
+    "bacon medallions",
+    "end of packet"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-58",
+   "start_s": 86.61,
+   "end_s": 87.05,
+   "narration": "Move the unsmoked bacon medallion packet forward onto the countertop to give space for the smoked bacon medallion packet on the countertop.",
+   "verbs": [
+    "move",
+    "give"
+   ],
+   "nouns": [
+    "unsmoked bacon medallion packet",
+    "countertop",
+    "space",
+    "smoked bacon medallion packet"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-59",
+   "start_s": 87.15,
+   "end_s": 87.74,
+   "narration": "Place the smoked bacon medallion packet onto the countertop with the left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "smoked bacon medallion packet",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-60",
+   "start_s": 89.85,
+   "end_s": 91.19,
+   "narration": "realize there is a bit of old oil on the frying pan",
+   "verbs": [
+    "be on"
+   ],
+   "nouns": [
+    "there",
+    "bit of old oil",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-61",
+   "start_s": 91.94,
+   "end_s": 92.38,
+   "narration": "pick up the roll of kitchen towel in the holder with the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "roll of kitchen towel",
+    "holder"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-62",
+   "start_s": 92.68,
+   "end_s": 93.6,
+   "narration": "pull off one sheet of kitchen towel using the right hand to stop the roll from going any further and quickly yanking the left hand to separate it.",
+   "verbs": [
+    "pull off",
+    "yank",
+    "separate"
+   ],
+   "nouns": [
+    "one sheet of kitchen towel",
+    "roll"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-63",
+   "start_s": 93.7,
+   "end_s": 94.05,
+   "narration": "Place the kitchen roll holder back onto the countertop with the right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "kitchen roll holder",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-64",
+   "start_s": 94.29,
+   "end_s": 95.07,
+   "narration": "scrunch up the kitchen towel slightly and pass it to the right hand.",
+   "verbs": [
+    "scrunch up",
+    "pass"
+   ],
+   "nouns": [
+    "kitchen towel"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-65",
+   "start_s": 95.55,
+   "end_s": 99.77,
+   "narration": "Hold the frying pan in the left hand, and use the kitchen towel in the right hand to remove the old oil from the saucepan.",
+   "verbs": [
+    "hold",
+    "remove"
+   ],
+   "nouns": [
+    "frying pan",
+    "kitchen towel",
+    "old oil",
+    "saucepan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-66",
+   "start_s": 99.87,
+   "end_s": 100.41,
+   "narration": "Scrunch up the kitchen roll with both hands.",
+   "verbs": [
+    "scrunch up"
+   ],
+   "nouns": [
+    "kitchen roll"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-67",
+   "start_s": 101.77,
+   "end_s": 102.06,
+   "narration": "open up the bin with the right hand.",
+   "verbs": [
+    "open up"
+   ],
+   "nouns": [
+    "bin"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-68",
+   "start_s": 102.08,
+   "end_s": 102.4,
+   "narration": "drop the kitchen towel in the bin",
+   "verbs": [
+    "drop"
+   ],
+   "nouns": [
+    "kitchen towel",
+    "bin"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-69",
+   "start_s": 104.11,
+   "end_s": 105.7,
+   "narration": "lift up the frying pan with the left hand to spread the oil evenly along the bottom of the frying pan by tilting it",
+   "verbs": [
+    "lift up",
+    "spread",
+    "tilt"
+   ],
+   "nouns": [
+    "frying pan",
+    "oil",
+    "bottom of frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-71",
+   "start_s": 105.05,
+   "end_s": 105.64,
+   "narration": "lift up and tilt the frying pan more to spread the oil evenly",
+   "verbs": [
+    "lift",
+    "tilt",
+    "spread"
+   ],
+   "nouns": [
+    "frying pan",
+    "oil"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-70",
+   "start_s": 105.69,
+   "end_s": 106.41,
+   "narration": "Place the frying pan down back onto the hob.",
+   "verbs": [
+    "place down"
+   ],
+   "nouns": [
+    "frying pan",
+    "hob"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-72",
+   "start_s": 106.34,
+   "end_s": 106.74,
+   "narration": "Place the frying pan back down onto the hob with the left hand as the oil is runny enough so that it shows that the pan is hot to start cooking.",
+   "verbs": [
+    "place",
+    "cook"
+   ],
+   "nouns": [
+    "frying pan",
+    "hob",
+    "oil",
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-73",
+   "start_s": 113.54,
+   "end_s": 113.99,
+   "narration": "Peel back the lid of the unsmoked bacon medallions packet using the left hand.",
+   "verbs": [
+    "peel"
+   ],
+   "nouns": [
+    "lid of unsmoked bacon medallions packet"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-74",
+   "start_s": 115.19,
+   "end_s": 116.29,
+   "narration": "Hold the lid of the unsmoked bacon medallion packet with the right hand, and then use the left hand to pick up the unsmoked bacon medallion.",
+   "verbs": [
+    "hold",
+    "pick up"
+   ],
+   "nouns": [
+    "lid of unsmoked bacon medallion packet",
+    "unsmoked bacon medallion"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-75",
+   "start_s": 116.39,
+   "end_s": 118.29,
+   "narration": "As two unsmoked bacon medallions were picked up, use both the left hand and the right hand to peel these apart.",
+   "verbs": [
+    "peel"
+   ],
+   "nouns": [
+    "two unsmoked bacon medallions"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-76",
+   "start_s": 119.04,
+   "end_s": 119.59,
+   "narration": "place the unsmoked bacon medallion with the right hand into the frying pan to begin cooking.",
+   "verbs": [
+    "place",
+    "cook"
+   ],
+   "nouns": [
+    "unsmoked bacon medallion",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-77",
+   "start_s": 119.74,
+   "end_s": 120.96,
+   "narration": "Transfering the unsmoked baking medallion from the left hand to both hands, place it into the frying pan on the left hand side.",
+   "verbs": [
+    "transfer",
+    "place"
+   ],
+   "nouns": [
+    "unsmoked baking medallion",
+    "frying pan",
+    "left hand side"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-78",
+   "start_s": 122.79,
+   "end_s": 123.89,
+   "narration": "Pick up the smoked bacon medallions from the packet using the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "smoked bacon medallions",
+    "packet"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-79",
+   "start_s": 123.99,
+   "end_s": 124.29,
+   "narration": "transfer the smoked bacon medallion to both hands.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "smoked bacon medallion"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-81",
+   "start_s": 124.6,
+   "end_s": 126.37,
+   "narration": "Place the smoked bacon medallion in the right hand side of the pan with the right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "smoked bacon medallion",
+    "right hand side of pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-80",
+   "start_s": 124.89,
+   "end_s": 125.29,
+   "narration": "Peel off part of the smoked bacon medallion with the left hand",
+   "verbs": [
+    "peel off"
+   ],
+   "nouns": [
+    "part of smoked bacon medallion"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-82",
+   "start_s": 126.51,
+   "end_s": 128.26,
+   "narration": "place the extra part of the smoked bacon medallion above it.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "extra part of smoked bacon medallion"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-83",
+   "start_s": 129.1,
+   "end_s": 130.42,
+   "narration": "Pick up another smoked medallion from the packet.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "another smoked medallion",
+    "packet"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-84",
+   "start_s": 131.11,
+   "end_s": 131.56,
+   "narration": "Place the last smoked bacon medallion into the pan into the available space, ensuring that the smoked medallions on the right hand side of the pan and the unsmoked medallions are on the left hand side of the pan.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "last smoked bacon medallion",
+    "pan",
+    "available space",
+    "smoked medallions",
+    "right hand side of pan",
+    "unsmoked medallions",
+    "left hand side of pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-85",
+   "start_s": 133.13,
+   "end_s": 135.58,
+   "narration": "Turn on the tap using the palm of the right hand, which wasn't in contact with the raw meat.",
+   "verbs": [
+    "turn on"
+   ],
+   "nouns": [
+    "tap",
+    "contact",
+    "raw meat"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-86",
+   "start_s": 135.85,
+   "end_s": 137.33,
+   "narration": "Rinse both hands under the stream of water.",
+   "verbs": [
+    "rinse"
+   ],
+   "nouns": [
+    "stream of water"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-87",
+   "start_s": 137.43,
+   "end_s": 138.44,
+   "narration": "turn down the flow of water using the palm of the right hand on the tap",
+   "verbs": [
+    "turn down"
+   ],
+   "nouns": [
+    "flow of water",
+    "tap"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-88",
+   "start_s": 139.39,
+   "end_s": 139.6,
+   "narration": "Grasp hold of the washing up liquid bottle in the right hand whilst flipping open the lid with the left hand.",
+   "verbs": [
+    "grasp",
+    "flip open"
+   ],
+   "nouns": [
+    "hold",
+    "washing up liquid bottle",
+    "lid"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-89",
+   "start_s": 139.7,
+   "end_s": 140.28,
+   "narration": "pick up and tilt the washing up liquid bottle with the right hand",
+   "verbs": [
+    "pick up",
+    "tilt"
+   ],
+   "nouns": [
+    "washing up liquid bottle"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-90",
+   "start_s": 140.23,
+   "end_s": 140.89,
+   "narration": "squirt some washing up liquid onto the palm of the left hand to wash the hands",
+   "verbs": [
+    "squirt",
+    "wash"
+   ],
+   "nouns": [
+    "some washing up liquid"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-91",
+   "start_s": 140.75,
+   "end_s": 141.24,
+   "narration": "Place the washing up liquid bottle back onto the countertop with the right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "washing up liquid bottle",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-92",
+   "start_s": 141.35,
+   "end_s": 146.88,
+   "narration": "lather up both hands with the washing up liquid in the palm of the left hand.",
+   "verbs": [
+    "lather up"
+   ],
+   "nouns": [
+    "washing up liquid"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-93",
+   "start_s": 146.97,
+   "end_s": 150.9,
+   "narration": "rinse off the washing up liquid from both hands under the flow of water",
+   "verbs": [
+    "rinse off"
+   ],
+   "nouns": [
+    "washing up liquid",
+    "flow of water"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-94",
+   "start_s": 151.07,
+   "end_s": 152.32,
+   "narration": "turn off the tap using the right hand",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "tap"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-95",
+   "start_s": 152.42,
+   "end_s": 153.09,
+   "narration": "shake both hands into the water",
+   "verbs": [
+    "shake"
+   ],
+   "nouns": [
+    "water"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-96",
+   "start_s": 153.85,
+   "end_s": 154.2,
+   "narration": "When walking towards the towel to dry the hands, briefly check on the bacon to make sure that it's not burning or cooking too quickly.",
+   "verbs": [
+    "walk towards",
+    "dry",
+    "check on",
+    "cook"
+   ],
+   "nouns": [
+    "towel",
+    "bacon"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-97",
+   "start_s": 155.96,
+   "end_s": 156.35,
+   "narration": "grab the towel from off the radiator with the left hand",
+   "verbs": [
+    "grab"
+   ],
+   "nouns": [
+    "towel",
+    "radiator"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-98",
+   "start_s": 156.44,
+   "end_s": 157.58,
+   "narration": "dry both hands using the towel",
+   "verbs": [
+    "dry"
+   ],
+   "nouns": [
+    "towel"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-99",
+   "start_s": 158.1,
+   "end_s": 158.43,
+   "narration": "pick up the empty plastic food bag with the left hand",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "empty plastic food bag"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-100",
+   "start_s": 158.55,
+   "end_s": 159.63,
+   "narration": "Scrunch up the food bag with both hands.",
+   "verbs": [
+    "scrunch up"
+   ],
+   "nouns": [
+    "food bag"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-101",
+   "start_s": 159.78,
+   "end_s": 160.28,
+   "narration": "Close the lid of the unsmoked bacon medallions packet.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "lid of unsmoked bacon medallions packet"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-102",
+   "start_s": 161.02,
+   "end_s": 162.57,
+   "narration": "turn down the hob which is cooking the bacon with the right hand to make sure that it doesn't burn or cook too quickly",
+   "verbs": [
+    "turn down",
+    "cook"
+   ],
+   "nouns": [
+    "hob",
+    "bacon"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-103",
+   "start_s": 163.59,
+   "end_s": 165.16,
+   "narration": "Open the food bag with both hands to place the bacon medallions back into it.",
+   "verbs": [
+    "open",
+    "place"
+   ],
+   "nouns": [
+    "food bag",
+    "bacon medallions"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-104",
+   "start_s": 165.49,
+   "end_s": 165.85,
+   "narration": "Pick up the unsmoked bacon medallions packet with the right hand whilst holding the plastic food bag in the left hand.",
+   "verbs": [
+    "pick up",
+    "hold"
+   ],
+   "nouns": [
+    "unsmoked bacon medallions packet",
+    "plastic food bag"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-105",
+   "start_s": 165.95,
+   "end_s": 169.23,
+   "narration": "Place the unsmoked medallion packet into the food bag.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "unsmoked medallion packet",
+    "food bag"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-106",
+   "start_s": 169.94,
+   "end_s": 170.22,
+   "narration": "Pick up the smoked bacon medallion packet with the right hand to place in the food bag.",
+   "verbs": [
+    "pick up",
+    "place in"
+   ],
+   "nouns": [
+    "smoked bacon medallion packet",
+    "food bag"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-107",
+   "start_s": 170.26,
+   "end_s": 170.76,
+   "narration": "Shake the packet of smoked bacon medallions with the right hand so that the bacon is at the other side of the packet away from the opening.",
+   "verbs": [
+    "shake"
+   ],
+   "nouns": [
+    "packet of smoked bacon medallions",
+    "bacon",
+    "other side",
+    "packet",
+    "opening"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-108",
+   "start_s": 171.07,
+   "end_s": 171.95,
+   "narration": "Place the smoked bacon medallions packet into the food bag with the right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "smoked bacon medallions packet",
+    "food bag"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-109",
+   "start_s": 172.04,
+   "end_s": 172.52,
+   "narration": "close the food bag with both hands by wrapping the handles across each other",
+   "verbs": [
+    "close",
+    "wrap"
+   ],
+   "nouns": [
+    "food bag",
+    "handles"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-110",
+   "start_s": 173.48,
+   "end_s": 174.23,
+   "narration": "Open the fridge with the right hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "fridge"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-111",
+   "start_s": 173.96,
+   "end_s": 174.8,
+   "narration": "Place the bacon medallion packets on the bottom shelf of the fridge, as they are raw meat.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "bacon medallion packets",
+    "bottom shelf of fridge",
+    "raw meat"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-112",
+   "start_s": 175.19,
+   "end_s": 176.29,
+   "narration": "close the fridge with the right hand",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "fridge"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-113",
+   "start_s": 176.47,
+   "end_s": 176.94,
+   "narration": "Shake hands to get rid of any excess liquid from them.",
+   "verbs": [
+    "shake",
+    "get rid of"
+   ],
+   "nouns": [
+    "any excess liquid"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-114",
+   "start_s": 177.93,
+   "end_s": 178.74,
+   "narration": "open the cupboard with the left hand to get out a measuring jug.",
+   "verbs": [
+    "open",
+    "get out"
+   ],
+   "nouns": [
+    "cupboard",
+    "measuring jug"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-115",
+   "start_s": 180.92,
+   "end_s": 181.93,
+   "narration": "reach into the cupboard with the right hand, find the measuring jug at the back of the cupboard, and pick it up.",
+   "verbs": [
+    "reach into",
+    "find",
+    "pick up"
+   ],
+   "nouns": [
+    "cupboard",
+    "measuring jug",
+    "back of cupboard"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-116",
+   "start_s": 182.48,
+   "end_s": 183.13,
+   "narration": "Check the measuring jug to make sure that it is clean.",
+   "verbs": [
+    "check"
+   ],
+   "nouns": [
+    "measuring jug"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-117",
+   "start_s": 183.18,
+   "end_s": 183.53,
+   "narration": "close the cupboard door with the left hand",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "cupboard door"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-118",
+   "start_s": 183.63,
+   "end_s": 184.03,
+   "narration": "place the measuring jug on top of the countertop protector with the right hand",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "measuring jug",
+    "top of countertop protector"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-119",
+   "start_s": 184.76,
+   "end_s": 185.34,
+   "narration": "Move the larger carton of eggs with the left hand so that it is easier to open.",
+   "verbs": [
+    "move"
+   ],
+   "nouns": [
+    "larger carton of eggs"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-120",
+   "start_s": 185.82,
+   "end_s": 187.19,
+   "narration": "Open the larger carton of eggs with both hands.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "larger carton of eggs"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-121",
+   "start_s": 187.76,
+   "end_s": 188.39,
+   "narration": "Pick up both remaining eggs from the larger carton of eggs.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "remaining eggs",
+    "larger carton of eggs"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-122",
+   "start_s": 190.05,
+   "end_s": 191.29,
+   "narration": "Turn on the tap to wash the eggs with the right hand.",
+   "verbs": [
+    "turn on",
+    "wash"
+   ],
+   "nouns": [
+    "tap",
+    "eggs"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-123",
+   "start_s": 191.39,
+   "end_s": 194.82,
+   "narration": "Wash the eggshells to remove any excess dirt or feathers using both hands.",
+   "verbs": [
+    "wash",
+    "remove"
+   ],
+   "nouns": [
+    "eggshells",
+    "any excess dirt",
+    "feathers"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-124",
+   "start_s": 194.92,
+   "end_s": 195.32,
+   "narration": "Pass the egg from the right hand to the left hand to free up the right hand.",
+   "verbs": [
+    "pass"
+   ],
+   "nouns": [
+    "egg"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-125",
+   "start_s": 195.67,
+   "end_s": 195.92,
+   "narration": "turn off the tap with the right hand as the eggs are now clean",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "tap",
+    "eggs"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-126",
+   "start_s": 196.54,
+   "end_s": 196.87,
+   "narration": "shake both hands including the eggs to remove any excess water",
+   "verbs": [
+    "shake",
+    "remove"
+   ],
+   "nouns": [
+    "eggs",
+    "any excess water"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-127",
+   "start_s": 196.97,
+   "end_s": 197.71,
+   "narration": "Pick up the spatula in the right hand from the drying rack to use to flip the bacon.",
+   "verbs": [
+    "pick up",
+    "flip"
+   ],
+   "nouns": [
+    "spatula",
+    "drying rack",
+    "bacon"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-131",
+   "start_s": 197.84,
+   "end_s": 198.74,
+   "narration": "Shake both eggs up for the washing up bowl to remove any excess water from them.",
+   "verbs": [
+    "shake up",
+    "remove"
+   ],
+   "nouns": [
+    "eggs",
+    "washing up bowl",
+    "any excess water"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-128",
+   "start_s": 197.86,
+   "end_s": 198.24,
+   "narration": "shake the left hand with the eggs and remove any excess water from them",
+   "verbs": [
+    "shake",
+    "remove"
+   ],
+   "nouns": [
+    "eggs",
+    "any excess water"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-129",
+   "start_s": 198.69,
+   "end_s": 199.28,
+   "narration": "Place the spatula down on the countertop near the hob with the right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spatula",
+    "countertop",
+    "hob"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-130",
+   "start_s": 199.78,
+   "end_s": 200.23,
+   "narration": "Transfer one of the eggs from the left hand to the right hand so each hand is holding one egg.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "eggs",
+    "one egg"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-132",
+   "start_s": 201.04,
+   "end_s": 201.49,
+   "narration": "transfer the egg from the right hand into the left hand",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "egg"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-133",
+   "start_s": 202.27,
+   "end_s": 203.75,
+   "narration": "reduce the burner on the hob which is cooking the bacon to make sure that it doesn't cook too quickly or burn",
+   "verbs": [
+    "reduce",
+    "burn"
+   ],
+   "nouns": [
+    "burner",
+    "hob",
+    "bacon"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-134",
+   "start_s": 204.17,
+   "end_s": 204.48,
+   "narration": "Transfer one of the eggs from the left hand to the right hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "eggs"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-135",
+   "start_s": 204.7,
+   "end_s": 205.27,
+   "narration": "give the eggs one more shake into the sink to remove any excess water from them",
+   "verbs": [
+    "give",
+    "remove"
+   ],
+   "nouns": [
+    "eggs",
+    "one more shake",
+    "sink",
+    "any excess water"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-136",
+   "start_s": 206.48,
+   "end_s": 208.82,
+   "narration": "tap the egg in the right hand against the countertop protector to slightly crack the outside of the egg",
+   "verbs": [
+    "tap",
+    "crack"
+   ],
+   "nouns": [
+    "egg",
+    "countertop protector",
+    "outside of egg"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-137",
+   "start_s": 209.18,
+   "end_s": 211.1,
+   "narration": "Crack open the egg and pour the insides into the measuring jug using both hands held over the measuring jug.",
+   "verbs": [
+    "crack open",
+    "pour"
+   ],
+   "nouns": [
+    "egg",
+    "insides",
+    "measuring jug"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-138",
+   "start_s": 211.19,
+   "end_s": 212.43,
+   "narration": "shake both open shells into the measuring jug to remove any egg from them",
+   "verbs": [
+    "shake",
+    "remove"
+   ],
+   "nouns": [
+    "open shells",
+    "measuring jug",
+    "any egg"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-139",
+   "start_s": 212.53,
+   "end_s": 213.35,
+   "narration": "Place the shell in the left hand inside the egg shell in the right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "shell",
+    "egg shell"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-140",
+   "start_s": 213.45,
+   "end_s": 213.88,
+   "narration": "Place both shells into the empty egg carton.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "shells",
+    "empty egg carton"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-141",
+   "start_s": 213.71,
+   "end_s": 214.09,
+   "narration": "Transfer the egg from the left hand into the right hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "egg"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-142",
+   "start_s": 214.19,
+   "end_s": 214.58,
+   "narration": "Tap the egg against the countertop in the right hand to crack it slightly so that it's easier to open.",
+   "verbs": [
+    "tap",
+    "crack"
+   ],
+   "nouns": [
+    "egg",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-143",
+   "start_s": 214.6,
+   "end_s": 215.22,
+   "narration": "Shake the left hand slightly to push down the watch on it.",
+   "verbs": [
+    "shake",
+    "push down"
+   ],
+   "nouns": [
+    "watch"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-144",
+   "start_s": 215.32,
+   "end_s": 217.77,
+   "narration": "Crack open the egg using both hands over the measuring jug to pour the egg into the measuring jug.",
+   "verbs": [
+    "crack open",
+    "pour"
+   ],
+   "nouns": [
+    "egg",
+    "measuring jug"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-145",
+   "start_s": 217.77,
+   "end_s": 218.89,
+   "narration": "Shake the egg shells in both hands into the measuring jug to remove any excess egg from them.",
+   "verbs": [
+    "shake",
+    "remove"
+   ],
+   "nouns": [
+    "egg shells",
+    "measuring jug",
+    "any excess egg"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-146",
+   "start_s": 218.98,
+   "end_s": 219.48,
+   "narration": "Place the eggshell from the left hand into the right hand to stack them.",
+   "verbs": [
+    "place",
+    "stack"
+   ],
+   "nouns": [
+    "eggshell"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-147",
+   "start_s": 219.55,
+   "end_s": 220.27,
+   "narration": "Place the empty eggshells into the other eggshell that is in the larger egg carton.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "empty eggshells",
+    "other eggshell",
+    "larger egg carton"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-148",
+   "start_s": 220.87,
+   "end_s": 222.84,
+   "narration": "Open the smaller egg carton using both hands, with the left hand to unclasp it.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "smaller egg carton"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-149",
+   "start_s": 222.94,
+   "end_s": 224.6,
+   "narration": "Pick up two eggs from the smaller egg carton, one in each hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "two eggs",
+    "smaller egg carton"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-150",
+   "start_s": 224.7,
+   "end_s": 225.17,
+   "narration": "transfer one of the eggs from the right hand to the left hand to free up the right hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "eggs"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-151",
+   "start_s": 226.0,
+   "end_s": 227.8,
+   "narration": "Turn on the tap with the right hand to wash the eggs.",
+   "verbs": [
+    "turn on",
+    "wash"
+   ],
+   "nouns": [
+    "tap",
+    "eggs"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-152",
+   "start_s": 227.79,
+   "end_s": 230.7,
+   "narration": "wash the outside of the eggs by rubbing them using both hands to move the eggs in and out of the stream of water that is flowing",
+   "verbs": [
+    "wash",
+    "rub",
+    "move"
+   ],
+   "nouns": [
+    "outside of eggs",
+    "eggs",
+    "stream of water"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-153",
+   "start_s": 230.74,
+   "end_s": 231.19,
+   "narration": "transfer the egg from the right hand to the left hand to free up the right hand",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "egg"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-154",
+   "start_s": 231.29,
+   "end_s": 232.27,
+   "narration": "turn off the tap using the right hand.",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "tap"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-155",
+   "start_s": 232.37,
+   "end_s": 232.73,
+   "narration": "Shake off both hands.",
+   "verbs": [
+    "shake off"
+   ],
+   "nouns": []
+  },
+  {
+   "action_id": "P02-20240210-113925-156",
+   "start_s": 232.82,
+   "end_s": 233.29,
+   "narration": "Transfer an egg from the left hand to the right hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "egg"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-157",
+   "start_s": 233.37,
+   "end_s": 234.24,
+   "narration": "briefly shake both hands and the eggs into the washing up bowl to remove any excess water from them.",
+   "verbs": [
+    "shake",
+    "remove"
+   ],
+   "nouns": [
+    "eggs",
+    "washing up bowl",
+    "any excess water"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-158",
+   "start_s": 235.25,
+   "end_s": 237.19,
+   "narration": "Tap the egg in the right hand against the countertop protector to break it and crack it so that it's easier to open it.",
+   "verbs": [
+    "tap",
+    "break",
+    "crack"
+   ],
+   "nouns": [
+    "egg",
+    "countertop protector"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-159",
+   "start_s": 237.18,
+   "end_s": 239.31,
+   "narration": "Crack and open the egg to pour out its insides into the measuring jug using both hands.",
+   "verbs": [
+    "crack",
+    "open",
+    "pour out"
+   ],
+   "nouns": [
+    "egg",
+    "egg insides",
+    "measuring jug"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-160",
+   "start_s": 239.34,
+   "end_s": 240.52,
+   "narration": "Shake the eggshells in both hands to remove the excess egg from them.",
+   "verbs": [
+    "shake",
+    "remove"
+   ],
+   "nouns": [
+    "eggshells",
+    "excess egg"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-161",
+   "start_s": 240.54,
+   "end_s": 240.95,
+   "narration": "Stack the left eggshell into the right eggshell.",
+   "verbs": [
+    "stack"
+   ],
+   "nouns": [
+    "left eggshell",
+    "right eggshell"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-162",
+   "start_s": 241.25,
+   "end_s": 241.45,
+   "narration": "Place the eggshells into the larger container.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "eggshells",
+    "larger container"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-163",
+   "start_s": 241.51,
+   "end_s": 241.91,
+   "narration": "transfer the last egg from the left hand to the right hand",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "last egg"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-164",
+   "start_s": 242.04,
+   "end_s": 243.36,
+   "narration": "Tap the egg against the countertop protector using the right hand to break and crack it to make it easier to pour into the measuring jug.",
+   "verbs": [
+    "tap",
+    "break",
+    "crack"
+   ],
+   "nouns": [
+    "egg",
+    "countertop protector",
+    "measuring jug"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-165",
+   "start_s": 243.6,
+   "end_s": 244.59,
+   "narration": "Try to crack open the egg, but realise it is not broken enough.",
+   "verbs": [
+    "crack open"
+   ],
+   "nouns": [
+    "egg"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-166",
+   "start_s": 244.83,
+   "end_s": 245.04,
+   "narration": "Tap the egg a bit harder against the glass countertop to make sure that it is fully broken for cracking.",
+   "verbs": [
+    "tap",
+    "crack"
+   ],
+   "nouns": [
+    "egg",
+    "glass countertop",
+    "cracking"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-167",
+   "start_s": 245.38,
+   "end_s": 247.07,
+   "narration": "Crack open the egg and pour it into the measuring jug using both hands.",
+   "verbs": [
+    "crack open",
+    "pour"
+   ],
+   "nouns": [
+    "egg",
+    "measuring jug"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-168",
+   "start_s": 247.07,
+   "end_s": 247.95,
+   "narration": "Shake the egg shell pieces in both hands to remove any excess egg from them into the measuring jug.",
+   "verbs": [
+    "shake",
+    "remove"
+   ],
+   "nouns": [
+    "egg shell pieces",
+    "any excess egg",
+    "measuring jug"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-169",
+   "start_s": 247.97,
+   "end_s": 248.42,
+   "narration": "stack the left eggshell into the right eggshell.",
+   "verbs": [
+    "stack"
+   ],
+   "nouns": [
+    "left eggshell",
+    "right eggshell"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-170",
+   "start_s": 248.7,
+   "end_s": 248.94,
+   "narration": "Place the eggshell pieces into the other eggshell piece and into the large egg carton.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "eggshell pieces",
+    "other eggshell piece",
+    "large egg carton"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-171",
+   "start_s": 250.0,
+   "end_s": 251.36,
+   "narration": "Pick up the spatula using the right hand to flip the bacon.",
+   "verbs": [
+    "pick up",
+    "flip"
+   ],
+   "nouns": [
+    "spatula",
+    "bacon"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-172",
+   "start_s": 251.41,
+   "end_s": 252.7,
+   "narration": "Check that the bacon has not stuck to the pan and is ready to flip by scooching the spatula upside down under the top left bacon medallion piece in the saucepan.",
+   "verbs": [
+    "scooche"
+   ],
+   "nouns": [
+    "bacon",
+    "pan",
+    "spatula",
+    "top left bacon medallion piece",
+    "saucepan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-173",
+   "start_s": 252.47,
+   "end_s": 253.72,
+   "narration": "Flip the bacon using the spatula in the right hand.",
+   "verbs": [
+    "flip"
+   ],
+   "nouns": [
+    "bacon",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-174",
+   "start_s": 253.75,
+   "end_s": 254.36,
+   "narration": "Adjust the position of the bacon using the spatula to make sure it's not close to the other bits of bacon.",
+   "verbs": [
+    "adjust"
+   ],
+   "nouns": [
+    "position of bacon",
+    "spatula",
+    "bacon",
+    "other bits of bacon"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-175",
+   "start_s": 254.35,
+   "end_s": 255.96,
+   "narration": "Flip the bacon using the spatula in the right hand.",
+   "verbs": [
+    "flip"
+   ],
+   "nouns": [
+    "bacon",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-176",
+   "start_s": 255.69,
+   "end_s": 256.26,
+   "narration": "Adjust the position of the bacon to make sure it's not close to the other bits of bacon.",
+   "verbs": [
+    "adjust"
+   ],
+   "nouns": [
+    "position of bacon",
+    "bacon",
+    "other bits of bacon"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-177",
+   "start_s": 256.36,
+   "end_s": 258.1,
+   "narration": "Flip the bacon using the spatula in the right hand.",
+   "verbs": [
+    "flip"
+   ],
+   "nouns": [
+    "bacon",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-178",
+   "start_s": 258.14,
+   "end_s": 258.7,
+   "narration": "Adjust the bit of bacon using the spatula to make sure it is not close to the other bits of bacon.",
+   "verbs": [
+    "adjust"
+   ],
+   "nouns": [
+    "bit of bacon",
+    "spatula",
+    "other bits of bacon"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-179",
+   "start_s": 259.55,
+   "end_s": 262.11,
+   "narration": "Flip the bacon using the spatula in the right hand.",
+   "verbs": [
+    "flip"
+   ],
+   "nouns": [
+    "bacon",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-181",
+   "start_s": 260.02,
+   "end_s": 263.88,
+   "narration": "Adjust the bacon medallion slightly using the spatula to make sure it's not too close to the other bacon.",
+   "verbs": [
+    "adjust"
+   ],
+   "nouns": [
+    "bacon medallion",
+    "spatula",
+    "other bacon"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-180",
+   "start_s": 262.09,
+   "end_s": 263.7,
+   "narration": "Adjust the bacon medallion slightly using the spatula to make sure it's not too close to the other bacon.",
+   "verbs": [
+    "adjust"
+   ],
+   "nouns": [
+    "bacon medallion",
+    "spatula",
+    "other bacon"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-182",
+   "start_s": 263.78,
+   "end_s": 264.18,
+   "narration": "Tap the spatula against the side of the frying pan to remove any excess oil from it.",
+   "verbs": [
+    "tap",
+    "remove"
+   ],
+   "nouns": [
+    "spatula",
+    "side of frying pan",
+    "any excess oil",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-183",
+   "start_s": 264.28,
+   "end_s": 265.29,
+   "narration": "Adjust the heat to slightly turn the hob up with the left hand.",
+   "verbs": [
+    "adjust",
+    "turn up"
+   ],
+   "nouns": [
+    "heat",
+    "hob"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-184",
+   "start_s": 265.26,
+   "end_s": 265.64,
+   "narration": "Place down the spatula using the right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-185",
+   "start_s": 267.82,
+   "end_s": 268.6,
+   "narration": "Open the cupboard door with the right hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "cupboard door"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-186",
+   "start_s": 269.05,
+   "end_s": 269.5,
+   "narration": "grab hold of the stack of frying pans using the right hand",
+   "verbs": [
+    "grab"
+   ],
+   "nouns": [
+    "hold of stack of frying pans"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-187",
+   "start_s": 269.6,
+   "end_s": 270.36,
+   "narration": "Lift up both oven gloves and the smaller saucepan from the top.",
+   "verbs": [
+    "lift up"
+   ],
+   "nouns": [
+    "oven gloves",
+    "smaller saucepan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-188",
+   "start_s": 270.46,
+   "end_s": 270.89,
+   "narration": "Place the stack of oven gloves and the saucepan back into the cupboard whilst pulling out the medium sized frying pan.",
+   "verbs": [
+    "place",
+    "pull out"
+   ],
+   "nouns": [
+    "stack of oven gloves",
+    "saucepan",
+    "cupboard",
+    "medium sized frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-189",
+   "start_s": 272.09,
+   "end_s": 272.77,
+   "narration": "Close the cupboard using the left hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "cupboard"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-190",
+   "start_s": 273.19,
+   "end_s": 274.26,
+   "narration": "Place the medium-sized saucepan on the back right burner, which is a medium-sized burner.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "medium-sized saucepan",
+    "back right burner",
+    "medium-sized burner"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-191",
+   "start_s": 274.8,
+   "end_s": 275.31,
+   "narration": "Pick up the olive oil bottle with the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "olive oil bottle"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-192",
+   "start_s": 275.41,
+   "end_s": 275.94,
+   "narration": "Unscrew the lid of the olive oil bottle with the left hand.",
+   "verbs": [
+    "unscrew"
+   ],
+   "nouns": [
+    "lid of olive oil bottle"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-193",
+   "start_s": 276.04,
+   "end_s": 277.09,
+   "narration": "Pour the olive oil into the pan, trying to coat this evenly.",
+   "verbs": [
+    "pour",
+    "coat"
+   ],
+   "nouns": [
+    "olive oil",
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-194",
+   "start_s": 277.54,
+   "end_s": 278.24,
+   "narration": "close the lid of the olive oil bottle using the cap in the left hand",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "lid of olive oil bottle",
+    "cap"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-195",
+   "start_s": 278.53,
+   "end_s": 279.02,
+   "narration": "Place the olive oil back onto the countertop as it's no longer needed.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "olive oil",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-196",
+   "start_s": 281.57,
+   "end_s": 282.08,
+   "narration": "Close the smaller carton of eggs with four eggs in it as they are no longer needed for the recipe.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "smaller carton",
+    "eggs",
+    "four eggs",
+    "smaller carton of eggs",
+    "recipe"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-197",
+   "start_s": 283.23,
+   "end_s": 283.73,
+   "narration": "Pick up the bottle of milk with the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bottle of milk"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-198",
+   "start_s": 284.12,
+   "end_s": 284.89,
+   "narration": "unscrew the lid of the milk bottle using the left hand whilst holding it in the right hand",
+   "verbs": [
+    "unscrew",
+    "hold"
+   ],
+   "nouns": [
+    "lid of milk bottle",
+    "milk bottle"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-199",
+   "start_s": 285.36,
+   "end_s": 287.49,
+   "narration": "Pour milk into the eggs into the measuring cup to make scrambled eggs mixture.",
+   "verbs": [
+    "pour"
+   ],
+   "nouns": [
+    "milk",
+    "eggs",
+    "measuring cup",
+    "scrambled eggs mixture"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-200",
+   "start_s": 287.59,
+   "end_s": 288.69,
+   "narration": "close the milk bottle using the left hand",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "milk bottle"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-201",
+   "start_s": 289.0,
+   "end_s": 289.2,
+   "narration": "Pass the milk bottle from the right hand into the left hand to free up the right hand to pick up the egg carton.",
+   "verbs": [
+    "pass"
+   ],
+   "nouns": [
+    "milk bottle",
+    "egg carton"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-202",
+   "start_s": 289.33,
+   "end_s": 290.22,
+   "narration": "pick up the egg carton with the right hand to place them into the fridge",
+   "verbs": [
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "egg carton",
+    "fridge"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-203",
+   "start_s": 290.28,
+   "end_s": 290.84,
+   "narration": "Transfer the egg carton from the right hand into the left hand to free up the right hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "egg carton"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-204",
+   "start_s": 290.69,
+   "end_s": 292.06,
+   "narration": "Open the fridge using the right hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "fridge"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-205",
+   "start_s": 292.0,
+   "end_s": 292.93,
+   "narration": "Transfer the milk bottle from the left hand to the right hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "milk bottle"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-206",
+   "start_s": 292.78,
+   "end_s": 293.54,
+   "narration": "Place the milk bottle back onto the bottom shelf of the fridge door.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "milk bottle",
+    "bottom shelf of fridge door"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-207",
+   "start_s": 293.54,
+   "end_s": 294.06,
+   "narration": "Place the egg cartons into the middle shelf of the fridge.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "egg cartons",
+    "middle shelf of fridge"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-208",
+   "start_s": 294.07,
+   "end_s": 295.03,
+   "narration": "close the fridge door using the right hand",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "fridge door"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-209",
+   "start_s": 294.95,
+   "end_s": 296.46,
+   "narration": "Open the cutlery drawer with the right hand to get something to whisk the eggs.",
+   "verbs": [
+    "open",
+    "get",
+    "whisk"
+   ],
+   "nouns": [
+    "cutlery drawer",
+    "eggs"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-210",
+   "start_s": 296.23,
+   "end_s": 298.06,
+   "narration": "pick up the fork using the right hand from the cutlery drawer.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "fork",
+    "cutlery drawer"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-211",
+   "start_s": 297.0,
+   "end_s": 298.09,
+   "narration": "close the cutlery drawer with the left hand",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "cutlery drawer"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-212",
+   "start_s": 299.39,
+   "end_s": 299.86,
+   "narration": "Stab the fork into each of the egg yolks with the right hand to make them easier to whisk.",
+   "verbs": [
+    "stab"
+   ],
+   "nouns": [
+    "fork",
+    "each of egg yolks",
+    "egg yolks"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-213",
+   "start_s": 299.96,
+   "end_s": 303.67,
+   "narration": "Whisk the eggs using the fork in the right hand, using the left hand to steady the measuring jugs by grabbing its handle.",
+   "verbs": [
+    "whisk",
+    "steady",
+    "grab"
+   ],
+   "nouns": [
+    "eggs",
+    "fork",
+    "measuring jugs",
+    "left hand handle"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-214",
+   "start_s": 303.71,
+   "end_s": 304.37,
+   "narration": "Lift up the measuring jug containing the egg and milk mixture.",
+   "verbs": [
+    "lift up"
+   ],
+   "nouns": [
+    "measuring jug",
+    "egg",
+    "milk mixture"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-215",
+   "start_s": 306.43,
+   "end_s": 307.14,
+   "narration": "Place the measuring jug containing the egg and milk mixture and the fork onto the countertop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "measuring jug",
+    "egg",
+    "milk mixture",
+    "fork",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-216",
+   "start_s": 308.0,
+   "end_s": 308.52,
+   "narration": "Turn down the hob that is cooking the bacon to make sure it is not cooking too quickly.",
+   "verbs": [
+    "turn down"
+   ],
+   "nouns": [
+    "hob",
+    "bacon"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-217",
+   "start_s": 308.46,
+   "end_s": 309.89,
+   "narration": "Hold down the ignition switch with the left hand whilst twisting the knob in the right hand to turn on the gas.",
+   "verbs": [
+    "hold down",
+    "twist",
+    "turn on"
+   ],
+   "nouns": [
+    "ignition switch",
+    "knob",
+    "gas"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-218",
+   "start_s": 310.7,
+   "end_s": 333.11,
+   "narration": "Grab hold of the fork with the right hand and begin whisking once more and keep whisking until the egg and milk mixture is a uniform colour.",
+   "verbs": [
+    "grab",
+    "whisk",
+    "keep"
+   ],
+   "nouns": [
+    "hold of fork",
+    "egg",
+    "milk mixture",
+    "uniform colour"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-219",
+   "start_s": 333.18,
+   "end_s": 333.4,
+   "narration": "let go of the fork with the right hand and the measuring jug with the left hand.",
+   "verbs": [
+    "let go of"
+   ],
+   "nouns": [
+    "fork",
+    "measuring jug",
+    "."
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-220",
+   "start_s": 333.69,
+   "end_s": 333.99,
+   "narration": "Pick up the pepper mill with the right hand to season the eggs.",
+   "verbs": [
+    "pick up",
+    "season"
+   ],
+   "nouns": [
+    "pepper mill",
+    "eggs"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-221",
+   "start_s": 334.04,
+   "end_s": 335.44,
+   "narration": "Remove the top of the pepper mill with the left hand.",
+   "verbs": [
+    "remove"
+   ],
+   "nouns": [
+    "top of pepper mill"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-222",
+   "start_s": 335.45,
+   "end_s": 335.8,
+   "narration": "Place the top of the pepper mill onto the countertop with the left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "top of pepper mill",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-223",
+   "start_s": 336.17,
+   "end_s": 341.48,
+   "narration": "Twist the pepper mill, holding it in both hands, to grind pepper into the egg mixture to season it.",
+   "verbs": [
+    "twist",
+    "hold",
+    "grind",
+    "season"
+   ],
+   "nouns": [
+    "pepper mill",
+    "pepper",
+    "egg mixture"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-224",
+   "start_s": 341.58,
+   "end_s": 342.09,
+   "narration": "Pick up the top of the pepper mill with the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "top of pepper mill"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-225",
+   "start_s": 342.19,
+   "end_s": 343.03,
+   "narration": "place the top of the pepper mill back onto the pepper mill",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "top of pepper mill",
+    "pepper mill"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-226",
+   "start_s": 343.49,
+   "end_s": 344.07,
+   "narration": "place the pepper mill back onto the countertop",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "pepper mill",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-227",
+   "start_s": 344.14,
+   "end_s": 344.38,
+   "narration": "Grab hold of the measuring jug with the left hand.",
+   "verbs": [
+    "grab"
+   ],
+   "nouns": [
+    "hold of measuring jug"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-228",
+   "start_s": 344.23,
+   "end_s": 358.26,
+   "narration": "Grab hold of the fork and whisk in the black pepper into the egg mixture to make sure that it's distributed evenly and keep whisking until the egg mixture is uniform.",
+   "verbs": [
+    "grab",
+    "whisk",
+    "keep"
+   ],
+   "nouns": [
+    "hold of fork",
+    "black pepper",
+    "egg mixture"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-229",
+   "start_s": 358.36,
+   "end_s": 358.66,
+   "narration": "let go of the fork in the right hand",
+   "verbs": [
+    "let go of"
+   ],
+   "nouns": [
+    "fork"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-230",
+   "start_s": 358.63,
+   "end_s": 359.65,
+   "narration": "Twist the kettle using the right hand to grab the handle to remove the handle out of the way of the whisking.",
+   "verbs": [
+    "twist",
+    "grab",
+    "remove"
+   ],
+   "nouns": [
+    "kettle",
+    "handle",
+    "way of whisking"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-231",
+   "start_s": 359.87,
+   "end_s": 360.32,
+   "narration": "lift up the jug from the counter top with the left hand.",
+   "verbs": [
+    "lift up"
+   ],
+   "nouns": [
+    "jug",
+    "counter top"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-232",
+   "start_s": 361.88,
+   "end_s": 362.22,
+   "narration": "check the heat of the pan by holding the hand above the pan",
+   "verbs": [
+    "check",
+    "hold"
+   ],
+   "nouns": [
+    "heat of pan",
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-233",
+   "start_s": 362.98,
+   "end_s": 363.5,
+   "narration": "Lift up the frying pan in the right hand.",
+   "verbs": [
+    "lift up"
+   ],
+   "nouns": [
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-234",
+   "start_s": 363.57,
+   "end_s": 364.59,
+   "narration": "tilt the frying pan from side to side to distribute the oil evenly across the surface of the frying pan for cooking",
+   "verbs": [
+    "tilt",
+    "distribute"
+   ],
+   "nouns": [
+    "frying pan",
+    "side",
+    "oil",
+    "surface of frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-235",
+   "start_s": 364.64,
+   "end_s": 365.28,
+   "narration": "Place the saucepan back down on the hob now that the oil is coated evenly.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "saucepan",
+    "hob",
+    "oil"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-236",
+   "start_s": 365.63,
+   "end_s": 366.05,
+   "narration": "grab the fork with the right hand so that when the egg mixture is poured into the frying pan the fork doesn't fall into it",
+   "verbs": [
+    "grab"
+   ],
+   "nouns": [
+    "fork",
+    "egg mixture",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-237",
+   "start_s": 366.14,
+   "end_s": 370.23,
+   "narration": "Whisk the eggs slightly with the fork in the right hand whilst holding and pouring the egg mixture into the frying pan. This is to make sure that the egg mixture is distributed evenly throughout the frying pan.",
+   "verbs": [
+    "whisk",
+    "hold",
+    "pour"
+   ],
+   "nouns": [
+    "eggs",
+    "fork",
+    "egg mixture",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-238",
+   "start_s": 370.33,
+   "end_s": 370.65,
+   "narration": "scrape any residual egg mixture in the measuring jug using the fork",
+   "verbs": [
+    "scrape"
+   ],
+   "nouns": [
+    "any residual egg mixture",
+    "measuring jug",
+    "fork"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-239",
+   "start_s": 370.95,
+   "end_s": 373.46,
+   "narration": "tap the fork against the measuring jug held upside down into the pan to remove any excess egg from both the fork and the measuring jug",
+   "verbs": [
+    "tap",
+    "remove"
+   ],
+   "nouns": [
+    "fork",
+    "measuring jug",
+    "pan",
+    "any excess egg"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-240",
+   "start_s": 374.04,
+   "end_s": 374.41,
+   "narration": "place the fork into the measuring jug.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "fork",
+    "measuring jug"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-241",
+   "start_s": 374.9,
+   "end_s": 375.35,
+   "narration": "Place the measuring jug and fork into the bottom of the washing up bowl which contains some water to soak them slightly.",
+   "verbs": [
+    "place",
+    "soak"
+   ],
+   "nouns": [
+    "measuring jug",
+    "fork",
+    "bottom of washing up bowl",
+    "some water"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-242",
+   "start_s": 376.26,
+   "end_s": 380.58,
+   "narration": "Turn down the hob that is controlling the burner for the eggs to make sure that they don't burn or cook too quickly.",
+   "verbs": [
+    "turn",
+    "cook"
+   ],
+   "nouns": [
+    "hob",
+    "burner",
+    "eggs"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-243",
+   "start_s": 381.74,
+   "end_s": 382.1,
+   "narration": "Pick up the spatula from the countertop using the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spatula",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-244",
+   "start_s": 382.51,
+   "end_s": 383.72,
+   "narration": "Lift up and flip the bacon medallion using the spatula in the right hand.",
+   "verbs": [
+    "lift",
+    "flip"
+   ],
+   "nouns": [
+    "bacon medallion",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-245",
+   "start_s": 384.1,
+   "end_s": 386.75,
+   "narration": "Scrape off the excess fat from the top of the bacon medallion.",
+   "verbs": [
+    "scrape off"
+   ],
+   "nouns": [
+    "excess fat",
+    "top of bacon medallion"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-246",
+   "start_s": 386.28,
+   "end_s": 387.28,
+   "narration": "Adjust the bacon medallion's position in the frying pan to make sure that it's cooking evenly and not too close to any of the other medallions.",
+   "verbs": [
+    "adjust"
+   ],
+   "nouns": [
+    "bacon medallion's position",
+    "frying pan",
+    "bacon medallion",
+    "any of other medallions"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-247",
+   "start_s": 388.18,
+   "end_s": 389.22,
+   "narration": "Lift up and flip the bacon medallion using the spatula in the right hand.",
+   "verbs": [
+    "lift",
+    "flip"
+   ],
+   "nouns": [
+    "bacon medallion",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-248",
+   "start_s": 389.5,
+   "end_s": 390.89,
+   "narration": "Scrape off the excess fat from the top of the baked medallion using the spatula in the right hand.",
+   "verbs": [
+    "scrape off"
+   ],
+   "nouns": [
+    "excess fat",
+    "top of baked medallion",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-249",
+   "start_s": 390.99,
+   "end_s": 392.68,
+   "narration": "Adjust the position of the bacon medallion using the spatula in the right hand to make sure it's not too close to the other bacon medallions and can cook evenly.",
+   "verbs": [
+    "adjust",
+    "cook"
+   ],
+   "nouns": [
+    "position of bacon medallion",
+    "spatula",
+    "bacon medallion",
+    "other bacon medallions"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-250",
+   "start_s": 393.46,
+   "end_s": 394.5,
+   "narration": "Lift up and flip the bacon medallion using the spatula in the right hand.",
+   "verbs": [
+    "lift",
+    "flip"
+   ],
+   "nouns": [
+    "bacon medallion",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-251",
+   "start_s": 394.86,
+   "end_s": 395.21,
+   "narration": "Adjust the position of the bacon medallion in the frying pan using the spatula in the right hand to make sure that it's not too close to the other baking medallions and can cook evenly.",
+   "verbs": [
+    "adjust",
+    "cook"
+   ],
+   "nouns": [
+    "position of bacon medallion",
+    "frying pan",
+    "spatula",
+    "bacon medallion",
+    "other baking medallions"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-252",
+   "start_s": 395.63,
+   "end_s": 396.66,
+   "narration": "Lift up and flip the bacon medallion using the spatula in the right hand.",
+   "verbs": [
+    "lift",
+    "flip"
+   ],
+   "nouns": [
+    "bacon medallion",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-253",
+   "start_s": 396.62,
+   "end_s": 398.53,
+   "narration": "Adjust the position of the bacon medallion in the frying pan to make sure that it's not too close to the other bacon medallions in the pan so that it can cook evenly.",
+   "verbs": [
+    "adjust"
+   ],
+   "nouns": [
+    "position of bacon medallion",
+    "frying pan",
+    "bacon medallion",
+    "other bacon medallions",
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-254",
+   "start_s": 398.39,
+   "end_s": 399.27,
+   "narration": "lift up the frying pan using the left hand to both shake the pan and also to check the flame",
+   "verbs": [
+    "lift up",
+    "shake",
+    "check"
+   ],
+   "nouns": [
+    "frying pan",
+    "pan",
+    "flame"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-255",
+   "start_s": 398.73,
+   "end_s": 399.09,
+   "narration": "Shake the frying pan to make sure that the bacon isn't sticking.",
+   "verbs": [
+    "shake"
+   ],
+   "nouns": [
+    "frying pan",
+    "bacon"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-256",
+   "start_s": 399.68,
+   "end_s": 399.89,
+   "narration": "place the frying pan back down onto the hob",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "frying pan",
+    "hob"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-257",
+   "start_s": 399.99,
+   "end_s": 400.42,
+   "narration": "Tap the spatula against the side of the frying pan to remove any excess oil and food from it.",
+   "verbs": [
+    "tap",
+    "remove"
+   ],
+   "nouns": [
+    "spatula",
+    "side of frying pan",
+    "any excess oil",
+    "food",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-258",
+   "start_s": 400.87,
+   "end_s": 401.53,
+   "narration": "Place the spatula down onto the side of the countertop.",
+   "verbs": [
+    "place down"
+   ],
+   "nouns": [
+    "spatula",
+    "side of countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-259",
+   "start_s": 403.28,
+   "end_s": 403.54,
+   "narration": "Pull out the baguette from the bag, using the right hand to pull the baguette and the left hand to hold the bag.",
+   "verbs": [
+    "pull out",
+    "pull",
+    "hold"
+   ],
+   "nouns": [
+    "baguette",
+    "bag"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-260",
+   "start_s": 403.64,
+   "end_s": 404.45,
+   "narration": "Move the baguette and the bag from the countertop onto the plate.",
+   "verbs": [
+    "move"
+   ],
+   "nouns": [
+    "baguette",
+    "bag",
+    "countertop",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-261",
+   "start_s": 405.36,
+   "end_s": 406.01,
+   "narration": "Lift up the baguette and the bag so that the right hand can grab the bread knife underneath it.",
+   "verbs": [
+    "lift up"
+   ],
+   "nouns": [
+    "baguette",
+    "bag",
+    "bread knife"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-262",
+   "start_s": 406.63,
+   "end_s": 409.03,
+   "narration": "Adjust the bag to make sure that around half of the baguette is outside the bag for cutting the baguette into half.",
+   "verbs": [
+    "adjust",
+    "cut"
+   ],
+   "nouns": [
+    "bag",
+    "around half of baguette",
+    "baguette"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-263",
+   "start_s": 409.13,
+   "end_s": 412.17,
+   "narration": "Cut the baguette in half using the bread knife in the right hand whilst holding the baguette in the left hand.",
+   "verbs": [
+    "cut",
+    "hold"
+   ],
+   "nouns": [
+    "baguette",
+    "bread knife"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-264",
+   "start_s": 412.25,
+   "end_s": 412.69,
+   "narration": "move the half of the baguette that's still in the bag off the plate onto the countertop.",
+   "verbs": [
+    "move"
+   ],
+   "nouns": [
+    "half of baguette",
+    "bag",
+    "plate",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-265",
+   "start_s": 412.79,
+   "end_s": 413.36,
+   "narration": "Adjust the baguette with the left hand to make sure that it is in the centre of the plate.",
+   "verbs": [
+    "adjust"
+   ],
+   "nouns": [
+    "baguette",
+    "centre of plate"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-266",
+   "start_s": 413.35,
+   "end_s": 415.45,
+   "narration": "Using the knife as a guide, make sure that around half the baguette will be cut.",
+   "verbs": [
+    "cut"
+   ],
+   "nouns": [
+    "knife",
+    "guide",
+    "around half baguette"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-267",
+   "start_s": 415.49,
+   "end_s": 417.22,
+   "narration": "Cut the baguette half into quarters, using the bread knife in the right hand whilst holding the baguette in the left hand.",
+   "verbs": [
+    "cut",
+    "hold"
+   ],
+   "nouns": [
+    "baguette",
+    "quarters",
+    "bread knife"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-268",
+   "start_s": 417.24,
+   "end_s": 417.79,
+   "narration": "pick up half the baguette using the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "half baguette"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-269",
+   "start_s": 417.89,
+   "end_s": 421.62,
+   "narration": "Slice open the baguette using the bread knife in the right hand, holding the baguette in the left hand.",
+   "verbs": [
+    "slice open",
+    "hold"
+   ],
+   "nouns": [
+    "baguette",
+    "bread knife"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-270",
+   "start_s": 421.65,
+   "end_s": 421.91,
+   "narration": "Place the sliced baguette back down onto the plate.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "sliced baguette",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-271",
+   "start_s": 422.18,
+   "end_s": 422.5,
+   "narration": "Pick up the end of the baguette using the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "end of baguette"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-272",
+   "start_s": 422.6,
+   "end_s": 427.48,
+   "narration": "Slice the baguette down the middle using the bread knife in the right hand, holding the baguette in the left hand.",
+   "verbs": [
+    "slice",
+    "hold"
+   ],
+   "nouns": [
+    "baguette",
+    "middle",
+    "bread knife"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-273",
+   "start_s": 427.72,
+   "end_s": 428.32,
+   "narration": "place the baguette down onto the plate using the left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "baguette",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-274",
+   "start_s": 428.12,
+   "end_s": 428.68,
+   "narration": "Place the bread knife onto the countertop using the right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "bread knife",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-275",
+   "start_s": 429.24,
+   "end_s": 429.73,
+   "narration": "Pick up the large empty egg carton that only contains the empty egg shells using the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "large empty egg carton",
+    "empty egg shells"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-276",
+   "start_s": 431.68,
+   "end_s": 432.51,
+   "narration": "move the food bin using the left hand to give space to pour in the eggs.",
+   "verbs": [
+    "move",
+    "give",
+    "pour"
+   ],
+   "nouns": [
+    "food bin",
+    "space",
+    "eggs"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-277",
+   "start_s": 432.61,
+   "end_s": 433.37,
+   "narration": "Open the lid of the food bin using the left hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "lid of food bin"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-278",
+   "start_s": 433.65,
+   "end_s": 434.95,
+   "narration": "Tip the egg carton using both hands to tip the eggshells into the food bin.",
+   "verbs": [
+    "tip"
+   ],
+   "nouns": [
+    "egg carton",
+    "eggshells",
+    "food bin"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-279",
+   "start_s": 435.25,
+   "end_s": 436.03,
+   "narration": "tap the back of the eggshell carton to remove the last two eggshells",
+   "verbs": [
+    "tap",
+    "remove"
+   ],
+   "nouns": [
+    "back of eggshell carton",
+    "last two eggshells"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-280",
+   "start_s": 436.8,
+   "end_s": 438.34,
+   "narration": "Scoop out the last eggshell from the carton using the left hand whilst holding it in the right hand.",
+   "verbs": [
+    "scoop out",
+    "hold"
+   ],
+   "nouns": [
+    "last eggshell",
+    "carton"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-281",
+   "start_s": 438.63,
+   "end_s": 439.14,
+   "narration": "Close the empty egg carton using both hands.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "empty egg carton"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-282",
+   "start_s": 439.64,
+   "end_s": 440.11,
+   "narration": "place the large empty egg carton into the recycling bin",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "large empty egg carton",
+    "recycling bin"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-283",
+   "start_s": 440.41,
+   "end_s": 440.93,
+   "narration": "Close the food bin using the left hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "food bin"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-284",
+   "start_s": 440.94,
+   "end_s": 441.16,
+   "narration": "push the food bin into the corner with the left hand.",
+   "verbs": [
+    "push"
+   ],
+   "nouns": [
+    "food bin",
+    "corner"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-285",
+   "start_s": 443.54,
+   "end_s": 444.58,
+   "narration": "reduce the temperature for the burner in the bottom left which is cooking the bacon to make sure that it doesn't burn",
+   "verbs": [
+    "reduce"
+   ],
+   "nouns": [
+    "temperature",
+    "burner",
+    "bacon"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-286",
+   "start_s": 444.9,
+   "end_s": 445.33,
+   "narration": "Pick up the spatula in the right hand to check the eggs.",
+   "verbs": [
+    "pick up",
+    "check"
+   ],
+   "nouns": [
+    "spatula",
+    "eggs"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-287",
+   "start_s": 445.75,
+   "end_s": 452.91,
+   "narration": "Scrape the spatula against the bottom of the pan which is cooking the egg mixture to remove any curds that have formed.",
+   "verbs": [
+    "scrape",
+    "remove"
+   ],
+   "nouns": [
+    "spatula",
+    "bottom of pan",
+    "egg mixture",
+    "any curds"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-288",
+   "start_s": 452.95,
+   "end_s": 453.31,
+   "narration": "Transfer the spatula from the right hand to the left hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-289",
+   "start_s": 453.55,
+   "end_s": 454.05,
+   "narration": "Turn down the hob using the right hand that is cooking the egg mixture, as the curds are forming a bit too quickly and the scrambled egg wouldn't really cook evenly otherwise.",
+   "verbs": [
+    "turn"
+   ],
+   "nouns": [
+    "hob",
+    "egg mixture",
+    "curds",
+    "scrambled egg"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-291",
+   "start_s": 454.0,
+   "end_s": 468.87,
+   "narration": "Scrape through the bottom of the egg mixture using the spatula in the right hand and stir the egg mixture as well to make sure the curds are forming evenly.",
+   "verbs": [
+    "scrape through",
+    "stir"
+   ],
+   "nouns": [
+    "bottom of egg mixture",
+    "spatula",
+    "egg mixture",
+    "curds"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-290",
+   "start_s": 454.09,
+   "end_s": 454.5,
+   "narration": "pass the spatula from the left hand to the right hand",
+   "verbs": [
+    "pass"
+   ],
+   "nouns": [
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-292",
+   "start_s": 468.95,
+   "end_s": 469.33,
+   "narration": "pass the spatula from right hand to left hand to free up the right hand",
+   "verbs": [
+    "pass"
+   ],
+   "nouns": [
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-293",
+   "start_s": 469.05,
+   "end_s": 469.34,
+   "narration": "Pass the spatula from the left hand to the right hand.",
+   "verbs": [
+    "pass"
+   ],
+   "nouns": [
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-294",
+   "start_s": 470.33,
+   "end_s": 470.71,
+   "narration": "Tap the edge of the spatula against the frying pan to remove any excess egg mixture from it.",
+   "verbs": [
+    "tap",
+    "remove"
+   ],
+   "nouns": [
+    "edge of spatula",
+    "frying pan",
+    "any excess egg mixture"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-295",
+   "start_s": 470.53,
+   "end_s": 470.95,
+   "narration": "Grasp hold of the handle of the frying pan using the left hand and lift it up slightly.",
+   "verbs": [
+    "grasp",
+    "lift"
+   ],
+   "nouns": [
+    "hold of handle of frying pan",
+    "handle of frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-296",
+   "start_s": 471.05,
+   "end_s": 471.35,
+   "narration": "Shake the egg mixture in the frying pan to distribute it evenly.",
+   "verbs": [
+    "shake",
+    "distribute"
+   ],
+   "nouns": [
+    "egg mixture",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-297",
+   "start_s": 471.45,
+   "end_s": 472.22,
+   "narration": "Place the frying pan back down onto the hob.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "frying pan",
+    "hob"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-298",
+   "start_s": 472.42,
+   "end_s": 472.88,
+   "narration": "Place the spatula onto the countertop using the right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spatula",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-299",
+   "start_s": 474.67,
+   "end_s": 475.17,
+   "narration": "Lift up the baguette that is still in the bag.",
+   "verbs": [
+    "lift up"
+   ],
+   "nouns": [
+    "baguette",
+    "bag"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-300",
+   "start_s": 475.27,
+   "end_s": 476.1,
+   "narration": "Hold the baguette and the bag in both hands loosely such that the baguette falls down inside the bag.",
+   "verbs": [
+    "hold"
+   ],
+   "nouns": [
+    "baguette",
+    "bag"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-301",
+   "start_s": 475.56,
+   "end_s": 477.05,
+   "narration": "scrunch and twist the bag of the baguette to close it and seal it.",
+   "verbs": [
+    "scrunch",
+    "twist",
+    "close",
+    "seal"
+   ],
+   "nouns": [
+    "bag of baguette"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-302",
+   "start_s": 477.02,
+   "end_s": 477.73,
+   "narration": "Place the baguette and the bag down onto the countertop so that the excess bag is underneath the baguette.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "baguette",
+    "bag",
+    "countertop",
+    "excess bag"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-303",
+   "start_s": 477.91,
+   "end_s": 478.6,
+   "narration": "pick up the butter knife from the rack using the left hand",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "butter knife",
+    "rack"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-304",
+   "start_s": 478.84,
+   "end_s": 479.54,
+   "narration": "Place the butter knife down on the countertop near the cheese.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "butter knife",
+    "countertop",
+    "cheese"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-305",
+   "start_s": 479.68,
+   "end_s": 480.33,
+   "narration": "open up the cupboard using the left hand",
+   "verbs": [
+    "open up"
+   ],
+   "nouns": [
+    "cupboard"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-306",
+   "start_s": 480.4,
+   "end_s": 480.99,
+   "narration": "pick up the grater that will be used to grate the cheese later with the right hand.",
+   "verbs": [
+    "pick up",
+    "grate"
+   ],
+   "nouns": [
+    "grater",
+    "cheese"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-307",
+   "start_s": 480.85,
+   "end_s": 481.46,
+   "narration": "Transfer the grater from the right hand to the left hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "grater"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-308",
+   "start_s": 481.29,
+   "end_s": 482.01,
+   "narration": "Place the grater down onto the countertop with the left hand.",
+   "verbs": [
+    "place down"
+   ],
+   "nouns": [
+    "grater",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-309",
+   "start_s": 481.57,
+   "end_s": 482.36,
+   "narration": "Open the fridge using the right hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "fridge"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-311",
+   "start_s": 482.44,
+   "end_s": 484.14,
+   "narration": "close the fridge using the right hand",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "fridge"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-310",
+   "start_s": 482.74,
+   "end_s": 484.07,
+   "narration": "Search for and grab hold of the butter using the left hand.",
+   "verbs": [
+    "search for",
+    "grab"
+   ],
+   "nouns": [
+    "hold of butter"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-312",
+   "start_s": 484.24,
+   "end_s": 484.58,
+   "narration": "Transfer the butter from the left hand into the right hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "butter"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-313",
+   "start_s": 484.68,
+   "end_s": 485.48,
+   "narration": "Open the butter using the left hand to peel off the lid.",
+   "verbs": [
+    "open",
+    "peel off"
+   ],
+   "nouns": [
+    "butter",
+    "lid"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-314",
+   "start_s": 485.55,
+   "end_s": 485.81,
+   "narration": "Place the lid down onto the countertop.",
+   "verbs": [
+    "place down"
+   ],
+   "nouns": [
+    "lid",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-315",
+   "start_s": 485.91,
+   "end_s": 486.24,
+   "narration": "Place the tub of butter down onto the countertop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "tub of butter",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-316",
+   "start_s": 486.67,
+   "end_s": 487.0,
+   "narration": "Pick up the bread knife from the countertop using the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bread knife",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-317",
+   "start_s": 487.05,
+   "end_s": 487.31,
+   "narration": "pass the butter knife from the left hand to the right hand",
+   "verbs": [
+    "pass"
+   ],
+   "nouns": [
+    "butter knife"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-318",
+   "start_s": 487.59,
+   "end_s": 488.02,
+   "narration": "Twist the tub of butter using the left hand so that it's easier to scrape out the butter using the right hand.",
+   "verbs": [
+    "twist",
+    "scrape out"
+   ],
+   "nouns": [
+    "tub of butter",
+    "butter"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-319",
+   "start_s": 488.12,
+   "end_s": 490.09,
+   "narration": "Scrape the butter using the butter knife in the right hand repeatedly, so that the butter gets softened and is easier to spread later.",
+   "verbs": [
+    "scrape"
+   ],
+   "nouns": [
+    "butter",
+    "butter knife"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-320",
+   "start_s": 497.5,
+   "end_s": 498.99,
+   "narration": "Scoop out butter using the butter knife from the tub of butter.",
+   "verbs": [
+    "scoop out"
+   ],
+   "nouns": [
+    "butter",
+    "butter knife",
+    "tub of butter"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-321",
+   "start_s": 499.46,
+   "end_s": 499.73,
+   "narration": "Pick up one of the sliced baguette quarters using the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "sliced baguette quarters"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-322",
+   "start_s": 499.83,
+   "end_s": 500.85,
+   "narration": "Open the sliced baguette quarter using both hands.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "sliced baguette quarter"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-323",
+   "start_s": 501.54,
+   "end_s": 509.04,
+   "narration": "Spread the butter onto both inside sides of the baguette, using the butter knife in the right hand whilst holding the baguette in the left hand.",
+   "verbs": [
+    "spread",
+    "hold"
+   ],
+   "nouns": [
+    "butter",
+    "inside sides of baguette",
+    "butter knife",
+    "baguette"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-324",
+   "start_s": 509.14,
+   "end_s": 509.46,
+   "narration": "Place the now buttered baguette back down onto the plate.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "now buttered baguette",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-325",
+   "start_s": 509.91,
+   "end_s": 511.25,
+   "narration": "scoop up more softened butter using the bread knife in the right hand whilst holding the tub of butter in the left hand",
+   "verbs": [
+    "scoop up",
+    "hold"
+   ],
+   "nouns": [
+    "more softened butter",
+    "bread knife",
+    "tub of butter"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-326",
+   "start_s": 511.63,
+   "end_s": 512.09,
+   "narration": "Pick up the baguette half that has some butter on it using the left hand",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "baguette",
+    "some butter"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-327",
+   "start_s": 512.09,
+   "end_s": 516.65,
+   "narration": "Spread some more butter on the part of the baguette half that has been missed. You can see the butter knife in the right hand.",
+   "verbs": [
+    "spread",
+    "see"
+   ],
+   "nouns": [
+    "some more butter",
+    "part of baguette",
+    "butter knife"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-328",
+   "start_s": 516.78,
+   "end_s": 517.07,
+   "narration": "Place the baguette half that is now fully buttered onto the plate.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "baguette",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-329",
+   "start_s": 517.45,
+   "end_s": 518.78,
+   "narration": "Scrape out and scoop more butter from the tub, using the butter knife in the right hand, whilst holding the tub of butter in the left hand.",
+   "verbs": [
+    "scrape",
+    "scoop",
+    "hold"
+   ],
+   "nouns": [
+    "more butter",
+    "tub",
+    "butter knife",
+    "tub of butter"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-330",
+   "start_s": 519.25,
+   "end_s": 519.83,
+   "narration": "Pick up the baguette quarter on the plate which has not been buttered yet using the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "baguette quarter",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-331",
+   "start_s": 519.47,
+   "end_s": 519.87,
+   "narration": "Open the baguette half fully using both hands.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "baguette"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-332",
+   "start_s": 521.5,
+   "end_s": 523.1,
+   "narration": "Spread butter onto one side of the baguette, using the butter knife in the right hand whilst holding the baguette in the left hand.",
+   "verbs": [
+    "spread",
+    "hold"
+   ],
+   "nouns": [
+    "butter",
+    "one side of baguette",
+    "butter knife",
+    "baguette"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-333",
+   "start_s": 525.18,
+   "end_s": 525.75,
+   "narration": "Place the baguette quarter down onto the plate.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "baguette quarter",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-334",
+   "start_s": 525.78,
+   "end_s": 526.61,
+   "narration": "Scrape the softened butter and scoop it using the butter knife in the right hand whilst holding the tub of butter in the left hand.",
+   "verbs": [
+    "scrape",
+    "scoop",
+    "hold"
+   ],
+   "nouns": [
+    "softened butter",
+    "butter knife",
+    "tub of butter"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-335",
+   "start_s": 526.71,
+   "end_s": 527.54,
+   "narration": "Spread the butter onto the last quarter of the baguette which hasn't been buttered yet, using the butter knife in the right hand whilst holding the baguette quarter in the left hand.",
+   "verbs": [
+    "spread",
+    "hold"
+   ],
+   "nouns": [
+    "butter",
+    "last quarter of baguette",
+    "butter knife",
+    "baguette quarter"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-336",
+   "start_s": 527.64,
+   "end_s": 528.16,
+   "narration": "Check the hob to make sure that neither the egg or the bacon are cooking too quickly or burning.",
+   "verbs": [
+    "check",
+    "burn"
+   ],
+   "nouns": [
+    "hob",
+    "neither egg",
+    "bacon"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-337",
+   "start_s": 528.26,
+   "end_s": 530.61,
+   "narration": "Place the butter knife down on the countertop now that both baguettes have been buttered evenly.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "butter knife",
+    "countertop",
+    "baguettes"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-338",
+   "start_s": 531.97,
+   "end_s": 532.74,
+   "narration": "turn off the hob that is in the lower left position, which is cooking the bacon medallions, as the bacon is now fully cooked.",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "hob",
+    "lower left position",
+    "bacon medallions",
+    "bacon"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-339",
+   "start_s": 532.84,
+   "end_s": 533.24,
+   "narration": "lift up the spatula in the right hand.",
+   "verbs": [
+    "lift up"
+   ],
+   "nouns": [
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-341",
+   "start_s": 533.19,
+   "end_s": 534.75,
+   "narration": "Flip the bacon medallion in the frying pan.",
+   "verbs": [
+    "flip"
+   ],
+   "nouns": [
+    "bacon medallion",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-340",
+   "start_s": 533.79,
+   "end_s": 536.2,
+   "narration": "Grab hold of the frying pan containing the bacon using the left hand.",
+   "verbs": [
+    "grab"
+   ],
+   "nouns": [
+    "hold of frying pan",
+    "bacon"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-342",
+   "start_s": 534.89,
+   "end_s": 535.13,
+   "narration": "Adjust the position of the bacon medallion in the frying pan using the spatula to make sure it's not too close to the other bacon medallions.",
+   "verbs": [
+    "adjust"
+   ],
+   "nouns": [
+    "position of bacon medallion",
+    "frying pan",
+    "spatula",
+    "bacon medallion",
+    "other bacon medallions"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-343",
+   "start_s": 535.5,
+   "end_s": 536.41,
+   "narration": "Flip the bacon medallion in the frying pan.",
+   "verbs": [
+    "flip"
+   ],
+   "nouns": [
+    "bacon medallion",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-344",
+   "start_s": 536.51,
+   "end_s": 538.36,
+   "narration": "Flip the bacon medallion in the frying pan.",
+   "verbs": [
+    "flip"
+   ],
+   "nouns": [
+    "bacon medallion",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-345",
+   "start_s": 538.46,
+   "end_s": 540.63,
+   "narration": "Move the small piece of bacon medallion that is on the side of the frying pan so that it can continue cooking.",
+   "verbs": [
+    "move",
+    "cook"
+   ],
+   "nouns": [
+    "small piece of bacon medallion",
+    "side of frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-346",
+   "start_s": 540.32,
+   "end_s": 542.73,
+   "narration": "Flip the bacon medallion in the frying pan.",
+   "verbs": [
+    "flip"
+   ],
+   "nouns": [
+    "bacon medallion",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-347",
+   "start_s": 542.83,
+   "end_s": 546.21,
+   "narration": "Move the bacon medallion in the frying pan that is on top of the other bacon medallion, using the back of the spatula to push it away from all bacon medallions so that they cook evenly.",
+   "verbs": [
+    "move",
+    "push"
+   ],
+   "nouns": [
+    "bacon medallion",
+    "frying pan",
+    "top of other bacon medallion",
+    "back of spatula",
+    "spatula",
+    "bacon medallions"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-348",
+   "start_s": 546.23,
+   "end_s": 546.53,
+   "narration": "Tap the spatula against the side of the frying pan to remove any oil or excess food from it.",
+   "verbs": [
+    "tap",
+    "remove"
+   ],
+   "nouns": [
+    "spatula",
+    "side of frying pan",
+    "any oil",
+    "excess food",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-349",
+   "start_s": 547.19,
+   "end_s": 547.52,
+   "narration": "Transfer the spatula from the right hand to the left hand to free up the right hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-350",
+   "start_s": 547.9,
+   "end_s": 548.72,
+   "narration": "turn up the egg mixture slightly for it to cook a bit quicker",
+   "verbs": [
+    "turn up"
+   ],
+   "nouns": [
+    "egg mixture"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-351",
+   "start_s": 548.95,
+   "end_s": 549.2,
+   "narration": "pass the spatula from the left hand to the right hand",
+   "verbs": [
+    "pass"
+   ],
+   "nouns": [
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-352",
+   "start_s": 549.45,
+   "end_s": 557.44,
+   "narration": "stir through and scramble the eggs using the spatula in the right hand whilst holding the pan in the left hand",
+   "verbs": [
+    "stir",
+    "scramble",
+    "hold"
+   ],
+   "nouns": [
+    "eggs",
+    "spatula",
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-353",
+   "start_s": 557.49,
+   "end_s": 557.94,
+   "narration": "Tap the spatula against the edge of the frying pan to remove any eggs from it.",
+   "verbs": [
+    "tap",
+    "remove"
+   ],
+   "nouns": [
+    "spatula",
+    "edge of frying pan",
+    "any eggs",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-354",
+   "start_s": 558.41,
+   "end_s": 559.1,
+   "narration": "Place the spatula down onto the countertop using the right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spatula",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-355",
+   "start_s": 558.69,
+   "end_s": 559.46,
+   "narration": "grab the bottle of salt using the left hand to season the eggs now that they have cooked",
+   "verbs": [
+    "grab",
+    "season"
+   ],
+   "nouns": [
+    "bottle of salt",
+    "eggs"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-356",
+   "start_s": 559.27,
+   "end_s": 559.97,
+   "narration": "Transfer the salt bottle from the left hand to the right hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "salt bottle"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-357",
+   "start_s": 559.54,
+   "end_s": 563.61,
+   "narration": "Pour salt from the salt bottle into the left hand whilst holding the bottle in the right hand.",
+   "verbs": [
+    "pour",
+    "hold"
+   ],
+   "nouns": [
+    "salt",
+    "salt bottle",
+    "bottle"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-358",
+   "start_s": 563.73,
+   "end_s": 564.45,
+   "narration": "place the salt bottle back down onto the countertop",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "salt bottle",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-361",
+   "start_s": 564.38,
+   "end_s": 564.73,
+   "narration": "grab a pinch of salt from the left hand using the right hand",
+   "verbs": [
+    "grab"
+   ],
+   "nouns": [
+    "pinch of salt"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-359",
+   "start_s": 564.38,
+   "end_s": 565.03,
+   "narration": "grab a pinch of salt from the left hand using the right hand.",
+   "verbs": [
+    "grab"
+   ],
+   "nouns": [
+    "pinch of salt"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-362",
+   "start_s": 564.74,
+   "end_s": 565.58,
+   "narration": "sprinkle the salt into the egg mixture using the right hand",
+   "verbs": [
+    "sprinkle"
+   ],
+   "nouns": [
+    "salt",
+    "egg mixture"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-360",
+   "start_s": 564.83,
+   "end_s": 567.1,
+   "narration": "Sprinkle the salt into the egg mixture using the right hand.",
+   "verbs": [
+    "sprinkle"
+   ],
+   "nouns": [
+    "salt",
+    "egg mixture"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-363",
+   "start_s": 566.91,
+   "end_s": 567.85,
+   "narration": "Scrape the remaining salt from both hands into the frying pan.",
+   "verbs": [
+    "scrape"
+   ],
+   "nouns": [
+    "remaining salt",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-364",
+   "start_s": 568.72,
+   "end_s": 569.22,
+   "narration": "Pick up the spatula in the right hand whilst grabbing hold of the handle of the frying pan with the egg mixture in the left hand.",
+   "verbs": [
+    "pick up",
+    "grab"
+   ],
+   "nouns": [
+    "spatula",
+    "hold of handle of frying pan",
+    "egg mixture"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-365",
+   "start_s": 569.42,
+   "end_s": 580.99,
+   "narration": "Stir through and scramble the egg mixture in the frying pan using the spatula in the right hand.",
+   "verbs": [
+    "stir",
+    "scramble"
+   ],
+   "nouns": [
+    "egg mixture",
+    "frying pan",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-366",
+   "start_s": 580.95,
+   "end_s": 582.67,
+   "narration": "Lift up and shake the frying pan using the left hand to distribute the scrambled eggs evenly within the pan.",
+   "verbs": [
+    "lift up",
+    "shake",
+    "distribute"
+   ],
+   "nouns": [
+    "frying pan",
+    "scrambled eggs",
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-367",
+   "start_s": 582.72,
+   "end_s": 583.56,
+   "narration": "Tap the spatula against the side of the frying pan to remove any excess egg from it.",
+   "verbs": [
+    "tap",
+    "remove"
+   ],
+   "nouns": [
+    "spatula",
+    "side of frying pan",
+    "any excess egg",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-368",
+   "start_s": 583.59,
+   "end_s": 584.21,
+   "narration": "Place the frying pan back down onto the hob using the left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "frying pan",
+    "hob"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-369",
+   "start_s": 584.31,
+   "end_s": 585.01,
+   "narration": "turn off the burner that is cooking the eggs using the left hand as the eggs are now cooked",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "burner",
+    "eggs"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-370",
+   "start_s": 584.97,
+   "end_s": 585.37,
+   "narration": "Place down the spatula using the right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-371",
+   "start_s": 587.27,
+   "end_s": 588.55,
+   "narration": "open the cupboard door.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "cupboard door"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-372",
+   "start_s": 589.7,
+   "end_s": 590.53,
+   "narration": "Move the basket full of spices out of the way.",
+   "verbs": [
+    "move"
+   ],
+   "nouns": [
+    "basket",
+    "spices"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-373",
+   "start_s": 590.37,
+   "end_s": 594.64,
+   "narration": "Search through the spices by picking up the spice jars and reading the label to try and find paprika and a full jar of cumin.",
+   "verbs": [
+    "search through",
+    "pick up",
+    "read",
+    "try",
+    "find"
+   ],
+   "nouns": [
+    "spices",
+    "spice jars",
+    "label",
+    "paprika",
+    "full jar of cumin"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-374",
+   "start_s": 593.99,
+   "end_s": 594.98,
+   "narration": "Pick up the jar of paprika using the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "jar of paprika"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-375",
+   "start_s": 595.08,
+   "end_s": 595.79,
+   "narration": "Pass the jar of paprika from the left hand to the right hand.",
+   "verbs": [
+    "pass"
+   ],
+   "nouns": [
+    "jar of paprika"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-376",
+   "start_s": 595.56,
+   "end_s": 596.4,
+   "narration": "Lift up the jar of Garam Masala using the right hand to check the jar behind it.",
+   "verbs": [
+    "lift up",
+    "check"
+   ],
+   "nouns": [
+    "jar of garam masala",
+    "jar"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-377",
+   "start_s": 596.5,
+   "end_s": 597.25,
+   "narration": "place the jar back down",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "jar"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-378",
+   "start_s": 597.15,
+   "end_s": 599.37,
+   "narration": "Search through the spice bags on the left basket using the right hand to see if there's any unopened bag of cumin.",
+   "verbs": [
+    "search through",
+    "be"
+   ],
+   "nouns": [
+    "spice bags",
+    "left basket",
+    "there",
+    "any unopened bag of cumin"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-379",
+   "start_s": 600.57,
+   "end_s": 601.73,
+   "narration": "lift up the lid of the paprika spice jar even further",
+   "verbs": [
+    "lift up"
+   ],
+   "nouns": [
+    "lid of paprika spice jar"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-380",
+   "start_s": 601.83,
+   "end_s": 604.38,
+   "narration": "pour the paprika into the scrambled eggs.",
+   "verbs": [
+    "pour"
+   ],
+   "nouns": [
+    "paprika",
+    "scrambled eggs"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-381",
+   "start_s": 604.31,
+   "end_s": 606.08,
+   "narration": "Lift up the lid of the paprika even further.",
+   "verbs": [
+    "lift up"
+   ],
+   "nouns": [
+    "lid of paprika"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-382",
+   "start_s": 606.55,
+   "end_s": 607.71,
+   "narration": "Transfer the paprika jar from the right hand to the left hand, and tap the end of the paprika jar using the right hand.",
+   "verbs": [
+    "transfer",
+    "tap"
+   ],
+   "nouns": [
+    "paprika jar",
+    "end of paprika jar"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-383",
+   "start_s": 607.45,
+   "end_s": 608.22,
+   "narration": "Transfer the paprika jar from the left hand to the right hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "paprika jar"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-384",
+   "start_s": 607.85,
+   "end_s": 611.62,
+   "narration": "shake more paprika into the egg mixture using the right hand",
+   "verbs": [
+    "shake"
+   ],
+   "nouns": [
+    "more paprika",
+    "egg mixture"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-385",
+   "start_s": 611.94,
+   "end_s": 612.64,
+   "narration": "Close the paprika jar lid with the left hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "paprika jar lid"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-386",
+   "start_s": 613.49,
+   "end_s": 615.93,
+   "narration": "Place the paprika jar lid back down into the Tupperware box.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "paprika jar lid",
+    "tupperware box"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-387",
+   "start_s": 616.63,
+   "end_s": 617.94,
+   "narration": "close the cupboard door using the right hand",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "cupboard door"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-388",
+   "start_s": 619.89,
+   "end_s": 620.45,
+   "narration": "Think about picking up the spatula and then realise that it's not ready yet.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-389",
+   "start_s": 621.66,
+   "end_s": 622.43,
+   "narration": "adjust the cheese position on the countertop using the left hand",
+   "verbs": [
+    "adjust"
+   ],
+   "nouns": [
+    "cheese position",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-391",
+   "start_s": 622.52,
+   "end_s": 623.4,
+   "narration": "Transfer the lid of butter to the right hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "lid of butter"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-390",
+   "start_s": 622.6,
+   "end_s": 623.28,
+   "narration": "Pick up the lid of butter using the left hand as the butter is finished with.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "lid of butter",
+    "butter"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-392",
+   "start_s": 623.5,
+   "end_s": 624.28,
+   "narration": "Place the lid of butter onto the tub using both hands and push down.",
+   "verbs": [
+    "place",
+    "push"
+   ],
+   "nouns": [
+    "lid of butter",
+    "tub"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-393",
+   "start_s": 624.38,
+   "end_s": 625.05,
+   "narration": "Lift up the tub of butter with both hands.",
+   "verbs": [
+    "lift up"
+   ],
+   "nouns": [
+    "tub of butter"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-394",
+   "start_s": 624.97,
+   "end_s": 625.74,
+   "narration": "Open the fridge using the right hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "fridge"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-395",
+   "start_s": 625.75,
+   "end_s": 626.91,
+   "narration": "Place the butter back onto the shelf using the left hand in the fridge.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "butter",
+    "shelf",
+    "fridge"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-396",
+   "start_s": 627.01,
+   "end_s": 627.63,
+   "narration": "close the fridge using the right hand",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "fridge"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-397",
+   "start_s": 627.73,
+   "end_s": 628.47,
+   "narration": "Pick up the butter knife using the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "butter knife"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-398",
+   "start_s": 628.57,
+   "end_s": 629.19,
+   "narration": "Grab and pick up a baguette quarter using the left hand.",
+   "verbs": [
+    "grab",
+    "pick up"
+   ],
+   "nouns": [
+    "baguette quarter"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-399",
+   "start_s": 629.29,
+   "end_s": 629.94,
+   "narration": "Open up the baguette quarter using both hands.",
+   "verbs": [
+    "open up"
+   ],
+   "nouns": [
+    "baguette quarter"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-400",
+   "start_s": 629.83,
+   "end_s": 631.41,
+   "narration": "Place the spread open baguette quarter back down onto the plate.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spread",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-401",
+   "start_s": 632.84,
+   "end_s": 633.22,
+   "narration": "itch nose using the right hand.",
+   "verbs": [
+    "itch"
+   ],
+   "nouns": [
+    "nose"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-402",
+   "start_s": 633.08,
+   "end_s": 633.54,
+   "narration": "Pick up a plate from the drying rack.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "plate",
+    "drying rack"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-403",
+   "start_s": 633.97,
+   "end_s": 634.6,
+   "narration": "pass the plate from the left hand to the right hand",
+   "verbs": [
+    "pass"
+   ],
+   "nouns": [
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-404",
+   "start_s": 634.7,
+   "end_s": 635.26,
+   "narration": "place the plate down onto the countertop.",
+   "verbs": [
+    "place down"
+   ],
+   "nouns": [
+    "plate",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-405",
+   "start_s": 636.5,
+   "end_s": 637.32,
+   "narration": "Grab hold of the frying pan using the left hand and lift it from the hob.",
+   "verbs": [
+    "grab",
+    "lift"
+   ],
+   "nouns": [
+    "hold of frying pan",
+    "frying pan",
+    "hob"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-406",
+   "start_s": 637.06,
+   "end_s": 637.5,
+   "narration": "Pick up the spatula using the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-407",
+   "start_s": 637.99,
+   "end_s": 639.27,
+   "narration": "Scoop up one of the unsmoked baking medallions using the spatula in the right hand.",
+   "verbs": [
+    "scoop up"
+   ],
+   "nouns": [
+    "unsmoked baking medallions",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-408",
+   "start_s": 639.7,
+   "end_s": 641.06,
+   "narration": "Place the unsmoked bacon medallion into one of the baguette quarters.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "unsmoked bacon medallion",
+    "baguette quarters"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-409",
+   "start_s": 642.31,
+   "end_s": 643.31,
+   "narration": "Scoop up the final unsmoked baking medallion from the frying pan using the spatula in the right hand.",
+   "verbs": [
+    "scoop up"
+   ],
+   "nouns": [
+    "final unsmoked baking medallion",
+    "frying pan",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-410",
+   "start_s": 643.41,
+   "end_s": 644.3,
+   "narration": "Place the unsmoked bacon medallion into one of the baguette quarters.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "unsmoked bacon medallion",
+    "baguette quarters"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-411",
+   "start_s": 645.2,
+   "end_s": 646.57,
+   "narration": "Place the frying pan down onto the countertop, with the smoked bacon medallion still in it.",
+   "verbs": [
+    "place down"
+   ],
+   "nouns": [
+    "frying pan",
+    "countertop",
+    "smoked bacon medallion"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-412",
+   "start_s": 646.62,
+   "end_s": 648.03,
+   "narration": "Pick up the baguette quarter with the bacon medallions in with both hands to transfer it to the other's plate to give more space.",
+   "verbs": [
+    "pick up",
+    "transfer",
+    "give"
+   ],
+   "nouns": [
+    "baguette quarter",
+    "bacon medallions",
+    "other's plate",
+    "more space"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-413",
+   "start_s": 648.13,
+   "end_s": 648.47,
+   "narration": "Pick up the empty baguette quarter using the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "empty baguette quarter"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-414",
+   "start_s": 648.56,
+   "end_s": 649.11,
+   "narration": "Spread open the baguette quarter using both hands.",
+   "verbs": [
+    "spread"
+   ],
+   "nouns": [
+    "baguette quarter"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-415",
+   "start_s": 649.21,
+   "end_s": 650.29,
+   "narration": "place the open baguette quarter back down onto the plate.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "open baguette quarter",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-416",
+   "start_s": 650.39,
+   "end_s": 650.89,
+   "narration": "Pick up the frying pan with the smoked bacon medallions using the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "frying pan",
+    "smoked bacon medallions"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-417",
+   "start_s": 650.99,
+   "end_s": 651.84,
+   "narration": "Scoop up the smoked bacon medallion using the spatula in the right hand.",
+   "verbs": [
+    "scoop up"
+   ],
+   "nouns": [
+    "smoked bacon medallion",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-418",
+   "start_s": 651.94,
+   "end_s": 654.54,
+   "narration": "Place the smoked bacon medallion in the baguette quarter using the spatula in the right hand, whilst holding open the baguette in the left hand.",
+   "verbs": [
+    "place",
+    "hold open"
+   ],
+   "nouns": [
+    "smoked bacon medallion",
+    "baguette quarter",
+    "spatula",
+    "baguette"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-419",
+   "start_s": 655.27,
+   "end_s": 655.95,
+   "narration": "Scoop up the smoked bacon medallion using the spatula in the right hand.",
+   "verbs": [
+    "scoop up"
+   ],
+   "nouns": [
+    "smoked bacon medallion",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-420",
+   "start_s": 656.05,
+   "end_s": 657.8,
+   "narration": "Place the bacon medallion into the baguette quarter, using the spatula in the right hand, and holding the baguette open in the left hand.",
+   "verbs": [
+    "place",
+    "hold"
+   ],
+   "nouns": [
+    "bacon medallion",
+    "baguette quarter",
+    "spatula",
+    "baguette"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-421",
+   "start_s": 660.1,
+   "end_s": 660.73,
+   "narration": "Pick up the small piece of smoked bacon medallion from the pan using the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "small piece of smoked bacon medallion",
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-422",
+   "start_s": 660.82,
+   "end_s": 661.44,
+   "narration": "Eat the small piece of bacon.",
+   "verbs": [
+    "eat"
+   ],
+   "nouns": [
+    "small piece of bacon"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-423",
+   "start_s": 661.49,
+   "end_s": 662.45,
+   "narration": "Pick up the frying pan using the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-424",
+   "start_s": 662.55,
+   "end_s": 663.5,
+   "narration": "place the frying pan back down onto the hob",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "frying pan",
+    "hob"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-425",
+   "start_s": 663.6,
+   "end_s": 664.53,
+   "narration": "place the spatula down under the countertop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spatula",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-426",
+   "start_s": 664.63,
+   "end_s": 665.47,
+   "narration": "lift up the frying pan from the hob using the left hand",
+   "verbs": [
+    "lift up"
+   ],
+   "nouns": [
+    "frying pan",
+    "hob"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-427",
+   "start_s": 665.26,
+   "end_s": 665.62,
+   "narration": "Pick up the washing up liquid using the right hand to clean the frying pan",
+   "verbs": [
+    "pick up",
+    "clean"
+   ],
+   "nouns": [
+    "washing up liquid",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-428",
+   "start_s": 665.59,
+   "end_s": 666.98,
+   "narration": "squirt washing up liquid into the frying pan, holding the bottle in the right hand and the frying pan in the left hand.",
+   "verbs": [
+    "squirt",
+    "hold"
+   ],
+   "nouns": [
+    "washing up liquid",
+    "frying pan",
+    "bottle"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-429",
+   "start_s": 667.06,
+   "end_s": 667.88,
+   "narration": "place the bottle of washing up liquid back down onto the counter top",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "bottle of washing up liquid",
+    "counter top"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-430",
+   "start_s": 667.74,
+   "end_s": 670.23,
+   "narration": "Turn on the hot water tap using the right hand whilst moving the frying pan underneath the tap.",
+   "verbs": [
+    "turn on",
+    "move"
+   ],
+   "nouns": [
+    "hot water tap",
+    "frying pan",
+    "tap"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-431",
+   "start_s": 668.75,
+   "end_s": 670.14,
+   "narration": "fill up the frying pan with a small amount of water so that it can be soaked",
+   "verbs": [
+    "fill up"
+   ],
+   "nouns": [
+    "frying pan",
+    "small amount of water"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-432",
+   "start_s": 670.77,
+   "end_s": 673.2,
+   "narration": "turn off the hot water tap with the right hand.",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "hot water tap"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-433",
+   "start_s": 673.87,
+   "end_s": 676.13,
+   "narration": "place the frying pan back down onto the hob over the largest burner",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "frying pan",
+    "hob",
+    "largest burner"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-434",
+   "start_s": 676.23,
+   "end_s": 679.26,
+   "narration": "Hold down the ignition switch with the left hand whilst turning on the gas with the knob with the right hand to ignite the burner under the frying pan with the water in it and the washing up liquid to clean it.",
+   "verbs": [
+    "hold down",
+    "turn on",
+    "ignite",
+    "clean"
+   ],
+   "nouns": [
+    "ignition switch",
+    "gas",
+    "knob",
+    "burner",
+    "frying pan",
+    "water",
+    "washing up liquid"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-435",
+   "start_s": 679.75,
+   "end_s": 680.25,
+   "narration": "Pick up the frying pan with the scrambled eggs using the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "frying pan",
+    "scrambled eggs"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-436",
+   "start_s": 680.88,
+   "end_s": 681.48,
+   "narration": "Pick up the spatula using the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-437",
+   "start_s": 681.95,
+   "end_s": 684.24,
+   "narration": "scrape and mix the scrambled egg mixture with this spatula in the right hand.",
+   "verbs": [
+    "scrape",
+    "mix"
+   ],
+   "nouns": [
+    "scrambled egg mixture",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-438",
+   "start_s": 684.89,
+   "end_s": 685.65,
+   "narration": "Scoop the scrambled egg mixture onto the spatula.",
+   "verbs": [
+    "scoop"
+   ],
+   "nouns": [
+    "scrambled egg mixture",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-439",
+   "start_s": 686.25,
+   "end_s": 689.65,
+   "narration": "place the scrambled egg mixture into the sandwich",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "scrambled egg mixture",
+    "sandwich"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-440",
+   "start_s": 690.21,
+   "end_s": 694.65,
+   "narration": "Place the scrambled egg mixture into the open sandwich.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "scrambled egg mixture",
+    "open sandwich"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-441",
+   "start_s": 696.31,
+   "end_s": 701.33,
+   "narration": "Scrape the scrambled egg mixture into the pan so that it is in one part of the pan and easier to scrape and scoop from.",
+   "verbs": [
+    "scrape",
+    "scoop from"
+   ],
+   "nouns": [
+    "scrambled egg mixture",
+    "pan",
+    "one part of pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-442",
+   "start_s": 701.43,
+   "end_s": 702.49,
+   "narration": "Scoop the scrambled egg mixture onto the spatula.",
+   "verbs": [
+    "scoop"
+   ],
+   "nouns": [
+    "scrambled egg mixture",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-443",
+   "start_s": 702.59,
+   "end_s": 704.25,
+   "narration": "Place the scrambled egg mixture on top of the egg mixture in the sandwich.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "scrambled egg mixture",
+    "top of egg mixture",
+    "sandwich"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-444",
+   "start_s": 704.35,
+   "end_s": 705.46,
+   "narration": "Scoop the scrambled egg mixture onto the spatula.",
+   "verbs": [
+    "scoop"
+   ],
+   "nouns": [
+    "scrambled egg mixture",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-445",
+   "start_s": 705.56,
+   "end_s": 706.43,
+   "narration": "place the scrambled egg mixture on top of the sandwich",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "scrambled egg mixture",
+    "top of sandwich"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-446",
+   "start_s": 706.53,
+   "end_s": 707.86,
+   "narration": "Scoop the scrambled egg mixture onto the spatula.",
+   "verbs": [
+    "scoop"
+   ],
+   "nouns": [
+    "scrambled egg mixture",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-447",
+   "start_s": 707.96,
+   "end_s": 710.44,
+   "narration": "Place the scrambled egg mixture on top of the sandwich.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "scrambled egg mixture",
+    "top of sandwich"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-448",
+   "start_s": 710.54,
+   "end_s": 713.0,
+   "narration": "Scrape together the egg mixture in the pan so it is all together",
+   "verbs": [
+    "scrape"
+   ],
+   "nouns": [
+    "egg mixture",
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-449",
+   "start_s": 712.79,
+   "end_s": 713.7,
+   "narration": "Scrape the scrambled egg mixture from the pan into the sandwich using the spatula in the right hand.",
+   "verbs": [
+    "scrape"
+   ],
+   "nouns": [
+    "scrambled egg mixture",
+    "pan",
+    "sandwich",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-450",
+   "start_s": 713.8,
+   "end_s": 718.23,
+   "narration": "Scrape the scrambled egg mixture from the pan into the sandwich using the spatula in the right hand.",
+   "verbs": [
+    "scrape"
+   ],
+   "nouns": [
+    "scrambled egg mixture",
+    "pan",
+    "sandwich",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-451",
+   "start_s": 720.0,
+   "end_s": 721.19,
+   "narration": "Scrape a bit of scrambled egg from the back of the spatula using the side of the frying pan.",
+   "verbs": [
+    "scrape"
+   ],
+   "nouns": [
+    "bit of scrambled egg",
+    "back of spatula",
+    "side of frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-452",
+   "start_s": 723.34,
+   "end_s": 723.75,
+   "narration": "place the frying pan back down onto the hob using the left hand",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "frying pan",
+    "hob"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-453",
+   "start_s": 723.85,
+   "end_s": 724.6,
+   "narration": "place the spatula into the frying pan",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spatula",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-454",
+   "start_s": 724.7,
+   "end_s": 725.16,
+   "narration": "Realise that the spatula is needed to clean the frying pan which had the bacon in, so pick up the spatula from the frying pan immediately.",
+   "verbs": [
+    "clean",
+    "pick up"
+   ],
+   "nouns": [
+    "spatula",
+    "frying pan",
+    "bacon"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-455",
+   "start_s": 725.26,
+   "end_s": 731.08,
+   "narration": "scrape the bacon grease from the bottom of the pan using the back of the spatula",
+   "verbs": [
+    "scrape"
+   ],
+   "nouns": [
+    "bacon grease",
+    "bottom of pan",
+    "back of spatula"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-456",
+   "start_s": 731.16,
+   "end_s": 732.56,
+   "narration": "Tap the spatula against the side of the frying pan to remove any excess water from it.",
+   "verbs": [
+    "tap",
+    "remove"
+   ],
+   "nouns": [
+    "spatula",
+    "side of frying pan",
+    "any excess water",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-457",
+   "start_s": 732.66,
+   "end_s": 733.46,
+   "narration": "Place the spatula back down onto the countertop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spatula",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-458",
+   "start_s": 734.7,
+   "end_s": 735.99,
+   "narration": "pick up the block of cheese and the bag that it is held in with both hands",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "block of cheese",
+    "bag"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-459",
+   "start_s": 736.26,
+   "end_s": 740.93,
+   "narration": "Pull the block of cheese out of the bag using the left hand to hold the block of cheese and the right hand to hold the edge of the bag. This is done by pushing air into the bag and peeling this away from the cheese so that it doesn't get stuck.",
+   "verbs": [
+    "pull",
+    "hold",
+    "push",
+    "peel"
+   ],
+   "nouns": [
+    "block of cheese",
+    "bag",
+    "edge of bag",
+    "air",
+    "cheese"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-460",
+   "start_s": 740.7,
+   "end_s": 741.56,
+   "narration": "Transfer the cheese from both hands into the right hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "cheese"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-461",
+   "start_s": 741.49,
+   "end_s": 741.87,
+   "narration": "Pick up the grater with the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "grater"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-462",
+   "start_s": 741.97,
+   "end_s": 748.23,
+   "narration": "grate cheese into the open sandwich using the block of cheese in the right hand and holding the grater in the left hand.",
+   "verbs": [
+    "grate",
+    "hold"
+   ],
+   "nouns": [
+    "cheese",
+    "open sandwich",
+    "block of cheese",
+    "grater"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-463",
+   "start_s": 748.71,
+   "end_s": 753.63,
+   "narration": "grate cheese into the open sandwich using the block of cheese in the right hand and holding the grater in the left hand.",
+   "verbs": [
+    "grate",
+    "hold"
+   ],
+   "nouns": [
+    "cheese",
+    "open sandwich",
+    "block of cheese",
+    "grater"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-464",
+   "start_s": 753.35,
+   "end_s": 755.17,
+   "narration": "Tap the grater against the block of cheese to remove the cheese gratings that are inside the grater.",
+   "verbs": [
+    "tap",
+    "remove"
+   ],
+   "nouns": [
+    "grater",
+    "block of cheese",
+    "cheese gratings"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-465",
+   "start_s": 756.47,
+   "end_s": 757.01,
+   "narration": "Place the grater down on the countertop near the sink for cleaning later, and place it face up so that the cheese doesn't fall out.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "grater",
+    "countertop",
+    "sink",
+    "cleaning",
+    "face",
+    "cheese"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-466",
+   "start_s": 757.11,
+   "end_s": 757.89,
+   "narration": "transfer the block of cheese from the right hand to the left hand",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "block of cheese"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-467",
+   "start_s": 757.93,
+   "end_s": 760.31,
+   "narration": "hold the bag and the block of cheese in a loose grip so that the cheese falls down into the bag",
+   "verbs": [
+    "hold"
+   ],
+   "nouns": [
+    "bag",
+    "block of cheese",
+    "loose grip",
+    "cheese"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-468",
+   "start_s": 759.53,
+   "end_s": 764.78,
+   "narration": "push the cheese down into the bag as it got stuck",
+   "verbs": [
+    "push"
+   ],
+   "nouns": [
+    "cheese",
+    "bag"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-469",
+   "start_s": 764.88,
+   "end_s": 766.28,
+   "narration": "Check the frying pan that has the washing up liquid and the water in it to make sure that it's not boiled too quickly.",
+   "verbs": [
+    "check"
+   ],
+   "nouns": [
+    "frying pan",
+    "washing up liquid",
+    "water"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-470",
+   "start_s": 766.11,
+   "end_s": 768.7,
+   "narration": "close the bag by folding it across the top of the cheese to keep it fresh",
+   "verbs": [
+    "close",
+    "fold",
+    "keep"
+   ],
+   "nouns": [
+    "bag",
+    "top of cheese",
+    "cheese"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-471",
+   "start_s": 769.2,
+   "end_s": 770.05,
+   "narration": "Open the fridge using the right hand.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "fridge"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-472",
+   "start_s": 770.2,
+   "end_s": 770.71,
+   "narration": "place the block of cheese back into the fridge into the open spot on the shelf",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "block of cheese",
+    "fridge",
+    "open spot",
+    "shelf"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-473",
+   "start_s": 771.69,
+   "end_s": 772.22,
+   "narration": "Close the fridge door using the right hand.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "fridge door"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-474",
+   "start_s": 773.05,
+   "end_s": 773.37,
+   "narration": "pick up the spatula from the side using the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spatula",
+    "side"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-475",
+   "start_s": 773.93,
+   "end_s": 790.19,
+   "narration": "Scrape through and stir the bottom of the frying pan using the spatula in the right hand, doing this slowly so that the water does not spill, but still cleaning the bottom of the frying pan.",
+   "verbs": [
+    "scrape",
+    "stir",
+    "clean"
+   ],
+   "nouns": [
+    "bottom of frying pan",
+    "spatula",
+    "water"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-476",
+   "start_s": 790.6,
+   "end_s": 791.14,
+   "narration": "Rotate the frying pan on the hob to get easier access to scrape some of the dirt.",
+   "verbs": [
+    "rotate",
+    "get",
+    "scrape"
+   ],
+   "nouns": [
+    "frying pan",
+    "hob",
+    "easier access",
+    "some of dirt"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-477",
+   "start_s": 791.69,
+   "end_s": 792.14,
+   "narration": "Tap the side of the spatula against the side of the frying pan to remove any excess water from it.",
+   "verbs": [
+    "tap",
+    "remove"
+   ],
+   "nouns": [
+    "side of spatula",
+    "side of frying pan",
+    "any excess water",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-478",
+   "start_s": 807.81,
+   "end_s": 808.23,
+   "narration": "Turn off the burner that was heating up the frying pan full of washing up liquid and water using the left hand as most of the burnt on grease has been removed from the bottom of the frying pan.",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "burner",
+    "frying pan",
+    "washing up liquid",
+    "water",
+    "burnt on grease",
+    "bottom of frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-479",
+   "start_s": 808.96,
+   "end_s": 809.47,
+   "narration": "Tap the spatula against the side of the frying pan to remove any excess water from it.",
+   "verbs": [
+    "tap",
+    "remove"
+   ],
+   "nouns": [
+    "spatula",
+    "side of frying pan",
+    "any excess water",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P02-20240210-113925-480",
+   "start_s": 810.62,
+   "end_s": 811.16,
+   "narration": "Place the spatula down onto the side of the countertop.",
+   "verbs": [
+    "place down"
+   ],
+   "nouns": [
+    "spatula",
+    "side of countertop"
+   ]
+  }
+ ]
+}

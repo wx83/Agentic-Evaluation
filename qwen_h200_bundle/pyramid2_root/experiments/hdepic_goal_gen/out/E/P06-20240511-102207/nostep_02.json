@@ -1,0 +1,229 @@
+{
+ "overall_goal": "Cook multiple omelets, clean the workspace, and store ingredients",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Record weight and store ingredients in the refrigerator",
+   "action_ids": [
+    "P06-20240511-102207-241",
+    "P06-20240511-102207-242",
+    "P06-20240511-102207-243",
+    "P06-20240511-102207-244",
+    "P06-20240511-102207-245",
+    "P06-20240511-102207-246",
+    "P06-20240511-102207-247",
+    "P06-20240511-102207-248",
+    "P06-20240511-102207-249",
+    "P06-20240511-102207-250",
+    "P06-20240511-102207-251",
+    "P06-20240511-102207-252",
+    "P06-20240511-102207-253"
+   ],
+   "rationale": "The person records the weight of the butter and then stores the butter, eggs, and bread in the refrigerator."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Check and cook the omelet",
+   "action_ids": [
+    "P06-20240511-102207-254",
+    "P06-20240511-102207-255",
+    "P06-20240511-102207-256",
+    "P06-20240511-102207-258",
+    "P06-20240511-102207-259",
+    "P06-20240511-102207-260"
+   ],
+   "rationale": "The person reduces the stove flame and uses a spatula to check the edges of the cooking omelet."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Clear dirty bowls to the sink and trash",
+   "action_ids": [
+    "P06-20240511-102207-261",
+    "P06-20240511-102207-262",
+    "P06-20240511-102207-263",
+    "P06-20240511-102207-264",
+    "P06-20240511-102207-265"
+   ],
+   "rationale": "The person clears dirty bowls from the tabletop to the sink and throws away trash."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Prepare a plate with a pancake and store the leftover onion",
+   "action_ids": [
+    "P06-20240511-102207-266",
+    "P06-20240511-102207-267",
+    "P06-20240511-102207-268",
+    "P06-20240511-102207-269",
+    "P06-20240511-102207-270",
+    "P06-20240511-102207-271",
+    "P06-20240511-102207-272",
+    "P06-20240511-102207-273"
+   ],
+   "rationale": "The person prepares a plate with a pancake and stores leftover onion in a box."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Flip and cook the omelet",
+   "action_ids": [
+    "P06-20240511-102207-274",
+    "P06-20240511-102207-275",
+    "P06-20240511-102207-276",
+    "P06-20240511-102207-277",
+    "P06-20240511-102207-278",
+    "P06-20240511-102207-279",
+    "P06-20240511-102207-280",
+    "P06-20240511-102207-281",
+    "P06-20240511-102207-282",
+    "P06-20240511-102207-283"
+   ],
+   "rationale": "The person uses a spatula and shakes the pan to flip and press the omelet to ensure even cooking."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Store the plastic box in the refrigerator",
+   "action_ids": [
+    "P06-20240511-102207-284",
+    "P06-20240511-102207-285",
+    "P06-20240511-102207-286",
+    "P06-20240511-102207-287",
+    "P06-20240511-102207-288",
+    "P06-20240511-102207-289"
+   ],
+   "rationale": "The person takes a plastic box and stores it in the refrigerator."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Cook and flip the omelet",
+   "action_ids": [
+    "P06-20240511-102207-291",
+    "P06-20240511-102207-292",
+    "P06-20240511-102207-293",
+    "P06-20240511-102207-297",
+    "P06-20240511-102207-298",
+    "P06-20240511-102207-299",
+    "P06-20240511-102207-300",
+    "P06-20240511-102207-301",
+    "P06-20240511-102207-302",
+    "P06-20240511-102207-303"
+   ],
+   "rationale": "The person repeatedly presses and flips the omelet with a spatula to cook it evenly."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Clear utensils to the sink and serve the omelet",
+   "action_ids": [
+    "P06-20240511-102207-304",
+    "P06-20240511-102207-305",
+    "P06-20240511-102207-306",
+    "P06-20240511-102207-307",
+    "P06-20240511-102207-308",
+    "P06-20240511-102207-309",
+    "P06-20240511-102207-310",
+    "P06-20240511-102207-311",
+    "P06-20240511-102207-312",
+    "P06-20240511-102207-313"
+   ],
+   "rationale": "The person clears used utensils to the sink and then serves the cooked omelet onto a plate."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Melt butter and pour egg mixture for a new omelet",
+   "action_ids": [
+    "P06-20240511-102207-314",
+    "P06-20240511-102207-315",
+    "P06-20240511-102207-316",
+    "P06-20240511-102207-317",
+    "P06-20240511-102207-318",
+    "P06-20240511-102207-319",
+    "P06-20240511-102207-320",
+    "P06-20240511-102207-321",
+    "P06-20240511-102207-322",
+    "P06-20240511-102207-323"
+   ],
+   "rationale": "The person melts butter in the pan and pours in a new egg mixture from a bowl."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Add bread to the egg mixture and check it",
+   "action_ids": [
+    "P06-20240511-102207-324",
+    "P06-20240511-102207-325",
+    "P06-20240511-102207-326",
+    "P06-20240511-102207-327",
+    "P06-20240511-102207-328"
+   ],
+   "rationale": "The person places a slice of bread onto the cooking egg mixture and checks it with a spatula."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Clear the chopping board and wipe the tabletop",
+   "action_ids": [
+    "P06-20240511-102207-329",
+    "P06-20240511-102207-330",
+    "P06-20240511-102207-331",
+    "P06-20240511-102207-332",
+    "P06-20240511-102207-333",
+    "P06-20240511-102207-334",
+    "P06-20240511-102207-335",
+    "P06-20240511-102207-336"
+   ],
+   "rationale": "The person clears the chopping board to the sink and wipes the tabletop clean with a tablecloth."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Retrieve cups from the cabinet",
+   "action_ids": [
+    "P06-20240511-102207-340",
+    "P06-20240511-102207-341",
+    "P06-20240511-102207-342",
+    "P06-20240511-102207-343",
+    "P06-20240511-102207-344",
+    "P06-20240511-102207-345",
+    "P06-20240511-102207-346",
+    "P06-20240511-102207-347"
+   ],
+   "rationale": "The person retrieves multiple cups from the cabinet and places them on the tabletop."
+  },
+  {
+   "goal_id": "e13",
+   "description": "Cook and flip the bread omelet",
+   "action_ids": [
+    "P06-20240511-102207-338",
+    "P06-20240511-102207-339",
+    "P06-20240511-102207-348",
+    "P06-20240511-102207-349",
+    "P06-20240511-102207-350",
+    "P06-20240511-102207-351",
+    "P06-20240511-102207-352",
+    "P06-20240511-102207-359",
+    "P06-20240511-102207-360"
+   ],
+   "rationale": "The person checks, flips, and presses the bread omelet to ensure it is fully cooked."
+  },
+  {
+   "goal_id": "e14",
+   "description": "Drink water",
+   "action_ids": [
+    "P06-20240511-102207-353",
+    "P06-20240511-102207-354",
+    "P06-20240511-102207-355",
+    "P06-20240511-102207-356",
+    "P06-20240511-102207-357",
+    "P06-20240511-102207-358"
+   ],
+   "rationale": "The person fills a cup with water from the tap, drinks it, and empties the remaining water into the sink."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P06-20240511-102207-257",
+  "P06-20240511-102207-290",
+  "P06-20240511-102207-294",
+  "P06-20240511-102207-295",
+  "P06-20240511-102207-296",
+  "P06-20240511-102207-337"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

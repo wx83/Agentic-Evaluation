@@ -1,0 +1,229 @@
+{
+ "overall_goal": "Perform various kitchen tasks including cleaning, organizing, and preparing utensils and ingredients.",
+ "goals": [
+  {
+   "goal_id": "g1",
+   "description": "Handle the oil bottles",
+   "action_ids": [
+    "P01-20240203-123350-4",
+    "P01-20240203-123350-5",
+    "P01-20240203-123350-18",
+    "P01-20240203-123350-19"
+   ],
+   "rationale": "The person moves bottles to access the olive oil, then later closes and puts down a bottle of oil."
+  },
+  {
+   "goal_id": "g2",
+   "description": "Wash hands and soak the bowl",
+   "action_ids": [
+    "P01-20240203-123350-50",
+    "P01-20240203-123350-51",
+    "P01-20240203-123350-52",
+    "P01-20240203-123350-53",
+    "P01-20240203-123350-85",
+    "P01-20240203-123350-86",
+    "P01-20240203-123350-87",
+    "P01-20240203-123350-88",
+    "P01-20240203-123350-89",
+    "P01-20240203-123350-90"
+   ],
+   "rationale": "The person washes their hands to remove stuck dough and uses the water to soak the empty bowl."
+  },
+  {
+   "goal_id": "g3",
+   "description": "Search for an item in the drawers",
+   "action_ids": [
+    "P01-20240203-123350-93",
+    "P01-20240203-123350-94",
+    "P01-20240203-123350-95",
+    "P01-20240203-123350-96"
+   ],
+   "rationale": "The person opens and closes multiple drawers in search of a specific item but fails to find it."
+  },
+  {
+   "goal_id": "g4",
+   "description": "Tidy up the countertop",
+   "action_ids": [
+    "P01-20240203-123350-103",
+    "P01-20240203-123350-104",
+    "P01-20240203-123350-110",
+    "P01-20240203-123350-111",
+    "P01-20240203-123350-112"
+   ],
+   "rationale": "The person moves various items like a water jug, notebook, dirty glass, and flour bag to clear space on the countertop."
+  },
+  {
+   "goal_id": "g5",
+   "description": "Search for a pot lid",
+   "action_ids": [
+    "P01-20240203-123350-160",
+    "P01-20240203-123350-161",
+    "P01-20240203-123350-162",
+    "P01-20240203-123350-163",
+    "P01-20240203-123350-164",
+    "P01-20240203-123350-195",
+    "P01-20240203-123350-196",
+    "P01-20240203-123350-197",
+    "P01-20240203-123350-198",
+    "P01-20240203-123350-199",
+    "P01-20240203-123350-203",
+    "P01-20240203-123350-204"
+   ],
+   "rationale": "The person opens cupboards to look for a lid, tests one on the pan, and returns it when it doesn't fit."
+  },
+  {
+   "goal_id": "g6",
+   "description": "Place a pot on the hob and turn it on",
+   "action_ids": [
+    "P01-20240203-123350-165",
+    "P01-20240203-123350-166",
+    "P01-20240203-123350-167",
+    "P01-20240203-123350-168",
+    "P01-20240203-123350-169",
+    "P01-20240203-123350-183"
+   ],
+   "rationale": "The person retrieves a pot, checks if it is clean, places it on the hob, and switches the hob on."
+  },
+  {
+   "goal_id": "g7",
+   "description": "Clean the knife and handle the garlic",
+   "action_ids": [
+    "P01-20240203-123350-207",
+    "P01-20240203-123350-208",
+    "P01-20240203-123350-209",
+    "P01-20240203-123350-217"
+   ],
+   "rationale": "The person slides the knife on the pan to remove stuck onion, puts it down, and handles a peeled garlic clove."
+  },
+  {
+   "goal_id": "g8",
+   "description": "Manage the wooden spoon and adjust the heat",
+   "action_ids": [
+    "P01-20240203-123350-219",
+    "P01-20240203-123350-222",
+    "P01-20240203-123350-227",
+    "P01-20240203-123350-228",
+    "P01-20240203-123350-250",
+    "P01-20240203-123350-301",
+    "P01-20240203-123350-302",
+    "P01-20240203-123350-303",
+    "P01-20240203-123350-307"
+   ],
+   "rationale": "The person repeatedly handles the wooden spoon to keep it clean and adjusts the heat on the hob."
+  },
+  {
+   "goal_id": "g9",
+   "description": "Find and retrieve a peeler",
+   "action_ids": [
+    "P01-20240203-123350-229",
+    "P01-20240203-123350-230",
+    "P01-20240203-123350-231",
+    "P01-20240203-123350-232",
+    "P01-20240203-123350-233",
+    "P01-20240203-123350-234",
+    "P01-20240203-123350-235",
+    "P01-20240203-123350-236",
+    "P01-20240203-123350-237",
+    "P01-20240203-123350-238"
+   ],
+   "rationale": "The person searches through drawers, moving items around to locate and retrieve a peeler for the carrots."
+  },
+  {
+   "goal_id": "g10",
+   "description": "Open the bag of carrots",
+   "action_ids": [
+    "P01-20240203-123350-239",
+    "P01-20240203-123350-240",
+    "P01-20240203-123350-241",
+    "P01-20240203-123350-242",
+    "P01-20240203-123350-244",
+    "P01-20240203-123350-245",
+    "P01-20240203-123350-246"
+   ],
+   "rationale": "The person retrieves scissors from a drawer, removes their cover, and uses them to cut open the plastic bag of carrots."
+  },
+  {
+   "goal_id": "g11",
+   "description": "Search for and retrieve the garlic presser",
+   "action_ids": [
+    "P01-20240203-123350-251",
+    "P01-20240203-123350-252",
+    "P01-20240203-123350-253",
+    "P01-20240203-123350-254",
+    "P01-20240203-123350-255"
+   ],
+   "rationale": "The person opens drawers and moves chopping boards to find and pick up the garlic presser."
+  },
+  {
+   "goal_id": "g12",
+   "description": "Discard the empty meat packaging",
+   "action_ids": [
+    "P01-20240203-123350-308",
+    "P01-20240203-123350-309",
+    "P01-20240203-123350-310",
+    "P01-20240203-123350-311",
+    "P01-20240203-123350-312",
+    "P01-20240203-123350-313",
+    "P01-20240203-123350-314",
+    "P01-20240203-123350-315",
+    "P01-20240203-123350-316",
+    "P01-20240203-123350-317",
+    "P01-20240203-123350-318"
+   ],
+   "rationale": "The person gathers the paper and plastic from the empty meat package, tears it apart, and throws the pieces into the trash bin."
+  },
+  {
+   "goal_id": "g13",
+   "description": "Clean the countertop and discard trash",
+   "action_ids": [
+    "P01-20240203-123350-335",
+    "P01-20240203-123350-336",
+    "P01-20240203-123350-337",
+    "P01-20240203-123350-338"
+   ],
+   "rationale": "The person wipes crumbs off the countertop into their hand and throws them into the trash bin."
+  },
+  {
+   "goal_id": "g14",
+   "description": "Store the salad in the fridge",
+   "action_ids": [
+    "P01-20240203-123350-339",
+    "P01-20240203-123350-340",
+    "P01-20240203-123350-341",
+    "P01-20240203-123350-342"
+   ],
+   "rationale": "The person picks up a package of salad, opens the fridge, and places it inside."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P01-20240203-123350-1",
+  "P01-20240203-123350-2",
+  "P01-20240203-123350-3",
+  "P01-20240203-123350-13",
+  "P01-20240203-123350-54",
+  "P01-20240203-123350-68",
+  "P01-20240203-123350-102",
+  "P01-20240203-123350-105",
+  "P01-20240203-123350-138",
+  "P01-20240203-123350-139",
+  "P01-20240203-123350-140",
+  "P01-20240203-123350-141",
+  "P01-20240203-123350-152",
+  "P01-20240203-123350-153",
+  "P01-20240203-123350-154",
+  "P01-20240203-123350-159",
+  "P01-20240203-123350-184",
+  "P01-20240203-123350-185",
+  "P01-20240203-123350-186",
+  "P01-20240203-123350-223",
+  "P01-20240203-123350-243",
+  "P01-20240203-123350-278",
+  "P01-20240203-123350-319",
+  "P01-20240203-123350-323",
+  "P01-20240203-123350-343"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

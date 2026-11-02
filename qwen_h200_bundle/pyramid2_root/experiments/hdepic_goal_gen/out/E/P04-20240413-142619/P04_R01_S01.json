@@ -1,0 +1,313 @@
+{
+ "overall_goal": "Prepare the chicken marinade by combining chicken breast, olive oil, spices, and lemon juice in a mixing bowl.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve chicken and chopping boards.",
+   "action_ids": [
+    "P04-20240413-142619-25",
+    "P04-20240413-142619-26",
+    "P04-20240413-142619-27",
+    "P04-20240413-142619-28",
+    "P04-20240413-142619-29",
+    "P04-20240413-142619-31",
+    "P04-20240413-142619-30"
+   ],
+   "rationale": "The person takes the chicken from the refrigerator and sets up the chopping boards on the counter."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve spices and olive oil from the cabinet.",
+   "action_ids": [
+    "P04-20240413-142619-35",
+    "P04-20240413-142619-36",
+    "P04-20240413-142619-37",
+    "P04-20240413-142619-38",
+    "P04-20240413-142619-39",
+    "P04-20240413-142619-40",
+    "P04-20240413-142619-41",
+    "P04-20240413-142619-42",
+    "P04-20240413-142619-43",
+    "P04-20240413-142619-44",
+    "P04-20240413-142619-45",
+    "P04-20240413-142619-46",
+    "P04-20240413-142619-47",
+    "P04-20240413-142619-48",
+    "P04-20240413-142619-49",
+    "P04-20240413-142619-50",
+    "P04-20240413-142619-51",
+    "P04-20240413-142619-52",
+    "P04-20240413-142619-53",
+    "P04-20240413-142619-54"
+   ],
+   "rationale": "The person gathers various condiment jars and a bottle of olive oil from the cabinet and places them on the countertop."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Retrieve lemons and a knife from the drawer.",
+   "action_ids": [
+    "P04-20240413-142619-66",
+    "P04-20240413-142619-67",
+    "P04-20240413-142619-71",
+    "P04-20240413-142619-72",
+    "P04-20240413-142619-73",
+    "P04-20240413-142619-74",
+    "P04-20240413-142619-75",
+    "P04-20240413-142619-76",
+    "P04-20240413-142619-77",
+    "P04-20240413-142619-78",
+    "P04-20240413-142619-79",
+    "P04-20240413-142619-80"
+   ],
+   "rationale": "The person fetches a bag of lemons from the refrigerator and collects a knife from the cutlery drawer."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Retrieve spoons from the drawer and arrange utensils.",
+   "action_ids": [
+    "P04-20240413-142619-81",
+    "P04-20240413-142619-82",
+    "P04-20240413-142619-83",
+    "P04-20240413-142619-84",
+    "P04-20240413-142619-85",
+    "P04-20240413-142619-86",
+    "P04-20240413-142619-87",
+    "P04-20240413-142619-88",
+    "P04-20240413-142619-89"
+   ],
+   "rationale": "The person re-opens the drawer to get spoons, closes it, and arranges the utensils on the chopping board."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Retrieve a mixing bowl and open the chicken package.",
+   "action_ids": [
+    "P04-20240413-142619-102",
+    "P04-20240413-142619-103",
+    "P04-20240413-142619-104",
+    "P04-20240413-142619-105",
+    "P04-20240413-142619-109",
+    "P04-20240413-142619-110",
+    "P04-20240413-142619-111",
+    "P04-20240413-142619-112",
+    "P04-20240413-142619-113",
+    "P04-20240413-142619-114",
+    "P04-20240413-142619-115",
+    "P04-20240413-142619-116"
+   ],
+   "rationale": "The person gets a large ceramic bowl and uses a knife to slice open the plastic packaging of the raw chicken."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Weigh and wash the chicken breast pieces.",
+   "action_ids": [
+    "P04-20240413-142619-126",
+    "P04-20240413-142619-127",
+    "P04-20240413-142619-128",
+    "P04-20240413-142619-129",
+    "P04-20240413-142619-130",
+    "P04-20240413-142619-131",
+    "P04-20240413-142619-143",
+    "P04-20240413-142619-144",
+    "P04-20240413-142619-145",
+    "P04-20240413-142619-146",
+    "P04-20240413-142619-147",
+    "P04-20240413-142619-148",
+    "P04-20240413-142619-149",
+    "P04-20240413-142619-150",
+    "P04-20240413-142619-151",
+    "P04-20240413-142619-152",
+    "P04-20240413-142619-153",
+    "P04-20240413-142619-154",
+    "P04-20240413-142619-155"
+   ],
+   "rationale": "The person measures the chicken pieces using a weighing scale and then washes them under running water in the sink."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Arrange the condiment jars near the mixing bowl.",
+   "action_ids": [
+    "P04-20240413-142619-161",
+    "P04-20240413-142619-162",
+    "P04-20240413-142619-163",
+    "P04-20240413-142619-164",
+    "P04-20240413-142619-165",
+    "P04-20240413-142619-166",
+    "P04-20240413-142619-167",
+    "P04-20240413-142619-168",
+    "P04-20240413-142619-169",
+    "P04-20240413-142619-170",
+    "P04-20240413-142619-171",
+    "P04-20240413-142619-172",
+    "P04-20240413-142619-173",
+    "P04-20240413-142619-174"
+   ],
+   "rationale": "The person moves the bowl of chicken and gathers the various spice jars around it to prepare for seasoning."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Add garlic powder to the chicken.",
+   "action_ids": [
+    "P04-20240413-142619-175",
+    "P04-20240413-142619-176",
+    "P04-20240413-142619-177",
+    "P04-20240413-142619-178",
+    "P04-20240413-142619-179",
+    "P04-20240413-142619-180",
+    "P04-20240413-142619-181",
+    "P04-20240413-142619-182",
+    "P04-20240413-142619-183"
+   ],
+   "rationale": "The person opens the garlic powder jar, measures it with a spoon, and adds it to the chicken bowl."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Add another spice to the chicken.",
+   "action_ids": [
+    "P04-20240413-142619-187",
+    "P04-20240413-142619-188",
+    "P04-20240413-142619-189",
+    "P04-20240413-142619-190",
+    "P04-20240413-142619-191",
+    "P04-20240413-142619-192",
+    "P04-20240413-142619-193",
+    "P04-20240413-142619-194",
+    "P04-20240413-142619-195",
+    "P04-20240413-142619-196",
+    "P04-20240413-142619-197",
+    "P04-20240413-142619-198"
+   ],
+   "rationale": "The person opens another spice jar, breaks up clumps inside, and adds a spoonful to the chicken."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Add seasoning and onion powder to the chicken.",
+   "action_ids": [
+    "P04-20240413-142619-202",
+    "P04-20240413-142619-203",
+    "P04-20240413-142619-204",
+    "P04-20240413-142619-205",
+    "P04-20240413-142619-206",
+    "P04-20240413-142619-208",
+    "P04-20240413-142619-209",
+    "P04-20240413-142619-210",
+    "P04-20240413-142619-211",
+    "P04-20240413-142619-212",
+    "P04-20240413-142619-213",
+    "P04-20240413-142619-214",
+    "P04-20240413-142619-215",
+    "P04-20240413-142619-216",
+    "P04-20240413-142619-217",
+    "P04-20240413-142619-218",
+    "P04-20240413-142619-219",
+    "P04-20240413-142619-220",
+    "P04-20240413-142619-221",
+    "P04-20240413-142619-222"
+   ],
+   "rationale": "The person measures and adds another seasoning and onion powder to the chicken, using a spoon to break up clumps in the onion powder jar."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Add pepper and salt to the chicken.",
+   "action_ids": [
+    "P04-20240413-142619-230",
+    "P04-20240413-142619-231",
+    "P04-20240413-142619-232",
+    "P04-20240413-142619-233",
+    "P04-20240413-142619-234",
+    "P04-20240413-142619-235",
+    "P04-20240413-142619-236",
+    "P04-20240413-142619-237",
+    "P04-20240413-142619-238",
+    "P04-20240413-142619-241",
+    "P04-20240413-142619-242"
+   ],
+   "rationale": "The person opens the pepper and salt jars and adds a portion of each to the spice mix in the chicken bowl."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Open the bag of lemons using scissors.",
+   "action_ids": [
+    "P04-20240413-142619-246",
+    "P04-20240413-142619-247",
+    "P04-20240413-142619-248",
+    "P04-20240413-142619-249",
+    "P04-20240413-142619-250",
+    "P04-20240413-142619-251",
+    "P04-20240413-142619-252",
+    "P04-20240413-142619-256",
+    "P04-20240413-142619-257"
+   ],
+   "rationale": "The person retrieves scissors from a drawer to cut open the bag of lemons and takes one out."
+  },
+  {
+   "goal_id": "e13",
+   "description": "Wash and cut a lemon.",
+   "action_ids": [
+    "P04-20240413-142619-258",
+    "P04-20240413-142619-259",
+    "P04-20240413-142619-260",
+    "P04-20240413-142619-261",
+    "P04-20240413-142619-262",
+    "P04-20240413-142619-263",
+    "P04-20240413-142619-264",
+    "P04-20240413-142619-265",
+    "P04-20240413-142619-266",
+    "P04-20240413-142619-267",
+    "P04-20240413-142619-268",
+    "P04-20240413-142619-269",
+    "P04-20240413-142619-270",
+    "P04-20240413-142619-271"
+   ],
+   "rationale": "The person washes the fresh lemon under the tap and slices it in half on the chopping board, removing the seeds."
+  },
+  {
+   "goal_id": "e14",
+   "description": "Squeeze lemon juice into the chicken bowl.",
+   "action_ids": [
+    "P04-20240413-142619-293",
+    "P04-20240413-142619-294",
+    "P04-20240413-142619-295",
+    "P04-20240413-142619-296",
+    "P04-20240413-142619-297",
+    "P04-20240413-142619-298",
+    "P04-20240413-142619-299",
+    "P04-20240413-142619-300",
+    "P04-20240413-142619-301",
+    "P04-20240413-142619-302",
+    "P04-20240413-142619-303",
+    "P04-20240413-142619-304",
+    "P04-20240413-142619-305",
+    "P04-20240413-142619-306",
+    "P04-20240413-142619-307",
+    "P04-20240413-142619-308",
+    "P04-20240413-142619-309",
+    "P04-20240413-142619-310",
+    "P04-20240413-142619-311"
+   ],
+   "rationale": "The person squeezes the lemon halves over a spoon to catch seeds and pours the juice into the chicken bowl."
+  },
+  {
+   "goal_id": "e15",
+   "description": "Add olive oil and mix the chicken with the spices.",
+   "action_ids": [
+    "P04-20240413-142619-320",
+    "P04-20240413-142619-321",
+    "P04-20240413-142619-322",
+    "P04-20240413-142619-323",
+    "P04-20240413-142619-324",
+    "P04-20240413-142619-325",
+    "P04-20240413-142619-326",
+    "P04-20240413-142619-327",
+    "P04-20240413-142619-328",
+    "P04-20240413-142619-341",
+    "P04-20240413-142619-342"
+   ],
+   "rationale": "The person measures and adds olive oil to the chicken bowl, then mixes everything together to coat the chicken evenly."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

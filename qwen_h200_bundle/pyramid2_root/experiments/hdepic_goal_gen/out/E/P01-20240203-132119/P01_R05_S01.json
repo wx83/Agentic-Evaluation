@@ -1,0 +1,35 @@
+{
+ "overall_goal": "Gather the condensed milk, butter, and cocoa powder to prepare for mixing.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve the condensed milk and butter.",
+   "action_ids": [
+    "P01-20240203-132119-237",
+    "P01-20240203-132119-238",
+    "P01-20240203-132119-239"
+   ],
+   "rationale": "The person fetches the can of condensed milk and the butter, placing both on the countertop."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Search for and retrieve the correct cocoa powder from the cupboard.",
+   "action_ids": [
+    "P01-20240203-132119-242",
+    "P01-20240203-132119-243",
+    "P01-20240203-132119-244",
+    "P01-20240203-132119-245",
+    "P01-20240203-132119-246",
+    "P01-20240203-132119-247",
+    "P01-20240203-132119-248",
+    "P01-20240203-132119-249"
+   ],
+   "rationale": "The person opens the cupboard, checks multiple cans to find the cooking cocoa rather than the drinking cocoa, and verifies its contents before placing it on the counter."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

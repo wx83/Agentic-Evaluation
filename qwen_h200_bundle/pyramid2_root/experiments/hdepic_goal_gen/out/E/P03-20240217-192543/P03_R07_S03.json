@@ -1,0 +1,32 @@
+{
+ "overall_goal": "Transfer the cooked aubergine to a paper towel-lined plate to absorb excess oil",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare a plate with a folded paper towel",
+   "action_ids": [
+    "P03-20240217-192543-365",
+    "P03-20240217-192543-366",
+    "P03-20240217-192543-368",
+    "P03-20240217-192543-369"
+   ],
+   "rationale": "The person sets down a plate, tears off a piece of paper towel, folds it, and places it on the plate to absorb oil."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Transfer the cooked aubergine from the pan to the plate",
+   "action_ids": [
+    "P03-20240217-192543-383",
+    "P03-20240217-192543-384"
+   ],
+   "rationale": "The person moves the cooked aubergine from the frying pan onto the paper towel-lined plate and taps the spoon to dislodge any stuck pieces."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P03-20240217-192543-367"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

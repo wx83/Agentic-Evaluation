@@ -1,0 +1,91 @@
+{
+ "overall_goal": "Add butter to the edges of the pancake, loosen it, and flip it multiple times to cook evenly",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Apply butter to the edges of the pancake",
+   "action_ids": [
+    "P06-20240510-090328-395",
+    "P06-20240510-090328-396",
+    "P06-20240510-090328-397",
+    "P06-20240510-090328-398",
+    "P06-20240510-090328-399"
+   ],
+   "rationale": "The person picks up butter and spreads it around the boundaries of the pancake using a spatula."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Loosen the pancake and flip it over",
+   "action_ids": [
+    "P06-20240510-090328-430",
+    "P06-20240510-090328-431",
+    "P06-20240510-090328-432",
+    "P06-20240510-090328-433",
+    "P06-20240510-090328-443",
+    "P06-20240510-090328-444",
+    "P06-20240510-090328-445",
+    "P06-20240510-090328-446",
+    "P06-20240510-090328-447",
+    "P06-20240510-090328-448",
+    "P06-20240510-090328-449",
+    "P06-20240510-090328-450"
+   ],
+   "rationale": "The person uses a spatula to scratch the edges of the pancake, presses the vegetables into it, and then flips it to cook the other side."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Apply more butter and loosen the pancake to prevent sticking",
+   "action_ids": [
+    "P06-20240510-090328-564",
+    "P06-20240510-090328-565",
+    "P06-20240510-090328-604",
+    "P06-20240510-090328-605",
+    "P06-20240510-090328-614",
+    "P06-20240510-090328-615",
+    "P06-20240510-090328-616"
+   ],
+   "rationale": "The person adds more butter to the edges with a knife and uses the spatula to scratch the boundaries and lower surface so the pancake does not stick."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Press and flip the pancake again for even cooking",
+   "action_ids": [
+    "P06-20240510-090328-617",
+    "P06-20240510-090328-618",
+    "P06-20240510-090328-619",
+    "P06-20240510-090328-620",
+    "P06-20240510-090328-628",
+    "P06-20240510-090328-629",
+    "P06-20240510-090328-630",
+    "P06-20240510-090328-631",
+    "P06-20240510-090328-632",
+    "P06-20240510-090328-633",
+    "P06-20240510-090328-634",
+    "P06-20240510-090328-635"
+   ],
+   "rationale": "The person presses the pancake to cook it evenly, flips it over again using spatulas, and adjusts the pan on the flame."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Reattach a broken piece of the pancake and finish cooking",
+   "action_ids": [
+    "P06-20240510-090328-636",
+    "P06-20240510-090328-637",
+    "P06-20240510-090328-638",
+    "P06-20240510-090328-639",
+    "P06-20240510-090328-640",
+    "P06-20240510-090328-641",
+    "P06-20240510-090328-642",
+    "P06-20240510-090328-643",
+    "P06-20240510-090328-644",
+    "P06-20240510-090328-645"
+   ],
+   "rationale": "The person picks up a broken piece of the pancake, places it back into the pan, and presses the surface to ensure it is fully cooked."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

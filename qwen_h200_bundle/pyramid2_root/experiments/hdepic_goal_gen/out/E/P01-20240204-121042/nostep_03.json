@@ -1,0 +1,50 @@
+{
+ "overall_goal": "Drink water, tidy the bread box, and clean hands",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Pour and drink a glass of water",
+   "action_ids": [
+    "P01-20240204-121042-640",
+    "P01-20240204-121042-641",
+    "P01-20240204-121042-642",
+    "P01-20240204-121042-643",
+    "P01-20240204-121042-644",
+    "P01-20240204-121042-645"
+   ],
+   "rationale": "The person pours water from a jug into a glass, drinks it, and sets the glass down."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Store items in the bread box",
+   "action_ids": [
+    "P01-20240204-121042-646",
+    "P01-20240204-121042-647",
+    "P01-20240204-121042-648",
+    "P01-20240204-121042-650",
+    "P01-20240204-121042-649",
+    "P01-20240204-121042-651",
+    "P01-20240204-121042-652"
+   ],
+   "rationale": "The person places medicine and a bag of bagels into the bread box, opening and closing it as needed."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Clean hands",
+   "action_ids": [
+    "P01-20240204-121042-662",
+    "P01-20240204-121042-663"
+   ],
+   "rationale": "The person claps their hands over the sink to remove stuck mixture and wipes them with a towel."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P01-20240204-121042-632",
+  "P01-20240204-121042-639",
+  "P01-20240204-121042-653"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

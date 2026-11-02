@@ -1,0 +1,49 @@
+{
+ "overall_goal": "Prepare baking trays by lining them with baking paper",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Measure and tear baking paper for the first tray",
+   "action_ids": [
+    "P07-20240530-102543-447",
+    "P07-20240530-102543-448",
+    "P07-20240530-102543-449",
+    "P07-20240530-102543-450",
+    "P07-20240530-102543-451"
+   ],
+   "rationale": "The person retrieves the baking paper, measures it against the first tray, tears off the appropriate amount, and sets it aside."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Line the first baking tray with the torn baking paper",
+   "action_ids": [
+    "P07-20240530-102543-468",
+    "P07-20240530-102543-469",
+    "P07-20240530-102543-470",
+    "P07-20240530-102543-471",
+    "P07-20240530-102543-472",
+    "P07-20240530-102543-473",
+    "P07-20240530-102543-474"
+   ],
+   "rationale": "The person places the torn paper onto the first tray, folds the edges to fit, and smooths it down."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Measure, tear, and line a second baking tray with baking paper",
+   "action_ids": [
+    "P07-20240530-102543-556",
+    "P07-20240530-102543-557",
+    "P07-20240530-102543-558",
+    "P07-20240530-102543-559",
+    "P07-20240530-102543-560",
+    "P07-20240530-102543-561"
+   ],
+   "rationale": "The person repeats the process of retrieving, measuring, tearing, and smoothing baking paper for a second tray, then moves it to the workspace."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

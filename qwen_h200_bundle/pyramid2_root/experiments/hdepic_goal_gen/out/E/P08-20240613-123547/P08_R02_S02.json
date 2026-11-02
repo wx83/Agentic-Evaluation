@@ -1,0 +1,137 @@
+{
+ "overall_goal": "Chop vegetables and add them to a salad bowl with beans",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare utensils and ingredients",
+   "action_ids": [
+    "P08-20240613-123547-10",
+    "P08-20240613-123547-11",
+    "P08-20240613-123547-12",
+    "P08-20240613-123547-13",
+    "P08-20240613-123547-14"
+   ],
+   "rationale": "The person retrieves a Tupperware container, a chopping board, and a plate to set up the workspace for preparing the salad."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Chop the cucumber and add it to the salad bowl",
+   "action_ids": [
+    "P08-20240613-123547-26",
+    "P08-20240613-123547-28",
+    "P08-20240613-123547-29",
+    "P08-20240613-123547-30",
+    "P08-20240613-123547-31",
+    "P08-20240613-123547-32",
+    "P08-20240613-123547-34",
+    "P08-20240613-123547-35",
+    "P08-20240613-123547-36",
+    "P08-20240613-123547-37",
+    "P08-20240613-123547-38",
+    "P08-20240613-123547-39",
+    "P08-20240613-123547-40"
+   ],
+   "rationale": "The person retrieves a cucumber, cuts it, weighs it, slices it into pieces, and transfers the chopped cucumber into the salad bowl."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Chop the cherry tomatoes and add them to the salad bowl",
+   "action_ids": [
+    "P08-20240613-123547-41",
+    "P08-20240613-123547-42",
+    "P08-20240613-123547-43",
+    "P08-20240613-123547-44",
+    "P08-20240613-123547-45",
+    "P08-20240613-123547-46",
+    "P08-20240613-123547-47",
+    "P08-20240613-123547-48"
+   ],
+   "rationale": "The person grabs cherry tomatoes, slices them into halves and quarters, and scrapes them from the chopping board into the salad bowl."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Peel and chop the carrot, then add it to the salad bowl",
+   "action_ids": [
+    "P08-20240613-123547-50",
+    "P08-20240613-123547-51",
+    "P08-20240613-123547-52",
+    "P08-20240613-123547-53",
+    "P08-20240613-123547-54",
+    "P08-20240613-123547-55",
+    "P08-20240613-123547-57",
+    "P08-20240613-123547-58",
+    "P08-20240613-123547-59",
+    "P08-20240613-123547-60",
+    "P08-20240613-123547-61",
+    "P08-20240613-123547-62",
+    "P08-20240613-123547-63",
+    "P08-20240613-123547-64",
+    "P08-20240613-123547-65"
+   ],
+   "rationale": "The person weighs and peels a carrot, cuts it into smaller diced pieces, and transfers the chopped carrot into the salad bowl."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Chop the coriander and add it to the salad bowl",
+   "action_ids": [
+    "P08-20240613-123547-78",
+    "P08-20240613-123547-83",
+    "P08-20240613-123547-84",
+    "P08-20240613-123547-87",
+    "P08-20240613-123547-88",
+    "P08-20240613-123547-89",
+    "P08-20240613-123547-90",
+    "P08-20240613-123547-91"
+   ],
+   "rationale": "The person measures out coriander, chops it on the board, and scoops the pieces into the salad bowl."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Chop the red onion and add it to the salad bowl",
+   "action_ids": [
+    "P08-20240613-123547-93",
+    "P08-20240613-123547-95",
+    "P08-20240613-123547-96",
+    "P08-20240613-123547-97",
+    "P08-20240613-123547-98",
+    "P08-20240613-123547-99",
+    "P08-20240613-123547-100",
+    "P08-20240613-123547-101",
+    "P08-20240613-123547-102",
+    "P08-20240613-123547-103",
+    "P08-20240613-123547-104",
+    "P08-20240613-123547-105",
+    "P08-20240613-123547-106",
+    "P08-20240613-123547-107",
+    "P08-20240613-123547-108",
+    "P08-20240613-123547-109"
+   ],
+   "rationale": "The person cuts a red onion, weighs it, peels the layers, slices it into smaller pieces, and scrapes the chopped onion into the salad bowl."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Add beans to the salad bowl",
+   "action_ids": [
+    "P08-20240613-123547-116",
+    "P08-20240613-123547-117",
+    "P08-20240613-123547-118",
+    "P08-20240613-123547-121",
+    "P08-20240613-123547-120",
+    "P08-20240613-123547-122"
+   ],
+   "rationale": "The person scoops beans from a Tupperware container and adds them to the salad bowl to mix with the chopped vegetables."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P08-20240613-123547-70",
+  "P08-20240613-123547-71",
+  "P08-20240613-123547-72",
+  "P08-20240613-123547-73",
+  "P08-20240613-123547-75",
+  "P08-20240613-123547-79"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

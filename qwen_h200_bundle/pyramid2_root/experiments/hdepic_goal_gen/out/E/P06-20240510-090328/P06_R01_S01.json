@@ -1,0 +1,159 @@
+{
+ "overall_goal": "Prepare uttapam pancake batter by mixing the powder with water",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve the pancake mix box and a mixing bowl",
+   "action_ids": [
+    "P06-20240510-090328-23",
+    "P06-20240510-090328-26",
+    "P06-20240510-090328-55",
+    "P06-20240510-090328-56",
+    "P06-20240510-090328-70",
+    "P06-20240510-090328-71"
+   ],
+   "rationale": "The person gathers the initial items needed, including the cardboard box containing the mix and a bowl."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Open the pancake mix packaging",
+   "action_ids": [
+    "P06-20240510-090328-103",
+    "P06-20240510-090328-104",
+    "P06-20240510-090328-106",
+    "P06-20240510-090328-107",
+    "P06-20240510-090328-108",
+    "P06-20240510-090328-109",
+    "P06-20240510-090328-110"
+   ],
+   "rationale": "The person opens the cardboard box and removes the inner plastic pouch containing the pancake mix."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Get scissors and cut open the pancake mix pouch",
+   "action_ids": [
+    "P06-20240510-090328-184",
+    "P06-20240510-090328-185",
+    "P06-20240510-090328-186",
+    "P06-20240510-090328-187",
+    "P06-20240510-090328-188",
+    "P06-20240510-090328-189",
+    "P06-20240510-090328-190",
+    "P06-20240510-090328-191",
+    "P06-20240510-090328-192",
+    "P06-20240510-090328-193",
+    "P06-20240510-090328-194"
+   ],
+   "rationale": "The person retrieves scissors from a drawer and uses them to cut open the plastic pouch of pancake mix."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Weigh and pour the pancake mix into a bowl",
+   "action_ids": [
+    "P06-20240510-090328-195",
+    "P06-20240510-090328-196",
+    "P06-20240510-090328-197",
+    "P06-20240510-090328-198",
+    "P06-20240510-090328-199",
+    "P06-20240510-090328-200",
+    "P06-20240510-090328-201",
+    "P06-20240510-090328-202",
+    "P06-20240510-090328-203",
+    "P06-20240510-090328-204"
+   ],
+   "rationale": "The person uses a weighing balance to measure the pancake mix as they pour it from the pouch into a bowl."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Transfer the pancake mix to a larger bowl and add more mix",
+   "action_ids": [
+    "P06-20240510-090328-214",
+    "P06-20240510-090328-215",
+    "P06-20240510-090328-216",
+    "P06-20240510-090328-217",
+    "P06-20240510-090328-218",
+    "P06-20240510-090328-219",
+    "P06-20240510-090328-220",
+    "P06-20240510-090328-221",
+    "P06-20240510-090328-222",
+    "P06-20240510-090328-223",
+    "P06-20240510-090328-224",
+    "P06-20240510-090328-225",
+    "P06-20240510-090328-226",
+    "P06-20240510-090328-227",
+    "P06-20240510-090328-234",
+    "P06-20240510-090328-235"
+   ],
+   "rationale": "The person moves the measured mix into a larger bowl and continues to pour additional mix from the pouch."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Retrieve a spoon and a cup of water",
+   "action_ids": [
+    "P06-20240510-090328-245",
+    "P06-20240510-090328-246",
+    "P06-20240510-090328-254",
+    "P06-20240510-090328-255",
+    "P06-20240510-090328-256",
+    "P06-20240510-090328-257",
+    "P06-20240510-090328-258",
+    "P06-20240510-090328-259",
+    "P06-20240510-090328-260",
+    "P06-20240510-090328-261",
+    "P06-20240510-090328-262",
+    "P06-20240510-090328-263",
+    "P06-20240510-090328-264"
+   ],
+   "rationale": "The person gets a spoon from a drawer and fills a cup with water at the sink to use for the batter."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Pour water and mix the batter",
+   "action_ids": [
+    "P06-20240510-090328-266",
+    "P06-20240510-090328-267",
+    "P06-20240510-090328-268",
+    "P06-20240510-090328-269",
+    "P06-20240510-090328-270",
+    "P06-20240510-090328-271",
+    "P06-20240510-090328-272",
+    "P06-20240510-090328-273",
+    "P06-20240510-090328-274",
+    "P06-20240510-090328-314"
+   ],
+   "rationale": "The person pours the water into the bowl with the pancake mix and stirs it with the spoon to form a batter."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Add more pancake mix and water to adjust the batter consistency",
+   "action_ids": [
+    "P06-20240510-090328-533",
+    "P06-20240510-090328-534",
+    "P06-20240510-090328-535",
+    "P06-20240510-090328-536",
+    "P06-20240510-090328-537",
+    "P06-20240510-090328-538",
+    "P06-20240510-090328-539",
+    "P06-20240510-090328-540",
+    "P06-20240510-090328-541",
+    "P06-20240510-090328-542",
+    "P06-20240510-090328-543",
+    "P06-20240510-090328-544",
+    "P06-20240510-090328-545",
+    "P06-20240510-090328-546",
+    "P06-20240510-090328-547"
+   ],
+   "rationale": "The person adds additional pancake mix and water to the bowl, then stirs continuously to achieve the desired thin batter consistency."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P06-20240510-090328-24",
+  "P06-20240510-090328-25",
+  "P06-20240510-090328-105",
+  "P06-20240510-090328-265"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

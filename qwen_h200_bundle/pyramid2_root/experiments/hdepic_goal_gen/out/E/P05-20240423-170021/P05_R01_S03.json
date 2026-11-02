@@ -1,0 +1,23 @@
+{
+ "overall_goal": "Retrieve frozen garlic from the freezer to add to the pan.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Get a block of frozen garlic from the freezer.",
+   "action_ids": [
+    "P05-20240423-170021-228",
+    "P05-20240423-170021-229",
+    "P05-20240423-170021-230",
+    "P05-20240423-170021-231",
+    "P05-20240423-170021-232",
+    "P05-20240423-170021-233"
+   ],
+   "rationale": "The person searches the freezer drawers, locates the frozen garlic, snaps off a piece, and closes the freezer."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

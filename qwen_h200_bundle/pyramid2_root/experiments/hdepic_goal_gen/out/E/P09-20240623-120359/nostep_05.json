@@ -1,0 +1,194 @@
+{
+ "overall_goal": "Prepare ingredients for the mango lassi and concurrently cook a separate dish in a saucepan",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Dry hands and retrieve a knife for cutting mango",
+   "action_ids": [
+    "P09-20240623-120359-461",
+    "P09-20240623-120359-462",
+    "P09-20240623-120359-463",
+    "P09-20240623-120359-464",
+    "P09-20240623-120359-465",
+    "P09-20240623-120359-466",
+    "P09-20240623-120359-467",
+    "P09-20240623-120359-468",
+    "P09-20240623-120359-469",
+    "P09-20240623-120359-470",
+    "P09-20240623-120359-471",
+    "P09-20240623-120359-472"
+   ],
+   "rationale": "The person dries their hands and gets a knife from the stand and drawer to prepare for slicing the mango."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Stir the saucepan and rinse hands",
+   "action_ids": [
+    "P09-20240623-120359-492",
+    "P09-20240623-120359-493",
+    "P09-20240623-120359-494",
+    "P09-20240623-120359-495",
+    "P09-20240623-120359-496",
+    "P09-20240623-120359-497",
+    "P09-20240623-120359-498",
+    "P09-20240623-120359-499",
+    "P09-20240623-120359-500",
+    "P09-20240623-120359-501"
+   ],
+   "rationale": "The person briefly stirs the contents of the saucepan and then washes their hands under the tap."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Retrieve a chopping board and arrange the counter",
+   "action_ids": [
+    "P09-20240623-120359-502",
+    "P09-20240623-120359-503",
+    "P09-20240623-120359-504",
+    "P09-20240623-120359-505",
+    "P09-20240623-120359-506",
+    "P09-20240623-120359-507",
+    "P09-20240623-120359-508",
+    "P09-20240623-120359-509",
+    "P09-20240623-120359-510",
+    "P09-20240623-120359-511"
+   ],
+   "rationale": "The person gets a green chopping board from a drawer and clears space on the counter to place the mango on it."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Add yogurt and mango to the blender and rinse the spoon",
+   "action_ids": [
+    "P09-20240623-120359-533",
+    "P09-20240623-120359-534",
+    "P09-20240623-120359-535",
+    "P09-20240623-120359-536",
+    "P09-20240623-120359-537",
+    "P09-20240623-120359-538",
+    "P09-20240623-120359-539",
+    "P09-20240623-120359-540",
+    "P09-20240623-120359-541",
+    "P09-20240623-120359-548"
+   ],
+   "rationale": "The person transfers yogurt and mango pieces into the blender cup and rinses the tablespoon used."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Wash and dry hands before continuing to cook",
+   "action_ids": [
+    "P09-20240623-120359-565",
+    "P09-20240623-120359-566",
+    "P09-20240623-120359-567",
+    "P09-20240623-120359-568",
+    "P09-20240623-120359-569",
+    "P09-20240623-120359-570",
+    "P09-20240623-120359-571",
+    "P09-20240623-120359-572"
+   ],
+   "rationale": "The person washes their hands at the sink and dries them with a towel before handling more ingredients."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Add garam masala to the saucepan",
+   "action_ids": [
+    "P09-20240623-120359-573",
+    "P09-20240623-120359-574",
+    "P09-20240623-120359-575",
+    "P09-20240623-120359-576",
+    "P09-20240623-120359-577",
+    "P09-20240623-120359-578",
+    "P09-20240623-120359-579",
+    "P09-20240623-120359-580",
+    "P09-20240623-120359-581",
+    "P09-20240623-120359-582",
+    "P09-20240623-120359-583",
+    "P09-20240623-120359-584",
+    "P09-20240623-120359-585",
+    "P09-20240623-120359-586",
+    "P09-20240623-120359-587",
+    "P09-20240623-120359-588",
+    "P09-20240623-120359-589",
+    "P09-20240623-120359-590"
+   ],
+   "rationale": "The person opens the spice bottle and scoops garam masala into the saucepan before closing the bottle."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Add sliced chilli and ghee to the saucepan",
+   "action_ids": [
+    "P09-20240623-120359-591",
+    "P09-20240623-120359-592",
+    "P09-20240623-120359-593",
+    "P09-20240623-120359-594",
+    "P09-20240623-120359-595",
+    "P09-20240623-120359-596",
+    "P09-20240623-120359-597",
+    "P09-20240623-120359-598",
+    "P09-20240623-120359-599",
+    "P09-20240623-120359-600",
+    "P09-20240623-120359-601",
+    "P09-20240623-120359-602",
+    "P09-20240623-120359-603",
+    "P09-20240623-120359-604",
+    "P09-20240623-120359-605"
+   ],
+   "rationale": "The person adds sliced chillies from a bowl and scoops ghee from a tin into the saucepan, stirring the mixture."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Add fried onion to the saucepan",
+   "action_ids": [
+    "P09-20240623-120359-606",
+    "P09-20240623-120359-607",
+    "P09-20240623-120359-608",
+    "P09-20240623-120359-609",
+    "P09-20240623-120359-610",
+    "P09-20240623-120359-611",
+    "P09-20240623-120359-612"
+   ],
+   "rationale": "The person scoops fried onions from a bowl into the saucepan and stirs the ingredients together."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Add water and salt to the saucepan and put away ingredients",
+   "action_ids": [
+    "P09-20240623-120359-613",
+    "P09-20240623-120359-614",
+    "P09-20240623-120359-615",
+    "P09-20240623-120359-616",
+    "P09-20240623-120359-617",
+    "P09-20240623-120359-618",
+    "P09-20240623-120359-619",
+    "P09-20240623-120359-620",
+    "P09-20240623-120359-621",
+    "P09-20240623-120359-622",
+    "P09-20240623-120359-623",
+    "P09-20240623-120359-624",
+    "P09-20240623-120359-625",
+    "P09-20240623-120359-626",
+    "P09-20240623-120359-627",
+    "P09-20240623-120359-628",
+    "P09-20240623-120359-629",
+    "P09-20240623-120359-630",
+    "P09-20240623-120359-631",
+    "P09-20240623-120359-632"
+   ],
+   "rationale": "The person pours water from the kettle, adds salt to the saucepan, and then puts away the salt and ghee containers."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P09-20240623-120359-459",
+  "P09-20240623-120359-460",
+  "P09-20240623-120359-491",
+  "P09-20240623-120359-512",
+  "P09-20240623-120359-528",
+  "P09-20240623-120359-527",
+  "P09-20240623-120359-529",
+  "P09-20240623-120359-543",
+  "P09-20240623-120359-555",
+  "P09-20240623-120359-558"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

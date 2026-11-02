@@ -1,0 +1,47 @@
+{
+ "overall_goal": "Boil the potatoes until they are soft.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Fill the saucepan with hot water and set it on the hob to boil.",
+   "action_ids": [
+    "P03-20240218-190556-226",
+    "P03-20240218-190556-227",
+    "P03-20240218-190556-228",
+    "P03-20240218-190556-229",
+    "P03-20240218-190556-230",
+    "P03-20240218-190556-231",
+    "P03-20240218-190556-232",
+    "P03-20240218-190556-234"
+   ],
+   "rationale": "The person fills the saucepan with hot water, places it on the hob, and turns on the heat to start boiling the potatoes."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve a wooden spoon and stir the boiling potatoes.",
+   "action_ids": [
+    "P03-20240218-190556-461",
+    "P03-20240218-190556-460",
+    "P03-20240218-190556-462",
+    "P03-20240218-190556-463"
+   ],
+   "rationale": "The person gets a wooden spoon from a drawer, closes the drawer, and uses the spoon to stir the potatoes so they cook evenly."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Stir the potatoes and check if they are fully cooked.",
+   "action_ids": [
+    "P03-20240218-190556-774",
+    "P03-20240218-190556-775",
+    "P03-20240218-190556-794",
+    "P03-20240218-190556-795"
+   ],
+   "rationale": "The person stirs the potatoes and presses down on chunks to check their softness and determine if they are ready."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

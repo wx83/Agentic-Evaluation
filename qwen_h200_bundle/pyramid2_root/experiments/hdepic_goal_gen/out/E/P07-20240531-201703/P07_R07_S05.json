@@ -1,0 +1,69 @@
+{
+ "overall_goal": "Prepare, wash, and tear lettuce into a bowl",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Extract and trim the lettuce head",
+   "action_ids": [
+    "P07-20240531-201703-292",
+    "P07-20240531-201703-293",
+    "P07-20240531-201703-294",
+    "P07-20240531-201703-295",
+    "P07-20240531-201703-296",
+    "P07-20240531-201703-297"
+   ],
+   "rationale": "The person opens the lettuce packet, takes out a head, cleans the knife, and slices off the end of the lettuce."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Wash and drain the lettuce leaves",
+   "action_ids": [
+    "P07-20240531-201703-298",
+    "P07-20240531-201703-299",
+    "P07-20240531-201703-300",
+    "P07-20240531-201703-301",
+    "P07-20240531-201703-302",
+    "P07-20240531-201703-303",
+    "P07-20240531-201703-304",
+    "P07-20240531-201703-305",
+    "P07-20240531-201703-306",
+    "P07-20240531-201703-307",
+    "P07-20240531-201703-308",
+    "P07-20240531-201703-309"
+   ],
+   "rationale": "The person rinses the lettuce under the tap, separates the leaves, and squeezes out the excess water."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Weigh the washed lettuce",
+   "action_ids": [
+    "P07-20240531-201703-310",
+    "P07-20240531-201703-311",
+    "P07-20240531-201703-312",
+    "P07-20240531-201703-313",
+    "P07-20240531-201703-314",
+    "P07-20240531-201703-315",
+    "P07-20240531-201703-316"
+   ],
+   "rationale": "The person sets up the digital scales, tares a bowl, and places the lettuce inside to weigh it."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Tear and mix the lettuce in a large bowl",
+   "action_ids": [
+    "P07-20240531-201703-318",
+    "P07-20240531-201703-319",
+    "P07-20240531-201703-320",
+    "P07-20240531-201703-321",
+    "P07-20240531-201703-322",
+    "P07-20240531-201703-323"
+   ],
+   "rationale": "The person transfers the lettuce to a large blue bowl, tears the leaves into smaller pieces, removes the hard core, and mixes the pieces."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

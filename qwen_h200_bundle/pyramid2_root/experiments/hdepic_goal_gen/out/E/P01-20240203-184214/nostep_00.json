@@ -1,0 +1,208 @@
+{
+ "overall_goal": "Perform various kitchen tasks including heating rice, organizing ingredients, and cleaning up",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Heat up the pot of rice on the hob",
+   "action_ids": [
+    "P01-20240203-184214-1",
+    "P01-20240203-184214-2",
+    "P01-20240203-184214-3",
+    "P01-20240203-184214-4",
+    "P01-20240203-184214-5",
+    "P01-20240203-184214-6",
+    "P01-20240203-184214-7",
+    "P01-20240203-184214-8",
+    "P01-20240203-184214-9"
+   ],
+   "rationale": "The person sets up the hob with a heat diffuser and a pot, then turns on and adjusts the heat."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Discard empty plastic container",
+   "action_ids": [
+    "P01-20240203-184214-44",
+    "P01-20240203-184214-45",
+    "P01-20240203-184214-46",
+    "P01-20240203-184214-47",
+    "P01-20240203-184214-48"
+   ],
+   "rationale": "The person picks up an empty plastic container and throws it into the bin."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Use a ladder to access the upper cupboard",
+   "action_ids": [
+    "P01-20240203-184214-50",
+    "P01-20240203-184214-51",
+    "P01-20240203-184214-52",
+    "P01-20240203-184214-53",
+    "P01-20240203-184214-54",
+    "P01-20240203-184214-55",
+    "P01-20240203-184214-56",
+    "P01-20240203-184214-57",
+    "P01-20240203-184214-58",
+    "P01-20240203-184214-59",
+    "P01-20240203-184214-60",
+    "P01-20240203-184214-61",
+    "P01-20240203-184214-62",
+    "P01-20240203-184214-75",
+    "P01-20240203-184214-76",
+    "P01-20240203-184214-77",
+    "P01-20240203-184214-78",
+    "P01-20240203-184214-79",
+    "P01-20240203-184214-80",
+    "P01-20240203-184214-81",
+    "P01-20240203-184214-82"
+   ],
+   "rationale": "The person fetches and sets up a ladder to search for items in the upper cupboard, stores a vinegar bottle, and then puts the ladder away."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Search for lemons and gather ingredients",
+   "action_ids": [
+    "P01-20240203-184214-83",
+    "P01-20240203-184214-84",
+    "P01-20240203-184214-86",
+    "P01-20240203-184214-87",
+    "P01-20240203-184214-97",
+    "P01-20240203-184214-98",
+    "P01-20240203-184214-99"
+   ],
+   "rationale": "The person looks for lemons in the cupboard and drawer, then gathers soy sauce and lemons on the countertop."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Discard squeezed lemons and store leftover lemon",
+   "action_ids": [
+    "P01-20240203-184214-121",
+    "P01-20240203-184214-120",
+    "P01-20240203-184214-122",
+    "P01-20240203-184214-201",
+    "P01-20240203-184214-202",
+    "P01-20240203-184214-203",
+    "P01-20240203-184214-204",
+    "P01-20240203-184214-205",
+    "P01-20240203-184214-206",
+    "P01-20240203-184214-207"
+   ],
+   "rationale": "The person throws away squeezed lemon halves into the food trash bin and stores the unsqueezed half in the fridge."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Clean the lemon squeezer",
+   "action_ids": [
+    "P01-20240203-184214-134",
+    "P01-20240203-184214-135",
+    "P01-20240203-184214-136",
+    "P01-20240203-184214-137",
+    "P01-20240203-184214-138",
+    "P01-20240203-184214-139",
+    "P01-20240203-184214-140",
+    "P01-20240203-184214-141"
+   ],
+   "rationale": "The person empties the lemon squeezer into the food trash bin and rinses it under the tap."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Stir and check the rice on the hob",
+   "action_ids": [
+    "P01-20240203-184214-143",
+    "P01-20240203-184214-144",
+    "P01-20240203-184214-145",
+    "P01-20240203-184214-146",
+    "P01-20240203-184214-147",
+    "P01-20240203-184214-148"
+   ],
+   "rationale": "The person removes the lid from the pot, stirs the rice to distribute heat, and checks its temperature."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Store ingredients and spices away",
+   "action_ids": [
+    "P01-20240203-184214-150",
+    "P01-20240203-184214-151",
+    "P01-20240203-184214-152",
+    "P01-20240203-184214-153",
+    "P01-20240203-184214-154",
+    "P01-20240203-184214-170",
+    "P01-20240203-184214-171",
+    "P01-20240203-184214-172",
+    "P01-20240203-184214-173",
+    "P01-20240203-184214-174",
+    "P01-20240203-184214-175",
+    "P01-20240203-184214-176",
+    "P01-20240203-184214-177",
+    "P01-20240203-184214-178",
+    "P01-20240203-184214-184",
+    "P01-20240203-184214-185",
+    "P01-20240203-184214-191",
+    "P01-20240203-184214-192"
+   ],
+   "rationale": "The person puts the soy sauce in the fridge and organizes rosemary and spice jars in the cupboard."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Handle chicken and wash hands in the sink",
+   "action_ids": [
+    "P01-20240203-184214-234",
+    "P01-20240203-184214-235",
+    "P01-20240203-184214-236",
+    "P01-20240203-184214-237",
+    "P01-20240203-184214-238",
+    "P01-20240203-184214-239",
+    "P01-20240203-184214-240",
+    "P01-20240203-184214-241"
+   ],
+   "rationale": "The person separates chicken pieces, submerges them in a bowl of water, and washes their hands."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Stir and cover the rice on the hob",
+   "action_ids": [
+    "P01-20240203-184214-244",
+    "P01-20240203-184214-245",
+    "P01-20240203-184214-246",
+    "P01-20240203-184214-247",
+    "P01-20240203-184214-248",
+    "P01-20240203-184214-249",
+    "P01-20240203-184214-251",
+    "P01-20240203-184214-250"
+   ],
+   "rationale": "The person stirs the rice again, checks the temperature, and covers the pot with the lid."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Store the cling film in the drawer",
+   "action_ids": [
+    "P01-20240203-184214-262",
+    "P01-20240203-184214-263",
+    "P01-20240203-184214-264",
+    "P01-20240203-184214-265",
+    "P01-20240203-184214-266"
+   ],
+   "rationale": "The person puts the cling film tube into its cardboard box and stores it in the drawer."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P01-20240203-184214-10",
+  "P01-20240203-184214-11",
+  "P01-20240203-184214-13",
+  "P01-20240203-184214-14",
+  "P01-20240203-184214-49",
+  "P01-20240203-184214-100",
+  "P01-20240203-184214-123",
+  "P01-20240203-184214-142",
+  "P01-20240203-184214-208",
+  "P01-20240203-184214-209",
+  "P01-20240203-184214-210",
+  "P01-20240203-184214-225",
+  "P01-20240203-184214-242",
+  "P01-20240203-184214-243",
+  "P01-20240203-184214-252"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

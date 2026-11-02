@@ -1,0 +1,972 @@
+[
+ {
+  "source": "EgoPlan-Bench (Ego4D)",
+  "video_id": "094bb63c-2050-4471-88eb-de3b86c26c81",
+  "goal": "Prepare vegetable and stew",
+  "level": "task",
+  "steps": [
+   {
+    "t0": 624.1,
+    "t1": 627.4,
+    "narration": "pick up spoon from rack"
+   },
+   {
+    "t0": 628.6,
+    "t1": 631.6,
+    "narration": "stir stew with spoon"
+   },
+   {
+    "t0": 632.6,
+    "t1": 635.8,
+    "narration": "pick up chopsticks"
+   },
+   {
+    "t0": 636.9,
+    "t1": 640.6,
+    "narration": "scoop vegetable with chopsticks"
+   },
+   {
+    "t0": 642.2,
+    "t1": 642.2,
+    "narration": "put down vegetable pan (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench2 (Ego4D)",
+  "video_id": "e402df54",
+  "goal": "prepare corn dogs",
+  "level": "task",
+  "steps": [
+   {
+    "t0": 151.1,
+    "t1": 152.5,
+    "narration": "operate cooker"
+   },
+   {
+    "t0": 156.8,
+    "t1": 157.5,
+    "narration": "open cupboard"
+   },
+   {
+    "t0": 165.9,
+    "t1": 166.7,
+    "narration": "pick foil"
+   },
+   {
+    "t0": 166.9,
+    "t1": 167.7,
+    "narration": "unfold foil"
+   },
+   {
+    "t0": 172.4,
+    "t1": 173.2,
+    "narration": "turn foil"
+   },
+   {
+    "t0": 174.6,
+    "t1": 174.6,
+    "narration": "fold foil (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench (Ego4D)",
+  "video_id": "0b215326-8706-4611-9b76-3402d617f19e",
+  "goal": "Clean up the kitchen",
+  "level": "task",
+  "steps": [
+   {
+    "t0": 404.6,
+    "t1": 407.4,
+    "narration": "turn on sink tap"
+   },
+   {
+    "t0": 408.1,
+    "t1": 409.9,
+    "narration": "pour soap"
+   },
+   {
+    "t0": 409.9,
+    "t1": 415.4,
+    "narration": "wash hands"
+   },
+   {
+    "t0": 419.2,
+    "t1": 428.4,
+    "narration": "wash plates"
+   },
+   {
+    "t0": 435.6,
+    "t1": 439.8,
+    "narration": "put plate in rack"
+   },
+   {
+    "t0": 442.0,
+    "t1": 444.1,
+    "narration": "put plate in rack"
+   },
+   {
+    "t0": 444.1,
+    "t1": 444.1,
+    "narration": "remove sieve from rack (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench (EpicKitchens)",
+  "video_id": "P31_05",
+  "goal": "Prepare rusks with honey",
+  "level": "task",
+  "steps": [
+   {
+    "t0": 125.2,
+    "t1": 129.6,
+    "narration": "open melba toasts"
+   },
+   {
+    "t0": 131.1,
+    "t1": 144.0,
+    "narration": "pick up a rusk"
+   },
+   {
+    "t0": 146.1,
+    "t1": 148.3,
+    "narration": "open honey"
+   },
+   {
+    "t0": 150.7,
+    "t1": 163.6,
+    "narration": "mix honey"
+   },
+   {
+    "t0": 166.4,
+    "t1": 250.2,
+    "narration": "spread on the rusks"
+   },
+   {
+    "t0": 261.0,
+    "t1": 262.0,
+    "narration": "open door"
+   },
+   {
+    "t0": 261.9,
+    "t1": 264.7,
+    "narration": "put rusks"
+   },
+   {
+    "t0": 264.6,
+    "t1": 264.6,
+    "narration": "close door (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench2 (Ego4D)",
+  "video_id": "592e442a",
+  "goal": "clean up",
+  "level": "task",
+  "steps": [
+   {
+    "t0": 125.4,
+    "t1": 126.8,
+    "narration": "open tap"
+   },
+   {
+    "t0": 126.9,
+    "t1": 127.5,
+    "narration": "rinse hand"
+   },
+   {
+    "t0": 127.8,
+    "t1": 128.4,
+    "narration": "put egg shell in bowl"
+   },
+   {
+    "t0": 132.1,
+    "t1": 132.7,
+    "narration": "turn tap"
+   },
+   {
+    "t0": 133.0,
+    "t1": 133.7,
+    "narration": "rinse hand"
+   },
+   {
+    "t0": 138.1,
+    "t1": 138.7,
+    "narration": "close tap"
+   },
+   {
+    "t0": 138.8,
+    "t1": 139.5,
+    "narration": "shake hand"
+   },
+   {
+    "t0": 141.8,
+    "t1": 142.5,
+    "narration": "wipe hand"
+   },
+   {
+    "t0": 146.7,
+    "t1": 146.7,
+    "narration": "move bowl (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench (EpicKitchens)",
+  "video_id": "P03_24",
+  "goal": "Cook vegetables",
+  "level": "task",
+  "steps": [
+   {
+    "t0": 30.2,
+    "t1": 31.6,
+    "narration": "move lunch box"
+   },
+   {
+    "t0": 31.3,
+    "t1": 33.0,
+    "narration": "grab saucepan"
+   },
+   {
+    "t0": 35.0,
+    "t1": 36.5,
+    "narration": "place saucepan"
+   },
+   {
+    "t0": 36.6,
+    "t1": 37.3,
+    "narration": "turn on hob"
+   },
+   {
+    "t0": 39.4,
+    "t1": 40.4,
+    "narration": "open drawer"
+   },
+   {
+    "t0": 40.5,
+    "t1": 41.4,
+    "narration": "grab scissors"
+   },
+   {
+    "t0": 41.2,
+    "t1": 42.3,
+    "narration": "close drawer"
+   },
+   {
+    "t0": 42.5,
+    "t1": 44.7,
+    "narration": "open carrot bag"
+   },
+   {
+    "t0": 47.0,
+    "t1": 52.1,
+    "narration": "pour carrots"
+   },
+   {
+    "t0": 54.5,
+    "t1": 54.5,
+    "narration": "open sweet corn (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench (EpicKitchens)",
+  "video_id": "P22_111",
+  "goal": "Complete salad preparation",
+  "level": "task",
+  "steps": [
+   {
+    "t0": 741.1,
+    "t1": 741.9,
+    "narration": "pick up pepper"
+   },
+   {
+    "t0": 741.9,
+    "t1": 742.5,
+    "narration": "open pepper"
+   },
+   {
+    "t0": 742.6,
+    "t1": 745.4,
+    "narration": "pour pepper"
+   },
+   {
+    "t0": 745.5,
+    "t1": 746.8,
+    "narration": "pour pepper"
+   },
+   {
+    "t0": 746.7,
+    "t1": 747.1,
+    "narration": "close pepper"
+   },
+   {
+    "t0": 747.1,
+    "t1": 747.7,
+    "narration": "put down pepper"
+   },
+   {
+    "t0": 748.5,
+    "t1": 749.0,
+    "narration": "pick up bowl"
+   },
+   {
+    "t0": 750.0,
+    "t1": 750.9,
+    "narration": "open drawer"
+   },
+   {
+    "t0": 750.8,
+    "t1": 752.0,
+    "narration": "pick up spoon"
+   },
+   {
+    "t0": 753.8,
+    "t1": 755.5,
+    "narration": "stir salad"
+   },
+   {
+    "t0": 755.5,
+    "t1": 755.5,
+    "narration": "stir salad (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench2 (Ego4D)",
+  "video_id": "ada73c3a",
+  "goal": "eat egg at a restaurant",
+  "level": "task",
+  "steps": [
+   {
+    "t0": 12713.8,
+    "t1": 12715.4,
+    "narration": "pick knife"
+   },
+   {
+    "t0": 12715.4,
+    "t1": 12716.1,
+    "narration": "slice egg"
+   },
+   {
+    "t0": 12720.8,
+    "t1": 12721.9,
+    "narration": "cut egg"
+   },
+   {
+    "t0": 12722.8,
+    "t1": 12723.9,
+    "narration": "take egg"
+   },
+   {
+    "t0": 12755.5,
+    "t1": 12756.6,
+    "narration": "pick egg"
+   },
+   {
+    "t0": 12764.8,
+    "t1": 12766.0,
+    "narration": "pick knife"
+   },
+   {
+    "t0": 12766.9,
+    "t1": 12768.0,
+    "narration": "cut egg"
+   },
+   {
+    "t0": 12769.1,
+    "t1": 12770.2,
+    "narration": "take egg"
+   },
+   {
+    "t0": 12779.7,
+    "t1": 12780.8,
+    "narration": "pick egg"
+   },
+   {
+    "t0": 12795.8,
+    "t1": 12796.9,
+    "narration": "cut egg"
+   },
+   {
+    "t0": 12799.6,
+    "t1": 12800.7,
+    "narration": "pick egg"
+   },
+   {
+    "t0": 12816.6,
+    "t1": 12816.6,
+    "narration": "cut egg (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench2 (Ego4D)",
+  "video_id": "0dbee239",
+  "goal": "clean pet bin",
+  "level": "task",
+  "steps": [
+   {
+    "t0": 116.1,
+    "t1": 117.5,
+    "narration": "pick trash bin cover"
+   },
+   {
+    "t0": 118.4,
+    "t1": 119.1,
+    "narration": "cover trash bin"
+   },
+   {
+    "t0": 121.5,
+    "t1": 122.3,
+    "narration": "drop knife"
+   },
+   {
+    "t0": 124.8,
+    "t1": 125.5,
+    "narration": "drag dog food bag"
+   },
+   {
+    "t0": 127.3,
+    "t1": 128.1,
+    "narration": "turn dog food bag"
+   },
+   {
+    "t0": 146.8,
+    "t1": 147.6,
+    "narration": "cut dog food bag"
+   },
+   {
+    "t0": 156.7,
+    "t1": 157.5,
+    "narration": "drop bag piece in trash bin"
+   },
+   {
+    "t0": 158.1,
+    "t1": 158.9,
+    "narration": "open dog food bag"
+   },
+   {
+    "t0": 171.4,
+    "t1": 172.1,
+    "narration": "cut dog food bag"
+   },
+   {
+    "t0": 174.4,
+    "t1": 175.2,
+    "narration": "open dog food bag"
+   },
+   {
+    "t0": 196.2,
+    "t1": 197.0,
+    "narration": "shake dog food bag"
+   },
+   {
+    "t0": 200.7,
+    "t1": 201.5,
+    "narration": "tap dog food bag"
+   },
+   {
+    "t0": 211.5,
+    "t1": 211.5,
+    "narration": "fold bag (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench (EpicKitchens)",
+  "video_id": "P18_03",
+  "goal": "Prepare salad",
+  "level": "task",
+  "steps": [
+   {
+    "t0": 87.6,
+    "t1": 88.9,
+    "narration": "take salad"
+   },
+   {
+    "t0": 89.0,
+    "t1": 95.0,
+    "narration": "open salad bag"
+   },
+   {
+    "t0": 95.8,
+    "t1": 103.7,
+    "narration": "pour salad in bowl"
+   },
+   {
+    "t0": 103.8,
+    "t1": 111.2,
+    "narration": "close salad bag"
+   },
+   {
+    "t0": 113.4,
+    "t1": 114.4,
+    "narration": "take elastic"
+   },
+   {
+    "t0": 114.5,
+    "t1": 117.3,
+    "narration": "put over salad"
+   },
+   {
+    "t0": 117.8,
+    "t1": 119.7,
+    "narration": "open fridge"
+   },
+   {
+    "t0": 119.8,
+    "t1": 123.5,
+    "narration": "put salad in fridge"
+   },
+   {
+    "t0": 121.0,
+    "t1": 126.4,
+    "narration": "take out bag"
+   },
+   {
+    "t0": 132.1,
+    "t1": 133.9,
+    "narration": "open bag"
+   },
+   {
+    "t0": 134.3,
+    "t1": 137.4,
+    "narration": "take out raisins"
+   },
+   {
+    "t0": 138.1,
+    "t1": 144.3,
+    "narration": "put raisins in salad"
+   },
+   {
+    "t0": 143.2,
+    "t1": 147.4,
+    "narration": "put raisins back in bag"
+   },
+   {
+    "t0": 146.8,
+    "t1": 146.8,
+    "narration": "close bag (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench2 (Ego4D)",
+  "video_id": "3f2b1d67",
+  "goal": "eat bread and drink tea",
+  "level": "task",
+  "steps": [
+   {
+    "t0": 536.5,
+    "t1": 537.8,
+    "narration": "place cup on table"
+   },
+   {
+    "t0": 543.5,
+    "t1": 544.1,
+    "narration": "pick bread"
+   },
+   {
+    "t0": 545.5,
+    "t1": 546.1,
+    "narration": "eat bread"
+   },
+   {
+    "t0": 547.6,
+    "t1": 548.1,
+    "narration": "place bread on plate"
+   },
+   {
+    "t0": 560.4,
+    "t1": 561.0,
+    "narration": "pick piece of bread"
+   },
+   {
+    "t0": 562.0,
+    "t1": 562.5,
+    "narration": "bite piece of bread"
+   },
+   {
+    "t0": 563.0,
+    "t1": 563.6,
+    "narration": "put piece of bread on plate"
+   },
+   {
+    "t0": 570.2,
+    "t1": 570.8,
+    "narration": "pick piece of bread"
+   },
+   {
+    "t0": 572.0,
+    "t1": 572.4,
+    "narration": "bite piece of bread"
+   },
+   {
+    "t0": 572.4,
+    "t1": 572.9,
+    "narration": "put piece of bread on plate"
+   },
+   {
+    "t0": 578.8,
+    "t1": 579.4,
+    "narration": "pick cup of tea"
+   },
+   {
+    "t0": 579.7,
+    "t1": 580.3,
+    "narration": "put cup on table"
+   },
+   {
+    "t0": 586.2,
+    "t1": 586.8,
+    "narration": "pick cup of tea"
+   },
+   {
+    "t0": 587.4,
+    "t1": 588.0,
+    "narration": "drink tea"
+   },
+   {
+    "t0": 589.0,
+    "t1": 589.0,
+    "narration": "put cup on table (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench (Ego4D)",
+  "video_id": "c1c18372-0f3a-4996-beaf-d505faed7d17",
+  "goal": "Clean and organize kitchen",
+  "level": "task",
+  "steps": [
+   {
+    "t0": 344.3,
+    "t1": 346.1,
+    "narration": "close bottle"
+   },
+   {
+    "t0": 346.1,
+    "t1": 347.7,
+    "narration": "put back bottle"
+   },
+   {
+    "t0": 347.7,
+    "t1": 349.3,
+    "narration": "adjust heat on cooker"
+   },
+   {
+    "t0": 349.3,
+    "t1": 350.2,
+    "narration": "wipe kitchen surface"
+   },
+   {
+    "t0": 350.2,
+    "t1": 351.1,
+    "narration": "move chopsticks"
+   },
+   {
+    "t0": 351.1,
+    "t1": 352.8,
+    "narration": "pick up kitchen towel"
+   },
+   {
+    "t0": 352.8,
+    "t1": 354.3,
+    "narration": "pick up bowl from dish rack"
+   },
+   {
+    "t0": 354.3,
+    "t1": 356.8,
+    "narration": "wipe bowl with kitchen towel"
+   },
+   {
+    "t0": 357.8,
+    "t1": 360.0,
+    "narration": "place bowl on utensils"
+   },
+   {
+    "t0": 360.2,
+    "t1": 361.5,
+    "narration": "choose chopsticks"
+   },
+   {
+    "t0": 361.5,
+    "t1": 363.2,
+    "narration": "wipe chopsticks with towel"
+   },
+   {
+    "t0": 363.5,
+    "t1": 365.3,
+    "narration": "put chopsticks on utensils"
+   },
+   {
+    "t0": 365.3,
+    "t1": 366.6,
+    "narration": "pick up saucer"
+   },
+   {
+    "t0": 366.6,
+    "t1": 368.4,
+    "narration": "clean saucer with kitchen towel"
+   },
+   {
+    "t0": 368.5,
+    "t1": 370.3,
+    "narration": "put saucer on utensils"
+   },
+   {
+    "t0": 370.3,
+    "t1": 370.3,
+    "narration": "pick up spoon (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench (EpicKitchens)",
+  "video_id": "P08_17",
+  "goal": "prepare and serve the meal",
+  "level": "task",
+  "steps": [
+   {
+    "t0": 446.6,
+    "t1": 448.1,
+    "narration": "close cupboard"
+   },
+   {
+    "t0": 448.2,
+    "t1": 452.6,
+    "narration": "unwrap salad in bowl"
+   },
+   {
+    "t0": 453.1,
+    "t1": 454.3,
+    "narration": "open cupboard"
+   },
+   {
+    "t0": 454.4,
+    "t1": 456.6,
+    "narration": "get plate"
+   },
+   {
+    "t0": 458.2,
+    "t1": 464.8,
+    "narration": "put spinach leaves on plate"
+   },
+   {
+    "t0": 464.6,
+    "t1": 467.6,
+    "narration": "close wrap"
+   },
+   {
+    "t0": 467.6,
+    "t1": 468.6,
+    "narration": "get salad bowl"
+   },
+   {
+    "t0": 470.1,
+    "t1": 471.5,
+    "narration": "place fridge"
+   },
+   {
+    "t0": 473.6,
+    "t1": 475.9,
+    "narration": "get vegetable rice"
+   },
+   {
+    "t0": 476.0,
+    "t1": 483.2,
+    "narration": "place on plate"
+   },
+   {
+    "t0": 483.7,
+    "t1": 484.7,
+    "narration": "turn off hob"
+   },
+   {
+    "t0": 486.7,
+    "t1": 488.5,
+    "narration": "take lid off"
+   },
+   {
+    "t0": 491.2,
+    "t1": 492.6,
+    "narration": "get spoon"
+   },
+   {
+    "t0": 493.1,
+    "t1": 497.9,
+    "narration": "spoon meat on plate"
+   },
+   {
+    "t0": 504.7,
+    "t1": 507.0,
+    "narration": "spoon meat on plate"
+   },
+   {
+    "t0": 508.2,
+    "t1": 510.7,
+    "narration": "spoon meat on plate"
+   },
+   {
+    "t0": 518.3,
+    "t1": 520.4,
+    "narration": "place pan"
+   },
+   {
+    "t0": 520.4,
+    "t1": 520.4,
+    "narration": "place lid on pan (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench (EpicKitchens)",
+  "video_id": "P30_07",
+  "goal": "Clean the kitchen",
+  "level": "task",
+  "steps": [
+   {
+    "t0": 216.7,
+    "t1": 220.5,
+    "narration": "take knife and fork and put into drawer"
+   },
+   {
+    "t0": 220.6,
+    "t1": 222.8,
+    "narration": "rinse sponge"
+   },
+   {
+    "t0": 222.8,
+    "t1": 230.3,
+    "narration": "wipe surface"
+   },
+   {
+    "t0": 227.8,
+    "t1": 231.4,
+    "narration": "continue wiping surface"
+   },
+   {
+    "t0": 231.8,
+    "t1": 234.3,
+    "narration": "rinse sponge"
+   },
+   {
+    "t0": 235.1,
+    "t1": 236.8,
+    "narration": "rinse sponge"
+   },
+   {
+    "t0": 236.9,
+    "t1": 244.0,
+    "narration": "scrub surface"
+   },
+   {
+    "t0": 240.3,
+    "t1": 243.9,
+    "narration": "wipe surface"
+   },
+   {
+    "t0": 243.7,
+    "t1": 246.3,
+    "narration": "move mug"
+   },
+   {
+    "t0": 246.9,
+    "t1": 249.9,
+    "narration": "move cereal"
+   },
+   {
+    "t0": 247.0,
+    "t1": 249.9,
+    "narration": "move v60"
+   },
+   {
+    "t0": 250.2,
+    "t1": 253.7,
+    "narration": "scrub surface"
+   },
+   {
+    "t0": 253.5,
+    "t1": 254.2,
+    "narration": "continue scrubbing surface"
+   },
+   {
+    "t0": 254.0,
+    "t1": 266.3,
+    "narration": "continue scrubbing surface"
+   },
+   {
+    "t0": 268.9,
+    "t1": 272.9,
+    "narration": "wipe surface"
+   },
+   {
+    "t0": 272.2,
+    "t1": 275.0,
+    "narration": "continue wiping surface"
+   },
+   {
+    "t0": 275.0,
+    "t1": 277.1,
+    "narration": "continue wiping surface"
+   },
+   {
+    "t0": 276.4,
+    "t1": 280.0,
+    "narration": "continue wiping surface"
+   },
+   {
+    "t0": 277.1,
+    "t1": 277.1,
+    "narration": "continue wiping surface (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench (Ego4D)",
+  "video_id": "6397a3fd-f939-4ea3-a297-6c731cd60875",
+  "goal": "Serve rice",
+  "level": "task",
+  "steps": [
+   {
+    "t0": 87.2,
+    "t1": 88.9,
+    "narration": "open drawer"
+   },
+   {
+    "t0": 88.9,
+    "t1": 90.4,
+    "narration": "pick up bowl from drawer"
+   },
+   {
+    "t0": 90.4,
+    "t1": 92.0,
+    "narration": "close drawer"
+   },
+   {
+    "t0": 92.0,
+    "t1": 93.8,
+    "narration": "open rice cooker lid"
+   },
+   {
+    "t0": 93.8,
+    "t1": 96.1,
+    "narration": "pick up spoon"
+   },
+   {
+    "t0": 96.4,
+    "t1": 98.3,
+    "narration": "take rice from rice cooker"
+   },
+   {
+    "t0": 98.3,
+    "t1": 98.3,
+    "narration": "put rice in bowl (next action, official answer)"
+   }
+  ]
+ }
+]

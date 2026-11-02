@@ -1,0 +1,215 @@
+{
+ "overall_goal": "Log ingredient weights, clean the workspace, and put away clean dishes",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Log and prepare the onion and chilli",
+   "action_ids": [
+    "P08-20240617-184909-187",
+    "P08-20240617-184909-188",
+    "P08-20240617-184909-191",
+    "P08-20240617-184909-193",
+    "P08-20240617-184909-195",
+    "P08-20240617-184909-196"
+   ],
+   "rationale": "The person uses a phone app to log the weights of the onion and chilli before moving them to the cutting board."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Log and prepare the red pepper",
+   "action_ids": [
+    "P08-20240617-184909-237",
+    "P08-20240617-184909-248",
+    "P08-20240617-184909-249",
+    "P08-20240617-184909-250",
+    "P08-20240617-184909-251",
+    "P08-20240617-184909-252",
+    "P08-20240617-184909-253",
+    "P08-20240617-184909-254",
+    "P08-20240617-184909-255",
+    "P08-20240617-184909-260"
+   ],
+   "rationale": "The person weighs the red pepper on the kitchen scale and records its nutritional value in the phone app."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Store the chilli peppers in the refrigerator",
+   "action_ids": [
+    "P08-20240617-184909-263",
+    "P08-20240617-184909-264",
+    "P08-20240617-184909-265",
+    "P08-20240617-184909-363"
+   ],
+   "rationale": "The person places the tupperware of chilli peppers into the refrigerator and closes the door."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Log and prepare the garlic",
+   "action_ids": [
+    "P08-20240617-184909-266",
+    "P08-20240617-184909-267",
+    "P08-20240617-184909-268",
+    "P08-20240617-184909-271",
+    "P08-20240617-184909-272",
+    "P08-20240617-184909-275",
+    "P08-20240617-184909-278",
+    "P08-20240617-184909-279",
+    "P08-20240617-184909-281",
+    "P08-20240617-184909-307"
+   ],
+   "rationale": "The person retrieves garlic cloves, logs their measurements in the phone app, and moves them to the cutting board."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Clean up food scraps and throw them in the trash",
+   "action_ids": [
+    "P08-20240617-184909-335",
+    "P08-20240617-184909-336",
+    "P08-20240617-184909-337",
+    "P08-20240617-184909-338",
+    "P08-20240617-184909-340",
+    "P08-20240617-184909-341",
+    "P08-20240617-184909-342",
+    "P08-20240617-184909-343",
+    "P08-20240617-184909-344",
+    "P08-20240617-184909-345",
+    "P08-20240617-184909-346",
+    "P08-20240617-184909-347"
+   ],
+   "rationale": "The person gathers food scraps and packaging into a bowl and empties the contents into the trash can."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Put away clean pots, pans, and colander from the drying rack",
+   "action_ids": [
+    "P08-20240617-184909-364",
+    "P08-20240617-184909-365",
+    "P08-20240617-184909-366",
+    "P08-20240617-184909-367",
+    "P08-20240617-184909-368",
+    "P08-20240617-184909-369",
+    "P08-20240617-184909-371",
+    "P08-20240617-184909-370"
+   ],
+   "rationale": "The person takes various pots, pans, and a colander from the drying rack and stores them in the kitchen cabinets."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Put away clean utensils and plates from the drying rack",
+   "action_ids": [
+    "P08-20240617-184909-372",
+    "P08-20240617-184909-373",
+    "P08-20240617-184909-374",
+    "P08-20240617-184909-375",
+    "P08-20240617-184909-376",
+    "P08-20240617-184909-377",
+    "P08-20240617-184909-378",
+    "P08-20240617-184909-379",
+    "P08-20240617-184909-380",
+    "P08-20240617-184909-381",
+    "P08-20240617-184909-382",
+    "P08-20240617-184909-383",
+    "P08-20240617-184909-384",
+    "P08-20240617-184909-385",
+    "P08-20240617-184909-386",
+    "P08-20240617-184909-387",
+    "P08-20240617-184909-388"
+   ],
+   "rationale": "The person takes utensils, plates, and a knife from the drying rack and puts them away in drawers and holders."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Manage the olive oil and pan",
+   "action_ids": [
+    "P08-20240617-184909-311",
+    "P08-20240617-184909-310",
+    "P08-20240617-184909-313",
+    "P08-20240617-184909-322",
+    "P08-20240617-184909-323",
+    "P08-20240617-184909-324",
+    "P08-20240617-184909-349",
+    "P08-20240617-184909-404"
+   ],
+   "rationale": "The person retrieves olive oil, adds it to the pan, rolls it around, and puts the bottle away."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Manage the oven and air fryer",
+   "action_ids": [
+    "P08-20240617-184909-295",
+    "P08-20240617-184909-296",
+    "P08-20240617-184909-297",
+    "P08-20240617-184909-306",
+    "P08-20240617-184909-308",
+    "P08-20240617-184909-339",
+    "P08-20240617-184909-405",
+    "P08-20240617-184909-406",
+    "P08-20240617-184909-430",
+    "P08-20240617-184909-431"
+   ],
+   "rationale": "The person uses an oven mitt to interact with the oven and pulls out the air fryer tray to check the vegetables."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Handle cooking utensils and adjust the stove",
+   "action_ids": [
+    "P08-20240617-184909-205",
+    "P08-20240617-184909-217",
+    "P08-20240617-184909-225",
+    "P08-20240617-184909-226",
+    "P08-20240617-184909-229",
+    "P08-20240617-184909-325",
+    "P08-20240617-184909-326",
+    "P08-20240617-184909-329",
+    "P08-20240617-184909-330",
+    "P08-20240617-184909-333",
+    "P08-20240617-184909-398",
+    "P08-20240617-184909-399"
+   ],
+   "rationale": "The person retrieves and moves various utensils, handles pot lids, and adjusts the stove temperature."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Clear and organize the kitchen counter",
+   "action_ids": [
+    "P08-20240617-184909-231",
+    "P08-20240617-184909-232",
+    "P08-20240617-184909-233",
+    "P08-20240617-184909-236",
+    "P08-20240617-184909-257",
+    "P08-20240617-184909-258",
+    "P08-20240617-184909-259",
+    "P08-20240617-184909-334",
+    "P08-20240617-184909-348",
+    "P08-20240617-184909-361",
+    "P08-20240617-184909-396",
+    "P08-20240617-184909-397"
+   ],
+   "rationale": "The person shifts various items around the kitchen counter to create more workspace."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Wipe down the kitchen counter",
+   "action_ids": [
+    "P08-20240617-184909-391",
+    "P08-20240617-184909-392",
+    "P08-20240617-184909-393",
+    "P08-20240617-184909-394",
+    "P08-20240617-184909-395"
+   ],
+   "rationale": "The person uses a paper towel to wipe food scraps off the kitchen counter into a small bowl."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P08-20240617-184909-262",
+  "P08-20240617-184909-294",
+  "P08-20240617-184909-360",
+  "P08-20240617-184909-362",
+  "P08-20240617-184909-389",
+  "P08-20240617-184909-390"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

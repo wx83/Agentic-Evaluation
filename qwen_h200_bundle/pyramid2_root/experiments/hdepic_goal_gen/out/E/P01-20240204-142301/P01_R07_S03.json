@@ -1,0 +1,71 @@
+{
+ "overall_goal": "Transfer, wash, and drain the soaked rice",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Transfer the soaked rice into a bowl",
+   "action_ids": [
+    "P01-20240204-142301-5",
+    "P01-20240204-142301-6",
+    "P01-20240204-142301-28",
+    "P01-20240204-142301-29",
+    "P01-20240204-142301-31",
+    "P01-20240204-142301-30",
+    "P01-20240204-142301-32",
+    "P01-20240204-142301-33",
+    "P01-20240204-142301-34",
+    "P01-20240204-142301-35",
+    "P01-20240204-142301-36"
+   ],
+   "rationale": "The person prepares a strainer and transfers the soaked rice from a tupperware container into a bowl, rinsing the container to ensure all grains are transferred."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Wash the rice to remove excess starch",
+   "action_ids": [
+    "P01-20240204-142301-37",
+    "P01-20240204-142301-38",
+    "P01-20240204-142301-43",
+    "P01-20240204-142301-44",
+    "P01-20240204-142301-46",
+    "P01-20240204-142301-47",
+    "P01-20240204-142301-51",
+    "P01-20240204-142301-52",
+    "P01-20240204-142301-54",
+    "P01-20240204-142301-55"
+   ],
+   "rationale": "The person repeatedly fills the bowl with water and rubs the rice by hand to wash it thoroughly."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Drain the washed rice using a strainer",
+   "action_ids": [
+    "P01-20240204-142301-56",
+    "P01-20240204-142301-58",
+    "P01-20240204-142301-59",
+    "P01-20240204-142301-60",
+    "P01-20240204-142301-61",
+    "P01-20240204-142301-62",
+    "P01-20240204-142301-63",
+    "P01-20240204-142301-64",
+    "P01-20240204-142301-65",
+    "P01-20240204-142301-66",
+    "P01-20240204-142301-67",
+    "P01-20240204-142301-68",
+    "P01-20240204-142301-69",
+    "P01-20240204-142301-70",
+    "P01-20240204-142301-71",
+    "P01-20240204-142301-72",
+    "P01-20240204-142301-73",
+    "P01-20240204-142301-74",
+    "P01-20240204-142301-75"
+   ],
+   "rationale": "The person pours the washed rice into the strainer, rinses the bowl to collect any remaining grains, and sets the drained rice aside for cooking."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

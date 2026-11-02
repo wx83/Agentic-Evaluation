@@ -1,0 +1,215 @@
+{
+ "overall_goal": "Weigh and log the ingredients while preparing the workspace for cooking.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Rearrange items in the refrigerator",
+   "action_ids": [
+    "P06-20240510-104642-1",
+    "P06-20240510-104642-2",
+    "P06-20240510-104642-3",
+    "P06-20240510-104642-4",
+    "P06-20240510-104642-5",
+    "P06-20240510-104642-9"
+   ],
+   "rationale": "The person opens the refrigerator to move a jar of Nutella to a different shelf."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Set up the notebook and record initial recipe details",
+   "action_ids": [
+    "P06-20240510-104642-25",
+    "P06-20240510-104642-26",
+    "P06-20240510-104642-27",
+    "P06-20240510-104642-28",
+    "P06-20240510-104642-29",
+    "P06-20240510-104642-30",
+    "P06-20240510-104642-31"
+   ],
+   "rationale": "The person prepares the notebook and pen to start logging the ingredients and recipe steps."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Unpack and store onions",
+   "action_ids": [
+    "P06-20240510-104642-44",
+    "P06-20240510-104642-49",
+    "P06-20240510-104642-50",
+    "P06-20240510-104642-51",
+    "P06-20240510-104642-52",
+    "P06-20240510-104642-53",
+    "P06-20240510-104642-54",
+    "P06-20240510-104642-55",
+    "P06-20240510-104642-56",
+    "P06-20240510-104642-57"
+   ],
+   "rationale": "The person cuts open the onion packaging, takes out an onion, and stores the rest in a drawer."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Set up the weighing scale and record the weight of onions",
+   "action_ids": [
+    "P06-20240510-104642-58",
+    "P06-20240510-104642-59",
+    "P06-20240510-104642-60",
+    "P06-20240510-104642-61",
+    "P06-20240510-104642-62",
+    "P06-20240510-104642-63",
+    "P06-20240510-104642-64",
+    "P06-20240510-104642-77",
+    "P06-20240510-104642-78",
+    "P06-20240510-104642-86",
+    "P06-20240510-104642-87",
+    "P06-20240510-104642-88",
+    "P06-20240510-104642-89"
+   ],
+   "rationale": "The person places the weighing balance on the table, weighs the onions, and writes down the measurement."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Record the weight of tomatoes and recipe ingredients",
+   "action_ids": [
+    "P06-20240510-104642-157",
+    "P06-20240510-104642-158",
+    "P06-20240510-104642-159",
+    "P06-20240510-104642-162",
+    "P06-20240510-104642-163",
+    "P06-20240510-104642-166",
+    "P06-20240510-104642-167"
+   ],
+   "rationale": "The person wraps the tomatoes, turns on the scale, and logs their weight along with other ingredients."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Wipe hands and record recipe details",
+   "action_ids": [
+    "P06-20240510-104642-176",
+    "P06-20240510-104642-177",
+    "P06-20240510-104642-178",
+    "P06-20240510-104642-179",
+    "P06-20240510-104642-180"
+   ],
+   "rationale": "The person dries their hands with a tablecloth before continuing to write in the notebook."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Record ingredients and the weight of green chillies",
+   "action_ids": [
+    "P06-20240510-104642-268",
+    "P06-20240510-104642-269",
+    "P06-20240510-104642-270",
+    "P06-20240510-104642-272",
+    "P06-20240510-104642-273",
+    "P06-20240510-104642-274",
+    "P06-20240510-104642-369",
+    "P06-20240510-104642-370",
+    "P06-20240510-104642-371",
+    "P06-20240510-104642-372"
+   ],
+   "rationale": "The person repeatedly uses the pen and notebook to log the ingredients and the weight of the green chillies."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Find garlic and record its weight",
+   "action_ids": [
+    "P06-20240510-104642-279",
+    "P06-20240510-104642-280",
+    "P06-20240510-104642-281",
+    "P06-20240510-104642-288",
+    "P06-20240510-104642-289",
+    "P06-20240510-104642-290",
+    "P06-20240510-104642-291",
+    "P06-20240510-104642-292"
+   ],
+   "rationale": "The person searches for garlic in a drawer, places it on the scale, and writes down its weight."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Manage the mixer jar and electrical plugs",
+   "action_ids": [
+    "P06-20240510-104642-303",
+    "P06-20240510-104642-323",
+    "P06-20240510-104642-337",
+    "P06-20240510-104642-338",
+    "P06-20240510-104642-339",
+    "P06-20240510-104642-352",
+    "P06-20240510-104642-353"
+   ],
+   "rationale": "The person places garlic in the mixer jar, handles the lid, and switches electrical plugs in the socket."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Clean hands and the weighing scale",
+   "action_ids": [
+    "P06-20240510-104642-406",
+    "P06-20240510-104642-407",
+    "P06-20240510-104642-408",
+    "P06-20240510-104642-409",
+    "P06-20240510-104642-410",
+    "P06-20240510-104642-413",
+    "P06-20240510-104642-419",
+    "P06-20240510-104642-420",
+    "P06-20240510-104642-421"
+   ],
+   "rationale": "The person uses a tablecloth to wipe their hands dry and clean the surface of the weighing balance."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Record the weight of cottage cheese and recipe details",
+   "action_ids": [
+    "P06-20240510-104642-414",
+    "P06-20240510-104642-415",
+    "P06-20240510-104642-416",
+    "P06-20240510-104642-423",
+    "P06-20240510-104642-424",
+    "P06-20240510-104642-425"
+   ],
+   "rationale": "The person picks up the pen to log the weight of the cottage cheese and further recipe instructions."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Dispose of waste and packaging",
+   "action_ids": [
+    "P06-20240510-104642-136",
+    "P06-20240510-104642-164",
+    "P06-20240510-104642-165",
+    "P06-20240510-104642-398",
+    "P06-20240510-104642-399"
+   ],
+   "rationale": "The person collects onion peels and throws away the plastic packaging of the cottage cheese."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P06-20240510-104642-16",
+  "P06-20240510-104642-21",
+  "P06-20240510-104642-22",
+  "P06-20240510-104642-36",
+  "P06-20240510-104642-41",
+  "P06-20240510-104642-40",
+  "P06-20240510-104642-42",
+  "P06-20240510-104642-43",
+  "P06-20240510-104642-137",
+  "P06-20240510-104642-146",
+  "P06-20240510-104642-149",
+  "P06-20240510-104642-150",
+  "P06-20240510-104642-175",
+  "P06-20240510-104642-278",
+  "P06-20240510-104642-298",
+  "P06-20240510-104642-354",
+  "P06-20240510-104642-355",
+  "P06-20240510-104642-356",
+  "P06-20240510-104642-357",
+  "P06-20240510-104642-385",
+  "P06-20240510-104642-386",
+  "P06-20240510-104642-422",
+  "P06-20240510-104642-426",
+  "P06-20240510-104642-449",
+  "P06-20240510-104642-452",
+  "P06-20240510-104642-453",
+  "P06-20240510-104642-454"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

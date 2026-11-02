@@ -1,0 +1,63 @@
+{
+ "protocol_version": "independent-v1",
+ "evaluation_protocol": "OFFLINE_QA",
+ "taxonomy_version": "capability-v2",
+ "prompt_version": "physical-mental-draft1",
+ "phase": "DIAGNOSIS",
+ "n_per_layer": 30,
+ "turn_budget_per_layer": 45,
+ "max_solver_errors": 15,
+ "seed": 1012,
+ "examiner_model": "gcp/google/gemini-3.1-pro-preview",
+ "examiner_thinking": "default",
+ "examiner_max_tokens": 16384,
+ "solver_model": "gcp/google/gemini-3.7-flash",
+ "solver_thinking": "off",
+ "judge_model": "gcp/google/gemini-3.1-pro-preview",
+ "solver_input_spec": {
+  "modalities": [
+   "video",
+   "audio"
+  ],
+  "permitted_media": [],
+  "observation_cutoff": null,
+  "allowed_tools": [],
+  "memory_policy": "fresh_context_per_item"
+ },
+ "coverage_targets": [
+  "physical.objects_properties"
+ ],
+ "frozen_policy": {
+  "confirmation": {
+   "items_per_skill": 3,
+   "max_items": 18,
+   "format": "single_choice",
+   "pass_threshold": 0.8,
+   "min_distinct_clusters": 3,
+   "max_hypothesis_tests": 3
+  }
+ },
+ "remaining_budget": null,
+ "run_id": "p2_fill_1013_tactile",
+ "dataset": "epic_kitchens",
+ "videos": [
+  "P04_29",
+  "P08_09",
+  "P22_01",
+  "P29_05"
+ ],
+ "extension_registry": {
+  "enabled_skills": []
+ },
+ "budget_mode": "per_skill",
+ "per_skill_base": 3,
+ "per_skill_followups": 3,
+ "include_skills": [
+  "sound_tactile_binding",
+  "visual_tactile_binding",
+  "tactile_property_inference",
+  "tactile_hidden_state_inference",
+  "tactile_relation_inference"
+ ],
+ "note": "\u8865\u6d4b tactile skill(EPIC-KITCHENS 14 \u4e2a\u4eba\u5de5\u6838\u9a8c\u7247\u6bb5),\u6309 skill \u9884\u7b97 3+3+3"
+}

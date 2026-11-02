@@ -1,0 +1,81 @@
+{
+ "overall_goal": "Cook frozen broccoli and green beans in the air fryer",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve frozen vegetables and place them on the counter",
+   "action_ids": [
+    "P08-20240617-184909-57",
+    "P08-20240617-184909-58",
+    "P08-20240617-184909-59",
+    "P08-20240617-184909-86"
+   ],
+   "rationale": "The person retrieves the frozen vegetables from the freezer and places them on the kitchen counter to prepare for cooking."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Set up and preheat the air fryer",
+   "action_ids": [
+    "P08-20240617-184909-73",
+    "P08-20240617-184909-74",
+    "P08-20240617-184909-75",
+    "P08-20240617-184909-76",
+    "P08-20240617-184909-77",
+    "P08-20240617-184909-78",
+    "P08-20240617-184909-80"
+   ],
+   "rationale": "The person takes the air fryer out of the cabinet, plugs it in, and turns it on to preheat."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Transfer the first batch of vegetables to the air fryer",
+   "action_ids": [
+    "P08-20240617-184909-109",
+    "P08-20240617-184909-110",
+    "P08-20240617-184909-111",
+    "P08-20240617-184909-112"
+   ],
+   "rationale": "The person transfers the first batch of weighed vegetables into the air fryer to start cooking them."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Weigh and add the frozen broccoli to the air fryer",
+   "action_ids": [
+    "P08-20240617-184909-115",
+    "P08-20240617-184909-116",
+    "P08-20240617-184909-118",
+    "P08-20240617-184909-123",
+    "P08-20240617-184909-124",
+    "P08-20240617-184909-125",
+    "P08-20240617-184909-126",
+    "P08-20240617-184909-127",
+    "P08-20240617-184909-130",
+    "P08-20240617-184909-131",
+    "P08-20240617-184909-132"
+   ],
+   "rationale": "The person weighs the frozen broccoli using a bowl and a kitchen scale, then adds it to the air fryer."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Shake and mix the vegetables during cooking",
+   "action_ids": [
+    "P08-20240617-184909-234",
+    "P08-20240617-184909-235",
+    "P08-20240617-184909-269",
+    "P08-20240617-184909-270",
+    "P08-20240617-184909-309"
+   ],
+   "rationale": "The person periodically opens the air fryer to shake and mix the vegetables to ensure even cooking."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P08-20240617-184909-72",
+  "P08-20240617-184909-79",
+  "P08-20240617-184909-81",
+  "P08-20240617-184909-119"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

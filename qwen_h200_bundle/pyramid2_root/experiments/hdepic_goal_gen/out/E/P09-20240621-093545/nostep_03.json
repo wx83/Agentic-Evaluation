@@ -1,0 +1,201 @@
+{
+ "overall_goal": "Perform various kitchen maintenance tasks including storing ingredients, washing dishes, and preparing equipment.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Store the curry paste in the fridge.",
+   "action_ids": [
+    "P09-20240621-093545-575",
+    "P09-20240621-093545-576",
+    "P09-20240621-093545-577",
+    "P09-20240621-093545-578",
+    "P09-20240621-093545-579",
+    "P09-20240621-093545-580",
+    "P09-20240621-093545-581",
+    "P09-20240621-093545-582"
+   ],
+   "rationale": "The person seals the curry paste cup, walks to the fridge, and places it inside."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Rinse and dry a bowl for weighing.",
+   "action_ids": [
+    "P09-20240621-093545-611",
+    "P09-20240621-093545-612",
+    "P09-20240621-093545-613",
+    "P09-20240621-093545-614",
+    "P09-20240621-093545-615",
+    "P09-20240621-093545-616",
+    "P09-20240621-093545-617"
+   ],
+   "rationale": "The person rinses an empty bowl in the sink, dries it with a teatowel, and places it on the scale."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Open the can of coconut milk.",
+   "action_ids": [
+    "P09-20240621-093545-618",
+    "P09-20240621-093545-619",
+    "P09-20240621-093545-620",
+    "P09-20240621-093545-621",
+    "P09-20240621-093545-622",
+    "P09-20240621-093545-623",
+    "P09-20240621-093545-624",
+    "P09-20240621-093545-628",
+    "P09-20240621-093545-629"
+   ],
+   "rationale": "The person retrieves a can of coconut milk and a can opener, makes room on the counter, and begins opening the can."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Fill and boil the kettle.",
+   "action_ids": [
+    "P09-20240621-093545-648",
+    "P09-20240621-093545-649",
+    "P09-20240621-093545-650",
+    "P09-20240621-093545-651",
+    "P09-20240621-093545-652",
+    "P09-20240621-093545-653",
+    "P09-20240621-093545-654",
+    "P09-20240621-093545-655",
+    "P09-20240621-093545-656"
+   ],
+   "rationale": "The person takes the kettle to the sink, fills it with water, returns it to its station, and turns it on."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Wash the empty coconut milk tin.",
+   "action_ids": [
+    "P09-20240621-093545-662",
+    "P09-20240621-093545-663",
+    "P09-20240621-093545-664",
+    "P09-20240621-093545-665",
+    "P09-20240621-093545-666",
+    "P09-20240621-093545-667",
+    "P09-20240621-093545-668"
+   ],
+   "rationale": "The person rinses and scrubs the empty tin of coconut milk under the tap."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Store ingredients in the cupboard.",
+   "action_ids": [
+    "P09-20240621-093545-673",
+    "P09-20240621-093545-674",
+    "P09-20240621-093545-675",
+    "P09-20240621-093545-676",
+    "P09-20240621-093545-677",
+    "P09-20240621-093545-678"
+   ],
+   "rationale": "The person opens a cabinet, places the oil and salt inside, adjusts a jar, and closes the door."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Clear and wipe the countertop and scale.",
+   "action_ids": [
+    "P09-20240621-093545-679",
+    "P09-20240621-093545-680",
+    "P09-20240621-093545-681",
+    "P09-20240621-093545-682",
+    "P09-20240621-093545-683",
+    "P09-20240621-093545-684",
+    "P09-20240621-093545-685",
+    "P09-20240621-093545-686",
+    "P09-20240621-093545-687",
+    "P09-20240621-093545-688"
+   ],
+   "rationale": "The person pushes items aside, wipes the scale surface, and reorganizes objects on the counter to make room."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Wash the bowl and colander with soap.",
+   "action_ids": [
+    "P09-20240621-093545-690",
+    "P09-20240621-093545-691",
+    "P09-20240621-093545-692",
+    "P09-20240621-093545-693",
+    "P09-20240621-093545-694",
+    "P09-20240621-093545-695",
+    "P09-20240621-093545-696",
+    "P09-20240621-093545-697",
+    "P09-20240621-093545-698",
+    "P09-20240621-093545-699",
+    "P09-20240621-093545-700",
+    "P09-20240621-093545-701",
+    "P09-20240621-093545-702",
+    "P09-20240621-093545-703",
+    "P09-20240621-093545-704",
+    "P09-20240621-093545-705",
+    "P09-20240621-093545-706"
+   ],
+   "rationale": "The person applies washing liquid to a bowl and scrubs both the bowl and a colander with a sponge."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Wash and rinse the knife.",
+   "action_ids": [
+    "P09-20240621-093545-713",
+    "P09-20240621-093545-714",
+    "P09-20240621-093545-715",
+    "P09-20240621-093545-716",
+    "P09-20240621-093545-717"
+   ],
+   "rationale": "The person scrubs a knife with a sponge, rinses it under the tap, and places it on the knife stand."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Rinse the bowl and colander and place them on the drying rack.",
+   "action_ids": [
+    "P09-20240621-093545-718",
+    "P09-20240621-093545-719",
+    "P09-20240621-093545-720",
+    "P09-20240621-093545-721",
+    "P09-20240621-093545-722",
+    "P09-20240621-093545-723",
+    "P09-20240621-093545-724",
+    "P09-20240621-093545-725",
+    "P09-20240621-093545-726",
+    "P09-20240621-093545-727",
+    "P09-20240621-093545-728",
+    "P09-20240621-093545-731",
+    "P09-20240621-093545-732",
+    "P09-20240621-093545-733",
+    "P09-20240621-093545-734",
+    "P09-20240621-093545-735"
+   ],
+   "rationale": "The person rinses the soapy bowl and colander under running water and sets them on the drying rack, moving another bowl out of the way."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P09-20240621-093545-583",
+  "P09-20240621-093545-584",
+  "P09-20240621-093545-587",
+  "P09-20240621-093545-588",
+  "P09-20240621-093545-589",
+  "P09-20240621-093545-597",
+  "P09-20240621-093545-605",
+  "P09-20240621-093545-609",
+  "P09-20240621-093545-625",
+  "P09-20240621-093545-626",
+  "P09-20240621-093545-627",
+  "P09-20240621-093545-645",
+  "P09-20240621-093545-658",
+  "P09-20240621-093545-669",
+  "P09-20240621-093545-670",
+  "P09-20240621-093545-671",
+  "P09-20240621-093545-672",
+  "P09-20240621-093545-689",
+  "P09-20240621-093545-707",
+  "P09-20240621-093545-708",
+  "P09-20240621-093545-709",
+  "P09-20240621-093545-711",
+  "P09-20240621-093545-712",
+  "P09-20240621-093545-729",
+  "P09-20240621-093545-736",
+  "P09-20240621-093545-737"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

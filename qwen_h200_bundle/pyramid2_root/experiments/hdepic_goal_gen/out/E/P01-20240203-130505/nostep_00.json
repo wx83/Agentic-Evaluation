@@ -1,0 +1,215 @@
+{
+ "overall_goal": "Perform various cleaning, weighing, and logging tasks while managing the cooking process",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Discard empty packaging and tidy up",
+   "action_ids": [
+    "P01-20240203-130505-8",
+    "P01-20240203-130505-12",
+    "P01-20240203-130505-13",
+    "P01-20240203-130505-14",
+    "P01-20240203-130505-16",
+    "P01-20240203-130505-17",
+    "P01-20240203-130505-18",
+    "P01-20240203-130505-27",
+    "P01-20240203-130505-28",
+    "P01-20240203-130505-29",
+    "P01-20240203-130505-30",
+    "P01-20240203-130505-41",
+    "P01-20240203-130505-42"
+   ],
+   "rationale": "The person discards empty packaging and closes the oil bottle to tidy up the workspace."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Log butter measurement",
+   "action_ids": [
+    "P01-20240203-130505-1",
+    "P01-20240203-130505-2",
+    "P01-20240203-130505-15",
+    "P01-20240203-130505-43",
+    "P01-20240203-130505-44",
+    "P01-20240203-130505-45",
+    "P01-20240203-130505-46"
+   ],
+   "rationale": "The person switches on the scale and uses a pen and notepad to log the butter measurement."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Discard garlic peel",
+   "action_ids": [
+    "P01-20240203-130505-47",
+    "P01-20240203-130505-48",
+    "P01-20240203-130505-49",
+    "P01-20240203-130505-50",
+    "P01-20240203-130505-51",
+    "P01-20240203-130505-52",
+    "P01-20240203-130505-53",
+    "P01-20240203-130505-54"
+   ],
+   "rationale": "The person clears the chopping board by sliding garlic peel into the food trash bin."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Discard onion peel and pieces",
+   "action_ids": [
+    "P01-20240203-130505-74",
+    "P01-20240203-130505-75",
+    "P01-20240203-130505-76",
+    "P01-20240203-130505-77",
+    "P01-20240203-130505-78",
+    "P01-20240203-130505-79",
+    "P01-20240203-130505-80",
+    "P01-20240203-130505-81"
+   ],
+   "rationale": "The person collects fallen onion pieces and discards the onion peel into the food waste bin."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Open pan and stir the meat",
+   "action_ids": [
+    "P01-20240203-130505-82",
+    "P01-20240203-130505-83",
+    "P01-20240203-130505-84",
+    "P01-20240203-130505-85",
+    "P01-20240203-130505-86",
+    "P01-20240203-130505-87",
+    "P01-20240203-130505-88",
+    "P01-20240203-130505-89",
+    "P01-20240203-130505-90"
+   ],
+   "rationale": "The person retrieves spices, opens the pan, and stirs the meat before seasoning."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Season the meat with spices",
+   "action_ids": [
+    "P01-20240203-130505-91",
+    "P01-20240203-130505-92",
+    "P01-20240203-130505-93",
+    "P01-20240203-130505-94",
+    "P01-20240203-130505-95",
+    "P01-20240203-130505-96",
+    "P01-20240203-130505-97",
+    "P01-20240203-130505-98",
+    "P01-20240203-130505-99",
+    "P01-20240203-130505-100",
+    "P01-20240203-130505-101",
+    "P01-20240203-130505-102",
+    "P01-20240203-130505-103"
+   ],
+   "rationale": "The person opens the spice jar, sprinkles spices onto the meat, and returns the jar to the cupboard."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Stir the seasoned meat and cover the pan",
+   "action_ids": [
+    "P01-20240203-130505-104",
+    "P01-20240203-130505-105",
+    "P01-20240203-130505-106",
+    "P01-20240203-130505-107",
+    "P01-20240203-130505-108",
+    "P01-20240203-130505-109"
+   ],
+   "rationale": "The person stirs the seasoned meat to mix it and covers the pan to continue cooking."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P01-20240203-130505-110",
+    "P01-20240203-130505-111",
+    "P01-20240203-130505-112",
+    "P01-20240203-130505-113",
+    "P01-20240203-130505-114"
+   ],
+   "rationale": "The person washes and dries their hands to remove any spices stuck to them."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Log onion measurement",
+   "action_ids": [
+    "P01-20240203-130505-115",
+    "P01-20240203-130505-116",
+    "P01-20240203-130505-117",
+    "P01-20240203-130505-118",
+    "P01-20240203-130505-119",
+    "P01-20240203-130505-121",
+    "P01-20240203-130505-120",
+    "P01-20240203-130505-126",
+    "P01-20240203-130505-127",
+    "P01-20240203-130505-128",
+    "P01-20240203-130505-129",
+    "P01-20240203-130505-130",
+    "P01-20240203-130505-131"
+   ],
+   "rationale": "The person prepares the scale with a plate, weighs the chopped onion, and logs the measurement on the notepad."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Discard remaining onion pieces",
+   "action_ids": [
+    "P01-20240203-130505-132",
+    "P01-20240203-130505-133",
+    "P01-20240203-130505-134",
+    "P01-20240203-130505-135"
+   ],
+   "rationale": "The person picks up remaining onion pieces and throws them into the food waste bin."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Log carrot measurement and discard carrot ends",
+   "action_ids": [
+    "P01-20240203-130505-299",
+    "P01-20240203-130505-300",
+    "P01-20240203-130505-301",
+    "P01-20240203-130505-302",
+    "P01-20240203-130505-303",
+    "P01-20240203-130505-304",
+    "P01-20240203-130505-305",
+    "P01-20240203-130505-306",
+    "P01-20240203-130505-307",
+    "P01-20240203-130505-308",
+    "P01-20240203-130505-309",
+    "P01-20240203-130505-310"
+   ],
+   "rationale": "The person logs the carrot measurement and then discards the cut ends of the carrots into the bin."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Clear the scale and tidy up carrot pieces",
+   "action_ids": [
+    "P01-20240203-130505-316",
+    "P01-20240203-130505-319",
+    "P01-20240203-130505-320",
+    "P01-20240203-130505-321",
+    "P01-20240203-130505-322"
+   ],
+   "rationale": "The person removes the plate of carrots from the scale, resets the scale, and tidies up a fallen carrot piece."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P01-20240203-130505-3",
+  "P01-20240203-130505-4",
+  "P01-20240203-130505-19",
+  "P01-20240203-130505-31",
+  "P01-20240203-130505-32",
+  "P01-20240203-130505-40",
+  "P01-20240203-130505-136",
+  "P01-20240203-130505-156",
+  "P01-20240203-130505-197",
+  "P01-20240203-130505-198",
+  "P01-20240203-130505-245",
+  "P01-20240203-130505-247",
+  "P01-20240203-130505-248",
+  "P01-20240203-130505-249",
+  "P01-20240203-130505-311",
+  "P01-20240203-130505-312",
+  "P01-20240203-130505-327"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

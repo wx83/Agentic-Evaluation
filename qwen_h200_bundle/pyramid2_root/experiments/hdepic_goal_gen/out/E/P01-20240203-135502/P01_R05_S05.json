@@ -1,0 +1,50 @@
+{
+ "overall_goal": "Wrap the cake log in foil and store it in the fridge.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare a sheet of aluminum foil.",
+   "action_ids": [
+    "P01-20240203-135502-229",
+    "P01-20240203-135502-230",
+    "P01-20240203-135502-231",
+    "P01-20240203-135502-232",
+    "P01-20240203-135502-316",
+    "P01-20240203-135502-317",
+    "P01-20240203-135502-318",
+    "P01-20240203-135502-319"
+   ],
+   "rationale": "The person opens the foil box, takes out the roll, unrolls a piece, tears it off, and places it on the chopping board."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Wrap the mixture in the foil.",
+   "action_ids": [
+    "P01-20240203-135502-320",
+    "P01-20240203-135502-321",
+    "P01-20240203-135502-322",
+    "P01-20240203-135502-323"
+   ],
+   "rationale": "The person places the mixture onto the foil, rolls it up to cover the mixture, and folds the ends to seal it."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Make space and place the wrapped mixture in the fridge.",
+   "action_ids": [
+    "P01-20240203-135502-324",
+    "P01-20240203-135502-325",
+    "P01-20240203-135502-326",
+    "P01-20240203-135502-327",
+    "P01-20240203-135502-328",
+    "P01-20240203-135502-329",
+    "P01-20240203-135502-330"
+   ],
+   "rationale": "The person carries the wrapped mixture to the fridge, rearranges items to make room, and places the log inside."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,194 @@
+{
+ "overall_goal": "Clean up the kitchen, organize ingredients, and retrieve utensils for the next steps",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Manage cooking utensils and adjust hob settings",
+   "action_ids": [
+    "P03-20240218-190556-793",
+    "P03-20240218-190556-796",
+    "P03-20240218-190556-797",
+    "P03-20240218-190556-798",
+    "P03-20240218-190556-799",
+    "P03-20240218-190556-806",
+    "P03-20240218-190556-822",
+    "P03-20240218-190556-828",
+    "P03-20240218-190556-844",
+    "P03-20240218-190556-875",
+    "P03-20240218-190556-876",
+    "P03-20240218-190556-913",
+    "P03-20240218-190556-918",
+    "P03-20240218-190556-934",
+    "P03-20240218-190556-975",
+    "P03-20240218-190556-1012"
+   ],
+   "rationale": "The person handles spatulas and spoons, and adjusts the hob and extractor fan while managing the cooking process."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Organize ingredients and plates on the counter",
+   "action_ids": [
+    "P03-20240218-190556-784",
+    "P03-20240218-190556-785",
+    "P03-20240218-190556-807",
+    "P03-20240218-190556-808",
+    "P03-20240218-190556-809",
+    "P03-20240218-190556-811",
+    "P03-20240218-190556-826",
+    "P03-20240218-190556-827",
+    "P03-20240218-190556-830",
+    "P03-20240218-190556-845",
+    "P03-20240218-190556-905",
+    "P03-20240218-190556-910",
+    "P03-20240218-190556-912",
+    "P03-20240218-190556-949",
+    "P03-20240218-190556-977",
+    "P03-20240218-190556-978",
+    "P03-20240218-190556-1013"
+   ],
+   "rationale": "The person moves recipe tubs, plates, and other items around the kitchen counter to keep the workspace organized."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Store ingredients in the fridge",
+   "action_ids": [
+    "P03-20240218-190556-823",
+    "P03-20240218-190556-824",
+    "P03-20240218-190556-825",
+    "P03-20240218-190556-935",
+    "P03-20240218-190556-936",
+    "P03-20240218-190556-937",
+    "P03-20240218-190556-938",
+    "P03-20240218-190556-939",
+    "P03-20240218-190556-940",
+    "P03-20240218-190556-950",
+    "P03-20240218-190556-951",
+    "P03-20240218-190556-952",
+    "P03-20240218-190556-953"
+   ],
+   "rationale": "The person closes the tomato puree tube and butter, and places them back into the fridge."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Wash the empty sour cream pot and yellow recipe tub",
+   "action_ids": [
+    "P03-20240218-190556-877",
+    "P03-20240218-190556-878",
+    "P03-20240218-190556-879",
+    "P03-20240218-190556-880",
+    "P03-20240218-190556-881",
+    "P03-20240218-190556-882",
+    "P03-20240218-190556-883",
+    "P03-20240218-190556-884",
+    "P03-20240218-190556-885",
+    "P03-20240218-190556-886",
+    "P03-20240218-190556-887",
+    "P03-20240218-190556-888",
+    "P03-20240218-190556-889",
+    "P03-20240218-190556-891",
+    "P03-20240218-190556-890"
+   ],
+   "rationale": "The person rinses the empty sour cream pot and yellow recipe tub under the tap to prepare them for recycling."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Wash the pink recipe tub and dry hands",
+   "action_ids": [
+    "P03-20240218-190556-892",
+    "P03-20240218-190556-893",
+    "P03-20240218-190556-894",
+    "P03-20240218-190556-895",
+    "P03-20240218-190556-896",
+    "P03-20240218-190556-897",
+    "P03-20240218-190556-898",
+    "P03-20240218-190556-899",
+    "P03-20240218-190556-900",
+    "P03-20240218-190556-901",
+    "P03-20240218-190556-902",
+    "P03-20240218-190556-903",
+    "P03-20240218-190556-904",
+    "P03-20240218-190556-906"
+   ],
+   "rationale": "The person uses a sponge to wash the sticky pink recipe tub, stacks it with the others, and dries their hands."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Retrieve a plate, a colander, and a potato masher",
+   "action_ids": [
+    "P03-20240218-190556-907",
+    "P03-20240218-190556-908",
+    "P03-20240218-190556-909",
+    "P03-20240218-190556-911",
+    "P03-20240218-190556-919",
+    "P03-20240218-190556-920",
+    "P03-20240218-190556-921",
+    "P03-20240218-190556-922",
+    "P03-20240218-190556-923",
+    "P03-20240218-190556-924",
+    "P03-20240218-190556-925",
+    "P03-20240218-190556-926",
+    "P03-20240218-190556-931",
+    "P03-20240218-190556-932",
+    "P03-20240218-190556-933",
+    "P03-20240218-190556-954",
+    "P03-20240218-190556-955",
+    "P03-20240218-190556-956"
+   ],
+   "rationale": "The person opens cupboards, drawers, and the dishwasher to take out a plate, a metal colander, and a potato masher."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Wash and recycle the remaining ingredient containers",
+   "action_ids": [
+    "P03-20240218-190556-962",
+    "P03-20240218-190556-963",
+    "P03-20240218-190556-964",
+    "P03-20240218-190556-965",
+    "P03-20240218-190556-966",
+    "P03-20240218-190556-967",
+    "P03-20240218-190556-968",
+    "P03-20240218-190556-969",
+    "P03-20240218-190556-970",
+    "P03-20240218-190556-971",
+    "P03-20240218-190556-972",
+    "P03-20240218-190556-973",
+    "P03-20240218-190556-974"
+   ],
+   "rationale": "The person washes the green recipe tub, stacks all the clean plastic containers, and throws them into the recycling bin."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P03-20240218-190556-1007",
+    "P03-20240218-190556-1008",
+    "P03-20240218-190556-1009",
+    "P03-20240218-190556-1010",
+    "P03-20240218-190556-1011"
+   ],
+   "rationale": "The person rinses mashed potatoes off their hands under the tap and dries them with a cloth."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Dispose of packaging and flatten the recipe box",
+   "action_ids": [
+    "P03-20240218-190556-1021",
+    "P03-20240218-190556-1022",
+    "P03-20240218-190556-1023",
+    "P03-20240218-190556-1024",
+    "P03-20240218-190556-1025",
+    "P03-20240218-190556-1026",
+    "P03-20240218-190556-1027"
+   ],
+   "rationale": "The person throws a plastic sleeve into the general waste bin and flattens the cardboard recipe box for recycling."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P03-20240218-190556-802",
+  "P03-20240218-190556-803"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

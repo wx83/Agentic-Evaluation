@@ -1,0 +1,75 @@
+{
+ "overall_goal": "Combine and mix the shredded chicken, mashed potatoes, and cheese.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve the cheese from the refrigerator.",
+   "action_ids": [
+    "P09-20240622-150155-814",
+    "P09-20240622-150155-815",
+    "P09-20240622-150155-816",
+    "P09-20240622-150155-817",
+    "P09-20240622-150155-818",
+    "P09-20240622-150155-819"
+   ],
+   "rationale": "The person takes the bag of cheese out of the fridge and brings it to the counter to use for the mixture."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve a mixing spoon.",
+   "action_ids": [
+    "P09-20240622-150155-1070",
+    "P09-20240622-150155-1071",
+    "P09-20240622-150155-1072",
+    "P09-20240622-150155-1073",
+    "P09-20240622-150155-1074"
+   ],
+   "rationale": "After initially stirring with a fork, the person goes to the drawer to get a proper mixing spoon."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Add mashed potatoes and mix the ingredients.",
+   "action_ids": [
+    "P09-20240622-150155-1082",
+    "P09-20240622-150155-1084",
+    "P09-20240622-150155-1085",
+    "P09-20240622-150155-1086",
+    "P09-20240622-150155-1087",
+    "P09-20240622-150155-1088",
+    "P09-20240622-150155-1089"
+   ],
+   "rationale": "The person adds more mashed potatoes to the saucepan and thoroughly stirs the chicken, potato, and cheese mixture."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P09-20240622-150155-1126",
+  "P09-20240622-150155-1127",
+  "P09-20240622-150155-1128",
+  "P09-20240622-150155-1129",
+  "P09-20240622-150155-1130",
+  "P09-20240622-150155-1131",
+  "P09-20240622-150155-1132",
+  "P09-20240622-150155-1133",
+  "P09-20240622-150155-1134",
+  "P09-20240622-150155-1135",
+  "P09-20240622-150155-1136",
+  "P09-20240622-150155-1137",
+  "P09-20240622-150155-1138",
+  "P09-20240622-150155-1139",
+  "P09-20240622-150155-1140",
+  "P09-20240622-150155-1141",
+  "P09-20240622-150155-1142",
+  "P09-20240622-150155-1143",
+  "P09-20240622-150155-1144",
+  "P09-20240622-150155-1145",
+  "P09-20240622-150155-1146",
+  "P09-20240622-150155-1147",
+  "P09-20240622-150155-1148",
+  "P09-20240622-150155-1149",
+  "P09-20240622-150155-1150"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

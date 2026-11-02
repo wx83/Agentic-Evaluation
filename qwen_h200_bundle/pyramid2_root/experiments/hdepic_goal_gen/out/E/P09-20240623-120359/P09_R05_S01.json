@@ -1,0 +1,92 @@
+{
+ "overall_goal": "Prepare the mangoes by peeling, slicing, and extracting the flesh",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Wash the knife to prepare for cutting",
+   "action_ids": [
+    "P09-20240623-120359-473",
+    "P09-20240623-120359-474",
+    "P09-20240623-120359-475",
+    "P09-20240623-120359-476",
+    "P09-20240623-120359-477",
+    "P09-20240623-120359-478",
+    "P09-20240623-120359-479"
+   ],
+   "rationale": "The person turns on the tap, applies washing up liquid, and rinses the knife to clean it before use."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Cut and slice the mango",
+   "action_ids": [
+    "P09-20240623-120359-480",
+    "P09-20240623-120359-481",
+    "P09-20240623-120359-482",
+    "P09-20240623-120359-513",
+    "P09-20240623-120359-514",
+    "P09-20240623-120359-515",
+    "P09-20240623-120359-516",
+    "P09-20240623-120359-517",
+    "P09-20240623-120359-518",
+    "P09-20240623-120359-519",
+    "P09-20240623-120359-520",
+    "P09-20240623-120359-522",
+    "P09-20240623-120359-523",
+    "P09-20240623-120359-530",
+    "P09-20240623-120359-531"
+   ],
+   "rationale": "The person uses the knife to cut the mango into slices and begins separating the flesh from the skin."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Scrape remaining mango flesh from the skin",
+   "action_ids": [
+    "P09-20240623-120359-542",
+    "P09-20240623-120359-544",
+    "P09-20240623-120359-545",
+    "P09-20240623-120359-546",
+    "P09-20240623-120359-547",
+    "P09-20240623-120359-552",
+    "P09-20240623-120359-556",
+    "P09-20240623-120359-559",
+    "P09-20240623-120359-560",
+    "P09-20240623-120359-562",
+    "P09-20240623-120359-563",
+    "P09-20240623-120359-812",
+    "P09-20240623-120359-813",
+    "P09-20240623-120359-818",
+    "P09-20240623-120359-822",
+    "P09-20240623-120359-823",
+    "P09-20240623-120359-824"
+   ],
+   "rationale": "The person uses a tablespoon to scrape and scoop out the leftover mango bits from the discarded skins."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Cut remaining mango flesh from the seed",
+   "action_ids": [
+    "P09-20240623-120359-829",
+    "P09-20240623-120359-830",
+    "P09-20240623-120359-834",
+    "P09-20240623-120359-836",
+    "P09-20240623-120359-838",
+    "P09-20240623-120359-839"
+   ],
+   "rationale": "The person uses the knife to slice off the last chunks of mango flesh directly from the seed."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P09-20240623-120359-534",
+  "P09-20240623-120359-535",
+  "P09-20240623-120359-536",
+  "P09-20240623-120359-537",
+  "P09-20240623-120359-538",
+  "P09-20240623-120359-539",
+  "P09-20240623-120359-540",
+  "P09-20240623-120359-541"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,5142 @@
+{
+ "video_id": "P06-20240510-115307",
+ "existing_label": "Dal Makhani with Rice (P06_R04)",
+ "source": "HD_EPIC_Narrations.pkl (official)",
+ "actions": [
+  {
+   "action_id": "P06-20240510-115307-1",
+   "start_s": 6.44,
+   "end_s": 7.94,
+   "narration": "Using right hand, picking up the box containing curry from the tabletop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "box",
+    "curry",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-2",
+   "start_s": 8.04,
+   "end_s": 8.45,
+   "narration": "Switching the box from right hand to the left hand.",
+   "verbs": [
+    "switch"
+   ],
+   "nouns": [
+    "box"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-3",
+   "start_s": 8.55,
+   "end_s": 9.53,
+   "narration": "Using right hand, picking up the lid of the box from the tabletop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "lid of box",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-4",
+   "start_s": 9.63,
+   "end_s": 10.72,
+   "narration": "Using right hand, placing the lid on the box while holding the box in the left hand.",
+   "verbs": [
+    "place",
+    "hold"
+   ],
+   "nouns": [
+    "lid",
+    "box"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-5",
+   "start_s": 10.63,
+   "end_s": 13.73,
+   "narration": "Using both hands, closing the lid of the box from all four sides.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "lid of box",
+    "four sides"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-6",
+   "start_s": 13.83,
+   "end_s": 15.15,
+   "narration": "Using right hand, placing the closed box on the tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "closed box",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-7",
+   "start_s": 19.19,
+   "end_s": 19.59,
+   "narration": "Using right hand, picking up the pen from the notebook.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "pen",
+    "notebook"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-8",
+   "start_s": 19.69,
+   "end_s": 21.14,
+   "narration": "Using right hand, placing back the pen on the tabletop while using left hand flipping the page of the notebook.",
+   "verbs": [
+    "place",
+    "flip"
+   ],
+   "nouns": [
+    "pen",
+    "tabletop",
+    "page of notebook"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-9",
+   "start_s": 20.08,
+   "end_s": 22.4,
+   "narration": "Using both hands, picking up the notebook.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "notebook"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-10",
+   "start_s": 22.44,
+   "end_s": 23.99,
+   "narration": "Using both hands, placing the notebook on the tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "notebook",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-11",
+   "start_s": 25.52,
+   "end_s": 29.03,
+   "narration": "Using both hands, picking up the pressure cooker by its handle and placing it on the right hand side of the gas stove.",
+   "verbs": [
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "pressure cooker",
+    "pressure cooker handle",
+    "right hand side of gas stove"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-12",
+   "start_s": 30.92,
+   "end_s": 31.44,
+   "narration": "Using right hand, slightly moving the pack of butter while using left hand slightly moving the jar on the tabletop.",
+   "verbs": [
+    "move"
+   ],
+   "nouns": [
+    "pack of butter",
+    "jar",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-13",
+   "start_s": 35.87,
+   "end_s": 36.9,
+   "narration": "Using right hand, picking up the chopping board from the crockery tray while using left hand holding the frying pan.",
+   "verbs": [
+    "pick up",
+    "hold"
+   ],
+   "nouns": [
+    "chopping board",
+    "crockery tray",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-14",
+   "start_s": 37.01,
+   "end_s": 38.3,
+   "narration": "Using left hand, picking up a plate from the crockery tray.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "plate",
+    "crockery tray"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-15",
+   "start_s": 40.05,
+   "end_s": 40.82,
+   "narration": "Using both hands, placing the chopping board on the tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "chopping board",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-16",
+   "start_s": 40.75,
+   "end_s": 42.18,
+   "narration": "Using left hand, picking up the pen from the tabletop and placing it on the notebook.",
+   "verbs": [
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "pen",
+    "tabletop",
+    "notebook"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-17",
+   "start_s": 41.74,
+   "end_s": 44.13,
+   "narration": "Using right hand, slightly moving the chopping board on the tabletop to make some space for the plate.",
+   "verbs": [
+    "move"
+   ],
+   "nouns": [
+    "chopping board",
+    "tabletop",
+    "some space",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-18",
+   "start_s": 44.23,
+   "end_s": 44.82,
+   "narration": "Using left hand, placing the plate on the tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "plate",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-19",
+   "start_s": 48.0,
+   "end_s": 48.94,
+   "narration": "Using right hand, opening the drawer.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-20",
+   "start_s": 49.01,
+   "end_s": 50.08,
+   "narration": "Using left hand, picking up an onion from the drawer.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "onion",
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-21",
+   "start_s": 50.02,
+   "end_s": 50.88,
+   "narration": "Using right hand, closing the drawer",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-22",
+   "start_s": 51.51,
+   "end_s": 52.36,
+   "narration": "Using left hand, placing the onion on the plate.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "onion",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-23",
+   "start_s": 53.19,
+   "end_s": 54.25,
+   "narration": "Using right hand, picking up a tomato from the tabletop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "tomato",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-24",
+   "start_s": 55.54,
+   "end_s": 56.77,
+   "narration": "Using left hand, placing the tomato on the plate.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "tomato",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-25",
+   "start_s": 59.06,
+   "end_s": 60.91,
+   "narration": "Using right hand, picking up a pack of green chilies from the tabletop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "pack of green chilies",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-26",
+   "start_s": 61.49,
+   "end_s": 62.48,
+   "narration": "Using right hand, picking up a green chilli from the tabletop while holding the plastic bag in the left hand.",
+   "verbs": [
+    "pick up",
+    "hold"
+   ],
+   "nouns": [
+    "green chilli",
+    "tabletop",
+    "plastic bag"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-27",
+   "start_s": 62.7,
+   "end_s": 65.5,
+   "narration": "Using right hand, placing the green chilli in the packet while picking up some more green chilies from the packet.",
+   "verbs": [
+    "place",
+    "pick up"
+   ],
+   "nouns": [
+    "green chilli",
+    "packet",
+    "some more green chilies"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-28",
+   "start_s": 66.16,
+   "end_s": 68.38,
+   "narration": "Using right hand, placing back the bag on the tabletop while holding green chilies in left hand.",
+   "verbs": [
+    "place",
+    "hold"
+   ],
+   "nouns": [
+    "bag",
+    "tabletop",
+    "green chilies"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-29",
+   "start_s": 70.26,
+   "end_s": 71.11,
+   "narration": "Using both hands, removing the stalk of the green chilli.",
+   "verbs": [
+    "remove"
+   ],
+   "nouns": [
+    "stalk of green chilli"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-31",
+   "start_s": 71.25,
+   "end_s": 72.2,
+   "narration": "Using right hand, placing the stalk of the green chilli on the plate.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "stalk of green chilli",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-30",
+   "start_s": 71.77,
+   "end_s": 74.06,
+   "narration": "Using right hand, placing the green chillies on the plate.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "green chillies",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-32",
+   "start_s": 73.67,
+   "end_s": 74.8,
+   "narration": "Using right hand, picking up the green chilies from the plate.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "green chilies",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-33",
+   "start_s": 74.82,
+   "end_s": 75.72,
+   "narration": "Using left hand, picking up the tomato from the plate.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "tomato",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-34",
+   "start_s": 77.06,
+   "end_s": 78.43,
+   "narration": "Using right hand, opening the water tap.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "water tap"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-35",
+   "start_s": 78.51,
+   "end_s": 79.68,
+   "narration": "Using right hand, washing the green chilies in running water in the sink.",
+   "verbs": [
+    "wash"
+   ],
+   "nouns": [
+    "green chilies",
+    "running water",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-36",
+   "start_s": 79.74,
+   "end_s": 82.25,
+   "narration": "Using left hand, washing the tomato in running water inside the sink.",
+   "verbs": [
+    "wash"
+   ],
+   "nouns": [
+    "tomato",
+    "running water",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-37",
+   "start_s": 82.33,
+   "end_s": 83.34,
+   "narration": "Using both hands, washing the tomato and green chilies in running water inside the sink.",
+   "verbs": [
+    "wash"
+   ],
+   "nouns": [
+    "tomato",
+    "green chilies",
+    "running water",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-38",
+   "start_s": 83.33,
+   "end_s": 84.49,
+   "narration": "Using right hand, closing the water tap.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "water tap"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-39",
+   "start_s": 84.57,
+   "end_s": 88.2,
+   "narration": "Shaking both hands in the sink to remove excessive water from the hands.",
+   "verbs": [
+    "shake",
+    "remove"
+   ],
+   "nouns": [
+    "sink",
+    "excessive water"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-40",
+   "start_s": 90.76,
+   "end_s": 91.75,
+   "narration": "Using left hand, placing the tomato in the plate.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "tomato",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-41",
+   "start_s": 91.63,
+   "end_s": 92.83,
+   "narration": "Using right hand, placing the green chilies in the plate.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "green chilies",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-42",
+   "start_s": 92.85,
+   "end_s": 95.85,
+   "narration": "Using left hand, picking up the tablecloth from the table top.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "tablecloth",
+    "table top"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-43",
+   "start_s": 95.93,
+   "end_s": 102.11,
+   "narration": "Wiping the water from both hands using the tablecloth.",
+   "verbs": [
+    "wipe"
+   ],
+   "nouns": [
+    "water",
+    "tablecloth"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-44",
+   "start_s": 101.83,
+   "end_s": 103.64,
+   "narration": "Using right hand, placing the tablecloth on the tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "tablecloth",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-45",
+   "start_s": 105.44,
+   "end_s": 107.28,
+   "narration": "Using the index finger of left hand, turning on the weighing balance.",
+   "verbs": [
+    "turn on"
+   ],
+   "nouns": [
+    "weighing balance"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-46",
+   "start_s": 107.21,
+   "end_s": 108.78,
+   "narration": "Using left hand, picking the pen from the notebook.",
+   "verbs": [
+    "pick"
+   ],
+   "nouns": [
+    "pen",
+    "notebook"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-47",
+   "start_s": 108.88,
+   "end_s": 112.47,
+   "narration": "Using the pen in the right hand, writing on the notebook to record the recipe and the ingredients.",
+   "verbs": [
+    "write on",
+    "record"
+   ],
+   "nouns": [
+    "pen",
+    "notebook",
+    "recipe",
+    "ingredients"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-48",
+   "start_s": 112.57,
+   "end_s": 113.57,
+   "narration": "Using both hands, slightly moving the weighing balance on the tabletop.",
+   "verbs": [
+    "move"
+   ],
+   "nouns": [
+    "weighing balance",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-49",
+   "start_s": 113.67,
+   "end_s": 116.16,
+   "narration": "Using right hand, picking up the tomato from the plate and placing it on the weighing balance.",
+   "verbs": [
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "tomato",
+    "plate",
+    "weighing balance"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-51",
+   "start_s": 115.0,
+   "end_s": 125.29,
+   "narration": "Using the pen in the right hand, writing on the notebook to record the weight of the tomato.",
+   "verbs": [
+    "write on",
+    "record"
+   ],
+   "nouns": [
+    "pen",
+    "notebook",
+    "weight of tomato"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-50",
+   "start_s": 116.26,
+   "end_s": 117.58,
+   "narration": "Switching the pen from left hand to right hand.",
+   "verbs": [
+    "switch"
+   ],
+   "nouns": [
+    "pen"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-52",
+   "start_s": 125.39,
+   "end_s": 125.89,
+   "narration": "Using right hand, placing the pen on the table top.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "pen",
+    "table top"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-53",
+   "start_s": 126.14,
+   "end_s": 126.39,
+   "narration": "Using right hand, picking up the tomato from the weighing balance.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "tomato",
+    "weighing balance"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-54",
+   "start_s": 126.44,
+   "end_s": 127.19,
+   "narration": "Using right hand, placing the tomato on the chopping board.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "tomato",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-55",
+   "start_s": 127.59,
+   "end_s": 127.99,
+   "narration": "Using right hand, picking up the onion from the plate.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "onion",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-56",
+   "start_s": 128.04,
+   "end_s": 129.04,
+   "narration": "Using right hand, placing the onion on chopping board.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "onion",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-57",
+   "start_s": 131.14,
+   "end_s": 132.39,
+   "narration": "Using left hand picking up the knife from the crockery tray.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "knife",
+    "crockery tray"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-58",
+   "start_s": 133.75,
+   "end_s": 134.2,
+   "narration": "Using left hand, holding the onion on the chopping board.",
+   "verbs": [
+    "hold"
+   ],
+   "nouns": [
+    "onion",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-59",
+   "start_s": 134.75,
+   "end_s": 141.34,
+   "narration": "Using right hand, cutting the onion into two halves while holding the onion in left hand.",
+   "verbs": [
+    "cut",
+    "hold"
+   ],
+   "nouns": [
+    "onion",
+    "two halves"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-60",
+   "start_s": 141.44,
+   "end_s": 143.19,
+   "narration": "Using right hand, placing the knife on the chopping board while using left hand picking up an onion half.",
+   "verbs": [
+    "place",
+    "pick up"
+   ],
+   "nouns": [
+    "knife",
+    "chopping board",
+    "onion"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-61",
+   "start_s": 143.15,
+   "end_s": 144.41,
+   "narration": "Using right hand, placing the onion half on the tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "onion",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-62",
+   "start_s": 144.48,
+   "end_s": 147.13,
+   "narration": "Using the knife in the right hand, slicing the onion while holding the onion in left hand.",
+   "verbs": [
+    "slice",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "onion"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-63",
+   "start_s": 147.13,
+   "end_s": 147.91,
+   "narration": "Using right hand, placing the knife on the chopping board.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "knife",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-64",
+   "start_s": 147.87,
+   "end_s": 149.29,
+   "narration": "Using right hand, picking up the onion peel from the chopping board and placing it into the plate.",
+   "verbs": [
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "onion peel",
+    "chopping board",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-65",
+   "start_s": 149.24,
+   "end_s": 150.15,
+   "narration": "Using right hand, picking up the onion peel from the chopping board and placing it into the plate.",
+   "verbs": [
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "onion peel",
+    "chopping board",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-66",
+   "start_s": 150.2,
+   "end_s": 153.7,
+   "narration": "Using right hand, peeling the outer layer of the onions while holding the onion in left hand.",
+   "verbs": [
+    "peel",
+    "hold"
+   ],
+   "nouns": [
+    "outer layer of onions",
+    "onion"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-67",
+   "start_s": 153.52,
+   "end_s": 154.67,
+   "narration": "Using right hand, placing the onion peel on the plate.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "onion peel",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-68",
+   "start_s": 154.73,
+   "end_s": 155.72,
+   "narration": "Using left hand, placing the onion on weighing balance.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "onion",
+    "weighing balance"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-69",
+   "start_s": 155.66,
+   "end_s": 156.7,
+   "narration": "Using right hand, picking up an onion peel from the chopping board and placing it into the plate.",
+   "verbs": [
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "onion peel",
+    "chopping board",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-70",
+   "start_s": 156.66,
+   "end_s": 158.11,
+   "narration": "Using right hand, picking up the pen from the table top.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "pen",
+    "table top"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-71",
+   "start_s": 157.86,
+   "end_s": 162.69,
+   "narration": "using the pen in the right hand writing on the notebook to record the weight of the onion",
+   "verbs": [
+    "write on",
+    "record"
+   ],
+   "nouns": [
+    "pen",
+    "notebook",
+    "weight of onion"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-72",
+   "start_s": 162.79,
+   "end_s": 163.27,
+   "narration": "Using right hand, placing back the pen on the tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "pen",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-73",
+   "start_s": 163.37,
+   "end_s": 164.34,
+   "narration": "Using left hand, picking up the onion from the weighing balance while using right hand picking up the green chilies from the plate.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "onion",
+    "weighing balance",
+    "green chilies",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-74",
+   "start_s": 164.34,
+   "end_s": 165.08,
+   "narration": "Using left hand, placing the onion on the plate while holding the green chillies in left hand.",
+   "verbs": [
+    "place",
+    "hold"
+   ],
+   "nouns": [
+    "onion",
+    "plate",
+    "green chillies"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-75",
+   "start_s": 165.6,
+   "end_s": 166.0,
+   "narration": "Using right hand, placing the green chilies on the weighing balance.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "green chilies",
+    "weighing balance"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-76",
+   "start_s": 166.88,
+   "end_s": 167.28,
+   "narration": "Using right hand, picking up the pen from tabletop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "pen",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-77",
+   "start_s": 167.34,
+   "end_s": 169.25,
+   "narration": "Using the pen in the right hand, writing on the notebook to record the weight of green chilies.",
+   "verbs": [
+    "write on",
+    "record"
+   ],
+   "nouns": [
+    "pen",
+    "notebook",
+    "weight of green chilies"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-78",
+   "start_s": 169.35,
+   "end_s": 169.61,
+   "narration": "Using right hand, placing back the pen on table top.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "pen",
+    "table top"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-79",
+   "start_s": 170.88,
+   "end_s": 171.59,
+   "narration": "Using left hand, picking up green chilies from the weighing balance.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "green chilies",
+    "weighing balance"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-80",
+   "start_s": 171.67,
+   "end_s": 172.17,
+   "narration": "Using left hand placing the green chilies on the plate.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "green chilies",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-81",
+   "start_s": 172.59,
+   "end_s": 172.94,
+   "narration": "Using right hand, slightly moving the tomato on chopping board while using left hand picking up an onion half from the plate.",
+   "verbs": [
+    "move",
+    "pick up"
+   ],
+   "nouns": [
+    "tomato",
+    "chopping board",
+    "onion",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-82",
+   "start_s": 173.04,
+   "end_s": 173.99,
+   "narration": "Using left hand, placing the onion half on the chopping board while using right hand picking up the knife from the chopping board.",
+   "verbs": [
+    "place",
+    "pick up"
+   ],
+   "nouns": [
+    "onion",
+    "chopping board",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-83",
+   "start_s": 176.12,
+   "end_s": 178.18,
+   "narration": "Using the knife in the right hand, chopping the onion on the chopping board that is held in left hand.",
+   "verbs": [
+    "chop"
+   ],
+   "nouns": [
+    "knife",
+    "onion",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-84",
+   "start_s": 178.04,
+   "end_s": 181.58,
+   "narration": "Using the knife in the right hand, chopping the onion on the chopping board that is held in left hand.",
+   "verbs": [
+    "chop"
+   ],
+   "nouns": [
+    "knife",
+    "onion",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-85",
+   "start_s": 181.62,
+   "end_s": 183.34,
+   "narration": "Using the knife in the right hand, chopping the onion on the chopping board that is held in left hand.",
+   "verbs": [
+    "chop"
+   ],
+   "nouns": [
+    "knife",
+    "onion",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-86",
+   "start_s": 183.27,
+   "end_s": 187.79,
+   "narration": "Using the knife in the right hand, chopping the onion on the chopping board that is held in left hand.",
+   "verbs": [
+    "chop"
+   ],
+   "nouns": [
+    "knife",
+    "onion",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-87",
+   "start_s": 187.46,
+   "end_s": 192.02,
+   "narration": "Using the knife in the right hand, chopping the onion on the chopping board that is held in left hand.",
+   "verbs": [
+    "chop"
+   ],
+   "nouns": [
+    "knife",
+    "onion",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-88",
+   "start_s": 192.12,
+   "end_s": 193.54,
+   "narration": "Using the knife in the right hand, chopping the onion on the chopping board that is held in left hand.",
+   "verbs": [
+    "chop"
+   ],
+   "nouns": [
+    "knife",
+    "onion",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-89",
+   "start_s": 193.52,
+   "end_s": 195.17,
+   "narration": "Using the knife in the right hand, chopping the onion on the chopping board that is held in left hand.",
+   "verbs": [
+    "chop"
+   ],
+   "nouns": [
+    "knife",
+    "onion",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-90",
+   "start_s": 195.24,
+   "end_s": 197.0,
+   "narration": "Using the knife in the right hand, chopping the onion on the chopping board that is held in left hand.",
+   "verbs": [
+    "chop"
+   ],
+   "nouns": [
+    "knife",
+    "onion",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-91",
+   "start_s": 208.74,
+   "end_s": 210.69,
+   "narration": "Using the knife in the right hand, chopping the onion on the chopping board that is held in left hand.",
+   "verbs": [
+    "chop"
+   ],
+   "nouns": [
+    "knife",
+    "onion",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-92",
+   "start_s": 212.89,
+   "end_s": 213.91,
+   "narration": "Using the knife in the right hand, chopping the onion on the chopping board that is held in left hand.",
+   "verbs": [
+    "chop"
+   ],
+   "nouns": [
+    "knife",
+    "onion",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-93",
+   "start_s": 215.23,
+   "end_s": 217.42,
+   "narration": "Using the knife in the right hand, chopping the onion on the chopping board that is held in left hand.",
+   "verbs": [
+    "chop"
+   ],
+   "nouns": [
+    "knife",
+    "onion",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-94",
+   "start_s": 218.24,
+   "end_s": 220.1,
+   "narration": "Using the knife in the right hand, chopping the onion on the chopping board that is held in left hand.",
+   "verbs": [
+    "chop"
+   ],
+   "nouns": [
+    "knife",
+    "onion",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-95",
+   "start_s": 220.64,
+   "end_s": 222.97,
+   "narration": "Using the knife in the right hand, chopping the onion on the chopping board that is held in left hand.",
+   "verbs": [
+    "chop"
+   ],
+   "nouns": [
+    "knife",
+    "onion",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-96",
+   "start_s": 225.03,
+   "end_s": 226.42,
+   "narration": "Using the knife in the right hand, chopping the onion on the chopping board that is held in left hand.",
+   "verbs": [
+    "chop"
+   ],
+   "nouns": [
+    "knife",
+    "onion",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-97",
+   "start_s": 226.94,
+   "end_s": 228.86,
+   "narration": "Using the knife in the right hand, chopping the onion on the chopping board that is held in left hand.",
+   "verbs": [
+    "chop"
+   ],
+   "nouns": [
+    "knife",
+    "onion",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-98",
+   "start_s": 238.67,
+   "end_s": 242.25,
+   "narration": "Using the knife in the right hand and using left hand, collecting the onions on the chopping board.",
+   "verbs": [
+    "collect"
+   ],
+   "nouns": [
+    "knife",
+    "onions",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-99",
+   "start_s": 241.61,
+   "end_s": 244.16,
+   "narration": "Using left hand, removing the sticked pieces of chopped onions from the knife that is held in left hand.",
+   "verbs": [
+    "remove"
+   ],
+   "nouns": [
+    "sticked pieces of chopped onions",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-100",
+   "start_s": 245.26,
+   "end_s": 246.85,
+   "narration": "Using right hand, picking up a bowl from the stack of bowls.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bowl",
+    "stack of bowls"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-101",
+   "start_s": 247.6,
+   "end_s": 248.43,
+   "narration": "Using right hand, picking up the knife from chopping board.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "knife",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-102",
+   "start_s": 248.53,
+   "end_s": 265.74,
+   "narration": "Using the knife in the right hand placing the chopped onions into the bowl that is held in left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "knife",
+    "chopped onions",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-103",
+   "start_s": 265.29,
+   "end_s": 265.75,
+   "narration": "Using right hand, placing the knife on the chopping board.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "knife",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-104",
+   "start_s": 265.85,
+   "end_s": 267.11,
+   "narration": "Using left hand, placing the bowl on tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "bowl",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-105",
+   "start_s": 267.21,
+   "end_s": 267.87,
+   "narration": "Using left hand, picking up the tomato from the chopping board while using right hand picking up knife from chopping board.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "tomato",
+    "chopping board",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-106",
+   "start_s": 267.96,
+   "end_s": 268.56,
+   "narration": "Using left hand, placing the tomato on the chopping board while holding knife in right hand.",
+   "verbs": [
+    "place",
+    "hold"
+   ],
+   "nouns": [
+    "tomato",
+    "chopping board",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-107",
+   "start_s": 269.16,
+   "end_s": 270.83,
+   "narration": "Using the knife in the right hand, chopping the tomato while holding the tomato in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "tomato"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-108",
+   "start_s": 273.44,
+   "end_s": 274.15,
+   "narration": "Using the knife in the right hand, chopping the tomato while holding the tomato in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "tomato"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-109",
+   "start_s": 274.94,
+   "end_s": 275.47,
+   "narration": "Using the knife in the right hand, chopping the tomato while holding the tomato in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "tomato"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-110",
+   "start_s": 278.54,
+   "end_s": 279.99,
+   "narration": "Using the knife in the right hand, chopping the tomato while holding the tomato in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "tomato"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-111",
+   "start_s": 281.39,
+   "end_s": 283.08,
+   "narration": "Using the knife in the right hand, chopping the tomato while holding the tomato in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "tomato"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-112",
+   "start_s": 282.94,
+   "end_s": 286.12,
+   "narration": "Using the knife in the right hand, chopping the tomato while holding the tomato in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "tomato"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-113",
+   "start_s": 286.22,
+   "end_s": 288.85,
+   "narration": "Using the knife in the right hand, chopping the tomato while holding the tomato in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "tomato"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-114",
+   "start_s": 290.57,
+   "end_s": 292.31,
+   "narration": "Using the knife in the right hand, chopping the tomato while holding the tomato in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "tomato"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-115",
+   "start_s": 292.41,
+   "end_s": 294.16,
+   "narration": "Using the knife in the right hand, chopping the tomato while holding the tomato in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "tomato"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-116",
+   "start_s": 294.19,
+   "end_s": 296.3,
+   "narration": "Using the knife in the right hand, chopping the tomato while holding the tomato in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "tomato"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-117",
+   "start_s": 296.74,
+   "end_s": 298.79,
+   "narration": "Using the knife in the right hand, chopping the tomato while holding the tomato in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "tomato"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-118",
+   "start_s": 299.72,
+   "end_s": 300.77,
+   "narration": "Using left hand, picking up another tomato half from the chopping board while holding knife in right hand.",
+   "verbs": [
+    "pick up",
+    "hold"
+   ],
+   "nouns": [
+    "another tomato",
+    "chopping board",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-119",
+   "start_s": 303.07,
+   "end_s": 304.97,
+   "narration": "Using the knife in the right hand, chopping the tomato that is held in left hand.",
+   "verbs": [
+    "chop"
+   ],
+   "nouns": [
+    "knife",
+    "tomato"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-121",
+   "start_s": 305.0,
+   "end_s": 305.99,
+   "narration": "Using the knife in the right hand, chopping the tomato that is held in left hand.",
+   "verbs": [
+    "chop"
+   ],
+   "nouns": [
+    "knife",
+    "tomato"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-120",
+   "start_s": 305.12,
+   "end_s": 306.92,
+   "narration": "Using the knife in the right hand, chopping the tomato that is held in left hand.",
+   "verbs": [
+    "chop"
+   ],
+   "nouns": [
+    "knife",
+    "tomato"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-122",
+   "start_s": 306.09,
+   "end_s": 308.02,
+   "narration": "Using the knife in the right hand, chopping the tomato that is held in left hand.",
+   "verbs": [
+    "chop"
+   ],
+   "nouns": [
+    "knife",
+    "tomato"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-123",
+   "start_s": 308.12,
+   "end_s": 310.79,
+   "narration": "Using both hands, aligning the chopped tomatoes to chop them more finely.",
+   "verbs": [
+    "align",
+    "chop"
+   ],
+   "nouns": [
+    "chopped tomatoes"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-124",
+   "start_s": 310.78,
+   "end_s": 312.2,
+   "narration": "Using the knife in the right hand, chopping the tomato while holding the tomato in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "tomato"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-125",
+   "start_s": 312.3,
+   "end_s": 314.03,
+   "narration": "Using the knife in the right hand, chopping the tomato while holding the tomato in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "tomato"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-126",
+   "start_s": 314.13,
+   "end_s": 315.63,
+   "narration": "Using the knife in the right hand, chopping the tomato while holding the tomato in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "tomato"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-127",
+   "start_s": 318.84,
+   "end_s": 320.05,
+   "narration": "Using the knife in the right hand, chopping the tomato while holding the tomato in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "tomato"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-128",
+   "start_s": 320.15,
+   "end_s": 322.18,
+   "narration": "Using the knife in the right hand, chopping the tomato while holding the tomato in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "tomato"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-129",
+   "start_s": 322.28,
+   "end_s": 323.87,
+   "narration": "Using the knife in the right hand, chopping the tomato while holding the tomato in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "tomato"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-130",
+   "start_s": 323.97,
+   "end_s": 325.64,
+   "narration": "Using the knife in the right hand, chopping the tomato while holding the tomato in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "tomato"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-131",
+   "start_s": 326.33,
+   "end_s": 327.79,
+   "narration": "Using the knife in the right hand, chopping the tomato while holding the tomato in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "tomato"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-132",
+   "start_s": 328.13,
+   "end_s": 329.15,
+   "narration": "Using the knife in the right hand, collecting the chopped tomatoes on right hand side of chopping board.",
+   "verbs": [
+    "collect"
+   ],
+   "nouns": [
+    "knife",
+    "chopped tomatoes",
+    "right hand side of chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-133",
+   "start_s": 331.88,
+   "end_s": 332.2,
+   "narration": "Using left hand, picking up green chillies from the plate.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "green chillies",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-134",
+   "start_s": 332.33,
+   "end_s": 332.79,
+   "narration": "Using left hand, placing green chillies on chopping board.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "green chillies",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-135",
+   "start_s": 334.25,
+   "end_s": 335.7,
+   "narration": "Using the knife in the right hand, chopping the green chillies while holding them in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "green chillies"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-136",
+   "start_s": 335.7,
+   "end_s": 336.11,
+   "narration": "Using the knife in the right hand, chopping the green chillies while holding them in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "green chillies"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-137",
+   "start_s": 337.58,
+   "end_s": 337.92,
+   "narration": "Using the knife in the right hand, chopping the green chillies while holding them in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "green chillies"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-138",
+   "start_s": 338.5,
+   "end_s": 339.55,
+   "narration": "Using the knife in the right hand, chopping the green chillies while holding them in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "green chillies"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-139",
+   "start_s": 339.9,
+   "end_s": 340.49,
+   "narration": "Using the knife in the right hand, chopping the green chillies while holding them in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "green chillies"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-141",
+   "start_s": 340.03,
+   "end_s": 344.28,
+   "narration": "Using the knife in the right hand, chopping the green chillies while holding them in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "green chillies"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-140",
+   "start_s": 340.9,
+   "end_s": 341.57,
+   "narration": "Using the knife in the right hand, chopping the green chillies while holding them in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "green chillies"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-142",
+   "start_s": 343.57,
+   "end_s": 344.53,
+   "narration": "Using the knife in the right hand, collecting green chillies with tomatoes.",
+   "verbs": [
+    "collect"
+   ],
+   "nouns": [
+    "knife",
+    "green chillies",
+    "tomatoes"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-143",
+   "start_s": 344.63,
+   "end_s": 345.15,
+   "narration": "Using right hand, placing the knife on the chopping board.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "knife",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-144",
+   "start_s": 345.25,
+   "end_s": 347.56,
+   "narration": "Using right hand, opening the drawer.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-145",
+   "start_s": 347.66,
+   "end_s": 348.8,
+   "narration": "Using right hand, picking up a tablecloth from the drawer and placing it on the right hand side of the drawer.",
+   "verbs": [
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "tablecloth",
+    "drawer",
+    "right hand side of drawer"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-146",
+   "start_s": 348.9,
+   "end_s": 349.74,
+   "narration": "Using right hand, picking up garlic from the drawer.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "garlic",
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-147",
+   "start_s": 350.22,
+   "end_s": 361.3,
+   "narration": "Using both hands, separating the clove of garlic from the bunch of garlic and placing them inside the drawer.",
+   "verbs": [
+    "separate",
+    "place"
+   ],
+   "nouns": [
+    "clove of garlic",
+    "bunch of garlic",
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-148",
+   "start_s": 361.4,
+   "end_s": 362.46,
+   "narration": "Using right hand, closing the drawer",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-149",
+   "start_s": 362.56,
+   "end_s": 365.33,
+   "narration": "Using right hand, turning on the weighing balance.",
+   "verbs": [
+    "turn on"
+   ],
+   "nouns": [
+    "weighing balance"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-150",
+   "start_s": 365.43,
+   "end_s": 366.32,
+   "narration": "Using right hand, picking up the pen from the table top.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "pen",
+    "table top"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-151",
+   "start_s": 365.51,
+   "end_s": 369.62,
+   "narration": "Using the pen in the right hand, writing on the notebook to record the ingredients while holding garlic clove in left hand.",
+   "verbs": [
+    "write on",
+    "record",
+    "hold"
+   ],
+   "nouns": [
+    "pen",
+    "notebook",
+    "ingredients",
+    "garlic clove"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-152",
+   "start_s": 369.68,
+   "end_s": 370.09,
+   "narration": "Using right hand, placing back the pen on tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "pen",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-153",
+   "start_s": 370.98,
+   "end_s": 371.19,
+   "narration": "Using right hand, placing the garlic clove on weighing balance.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "garlic clove",
+    "weighing balance"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-154",
+   "start_s": 373.24,
+   "end_s": 374.19,
+   "narration": "Using right hand, slightly moving the garlic clove on weighing balance.",
+   "verbs": [
+    "move"
+   ],
+   "nouns": [
+    "garlic clove",
+    "weighing balance"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-155",
+   "start_s": 375.34,
+   "end_s": 375.96,
+   "narration": "Using right hand, picking up the pen from table top.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "pen",
+    "table top"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-156",
+   "start_s": 377.13,
+   "end_s": 377.98,
+   "narration": "Using the pen in the right hand, writing on the notebook to record the weight of garlic.",
+   "verbs": [
+    "write on",
+    "record"
+   ],
+   "nouns": [
+    "pen",
+    "notebook",
+    "weight of garlic"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-157",
+   "start_s": 378.24,
+   "end_s": 378.79,
+   "narration": "Using right hand, placing back the pen on tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "pen",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-158",
+   "start_s": 378.72,
+   "end_s": 378.95,
+   "narration": "Using right hand, picking up the garlic clove from weighing balance.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "garlic clove",
+    "weighing balance"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-159",
+   "start_s": 381.04,
+   "end_s": 382.09,
+   "narration": "Using right hand, picking up an onion peel from the chopping board and placing it on the plate.",
+   "verbs": [
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "onion peel",
+    "chopping board",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-160",
+   "start_s": 382.76,
+   "end_s": 383.02,
+   "narration": "Using right hand, picking up a knife from chopping board.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "knife",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-161",
+   "start_s": 383.13,
+   "end_s": 385.02,
+   "narration": "Using the knife in the right hand, chopping the garlic that is held in left hand.",
+   "verbs": [
+    "chop"
+   ],
+   "nouns": [
+    "knife",
+    "garlic"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-162",
+   "start_s": 384.91,
+   "end_s": 385.31,
+   "narration": "Using right hand, placing the knife on the chopping board.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "knife",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-163",
+   "start_s": 385.41,
+   "end_s": 386.52,
+   "narration": "Using right hand, picking up a chopped portion of garlic and placing it onto the plate.",
+   "verbs": [
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "chopped portion of garlic",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-164",
+   "start_s": 386.51,
+   "end_s": 390.62,
+   "narration": "Using both hands, peeling the garlic clove.",
+   "verbs": [
+    "peel"
+   ],
+   "nouns": [
+    "garlic clove"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-165",
+   "start_s": 389.6,
+   "end_s": 391.56,
+   "narration": "Using right hand, placing the peel on the plate.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "peel",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-166",
+   "start_s": 391.66,
+   "end_s": 393.88,
+   "narration": "Using both hands, peeling the garlic clove.",
+   "verbs": [
+    "peel"
+   ],
+   "nouns": [
+    "garlic clove"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-167",
+   "start_s": 393.98,
+   "end_s": 394.83,
+   "narration": "Using right hand, placing the peel on the plate.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "peel",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-168",
+   "start_s": 394.82,
+   "end_s": 397.82,
+   "narration": "Using both hands, peeling the garlic clove.",
+   "verbs": [
+    "peel"
+   ],
+   "nouns": [
+    "garlic clove"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-169",
+   "start_s": 397.81,
+   "end_s": 398.77,
+   "narration": "Using right hand, placing the peel on the plate.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "peel",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-170",
+   "start_s": 398.87,
+   "end_s": 399.61,
+   "narration": "Using right hand, picking up the knife from chopping board.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "knife",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-171",
+   "start_s": 400.16,
+   "end_s": 402.18,
+   "narration": "Using the knife in the right hand and using left hand, pressing the garlic clove on the chopping board. This will ensure that garlic clove is broken vertically.",
+   "verbs": [
+    "press"
+   ],
+   "nouns": [
+    "knife",
+    "garlic clove",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-172",
+   "start_s": 402.09,
+   "end_s": 405.01,
+   "narration": "Using the knife in the right hand, chopping the broken pieces of the garlic while holding the garlic in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "broken pieces of garlic",
+    "garlic"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-173",
+   "start_s": 405.11,
+   "end_s": 406.03,
+   "narration": "Using the knife in the right hand, chopping the broken pieces of the garlic while holding the garlic in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "broken pieces of garlic",
+    "garlic"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-174",
+   "start_s": 406.13,
+   "end_s": 407.89,
+   "narration": "Using the knife in the right hand, chopping the broken pieces of the garlic while holding the garlic in left hand.",
+   "verbs": [
+    "chop",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "broken pieces of garlic",
+    "garlic"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-175",
+   "start_s": 407.42,
+   "end_s": 432.92,
+   "narration": "Using the knife in the right hand, chopping some more fine pieces of the garlic.",
+   "verbs": [
+    "chop"
+   ],
+   "nouns": [
+    "knife",
+    "some more fine pieces of garlic"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-176",
+   "start_s": 425.11,
+   "end_s": 435.25,
+   "narration": "Using the knife in the right hand, collecting the chopped pieces of garlic on chopping board.",
+   "verbs": [
+    "collect"
+   ],
+   "nouns": [
+    "knife",
+    "chopped pieces of garlic",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-177",
+   "start_s": 435.35,
+   "end_s": 436.7,
+   "narration": "Using right hand, placing back the knife on chopping board.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "knife",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-178",
+   "start_s": 439.51,
+   "end_s": 440.83,
+   "narration": "Using right hand, picking up a frying pan from the crockery tray.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "frying pan",
+    "crockery tray"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-179",
+   "start_s": 440.93,
+   "end_s": 444.31,
+   "narration": "Using right hand, placing the frying pan on gas stove.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "frying pan",
+    "gas stove"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-180",
+   "start_s": 444.41,
+   "end_s": 452.49,
+   "narration": "Using right hand, rotating the knob of the gas stove to turn on the gas flame.",
+   "verbs": [
+    "rotate",
+    "turn on"
+   ],
+   "nouns": [
+    "knob of gas stove",
+    "gas flame"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-181",
+   "start_s": 453.86,
+   "end_s": 454.93,
+   "narration": "Using right hand, briefly holding the handle of frying pan so as to balance it on the gas stove.",
+   "verbs": [
+    "hold"
+   ],
+   "nouns": [
+    "handle of frying pan",
+    "gas stove"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-182",
+   "start_s": 455.07,
+   "end_s": 456.02,
+   "narration": "Using right hand, rotating the knob of the gas stove to adjust the flame.",
+   "verbs": [
+    "rotate",
+    "adjust"
+   ],
+   "nouns": [
+    "knob of gas stove",
+    "flame"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-183",
+   "start_s": 467.16,
+   "end_s": 468.81,
+   "narration": "Using right hand, picking up a plant pot from the tabletop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "plant pot",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-184",
+   "start_s": 469.68,
+   "end_s": 470.01,
+   "narration": "Holding the plant pot in both hands.",
+   "verbs": [
+    "hold"
+   ],
+   "nouns": [
+    "plant pot"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-185",
+   "start_s": 470.18,
+   "end_s": 472.18,
+   "narration": "Holding the plant pot in left hand while using right hand, placing the plastic box on the tabletop.",
+   "verbs": [
+    "hold",
+    "place"
+   ],
+   "nouns": [
+    "plant pot",
+    "plastic box",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-186",
+   "start_s": 476.36,
+   "end_s": 476.95,
+   "narration": "Using right hand, opening the water tap.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "water tap"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-187",
+   "start_s": 477.89,
+   "end_s": 484.27,
+   "narration": "Using left hand, watering the plant pot in running water.",
+   "verbs": [
+    "water"
+   ],
+   "nouns": [
+    "plant pot",
+    "running water"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-188",
+   "start_s": 486.87,
+   "end_s": 487.38,
+   "narration": "Using right hand, picking up the plastic box from tabletop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "plastic box",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-189",
+   "start_s": 488.53,
+   "end_s": 492.43,
+   "narration": "Using right hand, washing the plastic box in running water inside the sink while holding the plant pot in left hand.",
+   "verbs": [
+    "wash",
+    "hold"
+   ],
+   "nouns": [
+    "plastic box",
+    "running water",
+    "sink",
+    "plant pot"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-190",
+   "start_s": 492.77,
+   "end_s": 493.16,
+   "narration": "Using right hand, placing the plastic box in sink.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "plastic box",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-191",
+   "start_s": 493.91,
+   "end_s": 494.38,
+   "narration": "Using right hand, closing the water tap.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "water tap"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-192",
+   "start_s": 494.32,
+   "end_s": 495.35,
+   "narration": "Using left hand, placing the plant pot in the plastic box that is placed in the sink.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "plant pot",
+    "plastic box",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-193",
+   "start_s": 495.45,
+   "end_s": 496.42,
+   "narration": "Using both hands picking up the plastic box containing plant pot.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "plastic box",
+    "plant pot"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-194",
+   "start_s": 499.54,
+   "end_s": 501.22,
+   "narration": "Using both hands placing the plastic box on tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "plastic box",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-195",
+   "start_s": 505.23,
+   "end_s": 506.03,
+   "narration": "Using right hand, opening the water tap.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "water tap"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-196",
+   "start_s": 506.06,
+   "end_s": 509.33,
+   "narration": "Washing both hands in running water inside the sink.",
+   "verbs": [
+    "wash"
+   ],
+   "nouns": [
+    "running water",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-197",
+   "start_s": 509.38,
+   "end_s": 510.18,
+   "narration": "Using right hand, closing the water tap.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "water tap"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-198",
+   "start_s": 510.28,
+   "end_s": 511.84,
+   "narration": "Shaking both hands in the sink to remove excessive water.",
+   "verbs": [
+    "shake",
+    "remove"
+   ],
+   "nouns": [
+    "sink",
+    "excessive water"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-199",
+   "start_s": 514.81,
+   "end_s": 515.68,
+   "narration": "Using left hand, picking up a tablecloth from the tabletop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "tablecloth",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-200",
+   "start_s": 516.11,
+   "end_s": 519.07,
+   "narration": "Wiping both hands using the tablecloth.",
+   "verbs": [
+    "wipe"
+   ],
+   "nouns": [
+    "tablecloth"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-201",
+   "start_s": 520.47,
+   "end_s": 521.32,
+   "narration": "Using right hand, placing the tablecloth on the table top.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "tablecloth",
+    "table top"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-202",
+   "start_s": 523.2,
+   "end_s": 524.28,
+   "narration": "Using right hand picking up a pack of butter from the table top.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "pack of butter",
+    "table top"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-203",
+   "start_s": 525.03,
+   "end_s": 526.04,
+   "narration": "Using right hand, rotating the knob of gas stove to reduce the flame. This will ensure that pan does not get overheated.",
+   "verbs": [
+    "rotate",
+    "reduce"
+   ],
+   "nouns": [
+    "knob of gas stove",
+    "flame",
+    "pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-204",
+   "start_s": 526.14,
+   "end_s": 527.58,
+   "narration": "Using both hands, unwrapping the butter pack.",
+   "verbs": [
+    "unwrap"
+   ],
+   "nouns": [
+    "butter pack"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-205",
+   "start_s": 527.62,
+   "end_s": 528.34,
+   "narration": "Using both hands, placing the butter on the chopping board.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "butter",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-206",
+   "start_s": 528.44,
+   "end_s": 529.16,
+   "narration": "Using left hand, turning on the weighing balance.",
+   "verbs": [
+    "turn on"
+   ],
+   "nouns": [
+    "weighing balance"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-207",
+   "start_s": 529.24,
+   "end_s": 530.31,
+   "narration": "Using right hand, opening the drawer.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-208",
+   "start_s": 530.17,
+   "end_s": 531.23,
+   "narration": "Using both hands, closing the drawer.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-209",
+   "start_s": 532.54,
+   "end_s": 534.82,
+   "narration": "Using right hand, picking up a spoon and a spatula from the crockery tray.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spoon",
+    "spatula",
+    "crockery tray"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-210",
+   "start_s": 534.92,
+   "end_s": 536.6,
+   "narration": "Using right hand, placing the spatula on the tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spatula",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-211",
+   "start_s": 537.45,
+   "end_s": 538.36,
+   "narration": "Using left hand, placing the spoon on the weighing balance.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spoon",
+    "weighing balance"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-212",
+   "start_s": 539.52,
+   "end_s": 540.18,
+   "narration": "Using right hand, pressing the clear button to clear the weight of the spoon.",
+   "verbs": [
+    "press",
+    "clear"
+   ],
+   "nouns": [
+    "clear button",
+    "weight of spoon"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-213",
+   "start_s": 541.07,
+   "end_s": 541.83,
+   "narration": "Using right hand, picking up the knife from chopping board.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "knife",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-214",
+   "start_s": 541.71,
+   "end_s": 543.39,
+   "narration": "Using left hand, moving the pack of butter on the chopping board while holding knife in right hand.",
+   "verbs": [
+    "move",
+    "hold"
+   ],
+   "nouns": [
+    "pack of butter",
+    "chopping board",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-215",
+   "start_s": 543.49,
+   "end_s": 545.53,
+   "narration": "Using the knife in the right hand, cutting a piece of butter on chopping board.",
+   "verbs": [
+    "cut"
+   ],
+   "nouns": [
+    "knife",
+    "piece of butter",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-216",
+   "start_s": 545.56,
+   "end_s": 547.62,
+   "narration": "Using left hand, picking up the piece of butter while holding knife in right hand.",
+   "verbs": [
+    "pick up",
+    "hold"
+   ],
+   "nouns": [
+    "piece of butter",
+    "knife"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-217",
+   "start_s": 547.72,
+   "end_s": 549.3,
+   "narration": "Using left hand, placing the butter on the spoon that is placed on the weighing balance.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "butter",
+    "spoon",
+    "weighing balance"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-218",
+   "start_s": 549.04,
+   "end_s": 550.57,
+   "narration": "Using right hand, placing the knife on the chopping board.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "knife",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-219",
+   "start_s": 551.11,
+   "end_s": 552.75,
+   "narration": "Using right hand, picking up the pen from table top.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "pen",
+    "table top"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-220",
+   "start_s": 553.26,
+   "end_s": 556.88,
+   "narration": "Using the pen in the right hand, writing on the notebook to record the weight of butter.",
+   "verbs": [
+    "write on",
+    "record"
+   ],
+   "nouns": [
+    "pen",
+    "notebook",
+    "weight of butter"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-221",
+   "start_s": 557.11,
+   "end_s": 557.4,
+   "narration": "Using right hand, placing back the pen on table top.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "pen",
+    "table top"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-222",
+   "start_s": 557.85,
+   "end_s": 558.36,
+   "narration": "Using right hand, picking up the spoon from weighing balance.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spoon",
+    "weighing balance"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-223",
+   "start_s": 559.53,
+   "end_s": 560.06,
+   "narration": "Using the spoon in right hand, placing the butter on heated frying pan.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spoon",
+    "butter",
+    "heated frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-224",
+   "start_s": 560.16,
+   "end_s": 563.93,
+   "narration": "Using the spoon in right hand, spreading the butter onto the surface of the frying pan. This will ensure that the butter is spread uniformly for cooking.",
+   "verbs": [
+    "spread"
+   ],
+   "nouns": [
+    "spoon",
+    "butter",
+    "surface of frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-225",
+   "start_s": 564.47,
+   "end_s": 565.04,
+   "narration": "Using right hand placing the spoon on the plate.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spoon",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-226",
+   "start_s": 565.28,
+   "end_s": 566.12,
+   "narration": "Using right hand, opening the drawer.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-227",
+   "start_s": 566.72,
+   "end_s": 567.75,
+   "narration": "Using right hand, picking up a spoon from the drawer.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spoon",
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-228",
+   "start_s": 567.81,
+   "end_s": 569.0,
+   "narration": "Using left hand, closing the drawer.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-229",
+   "start_s": 569.77,
+   "end_s": 570.28,
+   "narration": "Using right hand, picking up a jar from the tabletop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "jar",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-230",
+   "start_s": 570.94,
+   "end_s": 572.14,
+   "narration": "Using both hands, opening the lid of the jar.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "lid of jar"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-231",
+   "start_s": 572.0,
+   "end_s": 573.14,
+   "narration": "Using right hand, placing the jar on the tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "jar",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-232",
+   "start_s": 572.85,
+   "end_s": 574.09,
+   "narration": "Wiping the left hand using the tablecloth that is placed on the tabletop.",
+   "verbs": [
+    "wipe"
+   ],
+   "nouns": [
+    "tablecloth",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-233",
+   "start_s": 574.19,
+   "end_s": 574.61,
+   "narration": "Using right hand, placing the spoon on the jar.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spoon",
+    "jar"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-234",
+   "start_s": 574.71,
+   "end_s": 576.17,
+   "narration": "Using right hand, picking up the pen from the table top.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "pen",
+    "table top"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-235",
+   "start_s": 576.27,
+   "end_s": 581.23,
+   "narration": "Using the pen in the right hand, writing on the notebook to record the recipe and ingredients.",
+   "verbs": [
+    "write on",
+    "record"
+   ],
+   "nouns": [
+    "pen",
+    "notebook",
+    "recipe",
+    "ingredients"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-236",
+   "start_s": 581.33,
+   "end_s": 581.88,
+   "narration": "Using right hand, placing back the pen on tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "pen",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-237",
+   "start_s": 583.35,
+   "end_s": 584.14,
+   "narration": "Using left hand, picking up the jar from tabletop while using right hand picking up the spoon.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "jar",
+    "tabletop",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-238",
+   "start_s": 584.24,
+   "end_s": 585.0,
+   "narration": "Using right hand, opening the lid of the jar while holding the jar in left hand.",
+   "verbs": [
+    "open",
+    "hold"
+   ],
+   "nouns": [
+    "lid of jar",
+    "jar"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-239",
+   "start_s": 585.1,
+   "end_s": 587.14,
+   "narration": "Using the spoon in the right hand, picking up cumin seeds from the jar.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spoon",
+    "cumin seeds",
+    "jar"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-240",
+   "start_s": 586.96,
+   "end_s": 589.58,
+   "narration": "Using the spoon in the right hand, placing the cumin seed in the frying pan while holding the jar in left hand.",
+   "verbs": [
+    "place",
+    "hold"
+   ],
+   "nouns": [
+    "spoon",
+    "cumin seed",
+    "frying pan",
+    "jar"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-241",
+   "start_s": 590.2,
+   "end_s": 593.79,
+   "narration": "Using right hand, closing the lid of the jar.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "lid of jar"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-242",
+   "start_s": 593.84,
+   "end_s": 595.07,
+   "narration": "Using right hand, placing the jar on the tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "jar",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-243",
+   "start_s": 595.6,
+   "end_s": 596.96,
+   "narration": "Using right hand, placing the spoon on the tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spoon",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-244",
+   "start_s": 597.38,
+   "end_s": 598.48,
+   "narration": "Using left hand, picking up the spatula from tabletop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spatula",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-245",
+   "start_s": 598.92,
+   "end_s": 605.02,
+   "narration": "Using the spatula in right hand, mixing the contents of the frying pan uniformly.",
+   "verbs": [
+    "mix"
+   ],
+   "nouns": [
+    "spatula",
+    "contents of frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-246",
+   "start_s": 605.5,
+   "end_s": 606.99,
+   "narration": "Using left hand, picking up a bowl containing chopped onions while using right hand mixing the contents of the frying pan.",
+   "verbs": [
+    "pick up",
+    "mix"
+   ],
+   "nouns": [
+    "bowl",
+    "chopped onions",
+    "contents of frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-247",
+   "start_s": 607.5,
+   "end_s": 609.77,
+   "narration": "Using left hand, tilting the bowl to place the chopped onions in the frying pan while holding the spatula in right hand.",
+   "verbs": [
+    "tilt",
+    "place",
+    "hold"
+   ],
+   "nouns": [
+    "bowl",
+    "chopped onions",
+    "frying pan",
+    "spatula"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-248",
+   "start_s": 609.87,
+   "end_s": 612.25,
+   "narration": "Using the spatula in the right hand, collecting the remaining chopped onions from the bowl and placing them in the frying pan.",
+   "verbs": [
+    "collect",
+    "place"
+   ],
+   "nouns": [
+    "spatula",
+    "remaining chopped onions",
+    "bowl",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-249",
+   "start_s": 612.7,
+   "end_s": 624.86,
+   "narration": "Using the spatula in the right hand, mixing the contents of the frying pan while holding the bowl in left hand.",
+   "verbs": [
+    "mix",
+    "hold"
+   ],
+   "nouns": [
+    "spatula",
+    "contents of frying pan",
+    "bowl"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-250",
+   "start_s": 624.72,
+   "end_s": 628.0,
+   "narration": "Using right hand, placing the spatula in the frying pan.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spatula",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-251",
+   "start_s": 629.14,
+   "end_s": 629.94,
+   "narration": "Using left hand, placing the bowl in the sink.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "bowl",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-252",
+   "start_s": 633.33,
+   "end_s": 633.76,
+   "narration": "Using right hand, picking up the spatula from frying pan.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spatula",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-253",
+   "start_s": 633.87,
+   "end_s": 645.07,
+   "narration": "Using the spatula in the right hand, mixing the content of the frying pan to make a homogeneous mixture.",
+   "verbs": [
+    "mix"
+   ],
+   "nouns": [
+    "spatula",
+    "content of frying pan",
+    "homogeneous mixture"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-254",
+   "start_s": 645.14,
+   "end_s": 645.97,
+   "narration": "Using right hand, placing back the spatula in the frying pan.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spatula",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-255",
+   "start_s": 648.45,
+   "end_s": 649.12,
+   "narration": "Using right hand, picking up the pen from the table top.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "pen",
+    "table top"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-256",
+   "start_s": 649.19,
+   "end_s": 656.54,
+   "narration": "Using the pen in the right hand, writing on the notebook to record the recipe to be followed.",
+   "verbs": [
+    "write on",
+    "record"
+   ],
+   "nouns": [
+    "pen",
+    "notebook",
+    "recipe"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-257",
+   "start_s": 656.56,
+   "end_s": 657.34,
+   "narration": "Using right hand, placing the pen on the tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "pen",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-258",
+   "start_s": 659.28,
+   "end_s": 662.36,
+   "narration": "Using both hands wrapping the butter on the chopping board.",
+   "verbs": [
+    "wrap"
+   ],
+   "nouns": [
+    "butter",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-259",
+   "start_s": 662.45,
+   "end_s": 663.5,
+   "narration": "Using right hand, placing the pack of butter on tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "pack of butter",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-260",
+   "start_s": 667.18,
+   "end_s": 668.04,
+   "narration": "Using right hand, picking up the pressure cooker from table top.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "pressure cooker",
+    "table top"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-261",
+   "start_s": 669.7,
+   "end_s": 670.9,
+   "narration": "Using both hands, placing the pressure cooker on the tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "pressure cooker",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-262",
+   "start_s": 670.61,
+   "end_s": 672.63,
+   "narration": "Using right hand, opening the lid of the pressure cooker.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "lid of pressure cooker"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-263",
+   "start_s": 672.75,
+   "end_s": 675.7,
+   "narration": "Using right hand, placing the lid on the table top while using left hand tilting the pressure cooker to see the ingredients inside it.",
+   "verbs": [
+    "place",
+    "tilt",
+    "see"
+   ],
+   "nouns": [
+    "lid",
+    "table top",
+    "pressure cooker",
+    "ingredients"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-264",
+   "start_s": 675.8,
+   "end_s": 677.03,
+   "narration": "Using right hand, briefly moving the table cloth on the table top.",
+   "verbs": [
+    "move"
+   ],
+   "nouns": [
+    "table cloth",
+    "table top"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-265",
+   "start_s": 676.97,
+   "end_s": 677.91,
+   "narration": "Using left hand, placing the pressure cooker on the tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "pressure cooker",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-266",
+   "start_s": 677.83,
+   "end_s": 680.38,
+   "narration": "Using left hand, briefly holding the pressure cooker on the tabletop.",
+   "verbs": [
+    "hold"
+   ],
+   "nouns": [
+    "pressure cooker",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-267",
+   "start_s": 680.8,
+   "end_s": 681.62,
+   "narration": "Using right hand, briefly holding the lid of the pressure cooker.",
+   "verbs": [
+    "hold"
+   ],
+   "nouns": [
+    "lid of pressure cooker"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-268",
+   "start_s": 683.71,
+   "end_s": 684.32,
+   "narration": "Using right hand, picking up a spoon from the tabletop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spoon",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-269",
+   "start_s": 686.27,
+   "end_s": 689.23,
+   "narration": "Using the spoon in the right hand, picking up a few boiled kidney beans from the pressure cooker.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spoon",
+    "few boiled kidney beans",
+    "pressure cooker"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-270",
+   "start_s": 689.58,
+   "end_s": 690.28,
+   "narration": "Using left hand, slightly moving the handle of the pressure cooker on table top while holding the spoon in right hand.",
+   "verbs": [
+    "move",
+    "hold"
+   ],
+   "nouns": [
+    "handle of pressure cooker",
+    "table top",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-271",
+   "start_s": 691.89,
+   "end_s": 692.19,
+   "narration": "Using left hand, pressing the kidney beans in the spoon to check if they are boiled properly.",
+   "verbs": [
+    "press"
+   ],
+   "nouns": [
+    "kidney beans",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-272",
+   "start_s": 693.64,
+   "end_s": 697.69,
+   "narration": "Using right hand, pressing the kidney beans in the spoon to check if they are boiled.",
+   "verbs": [
+    "press"
+   ],
+   "nouns": [
+    "kidney beans",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-273",
+   "start_s": 698.62,
+   "end_s": 699.44,
+   "narration": "Using the spoon in the right hand, placing the kidney beans inside the pressure cooker.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spoon",
+    "kidney beans",
+    "pressure cooker"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-274",
+   "start_s": 699.87,
+   "end_s": 701.48,
+   "narration": "Using left hand, placing the spoon on the tabletop while using right hand picking up the pressure cooker from tabletop.",
+   "verbs": [
+    "place",
+    "pick up"
+   ],
+   "nouns": [
+    "spoon",
+    "tabletop",
+    "pressure cooker"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-275",
+   "start_s": 702.17,
+   "end_s": 702.81,
+   "narration": "Using right hand, turning on the water tap while using left hand picking up the pressure cooker from tabletop.",
+   "verbs": [
+    "turn on",
+    "pick up"
+   ],
+   "nouns": [
+    "water tap",
+    "pressure cooker",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-276",
+   "start_s": 703.47,
+   "end_s": 704.93,
+   "narration": "Pouring some tap water in the pressure cooker that is held in left hand.",
+   "verbs": [
+    "pour"
+   ],
+   "nouns": [
+    "some tap water",
+    "pressure cooker"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-277",
+   "start_s": 704.78,
+   "end_s": 705.16,
+   "narration": "Using right hand, closing the water tap.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "water tap"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-278",
+   "start_s": 706.2,
+   "end_s": 706.56,
+   "narration": "Using right hand, picking up the lid from the tabletop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "lid",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-279",
+   "start_s": 706.66,
+   "end_s": 708.88,
+   "narration": "Using right hand, placing the lid on the pressure cooker while holding the pressure cooker in left hand.",
+   "verbs": [
+    "place",
+    "hold"
+   ],
+   "nouns": [
+    "lid",
+    "pressure cooker"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-280",
+   "start_s": 708.98,
+   "end_s": 710.73,
+   "narration": "Using both hands, placing the pressure cooker on the gas stove.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "pressure cooker",
+    "gas stove"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-281",
+   "start_s": 709.0,
+   "end_s": 712.73,
+   "narration": "Using both hands, closing the lid of the pressure cooker.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "lid of pressure cooker"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-282",
+   "start_s": 712.83,
+   "end_s": 716.7,
+   "narration": "Using right hand, rotating the knob of the gas stove to start the gas flame for pressure cooker.",
+   "verbs": [
+    "rotate",
+    "start"
+   ],
+   "nouns": [
+    "knob of gas stove",
+    "gas flame",
+    "pressure cooker"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-283",
+   "start_s": 716.72,
+   "end_s": 719.28,
+   "narration": "Using right hand, picking up the pressure cooker and placing it on the flame.",
+   "verbs": [
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "pressure cooker",
+    "flame"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-284",
+   "start_s": 721.9,
+   "end_s": 722.93,
+   "narration": "Using right hand, briefly holding the handle of the frying pan.",
+   "verbs": [
+    "hold"
+   ],
+   "nouns": [
+    "handle of frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-285",
+   "start_s": 723.03,
+   "end_s": 723.65,
+   "narration": "Using right hand, picking up the spatula from frying pan.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spatula",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-286",
+   "start_s": 723.6,
+   "end_s": 743.0,
+   "narration": "Using the spatula in right hand, mixing the contents of the frying pan.",
+   "verbs": [
+    "mix"
+   ],
+   "nouns": [
+    "spatula",
+    "contents of frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-287",
+   "start_s": 742.89,
+   "end_s": 743.45,
+   "narration": "Using right hand, placing back the spatula on the frying pan.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spatula",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-288",
+   "start_s": 755.34,
+   "end_s": 756.09,
+   "narration": "Using right hand, picking up the coriander stems from the tabletop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "coriander stems",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-289",
+   "start_s": 756.19,
+   "end_s": 762.22,
+   "narration": "Using both hands, plucking the leaves of the coriander stems and removing the stem.",
+   "verbs": [
+    "pluck",
+    "remove"
+   ],
+   "nouns": [
+    "leaves of coriander stems",
+    "stem"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-290",
+   "start_s": 762.32,
+   "end_s": 763.05,
+   "narration": "Using right hand, placing the stems on the tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "stems",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-291",
+   "start_s": 763.2,
+   "end_s": 767.39,
+   "narration": "Holding the coriander leaves in both hands.",
+   "verbs": [
+    "hold"
+   ],
+   "nouns": [
+    "coriander",
+    "leaves"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-292",
+   "start_s": 768.54,
+   "end_s": 769.75,
+   "narration": "Using left hand, picking up the coriander stems from tabletop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "coriander stems",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-293",
+   "start_s": 770.65,
+   "end_s": 771.23,
+   "narration": "Using left hand, placing the coriander stems in the plate.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "coriander stems",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-294",
+   "start_s": 775.19,
+   "end_s": 785.45,
+   "narration": "Using both hands, plucking some fresh coriander leaves from the plant pot.",
+   "verbs": [
+    "pluck"
+   ],
+   "nouns": [
+    "some fresh coriander leaves",
+    "plant pot"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-295",
+   "start_s": 786.44,
+   "end_s": 787.23,
+   "narration": "Holding the coriander leaves in left hand.",
+   "verbs": [
+    "hold"
+   ],
+   "nouns": [
+    "coriander leaves"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-296",
+   "start_s": 792.43,
+   "end_s": 793.55,
+   "narration": "Using right hand, turning on the water tap while using left hand washing the coriander leaves in the sink.",
+   "verbs": [
+    "turn on",
+    "wash"
+   ],
+   "nouns": [
+    "water tap",
+    "coriander leaves",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-297",
+   "start_s": 793.65,
+   "end_s": 794.23,
+   "narration": "Using right hand, turning off the water tap.",
+   "verbs": [
+    "turn off"
+   ],
+   "nouns": [
+    "water tap"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-298",
+   "start_s": 796.5,
+   "end_s": 797.92,
+   "narration": "Shaking left hand to remove the excessive water inside the sink.",
+   "verbs": [
+    "remove"
+   ],
+   "nouns": [
+    "excessive water",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-299",
+   "start_s": 798.02,
+   "end_s": 802.45,
+   "narration": "Using right hand, collecting the coriander leaves from left hand.",
+   "verbs": [
+    "collect"
+   ],
+   "nouns": [
+    "coriander leaves"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-300",
+   "start_s": 802.41,
+   "end_s": 803.84,
+   "narration": "Using right hand, placing the coriander leaves on the chopping board.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "coriander leaves",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-301",
+   "start_s": 808.24,
+   "end_s": 809.25,
+   "narration": "Using right hand, picking up this spatula from frying pan.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spatula",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-302",
+   "start_s": 808.73,
+   "end_s": 828.88,
+   "narration": "Using the spatula in the right hand, mixing the contents of the frying pan.",
+   "verbs": [
+    "mix"
+   ],
+   "nouns": [
+    "spatula",
+    "contents of frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-303",
+   "start_s": 827.7,
+   "end_s": 829.5,
+   "narration": "Using right hand, placing back the spatula in the frying pan.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spatula",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-304",
+   "start_s": 829.6,
+   "end_s": 831.29,
+   "narration": "Using right hand, picking up the knife from the chopping board.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "knife",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-305",
+   "start_s": 831.19,
+   "end_s": 841.41,
+   "narration": "Using the knife in the right hand, chopping the coriander leaves on the chopping board.",
+   "verbs": [
+    "chop"
+   ],
+   "nouns": [
+    "knife",
+    "coriander leaves",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-306",
+   "start_s": 840.6,
+   "end_s": 842.5,
+   "narration": "Using right hand, placing back the knife on the chopping board.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "knife",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-307",
+   "start_s": 851.42,
+   "end_s": 853.19,
+   "narration": "Using left hand, briefly holding the chopping board.",
+   "verbs": [
+    "hold"
+   ],
+   "nouns": [
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-308",
+   "start_s": 852.79,
+   "end_s": 854.3,
+   "narration": "Using left hand, briefly holding the spoon from the plate",
+   "verbs": [
+    "hold"
+   ],
+   "nouns": [
+    "spoon",
+    "plate"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-309",
+   "start_s": 854.4,
+   "end_s": 855.48,
+   "narration": "Using right hand, picking up spatula from the frying pan.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spatula",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-310",
+   "start_s": 855.03,
+   "end_s": 862.05,
+   "narration": "Using the spatula in the right hand, saute the onion until they are homogenized in the frying pan.",
+   "verbs": [
+    "saute"
+   ],
+   "nouns": [
+    "spatula",
+    "onion",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-311",
+   "start_s": 862.0,
+   "end_s": 862.4,
+   "narration": "Using right hand, placing back the spatula in the frying pan.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spatula",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-312",
+   "start_s": 863.09,
+   "end_s": 864.0,
+   "narration": "Using right hand, picking up the knife from the chopping board while using left hand picking up the chopping board from the tabletop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "knife",
+    "chopping board",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-313",
+   "start_s": 864.64,
+   "end_s": 872.07,
+   "narration": "Using the knife in the right hand, placing the tomatoes into the frying pan while holding the chopping board in the left hand. It means that tomatoes are placed on the chopping board.",
+   "verbs": [
+    "place",
+    "hold"
+   ],
+   "nouns": [
+    "knife",
+    "tomatoes",
+    "frying pan",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-314",
+   "start_s": 873.15,
+   "end_s": 873.81,
+   "narration": "Using both hands, placing the knife and chopping board on the tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "knife",
+    "chopping board",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-315",
+   "start_s": 874.41,
+   "end_s": 874.79,
+   "narration": "Using right hand, picking up the spatula from the frying pan.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spatula",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-316",
+   "start_s": 874.82,
+   "end_s": 891.37,
+   "narration": "Using the spatula in the right hand, mixing the contents of the frying pan to make a homogeneous mixture.",
+   "verbs": [
+    "mix"
+   ],
+   "nouns": [
+    "spatula",
+    "contents of frying pan",
+    "homogeneous mixture"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-317",
+   "start_s": 891.47,
+   "end_s": 892.79,
+   "narration": "Using left hand, briefly holding the chopping board that is placed on tabletop.",
+   "verbs": [
+    "hold"
+   ],
+   "nouns": [
+    "chopping board",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-318",
+   "start_s": 894.82,
+   "end_s": 895.48,
+   "narration": "Using right hand, placing back the spatula in the frying pan.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spatula",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-319",
+   "start_s": 900.35,
+   "end_s": 901.36,
+   "narration": "Using left hand, opening the drawer.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-320",
+   "start_s": 901.61,
+   "end_s": 902.73,
+   "narration": "Using right hand, picking up a spoon from the drawer.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spoon",
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-321",
+   "start_s": 902.73,
+   "end_s": 903.63,
+   "narration": "Using left hand, closing the drawer while holding spoon in right hand.",
+   "verbs": [
+    "close",
+    "hold"
+   ],
+   "nouns": [
+    "drawer",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-322",
+   "start_s": 907.03,
+   "end_s": 907.52,
+   "narration": "Using both hands, picking up a jar from tabletop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "jar",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-323",
+   "start_s": 907.52,
+   "end_s": 908.52,
+   "narration": "Using right hand, opening the lid of the jar and placing it on the tabletop.",
+   "verbs": [
+    "open",
+    "place"
+   ],
+   "nouns": [
+    "lid of jar",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-324",
+   "start_s": 911.56,
+   "end_s": 912.16,
+   "narration": "Using right hand, picking up the pen from table top while holding jar in left hand.",
+   "verbs": [
+    "pick up",
+    "hold"
+   ],
+   "nouns": [
+    "pen",
+    "table top",
+    "jar"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-325",
+   "start_s": 913.18,
+   "end_s": 933.87,
+   "narration": "Using the pen in the right hand, writing on the notebook to record the ingredients of the recipe.",
+   "verbs": [
+    "write on",
+    "record"
+   ],
+   "nouns": [
+    "pen",
+    "notebook",
+    "ingredients of recipe"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-326",
+   "start_s": 933.94,
+   "end_s": 934.22,
+   "narration": "Using right hand, placing back the pen on the tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "pen",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-327",
+   "start_s": 935.15,
+   "end_s": 936.38,
+   "narration": "Using the spoon in the right hand, picking up some coriander powder from the jar that is held in left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spoon",
+    "some coriander powder",
+    "jar"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-328",
+   "start_s": 937.71,
+   "end_s": 938.13,
+   "narration": "Using the spoon in the right hand, placing the coriander powder in the frying pan.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spoon",
+    "coriander powder",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-329",
+   "start_s": 938.19,
+   "end_s": 941.65,
+   "narration": "Using the spoon in the right hand, picking up some coriander powder from the jar.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spoon",
+    "some coriander powder",
+    "jar"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-330",
+   "start_s": 941.96,
+   "end_s": 942.31,
+   "narration": "Using the spoon in the right hand, placing the coriander powder in the frying pan.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spoon",
+    "coriander powder",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-331",
+   "start_s": 944.36,
+   "end_s": 945.62,
+   "narration": "Using right hand, picking up the lid of the jar from the tabletop and fastening it on the jar that is held in left hand.",
+   "verbs": [
+    "pick up",
+    "fasten"
+   ],
+   "nouns": [
+    "lid of jar",
+    "tabletop",
+    "jar"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-332",
+   "start_s": 945.34,
+   "end_s": 946.15,
+   "narration": "Using left hand, placing the jar on the tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "jar",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-333",
+   "start_s": 946.25,
+   "end_s": 947.52,
+   "narration": "Using right hand, picking up a jar of salt from tabletop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "jar of salt",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-334",
+   "start_s": 947.62,
+   "end_s": 954.33,
+   "narration": "Using left hand, tilting the jar to pour some salt on the spoon that is held in right hand.",
+   "verbs": [
+    "tilt",
+    "pour"
+   ],
+   "nouns": [
+    "jar",
+    "some salt",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-335",
+   "start_s": 954.13,
+   "end_s": 955.23,
+   "narration": "Using the spoon in the right hand, placing the salt in the frying pan.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spoon",
+    "salt",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-336",
+   "start_s": 955.17,
+   "end_s": 957.63,
+   "narration": "Using left hand, tilting the jar to place salt in the spoon that is held in right hand.",
+   "verbs": [
+    "tilt",
+    "place"
+   ],
+   "nouns": [
+    "jar",
+    "salt",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-337",
+   "start_s": 957.73,
+   "end_s": 959.14,
+   "narration": "Using the spoon in the right hand, placing the salt in the frying pan while holding the jar in left hand.",
+   "verbs": [
+    "place",
+    "hold"
+   ],
+   "nouns": [
+    "spoon",
+    "salt",
+    "frying pan",
+    "jar"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-338",
+   "start_s": 959.24,
+   "end_s": 961.22,
+   "narration": "Using left hand, placing the jar on the tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "jar",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-339",
+   "start_s": 961.32,
+   "end_s": 963.38,
+   "narration": "Using right hand, picking up a jar from the tabletop while using left hand rotating the knob of the gas stove to reduce the flame. This will ensure that the frying pan is not overheated.",
+   "verbs": [
+    "pick up",
+    "rotate",
+    "reduce"
+   ],
+   "nouns": [
+    "jar",
+    "tabletop",
+    "knob of gas stove",
+    "flame",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-340",
+   "start_s": 963.44,
+   "end_s": 964.42,
+   "narration": "Using right hand, opening the lid of the jar while holding the jar in left hand.",
+   "verbs": [
+    "open",
+    "hold"
+   ],
+   "nouns": [
+    "lid of jar",
+    "jar"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-341",
+   "start_s": 964.38,
+   "end_s": 966.9,
+   "narration": "Using the spoon in the right hand, picking up some red chilli from the jar that is held in left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spoon",
+    "some red chilli",
+    "jar"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-342",
+   "start_s": 967.64,
+   "end_s": 976.48,
+   "narration": "Using the spoon in the right hand, placing red chilli in the frying pan while holding the jar in left hand.",
+   "verbs": [
+    "place",
+    "hold"
+   ],
+   "nouns": [
+    "spoon",
+    "red chilli",
+    "frying pan",
+    "jar"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-343",
+   "start_s": 976.58,
+   "end_s": 978.15,
+   "narration": "Using right hand, closing the lid of the jar.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "lid of jar"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-344",
+   "start_s": 978.25,
+   "end_s": 979.28,
+   "narration": "Using right hand, placing the jar on tabletop while using left hand picking up another jar from tabletop.",
+   "verbs": [
+    "place",
+    "pick up"
+   ],
+   "nouns": [
+    "jar",
+    "tabletop",
+    "another jar"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-345",
+   "start_s": 979.38,
+   "end_s": 980.22,
+   "narration": "Using left hand, opening the lid of the jar while holding the jar in right hand.",
+   "verbs": [
+    "open",
+    "hold"
+   ],
+   "nouns": [
+    "lid of jar",
+    "jar"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-346",
+   "start_s": 980.32,
+   "end_s": 984.46,
+   "narration": "Using the spoon in the right hand, picking up some spices from the jar that is held in left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spoon",
+    "some spices",
+    "jar"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-347",
+   "start_s": 984.32,
+   "end_s": 985.9,
+   "narration": "Using the spoon in right hand, placing the spices in the frying pan while holding the jar in left hand.",
+   "verbs": [
+    "place",
+    "hold"
+   ],
+   "nouns": [
+    "spoon",
+    "spices",
+    "frying pan",
+    "jar"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-348",
+   "start_s": 986.0,
+   "end_s": 987.19,
+   "narration": "Using left hand, closing the lid of the jar while holding the jar in right hand.",
+   "verbs": [
+    "close",
+    "hold"
+   ],
+   "nouns": [
+    "lid of jar",
+    "jar"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-349",
+   "start_s": 987.23,
+   "end_s": 988.05,
+   "narration": "Using right hand, placing the jar on the tabletop while using left hand slightly moving another jar on the tabletop.",
+   "verbs": [
+    "place",
+    "move"
+   ],
+   "nouns": [
+    "jar",
+    "tabletop",
+    "another jar"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-350",
+   "start_s": 988.15,
+   "end_s": 990.34,
+   "narration": "Using left hand, picking up another jar from tabletop and opening its lid.",
+   "verbs": [
+    "pick up",
+    "open"
+   ],
+   "nouns": [
+    "another jar",
+    "tabletop",
+    "tabletop lid"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-351",
+   "start_s": 991.44,
+   "end_s": 992.28,
+   "narration": "Using the spoon in the right hand, picking up some turmeric powder from the jar that is held in left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spoon",
+    "some turmeric powder",
+    "jar"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-352",
+   "start_s": 994.27,
+   "end_s": 994.68,
+   "narration": "Using the spoon in the right hand, placing the turmeric powder in the frying pan while holding the jar in left hand.",
+   "verbs": [
+    "place",
+    "hold"
+   ],
+   "nouns": [
+    "spoon",
+    "turmeric powder",
+    "frying pan",
+    "jar"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-353",
+   "start_s": 995.91,
+   "end_s": 997.52,
+   "narration": "Using left hand, closing the lid of the jar.",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "lid of jar"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-354",
+   "start_s": 997.43,
+   "end_s": 998.58,
+   "narration": "Using left hand, placing the jar on the table top.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "jar",
+    "table top"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-355",
+   "start_s": 998.85,
+   "end_s": 1000.46,
+   "narration": "Using right hand, placing the spoon on the jar that is placed on the tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spoon",
+    "jar",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-356",
+   "start_s": 1003.48,
+   "end_s": 1003.93,
+   "narration": "Using right hand, picking up an electric kettle from the tabletop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "electric kettle",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-357",
+   "start_s": 1005.86,
+   "end_s": 1007.04,
+   "narration": "Using right hand, tilting the electric kettle to pour some hot water in the frying pan. This will make sure that the ingredients of the frying pan are uniformly homogenized.",
+   "verbs": [
+    "tilt",
+    "pour"
+   ],
+   "nouns": [
+    "electric kettle",
+    "some hot water",
+    "frying pan",
+    "ingredients of frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-358",
+   "start_s": 1009.92,
+   "end_s": 1010.57,
+   "narration": "Using right hand, placing the electric kettle back on the tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "electric kettle",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-359",
+   "start_s": 1011.45,
+   "end_s": 1011.76,
+   "narration": "Using right hand, picking up the pen from tabletop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "pen",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-360",
+   "start_s": 1012.66,
+   "end_s": 1015.33,
+   "narration": "Using the pen in the right hand, writing on the notebook to record the ingredients of the recipe.",
+   "verbs": [
+    "write on",
+    "record"
+   ],
+   "nouns": [
+    "pen",
+    "notebook",
+    "ingredients of recipe"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-361",
+   "start_s": 1021.51,
+   "end_s": 1021.96,
+   "narration": "Using right hand, placing back the pen on the notebook.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "pen",
+    "notebook"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-362",
+   "start_s": 1023.06,
+   "end_s": 1023.8,
+   "narration": "Using right hand, picking up the spatula from the frying pan.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spatula",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-363",
+   "start_s": 1023.52,
+   "end_s": 1035.5,
+   "narration": "Using the spatula in the right hand, mixing the content of the frying pan to make a homogeneous mixture.",
+   "verbs": [
+    "mix"
+   ],
+   "nouns": [
+    "spatula",
+    "content of frying pan",
+    "homogeneous mixture"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-364",
+   "start_s": 1035.55,
+   "end_s": 1036.48,
+   "narration": "Using right hand, placing back the spatula in the frying pan.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spatula",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-365",
+   "start_s": 1036.56,
+   "end_s": 1037.79,
+   "narration": "Using right hand, picking up the pen from the notebook.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "pen",
+    "notebook"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-366",
+   "start_s": 1037.7,
+   "end_s": 1038.87,
+   "narration": "Using the pen in the right hand, writing on the notebook to record the recipe and ingredients.",
+   "verbs": [
+    "write on",
+    "record"
+   ],
+   "nouns": [
+    "pen",
+    "notebook",
+    "recipe",
+    "ingredients"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-367",
+   "start_s": 1038.97,
+   "end_s": 1039.37,
+   "narration": "Using right hand, placing back the pen on the notebook.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "pen",
+    "notebook"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-368",
+   "start_s": 1039.18,
+   "end_s": 1039.92,
+   "narration": "Using right hand picking up an electric kettle from the tabletop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "electric kettle",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-369",
+   "start_s": 1040.02,
+   "end_s": 1042.64,
+   "narration": "Using right hand, tilting the electric kettle to pour some hot water in the frying pan.",
+   "verbs": [
+    "tilt",
+    "pour"
+   ],
+   "nouns": [
+    "electric kettle",
+    "some hot water",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-370",
+   "start_s": 1042.74,
+   "end_s": 1045.22,
+   "narration": "Using right hand, placing back the electric kettle on the tabletop.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "electric kettle",
+    "tabletop"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-371",
+   "start_s": 1046.21,
+   "end_s": 1046.9,
+   "narration": "Using right hand, picking up the spatula from the frying pan.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spatula",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-372",
+   "start_s": 1046.87,
+   "end_s": 1077.76,
+   "narration": "Using the spatula in the right hand, mixing the contents of the frying pan to make a homogeneous mixture.",
+   "verbs": [
+    "mix"
+   ],
+   "nouns": [
+    "spatula",
+    "contents of frying pan",
+    "homogeneous mixture"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-373",
+   "start_s": 1077.6,
+   "end_s": 1078.47,
+   "narration": "Using right hand, placing back the spatula in the frying pan.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spatula",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-374",
+   "start_s": 1085.39,
+   "end_s": 1087.78,
+   "narration": "Using right hand rotating the knob of the gas stove to reduce the flame. This will ensure that the contents of the frying pan are not overly cooked.",
+   "verbs": [
+    "rotate",
+    "reduce"
+   ],
+   "nouns": [
+    "knob of gas stove",
+    "flame",
+    "contents of frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-375",
+   "start_s": 1087.83,
+   "end_s": 1088.96,
+   "narration": "Using right hand, picking up the spatula from the frying pan.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spatula",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-376",
+   "start_s": 1088.7,
+   "end_s": 1109.21,
+   "narration": "Using the spatula in the right hand, mixing the contents of the frying pan for a homogeneous mixture.",
+   "verbs": [
+    "mix"
+   ],
+   "nouns": [
+    "spatula",
+    "contents of frying pan",
+    "homogeneous mixture"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-377",
+   "start_s": 1109.1,
+   "end_s": 1109.65,
+   "narration": "Using right hand, placing back the spatula in the frying pan.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spatula",
+    "frying pan"
+   ]
+  },
+  {
+   "action_id": "P06-20240510-115307-378",
+   "start_s": 1109.75,
+   "end_s": 1110.97,
+   "narration": "Using right hand, rotating the knob of the gas stove to reduce the flame. This will ensure that the frying pan is not overly heated.",
+   "verbs": [
+    "rotate",
+    "reduce"
+   ],
+   "nouns": [
+    "knob of gas stove",
+    "flame",
+    "frying pan"
+   ]
+  }
+ ]
+}

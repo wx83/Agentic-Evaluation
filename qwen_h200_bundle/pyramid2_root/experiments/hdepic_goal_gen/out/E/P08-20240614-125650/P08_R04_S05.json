@@ -1,0 +1,47 @@
+{
+ "overall_goal": "Check, flip, and continue baking the chicken in the oven",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Take the chicken out of the oven, flip it, and return it to bake at a higher temperature",
+   "action_ids": [
+    "P08-20240614-125650-274",
+    "P08-20240614-125650-275",
+    "P08-20240614-125650-276",
+    "P08-20240614-125650-277",
+    "P08-20240614-125650-278",
+    "P08-20240614-125650-279",
+    "P08-20240614-125650-280",
+    "P08-20240614-125650-281",
+    "P08-20240614-125650-282",
+    "P08-20240614-125650-283",
+    "P08-20240614-125650-284",
+    "P08-20240614-125650-285",
+    "P08-20240614-125650-286",
+    "P08-20240614-125650-287"
+   ],
+   "rationale": "The person clears space, removes the baking tray from the oven, flips the chicken with tongs, and puts it back in the oven while increasing the temperature."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Check the chicken a second time for doneness and return it to the oven",
+   "action_ids": [
+    "P08-20240614-125650-455",
+    "P08-20240614-125650-456",
+    "P08-20240614-125650-457",
+    "P08-20240614-125650-458",
+    "P08-20240614-125650-459",
+    "P08-20240614-125650-460",
+    "P08-20240614-125650-461",
+    "P08-20240614-125650-462",
+    "P08-20240614-125650-463"
+   ],
+   "rationale": "The person takes the baking tray out again, flips the chicken to check if it is cooked, and then places it back into the oven."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "overall_goal": "Stir the curry to submerge the vegetables and allow it to boil",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Perform initial stirring of the pot and manage the lid",
+   "action_ids": [
+    "P09-20240621-093545-917",
+    "P09-20240621-093545-918",
+    "P09-20240621-093545-919",
+    "P09-20240621-093545-985",
+    "P09-20240621-093545-986",
+    "P09-20240621-093545-987",
+    "P09-20240621-093545-1013"
+   ],
+   "rationale": "The person stirs the pot with a fork, replaces the lid, and later removes the lid to stir the contents again."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Periodically stir the boiling curry",
+   "action_ids": [
+    "P09-20240621-093545-1058",
+    "P09-20240621-093545-1059",
+    "P09-20240621-093545-1089",
+    "P09-20240621-093545-1090",
+    "P09-20240621-093545-1103",
+    "P09-20240621-093545-1104"
+   ],
+   "rationale": "The person repeatedly stirs the pot with a fork and returns the fork to the bowl to ensure the vegetables remain submerged."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

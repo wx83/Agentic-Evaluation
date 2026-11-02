@@ -1,0 +1,167 @@
+{
+ "overall_goal": "Prepare a spice and lemon marinade and toss the mushrooms in it to coat",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Set up the mixing bowl and gather the first set of spices",
+   "action_ids": [
+    "P02-20240211-175138-211",
+    "P02-20240211-175138-212",
+    "P02-20240211-175138-213",
+    "P02-20240211-175138-222",
+    "P02-20240211-175138-223",
+    "P02-20240211-175138-224",
+    "P02-20240211-175138-225",
+    "P02-20240211-175138-231"
+   ],
+   "rationale": "The person retrieves the large mixing bowl and places the first few spice containers on the countertop."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Search through the basket to gather the remaining spice packets",
+   "action_ids": [
+    "P02-20240211-175138-233",
+    "P02-20240211-175138-234",
+    "P02-20240211-175138-235",
+    "P02-20240211-175138-236",
+    "P02-20240211-175138-237",
+    "P02-20240211-175138-238",
+    "P02-20240211-175138-239",
+    "P02-20240211-175138-240",
+    "P02-20240211-175138-241",
+    "P02-20240211-175138-242",
+    "P02-20240211-175138-243",
+    "P02-20240211-175138-244",
+    "P02-20240211-175138-245",
+    "P02-20240211-175138-246",
+    "P02-20240211-175138-247"
+   ],
+   "rationale": "The person searches through a basket of spice packets to find the remaining spices needed for the recipe."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Check the recipe, retrieve a teaspoon, and add coriander to the bowl",
+   "action_ids": [
+    "P02-20240211-175138-248",
+    "P02-20240211-175138-249",
+    "P02-20240211-175138-250",
+    "P02-20240211-175138-251",
+    "P02-20240211-175138-252",
+    "P02-20240211-175138-253",
+    "P02-20240211-175138-254",
+    "P02-20240211-175138-255",
+    "P02-20240211-175138-256",
+    "P02-20240211-175138-257",
+    "P02-20240211-175138-258"
+   ],
+   "rationale": "The person checks the recipe, gets a teaspoon from the drawer, and measures coriander into the mixing bowl."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Measure and add cumin, paprika, and nutmeg to the spice mixture",
+   "action_ids": [
+    "P02-20240211-175138-266",
+    "P02-20240211-175138-267",
+    "P02-20240211-175138-268",
+    "P02-20240211-175138-269",
+    "P02-20240211-175138-270",
+    "P02-20240211-175138-271",
+    "P02-20240211-175138-279",
+    "P02-20240211-175138-280",
+    "P02-20240211-175138-281",
+    "P02-20240211-175138-282",
+    "P02-20240211-175138-283",
+    "P02-20240211-175138-284",
+    "P02-20240211-175138-285",
+    "P02-20240211-175138-291",
+    "P02-20240211-175138-292",
+    "P02-20240211-175138-293"
+   ],
+   "rationale": "The person measures out cumin, paprika, and nutmeg, adding each to the mixing bowl."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Measure and add ginger, cayenne pepper, and salt to the bowl",
+   "action_ids": [
+    "P02-20240211-175138-297",
+    "P02-20240211-175138-298",
+    "P02-20240211-175138-299",
+    "P02-20240211-175138-300",
+    "P02-20240211-175138-307",
+    "P02-20240211-175138-308",
+    "P02-20240211-175138-309",
+    "P02-20240211-175138-310",
+    "P02-20240211-175138-311",
+    "P02-20240211-175138-322",
+    "P02-20240211-175138-323"
+   ],
+   "rationale": "The person measures out ginger, cayenne pepper, and salt, adding them to the spice mixture."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Retrieve a tablespoon, measure the olive oil, and mix it with the spices",
+   "action_ids": [
+    "P02-20240211-175138-326",
+    "P02-20240211-175138-327",
+    "P02-20240211-175138-328",
+    "P02-20240211-175138-329",
+    "P02-20240211-175138-330",
+    "P02-20240211-175138-331",
+    "P02-20240211-175138-332",
+    "P02-20240211-175138-333",
+    "P02-20240211-175138-334",
+    "P02-20240211-175138-335",
+    "P02-20240211-175138-336",
+    "P02-20240211-175138-337",
+    "P02-20240211-175138-338",
+    "P02-20240211-175138-339",
+    "P02-20240211-175138-340"
+   ],
+   "rationale": "The person swaps the teaspoon for a tablespoon, measures the olive oil, and mixes it with the spices."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Fetch a lemon, cut it in half, and squeeze its juice into the bowl",
+   "action_ids": [
+    "P02-20240211-175138-352",
+    "P02-20240211-175138-353",
+    "P02-20240211-175138-354",
+    "P02-20240211-175138-355",
+    "P02-20240211-175138-356",
+    "P02-20240211-175138-357",
+    "P02-20240211-175138-358",
+    "P02-20240211-175138-359",
+    "P02-20240211-175138-360",
+    "P02-20240211-175138-361",
+    "P02-20240211-175138-362",
+    "P02-20240211-175138-363",
+    "P02-20240211-175138-364",
+    "P02-20240211-175138-365",
+    "P02-20240211-175138-366",
+    "P02-20240211-175138-367",
+    "P02-20240211-175138-368",
+    "P02-20240211-175138-369"
+   ],
+   "rationale": "The person retrieves a lemon from the fridge, cuts it in half with a chef's knife, and squeezes the juice into the bowl."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Stir the lemon juice into the marinade and toss the mushrooms to coat them evenly",
+   "action_ids": [
+    "P02-20240211-175138-386",
+    "P02-20240211-175138-387",
+    "P02-20240211-175138-528",
+    "P02-20240211-175138-529",
+    "P02-20240211-175138-530",
+    "P02-20240211-175138-531",
+    "P02-20240211-175138-532"
+   ],
+   "rationale": "The person stirs the lemon juice into the marinade and tosses the mushrooms to ensure they are evenly coated."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "overall_goal": "Add the remaining stock to the pan and continue stirring",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Pour the remaining broth into the frying pan and mix it in",
+   "action_ids": [
+    "P07-20240529-194518-384",
+    "P07-20240529-194518-385",
+    "P07-20240529-194518-386",
+    "P07-20240529-194518-387",
+    "P07-20240529-194518-388",
+    "P07-20240529-194518-389"
+   ],
+   "rationale": "The person picks up the saucepan, pours and scrapes all the remaining broth into the frying pan, then stirs the mixture."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Periodically stir the contents of the pan to prevent burning",
+   "action_ids": [
+    "P07-20240529-194518-411",
+    "P07-20240529-194518-412",
+    "P07-20240529-194518-450",
+    "P07-20240529-194518-451",
+    "P07-20240529-194518-452",
+    "P07-20240529-194518-483",
+    "P07-20240529-194518-509",
+    "P07-20240529-194518-510"
+   ],
+   "rationale": "The person repeatedly picks up the spatula to stir and shake the pan over time to ensure the food does not burn."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

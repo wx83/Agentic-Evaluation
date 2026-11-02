@@ -1,0 +1,55 @@
+{
+ "overall_goal": "Check the doneness of the cooked lentils and add water to continue cooking if necessary",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Set aside the pressure cooker to release pressure and open its lid to inspect the contents",
+   "action_ids": [
+    "P06-20240510-115307-11",
+    "P06-20240510-115307-260",
+    "P06-20240510-115307-261",
+    "P06-20240510-115307-262",
+    "P06-20240510-115307-263",
+    "P06-20240510-115307-265",
+    "P06-20240510-115307-266",
+    "P06-20240510-115307-267"
+   ],
+   "rationale": "The person moves the pressure cooker to let it cool down, then opens the lid and looks inside to check the cooked ingredients."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Test the doneness of the kidney beans by mashing them",
+   "action_ids": [
+    "P06-20240510-115307-268",
+    "P06-20240510-115307-269",
+    "P06-20240510-115307-270",
+    "P06-20240510-115307-271",
+    "P06-20240510-115307-272",
+    "P06-20240510-115307-274"
+   ],
+   "rationale": "The person uses a spoon to scoop out some kidney beans and presses them with their fingers to ensure they are completely cooked and soft."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Add water to the pressure cooker and return it to the stove",
+   "action_ids": [
+    "P06-20240510-115307-275",
+    "P06-20240510-115307-276",
+    "P06-20240510-115307-277",
+    "P06-20240510-115307-278",
+    "P06-20240510-115307-279",
+    "P06-20240510-115307-280",
+    "P06-20240510-115307-281",
+    "P06-20240510-115307-283"
+   ],
+   "rationale": "The person takes the pressure cooker to the sink to add tap water, then closes the lid and places it back on the gas stove flame."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P06-20240510-115307-264"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

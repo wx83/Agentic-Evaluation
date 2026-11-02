@@ -1,0 +1,46 @@
+{
+ "overall_goal": "Season the mushrooms with salt and pepper and stir them regularly while they cook",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Season the mushrooms with salt and pepper",
+   "action_ids": [
+    "P07-20240529-194518-17",
+    "P07-20240529-194518-18",
+    "P07-20240529-194518-19",
+    "P07-20240529-194518-21",
+    "P07-20240529-194518-22"
+   ],
+   "rationale": "The person adds pinches of salt and grinds pepper over the mushrooms in the pan."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Stir the mushrooms and shake the pan",
+   "action_ids": [
+    "P07-20240529-194518-23",
+    "P07-20240529-194518-24",
+    "P07-20240529-194518-25",
+    "P07-20240529-194518-26",
+    "P07-20240529-194518-27",
+    "P07-20240529-194518-28"
+   ],
+   "rationale": "The person stirs the mushrooms with a wooden spatula, taps the spatula to remove pieces, shakes the pan, and sets the spatula down."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Stir the mushrooms again to prevent burning",
+   "action_ids": [
+    "P07-20240529-194518-51",
+    "P07-20240529-194518-52",
+    "P07-20240529-194518-53",
+    "P07-20240529-194518-54"
+   ],
+   "rationale": "The person resumes stirring the mushrooms, taps the spatula, shakes the pan, and pushes down pieces from the sides of the pan."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

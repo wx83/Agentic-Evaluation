@@ -1,0 +1,127 @@
+{
+ "overall_goal": "Prepare a pan with oil and crack eggs into a jug with milk and pepper",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare the measuring jug and retrieve the first batch of eggs",
+   "action_ids": [
+    "P02-20240210-113925-116",
+    "P02-20240210-113925-117",
+    "P02-20240210-113925-118",
+    "P02-20240210-113925-119",
+    "P02-20240210-113925-120",
+    "P02-20240210-113925-121"
+   ],
+   "rationale": "The person sets up the measuring jug on the counter and takes the first two eggs out of the carton."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Wash the first batch of eggs",
+   "action_ids": [
+    "P02-20240210-113925-122",
+    "P02-20240210-113925-123",
+    "P02-20240210-113925-124",
+    "P02-20240210-113925-125",
+    "P02-20240210-113925-126",
+    "P02-20240210-113925-131",
+    "P02-20240210-113925-128",
+    "P02-20240210-113925-130",
+    "P02-20240210-113925-132",
+    "P02-20240210-113925-134",
+    "P02-20240210-113925-135"
+   ],
+   "rationale": "The person washes the first two eggs under the tap and shakes off the excess water."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Crack the first batch of eggs into the measuring jug",
+   "action_ids": [
+    "P02-20240210-113925-136",
+    "P02-20240210-113925-137",
+    "P02-20240210-113925-138",
+    "P02-20240210-113925-139",
+    "P02-20240210-113925-140",
+    "P02-20240210-113925-141",
+    "P02-20240210-113925-142",
+    "P02-20240210-113925-144",
+    "P02-20240210-113925-145",
+    "P02-20240210-113925-146",
+    "P02-20240210-113925-147"
+   ],
+   "rationale": "The person cracks the first two eggs into the measuring jug and discards the shells."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Retrieve and wash the second batch of eggs",
+   "action_ids": [
+    "P02-20240210-113925-148",
+    "P02-20240210-113925-149",
+    "P02-20240210-113925-150",
+    "P02-20240210-113925-151",
+    "P02-20240210-113925-152",
+    "P02-20240210-113925-153",
+    "P02-20240210-113925-154",
+    "P02-20240210-113925-155",
+    "P02-20240210-113925-156",
+    "P02-20240210-113925-157"
+   ],
+   "rationale": "The person retrieves two more eggs from a different carton and washes them."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Crack the second batch of eggs into the measuring jug",
+   "action_ids": [
+    "P02-20240210-113925-158",
+    "P02-20240210-113925-159",
+    "P02-20240210-113925-160",
+    "P02-20240210-113925-161",
+    "P02-20240210-113925-162",
+    "P02-20240210-113925-163",
+    "P02-20240210-113925-164",
+    "P02-20240210-113925-165",
+    "P02-20240210-113925-166",
+    "P02-20240210-113925-167",
+    "P02-20240210-113925-168",
+    "P02-20240210-113925-169"
+   ],
+   "rationale": "The person cracks the second pair of eggs into the measuring jug and disposes of the shells."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Prepare a pan and add oil to it",
+   "action_ids": [
+    "P02-20240210-113925-187",
+    "P02-20240210-113925-188",
+    "P02-20240210-113925-189",
+    "P02-20240210-113925-190",
+    "P02-20240210-113925-191",
+    "P02-20240210-113925-192",
+    "P02-20240210-113925-193"
+   ],
+   "rationale": "The person retrieves a pan, places it on the stove, and pours olive oil into it."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Add milk and pepper to the eggs",
+   "action_ids": [
+    "P02-20240210-113925-198",
+    "P02-20240210-113925-199",
+    "P02-20240210-113925-220",
+    "P02-20240210-113925-221",
+    "P02-20240210-113925-222",
+    "P02-20240210-113925-223"
+   ],
+   "rationale": "The person adds milk and grinds pepper into the egg mixture."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P02-20240210-113925-127",
+  "P02-20240210-113925-129",
+  "P02-20240210-113925-133",
+  "P02-20240210-113925-143"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

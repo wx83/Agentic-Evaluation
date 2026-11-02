@@ -1,0 +1,147 @@
+{
+ "overall_goal": "Tidy up the kitchen by putting away ingredients and clean dishes, while occasionally checking the food",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Throw away the discarded wrapper into the bin",
+   "action_ids": [
+    "P02-20240211-175138-958",
+    "P02-20240211-175138-959",
+    "P02-20240211-175138-960",
+    "P02-20240211-175138-961"
+   ],
+   "rationale": "The person picks up a wrapper from the countertop and throws it into the bin."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Check the food and adjust the burner temperature",
+   "action_ids": [
+    "P02-20240211-175138-962",
+    "P02-20240211-175138-963",
+    "P02-20240211-175138-1017",
+    "P02-20240211-175138-1020",
+    "P02-20240211-175138-1021",
+    "P02-20240211-175138-1022",
+    "P02-20240211-175138-1023",
+    "P02-20240211-175138-1024",
+    "P02-20240211-175138-1071"
+   ],
+   "rationale": "The person checks the boiling water, adjusts the hob temperature multiple times, and handles the cooking spoon."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Taste the mixture and clean the teaspoon",
+   "action_ids": [
+    "P02-20240211-175138-978",
+    "P02-20240211-175138-979",
+    "P02-20240211-175138-980",
+    "P02-20240211-175138-981",
+    "P02-20240211-175138-982",
+    "P02-20240211-175138-983",
+    "P02-20240211-175138-984",
+    "P02-20240211-175138-991",
+    "P02-20240211-175138-995",
+    "P02-20240211-175138-996",
+    "P02-20240211-175138-997",
+    "P02-20240211-175138-1016"
+   ],
+   "rationale": "The person uses a teaspoon to taste the food, taps it to remove sauce, and repeatedly rinses it under the tap before placing it away."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Put away the ingredients into the cupboard and fridge",
+   "action_ids": [
+    "P02-20240211-175138-985",
+    "P02-20240211-175138-992",
+    "P02-20240211-175138-993",
+    "P02-20240211-175138-994",
+    "P02-20240211-175138-998",
+    "P02-20240211-175138-1006",
+    "P02-20240211-175138-1007",
+    "P02-20240211-175138-1008",
+    "P02-20240211-175138-1009",
+    "P02-20240211-175138-1010",
+    "P02-20240211-175138-1011",
+    "P02-20240211-175138-1012",
+    "P02-20240211-175138-1013",
+    "P02-20240211-175138-1014",
+    "P02-20240211-175138-1015"
+   ],
+   "rationale": "The person closes the Worcestershire sauce and minced garlic jars, then stores them in the cupboard and fridge respectively."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Put away clean dishes from the drying rack into the cupboard",
+   "action_ids": [
+    "P02-20240211-175138-1027",
+    "P02-20240211-175138-1028",
+    "P02-20240211-175138-1029",
+    "P02-20240211-175138-1030",
+    "P02-20240211-175138-1031",
+    "P02-20240211-175138-1032",
+    "P02-20240211-175138-1033",
+    "P02-20240211-175138-1034",
+    "P02-20240211-175138-1062"
+   ],
+   "rationale": "The person takes dry muffin trays and plates from the drying rack and places them into the cupboards."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Put away clean cutlery from the drying rack",
+   "action_ids": [
+    "P02-20240211-175138-1039",
+    "P02-20240211-175138-1040",
+    "P02-20240211-175138-1041",
+    "P02-20240211-175138-1042",
+    "P02-20240211-175138-1043",
+    "P02-20240211-175138-1044",
+    "P02-20240211-175138-1046",
+    "P02-20240211-175138-1047",
+    "P02-20240211-175138-1048",
+    "P02-20240211-175138-1049",
+    "P02-20240211-175138-1050",
+    "P02-20240211-175138-1051",
+    "P02-20240211-175138-1056"
+   ],
+   "rationale": "The person gathers spoons and knives from the drying rack and organizes them into the cutlery drawer and storage rack."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Put away clean utensils from the drying rack",
+   "action_ids": [
+    "P02-20240211-175138-1045",
+    "P02-20240211-175138-1052",
+    "P02-20240211-175138-1053",
+    "P02-20240211-175138-1054",
+    "P02-20240211-175138-1055",
+    "P02-20240211-175138-1057",
+    "P02-20240211-175138-1058",
+    "P02-20240211-175138-1059",
+    "P02-20240211-175138-1060",
+    "P02-20240211-175138-1061"
+   ],
+   "rationale": "The person collects larger utensils like a spatula and pan grippers from the drying rack and places them into the utensils drawer."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P02-20240211-175138-948",
+  "P02-20240211-175138-949",
+  "P02-20240211-175138-966",
+  "P02-20240211-175138-967",
+  "P02-20240211-175138-977",
+  "P02-20240211-175138-1025",
+  "P02-20240211-175138-1026",
+  "P02-20240211-175138-1035",
+  "P02-20240211-175138-1038",
+  "P02-20240211-175138-1063",
+  "P02-20240211-175138-1066",
+  "P02-20240211-175138-1067",
+  "P02-20240211-175138-1068",
+  "P02-20240211-175138-1069",
+  "P02-20240211-175138-1070"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

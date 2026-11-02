@@ -1,0 +1,201 @@
+{
+ "overall_goal": "Clean up the workspace, store leftover ingredients, and log recipe details",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Weigh green peas and log the weight",
+   "action_ids": [
+    "P04-20240415-181212-402",
+    "P04-20240415-181212-407",
+    "P04-20240415-181212-408",
+    "P04-20240415-181212-409",
+    "P04-20240415-181212-410",
+    "P04-20240415-181212-411",
+    "P04-20240415-181212-412",
+    "P04-20240415-181212-413",
+    "P04-20240415-181212-414",
+    "P04-20240415-181212-415",
+    "P04-20240415-181212-416",
+    "P04-20240415-181212-417",
+    "P04-20240415-181212-419",
+    "P04-20240415-181212-420"
+   ],
+   "rationale": "The person measures the required amount of green peas using a weighing scale and writes down the measurement in a notebook."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P04-20240415-181212-450",
+    "P04-20240415-181212-451",
+    "P04-20240415-181212-452",
+    "P04-20240415-181212-453",
+    "P04-20240415-181212-454",
+    "P04-20240415-181212-455",
+    "P04-20240415-181212-456"
+   ],
+   "rationale": "The person turns on the tap, washes their hands, and dries them with a kitchen rag."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Log the amount of lemon juice added",
+   "action_ids": [
+    "P04-20240415-181212-458",
+    "P04-20240415-181212-459",
+    "P04-20240415-181212-460"
+   ],
+   "rationale": "The person picks up a pen and writes down the quantity of lemon juice used in the recipe."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Add remaining rice to the pressure cooker",
+   "action_ids": [
+    "P04-20240415-181212-468",
+    "P04-20240415-181212-472",
+    "P04-20240415-181212-475",
+    "P04-20240415-181212-478",
+    "P04-20240415-181212-479"
+   ],
+   "rationale": "The person handles the bowl of basmati rice and shakes it over the pressure cooker to ensure all grains are added."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Throw away rubbish",
+   "action_ids": [
+    "P04-20240415-181212-494",
+    "P04-20240415-181212-495",
+    "P04-20240415-181212-496"
+   ],
+   "rationale": "The person picks up a dropped piece of onion and disposes of it in the rubbish bin."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Store leftover ingredients in the refrigerator",
+   "action_ids": [
+    "P04-20240415-181212-498",
+    "P04-20240415-181212-499",
+    "P04-20240415-181212-500",
+    "P04-20240415-181212-501",
+    "P04-20240415-181212-502",
+    "P04-20240415-181212-503",
+    "P04-20240415-181212-504",
+    "P04-20240415-181212-505",
+    "P04-20240415-181212-506",
+    "P04-20240415-181212-507",
+    "P04-20240415-181212-508",
+    "P04-20240415-181212-509",
+    "P04-20240415-181212-510",
+    "P04-20240415-181212-511",
+    "P04-20240415-181212-512",
+    "P04-20240415-181212-513",
+    "P04-20240415-181212-514",
+    "P04-20240415-181212-515",
+    "P04-20240415-181212-516",
+    "P04-20240415-181212-517",
+    "P04-20240415-181212-518",
+    "P04-20240415-181212-519",
+    "P04-20240415-181212-520"
+   ],
+   "rationale": "The person seals containers of green peas, green chillies, and a lemon slice, and places them into the refrigerator."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Seal and store the bag of basmati rice",
+   "action_ids": [
+    "P04-20240415-181212-521",
+    "P04-20240415-181212-522",
+    "P04-20240415-181212-523",
+    "P04-20240415-181212-524",
+    "P04-20240415-181212-525",
+    "P04-20240415-181212-526",
+    "P04-20240415-181212-527"
+   ],
+   "rationale": "The person flattens and folds the opened bag of basmati rice to seal it, then stores it in a lower cabinet."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Store leftover garlic and ingredient packets",
+   "action_ids": [
+    "P04-20240415-181212-528",
+    "P04-20240415-181212-529",
+    "P04-20240415-181212-531",
+    "P04-20240415-181212-532"
+   ],
+   "rationale": "The person moves packets of ingredients and a head of garlic from the countertop to their respective storage spots."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Clear dirty dishes and utensils to the sink area",
+   "action_ids": [
+    "P04-20240415-181212-533",
+    "P04-20240415-181212-534",
+    "P04-20240415-181212-535",
+    "P04-20240415-181212-536",
+    "P04-20240415-181212-537",
+    "P04-20240415-181212-538",
+    "P04-20240415-181212-539",
+    "P04-20240415-181212-540",
+    "P04-20240415-181212-541",
+    "P04-20240415-181212-542",
+    "P04-20240415-181212-543",
+    "P04-20240415-181212-544",
+    "P04-20240415-181212-545",
+    "P04-20240415-181212-546",
+    "P04-20240415-181212-547",
+    "P04-20240415-181212-548",
+    "P04-20240415-181212-549",
+    "P04-20240415-181212-550",
+    "P04-20240415-181212-552",
+    "P04-20240415-181212-554",
+    "P04-20240415-181212-555"
+   ],
+   "rationale": "The person scrapes food bits into the bin and gathers empty plates, bowls, spoons, and a knife, placing them in or next to the kitchen sink."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Close the salt jar",
+   "action_ids": [
+    "P04-20240415-181212-556",
+    "P04-20240415-181212-557",
+    "P04-20240415-181212-558",
+    "P04-20240415-181212-561",
+    "P04-20240415-181212-559",
+    "P04-20240415-181212-560"
+   ],
+   "rationale": "The person taps the spoon to remove excess salt, then places the lid back onto the salt jar."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P04-20240415-181212-390",
+  "P04-20240415-181212-397",
+  "P04-20240415-181212-398",
+  "P04-20240415-181212-399",
+  "P04-20240415-181212-421",
+  "P04-20240415-181212-424",
+  "P04-20240415-181212-425",
+  "P04-20240415-181212-434",
+  "P04-20240415-181212-435",
+  "P04-20240415-181212-438",
+  "P04-20240415-181212-448",
+  "P04-20240415-181212-449",
+  "P04-20240415-181212-457",
+  "P04-20240415-181212-461",
+  "P04-20240415-181212-467",
+  "P04-20240415-181212-470",
+  "P04-20240415-181212-471",
+  "P04-20240415-181212-473",
+  "P04-20240415-181212-484",
+  "P04-20240415-181212-485",
+  "P04-20240415-181212-486",
+  "P04-20240415-181212-492",
+  "P04-20240415-181212-493",
+  "P04-20240415-181212-497",
+  "P04-20240415-181212-530",
+  "P04-20240415-181212-551",
+  "P04-20240415-181212-553"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

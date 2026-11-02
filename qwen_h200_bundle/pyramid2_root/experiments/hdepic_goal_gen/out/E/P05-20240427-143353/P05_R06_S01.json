@@ -1,0 +1,91 @@
+{
+ "overall_goal": "Wash the rice, add water and salt, and place it on the cooker to boil.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Set up the scales, pan, and sieve.",
+   "action_ids": [
+    "P05-20240427-143353-4",
+    "P05-20240427-143353-5",
+    "P05-20240427-143353-6",
+    "P05-20240427-143353-7",
+    "P05-20240427-143353-8",
+    "P05-20240427-143353-9",
+    "P05-20240427-143353-11",
+    "P05-20240427-143353-12",
+    "P05-20240427-143353-13"
+   ],
+   "rationale": "The person retrieves the scales, pan, and sieve and arranges them on the counter to prepare for measuring the rice."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Measure the rice.",
+   "action_ids": [
+    "P05-20240427-143353-16",
+    "P05-20240427-143353-17",
+    "P05-20240427-143353-18",
+    "P05-20240427-143353-19",
+    "P05-20240427-143353-20",
+    "P05-20240427-143353-21",
+    "P05-20240427-143353-22",
+    "P05-20240427-143353-23",
+    "P05-20240427-143353-24",
+    "P05-20240427-143353-25",
+    "P05-20240427-143353-26"
+   ],
+   "rationale": "The person gets the bag of rice, adjusts the scale units, and pours the desired amount of rice into the sieve."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Wash the rice.",
+   "action_ids": [
+    "P05-20240427-143353-30",
+    "P05-20240427-143353-31",
+    "P05-20240427-143353-32",
+    "P05-20240427-143353-35",
+    "P05-20240427-143353-36",
+    "P05-20240427-143353-37"
+   ],
+   "rationale": "The person clears space in the sink and rinses the rice in the sieve under cold running water to remove the starch."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Transfer the rice to the pan and add water.",
+   "action_ids": [
+    "P05-20240427-143353-39",
+    "P05-20240427-143353-40",
+    "P05-20240427-143353-44",
+    "P05-20240427-143353-45",
+    "P05-20240427-143353-46",
+    "P05-20240427-143353-47",
+    "P05-20240427-143353-48",
+    "P05-20240427-143353-49",
+    "P05-20240427-143353-50",
+    "P05-20240427-143353-51",
+    "P05-20240427-143353-52",
+    "P05-20240427-143353-53"
+   ],
+   "rationale": "The person empties the washed rice into the pan, then fills a glass with water and pours it into the pan on the scales."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Place the pan on the cooker and add salt.",
+   "action_ids": [
+    "P05-20240427-143353-55",
+    "P05-20240427-143353-56",
+    "P05-20240427-143353-57",
+    "P05-20240427-143353-58",
+    "P05-20240427-143353-61",
+    "P05-20240427-143353-62",
+    "P05-20240427-143353-68",
+    "P05-20240427-143353-69"
+   ],
+   "rationale": "The person moves the pan to the cooker, adds a pinch of salt, and positions the pan on the stove to begin cooking."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "overall_goal": "Clean dishes, prepare coffee, and wash hands",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Soak dishes in the pressure cooker",
+   "action_ids": [
+    "P06-20240511-102207-695",
+    "P06-20240511-102207-696",
+    "P06-20240511-102207-697",
+    "P06-20240511-102207-698",
+    "P06-20240511-102207-699",
+    "P06-20240511-102207-700"
+   ],
+   "rationale": "The person fills the pressure cooker with water and dishwashing liquid, then places utensils inside to soak."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Prepare and serve coffee",
+   "action_ids": [
+    "P06-20240511-102207-701",
+    "P06-20240511-102207-702",
+    "P06-20240511-102207-703",
+    "P06-20240511-102207-705",
+    "P06-20240511-102207-706",
+    "P06-20240511-102207-707",
+    "P06-20240511-102207-708",
+    "P06-20240511-102207-709",
+    "P06-20240511-102207-710",
+    "P06-20240511-102207-711",
+    "P06-20240511-102207-712",
+    "P06-20240511-102207-713",
+    "P06-20240511-102207-714",
+    "P06-20240511-102207-715"
+   ],
+   "rationale": "The person retrieves a spoon, takes cups of coffee out of the microwave, stirs them, and sets them aside."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Scrub dishes with soap",
+   "action_ids": [
+    "P06-20240511-102207-716",
+    "P06-20240511-102207-717",
+    "P06-20240511-102207-718",
+    "P06-20240511-102207-719",
+    "P06-20240511-102207-720",
+    "P06-20240511-102207-721",
+    "P06-20240511-102207-722",
+    "P06-20240511-102207-723",
+    "P06-20240511-102207-724",
+    "P06-20240511-102207-725",
+    "P06-20240511-102207-726",
+    "P06-20240511-102207-727",
+    "P06-20240511-102207-728",
+    "P06-20240511-102207-729",
+    "P06-20240511-102207-730",
+    "P06-20240511-102207-731",
+    "P06-20240511-102207-732",
+    "P06-20240511-102207-733"
+   ],
+   "rationale": "The person applies dishwashing liquid to a sponge and scrubs the pressure cooker, its lid, and the spatula."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Rinse dishes and place them in the drying tray",
+   "action_ids": [
+    "P06-20240511-102207-734",
+    "P06-20240511-102207-735",
+    "P06-20240511-102207-736",
+    "P06-20240511-102207-737",
+    "P06-20240511-102207-738",
+    "P06-20240511-102207-739",
+    "P06-20240511-102207-741",
+    "P06-20240511-102207-740",
+    "P06-20240511-102207-742",
+    "P06-20240511-102207-743",
+    "P06-20240511-102207-744",
+    "P06-20240511-102207-745",
+    "P06-20240511-102207-746",
+    "P06-20240511-102207-747",
+    "P06-20240511-102207-748",
+    "P06-20240511-102207-749",
+    "P06-20240511-102207-750",
+    "P06-20240511-102207-751",
+    "P06-20240511-102207-752"
+   ],
+   "rationale": "The person washes the soap off the scrubbed dishes under running water and places them in the crockery tray to dry."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Wash hands and wipe the counter",
+   "action_ids": [
+    "P06-20240511-102207-753",
+    "P06-20240511-102207-754",
+    "P06-20240511-102207-755",
+    "P06-20240511-102207-756",
+    "P06-20240511-102207-757",
+    "P06-20240511-102207-758",
+    "P06-20240511-102207-759",
+    "P06-20240511-102207-760",
+    "P06-20240511-102207-761"
+   ],
+   "rationale": "The person washes their hands with hand wash liquid, then uses a tablecloth to wipe the sink area and dry their hands."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P06-20240511-102207-704"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

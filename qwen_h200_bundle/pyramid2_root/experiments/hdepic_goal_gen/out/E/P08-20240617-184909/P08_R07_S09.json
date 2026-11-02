@@ -1,0 +1,129 @@
+{
+ "overall_goal": "Chop the broccoli, add the vegetables to the pan, and stir them",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Chop the broccoli into smaller pieces",
+   "action_ids": [
+    "P08-20240617-184909-407",
+    "P08-20240617-184909-408",
+    "P08-20240617-184909-409",
+    "P08-20240617-184909-410",
+    "P08-20240617-184909-411",
+    "P08-20240617-184909-412",
+    "P08-20240617-184909-413",
+    "P08-20240617-184909-414",
+    "P08-20240617-184909-415",
+    "P08-20240617-184909-416",
+    "P08-20240617-184909-417",
+    "P08-20240617-184909-418",
+    "P08-20240617-184909-419"
+   ],
+   "rationale": "The person retrieves broccoli from the air fryer and chops it into smaller pieces on the cutting board."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Continue chopping the broccoli into smaller pieces",
+   "action_ids": [
+    "P08-20240617-184909-420",
+    "P08-20240617-184909-421",
+    "P08-20240617-184909-422",
+    "P08-20240617-184909-423",
+    "P08-20240617-184909-424",
+    "P08-20240617-184909-425",
+    "P08-20240617-184909-426",
+    "P08-20240617-184909-427",
+    "P08-20240617-184909-428",
+    "P08-20240617-184909-429"
+   ],
+   "rationale": "The person continues to grab more broccoli from the air fryer and chop it on the cutting board."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Transfer the chopped broccoli and other vegetables to the pan",
+   "action_ids": [
+    "P08-20240617-184909-462",
+    "P08-20240617-184909-463",
+    "P08-20240617-184909-464",
+    "P08-20240617-184909-465",
+    "P08-20240617-184909-466",
+    "P08-20240617-184909-467",
+    "P08-20240617-184909-468",
+    "P08-20240617-184909-469",
+    "P08-20240617-184909-470",
+    "P08-20240617-184909-471",
+    "P08-20240617-184909-472",
+    "P08-20240617-184909-473"
+   ],
+   "rationale": "The person moves the chopped broccoli from the cutting board and the remaining vegetables from the air fryer tray into the pan, then mixes them."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Stir the vegetables in the pan",
+   "action_ids": [
+    "P08-20240617-184909-496",
+    "P08-20240617-184909-497",
+    "P08-20240617-184909-498",
+    "P08-20240617-184909-499",
+    "P08-20240617-184909-500",
+    "P08-20240617-184909-513",
+    "P08-20240617-184909-514",
+    "P08-20240617-184909-515"
+   ],
+   "rationale": "The person mixes the vegetables and seasoning in the pan, handling a piece of food that fell out."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Continue stirring the vegetables in the pan",
+   "action_ids": [
+    "P08-20240617-184909-567",
+    "P08-20240617-184909-572",
+    "P08-20240617-184909-573",
+    "P08-20240617-184909-574",
+    "P08-20240617-184909-575",
+    "P08-20240617-184909-613",
+    "P08-20240617-184909-614",
+    "P08-20240617-184909-615",
+    "P08-20240617-184909-616"
+   ],
+   "rationale": "The person repeatedly shakes the pan and uses the spatula to mix the vegetables."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Continue stirring the vegetables in the pan",
+   "action_ids": [
+    "P08-20240617-184909-652",
+    "P08-20240617-184909-653",
+    "P08-20240617-184909-654",
+    "P08-20240617-184909-681",
+    "P08-20240617-184909-682",
+    "P08-20240617-184909-683",
+    "P08-20240617-184909-684",
+    "P08-20240617-184909-703",
+    "P08-20240617-184909-704",
+    "P08-20240617-184909-705",
+    "P08-20240617-184909-706"
+   ],
+   "rationale": "The person continues to mix the vegetables by shaking the pan and stirring with the spatula."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Finish stirring the vegetables and turn off the stove",
+   "action_ids": [
+    "P08-20240617-184909-723",
+    "P08-20240617-184909-724",
+    "P08-20240617-184909-725",
+    "P08-20240617-184909-726"
+   ],
+   "rationale": "The person gives the vegetables a final stir and turns off the stove."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P08-20240617-184909-568",
+  "P08-20240617-184909-727"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

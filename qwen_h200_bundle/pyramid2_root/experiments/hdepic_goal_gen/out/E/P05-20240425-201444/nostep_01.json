@@ -1,0 +1,186 @@
+{
+ "overall_goal": "Clean up the kitchen by putting away ingredients, storing the mixture, and managing the dishwasher",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Put away ingredients and the mixer",
+   "action_ids": [
+    "P05-20240425-201444-307",
+    "P05-20240425-201444-308",
+    "P05-20240425-201444-309",
+    "P05-20240425-201444-310",
+    "P05-20240425-201444-311",
+    "P05-20240425-201444-312",
+    "P05-20240425-201444-313",
+    "P05-20240425-201444-314",
+    "P05-20240425-201444-315",
+    "P05-20240425-201444-324",
+    "P05-20240425-201444-325",
+    "P05-20240425-201444-326",
+    "P05-20240425-201444-327",
+    "P05-20240425-201444-328"
+   ],
+   "rationale": "The person closes the flour jar, puts away the chocolate buttons, and stores the mixer in the cupboard."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Unload cutlery from the dishwasher",
+   "action_ids": [
+    "P05-20240425-201444-316",
+    "P05-20240425-201444-317",
+    "P05-20240425-201444-318",
+    "P05-20240425-201444-319",
+    "P05-20240425-201444-320",
+    "P05-20240425-201444-321",
+    "P05-20240425-201444-322",
+    "P05-20240425-201444-323",
+    "P05-20240425-201444-336",
+    "P05-20240425-201444-337",
+    "P05-20240425-201444-338",
+    "P05-20240425-201444-339"
+   ],
+   "rationale": "The person takes knives and spoons from the dishwasher and places them in the cutlery drawer."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Store the chocolate mixture in the fridge",
+   "action_ids": [
+    "P05-20240425-201444-329",
+    "P05-20240425-201444-331",
+    "P05-20240425-201444-330",
+    "P05-20240425-201444-332",
+    "P05-20240425-201444-333",
+    "P05-20240425-201444-334",
+    "P05-20240425-201444-335"
+   ],
+   "rationale": "The person covers the chocolate mixture with a plate and places it in the fridge to keep it airtight."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Unload glasses, bowls, and mugs from the dishwasher",
+   "action_ids": [
+    "P05-20240425-201444-340",
+    "P05-20240425-201444-341",
+    "P05-20240425-201444-342",
+    "P05-20240425-201444-343",
+    "P05-20240425-201444-344",
+    "P05-20240425-201444-345",
+    "P05-20240425-201444-346",
+    "P05-20240425-201444-347",
+    "P05-20240425-201444-348",
+    "P05-20240425-201444-349",
+    "P05-20240425-201444-350",
+    "P05-20240425-201444-351",
+    "P05-20240425-201444-352",
+    "P05-20240425-201444-353",
+    "P05-20240425-201444-354",
+    "P05-20240425-201444-355",
+    "P05-20240425-201444-356"
+   ],
+   "rationale": "The person removes glasses, bowls, and mugs from the dishwasher and organizes them on the shelves and hooks."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Unload ramekins, plates, and chopping boards from the dishwasher",
+   "action_ids": [
+    "P05-20240425-201444-357",
+    "P05-20240425-201444-358",
+    "P05-20240425-201444-359",
+    "P05-20240425-201444-360",
+    "P05-20240425-201444-361",
+    "P05-20240425-201444-362",
+    "P05-20240425-201444-363",
+    "P05-20240425-201444-364",
+    "P05-20240425-201444-365",
+    "P05-20240425-201444-366",
+    "P05-20240425-201444-367",
+    "P05-20240425-201444-368",
+    "P05-20240425-201444-369",
+    "P05-20240425-201444-370",
+    "P05-20240425-201444-371",
+    "P05-20240425-201444-372",
+    "P05-20240425-201444-373"
+   ],
+   "rationale": "The person takes ramekins, plates, a mug, and chopping boards from the dishwasher and puts them away in their respective places."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Unload cheese graters, plates, bowls, and pans from the dishwasher",
+   "action_ids": [
+    "P05-20240425-201444-374",
+    "P05-20240425-201444-375",
+    "P05-20240425-201444-376",
+    "P05-20240425-201444-377",
+    "P05-20240425-201444-378",
+    "P05-20240425-201444-379",
+    "P05-20240425-201444-380",
+    "P05-20240425-201444-381",
+    "P05-20240425-201444-382",
+    "P05-20240425-201444-383",
+    "P05-20240425-201444-384",
+    "P05-20240425-201444-385",
+    "P05-20240425-201444-386",
+    "P05-20240425-201444-387",
+    "P05-20240425-201444-388",
+    "P05-20240425-201444-389",
+    "P05-20240425-201444-391",
+    "P05-20240425-201444-390",
+    "P05-20240425-201444-392",
+    "P05-20240425-201444-393"
+   ],
+   "rationale": "The person finishes unloading the dishwasher by putting away cheese graters, remaining plates, bowls, and pans."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Load dirty cutlery into the dishwasher",
+   "action_ids": [
+    "P05-20240425-201444-394",
+    "P05-20240425-201444-395",
+    "P05-20240425-201444-396",
+    "P05-20240425-201444-399",
+    "P05-20240425-201444-400",
+    "P05-20240425-201444-401",
+    "P05-20240425-201444-402",
+    "P05-20240425-201444-403",
+    "P05-20240425-201444-404",
+    "P05-20240425-201444-405",
+    "P05-20240425-201444-406",
+    "P05-20240425-201444-408",
+    "P05-20240425-201444-409",
+    "P05-20240425-201444-410"
+   ],
+   "rationale": "The person picks up dirty knives, spoons, and a fork from the counter and places them in the dishwasher's cutlery drawer."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Load dirty dishes, pans, and larger items into the dishwasher",
+   "action_ids": [
+    "P05-20240425-201444-397",
+    "P05-20240425-201444-398",
+    "P05-20240425-201444-407",
+    "P05-20240425-201444-411",
+    "P05-20240425-201444-412",
+    "P05-20240425-201444-413",
+    "P05-20240425-201444-414",
+    "P05-20240425-201444-415",
+    "P05-20240425-201444-416",
+    "P05-20240425-201444-417",
+    "P05-20240425-201444-418",
+    "P05-20240425-201444-419",
+    "P05-20240425-201444-420",
+    "P05-20240425-201444-421",
+    "P05-20240425-201444-422",
+    "P05-20240425-201444-423",
+    "P05-20240425-201444-424",
+    "P05-20240425-201444-425",
+    "P05-20240425-201444-426"
+   ],
+   "rationale": "The person loads dirty plates, a colander, bowls, pans, a mug, a cheese grater, and a chopping board into the dishwasher."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

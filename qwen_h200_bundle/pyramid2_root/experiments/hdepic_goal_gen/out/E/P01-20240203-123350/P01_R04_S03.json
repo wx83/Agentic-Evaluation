@@ -1,0 +1,67 @@
+{
+ "overall_goal": "Prepare chicken stock and add it to the pan",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare a mug with hot water",
+   "action_ids": [
+    "P01-20240203-123350-320",
+    "P01-20240203-123350-321",
+    "P01-20240203-123350-322",
+    "P01-20240203-123350-324"
+   ],
+   "rationale": "The person retrieves a mug from a drawer and pours hot water into it from the kettle."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Get and unwrap a stock cube",
+   "action_ids": [
+    "P01-20240203-123350-325",
+    "P01-20240203-123350-326",
+    "P01-20240203-123350-327",
+    "P01-20240203-123350-328",
+    "P01-20240203-123350-329",
+    "P01-20240203-123350-330",
+    "P01-20240203-123350-331",
+    "P01-20240203-123350-332",
+    "P01-20240203-123350-333",
+    "P01-20240203-123350-334"
+   ],
+   "rationale": "The person fetches a stock cube from the fridge, unwraps it, drops it into the mug, and cleans up the packaging."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Dissolve the stock cube in the hot water",
+   "action_ids": [
+    "P01-20240203-123350-345",
+    "P01-20240203-123350-346",
+    "P01-20240203-123350-347",
+    "P01-20240203-123350-348",
+    "P01-20240203-123350-349",
+    "P01-20240203-123350-350",
+    "P01-20240203-123350-351",
+    "P01-20240203-123350-352",
+    "P01-20240203-123350-353",
+    "P01-20240203-123350-354",
+    "P01-20240203-123350-355",
+    "P01-20240203-123350-356",
+    "P01-20240203-123350-357"
+   ],
+   "rationale": "The person uses a spoon to stir, crush, and dissolve the stock cube in the hot water."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Pour the stock into the pan",
+   "action_ids": [
+    "P01-20240203-123350-436",
+    "P01-20240203-123350-437"
+   ],
+   "rationale": "The person pours the prepared stock from the mug into the pan and sets the empty mug aside."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

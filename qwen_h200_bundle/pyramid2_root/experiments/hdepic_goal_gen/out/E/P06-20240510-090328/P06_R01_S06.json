@@ -1,0 +1,30 @@
+{
+ "overall_goal": "Top the pancakes with chopped vegetables",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Add chopped vegetables to the first pancake",
+   "action_ids": [
+    "P06-20240510-090328-434",
+    "P06-20240510-090328-435",
+    "P06-20240510-090328-436"
+   ],
+   "rationale": "The person picks up the plate of vegetables, mixes them, and places them on the first pancake."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Add chopped vegetables to the second pancake",
+   "action_ids": [
+    "P06-20240510-090328-571",
+    "P06-20240510-090328-572",
+    "P06-20240510-090328-573"
+   ],
+   "rationale": "The person picks up the plate of vegetables again and spreads them over the second pancake."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

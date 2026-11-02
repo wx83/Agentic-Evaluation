@@ -1,0 +1,88 @@
+{
+ "overall_goal": "Tidy the kitchen, log the nutritional value of the spaghetti, and stir the food in the wok.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Cover the wok and tidy the kitchen counter.",
+   "action_ids": [
+    "P08-20240618-171546-377",
+    "P08-20240618-171546-378",
+    "P08-20240618-171546-379",
+    "P08-20240618-171546-380",
+    "P08-20240618-171546-381",
+    "P08-20240618-171546-382",
+    "P08-20240618-171546-383"
+   ],
+   "rationale": "The person covers the wok with a pan and then organizes items on the counter, including moving bottles and folding a tea towel."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve the spaghetti and scan its barcode.",
+   "action_ids": [
+    "P08-20240618-171546-385",
+    "P08-20240618-171546-386",
+    "P08-20240618-171546-387",
+    "P08-20240618-171546-388",
+    "P08-20240618-171546-389",
+    "P08-20240618-171546-390",
+    "P08-20240618-171546-391",
+    "P08-20240618-171546-392",
+    "P08-20240618-171546-393",
+    "P08-20240618-171546-394",
+    "P08-20240618-171546-395",
+    "P08-20240618-171546-398",
+    "P08-20240618-171546-399"
+   ],
+   "rationale": "The person takes the spaghetti out of the cabinet and uses their phone to scan its barcode for nutritional logging."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Weigh the spaghetti and log its nutritional value.",
+   "action_ids": [
+    "P08-20240618-171546-397",
+    "P08-20240618-171546-400",
+    "P08-20240618-171546-401",
+    "P08-20240618-171546-402",
+    "P08-20240618-171546-403",
+    "P08-20240618-171546-404",
+    "P08-20240618-171546-405",
+    "P08-20240618-171546-406",
+    "P08-20240618-171546-407",
+    "P08-20240618-171546-408",
+    "P08-20240618-171546-409",
+    "P08-20240618-171546-412",
+    "P08-20240618-171546-413"
+   ],
+   "rationale": "The person opens the spaghetti, weighs it on the kitchen scale, logs the weight in their phone app, and transfers the pasta to a bowl."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Clean up the spaghetti packaging.",
+   "action_ids": [
+    "P08-20240618-171546-414",
+    "P08-20240618-171546-415",
+    "P08-20240618-171546-416",
+    "P08-20240618-171546-417"
+   ],
+   "rationale": "The person disposes of the empty spaghetti packaging by putting the seal in a drawer and throwing the plastic in the trash."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Uncover, stir, and recover the food in the wok.",
+   "action_ids": [
+    "P08-20240618-171546-418",
+    "P08-20240618-171546-419",
+    "P08-20240618-171546-420",
+    "P08-20240618-171546-421",
+    "P08-20240618-171546-422",
+    "P08-20240618-171546-423"
+   ],
+   "rationale": "The person removes the pan covering the wok, stirs the ingredients with a spatula, and then covers the wok again."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

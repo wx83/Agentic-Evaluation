@@ -1,0 +1,201 @@
+{
+ "overall_goal": "Record the nutritional values of various ingredients in a phone app and perform minor cleaning and prep tasks",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Record nutritional value of chicken",
+   "action_ids": [
+    "P08-20240614-125650-1",
+    "P08-20240614-125650-2",
+    "P08-20240614-125650-26",
+    "P08-20240614-125650-28",
+    "P08-20240614-125650-27",
+    "P08-20240614-125650-29",
+    "P08-20240614-125650-30",
+    "P08-20240614-125650-31",
+    "P08-20240614-125650-34",
+    "P08-20240614-125650-35",
+    "P08-20240614-125650-36"
+   ],
+   "rationale": "The person uses their phone and a kitchen scale to measure and record the nutritional value of the chicken."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Adjust chicken in baking tray and clean up",
+   "action_ids": [
+    "P08-20240614-125650-39",
+    "P08-20240614-125650-40",
+    "P08-20240614-125650-41",
+    "P08-20240614-125650-42",
+    "P08-20240614-125650-79",
+    "P08-20240614-125650-81",
+    "P08-20240614-125650-82",
+    "P08-20240614-125650-92",
+    "P08-20240614-125650-93"
+   ],
+   "rationale": "The person adjusts the chicken in the baking tray, wipes the scale, presses down foil, and throws away the Ziploc bag."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Record nutritional value of olive oil",
+   "action_ids": [
+    "P08-20240614-125650-68",
+    "P08-20240614-125650-72",
+    "P08-20240614-125650-73",
+    "P08-20240614-125650-74",
+    "P08-20240614-125650-75",
+    "P08-20240614-125650-76",
+    "P08-20240614-125650-77",
+    "P08-20240614-125650-78"
+   ],
+   "rationale": "The person handles the olive oil bottle and uses their phone to record its nutritional value."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Add salad vegetables to bowl and record their nutritional value",
+   "action_ids": [
+    "P08-20240614-125650-113",
+    "P08-20240614-125650-114",
+    "P08-20240614-125650-115",
+    "P08-20240614-125650-116",
+    "P08-20240614-125650-122",
+    "P08-20240614-125650-123",
+    "P08-20240614-125650-124",
+    "P08-20240614-125650-125",
+    "P08-20240614-125650-126",
+    "P08-20240614-125650-127",
+    "P08-20240614-125650-128",
+    "P08-20240614-125650-129",
+    "P08-20240614-125650-130",
+    "P08-20240614-125650-131",
+    "P08-20240614-125650-132",
+    "P08-20240614-125650-133",
+    "P08-20240614-125650-134",
+    "P08-20240614-125650-147",
+    "P08-20240614-125650-148",
+    "P08-20240614-125650-149",
+    "P08-20240614-125650-154"
+   ],
+   "rationale": "The person pours salad vegetables into a bowl, scans the barcode on the container, and records the nutritional value in the phone app."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Measure and record nutritional value of rocket salad",
+   "action_ids": [
+    "P08-20240614-125650-155",
+    "P08-20240614-125650-156",
+    "P08-20240614-125650-157",
+    "P08-20240614-125650-158",
+    "P08-20240614-125650-159",
+    "P08-20240614-125650-160",
+    "P08-20240614-125650-161",
+    "P08-20240614-125650-162",
+    "P08-20240614-125650-163",
+    "P08-20240614-125650-164",
+    "P08-20240614-125650-165",
+    "P08-20240614-125650-166",
+    "P08-20240614-125650-167",
+    "P08-20240614-125650-168",
+    "P08-20240614-125650-169",
+    "P08-20240614-125650-170",
+    "P08-20240614-125650-171",
+    "P08-20240614-125650-172"
+   ],
+   "rationale": "The person scans the barcode of the rocket salad, measures it on the scale, and records the values in the phone app."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Add rocket salad to bowl and mix",
+   "action_ids": [
+    "P08-20240614-125650-173",
+    "P08-20240614-125650-174",
+    "P08-20240614-125650-175",
+    "P08-20240614-125650-176",
+    "P08-20240614-125650-177",
+    "P08-20240614-125650-178"
+   ],
+   "rationale": "The person transfers the measured rocket salad into the salad bowl and mixes it with a fork."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Clean the kitchen counter",
+   "action_ids": [
+    "P08-20240614-125650-179",
+    "P08-20240614-125650-180",
+    "P08-20240614-125650-181",
+    "P08-20240614-125650-182",
+    "P08-20240614-125650-183",
+    "P08-20240614-125650-184",
+    "P08-20240614-125650-185",
+    "P08-20240614-125650-186",
+    "P08-20240614-125650-187",
+    "P08-20240614-125650-188",
+    "P08-20240614-125650-189"
+   ],
+   "rationale": "The person uses a paper towel to wipe food mess off the kitchen counter and throws the scraps into the trash can."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Record nutritional value of carrot",
+   "action_ids": [
+    "P08-20240614-125650-197",
+    "P08-20240614-125650-198",
+    "P08-20240614-125650-199",
+    "P08-20240614-125650-200",
+    "P08-20240614-125650-201",
+    "P08-20240614-125650-202"
+   ],
+   "rationale": "The person uses their phone to record the nutritional value of a carrot."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Clean up food scraps",
+   "action_ids": [
+    "P08-20240614-125650-234",
+    "P08-20240614-125650-235",
+    "P08-20240614-125650-236",
+    "P08-20240614-125650-237"
+   ],
+   "rationale": "The person scoops up food scraps into a plastic bag and throws them into the trash can."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Record nutritional value of salad seeds",
+   "action_ids": [
+    "P08-20240614-125650-238",
+    "P08-20240614-125650-239",
+    "P08-20240614-125650-240",
+    "P08-20240614-125650-241",
+    "P08-20240614-125650-247",
+    "P08-20240614-125650-248",
+    "P08-20240614-125650-249"
+   ],
+   "rationale": "The person uses their phone to find and update the nutritional value of the salad seeds."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P08-20240614-125650-3",
+  "P08-20240614-125650-12",
+  "P08-20240614-125650-21",
+  "P08-20240614-125650-52",
+  "P08-20240614-125650-59",
+  "P08-20240614-125650-60",
+  "P08-20240614-125650-67",
+  "P08-20240614-125650-88",
+  "P08-20240614-125650-89",
+  "P08-20240614-125650-90",
+  "P08-20240614-125650-91",
+  "P08-20240614-125650-94",
+  "P08-20240614-125650-100",
+  "P08-20240614-125650-101",
+  "P08-20240614-125650-102",
+  "P08-20240614-125650-106",
+  "P08-20240614-125650-107",
+  "P08-20240614-125650-190",
+  "P08-20240614-125650-250"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

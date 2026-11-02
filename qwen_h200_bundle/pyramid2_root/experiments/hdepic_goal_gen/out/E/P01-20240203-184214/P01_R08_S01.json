@@ -1,0 +1,219 @@
+{
+ "overall_goal": "Prepare the chicken marinade by adding chicken and all ingredients into a bowl",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Get the bowl and open the chicken container",
+   "action_ids": [
+    "P01-20240203-184214-12",
+    "P01-20240203-184214-15",
+    "P01-20240203-184214-16",
+    "P01-20240203-184214-17",
+    "P01-20240203-184214-18",
+    "P01-20240203-184214-19",
+    "P01-20240203-184214-21",
+    "P01-20240203-184214-20"
+   ],
+   "rationale": "The person retrieves a bowl and opens the plastic container of chicken to prepare for washing and marinating."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Separate, wash, and place the first batch of chicken pieces into the bowl",
+   "action_ids": [
+    "P01-20240203-184214-22",
+    "P01-20240203-184214-23",
+    "P01-20240203-184214-24",
+    "P01-20240203-184214-25",
+    "P01-20240203-184214-26",
+    "P01-20240203-184214-27",
+    "P01-20240203-184214-28"
+   ],
+   "rationale": "The person pulls out the first frozen chicken pieces, rinses them under the tap to separate them, and places them into the bowl."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Separate, wash, and place the remaining chicken pieces into the bowl",
+   "action_ids": [
+    "P01-20240203-184214-29",
+    "P01-20240203-184214-30",
+    "P01-20240203-184214-31",
+    "P01-20240203-184214-32",
+    "P01-20240203-184214-33",
+    "P01-20240203-184214-34",
+    "P01-20240203-184214-35",
+    "P01-20240203-184214-36",
+    "P01-20240203-184214-37",
+    "P01-20240203-184214-38",
+    "P01-20240203-184214-39",
+    "P01-20240203-184214-41",
+    "P01-20240203-184214-40",
+    "P01-20240203-184214-42",
+    "P01-20240203-184214-43"
+   ],
+   "rationale": "The person continues to separate the rest of the frozen chicken pieces under running water, places them in the bowl, and distributes them."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Add vinegar to the chicken",
+   "action_ids": [
+    "P01-20240203-184214-63",
+    "P01-20240203-184214-64",
+    "P01-20240203-184214-65",
+    "P01-20240203-184214-66",
+    "P01-20240203-184214-67",
+    "P01-20240203-184214-68",
+    "P01-20240203-184214-69",
+    "P01-20240203-184214-70",
+    "P01-20240203-184214-71",
+    "P01-20240203-184214-72",
+    "P01-20240203-184214-73",
+    "P01-20240203-184214-74"
+   ],
+   "rationale": "The person retrieves a bottle of vinegar and repeatedly uses its lid to measure and sprinkle vinegar over the chicken."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Retrieve lemon and soy sauce, and pour soy sauce into the bowl",
+   "action_ids": [
+    "P01-20240203-184214-85",
+    "P01-20240203-184214-88",
+    "P01-20240203-184214-89",
+    "P01-20240203-184214-90",
+    "P01-20240203-184214-91",
+    "P01-20240203-184214-92",
+    "P01-20240203-184214-93",
+    "P01-20240203-184214-94",
+    "P01-20240203-184214-95",
+    "P01-20240203-184214-96"
+   ],
+   "rationale": "The person gathers lemons and soy sauce from the fridge and cupboard, then pours soy sauce directly into the bowl."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Squeeze the first lemon into the bowl and remove fallen seeds",
+   "action_ids": [
+    "P01-20240203-184214-101",
+    "P01-20240203-184214-102",
+    "P01-20240203-184214-103",
+    "P01-20240203-184214-104",
+    "P01-20240203-184214-105",
+    "P01-20240203-184214-106",
+    "P01-20240203-184214-107",
+    "P01-20240203-184214-108",
+    "P01-20240203-184214-109",
+    "P01-20240203-184214-110",
+    "P01-20240203-184214-111",
+    "P01-20240203-184214-112",
+    "P01-20240203-184214-113",
+    "P01-20240203-184214-114",
+    "P01-20240203-184214-115",
+    "P01-20240203-184214-116",
+    "P01-20240203-184214-117",
+    "P01-20240203-184214-118",
+    "P01-20240203-184214-119"
+   ],
+   "rationale": "The person uses a squeezer to extract juice from lemon halves into the bowl, pausing to remove a seed that accidentally fell in."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Cut and squeeze another lemon into the bowl",
+   "action_ids": [
+    "P01-20240203-184214-124",
+    "P01-20240203-184214-125",
+    "P01-20240203-184214-126",
+    "P01-20240203-184214-127",
+    "P01-20240203-184214-128",
+    "P01-20240203-184214-129",
+    "P01-20240203-184214-131",
+    "P01-20240203-184214-130",
+    "P01-20240203-184214-132",
+    "P01-20240203-184214-133"
+   ],
+   "rationale": "The person cuts a fresh lemon in half and squeezes its juice into the bowl using the lemon squeezer."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Add rosemary to the bowl",
+   "action_ids": [
+    "P01-20240203-184214-149",
+    "P01-20240203-184214-155",
+    "P01-20240203-184214-156",
+    "P01-20240203-184214-157",
+    "P01-20240203-184214-158",
+    "P01-20240203-184214-159",
+    "P01-20240203-184214-160",
+    "P01-20240203-184214-161",
+    "P01-20240203-184214-162",
+    "P01-20240203-184214-163",
+    "P01-20240203-184214-164",
+    "P01-20240203-184214-165",
+    "P01-20240203-184214-166",
+    "P01-20240203-184214-167",
+    "P01-20240203-184214-168",
+    "P01-20240203-184214-169"
+   ],
+   "rationale": "The person opens a package of rosemary with scissors and repeatedly adds strands of rosemary to the chicken."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Add oregano and spice mix to the bowl",
+   "action_ids": [
+    "P01-20240203-184214-179",
+    "P01-20240203-184214-180",
+    "P01-20240203-184214-181",
+    "P01-20240203-184214-182",
+    "P01-20240203-184214-183",
+    "P01-20240203-184214-186",
+    "P01-20240203-184214-187",
+    "P01-20240203-184214-188",
+    "P01-20240203-184214-189",
+    "P01-20240203-184214-190"
+   ],
+   "rationale": "The person selects jars of oregano and spice mix from the cupboard and sprinkles them into the marinade."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Break the garlic head and peel the outer cover",
+   "action_ids": [
+    "P01-20240203-184214-193",
+    "P01-20240203-184214-194",
+    "P01-20240203-184214-195",
+    "P01-20240203-184214-196",
+    "P01-20240203-184214-197",
+    "P01-20240203-184214-198",
+    "P01-20240203-184214-199",
+    "P01-20240203-184214-200"
+   ],
+   "rationale": "The person retrieves a head of garlic, breaks it apart to separate the cloves, removes the outer skin, and discards the waste."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Peel and chop the garlic cloves into the bowl",
+   "action_ids": [
+    "P01-20240203-184214-211",
+    "P01-20240203-184214-212",
+    "P01-20240203-184214-213",
+    "P01-20240203-184214-214",
+    "P01-20240203-184214-215",
+    "P01-20240203-184214-216",
+    "P01-20240203-184214-217",
+    "P01-20240203-184214-218",
+    "P01-20240203-184214-219",
+    "P01-20240203-184214-220",
+    "P01-20240203-184214-221",
+    "P01-20240203-184214-222",
+    "P01-20240203-184214-223",
+    "P01-20240203-184214-224"
+   ],
+   "rationale": "The person peels individual garlic cloves with a knife and chops them directly into the bowl to complete the marinade."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P01-20240203-184214-86",
+  "P01-20240203-184214-87"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

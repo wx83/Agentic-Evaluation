@@ -1,0 +1,236 @@
+{
+ "overall_goal": "Log the nutritional values of various ingredients, manage the boiling pot, and clean up the kitchen",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Record the nutritional value of the red pepper",
+   "action_ids": [
+    "P08-20240617-130401-346",
+    "P08-20240617-130401-347",
+    "P08-20240617-130401-348",
+    "P08-20240617-130401-349",
+    "P08-20240617-130401-350",
+    "P08-20240617-130401-351"
+   ],
+   "rationale": "The person weighs the red pepper and uses their phone to record its nutritional value."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Record the nutritional value of the spinach",
+   "action_ids": [
+    "P08-20240617-130401-375",
+    "P08-20240617-130401-376",
+    "P08-20240617-130401-377",
+    "P08-20240617-130401-378",
+    "P08-20240617-130401-379",
+    "P08-20240617-130401-380"
+   ],
+   "rationale": "The person uses their phone to record the nutritional measurements of the spinach."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Record the nutritional value of the canned beans",
+   "action_ids": [
+    "P08-20240617-130401-395",
+    "P08-20240617-130401-396",
+    "P08-20240617-130401-397",
+    "P08-20240617-130401-398",
+    "P08-20240617-130401-399",
+    "P08-20240617-130401-425",
+    "P08-20240617-130401-426",
+    "P08-20240617-130401-427"
+   ],
+   "rationale": "The person uses their phone to scan the barcode and record the nutritional value of the canned beans."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Retrieve utensils and a plate from the kitchen drawers",
+   "action_ids": [
+    "P08-20240617-130401-400",
+    "P08-20240617-130401-401",
+    "P08-20240617-130401-413",
+    "P08-20240617-130401-414",
+    "P08-20240617-130401-419"
+   ],
+   "rationale": "The person opens kitchen drawers multiple times to retrieve a can opener, a small plate, and a spoon."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Scoop beans into a bowl and place the colander in the sink",
+   "action_ids": [
+    "P08-20240617-130401-434",
+    "P08-20240617-130401-435",
+    "P08-20240617-130401-436",
+    "P08-20240617-130401-437"
+   ],
+   "rationale": "The person transfers salad beans from the colander into a bowl and places the used colander and spoon in the sink."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Store various ingredients in the refrigerator",
+   "action_ids": [
+    "P08-20240617-130401-438",
+    "P08-20240617-130401-439",
+    "P08-20240617-130401-440",
+    "P08-20240617-130401-441",
+    "P08-20240617-130401-442",
+    "P08-20240617-130401-443",
+    "P08-20240617-130401-444",
+    "P08-20240617-130401-445",
+    "P08-20240617-130401-446",
+    "P08-20240617-130401-447",
+    "P08-20240617-130401-448"
+   ],
+   "rationale": "The person organizes and stores various vegetables and a bowl of beans in the refrigerator."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Weigh and record the nutritional value of the coriander",
+   "action_ids": [
+    "P08-20240617-130401-454",
+    "P08-20240617-130401-455",
+    "P08-20240617-130401-456",
+    "P08-20240617-130401-457",
+    "P08-20240617-130401-458",
+    "P08-20240617-130401-459",
+    "P08-20240617-130401-460",
+    "P08-20240617-130401-461",
+    "P08-20240617-130401-462"
+   ],
+   "rationale": "The person weighs the coriander on the kitchen scale and records its nutritional value using a phone app."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Record the nutritional value of the tuna",
+   "action_ids": [
+    "P08-20240617-130401-469",
+    "P08-20240617-130401-470",
+    "P08-20240617-130401-471",
+    "P08-20240617-130401-472",
+    "P08-20240617-130401-473",
+    "P08-20240617-130401-474",
+    "P08-20240617-130401-475",
+    "P08-20240617-130401-513"
+   ],
+   "rationale": "The person uses their phone to scan and record the nutritional value of the canned tuna."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Manage the boiling pot and empty the water",
+   "action_ids": [
+    "P08-20240617-130401-341",
+    "P08-20240617-130401-344",
+    "P08-20240617-130401-366",
+    "P08-20240617-130401-431",
+    "P08-20240617-130401-433",
+    "P08-20240617-130401-477",
+    "P08-20240617-130401-484",
+    "P08-20240617-130401-485"
+   ],
+   "rationale": "The person repeatedly checks the boiling pot on the stove, adjusts the temperature, and eventually removes it to empty the water."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Store leftover spinach and coriander in the refrigerator",
+   "action_ids": [
+    "P08-20240617-130401-494",
+    "P08-20240617-130401-495",
+    "P08-20240617-130401-496",
+    "P08-20240617-130401-497",
+    "P08-20240617-130401-498"
+   ],
+   "rationale": "The person puts the leftover spinach and coriander away in the refrigerator."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Add tuna to the salad bowl and place the plate in the sink",
+   "action_ids": [
+    "P08-20240617-130401-476",
+    "P08-20240617-130401-514",
+    "P08-20240617-130401-515",
+    "P08-20240617-130401-516"
+   ],
+   "rationale": "The person opens the tuna can, adds it to the salad bowl, and places the dirty plate in the sink."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Wrap the bowl with a plastic sheet and store it in the refrigerator",
+   "action_ids": [
+    "P08-20240617-130401-517",
+    "P08-20240617-130401-518",
+    "P08-20240617-130401-519",
+    "P08-20240617-130401-520",
+    "P08-20240617-130401-521",
+    "P08-20240617-130401-522",
+    "P08-20240617-130401-523",
+    "P08-20240617-130401-524",
+    "P08-20240617-130401-525",
+    "P08-20240617-130401-526",
+    "P08-20240617-130401-527",
+    "P08-20240617-130401-528",
+    "P08-20240617-130401-529",
+    "P08-20240617-130401-530",
+    "P08-20240617-130401-531",
+    "P08-20240617-130401-532"
+   ],
+   "rationale": "The person decides against using aluminum foil, retrieves plastic sheets to wrap the bowl, stores the bowl in the refrigerator, and puts the plastic sheets away."
+  },
+  {
+   "goal_id": "e13",
+   "description": "Mix pasta in the strainer and place items in the sink",
+   "action_ids": [
+    "P08-20240617-130401-533",
+    "P08-20240617-130401-534",
+    "P08-20240617-130401-535",
+    "P08-20240617-130401-538"
+   ],
+   "rationale": "The person clears a lid into the sink, mixes the pasta in the strainer, and then places the strainer in the sink."
+  },
+  {
+   "goal_id": "e14",
+   "description": "Clean up the kitchen counter and dispose of trash",
+   "action_ids": [
+    "P08-20240617-130401-541",
+    "P08-20240617-130401-542",
+    "P08-20240617-130401-543",
+    "P08-20240617-130401-544",
+    "P08-20240617-130401-545",
+    "P08-20240617-130401-546"
+   ],
+   "rationale": "The person gathers trash and utensils from the counter to clean up and opens the dustbin to dispose of the waste."
+  },
+  {
+   "goal_id": "e15",
+   "description": "Dry hands with a towel",
+   "action_ids": [
+    "P08-20240617-130401-345",
+    "P08-20240617-130401-499",
+    "P08-20240617-130401-512",
+    "P08-20240617-130401-539",
+    "P08-20240617-130401-540"
+   ],
+   "rationale": "The person retrieves a towel or tablecloth to dry their hands at various points."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P08-20240617-130401-326",
+  "P08-20240617-130401-327",
+  "P08-20240617-130401-369",
+  "P08-20240617-130401-370",
+  "P08-20240617-130401-381",
+  "P08-20240617-130401-392",
+  "P08-20240617-130401-393",
+  "P08-20240617-130401-394",
+  "P08-20240617-130401-418",
+  "P08-20240617-130401-424",
+  "P08-20240617-130401-430",
+  "P08-20240617-130401-449",
+  "P08-20240617-130401-450",
+  "P08-20240617-130401-453",
+  "P08-20240617-130401-468"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

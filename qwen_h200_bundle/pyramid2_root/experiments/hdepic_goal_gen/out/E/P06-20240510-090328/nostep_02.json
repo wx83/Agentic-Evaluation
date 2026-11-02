@@ -1,0 +1,194 @@
+{
+ "overall_goal": "Perform kitchen cleanup, record recipe notes, and manage ingredients while waiting for the pancake to cook",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Record recipe notes and measurements",
+   "action_ids": [
+    "P06-20240510-090328-427",
+    "P06-20240510-090328-428",
+    "P06-20240510-090328-439",
+    "P06-20240510-090328-440",
+    "P06-20240510-090328-441",
+    "P06-20240510-090328-442",
+    "P06-20240510-090328-472",
+    "P06-20240510-090328-473",
+    "P06-20240510-090328-474",
+    "P06-20240510-090328-496",
+    "P06-20240510-090328-497",
+    "P06-20240510-090328-498",
+    "P06-20240510-090328-499",
+    "P06-20240510-090328-506",
+    "P06-20240510-090328-507",
+    "P06-20240510-090328-508",
+    "P06-20240510-090328-608",
+    "P06-20240510-090328-609",
+    "P06-20240510-090328-610",
+    "P06-20240510-090328-611"
+   ],
+   "rationale": "The person repeatedly picks up a pen and writes in a notebook to log the recipe and ingredient volumes."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Weigh water volume",
+   "action_ids": [
+    "P06-20240510-090328-458",
+    "P06-20240510-090328-459",
+    "P06-20240510-090328-460",
+    "P06-20240510-090328-461",
+    "P06-20240510-090328-462",
+    "P06-20240510-090328-463",
+    "P06-20240510-090328-464",
+    "P06-20240510-090328-465",
+    "P06-20240510-090328-466",
+    "P06-20240510-090328-467",
+    "P06-20240510-090328-468",
+    "P06-20240510-090328-469",
+    "P06-20240510-090328-470",
+    "P06-20240510-090328-471",
+    "P06-20240510-090328-475",
+    "P06-20240510-090328-476",
+    "P06-20240510-090328-477",
+    "P06-20240510-090328-478",
+    "P06-20240510-090328-509"
+   ],
+   "rationale": "The person uses the weighing balance to tare an empty cup and measure the volume of water poured into it."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Manage cooking utensils and wait for pancake to cook",
+   "action_ids": [
+    "P06-20240510-090328-451",
+    "P06-20240510-090328-485",
+    "P06-20240510-090328-486",
+    "P06-20240510-090328-487",
+    "P06-20240510-090328-492",
+    "P06-20240510-090328-494",
+    "P06-20240510-090328-495",
+    "P06-20240510-090328-500",
+    "P06-20240510-090328-505",
+    "P06-20240510-090328-510",
+    "P06-20240510-090328-511",
+    "P06-20240510-090328-574",
+    "P06-20240510-090328-575",
+    "P06-20240510-090328-576",
+    "P06-20240510-090328-577",
+    "P06-20240510-090328-606",
+    "P06-20240510-090328-607",
+    "P06-20240510-090328-613",
+    "P06-20240510-090328-621"
+   ],
+   "rationale": "The person handles the spatula, adjusts the frying pan, and waits for the pancake to cook on the stove."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Collect leftover vegetables from the frying pan",
+   "action_ids": [
+    "P06-20240510-090328-519",
+    "P06-20240510-090328-520",
+    "P06-20240510-090328-521",
+    "P06-20240510-090328-522",
+    "P06-20240510-090328-523"
+   ],
+   "rationale": "The person uses a spatula to scrape and collect remaining vegetables from the frying pan onto a plate."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Wash and wipe hands",
+   "action_ids": [
+    "P06-20240510-090328-438",
+    "P06-20240510-090328-531",
+    "P06-20240510-090328-532",
+    "P06-20240510-090328-556",
+    "P06-20240510-090328-557",
+    "P06-20240510-090328-558",
+    "P06-20240510-090328-559",
+    "P06-20240510-090328-560",
+    "P06-20240510-090328-561",
+    "P06-20240510-090328-562"
+   ],
+   "rationale": "The person washes their hands in the sink and dries them using a tablecloth."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Clear used dishes and utensils to the sink",
+   "action_ids": [
+    "P06-20240510-090328-530",
+    "P06-20240510-090328-551",
+    "P06-20240510-090328-554",
+    "P06-20240510-090328-555",
+    "P06-20240510-090328-569",
+    "P06-20240510-090328-570",
+    "P06-20240510-090328-579",
+    "P06-20240510-090328-580",
+    "P06-20240510-090328-581",
+    "P06-20240510-090328-582",
+    "P06-20240510-090328-583",
+    "P06-20240510-090328-584",
+    "P06-20240510-090328-588",
+    "P06-20240510-090328-589"
+   ],
+   "rationale": "The person gathers various used items like spoons, plates, bowls, and cups, and moves them to the sink area."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Wrap and store butter in the refrigerator",
+   "action_ids": [
+    "P06-20240510-090328-563",
+    "P06-20240510-090328-566",
+    "P06-20240510-090328-567",
+    "P06-20240510-090328-590",
+    "P06-20240510-090328-591",
+    "P06-20240510-090328-593",
+    "P06-20240510-090328-594",
+    "P06-20240510-090328-595",
+    "P06-20240510-090328-596"
+   ],
+   "rationale": "The person wraps the remaining butter and places it back into the refrigerator."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Dispose of onion peels",
+   "action_ids": [
+    "P06-20240510-090328-592",
+    "P06-20240510-090328-597",
+    "P06-20240510-090328-598",
+    "P06-20240510-090328-599",
+    "P06-20240510-090328-600",
+    "P06-20240510-090328-601",
+    "P06-20240510-090328-602"
+   ],
+   "rationale": "The person takes the bowl containing onion peels and throws the peels into the organic dustbin."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Check cabinet for a frying pan",
+   "action_ids": [
+    "P06-20240510-090328-622",
+    "P06-20240510-090328-623",
+    "P06-20240510-090328-624",
+    "P06-20240510-090328-625",
+    "P06-20240510-090328-626"
+   ],
+   "rationale": "The person opens a cabinet, inspects a frying pan, and places it back before closing the door."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P06-20240510-090328-429",
+  "P06-20240510-090328-437",
+  "P06-20240510-090328-452",
+  "P06-20240510-090328-457",
+  "P06-20240510-090328-493",
+  "P06-20240510-090328-568",
+  "P06-20240510-090328-578",
+  "P06-20240510-090328-585",
+  "P06-20240510-090328-586",
+  "P06-20240510-090328-587",
+  "P06-20240510-090328-603",
+  "P06-20240510-090328-612"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

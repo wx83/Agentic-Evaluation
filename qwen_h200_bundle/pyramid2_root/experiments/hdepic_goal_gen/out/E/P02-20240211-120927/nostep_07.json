@@ -1,0 +1,201 @@
+{
+ "overall_goal": "Make cheese and butter baguette sandwiches",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve the bread knife and unpack the baguette",
+   "action_ids": [
+    "P02-20240211-120927-1117",
+    "P02-20240211-120927-1118",
+    "P02-20240211-120927-1119",
+    "P02-20240211-120927-1120",
+    "P02-20240211-120927-1121",
+    "P02-20240211-120927-1122",
+    "P02-20240211-120927-1123",
+    "P02-20240211-120927-1124",
+    "P02-20240211-120927-1125",
+    "P02-20240211-120927-1126"
+   ],
+   "rationale": "The person gets a bread knife from the drawer, opens the baguette packaging, takes out the bread, and throws the packaging in the bin."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Cut the baguette to size and store the remainder",
+   "action_ids": [
+    "P02-20240211-120927-1132",
+    "P02-20240211-120927-1133",
+    "P02-20240211-120927-1134",
+    "P02-20240211-120927-1135",
+    "P02-20240211-120927-1136",
+    "P02-20240211-120927-1137",
+    "P02-20240211-120927-1138",
+    "P02-20240211-120927-1139",
+    "P02-20240211-120927-1140",
+    "P02-20240211-120927-1141",
+    "P02-20240211-120927-1142",
+    "P02-20240211-120927-1143",
+    "P02-20240211-120927-1144"
+   ],
+   "rationale": "The person pulls out more of the baguette, cuts it to match the size of the first piece, and puts the rest back into the packaging to keep it fresh."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Slice the baguette pieces in half for filling",
+   "action_ids": [
+    "P02-20240211-120927-1145",
+    "P02-20240211-120927-1146",
+    "P02-20240211-120927-1147",
+    "P02-20240211-120927-1148",
+    "P02-20240211-120927-1149",
+    "P02-20240211-120927-1150",
+    "P02-20240211-120927-1151",
+    "P02-20240211-120927-1152",
+    "P02-20240211-120927-1153",
+    "P02-20240211-120927-1154",
+    "P02-20240211-120927-1155",
+    "P02-20240211-120927-1156",
+    "P02-20240211-120927-1157",
+    "P02-20240211-120927-1158",
+    "P02-20240211-120927-1159"
+   ],
+   "rationale": "The person uses the bread knife to slice the baguette pieces horizontally so they can be opened up and filled."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Retrieve butter and cheese from the fridge",
+   "action_ids": [
+    "P02-20240211-120927-1160",
+    "P02-20240211-120927-1161",
+    "P02-20240211-120927-1162",
+    "P02-20240211-120927-1163",
+    "P02-20240211-120927-1164",
+    "P02-20240211-120927-1165"
+   ],
+   "rationale": "The person opens the fridge, takes out a tub of butter and a block of cheese, and places them on the countertop."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Prepare the butter for spreading",
+   "action_ids": [
+    "P02-20240211-120927-1166",
+    "P02-20240211-120927-1167",
+    "P02-20240211-120927-1168",
+    "P02-20240211-120927-1169",
+    "P02-20240211-120927-1170",
+    "P02-20240211-120927-1171",
+    "P02-20240211-120927-1172",
+    "P02-20240211-120927-1173",
+    "P02-20240211-120927-1174",
+    "P02-20240211-120927-1175",
+    "P02-20240211-120927-1176",
+    "P02-20240211-120927-1177",
+    "P02-20240211-120927-1178"
+   ],
+   "rationale": "The person gets a butter knife, opens the tub of butter, and scrapes the butter repeatedly to soften it for spreading."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Spread butter on the baguette pieces",
+   "action_ids": [
+    "P02-20240211-120927-1179",
+    "P02-20240211-120927-1180",
+    "P02-20240211-120927-1181",
+    "P02-20240211-120927-1182",
+    "P02-20240211-120927-1183",
+    "P02-20240211-120927-1184",
+    "P02-20240211-120927-1185",
+    "P02-20240211-120927-1186",
+    "P02-20240211-120927-1187",
+    "P02-20240211-120927-1188",
+    "P02-20240211-120927-1189",
+    "P02-20240211-120927-1190",
+    "P02-20240211-120927-1191"
+   ],
+   "rationale": "The person scoops butter onto the knife and spreads it evenly across the insides of the sliced baguette pieces."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Close the butter and return it to the fridge",
+   "action_ids": [
+    "P02-20240211-120927-1192",
+    "P02-20240211-120927-1193",
+    "P02-20240211-120927-1194",
+    "P02-20240211-120927-1195",
+    "P02-20240211-120927-1196",
+    "P02-20240211-120927-1197",
+    "P02-20240211-120927-1198",
+    "P02-20240211-120927-1199",
+    "P02-20240211-120927-1200",
+    "P02-20240211-120927-1201",
+    "P02-20240211-120927-1202"
+   ],
+   "rationale": "The person puts the lid back on the butter tub, briefly handles the cheese packaging, and places the butter back into the fridge."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Retrieve a plate from the cupboard",
+   "action_ids": [
+    "P02-20240211-120927-1203",
+    "P02-20240211-120927-1204",
+    "P02-20240211-120927-1205",
+    "P02-20240211-120927-1206",
+    "P02-20240211-120927-1207",
+    "P02-20240211-120927-1208",
+    "P02-20240211-120927-1209",
+    "P02-20240211-120927-1210"
+   ],
+   "rationale": "The person opens a cupboard, takes out a plate, and clears space on the countertop to set it down."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Slice the cheese and fill the baguettes",
+   "action_ids": [
+    "P02-20240211-120927-1211",
+    "P02-20240211-120927-1212",
+    "P02-20240211-120927-1213",
+    "P02-20240211-120927-1214",
+    "P02-20240211-120927-1215",
+    "P02-20240211-120927-1216",
+    "P02-20240211-120927-1217",
+    "P02-20240211-120927-1218",
+    "P02-20240211-120927-1219",
+    "P02-20240211-120927-1220",
+    "P02-20240211-120927-1221",
+    "P02-20240211-120927-1222",
+    "P02-20240211-120927-1223",
+    "P02-20240211-120927-1224",
+    "P02-20240211-120927-1225",
+    "P02-20240211-120927-1226",
+    "P02-20240211-120927-1227",
+    "P02-20240211-120927-1228",
+    "P02-20240211-120927-1229"
+   ],
+   "rationale": "The person takes the cheese out of its packet, slices it with the butter knife, and lays the slices inside the buttered baguettes before closing them."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Return the cheese to the fridge",
+   "action_ids": [
+    "P02-20240211-120927-1230",
+    "P02-20240211-120927-1231",
+    "P02-20240211-120927-1232",
+    "P02-20240211-120927-1233",
+    "P02-20240211-120927-1234",
+    "P02-20240211-120927-1235",
+    "P02-20240211-120927-1236"
+   ],
+   "rationale": "The person puts the remaining cheese back into its packaging, folds it shut, and places it back into the fridge."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P02-20240211-120927-1127",
+  "P02-20240211-120927-1128",
+  "P02-20240211-120927-1129",
+  "P02-20240211-120927-1131",
+  "P02-20240211-120927-1130"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

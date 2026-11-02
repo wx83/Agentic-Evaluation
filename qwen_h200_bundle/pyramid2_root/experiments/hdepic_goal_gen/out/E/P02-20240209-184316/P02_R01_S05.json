@@ -1,0 +1,96 @@
+{
+ "overall_goal": "Wash, slice, and cook the mushrooms in the frying pan",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Wash and dry the mushrooms",
+   "action_ids": [
+    "P02-20240209-184316-722",
+    "P02-20240209-184316-723",
+    "P02-20240209-184316-724",
+    "P02-20240209-184316-725",
+    "P02-20240209-184316-726",
+    "P02-20240209-184316-727",
+    "P02-20240209-184316-728"
+   ],
+   "rationale": "The person rinses the mushrooms under the tap and shakes them dry before placing them on the chopping board."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Slice the first batch of mushrooms",
+   "action_ids": [
+    "P02-20240209-184316-740",
+    "P02-20240209-184316-741",
+    "P02-20240209-184316-742",
+    "P02-20240209-184316-743",
+    "P02-20240209-184316-744",
+    "P02-20240209-184316-745",
+    "P02-20240209-184316-746",
+    "P02-20240209-184316-747",
+    "P02-20240209-184316-748",
+    "P02-20240209-184316-749",
+    "P02-20240209-184316-750",
+    "P02-20240209-184316-751"
+   ],
+   "rationale": "The person begins cutting the stems off and slicing the first few mushrooms on the chopping board."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Slice the remaining mushrooms and stems",
+   "action_ids": [
+    "P02-20240209-184316-752",
+    "P02-20240209-184316-753",
+    "P02-20240209-184316-754",
+    "P02-20240209-184316-755",
+    "P02-20240209-184316-756",
+    "P02-20240209-184316-757",
+    "P02-20240209-184316-758",
+    "P02-20240209-184316-759",
+    "P02-20240209-184316-824",
+    "P02-20240209-184316-825",
+    "P02-20240209-184316-826"
+   ],
+   "rationale": "The person continues to chop the rest of the mushrooms and slices the larger stems to ensure even cooking."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Transfer the sliced mushrooms to the frying pan",
+   "action_ids": [
+    "P02-20240209-184316-827",
+    "P02-20240209-184316-828"
+   ],
+   "rationale": "The person picks up the chopping board and pushes the sliced mushrooms into the pan."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Stir and cook the mushrooms in the pan",
+   "action_ids": [
+    "P02-20240209-184316-838",
+    "P02-20240209-184316-839",
+    "P02-20240209-184316-840",
+    "P02-20240209-184316-841",
+    "P02-20240209-184316-842",
+    "P02-20240209-184316-843",
+    "P02-20240209-184316-845",
+    "P02-20240209-184316-846",
+    "P02-20240209-184316-847",
+    "P02-20240209-184316-851",
+    "P02-20240209-184316-852",
+    "P02-20240209-184316-853",
+    "P02-20240209-184316-854",
+    "P02-20240209-184316-869",
+    "P02-20240209-184316-871",
+    "P02-20240209-184316-870",
+    "P02-20240209-184316-924"
+   ],
+   "rationale": "The person adjusts the heat, stirs the food with a spatula, and shakes the pan to ensure the mushrooms cook evenly."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P02-20240209-184316-844"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,250 @@
+{
+ "overall_goal": "Perform various kitchen management tasks including cleaning, organizing ingredients, and washing hands",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Take out the scales",
+   "action_ids": [
+    "P05-20240425-201444-2",
+    "P05-20240425-201444-3",
+    "P05-20240425-201444-4",
+    "P05-20240425-201444-5"
+   ],
+   "rationale": "The person opens a drawer, takes out the scales, closes the drawer, and places the scales on the counter."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Clean the counter and throw away rubbish",
+   "action_ids": [
+    "P05-20240425-201444-6",
+    "P05-20240425-201444-7",
+    "P05-20240425-201444-8",
+    "P05-20240425-201444-9"
+   ],
+   "rationale": "The person sweeps rubbish from the counter into their hand, opens the bin, and throws the rubbish away."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Take out eggs and egg whites from the fridge",
+   "action_ids": [
+    "P05-20240425-201444-10",
+    "P05-20240425-201444-11",
+    "P05-20240425-201444-17",
+    "P05-20240425-201444-18"
+   ],
+   "rationale": "The person opens the fridge multiple times to retrieve a packet of eggs and a bowl of egg whites."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Throw away eggshells and rinse hands",
+   "action_ids": [
+    "P05-20240425-201444-34",
+    "P05-20240425-201444-35",
+    "P05-20240425-201444-36",
+    "P05-20240425-201444-37",
+    "P05-20240425-201444-38",
+    "P05-20240425-201444-39"
+   ],
+   "rationale": "The person disposes of empty eggshells in the bin and then rinses their hands under the tap."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Check the dishwasher",
+   "action_ids": [
+    "P05-20240425-201444-40",
+    "P05-20240425-201444-41",
+    "P05-20240425-201444-42",
+    "P05-20240425-201444-43",
+    "P05-20240425-201444-44"
+   ],
+   "rationale": "The person opens and closes the dishwasher drawers to look for something."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Retrieve a pan and sugar for weighing",
+   "action_ids": [
+    "P05-20240425-201444-45",
+    "P05-20240425-201444-46",
+    "P05-20240425-201444-50",
+    "P05-20240425-201444-51",
+    "P05-20240425-201444-52",
+    "P05-20240425-201444-53",
+    "P05-20240425-201444-54",
+    "P05-20240425-201444-56"
+   ],
+   "rationale": "The person gets a pan, places it on the scales, and then retrieves sugar from the cupboard."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P05-20240425-201444-58",
+    "P05-20240425-201444-59",
+    "P05-20240425-201444-60",
+    "P05-20240425-201444-61",
+    "P05-20240425-201444-62",
+    "P05-20240425-201444-63",
+    "P05-20240425-201444-64",
+    "P05-20240425-201444-65",
+    "P05-20240425-201444-66",
+    "P05-20240425-201444-67"
+   ],
+   "rationale": "The person turns on the tap, uses soap to scrub their hands, rinses them, and dries them on a towel."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Retrieve chocolate buttons and close the jar",
+   "action_ids": [
+    "P05-20240425-201444-68",
+    "P05-20240425-201444-69",
+    "P05-20240425-201444-70",
+    "P05-20240425-201444-80",
+    "P05-20240425-201444-82",
+    "P05-20240425-201444-83"
+   ],
+   "rationale": "The person takes a jar of chocolate buttons from the cupboard, uses it, and then secures the lid."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Rearrange ingredients on the counter and turn off the scales",
+   "action_ids": [
+    "P05-20240425-201444-84",
+    "P05-20240425-201444-89",
+    "P05-20240425-201444-102",
+    "P05-20240425-201444-103",
+    "P05-20240425-201444-104",
+    "P05-20240425-201444-107"
+   ],
+   "rationale": "The person moves the butter dish lid, shifts the egg box, places the bowl of eggs on the scales, and turns the scales off."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Put the sugar away and retrieve the mixer",
+   "action_ids": [
+    "P05-20240425-201444-112",
+    "P05-20240425-201444-113",
+    "P05-20240425-201444-114",
+    "P05-20240425-201444-115",
+    "P05-20240425-201444-116",
+    "P05-20240425-201444-117",
+    "P05-20240425-201444-118"
+   ],
+   "rationale": "The person places the sugar back into the cupboard and then takes out the mixer from the bottom shelf."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Store eggs and egg whites back in the fridge",
+   "action_ids": [
+    "P05-20240425-201444-133",
+    "P05-20240425-201444-134",
+    "P05-20240425-201444-135",
+    "P05-20240425-201444-136",
+    "P05-20240425-201444-137",
+    "P05-20240425-201444-138",
+    "P05-20240425-201444-139",
+    "P05-20240425-201444-140",
+    "P05-20240425-201444-141",
+    "P05-20240425-201444-142",
+    "P05-20240425-201444-143"
+   ],
+   "rationale": "The person clears the counter by moving bowls and scales, then places the egg box and egg whites back into the fridge."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Check the consistency of the mixture",
+   "action_ids": [
+    "P05-20240425-201444-161",
+    "P05-20240425-201444-162",
+    "P05-20240425-201444-163",
+    "P05-20240425-201444-164"
+   ],
+   "rationale": "The person dips the mixer blades into the mixture to check its stiffness, shakes off the excess, and sets the mixer down."
+  },
+  {
+   "goal_id": "e13",
+   "description": "Close the flour jar and prepare the spatula",
+   "action_ids": [
+    "P05-20240425-201444-191",
+    "P05-20240425-201444-192",
+    "P05-20240425-201444-193",
+    "P05-20240425-201444-194",
+    "P05-20240425-201444-195"
+   ],
+   "rationale": "The person puts down the measuring spoon, screws the lid back onto the flour jar, and picks up a spatula."
+  },
+  {
+   "goal_id": "e14",
+   "description": "Add more flour to the mixture",
+   "action_ids": [
+    "P05-20240425-201444-198",
+    "P05-20240425-201444-203",
+    "P05-20240425-201444-204",
+    "P05-20240425-201444-206"
+   ],
+   "rationale": "The person opens the flour jar to add more flour, places the jar back, and uses the spatula to mix."
+  },
+  {
+   "goal_id": "e15",
+   "description": "Wash hands and retrieve a spoon",
+   "action_ids": [
+    "P05-20240425-201444-246",
+    "P05-20240425-201444-247",
+    "P05-20240425-201444-248",
+    "P05-20240425-201444-249",
+    "P05-20240425-201444-250",
+    "P05-20240425-201444-251"
+   ],
+   "rationale": "The person rinses and dries their hands, then opens the cutlery drawer to get a spoon."
+  },
+  {
+   "goal_id": "e16",
+   "description": "Unplug and disassemble the mixer",
+   "action_ids": [
+    "P05-20240425-201444-290",
+    "P05-20240425-201444-291",
+    "P05-20240425-201444-292",
+    "P05-20240425-201444-293",
+    "P05-20240425-201444-294"
+   ],
+   "rationale": "The person unplugs the mixer, releases the blades, and places the dirty blades into a pan."
+  },
+  {
+   "goal_id": "e17",
+   "description": "Tidy up the counter and put away tools",
+   "action_ids": [
+    "P05-20240425-201444-296",
+    "P05-20240425-201444-297",
+    "P05-20240425-201444-298",
+    "P05-20240425-201444-299",
+    "P05-20240425-201444-300",
+    "P05-20240425-201444-301",
+    "P05-20240425-201444-302",
+    "P05-20240425-201444-303",
+    "P05-20240425-201444-304",
+    "P05-20240425-201444-305",
+    "P05-20240425-201444-306"
+   ],
+   "rationale": "The person cleans up by placing a dirty knife in a pan, covering the butter dish, putting the scales in a drawer, and returning the measuring spoon."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P05-20240425-201444-1",
+  "P05-20240425-201444-123",
+  "P05-20240425-201444-126",
+  "P05-20240425-201444-130",
+  "P05-20240425-201444-146",
+  "P05-20240425-201444-274",
+  "P05-20240425-201444-283",
+  "P05-20240425-201444-284",
+  "P05-20240425-201444-285",
+  "P05-20240425-201444-286",
+  "P05-20240425-201444-287",
+  "P05-20240425-201444-288",
+  "P05-20240425-201444-289",
+  "P05-20240425-201444-295"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,181 @@
+{
+ "overall_goal": "Wash and chop the mushrooms.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve and open the mushroom packages.",
+   "action_ids": [
+    "P07-20240529-191007-192",
+    "P07-20240529-191007-193",
+    "P07-20240529-191007-194",
+    "P07-20240529-191007-212",
+    "P07-20240529-191007-213",
+    "P07-20240529-191007-214"
+   ],
+   "rationale": "The person gathers the packets of mushrooms and opens the packaging to access them."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Transfer mushrooms to a colander and wash them.",
+   "action_ids": [
+    "P07-20240529-191007-227",
+    "P07-20240529-191007-228",
+    "P07-20240529-191007-229",
+    "P07-20240529-191007-230",
+    "P07-20240529-191007-231",
+    "P07-20240529-191007-232",
+    "P07-20240529-191007-233",
+    "P07-20240529-191007-234",
+    "P07-20240529-191007-235"
+   ],
+   "rationale": "The person tips the mushrooms into a colander, rinses them under running water, and shakes off the excess water."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Slice and chop the first batch of washed mushrooms.",
+   "action_ids": [
+    "P07-20240529-191007-239",
+    "P07-20240529-191007-240",
+    "P07-20240529-191007-241",
+    "P07-20240529-191007-242",
+    "P07-20240529-191007-243",
+    "P07-20240529-191007-244",
+    "P07-20240529-191007-245",
+    "P07-20240529-191007-246",
+    "P07-20240529-191007-247",
+    "P07-20240529-191007-248",
+    "P07-20240529-191007-249",
+    "P07-20240529-191007-250"
+   ],
+   "rationale": "The person takes the first few mushrooms from the colander, slices them, chops them into smaller pieces, and transfers them to a tray."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Slice and chop the second batch of washed mushrooms.",
+   "action_ids": [
+    "P07-20240529-191007-251",
+    "P07-20240529-191007-252",
+    "P07-20240529-191007-253",
+    "P07-20240529-191007-254",
+    "P07-20240529-191007-255",
+    "P07-20240529-191007-256",
+    "P07-20240529-191007-257",
+    "P07-20240529-191007-258",
+    "P07-20240529-191007-259",
+    "P07-20240529-191007-260",
+    "P07-20240529-191007-261",
+    "P07-20240529-191007-262",
+    "P07-20240529-191007-263",
+    "P07-20240529-191007-264",
+    "P07-20240529-191007-265",
+    "P07-20240529-191007-266"
+   ],
+   "rationale": "The person continues taking mushrooms from the colander, slicing and chopping them, and scooping them into the tray."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Slice and chop the third batch of washed mushrooms.",
+   "action_ids": [
+    "P07-20240529-191007-267",
+    "P07-20240529-191007-268",
+    "P07-20240529-191007-269",
+    "P07-20240529-191007-271",
+    "P07-20240529-191007-270",
+    "P07-20240529-191007-272",
+    "P07-20240529-191007-273",
+    "P07-20240529-191007-274",
+    "P07-20240529-191007-275",
+    "P07-20240529-191007-276",
+    "P07-20240529-191007-277",
+    "P07-20240529-191007-278",
+    "P07-20240529-191007-279",
+    "P07-20240529-191007-280"
+   ],
+   "rationale": "The person repeats the process of slicing, chopping, and transferring more mushrooms from the colander to the tray."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Slice and chop the fourth batch of washed mushrooms.",
+   "action_ids": [
+    "P07-20240529-191007-281",
+    "P07-20240529-191007-282",
+    "P07-20240529-191007-283",
+    "P07-20240529-191007-284",
+    "P07-20240529-191007-285",
+    "P07-20240529-191007-286",
+    "P07-20240529-191007-287",
+    "P07-20240529-191007-288",
+    "P07-20240529-191007-289",
+    "P07-20240529-191007-290",
+    "P07-20240529-191007-291"
+   ],
+   "rationale": "The person slices and chops another set of mushrooms from the colander."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Slice, chop, and transfer the final batch of washed mushrooms.",
+   "action_ids": [
+    "P07-20240529-191007-292",
+    "P07-20240529-191007-293",
+    "P07-20240529-191007-294",
+    "P07-20240529-191007-295",
+    "P07-20240529-191007-296",
+    "P07-20240529-191007-297",
+    "P07-20240529-191007-298",
+    "P07-20240529-191007-299",
+    "P07-20240529-191007-300",
+    "P07-20240529-191007-301",
+    "P07-20240529-191007-302",
+    "P07-20240529-191007-303",
+    "P07-20240529-191007-304",
+    "P07-20240529-191007-305",
+    "P07-20240529-191007-306",
+    "P07-20240529-191007-307"
+   ],
+   "rationale": "The person finishes the remaining mushrooms in the colander, inspecting them, chopping them finely, and placing them into the tray."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Open and prepare the next tray of mushrooms for chopping.",
+   "action_ids": [
+    "P07-20240529-191007-309",
+    "P07-20240529-191007-310",
+    "P07-20240529-191007-311",
+    "P07-20240529-191007-318",
+    "P07-20240529-191007-319",
+    "P07-20240529-191007-320",
+    "P07-20240529-191007-321"
+   ],
+   "rationale": "The person opens a new tray of mushrooms, moves the chopped mushrooms out of the way, and prepares the new batch on the chopping board."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Slice and chop the second tray of mushrooms.",
+   "action_ids": [
+    "P07-20240529-191007-322",
+    "P07-20240529-191007-323",
+    "P07-20240529-191007-324",
+    "P07-20240529-191007-325",
+    "P07-20240529-191007-326",
+    "P07-20240529-191007-327",
+    "P07-20240529-191007-328",
+    "P07-20240529-191007-329",
+    "P07-20240529-191007-330",
+    "P07-20240529-191007-331",
+    "P07-20240529-191007-332",
+    "P07-20240529-191007-333",
+    "P07-20240529-191007-334",
+    "P07-20240529-191007-335",
+    "P07-20240529-191007-336",
+    "P07-20240529-191007-337",
+    "P07-20240529-191007-338"
+   ],
+   "rationale": "The person slices and chops the mushrooms from the newly opened tray and transfers them to the collection tray."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

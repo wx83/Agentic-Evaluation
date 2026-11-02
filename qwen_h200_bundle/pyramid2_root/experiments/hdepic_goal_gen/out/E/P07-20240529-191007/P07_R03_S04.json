@@ -1,0 +1,50 @@
+{
+ "overall_goal": "Measure out the required amount of pre-chopped garlic.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve the jar of minced garlic from the fridge.",
+   "action_ids": [
+    "P07-20240529-191007-158",
+    "P07-20240529-191007-159",
+    "P07-20240529-191007-160",
+    "P07-20240529-191007-161",
+    "P07-20240529-191007-162"
+   ],
+   "rationale": "The person interacts with the fridge to get the jar of minced garlic and places it on the chopping board."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Set up the bowl on the scales, open the garlic jar, and retrieve a spoon.",
+   "action_ids": [
+    "P07-20240529-191007-163",
+    "P07-20240529-191007-164",
+    "P07-20240529-191007-165",
+    "P07-20240529-191007-170",
+    "P07-20240529-191007-171",
+    "P07-20240529-191007-172",
+    "P07-20240529-191007-173"
+   ],
+   "rationale": "The person gets a bowl for measuring, places it on the scales, opens the garlic jar, and fetches a spoon from the drawer."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Scoop and measure the minced garlic into the bowl.",
+   "action_ids": [
+    "P07-20240529-191007-174",
+    "P07-20240529-191007-175",
+    "P07-20240529-191007-176",
+    "P07-20240529-191007-177",
+    "P07-20240529-191007-178",
+    "P07-20240529-191007-179",
+    "P07-20240529-191007-180"
+   ],
+   "rationale": "The person repeatedly scoops garlic from the jar, drains the excess liquid, and tips the garlic into the bowl on the scales to measure it."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

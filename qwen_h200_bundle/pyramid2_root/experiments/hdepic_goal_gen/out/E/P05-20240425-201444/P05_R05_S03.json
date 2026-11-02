@@ -1,0 +1,127 @@
+{
+ "overall_goal": "Combine and whisk the eggs and sugar, then fold in the flour to make the batter.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Gather the bowls and eggs.",
+   "action_ids": [
+    "P05-20240425-201444-12",
+    "P05-20240425-201444-13",
+    "P05-20240425-201444-14",
+    "P05-20240425-201444-15",
+    "P05-20240425-201444-16",
+    "P05-20240425-201444-19",
+    "P05-20240425-201444-20",
+    "P05-20240425-201444-21",
+    "P05-20240425-201444-22",
+    "P05-20240425-201444-23"
+   ],
+   "rationale": "The person retrieves the necessary bowls and the box of eggs, placing them on the counter to prepare for mixing."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Crack and separate the eggs into the bowl.",
+   "action_ids": [
+    "P05-20240425-201444-24",
+    "P05-20240425-201444-25",
+    "P05-20240425-201444-26",
+    "P05-20240425-201444-27",
+    "P05-20240425-201444-28",
+    "P05-20240425-201444-29",
+    "P05-20240425-201444-30",
+    "P05-20240425-201444-31",
+    "P05-20240425-201444-32",
+    "P05-20240425-201444-33"
+   ],
+   "rationale": "The person cracks the eggs, separates the yolks from the whites, and adds them to the mixing bowl."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Measure and add sugar to the eggs.",
+   "action_ids": [
+    "P05-20240425-201444-47",
+    "P05-20240425-201444-48",
+    "P05-20240425-201444-49",
+    "P05-20240425-201444-55",
+    "P05-20240425-201444-57",
+    "P05-20240425-201444-108",
+    "P05-20240425-201444-109",
+    "P05-20240425-201444-110",
+    "P05-20240425-201444-111"
+   ],
+   "rationale": "The person sets up the kitchen scales and pours sugar from the packet into the bowl containing the eggs."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Whisk the eggs and sugar with an electric mixer.",
+   "action_ids": [
+    "P05-20240425-201444-119",
+    "P05-20240425-201444-120",
+    "P05-20240425-201444-121",
+    "P05-20240425-201444-122",
+    "P05-20240425-201444-124",
+    "P05-20240425-201444-147",
+    "P05-20240425-201444-148",
+    "P05-20240425-201444-149",
+    "P05-20240425-201444-150",
+    "P05-20240425-201444-151",
+    "P05-20240425-201444-152",
+    "P05-20240425-201444-153",
+    "P05-20240425-201444-154",
+    "P05-20240425-201444-155",
+    "P05-20240425-201444-156",
+    "P05-20240425-201444-157",
+    "P05-20240425-201444-158",
+    "P05-20240425-201444-159",
+    "P05-20240425-201444-160"
+   ],
+   "rationale": "The person assembles and plugs in the electric mixer, then vigorously whisks the egg and sugar mixture until it is fully combined."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Prepare the flour and measuring spoon.",
+   "action_ids": [
+    "P05-20240425-201444-177",
+    "P05-20240425-201444-178",
+    "P05-20240425-201444-179",
+    "P05-20240425-201444-180",
+    "P05-20240425-201444-181",
+    "P05-20240425-201444-182",
+    "P05-20240425-201444-183",
+    "P05-20240425-201444-184",
+    "P05-20240425-201444-185",
+    "P05-20240425-201444-186",
+    "P05-20240425-201444-187"
+   ],
+   "rationale": "The person opens the jar of flour and retrieves a measuring spoon from a drawer, cleaning off excess salt from it."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Add and fold the flour into the batter.",
+   "action_ids": [
+    "P05-20240425-201444-188",
+    "P05-20240425-201444-189",
+    "P05-20240425-201444-190",
+    "P05-20240425-201444-196",
+    "P05-20240425-201444-197",
+    "P05-20240425-201444-199",
+    "P05-20240425-201444-200",
+    "P05-20240425-201444-201",
+    "P05-20240425-201444-202",
+    "P05-20240425-201444-205"
+   ],
+   "rationale": "The person spoons flour into the mixture and gently folds it in using a spatula to complete the batter."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P05-20240425-201444-45",
+  "P05-20240425-201444-46",
+  "P05-20240425-201444-54",
+  "P05-20240425-201444-56",
+  "P05-20240425-201444-123"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

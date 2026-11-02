@@ -1,0 +1,200 @@
+{
+ "overall_goal": "Clean the kitchen by loading the dishwasher, managing food waste, and washing remaining dishes by hand",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Scrub and load items into the dishwasher bottom rack",
+   "action_ids": [
+    "P03-20240216-185832-241",
+    "P03-20240216-185832-242",
+    "P03-20240216-185832-243",
+    "P03-20240216-185832-244",
+    "P03-20240216-185832-245",
+    "P03-20240216-185832-246",
+    "P03-20240216-185832-247",
+    "P03-20240216-185832-248",
+    "P03-20240216-185832-249",
+    "P03-20240216-185832-250",
+    "P03-20240216-185832-251",
+    "P03-20240216-185832-252",
+    "P03-20240216-185832-253",
+    "P03-20240216-185832-254",
+    "P03-20240216-185832-255",
+    "P03-20240216-185832-256",
+    "P03-20240216-185832-257"
+   ],
+   "rationale": "The person opens the dishwasher, prepares the brush, and scrubs various utensils and plates before placing them in the bottom rack."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Load items into the dishwasher top rack",
+   "action_ids": [
+    "P03-20240216-185832-258",
+    "P03-20240216-185832-259",
+    "P03-20240216-185832-260",
+    "P03-20240216-185832-261",
+    "P03-20240216-185832-262",
+    "P03-20240216-185832-263",
+    "P03-20240216-185832-264",
+    "P03-20240216-185832-265",
+    "P03-20240216-185832-266",
+    "P03-20240216-185832-267"
+   ],
+   "rationale": "The person pulls out the top rack and places a cheese grater, a scrubbed plastic container, a small bowl, and a coffee cup into it."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Sort remaining items, finish loading the dishwasher, and close it",
+   "action_ids": [
+    "P03-20240216-185832-268",
+    "P03-20240216-185832-269",
+    "P03-20240216-185832-270",
+    "P03-20240216-185832-271",
+    "P03-20240216-185832-272",
+    "P03-20240216-185832-273",
+    "P03-20240216-185832-274",
+    "P03-20240216-185832-275",
+    "P03-20240216-185832-276",
+    "P03-20240216-185832-277",
+    "P03-20240216-185832-278",
+    "P03-20240216-185832-279",
+    "P03-20240216-185832-280",
+    "P03-20240216-185832-281",
+    "P03-20240216-185832-282",
+    "P03-20240216-185832-283"
+   ],
+   "rationale": "The person sorts out items to be washed by hand, places the last few items like a teaspoon and coffee jug into the dishwasher, pushes the racks in, and closes the door."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Dry hands with a cloth",
+   "action_ids": [
+    "P03-20240216-185832-284",
+    "P03-20240216-185832-285",
+    "P03-20240216-185832-286"
+   ],
+   "rationale": "The person grabs a cloth, dries their hands, and puts the cloth back."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Retrieve and open a new paper food waste bag",
+   "action_ids": [
+    "P03-20240216-185832-287",
+    "P03-20240216-185832-288",
+    "P03-20240216-185832-289",
+    "P03-20240216-185832-290",
+    "P03-20240216-185832-291",
+    "P03-20240216-185832-292",
+    "P03-20240216-185832-293",
+    "P03-20240216-185832-294",
+    "P03-20240216-185832-295",
+    "P03-20240216-185832-296",
+    "P03-20240216-185832-297"
+   ],
+   "rationale": "The person opens the cupboard, takes out a paper food waste bag, and unfolds it to prepare for waste transfer."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Transfer food waste into the paper bag and dispose of the non-compostable plastic bag",
+   "action_ids": [
+    "P03-20240216-185832-298",
+    "P03-20240216-185832-299",
+    "P03-20240216-185832-300",
+    "P03-20240216-185832-301",
+    "P03-20240216-185832-302",
+    "P03-20240216-185832-303",
+    "P03-20240216-185832-304",
+    "P03-20240216-185832-305",
+    "P03-20240216-185832-306",
+    "P03-20240216-185832-307",
+    "P03-20240216-185832-308",
+    "P03-20240216-185832-309",
+    "P03-20240216-185832-311",
+    "P03-20240216-185832-310"
+   ],
+   "rationale": "The person drops an eggshell into the paper bag, retrieves a plastic bag of food waste, empties its contents into the paper bag, and throws the empty plastic bag into the general waste bin."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Insert the filled paper bag into the food waste bin and store it",
+   "action_ids": [
+    "P03-20240216-185832-312",
+    "P03-20240216-185832-313",
+    "P03-20240216-185832-314",
+    "P03-20240216-185832-315",
+    "P03-20240216-185832-316",
+    "P03-20240216-185832-317",
+    "P03-20240216-185832-318",
+    "P03-20240216-185832-319",
+    "P03-20240216-185832-320"
+   ],
+   "rationale": "The person retrieves the food waste bin, places the paper bag inside it, closes the lid, and returns the bin to the cupboard."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Rinse hands and prepare the sponge with washing up liquid",
+   "action_ids": [
+    "P03-20240216-185832-321",
+    "P03-20240216-185832-322",
+    "P03-20240216-185832-323",
+    "P03-20240216-185832-324",
+    "P03-20240216-185832-325",
+    "P03-20240216-185832-326",
+    "P03-20240216-185832-327",
+    "P03-20240216-185832-328",
+    "P03-20240216-185832-329",
+    "P03-20240216-185832-330",
+    "P03-20240216-185832-331",
+    "P03-20240216-185832-332",
+    "P03-20240216-185832-333",
+    "P03-20240216-185832-334",
+    "P03-20240216-185832-335"
+   ],
+   "rationale": "The person puts away the dishwasher brush, rinses their hands and a sponge, and applies washing up liquid to the sponge."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Wash the wooden spoon, spatula, and frying pan by hand",
+   "action_ids": [
+    "P03-20240216-185832-336",
+    "P03-20240216-185832-337",
+    "P03-20240216-185832-338",
+    "P03-20240216-185832-339",
+    "P03-20240216-185832-340",
+    "P03-20240216-185832-341",
+    "P03-20240216-185832-342",
+    "P03-20240216-185832-343",
+    "P03-20240216-185832-344",
+    "P03-20240216-185832-345",
+    "P03-20240216-185832-346",
+    "P03-20240216-185832-347",
+    "P03-20240216-185832-348",
+    "P03-20240216-185832-349",
+    "P03-20240216-185832-350",
+    "P03-20240216-185832-351",
+    "P03-20240216-185832-352"
+   ],
+   "rationale": "The person uses the soapy sponge to hand-wash items that cannot go in the dishwasher or are needed soon, then rinses the frying pan and places it on the drying rack."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Rinse the spatula thoroughly and place it in the cutlery stand",
+   "action_ids": [
+    "P03-20240216-185832-353",
+    "P03-20240216-185832-354",
+    "P03-20240216-185832-355",
+    "P03-20240216-185832-356",
+    "P03-20240216-185832-357",
+    "P03-20240216-185832-358",
+    "P03-20240216-185832-359",
+    "P03-20240216-185832-360"
+   ],
+   "rationale": "The person rinses the spatula, notices remaining food, scrubs it again with the sponge, rinses it completely, and stores it in the cutlery stand."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

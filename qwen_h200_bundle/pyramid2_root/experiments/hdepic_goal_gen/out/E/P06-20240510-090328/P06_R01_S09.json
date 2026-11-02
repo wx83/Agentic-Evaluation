@@ -1,0 +1,34 @@
+{
+ "overall_goal": "Cook the uttapam pancake by pressing and flipping it in the pan",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Press and flip the pancake to cook the first side",
+   "action_ids": [
+    "P06-20240510-090328-479",
+    "P06-20240510-090328-480",
+    "P06-20240510-090328-481",
+    "P06-20240510-090328-482",
+    "P06-20240510-090328-483",
+    "P06-20240510-090328-484"
+   ],
+   "rationale": "The person picks up the spatula, presses the pancake, flips it, and presses the vegetables into the surface."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Flip and press the pancake again to ensure even cooking",
+   "action_ids": [
+    "P06-20240510-090328-488",
+    "P06-20240510-090328-489",
+    "P06-20240510-090328-490",
+    "P06-20240510-090328-491"
+   ],
+   "rationale": "The person picks up the spatula again, flips the pancake over, and presses it to cook evenly on all sides."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

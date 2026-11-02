@@ -1,0 +1,190 @@
+{
+ "overall_goal": "Perform various preparatory and cleaning tasks, including transferring ingredients, washing hands and utensils, and managing cooking tools",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Transfer bacon to the pan",
+   "action_ids": [
+    "P05-20240425-171455-139",
+    "P05-20240425-171455-157",
+    "P05-20240425-171455-158",
+    "P05-20240425-171455-159",
+    "P05-20240425-171455-170",
+    "P05-20240425-171455-171",
+    "P05-20240425-171455-172",
+    "P05-20240425-171455-173"
+   ],
+   "rationale": "The person transfers chopped bacon into the pan and manages the tools and scales."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P05-20240425-171455-176",
+    "P05-20240425-171455-177",
+    "P05-20240425-171455-178",
+    "P05-20240425-171455-179",
+    "P05-20240425-171455-180",
+    "P05-20240425-171455-181",
+    "P05-20240425-171455-182",
+    "P05-20240425-171455-183"
+   ],
+   "rationale": "The person washes their hands with soap and water, then dries them on a towel."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Dispose of egg shells and rinse hands",
+   "action_ids": [
+    "P05-20240425-171455-217",
+    "P05-20240425-171455-235",
+    "P05-20240425-171455-236",
+    "P05-20240425-171455-237",
+    "P05-20240425-171455-238",
+    "P05-20240425-171455-239",
+    "P05-20240425-171455-240",
+    "P05-20240425-171455-241",
+    "P05-20240425-171455-242"
+   ],
+   "rationale": "The person collects empty egg shells, throws them in the bin, and rinses their hands."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Manage pans and lids on the cooker",
+   "action_ids": [
+    "P05-20240425-171455-258",
+    "P05-20240425-171455-259",
+    "P05-20240425-171455-317",
+    "P05-20240425-171455-318",
+    "P05-20240425-171455-343",
+    "P05-20240425-171455-344",
+    "P05-20240425-171455-345",
+    "P05-20240425-171455-387"
+   ],
+   "rationale": "The person places and removes lids on the boiling water and moves pans between the hot and cold sides of the cooker."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Wash and dry the knife",
+   "action_ids": [
+    "P05-20240425-171455-279",
+    "P05-20240425-171455-280",
+    "P05-20240425-171455-281",
+    "P05-20240425-171455-282",
+    "P05-20240425-171455-283",
+    "P05-20240425-171455-284",
+    "P05-20240425-171455-285",
+    "P05-20240425-171455-286",
+    "P05-20240425-171455-287"
+   ],
+   "rationale": "The person washes the knife in soapy water with a brush, rinses it, and dries it."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Prepare cheese by removing the rind",
+   "action_ids": [
+    "P05-20240425-171455-288",
+    "P05-20240425-171455-289",
+    "P05-20240425-171455-290",
+    "P05-20240425-171455-291",
+    "P05-20240425-171455-292",
+    "P05-20240425-171455-293",
+    "P05-20240425-171455-294",
+    "P05-20240425-171455-295",
+    "P05-20240425-171455-296",
+    "P05-20240425-171455-297"
+   ],
+   "rationale": "The person chops the rind off the cheese and sets it aside on the chopping board."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Retrieve pasta and set a cooking timer",
+   "action_ids": [
+    "P05-20240425-171455-301",
+    "P05-20240425-171455-302",
+    "P05-20240425-171455-303",
+    "P05-20240425-171455-325",
+    "P05-20240425-171455-326",
+    "P05-20240425-171455-327",
+    "P05-20240425-171455-328",
+    "P05-20240425-171455-329",
+    "P05-20240425-171455-330"
+   ],
+   "rationale": "The person takes pasta from the cupboard, checks the packet, and sets a timer on their phone."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Retrieve and weigh cheese, and find a grater",
+   "action_ids": [
+    "P05-20240425-171455-331",
+    "P05-20240425-171455-332",
+    "P05-20240425-171455-333",
+    "P05-20240425-171455-334",
+    "P05-20240425-171455-335",
+    "P05-20240425-171455-336",
+    "P05-20240425-171455-341",
+    "P05-20240425-171455-342"
+   ],
+   "rationale": "The person weighs the cheese on the scales and retrieves a fine cheese grater from the drawer and hook."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Add garlic to the bacon pan",
+   "action_ids": [
+    "P05-20240425-171455-350",
+    "P05-20240425-171455-351",
+    "P05-20240425-171455-352",
+    "P05-20240425-171455-353",
+    "P05-20240425-171455-354",
+    "P05-20240425-171455-355"
+   ],
+   "rationale": "The person clears the chopping board and scrapes the chopped garlic into the pan with the bacon."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Manage cheese, grater, and chopping board",
+   "action_ids": [
+    "P05-20240425-171455-365",
+    "P05-20240425-171455-372",
+    "P05-20240425-171455-377",
+    "P05-20240425-171455-378",
+    "P05-20240425-171455-379",
+    "P05-20240425-171455-380"
+   ],
+   "rationale": "The person repeatedly picks up and puts down the cheese and grater, and clears the cheese rind from the chopping board."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P05-20240425-171455-184",
+  "P05-20240425-171455-187",
+  "P05-20240425-171455-188",
+  "P05-20240425-171455-196",
+  "P05-20240425-171455-197",
+  "P05-20240425-171455-198",
+  "P05-20240425-171455-205",
+  "P05-20240425-171455-206",
+  "P05-20240425-171455-243",
+  "P05-20240425-171455-245",
+  "P05-20240425-171455-252",
+  "P05-20240425-171455-253",
+  "P05-20240425-171455-257",
+  "P05-20240425-171455-263",
+  "P05-20240425-171455-264",
+  "P05-20240425-171455-265",
+  "P05-20240425-171455-274",
+  "P05-20240425-171455-275",
+  "P05-20240425-171455-276",
+  "P05-20240425-171455-298",
+  "P05-20240425-171455-300",
+  "P05-20240425-171455-346",
+  "P05-20240425-171455-366",
+  "P05-20240425-171455-367",
+  "P05-20240425-171455-373",
+  "P05-20240425-171455-385",
+  "P05-20240425-171455-388",
+  "P05-20240425-171455-389"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

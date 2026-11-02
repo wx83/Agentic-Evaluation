@@ -1,0 +1,201 @@
+{
+ "overall_goal": "Prepare and weigh ingredients for a meal",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve ingredients from the refrigerator",
+   "action_ids": [
+    "P06-20240511-102207-3",
+    "P06-20240511-102207-4",
+    "P06-20240511-102207-5",
+    "P06-20240511-102207-6",
+    "P06-20240511-102207-7",
+    "P06-20240511-102207-8",
+    "P06-20240511-102207-9",
+    "P06-20240511-102207-10",
+    "P06-20240511-102207-11",
+    "P06-20240511-102207-12",
+    "P06-20240511-102207-13",
+    "P06-20240511-102207-14",
+    "P06-20240511-102207-15",
+    "P06-20240511-102207-16",
+    "P06-20240511-102207-17",
+    "P06-20240511-102207-18",
+    "P06-20240511-102207-19",
+    "P06-20240511-102207-20",
+    "P06-20240511-102207-21",
+    "P06-20240511-102207-22"
+   ],
+   "rationale": "The person opens the refrigerator and takes out various ingredients like eggs, bread, milk, and butter, placing them on the tabletop."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Record the recipe and ingredients in a notebook",
+   "action_ids": [
+    "P06-20240511-102207-23",
+    "P06-20240511-102207-24",
+    "P06-20240511-102207-25",
+    "P06-20240511-102207-26",
+    "P06-20240511-102207-27",
+    "P06-20240511-102207-28",
+    "P06-20240511-102207-29",
+    "P06-20240511-102207-30",
+    "P06-20240511-102207-31"
+   ],
+   "rationale": "The person uses a pen to write down the recipe and ingredients in a notebook on the tabletop."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Set up the workspace with tools and ingredients",
+   "action_ids": [
+    "P06-20240511-102207-32",
+    "P06-20240511-102207-33",
+    "P06-20240511-102207-34",
+    "P06-20240511-102207-35",
+    "P06-20240511-102207-36",
+    "P06-20240511-102207-37",
+    "P06-20240511-102207-38",
+    "P06-20240511-102207-39",
+    "P06-20240511-102207-40",
+    "P06-20240511-102207-41"
+   ],
+   "rationale": "The person arranges the weighing balance, bowls, chopping board, and eggs on the tabletop to prepare for cooking."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Retrieve an onion and a frying pan",
+   "action_ids": [
+    "P06-20240511-102207-42",
+    "P06-20240511-102207-43",
+    "P06-20240511-102207-44",
+    "P06-20240511-102207-45",
+    "P06-20240511-102207-46",
+    "P06-20240511-102207-47",
+    "P06-20240511-102207-48",
+    "P06-20240511-102207-49"
+   ],
+   "rationale": "The person takes an onion from a drawer and a frying pan from a cabinet, placing the pan on the stove."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Peel and prepare the onion for chopping",
+   "action_ids": [
+    "P06-20240511-102207-50",
+    "P06-20240511-102207-51",
+    "P06-20240511-102207-52",
+    "P06-20240511-102207-53",
+    "P06-20240511-102207-54",
+    "P06-20240511-102207-55",
+    "P06-20240511-102207-56",
+    "P06-20240511-102207-57",
+    "P06-20240511-102207-58",
+    "P06-20240511-102207-59",
+    "P06-20240511-102207-60",
+    "P06-20240511-102207-61",
+    "P06-20240511-102207-62",
+    "P06-20240511-102207-63"
+   ],
+   "rationale": "The person cuts and peels the outer layer of the onion, placing the peels into a separate bowl."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Weigh the onion and record its weight",
+   "action_ids": [
+    "P06-20240511-102207-64",
+    "P06-20240511-102207-65",
+    "P06-20240511-102207-66",
+    "P06-20240511-102207-67",
+    "P06-20240511-102207-68",
+    "P06-20240511-102207-69",
+    "P06-20240511-102207-70"
+   ],
+   "rationale": "The person places half of the onion on the weighing balance and writes down its weight in the notebook."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Chop the onion",
+   "action_ids": [
+    "P06-20240511-102207-71",
+    "P06-20240511-102207-72",
+    "P06-20240511-102207-73",
+    "P06-20240511-102207-74",
+    "P06-20240511-102207-75",
+    "P06-20240511-102207-76",
+    "P06-20240511-102207-77",
+    "P06-20240511-102207-78",
+    "P06-20240511-102207-79",
+    "P06-20240511-102207-80",
+    "P06-20240511-102207-81",
+    "P06-20240511-102207-82",
+    "P06-20240511-102207-83",
+    "P06-20240511-102207-84",
+    "P06-20240511-102207-85",
+    "P06-20240511-102207-86",
+    "P06-20240511-102207-87",
+    "P06-20240511-102207-88"
+   ],
+   "rationale": "The person uses a knife to continuously chop the onion half on the chopping board."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Transfer the chopped onion to a bowl",
+   "action_ids": [
+    "P06-20240511-102207-89",
+    "P06-20240511-102207-90",
+    "P06-20240511-102207-91",
+    "P06-20240511-102207-92",
+    "P06-20240511-102207-93",
+    "P06-20240511-102207-94"
+   ],
+   "rationale": "The person collects the chopped onion pieces from the chopping board and places them into a bowl."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Set up the bowl on the weighing balance and crack the first eggs",
+   "action_ids": [
+    "P06-20240511-102207-95",
+    "P06-20240511-102207-96",
+    "P06-20240511-102207-97",
+    "P06-20240511-102207-98",
+    "P06-20240511-102207-101",
+    "P06-20240511-102207-99",
+    "P06-20240511-102207-100",
+    "P06-20240511-102207-102",
+    "P06-20240511-102207-103",
+    "P06-20240511-102207-104",
+    "P06-20240511-102207-105",
+    "P06-20240511-102207-106",
+    "P06-20240511-102207-107"
+   ],
+   "rationale": "The person tares a bowl on the weighing balance and begins cracking eggs into it, discarding the shells."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Crack the remaining eggs into the bowl",
+   "action_ids": [
+    "P06-20240511-102207-108",
+    "P06-20240511-102207-109",
+    "P06-20240511-102207-110",
+    "P06-20240511-102207-111",
+    "P06-20240511-102207-112",
+    "P06-20240511-102207-113",
+    "P06-20240511-102207-114",
+    "P06-20240511-102207-115",
+    "P06-20240511-102207-116",
+    "P06-20240511-102207-117",
+    "P06-20240511-102207-118",
+    "P06-20240511-102207-119"
+   ],
+   "rationale": "The person continues to crack more eggs into the bowl on the weighing balance and discards the remaining shells."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P06-20240511-102207-1",
+  "P06-20240511-102207-2",
+  "P06-20240511-102207-120"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

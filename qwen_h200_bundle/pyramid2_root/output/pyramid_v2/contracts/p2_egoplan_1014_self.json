@@ -1,0 +1,95 @@
+{
+ "protocol_version": "independent-v1",
+ "evaluation_protocol": "OFFLINE_QA",
+ "taxonomy_version": "capability-v3",
+ "prompt_version": "physical-mental-draft2-egoplan",
+ "phase": "DIAGNOSIS",
+ "n_per_layer": 30,
+ "turn_budget_per_layer": 45,
+ "max_solver_errors": 15,
+ "seed": 1014,
+ "examiner_model": "gcp/google/gemini-3.1-pro-preview",
+ "examiner_thinking": "default",
+ "examiner_max_tokens": 16384,
+ "solver_model": "gcp/google/gemini-3.7-flash",
+ "solver_thinking": "off",
+ "judge_model": "gcp/google/gemini-3.1-pro-preview",
+ "solver_input_spec": {
+  "modalities": [
+   "video",
+   "audio"
+  ],
+  "permitted_media": [],
+  "observation_cutoff": null,
+  "allowed_tools": [],
+  "memory_policy": "fresh_context_per_item"
+ },
+ "coverage_targets": [
+  "task.structure",
+  "physical.dynamics",
+  "physical.objects_properties"
+ ],
+ "frozen_policy": {
+  "confirmation": {
+   "items_per_skill": 3,
+   "max_items": 27,
+   "format": "single_choice",
+   "pass_threshold": 0.8,
+   "min_distinct_clusters": 3,
+   "max_hypothesis_tests": 3
+  }
+ },
+ "remaining_budget": null,
+ "run_id": "p2_egoplan_1014_self",
+ "dataset": "egoplan",
+ "videos": [
+  "36c093d9-dbff-4fdd-bbc4-5302ae13415a",
+  "d526d862-080f-4b3e-9894-6ff997f5d6ac",
+  "4231baf5-d7d9-4e59-9e65-48b63626ec3b",
+  "eff9a4e2-a2ab-45d4-a142-64a9aa4fc6e9",
+  "be7ede7a-c212-45ff-8601-e15dd2f7e531",
+  "f374039b-7f08-4dc3-af64-4e9ff61db531",
+  "26c1745c-f809-487c-bcdc-aca0b66f55fc",
+  "e2dd39cb-63e2-4ebb-b99a-ad7ff579b048",
+  "6306375a-1533-4f3c-843b-0cd51b4bf449",
+  "153c02cc-e47b-4970-acb1-8bad8b7e3c4f",
+  "b2017f8e-32fd-4b52-81e1-1b287b6fd9c6",
+  "fc9824ed-63c1-4844-a80a-2c223d4ff7c1",
+  "75014678-aa82-42cc-91aa-313f295d62f4",
+  "a774ee38-7f06-4733-8b76-1fb07f95dcf4",
+  "6fe7244f-3a33-4d67-bb2a-5542473f0cfe",
+  "ccfb6433-206b-4c5c-8122-567bbeac5f70",
+  "6b6d73b9-e92c-4698-86df-bbe687a9e95e",
+  "9adb762e-4baa-4328-bc76-a2662c6a9977",
+  "8229b2ec-6007-461d-8469-d7f116c09a9b",
+  "5ead8e7c-2600-44b1-afd6-b82cb5f7b9ce"
+ ],
+ "extension_registry": {
+  "enabled_skills": [
+   "object_recognition"
+  ]
+ },
+ "budget_mode": "per_skill",
+ "per_skill_base": 3,
+ "per_skill_followups": 3,
+ "include_skills": [
+  "object_recognition",
+  "action_recognition",
+  "event_object_role",
+  "action_temporal_order",
+  "activity_recognition",
+  "inter_event_temporal_reasoning",
+  "action_purpose_inference",
+  "next_step_prediction",
+  "goal_conditioned_planning"
+ ],
+ "note": "10-14 EgoPlan-Bench2 20 条:goal+plan -> scope planner -> 每层按 skill 出题;Solver 只看 clip + 下层历史(self 臂);预算每 skill 3 基础 + 3 追问 + 3 确认",
+ "prompt_md": "/mnt/work_new/weihanxu/experiments/daily_report/1014_prompts_egoplan.md",
+ "scope_model": "gcp/google/gemini-3.1-pro-preview",
+ "scope_mode": "prefer",
+ "history_mode": "self",
+ "history_scope": "all_lower",
+ "history_cap": 12,
+ "history_exclude_same_answer": true,
+ "chain_prefer_history": true
+}

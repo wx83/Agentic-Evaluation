@@ -1,0 +1,75 @@
+{
+ "protocol_version": "independent-v1",
+ "evaluation_protocol": "OFFLINE_QA",
+ "taxonomy_version": "capability-v3",
+ "prompt_version": "physical-mental-draft1",
+ "phase": "DIAGNOSIS",
+ "n_per_layer": 30,
+ "turn_budget_per_layer": 45,
+ "max_solver_errors": 15,
+ "seed": 1012,
+ "examiner_model": "gcp/google/gemini-3.1-pro-preview",
+ "examiner_thinking": "default",
+ "examiner_max_tokens": 16384,
+ "solver_model": "gcp/google/gemini-3.7-flash",
+ "solver_thinking": "off",
+ "judge_model": "gcp/google/gemini-3.1-pro-preview",
+ "solver_input_spec": {
+  "modalities": [
+   "video",
+   "audio"
+  ],
+  "permitted_media": [],
+  "observation_cutoff": null,
+  "allowed_tools": [],
+  "memory_policy": "fresh_context_per_item"
+ },
+ "coverage_targets": [
+  "physical.objects_properties",
+  "physical.spatial",
+  "physical.dynamics",
+  "task.structure"
+ ],
+ "frozen_policy": {
+  "confirmation": {
+   "items_per_skill": 3,
+   "max_items": 18,
+   "format": "single_choice",
+   "pass_threshold": 0.8,
+   "min_distinct_clusters": 3,
+   "max_hypothesis_tests": 3
+  }
+ },
+ "remaining_budget": null,
+ "run_id": "p2_v3_1013_hdepic",
+ "dataset": "hdepic",
+ "videos": [
+  "P02-20240211-120927",
+  "P03-20240216-185832",
+  "P06-20240511-102207",
+  "P08-20240620-180825",
+  "P09-20240623-120359"
+ ],
+ "extension_registry": {
+  "enabled_skills": [
+   "action_recognition",
+   "event_object_role"
+  ]
+ },
+ "budget_mode": "per_skill",
+ "per_skill_base": 3,
+ "per_skill_followups": 3,
+ "include_skills": [
+  "sound_recognition",
+  "spatial_near",
+  "spatial_side",
+  "sound_event_count",
+  "sound_action_binding",
+  "object_state_change",
+  "action_temporal_order",
+  "activity_recognition",
+  "action_recognition",
+  "event_object_role"
+ ],
+ "note": "capability-v3 \u91cd\u8dd1 L1(\u58f0\u97f3 / \u7a7a\u95f4 4 skill,\u7a7a\u95f4\u52a0\u4e86 relation_definition \u4e0e\u9898\u9762\u6821\u9a8c,\u8ba1\u6570\u53ea\u6570\u975e\u6750\u8d28\u7c7b\u522b)+ L2(\u7406\u89e3\u4e00\u4e2a event:6 skill);\u6309 skill \u9884\u7b97 3/3/3\u3002L1 \u89c6\u89c9 4 skill \u590d\u7528 p2_fill_1013b_hdepic"
+}

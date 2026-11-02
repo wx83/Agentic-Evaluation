@@ -1,0 +1,25 @@
+{
+ "overall_goal": "Blend the mango lassi mixture until smooth",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Secure the blender lid and operate the blender",
+   "action_ids": [
+    "P09-20240623-120359-693",
+    "P09-20240623-120359-761",
+    "P09-20240623-120359-760",
+    "P09-20240623-120359-762",
+    "P09-20240623-120359-848",
+    "P09-20240623-120359-849"
+   ],
+   "rationale": "The person places the lid and stopper on the blender, holds it securely, adjusts the speed, and turns it on to blend the ingredients."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P09-20240623-120359-850"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,155 @@
+{
+ "overall_goal": "Organize the workspace, prepare the peeler, and peel a batch of carrots",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Clear and organize the countertop",
+   "action_ids": [
+    "P01-20240203-123350-344",
+    "P01-20240203-123350-358",
+    "P01-20240203-123350-359",
+    "P01-20240203-123350-360",
+    "P01-20240203-123350-361",
+    "P01-20240203-123350-362",
+    "P01-20240203-123350-368",
+    "P01-20240203-123350-372",
+    "P01-20240203-123350-373",
+    "P01-20240203-123350-374",
+    "P01-20240203-123350-375",
+    "P01-20240203-123350-376"
+   ],
+   "rationale": "The person discards trash, moves unused items away, and clears space on the countertop to prepare for the next task."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve a tupperware container for peels",
+   "action_ids": [
+    "P01-20240203-123350-380",
+    "P01-20240203-123350-381",
+    "P01-20240203-123350-382",
+    "P01-20240203-123350-383",
+    "P01-20240203-123350-384",
+    "P01-20240203-123350-385",
+    "P01-20240203-123350-386"
+   ],
+   "rationale": "The person searches the lower cupboards to find and place a plastic tupperware on the countertop to collect food waste."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Remove the protective cover from the peeler",
+   "action_ids": [
+    "P01-20240203-123350-387",
+    "P01-20240203-123350-388",
+    "P01-20240203-123350-389",
+    "P01-20240203-123350-390",
+    "P01-20240203-123350-391",
+    "P01-20240203-123350-392",
+    "P01-20240203-123350-393",
+    "P01-20240203-123350-394",
+    "P01-20240203-123350-395",
+    "P01-20240203-123350-396",
+    "P01-20240203-123350-397",
+    "P01-20240203-123350-398",
+    "P01-20240203-123350-399",
+    "P01-20240203-123350-400",
+    "P01-20240203-123350-401"
+   ],
+   "rationale": "After realizing the peeler is not working, the person figures out how to remove its plastic cover and throws the cover in the trash."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Peel the first four carrots",
+   "action_ids": [
+    "P01-20240203-123350-377",
+    "P01-20240203-123350-378",
+    "P01-20240203-123350-379",
+    "P01-20240203-123350-402",
+    "P01-20240203-123350-403",
+    "P01-20240203-123350-404",
+    "P01-20240203-123350-405",
+    "P01-20240203-123350-406",
+    "P01-20240203-123350-407",
+    "P01-20240203-123350-408",
+    "P01-20240203-123350-409",
+    "P01-20240203-123350-410",
+    "P01-20240203-123350-411",
+    "P01-20240203-123350-412",
+    "P01-20240203-123350-413"
+   ],
+   "rationale": "The person takes carrots out of the bag one by one and peels them over the bowl, placing the peeled carrots on the chopping board."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Peel the fifth, sixth, and seventh carrots",
+   "action_ids": [
+    "P01-20240203-123350-414",
+    "P01-20240203-123350-415",
+    "P01-20240203-123350-416",
+    "P01-20240203-123350-417",
+    "P01-20240203-123350-418",
+    "P01-20240203-123350-419",
+    "P01-20240203-123350-421",
+    "P01-20240203-123350-420",
+    "P01-20240203-123350-422",
+    "P01-20240203-123350-423",
+    "P01-20240203-123350-424",
+    "P01-20240203-123350-425",
+    "P01-20240203-123350-426",
+    "P01-20240203-123350-427",
+    "P01-20240203-123350-428",
+    "P01-20240203-123350-429"
+   ],
+   "rationale": "The person continues peeling more carrots from the bag, occasionally shaking the peeler to remove stuck peels and adjusting their grip for oddly shaped carrots."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Peel the final carrots",
+   "action_ids": [
+    "P01-20240203-123350-445",
+    "P01-20240203-123350-446",
+    "P01-20240203-123350-447",
+    "P01-20240203-123350-448",
+    "P01-20240203-123350-449",
+    "P01-20240203-123350-450",
+    "P01-20240203-123350-451",
+    "P01-20240203-123350-452",
+    "P01-20240203-123350-453",
+    "P01-20240203-123350-454",
+    "P01-20240203-123350-455",
+    "P01-20240203-123350-456",
+    "P01-20240203-123350-457",
+    "P01-20240203-123350-458",
+    "P01-20240203-123350-459",
+    "P01-20240203-123350-460"
+   ],
+   "rationale": "The person finishes peeling the last few carrots from the bag, including a very small piece, and adds them to the pile."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Dispose of the carrot peels and clean up",
+   "action_ids": [
+    "P01-20240203-123350-461",
+    "P01-20240203-123350-462",
+    "P01-20240203-123350-463",
+    "P01-20240203-123350-464",
+    "P01-20240203-123350-465",
+    "P01-20240203-123350-466",
+    "P01-20240203-123350-467",
+    "P01-20240203-123350-468",
+    "P01-20240203-123350-469",
+    "P01-20240203-123350-470",
+    "P01-20240203-123350-471",
+    "P01-20240203-123350-472"
+   ],
+   "rationale": "The person clears the remaining peels from the peeler and their hands into the tupperware, empties the tupperware into the food waste bin, and dries their hands."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P01-20240203-123350-440",
+  "P01-20240203-123350-444"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

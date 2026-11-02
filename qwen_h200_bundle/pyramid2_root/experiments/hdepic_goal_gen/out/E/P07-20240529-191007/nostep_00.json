@@ -1,0 +1,215 @@
+{
+ "overall_goal": "Retrieve, weigh, and log ingredients, tidy the workspace, and clean utensils",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve a glass jug from the drawer",
+   "action_ids": [
+    "P07-20240529-191007-4",
+    "P07-20240529-191007-5",
+    "P07-20240529-191007-6",
+    "P07-20240529-191007-7",
+    "P07-20240529-191007-8"
+   ],
+   "rationale": "The person opens drawers to find and take out a glass jug, then closes the drawers."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve a packet of mushrooms from the cupboard",
+   "action_ids": [
+    "P07-20240529-191007-10",
+    "P07-20240529-191007-11",
+    "P07-20240529-191007-12",
+    "P07-20240529-191007-13",
+    "P07-20240529-191007-20",
+    "P07-20240529-191007-21",
+    "P07-20240529-191007-22",
+    "P07-20240529-191007-23"
+   ],
+   "rationale": "The person opens the cupboard, selects a packet of mushrooms, and brings it over to the workspace."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Weigh the dried mushrooms and log the weight",
+   "action_ids": [
+    "P07-20240529-191007-24",
+    "P07-20240529-191007-25",
+    "P07-20240529-191007-26",
+    "P07-20240529-191007-27",
+    "P07-20240529-191007-28",
+    "P07-20240529-191007-29",
+    "P07-20240529-191007-30",
+    "P07-20240529-191007-31",
+    "P07-20240529-191007-32",
+    "P07-20240529-191007-33",
+    "P07-20240529-191007-34",
+    "P07-20240529-191007-35",
+    "P07-20240529-191007-36",
+    "P07-20240529-191007-37",
+    "P07-20240529-191007-38",
+    "P07-20240529-191007-43",
+    "P07-20240529-191007-44",
+    "P07-20240529-191007-45"
+   ],
+   "rationale": "The person transfers the mushrooms into a jug on the scale, turns it on, and writes down the measurement."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Prepare the scale and begin transferring chopped onion into a bowl",
+   "action_ids": [
+    "P07-20240529-191007-110",
+    "P07-20240529-191007-111",
+    "P07-20240529-191007-112",
+    "P07-20240529-191007-113",
+    "P07-20240529-191007-114",
+    "P07-20240529-191007-115",
+    "P07-20240529-191007-116",
+    "P07-20240529-191007-117",
+    "P07-20240529-191007-118",
+    "P07-20240529-191007-119",
+    "P07-20240529-191007-120"
+   ],
+   "rationale": "The person tares the scale with a bowl and starts scooping chopped onion from the board into the bowl."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Finish transferring the chopped onion, remove skins, and log the weight",
+   "action_ids": [
+    "P07-20240529-191007-121",
+    "P07-20240529-191007-122",
+    "P07-20240529-191007-123",
+    "P07-20240529-191007-124",
+    "P07-20240529-191007-125",
+    "P07-20240529-191007-126",
+    "P07-20240529-191007-127",
+    "P07-20240529-191007-128",
+    "P07-20240529-191007-129",
+    "P07-20240529-191007-130",
+    "P07-20240529-191007-131",
+    "P07-20240529-191007-132"
+   ],
+   "rationale": "The person removes unwanted onion skins, scoops the remaining onion into the bowl, and writes down the final weight."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Pour water from the kettle and handle the fork",
+   "action_ids": [
+    "P07-20240529-191007-133",
+    "P07-20240529-191007-134",
+    "P07-20240529-191007-139",
+    "P07-20240529-191007-140",
+    "P07-20240529-191007-141",
+    "P07-20240529-191007-144",
+    "P07-20240529-191007-145"
+   ],
+   "rationale": "The person uses the kettle to pour water into the jug, then taps and puts down a fork."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Tidy the workspace by moving packaging and bowls",
+   "action_ids": [
+    "P07-20240529-191007-147",
+    "P07-20240529-191007-148",
+    "P07-20240529-191007-149",
+    "P07-20240529-191007-150"
+   ],
+   "rationale": "The person pushes plastic packaging out of the way and moves a bowl of chopped ingredients."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Retrieve minced garlic from the fridge",
+   "action_ids": [
+    "P07-20240529-191007-151",
+    "P07-20240529-191007-152",
+    "P07-20240529-191007-153",
+    "P07-20240529-191007-154",
+    "P07-20240529-191007-155",
+    "P07-20240529-191007-156",
+    "P07-20240529-191007-157"
+   ],
+   "rationale": "The person opens the fridge, searches through the shelves and drawers, and takes out a jar of minced garlic."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Tare the digital scales and log the weight of the garlic",
+   "action_ids": [
+    "P07-20240529-191007-166",
+    "P07-20240529-191007-167",
+    "P07-20240529-191007-168",
+    "P07-20240529-191007-169",
+    "P07-20240529-191007-185",
+    "P07-20240529-191007-186",
+    "P07-20240529-191007-187"
+   ],
+   "rationale": "The person presses the buttons on the scale to zero it out, then writes down the measurement on paper."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Tidy the workspace by moving ingredients and utensils out of the way",
+   "action_ids": [
+    "P07-20240529-191007-181",
+    "P07-20240529-191007-182",
+    "P07-20240529-191007-183",
+    "P07-20240529-191007-184",
+    "P07-20240529-191007-188",
+    "P07-20240529-191007-189",
+    "P07-20240529-191007-190",
+    "P07-20240529-191007-191"
+   ],
+   "rationale": "The person moves the garlic jar, rolls up discarded cling film, and shifts a bowl, knife, and lid to clear space."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Inspect mushrooms, discard them, and weigh the empty tray",
+   "action_ids": [
+    "P07-20240529-191007-195",
+    "P07-20240529-191007-196",
+    "P07-20240529-191007-197",
+    "P07-20240529-191007-198",
+    "P07-20240529-191007-199",
+    "P07-20240529-191007-200",
+    "P07-20240529-191007-201",
+    "P07-20240529-191007-202",
+    "P07-20240529-191007-203",
+    "P07-20240529-191007-204",
+    "P07-20240529-191007-205",
+    "P07-20240529-191007-206",
+    "P07-20240529-191007-207",
+    "P07-20240529-191007-208",
+    "P07-20240529-191007-209",
+    "P07-20240529-191007-210",
+    "P07-20240529-191007-211"
+   ],
+   "rationale": "The person checks the mushrooms, decides they are bad, throws them and onion skins into the food waste bin, and then weighs the empty cardboard tray."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Rinse the colander and baking tray in the sink",
+   "action_ids": [
+    "P07-20240529-191007-215",
+    "P07-20240529-191007-216",
+    "P07-20240529-191007-217",
+    "P07-20240529-191007-218",
+    "P07-20240529-191007-219",
+    "P07-20240529-191007-220",
+    "P07-20240529-191007-221",
+    "P07-20240529-191007-222",
+    "P07-20240529-191007-223",
+    "P07-20240529-191007-224",
+    "P07-20240529-191007-225",
+    "P07-20240529-191007-226"
+   ],
+   "rationale": "The person washes the colander under the tap, drains a soaking baking tray, rinses their hands, and moves the clean colander to the chopping board."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P07-20240529-191007-1",
+  "P07-20240529-191007-46",
+  "P07-20240529-191007-103",
+  "P07-20240529-191007-146"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,207 @@
+{
+ "overall_goal": "Clear the food processor, weigh ingredients, and prepare to cook the chocolate sauce",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Disassemble the food processor and clear biscuit crumbs from its parts",
+   "action_ids": [
+    "P01-20240203-135502-1",
+    "P01-20240203-135502-2",
+    "P01-20240203-135502-3",
+    "P01-20240203-135502-4",
+    "P01-20240203-135502-5",
+    "P01-20240203-135502-6",
+    "P01-20240203-135502-7",
+    "P01-20240203-135502-8",
+    "P01-20240203-135502-9",
+    "P01-20240203-135502-10",
+    "P01-20240203-135502-11",
+    "P01-20240203-135502-12",
+    "P01-20240203-135502-13",
+    "P01-20240203-135502-14"
+   ],
+   "rationale": "The person takes apart the food processor and shakes the lid, blade, and bowl to collect all the crushed biscuit crumbs."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Measure and transfer crushed biscuits into a bowl",
+   "action_ids": [
+    "P01-20240203-135502-15",
+    "P01-20240203-135502-16",
+    "P01-20240203-135502-17",
+    "P01-20240203-135502-18",
+    "P01-20240203-135502-19",
+    "P01-20240203-135502-20",
+    "P01-20240203-135502-21",
+    "P01-20240203-135502-22",
+    "P01-20240203-135502-23",
+    "P01-20240203-135502-24",
+    "P01-20240203-135502-25",
+    "P01-20240203-135502-26",
+    "P01-20240203-135502-27"
+   ],
+   "rationale": "The person uses a glass to measure the crushed biscuits from the food processor bowl and pours them into a larger bowl."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Check and move the carrot soup pot",
+   "action_ids": [
+    "P01-20240203-135502-28",
+    "P01-20240203-135502-29",
+    "P01-20240203-135502-32",
+    "P01-20240203-135502-33",
+    "P01-20240203-135502-34",
+    "P01-20240203-135502-35"
+   ],
+   "rationale": "The person briefly checks the carrot soup and moves the pot to free up a burner on the hob."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Retrieve a pot for making chocolate sauce",
+   "action_ids": [
+    "P01-20240203-135502-36",
+    "P01-20240203-135502-37",
+    "P01-20240203-135502-38",
+    "P01-20240203-135502-39",
+    "P01-20240203-135502-40",
+    "P01-20240203-135502-41",
+    "P01-20240203-135502-42"
+   ],
+   "rationale": "The person searches the cupboard and selects a pot to use for cooking the chocolate sauce."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Retrieve a clean wooden spoon from the dishwasher",
+   "action_ids": [
+    "P01-20240203-135502-43",
+    "P01-20240203-135502-44",
+    "P01-20240203-135502-45",
+    "P01-20240203-135502-46",
+    "P01-20240203-135502-47",
+    "P01-20240203-135502-48",
+    "P01-20240203-135502-49"
+   ],
+   "rationale": "The person opens the dishwasher to get a clean wooden spoon and places it on the countertop."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Retrieve a tupperware container for weighing ingredients",
+   "action_ids": [
+    "P01-20240203-135502-53",
+    "P01-20240203-135502-54",
+    "P01-20240203-135502-55",
+    "P01-20240203-135502-56",
+    "P01-20240203-135502-57",
+    "P01-20240203-135502-58",
+    "P01-20240203-135502-59",
+    "P01-20240203-135502-60",
+    "P01-20240203-135502-61",
+    "P01-20240203-135502-62",
+    "P01-20240203-135502-63",
+    "P01-20240203-135502-64",
+    "P01-20240203-135502-65",
+    "P01-20240203-135502-66",
+    "P01-20240203-135502-67"
+   ],
+   "rationale": "The person searches the cupboards and extracts a tupperware container from inside a pot to use for weighing."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Prepare the scale and notepad for logging ingredient weights",
+   "action_ids": [
+    "P01-20240203-135502-68",
+    "P01-20240203-135502-69",
+    "P01-20240203-135502-70",
+    "P01-20240203-135502-71",
+    "P01-20240203-135502-72",
+    "P01-20240203-135502-73",
+    "P01-20240203-135502-74",
+    "P01-20240203-135502-75",
+    "P01-20240203-135502-76"
+   ],
+   "rationale": "The person turns on the scale, clears the notepad, and writes down the recipe ingredients to prepare for weighing."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Weigh the crushed biscuits and log the measurement",
+   "action_ids": [
+    "P01-20240203-135502-77",
+    "P01-20240203-135502-78",
+    "P01-20240203-135502-79",
+    "P01-20240203-135502-81",
+    "P01-20240203-135502-80",
+    "P01-20240203-135502-82",
+    "P01-20240203-135502-83",
+    "P01-20240203-135502-84",
+    "P01-20240203-135502-85",
+    "P01-20240203-135502-86",
+    "P01-20240203-135502-87",
+    "P01-20240203-135502-88",
+    "P01-20240203-135502-89",
+    "P01-20240203-135502-90",
+    "P01-20240203-135502-91",
+    "P01-20240203-135502-92",
+    "P01-20240203-135502-93",
+    "P01-20240203-135502-94"
+   ],
+   "rationale": "The person pours the crushed biscuits into the tupperware on the scale, writes down the weight, and returns the biscuits to the bowl."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Prepare the butter and scale for weighing",
+   "action_ids": [
+    "P01-20240203-135502-50",
+    "P01-20240203-135502-51",
+    "P01-20240203-135502-52",
+    "P01-20240203-135502-95",
+    "P01-20240203-135502-96",
+    "P01-20240203-135502-97",
+    "P01-20240203-135502-98",
+    "P01-20240203-135502-99"
+   ],
+   "rationale": "The person retrieves and partially unwraps the butter, then writes it on the notepad and places a pot on the scale."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Cut and weigh the butter, then store the rest",
+   "action_ids": [
+    "P01-20240203-135502-100",
+    "P01-20240203-135502-101",
+    "P01-20240203-135502-102",
+    "P01-20240203-135502-103",
+    "P01-20240203-135502-104",
+    "P01-20240203-135502-105",
+    "P01-20240203-135502-106",
+    "P01-20240203-135502-107",
+    "P01-20240203-135502-108",
+    "P01-20240203-135502-109",
+    "P01-20240203-135502-110",
+    "P01-20240203-135502-111",
+    "P01-20240203-135502-112"
+   ],
+   "rationale": "The person cuts a portion of the butter into the pot on the scale and wraps the remaining butter to put back in the fridge."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Start melting the butter and gather remaining ingredients and tools",
+   "action_ids": [
+    "P01-20240203-135502-113",
+    "P01-20240203-135502-114",
+    "P01-20240203-135502-115",
+    "P01-20240203-135502-116",
+    "P01-20240203-135502-117",
+    "P01-20240203-135502-118",
+    "P01-20240203-135502-119",
+    "P01-20240203-135502-120",
+    "P01-20240203-135502-121",
+    "P01-20240203-135502-122"
+   ],
+   "rationale": "The person moves the pot with butter to the hob, turns on the burner, and gathers cocoa, condensed milk, and a spoon."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

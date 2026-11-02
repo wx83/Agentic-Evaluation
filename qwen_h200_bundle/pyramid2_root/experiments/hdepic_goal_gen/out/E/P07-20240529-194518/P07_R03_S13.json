@@ -1,0 +1,36 @@
+{
+ "overall_goal": "Add mushroom stock to the rice and simmer while stirring.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Adjust the heat and pour the stock into the pan.",
+   "action_ids": [
+    "P07-20240529-194518-135",
+    "P07-20240529-194518-137",
+    "P07-20240529-194518-138",
+    "P07-20240529-194518-139",
+    "P07-20240529-194518-140",
+    "P07-20240529-194518-141"
+   ],
+   "rationale": "The person turns down the hob, stirs the stock, and pours it into the frying pan."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Stir the rice mixture as it simmers.",
+   "action_ids": [
+    "P07-20240529-194518-147",
+    "P07-20240529-194518-148",
+    "P07-20240529-194518-149",
+    "P07-20240529-194518-191",
+    "P07-20240529-194518-192",
+    "P07-20240529-194518-193"
+   ],
+   "rationale": "The person uses a spatula to stir the rice and mushrooms, tapping it and shaking the pan to ensure even cooking and prevent burning."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

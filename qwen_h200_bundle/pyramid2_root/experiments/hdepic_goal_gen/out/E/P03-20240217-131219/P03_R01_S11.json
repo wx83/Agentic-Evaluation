@@ -1,0 +1,52 @@
+{
+ "overall_goal": "Add the spring greens to the curry, stir well, and simmer for five minutes.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Add spring greens to the pan, stir them in, and cover to cook.",
+   "action_ids": [
+    "P03-20240217-131219-1093",
+    "P03-20240217-131219-1094",
+    "P03-20240217-131219-1095",
+    "P03-20240217-131219-1096",
+    "P03-20240217-131219-1097",
+    "P03-20240217-131219-1098",
+    "P03-20240217-131219-1099",
+    "P03-20240217-131219-1101",
+    "P03-20240217-131219-1100",
+    "P03-20240217-131219-1102"
+   ],
+   "rationale": "The person transfers the spring greens into the pan, starts a timer, stirs the ingredients together, and covers the pan with a lid."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Periodically stir the curry while it simmers.",
+   "action_ids": [
+    "P03-20240217-131219-1130",
+    "P03-20240217-131219-1131",
+    "P03-20240217-131219-1132",
+    "P03-20240217-131219-1148",
+    "P03-20240217-131219-1149",
+    "P03-20240217-131219-1150",
+    "P03-20240217-131219-1151"
+   ],
+   "rationale": "The person repeatedly removes the lid, stirs the curry to ensure even cooking, and replaces the lid."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Perform the final stir of the cooked curry.",
+   "action_ids": [
+    "P03-20240217-131219-1189",
+    "P03-20240217-131219-1190",
+    "P03-20240217-131219-1191",
+    "P03-20240217-131219-1192"
+   ],
+   "rationale": "The person removes the lid for the last time, drains the condensation into the pan, and gives the finished curry a final stir."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "overall_goal": "Record the weight of the dish and prepare it for serving",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Record the weight of the pasta dish",
+   "action_ids": [
+    "P01-20240202-161948-293",
+    "P01-20240202-161948-294",
+    "P01-20240202-161948-295"
+   ],
+   "rationale": "The person picks up a pen, writes down the weight from the scale onto a notepad, and puts the pen down."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Prepare the plated pasta for serving",
+   "action_ids": [
+    "P01-20240202-161948-296",
+    "P01-20240202-161948-297"
+   ],
+   "rationale": "The person places a fork into the filled plate and picks up the plate from the scale."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P01-20240202-161948-292"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "overall_goal": "Fold chocolate chips into the dough",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve and weigh the chocolate chips",
+   "action_ids": [
+    "P07-20240530-102543-145",
+    "P07-20240530-102543-308",
+    "P07-20240530-102543-309",
+    "P07-20240530-102543-310"
+   ],
+   "rationale": "The person gets the chocolate chips from the cupboard, opens the package, and measures them using the kitchen scale."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Mix the chocolate chips into the dough",
+   "action_ids": [
+    "P07-20240530-102543-314",
+    "P07-20240530-102543-317",
+    "P07-20240530-102543-318",
+    "P07-20240530-102543-319",
+    "P07-20240530-102543-320"
+   ],
+   "rationale": "The person pours the weighed chocolate chips into the main mixing bowl and thoroughly folds them into the dough using a fork."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

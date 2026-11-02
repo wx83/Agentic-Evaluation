@@ -1,0 +1,201 @@
+{
+ "overall_goal": "Weigh ingredients, record the recipe, and prepare the pressure cooker",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Weigh and record the garlic paste",
+   "action_ids": [
+    "P06-20240510-104642-703",
+    "P06-20240510-104642-704",
+    "P06-20240510-104642-705",
+    "P06-20240510-104642-715",
+    "P06-20240510-104642-716",
+    "P06-20240510-104642-717",
+    "P06-20240510-104642-718",
+    "P06-20240510-104642-719",
+    "P06-20240510-104642-720",
+    "P06-20240510-104642-721",
+    "P06-20240510-104642-722",
+    "P06-20240510-104642-723",
+    "P06-20240510-104642-724",
+    "P06-20240510-104642-726",
+    "P06-20240510-104642-731",
+    "P06-20240510-104642-732",
+    "P06-20240510-104642-733",
+    "P06-20240510-104642-734",
+    "P06-20240510-104642-739"
+   ],
+   "rationale": "The person retrieves a spoon, weighs the garlic paste, records the weight in a notebook, and closes the jar."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Clear used bowls and spoons to the sink",
+   "action_ids": [
+    "P06-20240510-104642-740",
+    "P06-20240510-104642-741",
+    "P06-20240510-104642-742",
+    "P06-20240510-104642-750",
+    "P06-20240510-104642-764",
+    "P06-20240510-104642-765"
+   ],
+   "rationale": "The person gathers used utensils and bowls from the tabletop and places them into the sink to clear the workspace."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Record the recipe in the notebook",
+   "action_ids": [
+    "P06-20240510-104642-743",
+    "P06-20240510-104642-744",
+    "P06-20240510-104642-745",
+    "P06-20240510-104642-746",
+    "P06-20240510-104642-747",
+    "P06-20240510-104642-748",
+    "P06-20240510-104642-760",
+    "P06-20240510-104642-761",
+    "P06-20240510-104642-762"
+   ],
+   "rationale": "The person repeatedly picks up a pen to write down the recipe steps in the notebook."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Weigh the kidney beans",
+   "action_ids": [
+    "P06-20240510-104642-769",
+    "P06-20240510-104642-770",
+    "P06-20240510-104642-771",
+    "P06-20240510-104642-772",
+    "P06-20240510-104642-773",
+    "P06-20240510-104642-774",
+    "P06-20240510-104642-775",
+    "P06-20240510-104642-776",
+    "P06-20240510-104642-777",
+    "P06-20240510-104642-778",
+    "P06-20240510-104642-779",
+    "P06-20240510-104642-780",
+    "P06-20240510-104642-781",
+    "P06-20240510-104642-782",
+    "P06-20240510-104642-783",
+    "P06-20240510-104642-784",
+    "P06-20240510-104642-785",
+    "P06-20240510-104642-786"
+   ],
+   "rationale": "The person sets up the weighing balance, tares a bowl, and pours kidney beans from the packet to measure them."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Weigh the pulses",
+   "action_ids": [
+    "P06-20240510-104642-789",
+    "P06-20240510-104642-790",
+    "P06-20240510-104642-791",
+    "P06-20240510-104642-792",
+    "P06-20240510-104642-793",
+    "P06-20240510-104642-794",
+    "P06-20240510-104642-795",
+    "P06-20240510-104642-796",
+    "P06-20240510-104642-797",
+    "P06-20240510-104642-798",
+    "P06-20240510-104642-799",
+    "P06-20240510-104642-800",
+    "P06-20240510-104642-801",
+    "P06-20240510-104642-802",
+    "P06-20240510-104642-803",
+    "P06-20240510-104642-804",
+    "P06-20240510-104642-805"
+   ],
+   "rationale": "The person opens a packet of pulses and pours them into the bowl to measure them alongside the kidney beans."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Record the recipe and clear the weighing balance",
+   "action_ids": [
+    "P06-20240510-104642-806",
+    "P06-20240510-104642-807",
+    "P06-20240510-104642-808",
+    "P06-20240510-104642-809",
+    "P06-20240510-104642-810",
+    "P06-20240510-104642-811",
+    "P06-20240510-104642-812",
+    "P06-20240510-104642-813",
+    "P06-20240510-104642-814",
+    "P06-20240510-104642-815",
+    "P06-20240510-104642-816",
+    "P06-20240510-104642-817",
+    "P06-20240510-104642-818",
+    "P06-20240510-104642-819",
+    "P06-20240510-104642-820",
+    "P06-20240510-104642-821",
+    "P06-20240510-104642-822",
+    "P06-20240510-104642-826",
+    "P06-20240510-104642-827",
+    "P06-20240510-104642-828"
+   ],
+   "rationale": "The person writes down the recipe and ingredient weights in the notebook, then turns off the weighing balance and moves the bowl aside."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Stir the curry in the frying pan",
+   "action_ids": [
+    "P06-20240510-104642-766",
+    "P06-20240510-104642-787",
+    "P06-20240510-104642-788",
+    "P06-20240510-104642-823",
+    "P06-20240510-104642-824",
+    "P06-20240510-104642-825",
+    "P06-20240510-104642-851",
+    "P06-20240510-104642-853"
+   ],
+   "rationale": "The person periodically picks up the spatula to mix the contents of the frying pan and then places it back."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Transfer beans and pulses to the pressure cooker and add water",
+   "action_ids": [
+    "P06-20240510-104642-829",
+    "P06-20240510-104642-830",
+    "P06-20240510-104642-831",
+    "P06-20240510-104642-832",
+    "P06-20240510-104642-833",
+    "P06-20240510-104642-834",
+    "P06-20240510-104642-835",
+    "P06-20240510-104642-836",
+    "P06-20240510-104642-837",
+    "P06-20240510-104642-838",
+    "P06-20240510-104642-839",
+    "P06-20240510-104642-840",
+    "P06-20240510-104642-841",
+    "P06-20240510-104642-842"
+   ],
+   "rationale": "The person pours the measured beans and pulses into the pressure cooker, then uses a cup to add water from the sink."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Set up the pressure cooker on the stove",
+   "action_ids": [
+    "P06-20240510-104642-843",
+    "P06-20240510-104642-844",
+    "P06-20240510-104642-845",
+    "P06-20240510-104642-846",
+    "P06-20240510-104642-847",
+    "P06-20240510-104642-848"
+   ],
+   "rationale": "The person places the pressure cooker on the gas stove, turns on the flame, and fastens the lid."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Clear the bowl to the stack of bowls",
+   "action_ids": [
+    "P06-20240510-104642-849",
+    "P06-20240510-104642-850"
+   ],
+   "rationale": "The person picks up the empty bowl and places it onto a stack of bowls to tidy up."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P06-20240510-104642-763"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "overall_goal": "Wash dishes and clean the kitchen counter",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Wash the lid and glass in the sink",
+   "action_ids": [
+    "P08-20240617-130401-689",
+    "P08-20240617-130401-690",
+    "P08-20240617-130401-691",
+    "P08-20240617-130401-692",
+    "P08-20240617-130401-693",
+    "P08-20240617-130401-694",
+    "P08-20240617-130401-695",
+    "P08-20240617-130401-696"
+   ],
+   "rationale": "The person turns on the tap, washes a lid and a glass, places items in the drying tray, and turns off the water."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Wipe the tabletop and clear away trash",
+   "action_ids": [
+    "P08-20240617-130401-697",
+    "P08-20240617-130401-698",
+    "P08-20240617-130401-699",
+    "P08-20240617-130401-700",
+    "P08-20240617-130401-701",
+    "P08-20240617-130401-702",
+    "P08-20240617-130401-703",
+    "P08-20240617-130401-704",
+    "P08-20240617-130401-705",
+    "P08-20240617-130401-706"
+   ],
+   "rationale": "The person uses a cloth to dry their hands, wipes down the counter while moving items out of the way, collects trash to put in the sink, and hangs up the cloth."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P08-20240617-130401-708"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

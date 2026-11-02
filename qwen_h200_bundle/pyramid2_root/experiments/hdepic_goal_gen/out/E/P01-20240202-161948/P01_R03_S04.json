@@ -1,0 +1,31 @@
+{
+ "overall_goal": "Drain the boiled pasta and add it to the sauce",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Drain the boiled pasta",
+   "action_ids": [
+    "P01-20240202-161948-267",
+    "P01-20240202-161948-268",
+    "P01-20240202-161948-269",
+    "P01-20240202-161948-270",
+    "P01-20240202-161948-271"
+   ],
+   "rationale": "The person gathers the strainer and the pan of boiled pasta, moves them to the sink, and pours the pasta into the strainer to drain the water."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Transfer the drained pasta to the sauce",
+   "action_ids": [
+    "P01-20240202-161948-272",
+    "P01-20240202-161948-273"
+   ],
+   "rationale": "The person moves the strainer over the empty pan to catch drips and pours the drained pasta into the pot containing the sauce."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

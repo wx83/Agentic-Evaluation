@@ -1,0 +1,1530 @@
+{
+ "video_id": "P02-20240211-115653",
+ "sub_goals": {
+  "E_g1": {
+   "label": "visual_sufficient",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.27,
+   "completion_cues": {},
+   "location_cues": {
+    "footstep": "person moving between zones",
+    "open / close": "cupboard, drawer or fridge"
+   },
+   "sound_events": [
+    {
+     "t0": 60.9,
+     "t1": 61.7,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 62.3,
+     "t1": 62.8,
+     "class": "open / close"
+    },
+    {
+     "t0": 63.1,
+     "t1": 63.5,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 257.0,
+     "t1": 258.6,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 258.6,
+     "t1": 259.6,
+     "class": "open / close"
+    },
+    {
+     "t0": 259.8,
+     "t1": 260.5,
+     "class": "footstep"
+    },
+    {
+     "t0": 260.4,
+     "t1": 260.9,
+     "class": "metal / wood collision"
+    }
+   ],
+   "official_step_label": "audio_helpful"
+  },
+  "E_g2": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.35,
+   "completion_cues": {},
+   "location_cues": {
+    "footstep": "person moving between zones",
+    "scrub / scrape / scour / wipe": "sink or counter"
+   },
+   "sound_events": [
+    {
+     "t0": 303.4,
+     "t1": 304.4,
+     "class": "plastic / wood collision"
+    },
+    {
+     "t0": 305.0,
+     "t1": 307.3,
+     "class": "rustle"
+    },
+    {
+     "t0": 306.0,
+     "t1": 306.3,
+     "class": "wood-only collision"
+    },
+    {
+     "t0": 310.3,
+     "t1": 315.2,
+     "class": "rustle"
+    },
+    {
+     "t0": 316.4,
+     "t1": 321.2,
+     "class": "rustle"
+    },
+    {
+     "t0": 317.9,
+     "t1": 321.3,
+     "class": "rustle"
+    },
+    {
+     "t0": 322.0,
+     "t1": 322.5,
+     "class": "rustle"
+    },
+    {
+     "t0": 323.0,
+     "t1": 331.6,
+     "class": "scrub / scrape / scour / wipe"
+    },
+    {
+     "t0": 328.3,
+     "t1": 330.1,
+     "class": "rustle"
+    },
+    {
+     "t0": 330.4,
+     "t1": 331.7,
+     "class": "human"
+    },
+    {
+     "t0": 331.9,
+     "t1": 346.3,
+     "class": "rustle"
+    },
+    {
+     "t0": 333.7,
+     "t1": 334.1,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 336.9,
+     "t1": 338.0,
+     "class": "footstep"
+    }
+   ],
+   "official_step_label": "audio_helpful"
+  },
+  "E_g3": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.36,
+   "completion_cues": {},
+   "location_cues": {
+    "footstep": "person moving between zones",
+    "scrub / scrape / scour / wipe": "sink or counter"
+   },
+   "sound_events": [
+    {
+     "t0": 402.9,
+     "t1": 404.5,
+     "class": "rustle"
+    },
+    {
+     "t0": 404.3,
+     "t1": 405.1,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 406.2,
+     "t1": 406.9,
+     "class": "scrub / scrape / scour / wipe"
+    },
+    {
+     "t0": 407.3,
+     "t1": 410.0,
+     "class": "scrub / scrape / scour / wipe"
+    },
+    {
+     "t0": 410.2,
+     "t1": 410.4,
+     "class": "wood-only collision"
+    },
+    {
+     "t0": 411.2,
+     "t1": 411.8,
+     "class": "kneading"
+    },
+    {
+     "t0": 414.0,
+     "t1": 415.2,
+     "class": "footstep"
+    },
+    {
+     "t0": 416.4,
+     "t1": 417.1,
+     "class": "kneading"
+    },
+    {
+     "t0": 417.3,
+     "t1": 417.7,
+     "class": "plastic / wood collision"
+    },
+    {
+     "t0": 418.7,
+     "t1": 419.6,
+     "class": "footstep"
+    },
+    {
+     "t0": 420.3,
+     "t1": 420.6,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 421.4,
+     "t1": 422.1,
+     "class": "kneading"
+    },
+    {
+     "t0": 422.4,
+     "t1": 422.8,
+     "class": "kneading"
+    },
+    {
+     "t0": 423.3,
+     "t1": 423.6,
+     "class": "wood-only collision"
+    },
+    {
+     "t0": 424.1,
+     "t1": 424.3,
+     "class": "wood-only collision"
+    },
+    {
+     "t0": 425.6,
+     "t1": 425.8,
+     "class": "wood-only collision"
+    },
+    {
+     "t0": 426.5,
+     "t1": 426.8,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 427.6,
+     "t1": 429.7,
+     "class": "kneading"
+    },
+    {
+     "t0": 430.3,
+     "t1": 431.4,
+     "class": "kneading"
+    },
+    {
+     "t0": 431.4,
+     "t1": 431.6,
+     "class": "wood-only collision"
+    }
+   ],
+   "official_step_label": "audio_helpful"
+  },
+  "E_g4": {
+   "label": "visual_sufficient",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.09,
+   "completion_cues": {},
+   "location_cues": {},
+   "sound_events": [
+    {
+     "t0": 435.3,
+     "t1": 435.7,
+     "class": "plastic / wood collision"
+    },
+    {
+     "t0": 436.5,
+     "t1": 436.7,
+     "class": "wood-only collision"
+    },
+    {
+     "t0": 438.4,
+     "t1": 439.5,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 440.9,
+     "t1": 441.1,
+     "class": "wood-only collision"
+    },
+    {
+     "t0": 443.0,
+     "t1": 443.3,
+     "class": "wood-only collision"
+    },
+    {
+     "t0": 445.5,
+     "t1": 446.8,
+     "class": "wood-only collision"
+    },
+    {
+     "t0": 447.3,
+     "t1": 447.6,
+     "class": "kneading"
+    },
+    {
+     "t0": 448.0,
+     "t1": 450.3,
+     "class": "wood-only collision"
+    },
+    {
+     "t0": 451.2,
+     "t1": 451.5,
+     "class": "metal / wood collision"
+    }
+   ],
+   "official_step_label": "audio_helpful"
+  },
+  "E_g5": {
+   "label": "visual_sufficient",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.15,
+   "completion_cues": {},
+   "location_cues": {
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 454.8,
+     "t1": 455.0,
+     "class": "wood-only collision"
+    },
+    {
+     "t0": 455.3,
+     "t1": 456.6,
+     "class": "kneading"
+    },
+    {
+     "t0": 457.8,
+     "t1": 458.3,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 460.2,
+     "t1": 460.6,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 461.1,
+     "t1": 461.4,
+     "class": "wood-only collision"
+    },
+    {
+     "t0": 462.6,
+     "t1": 463.0,
+     "class": "wood-only collision"
+    },
+    {
+     "t0": 463.9,
+     "t1": 464.3,
+     "class": "metal / wood collision"
+    },
+    {
+     "t0": 466.2,
+     "t1": 466.6,
+     "class": "rustle"
+    },
+    {
+     "t0": 467.1,
+     "t1": 467.5,
+     "class": "water"
+    },
+    {
+     "t0": 468.0,
+     "t1": 468.8,
+     "class": "plastic / wood collision"
+    },
+    {
+     "t0": 470.2,
+     "t1": 470.6,
+     "class": "plastic / wood collision"
+    }
+   ],
+   "official_step_label": "audio_helpful"
+  },
+  "E_g6": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "cutting"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.16,
+   "completion_cues": {},
+   "location_cues": {
+    "scrub / scrape / scour / wipe": "sink or counter"
+   },
+   "sound_events": [
+    {
+     "t0": 476.9,
+     "t1": 479.3,
+     "class": "cloth-only collision"
+    },
+    {
+     "t0": 482.0,
+     "t1": 483.0,
+     "class": "rustle"
+    },
+    {
+     "t0": 483.6,
+     "t1": 483.8,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 486.1,
+     "t1": 487.3,
+     "class": "scrub / scrape / scour / wipe"
+    }
+   ],
+   "official_step_label": "audio_helpful"
+  },
+  "E_g7": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "cut"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.2,
+   "completion_cues": {},
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "scrub / scrape / scour / wipe": "sink or counter"
+   },
+   "sound_events": [
+    {
+     "t0": 490.4,
+     "t1": 490.7,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 506.6,
+     "t1": 506.9,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 515.7,
+     "t1": 517.3,
+     "class": "scrub / scrape / scour / wipe"
+    },
+    {
+     "t0": 517.4,
+     "t1": 517.7,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 517.8,
+     "t1": 518.8,
+     "class": "metal / marble collision"
+    },
+    {
+     "t0": 524.9,
+     "t1": 525.3,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 529.1,
+     "t1": 529.6,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 531.7,
+     "t1": 532.4,
+     "class": "scrub / scrape / scour / wipe"
+    },
+    {
+     "t0": 532.6,
+     "t1": 533.0,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 533.8,
+     "t1": 534.8,
+     "class": "scrub / scrape / scour / wipe"
+    },
+    {
+     "t0": 537.3,
+     "t1": 537.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 538.6,
+     "t1": 538.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 541.1,
+     "t1": 541.5,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 541.8,
+     "t1": 542.6,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 543.3,
+     "t1": 543.7,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 544.1,
+     "t1": 545.3,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 546.3,
+     "t1": 546.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 547.4,
+     "t1": 548.1,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 548.5,
+     "t1": 548.8,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 551.2,
+     "t1": 551.6,
+     "class": "stir / mix / whisk"
+    }
+   ],
+   "official_step_label": "audio_helpful"
+  },
+  "E_g8": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "cut"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.07,
+   "completion_cues": {},
+   "location_cues": {
+    "cut / chop": "chopping board on counter"
+   },
+   "sound_events": [
+    {
+     "t0": 555.1,
+     "t1": 555.5,
+     "class": "plastic / wood collision"
+    },
+    {
+     "t0": 556.0,
+     "t1": 556.3,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 561.8,
+     "t1": 562.0,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 566.6,
+     "t1": 567.2,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 568.4,
+     "t1": 568.9,
+     "class": "metal / marble collision"
+    }
+   ],
+   "official_step_label": "audio_helpful"
+  },
+  "E_g9": {
+   "label": "visual_sufficient",
+   "cue_words": [
+    "open"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.04,
+   "completion_cues": {},
+   "location_cues": {
+    "open / close": "cupboard, drawer or fridge"
+   },
+   "sound_events": [
+    {
+     "t0": 64.7,
+     "t1": 64.9,
+     "class": "open / close"
+    },
+    {
+     "t0": 65.0,
+     "t1": 68.7,
+     "class": "rustle"
+    },
+    {
+     "t0": 66.8,
+     "t1": 67.0,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 69.3,
+     "t1": 69.7,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 69.4,
+     "t1": 69.8,
+     "class": "rustle"
+    },
+    {
+     "t0": 71.2,
+     "t1": 94.5,
+     "class": "rustle"
+    },
+    {
+     "t0": 75.5,
+     "t1": 76.0,
+     "class": "open / close"
+    }
+   ],
+   "official_step_label": "audio_helpful"
+  },
+  "E_g10": {
+   "label": "visual_sufficient",
+   "cue_words": [
+    "open"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.1,
+   "completion_cues": {},
+   "location_cues": {
+    "cut / chop": "chopping board on counter",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 144.4,
+     "t1": 145.6,
+     "class": "rustle"
+    },
+    {
+     "t0": 146.1,
+     "t1": 147.6,
+     "class": "rustle"
+    },
+    {
+     "t0": 148.1,
+     "t1": 148.3,
+     "class": "water"
+    },
+    {
+     "t0": 150.1,
+     "t1": 152.8,
+     "class": "cut / chop"
+    },
+    {
+     "t0": 152.8,
+     "t1": 153.3,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 153.3,
+     "t1": 160.3,
+     "class": "rustle"
+    },
+    {
+     "t0": 161.1,
+     "t1": 161.5,
+     "class": "rustle"
+    },
+    {
+     "t0": 164.8,
+     "t1": 165.3,
+     "class": "rustle"
+    },
+    {
+     "t0": 165.3,
+     "t1": 165.7,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 165.8,
+     "t1": 166.3,
+     "class": "rustle"
+    },
+    {
+     "t0": 169.5,
+     "t1": 170.6,
+     "class": "rustle"
+    },
+    {
+     "t0": 173.5,
+     "t1": 175.1,
+     "class": "rustle"
+    },
+    {
+     "t0": 181.6,
+     "t1": 182.3,
+     "class": "rustle"
+    }
+   ],
+   "official_step_label": "audio_helpful"
+  },
+  "E_g11": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "grate"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.68,
+   "completion_cues": {},
+   "location_cues": {
+    "scrub / scrape / scour / wipe": "sink or counter",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 203.9,
+     "t1": 204.9,
+     "class": "water"
+    },
+    {
+     "t0": 204.1,
+     "t1": 205.2,
+     "class": "scrub / scrape / scour / wipe"
+    },
+    {
+     "t0": 205.6,
+     "t1": 208.5,
+     "class": "scrub / scrape / scour / wipe"
+    },
+    {
+     "t0": 208.9,
+     "t1": 212.2,
+     "class": "scrub / scrape / scour / wipe"
+    },
+    {
+     "t0": 212.8,
+     "t1": 213.4,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 213.6,
+     "t1": 213.8,
+     "class": "water"
+    },
+    {
+     "t0": 214.6,
+     "t1": 214.9,
+     "class": "rustle"
+    },
+    {
+     "t0": 215.0,
+     "t1": 215.4,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 215.4,
+     "t1": 221.7,
+     "class": "rustle"
+    },
+    {
+     "t0": 222.4,
+     "t1": 222.7,
+     "class": "metal / marble collision"
+    },
+    {
+     "t0": 223.1,
+     "t1": 237.6,
+     "class": "rustle"
+    },
+    {
+     "t0": 225.3,
+     "t1": 237.6,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 238.6,
+     "t1": 242.0,
+     "class": "rustle"
+    },
+    {
+     "t0": 240.7,
+     "t1": 241.9,
+     "class": "plastic / wood collision"
+    }
+   ],
+   "official_step_label": "audio_helpful"
+  },
+  "E_g12": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.33,
+   "completion_cues": {},
+   "location_cues": {
+    "footstep": "person moving between zones"
+   },
+   "sound_events": [
+    {
+     "t0": 261.0,
+     "t1": 261.7,
+     "class": "footstep"
+    },
+    {
+     "t0": 261.1,
+     "t1": 263.2,
+     "class": "rustle"
+    },
+    {
+     "t0": 268.4,
+     "t1": 272.0,
+     "class": "rustle"
+    },
+    {
+     "t0": 269.9,
+     "t1": 272.0,
+     "class": "paper-only collision"
+    },
+    {
+     "t0": 272.9,
+     "t1": 274.8,
+     "class": "rustle"
+    },
+    {
+     "t0": 275.6,
+     "t1": 276.0,
+     "class": "rustle"
+    },
+    {
+     "t0": 275.6,
+     "t1": 276.0,
+     "class": "paper-only collision"
+    },
+    {
+     "t0": 276.8,
+     "t1": 279.6,
+     "class": "rustle"
+    },
+    {
+     "t0": 278.7,
+     "t1": 279.2,
+     "class": "paper-only collision"
+    },
+    {
+     "t0": 285.6,
+     "t1": 285.9,
+     "class": "paper-only collision"
+    },
+    {
+     "t0": 287.6,
+     "t1": 294.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 297.7,
+     "t1": 301.3,
+     "class": "stir / mix / whisk"
+    }
+   ],
+   "official_step_label": "audio_helpful"
+  },
+  "E_g13": {
+   "label": "visual_sufficient",
+   "cue_words": [
+    "turn on"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.1,
+   "completion_cues": {},
+   "location_cues": {},
+   "sound_events": [
+    {
+     "t0": 622.2,
+     "t1": 622.6,
+     "class": "plastic-only collision"
+    }
+   ],
+   "official_step_label": "visual_sufficient"
+  },
+  "E_g14": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "stir"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.32,
+   "completion_cues": {},
+   "location_cues": {
+    "footstep": "person moving between zones",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 5.1,
+     "t1": 6.1,
+     "class": "footstep"
+    },
+    {
+     "t0": 6.2,
+     "t1": 6.4,
+     "class": "water"
+    },
+    {
+     "t0": 6.8,
+     "t1": 13.4,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 13.7,
+     "t1": 15.7,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 16.3,
+     "t1": 17.2,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 18.1,
+     "t1": 18.4,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 20.4,
+     "t1": 20.6,
+     "class": "water"
+    },
+    {
+     "t0": 32.5,
+     "t1": 32.7,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 33.1,
+     "t1": 33.4,
+     "class": "water"
+    },
+    {
+     "t0": 35.5,
+     "t1": 35.8,
+     "class": "plastic-only collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g15": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.94,
+   "completion_cues": {},
+   "location_cues": {
+    "footstep": "person moving between zones",
+    "scrub / scrape / scour / wipe": "sink or counter"
+   },
+   "sound_events": [
+    {
+     "t0": 38.3,
+     "t1": 41.2,
+     "class": "footstep"
+    },
+    {
+     "t0": 41.6,
+     "t1": 43.0,
+     "class": "rustle"
+    },
+    {
+     "t0": 43.1,
+     "t1": 43.5,
+     "class": "paper-only collision"
+    },
+    {
+     "t0": 43.7,
+     "t1": 54.7,
+     "class": "scrub / scrape / scour / wipe"
+    },
+    {
+     "t0": 54.9,
+     "t1": 55.1,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 55.0,
+     "t1": 58.1,
+     "class": "scrub / scrape / scour / wipe"
+    },
+    {
+     "t0": 58.0,
+     "t1": 58.7,
+     "class": "plastic-only collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g16": {
+   "label": "visual_sufficient",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.1,
+   "completion_cues": {},
+   "location_cues": {
+    "open / close": "cupboard, drawer or fridge",
+    "scrub / scrape / scour / wipe": "sink or counter"
+   },
+   "sound_events": [
+    {
+     "t0": 63.9,
+     "t1": 64.2,
+     "class": "open / close"
+    },
+    {
+     "t0": 64.7,
+     "t1": 64.9,
+     "class": "open / close"
+    },
+    {
+     "t0": 65.0,
+     "t1": 68.7,
+     "class": "rustle"
+    },
+    {
+     "t0": 66.8,
+     "t1": 67.0,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 69.3,
+     "t1": 69.7,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 69.4,
+     "t1": 69.8,
+     "class": "rustle"
+    },
+    {
+     "t0": 71.2,
+     "t1": 94.5,
+     "class": "rustle"
+    },
+    {
+     "t0": 75.5,
+     "t1": 76.0,
+     "class": "open / close"
+    },
+    {
+     "t0": 94.7,
+     "t1": 96.5,
+     "class": "scrub / scrape / scour / wipe"
+    },
+    {
+     "t0": 97.0,
+     "t1": 101.0,
+     "class": "rustle"
+    },
+    {
+     "t0": 102.0,
+     "t1": 103.0,
+     "class": "open / close"
+    },
+    {
+     "t0": 104.3,
+     "t1": 104.9,
+     "class": "open / close"
+    },
+    {
+     "t0": 144.0,
+     "t1": 144.2,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 144.4,
+     "t1": 145.6,
+     "class": "rustle"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g17": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "stir"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.66,
+   "completion_cues": {},
+   "location_cues": {
+    "footstep": "person moving between zones",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 105.6,
+     "t1": 106.6,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 105.7,
+     "t1": 106.6,
+     "class": "water"
+    },
+    {
+     "t0": 106.8,
+     "t1": 108.2,
+     "class": "footstep"
+    },
+    {
+     "t0": 108.3,
+     "t1": 116.3,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 117.0,
+     "t1": 118.3,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 119.8,
+     "t1": 120.0,
+     "class": "water"
+    },
+    {
+     "t0": 122.7,
+     "t1": 129.5,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 130.1,
+     "t1": 130.7,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 131.2,
+     "t1": 131.7,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 132.5,
+     "t1": 132.9,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 132.8,
+     "t1": 133.0,
+     "class": "water"
+    },
+    {
+     "t0": 133.1,
+     "t1": 136.7,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 137.1,
+     "t1": 137.8,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 138.2,
+     "t1": 138.5,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 138.8,
+     "t1": 139.1,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 139.5,
+     "t1": 139.8,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 140.3,
+     "t1": 140.7,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 142.1,
+     "t1": 142.3,
+     "class": "metal / plastic collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g18": {
+   "label": "audio_critical",
+   "cue_words": [
+    "wash"
+   ],
+   "strong_sound_classes": [
+    "click"
+   ],
+   "sound_event_coverage": 0.32,
+   "completion_cues": {
+    "click": "switch, lid or latch state changed"
+   },
+   "location_cues": {
+    "footstep": "person moving between zones",
+    "open / close": "cupboard, drawer or fridge",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 184.1,
+     "t1": 185.3,
+     "class": "rustle"
+    },
+    {
+     "t0": 185.8,
+     "t1": 187.5,
+     "class": "rustle"
+    },
+    {
+     "t0": 187.9,
+     "t1": 188.2,
+     "class": "click"
+    },
+    {
+     "t0": 188.4,
+     "t1": 191.4,
+     "class": "rustle"
+    },
+    {
+     "t0": 191.7,
+     "t1": 191.9,
+     "class": "click"
+    },
+    {
+     "t0": 192.3,
+     "t1": 192.5,
+     "class": "metal-only collision"
+    },
+    {
+     "t0": 192.8,
+     "t1": 197.3,
+     "class": "water"
+    },
+    {
+     "t0": 197.7,
+     "t1": 197.9,
+     "class": "wood-only collision"
+    },
+    {
+     "t0": 197.7,
+     "t1": 199.5,
+     "class": "footstep"
+    },
+    {
+     "t0": 200.3,
+     "t1": 202.7,
+     "class": "footstep"
+    },
+    {
+     "t0": 202.5,
+     "t1": 203.0,
+     "class": "water"
+    },
+    {
+     "t0": 203.3,
+     "t1": 203.5,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 242.9,
+     "t1": 243.7,
+     "class": "metal / marble collision"
+    },
+    {
+     "t0": 243.8,
+     "t1": 254.1,
+     "class": "rustle"
+    },
+    {
+     "t0": 252.2,
+     "t1": 252.9,
+     "class": "open / close"
+    },
+    {
+     "t0": 253.6,
+     "t1": 254.1,
+     "class": "plastic / wood collision"
+    },
+    {
+     "t0": 254.8,
+     "t1": 256.3,
+     "class": "open / close"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g19": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "wash"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.29,
+   "completion_cues": {},
+   "location_cues": {
+    "footstep": "person moving between zones",
+    "scrub / scrape / scour / wipe": "sink or counter",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 323.0,
+     "t1": 331.6,
+     "class": "scrub / scrape / scour / wipe"
+    },
+    {
+     "t0": 330.4,
+     "t1": 331.7,
+     "class": "human"
+    },
+    {
+     "t0": 331.9,
+     "t1": 346.3,
+     "class": "rustle"
+    },
+    {
+     "t0": 333.7,
+     "t1": 334.1,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 336.9,
+     "t1": 338.0,
+     "class": "footstep"
+    },
+    {
+     "t0": 345.6,
+     "t1": 346.6,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 346.6,
+     "t1": 348.3,
+     "class": "footstep"
+    },
+    {
+     "t0": 348.6,
+     "t1": 351.2,
+     "class": "water"
+    },
+    {
+     "t0": 351.5,
+     "t1": 356.3,
+     "class": "footstep"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g20": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "stir"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.83,
+   "completion_cues": {},
+   "location_cues": {
+    "open / close": "cupboard, drawer or fridge"
+   },
+   "sound_events": [
+    {
+     "t0": 356.7,
+     "t1": 357.1,
+     "class": "open / close"
+    },
+    {
+     "t0": 357.6,
+     "t1": 374.8,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 377.0,
+     "t1": 389.2,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 389.5,
+     "t1": 393.3,
+     "class": "plastic / wood collision"
+    },
+    {
+     "t0": 394.5,
+     "t1": 394.8,
+     "class": "metal / plastic collision"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g21": {
+   "label": "audio_helpful",
+   "cue_words": [
+    "stir",
+    "wash"
+   ],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.81,
+   "completion_cues": {},
+   "location_cues": {
+    "footstep": "person moving between zones",
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 570.4,
+     "t1": 571.5,
+     "class": "footstep"
+    },
+    {
+     "t0": 572.5,
+     "t1": 580.6,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 581.1,
+     "t1": 583.3,
+     "class": "water"
+    },
+    {
+     "t0": 582.2,
+     "t1": 582.5,
+     "class": "metal / plastic collision"
+    },
+    {
+     "t0": 583.7,
+     "t1": 594.5,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 597.8,
+     "t1": 604.2,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 605.1,
+     "t1": 606.1,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 606.5,
+     "t1": 614.3,
+     "class": "stir / mix / whisk"
+    },
+    {
+     "t0": 614.8,
+     "t1": 617.1,
+     "class": "plastic / wood collision"
+    },
+    {
+     "t0": 619.3,
+     "t1": 620.1,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 620.9,
+     "t1": 621.2,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 622.2,
+     "t1": 622.6,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 624.0,
+     "t1": 628.2,
+     "class": "water"
+    },
+    {
+     "t0": 624.7,
+     "t1": 648.9,
+     "class": "background"
+    },
+    {
+     "t0": 628.8,
+     "t1": 629.8,
+     "class": "footstep"
+    },
+    {
+     "t0": 630.7,
+     "t1": 630.9,
+     "class": "water"
+    },
+    {
+     "t0": 631.3,
+     "t1": 631.6,
+     "class": "rustle"
+    }
+   ],
+   "official_step_label": null
+  },
+  "E_g22": {
+   "label": "audio_helpful",
+   "cue_words": [],
+   "strong_sound_classes": [],
+   "sound_event_coverage": 0.13,
+   "completion_cues": {},
+   "location_cues": {
+    "water": "sink / tap"
+   },
+   "sound_events": [
+    {
+     "t0": 624.7,
+     "t1": 648.9,
+     "class": "background"
+    },
+    {
+     "t0": 641.5,
+     "t1": 641.8,
+     "class": "water"
+    },
+    {
+     "t0": 644.8,
+     "t1": 645.2,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 646.3,
+     "t1": 646.6,
+     "class": "plastic-only collision"
+    },
+    {
+     "t0": 646.6,
+     "t1": 646.8,
+     "class": "water"
+    }
+   ],
+   "official_step_label": null
+  }
+ },
+ "official_step_labels": {
+  "P02_R07_S03": "audio_helpful",
+  "P02_R07_S02": "audio_helpful",
+  "P02_R07_S01": "visual_sufficient",
+  "P02_R06_S02": "audio_helpful"
+ },
+ "source": "HD_EPIC_Sounds.csv (official events) + av_goal_finder rules (ours); no model"
+}

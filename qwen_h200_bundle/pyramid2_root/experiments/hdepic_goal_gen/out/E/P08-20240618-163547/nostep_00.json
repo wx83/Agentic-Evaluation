@@ -1,0 +1,201 @@
+{
+ "overall_goal": "Prepare the kitchen workspace, put away clean dishes, and record the nutritional values of the ingredients",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare phone app and kitchen counter for cooking",
+   "action_ids": [
+    "P08-20240618-163547-1",
+    "P08-20240618-163547-2",
+    "P08-20240618-163547-3",
+    "P08-20240618-163547-4",
+    "P08-20240618-163547-5",
+    "P08-20240618-163547-6"
+   ],
+   "rationale": "The person prepares the phone app and clears space on the counter to begin cooking."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve ingredients from the refrigerator",
+   "action_ids": [
+    "P08-20240618-163547-7",
+    "P08-20240618-163547-8",
+    "P08-20240618-163547-13",
+    "P08-20240618-163547-14",
+    "P08-20240618-163547-15",
+    "P08-20240618-163547-16",
+    "P08-20240618-163547-20",
+    "P08-20240618-163547-21"
+   ],
+   "rationale": "The person opens the refrigerator and retrieves various food ingredients."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Put away pots and pans from the drying rack",
+   "action_ids": [
+    "P08-20240618-163547-26",
+    "P08-20240618-163547-27",
+    "P08-20240618-163547-28",
+    "P08-20240618-163547-29",
+    "P08-20240618-163547-30",
+    "P08-20240618-163547-31",
+    "P08-20240618-163547-32",
+    "P08-20240618-163547-33",
+    "P08-20240618-163547-34",
+    "P08-20240618-163547-35",
+    "P08-20240618-163547-36",
+    "P08-20240618-163547-37",
+    "P08-20240618-163547-38",
+    "P08-20240618-163547-39",
+    "P08-20240618-163547-41"
+   ],
+   "rationale": "The person takes clean pots and pans from the drying rack and puts them away in the cabinets."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Put away cutting board, plates, and utensils from the drying rack",
+   "action_ids": [
+    "P08-20240618-163547-42",
+    "P08-20240618-163547-43",
+    "P08-20240618-163547-44",
+    "P08-20240618-163547-45",
+    "P08-20240618-163547-46",
+    "P08-20240618-163547-47",
+    "P08-20240618-163547-48",
+    "P08-20240618-163547-49",
+    "P08-20240618-163547-50",
+    "P08-20240618-163547-51",
+    "P08-20240618-163547-52",
+    "P08-20240618-163547-53",
+    "P08-20240618-163547-54",
+    "P08-20240618-163547-55",
+    "P08-20240618-163547-56"
+   ],
+   "rationale": "The person puts away the cutting board, plates, and utensils from the drying rack into drawers and cabinets."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Set up the workspace and record initial nutritional values",
+   "action_ids": [
+    "P08-20240618-163547-59",
+    "P08-20240618-163547-61",
+    "P08-20240618-163547-62",
+    "P08-20240618-163547-68",
+    "P08-20240618-163547-69",
+    "P08-20240618-163547-70",
+    "P08-20240618-163547-71",
+    "P08-20240618-163547-72",
+    "P08-20240618-163547-73",
+    "P08-20240618-163547-74",
+    "P08-20240618-163547-75",
+    "P08-20240618-163547-76"
+   ],
+   "rationale": "The person sets up the workspace by moving items and uses the phone to record initial nutritional values."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Calibrate the weighing scale",
+   "action_ids": [
+    "P08-20240618-163547-86",
+    "P08-20240618-163547-87",
+    "P08-20240618-163547-88",
+    "P08-20240618-163547-89",
+    "P08-20240618-163547-91",
+    "P08-20240618-163547-90",
+    "P08-20240618-163547-92",
+    "P08-20240618-163547-93",
+    "P08-20240618-163547-94",
+    "P08-20240618-163547-95"
+   ],
+   "rationale": "The person turns on the weighing scale, adjusts it, and ensures it is properly calibrated."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Weigh red onion and record its nutritional value",
+   "action_ids": [
+    "P08-20240618-163547-96",
+    "P08-20240618-163547-97",
+    "P08-20240618-163547-98",
+    "P08-20240618-163547-99",
+    "P08-20240618-163547-100",
+    "P08-20240618-163547-101",
+    "P08-20240618-163547-102",
+    "P08-20240618-163547-103"
+   ],
+   "rationale": "The person weighs the red onion on the scale and records its nutritional value in the phone app."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Empty and clean a bowl from the dishwasher for food scraps",
+   "action_ids": [
+    "P08-20240618-163547-110",
+    "P08-20240618-163547-111",
+    "P08-20240618-163547-112",
+    "P08-20240618-163547-113",
+    "P08-20240618-163547-114",
+    "P08-20240618-163547-115",
+    "P08-20240618-163547-116",
+    "P08-20240618-163547-117",
+    "P08-20240618-163547-118",
+    "P08-20240618-163547-119",
+    "P08-20240618-163547-120",
+    "P08-20240618-163547-121",
+    "P08-20240618-163547-122"
+   ],
+   "rationale": "The person retrieves a bowl from the dishwasher, washes and dries it, and uses it for food scraps."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Weigh yellow onion and record its nutritional value",
+   "action_ids": [
+    "P08-20240618-163547-138",
+    "P08-20240618-163547-139",
+    "P08-20240618-163547-140",
+    "P08-20240618-163547-142",
+    "P08-20240618-163547-143",
+    "P08-20240618-163547-144",
+    "P08-20240618-163547-145",
+    "P08-20240618-163547-146",
+    "P08-20240618-163547-147",
+    "P08-20240618-163547-156",
+    "P08-20240618-163547-157",
+    "P08-20240618-163547-158"
+   ],
+   "rationale": "The person weighs the yellow onion on the scale and updates its nutritional value in the phone app."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Record the nutritional value of garlic",
+   "action_ids": [
+    "P08-20240618-163547-169",
+    "P08-20240618-163547-170",
+    "P08-20240618-163547-171",
+    "P08-20240618-163547-172",
+    "P08-20240618-163547-178",
+    "P08-20240618-163547-202"
+   ],
+   "rationale": "The person uses the phone camera to scan the barcode of the garlic to record its nutritional value."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P08-20240618-163547-19",
+  "P08-20240618-163547-25",
+  "P08-20240618-163547-63",
+  "P08-20240618-163547-78",
+  "P08-20240618-163547-79",
+  "P08-20240618-163547-104",
+  "P08-20240618-163547-108",
+  "P08-20240618-163547-109",
+  "P08-20240618-163547-123",
+  "P08-20240618-163547-141",
+  "P08-20240618-163547-168",
+  "P08-20240618-163547-203",
+  "P08-20240618-163547-204",
+  "P08-20240618-163547-205",
+  "P08-20240618-163547-223"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,194 @@
+{
+ "overall_goal": "Cook an omelette, weigh and record ingredients, and clean up the kitchen",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Cook and serve the bread omelette",
+   "action_ids": [
+    "P06-20240511-102207-361",
+    "P06-20240511-102207-362",
+    "P06-20240511-102207-363",
+    "P06-20240511-102207-364",
+    "P06-20240511-102207-365",
+    "P06-20240511-102207-390",
+    "P06-20240511-102207-395",
+    "P06-20240511-102207-396",
+    "P06-20240511-102207-397",
+    "P06-20240511-102207-398",
+    "P06-20240511-102207-399",
+    "P06-20240511-102207-400",
+    "P06-20240511-102207-401",
+    "P06-20240511-102207-402",
+    "P06-20240511-102207-484",
+    "P06-20240511-102207-485",
+    "P06-20240511-102207-486",
+    "P06-20240511-102207-487"
+   ],
+   "rationale": "The person flips and presses the omelette in the pan, turns off the stove, and then transfers the cooked omelette onto a plate."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Weigh and record the milk",
+   "action_ids": [
+    "P06-20240511-102207-366",
+    "P06-20240511-102207-367",
+    "P06-20240511-102207-368",
+    "P06-20240511-102207-369",
+    "P06-20240511-102207-370",
+    "P06-20240511-102207-373",
+    "P06-20240511-102207-374",
+    "P06-20240511-102207-375",
+    "P06-20240511-102207-380",
+    "P06-20240511-102207-381",
+    "P06-20240511-102207-383",
+    "P06-20240511-102207-384",
+    "P06-20240511-102207-385",
+    "P06-20240511-102207-386",
+    "P06-20240511-102207-387",
+    "P06-20240511-102207-388",
+    "P06-20240511-102207-389",
+    "P06-20240511-102207-391",
+    "P06-20240511-102207-392"
+   ],
+   "rationale": "The person places a cup on the weighing balance, tears the weight, measures the milk, and writes down the recorded weight in a notebook."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Weigh and record the sugar",
+   "action_ids": [
+    "P06-20240511-102207-423",
+    "P06-20240511-102207-424",
+    "P06-20240511-102207-425",
+    "P06-20240511-102207-426",
+    "P06-20240511-102207-427",
+    "P06-20240511-102207-428",
+    "P06-20240511-102207-429",
+    "P06-20240511-102207-430",
+    "P06-20240511-102207-431",
+    "P06-20240511-102207-432",
+    "P06-20240511-102207-433",
+    "P06-20240511-102207-434",
+    "P06-20240511-102207-435",
+    "P06-20240511-102207-436",
+    "P06-20240511-102207-439",
+    "P06-20240511-102207-440",
+    "P06-20240511-102207-441"
+   ],
+   "rationale": "The person pours sugar into a cup on the weighing balance, changes the units, and records the weight in the notebook."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Weigh and record the coffee",
+   "action_ids": [
+    "P06-20240511-102207-447",
+    "P06-20240511-102207-451",
+    "P06-20240511-102207-452",
+    "P06-20240511-102207-453",
+    "P06-20240511-102207-454",
+    "P06-20240511-102207-455",
+    "P06-20240511-102207-456",
+    "P06-20240511-102207-457",
+    "P06-20240511-102207-459"
+   ],
+   "rationale": "The person places coffee into a cup on the weighing balance, records its weight, and then distributes the coffee into other cups."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Place used items in the sink and wash the frying pan",
+   "action_ids": [
+    "P06-20240511-102207-465",
+    "P06-20240511-102207-466",
+    "P06-20240511-102207-467",
+    "P06-20240511-102207-468",
+    "P06-20240511-102207-469",
+    "P06-20240511-102207-544",
+    "P06-20240511-102207-545"
+   ],
+   "rationale": "The person places empty cups into the sink and uses dishwashing liquid and water to clean the frying pan."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Close and put away jars in the cabinet",
+   "action_ids": [
+    "P06-20240511-102207-421",
+    "P06-20240511-102207-422",
+    "P06-20240511-102207-479",
+    "P06-20240511-102207-480",
+    "P06-20240511-102207-481",
+    "P06-20240511-102207-482",
+    "P06-20240511-102207-483"
+   ],
+   "rationale": "The person places lids on the ingredient jars and stores them away in the kitchen cabinet."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Record ingredients and organize items on the tabletop",
+   "action_ids": [
+    "P06-20240511-102207-495",
+    "P06-20240511-102207-496",
+    "P06-20240511-102207-497",
+    "P06-20240511-102207-498",
+    "P06-20240511-102207-499",
+    "P06-20240511-102207-500",
+    "P06-20240511-102207-501",
+    "P06-20240511-102207-502",
+    "P06-20240511-102207-503"
+   ],
+   "rationale": "The person moves the weighing balance, writes in the notebook to record ingredients, and slightly rearranges cups and the milk carton on the table."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Prepare hot water and warm milk",
+   "action_ids": [
+    "P06-20240511-102207-478",
+    "P06-20240511-102207-494",
+    "P06-20240511-102207-507",
+    "P06-20240511-102207-508",
+    "P06-20240511-102207-515",
+    "P06-20240511-102207-524",
+    "P06-20240511-102207-525",
+    "P06-20240511-102207-535"
+   ],
+   "rationale": "The person turns on the electric kettle, pours hot water, sets and turns off the microwave timer, and prepares the milk frother."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Unload items from the crockery tray and put them away",
+   "action_ids": [
+    "P06-20240511-102207-554",
+    "P06-20240511-102207-555",
+    "P06-20240511-102207-556",
+    "P06-20240511-102207-557",
+    "P06-20240511-102207-558",
+    "P06-20240511-102207-559",
+    "P06-20240511-102207-560",
+    "P06-20240511-102207-561",
+    "P06-20240511-102207-562",
+    "P06-20240511-102207-563",
+    "P06-20240511-102207-564",
+    "P06-20240511-102207-565",
+    "P06-20240511-102207-566",
+    "P06-20240511-102207-567"
+   ],
+   "rationale": "The person takes various clean items like plastic boxes, a chopping board, glasses, bowls, and utensils from the crockery tray and places them in their respective storage spots."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P06-20240511-102207-393",
+  "P06-20240511-102207-394",
+  "P06-20240511-102207-404",
+  "P06-20240511-102207-405",
+  "P06-20240511-102207-409",
+  "P06-20240511-102207-470",
+  "P06-20240511-102207-471",
+  "P06-20240511-102207-488",
+  "P06-20240511-102207-489",
+  "P06-20240511-102207-509",
+  "P06-20240511-102207-552",
+  "P06-20240511-102207-553"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

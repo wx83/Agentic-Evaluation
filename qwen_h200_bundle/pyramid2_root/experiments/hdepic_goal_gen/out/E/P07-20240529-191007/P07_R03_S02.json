@@ -1,0 +1,109 @@
+{
+ "overall_goal": "Retrieve ingredients from the fridge and finely chop the red and brown onions.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve ingredients from the fridge.",
+   "action_ids": [
+    "P07-20240529-191007-47",
+    "P07-20240529-191007-48",
+    "P07-20240529-191007-49",
+    "P07-20240529-191007-50",
+    "P07-20240529-191007-51",
+    "P07-20240529-191007-52",
+    "P07-20240529-191007-53",
+    "P07-20240529-191007-54",
+    "P07-20240529-191007-55",
+    "P07-20240529-191007-56",
+    "P07-20240529-191007-57",
+    "P07-20240529-191007-58",
+    "P07-20240529-191007-59",
+    "P07-20240529-191007-60",
+    "P07-20240529-191007-61",
+    "P07-20240529-191007-62",
+    "P07-20240529-191007-63",
+    "P07-20240529-191007-64"
+   ],
+   "rationale": "The person opens the fridge, searches for and takes out an onion and multiple packets of mushrooms, then closes the fridge and places the items on the counter."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Unwrap the red onion and select a knife.",
+   "action_ids": [
+    "P07-20240529-191007-65",
+    "P07-20240529-191007-66",
+    "P07-20240529-191007-67",
+    "P07-20240529-191007-68",
+    "P07-20240529-191007-71",
+    "P07-20240529-191007-69",
+    "P07-20240529-191007-70",
+    "P07-20240529-191007-72",
+    "P07-20240529-191007-73"
+   ],
+   "rationale": "The person removes the cling film from the half red onion, smells it, and then tests multiple knives from the block before choosing one to use."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Chop the red onion.",
+   "action_ids": [
+    "P07-20240529-191007-74",
+    "P07-20240529-191007-75",
+    "P07-20240529-191007-76",
+    "P07-20240529-191007-77",
+    "P07-20240529-191007-78",
+    "P07-20240529-191007-79",
+    "P07-20240529-191007-80",
+    "P07-20240529-191007-82"
+   ],
+   "rationale": "The person slices the red onion horizontally and vertically to dice it, clears away skin, and moves the chopped pieces aside to make room on the board."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Halve and peel the brown onion.",
+   "action_ids": [
+    "P07-20240529-191007-81",
+    "P07-20240529-191007-83",
+    "P07-20240529-191007-84",
+    "P07-20240529-191007-85",
+    "P07-20240529-191007-86",
+    "P07-20240529-191007-87",
+    "P07-20240529-191007-88",
+    "P07-20240529-191007-89",
+    "P07-20240529-191007-90",
+    "P07-20240529-191007-91",
+    "P07-20240529-191007-92",
+    "P07-20240529-191007-93",
+    "P07-20240529-191007-94",
+    "P07-20240529-191007-95",
+    "P07-20240529-191007-96",
+    "P07-20240529-191007-97"
+   ],
+   "rationale": "The person cuts the brown onion in half, trims the ends off both halves, and peels away the outer skin to prepare it for chopping."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Chop the brown onion.",
+   "action_ids": [
+    "P07-20240529-191007-98",
+    "P07-20240529-191007-99",
+    "P07-20240529-191007-100",
+    "P07-20240529-191007-101",
+    "P07-20240529-191007-102",
+    "P07-20240529-191007-104",
+    "P07-20240529-191007-105",
+    "P07-20240529-191007-106",
+    "P07-20240529-191007-107",
+    "P07-20240529-191007-108",
+    "P07-20240529-191007-109"
+   ],
+   "rationale": "The person slices both halves of the brown onion into cubes, chops the pile more finely, and removes any remaining pieces of skin."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P07-20240529-191007-103"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

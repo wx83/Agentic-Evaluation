@@ -1,0 +1,47 @@
+{
+ "overall_goal": "Gather the sauce ingredients including sriracha, soy sauce, peanut butter, and coconut milk, and prepare them for use.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve sriracha and soy sauce from the cupboard and place them on the counter.",
+   "action_ids": [
+    "P05-20240427-143353-96",
+    "P05-20240427-143353-97",
+    "P05-20240427-143353-98",
+    "P05-20240427-143353-99",
+    "P05-20240427-143353-100",
+    "P05-20240427-143353-101"
+   ],
+   "rationale": "The person takes both the sriracha and soy sauce from the cupboard, checks the label, closes the door, and sets them on the counter."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve peanut butter from the cupboard and a teaspoon from the drawer.",
+   "action_ids": [
+    "P05-20240427-143353-105",
+    "P05-20240427-143353-106",
+    "P05-20240427-143353-107",
+    "P05-20240427-143353-109",
+    "P05-20240427-143353-111",
+    "P05-20240427-143353-110"
+   ],
+   "rationale": "The person gets the peanut butter out of the cupboard, places it on the counter, and then fetches a teaspoon from the cutlery drawer."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Retrieve a tin of coconut milk from the cupboard and open it.",
+   "action_ids": [
+    "P05-20240427-143353-117",
+    "P05-20240427-143353-118",
+    "P05-20240427-143353-119",
+    "P05-20240427-143353-272"
+   ],
+   "rationale": "The person closes the cupboard doors while holding the coconut milk, places it on the counter, and later opens the tin with a tin opener."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

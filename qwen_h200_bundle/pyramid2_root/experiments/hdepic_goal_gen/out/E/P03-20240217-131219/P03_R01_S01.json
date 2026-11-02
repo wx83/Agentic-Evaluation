@@ -1,0 +1,84 @@
+{
+ "overall_goal": "Measure and rinse the lentils.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Clear the workspace and inspect the pack of lentils.",
+   "action_ids": [
+    "P03-20240217-131219-11",
+    "P03-20240217-131219-12",
+    "P03-20240217-131219-13",
+    "P03-20240217-131219-14",
+    "P03-20240217-131219-15"
+   ],
+   "rationale": "The person clears the kitchen top and attempts to open the lentils pack while reading its labels."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve the colander and set up the scale for measuring.",
+   "action_ids": [
+    "P03-20240217-131219-18",
+    "P03-20240217-131219-19",
+    "P03-20240217-131219-21",
+    "P03-20240217-131219-20",
+    "P03-20240217-131219-22"
+   ],
+   "rationale": "The person fetches a plastic colander from the cupboard and places it on the kitchen scale to prepare for measuring the lentils."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Find scissors, open the pack, and measure the lentils into the colander.",
+   "action_ids": [
+    "P03-20240217-131219-25",
+    "P03-20240217-131219-26",
+    "P03-20240217-131219-27",
+    "P03-20240217-131219-28",
+    "P03-20240217-131219-29",
+    "P03-20240217-131219-30",
+    "P03-20240217-131219-31",
+    "P03-20240217-131219-32",
+    "P03-20240217-131219-39",
+    "P03-20240217-131219-40",
+    "P03-20240217-131219-41",
+    "P03-20240217-131219-42",
+    "P03-20240217-131219-43",
+    "P03-20240217-131219-44"
+   ],
+   "rationale": "After failing to open the pack by hand, the person locates scissors, cuts the pack open, and pours the lentils into the colander on the scale."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Rinse and drain the lentils multiple times.",
+   "action_ids": [
+    "P03-20240217-131219-52",
+    "P03-20240217-131219-53",
+    "P03-20240217-131219-54",
+    "P03-20240217-131219-55",
+    "P03-20240217-131219-56",
+    "P03-20240217-131219-57",
+    "P03-20240217-131219-58",
+    "P03-20240217-131219-59",
+    "P03-20240217-131219-60"
+   ],
+   "rationale": "The person takes the colander to the sink and repeatedly washes and drains the lentils under running tap water."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Perform a final rinse and drain of the lentils.",
+   "action_ids": [
+    "P03-20240217-131219-241",
+    "P03-20240217-131219-242",
+    "P03-20240217-131219-243",
+    "P03-20240217-131219-559",
+    "P03-20240217-131219-561",
+    "P03-20240217-131219-560"
+   ],
+   "rationale": "The person fills the colander with water for one last rinse, lets it sit, and then drains the water completely before setting it aside."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,152 @@
+{
+ "overall_goal": "Drain and mash the boiled potatoes, then mix them with chicken, cheese, and flour in a saucepan.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Transfer boiled potatoes to a bowl and drain the saucepan.",
+   "action_ids": [
+    "791",
+    "792",
+    "1002",
+    "1004",
+    "1003",
+    "1008",
+    "1009",
+    "1010",
+    "1011"
+   ],
+   "rationale": "The person prepares a bowl, scoops the boiled potatoes into it, and empties the excess water from the saucepan into the sink."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Mash the boiled potatoes.",
+   "action_ids": [
+    "1012",
+    "1013",
+    "1014",
+    "1024",
+    "1025",
+    "1026",
+    "1027",
+    "1028",
+    "1029",
+    "1030",
+    "1031"
+   ],
+   "rationale": "The person uses a potato masher and a fork to thoroughly mash and fluff the boiled potatoes in the bowl."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Add shredded chicken to the saucepan.",
+   "action_ids": [
+    "1032",
+    "1033",
+    "1034",
+    "1035",
+    "1036",
+    "1037",
+    "1038",
+    "1039"
+   ],
+   "rationale": "The person inspects the dried saucepan on the hob and empties the bowl of shredded chicken into it."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Add grated cheese to the saucepan.",
+   "action_ids": [
+    "1050",
+    "1051",
+    "1052",
+    "1053",
+    "1054",
+    "1055"
+   ],
+   "rationale": "The person retrieves the scale with grated cheese and adds the cheese to the saucepan on the hob."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Add mashed potatoes and flour to the saucepan and mix all ingredients.",
+   "action_ids": [
+    "1040",
+    "1043",
+    "1044",
+    "1045",
+    "1056",
+    "1057",
+    "1058",
+    "1059",
+    "1061",
+    "1060",
+    "1062",
+    "1063",
+    "1064",
+    "1065",
+    "1066",
+    "1067"
+   ],
+   "rationale": "The person scoops the mashed potatoes and pours flour into the saucepan, then stirs everything together."
+  }
+ ],
+ "unassigned_action_ids": [
+  "1048",
+  "1049"
+ ],
+ "_validation": {
+  "errors": [
+   "e1: id 791 not in this window's assignable set",
+   "e1: id 792 not in this window's assignable set",
+   "e1: id 1002 not in this window's assignable set",
+   "e1: id 1004 not in this window's assignable set",
+   "e1: id 1003 not in this window's assignable set",
+   "e1: id 1008 not in this window's assignable set",
+   "e1: id 1009 not in this window's assignable set",
+   "e1: id 1010 not in this window's assignable set",
+   "e1: id 1011 not in this window's assignable set",
+   "e2: id 1012 not in this window's assignable set",
+   "e2: id 1013 not in this window's assignable set",
+   "e2: id 1014 not in this window's assignable set",
+   "e2: id 1024 not in this window's assignable set",
+   "e2: id 1025 not in this window's assignable set",
+   "e2: id 1026 not in this window's assignable set",
+   "e2: id 1027 not in this window's assignable set",
+   "e2: id 1028 not in this window's assignable set",
+   "e2: id 1029 not in this window's assignable set",
+   "e2: id 1030 not in this window's assignable set",
+   "e2: id 1031 not in this window's assignable set",
+   "e3: id 1032 not in this window's assignable set",
+   "e3: id 1033 not in this window's assignable set",
+   "e3: id 1034 not in this window's assignable set",
+   "e3: id 1035 not in this window's assignable set",
+   "e3: id 1036 not in this window's assignable set",
+   "e3: id 1037 not in this window's assignable set",
+   "e3: id 1038 not in this window's assignable set",
+   "e3: id 1039 not in this window's assignable set",
+   "e4: id 1050 not in this window's assignable set",
+   "e4: id 1051 not in this window's assignable set",
+   "e4: id 1052 not in this window's assignable set",
+   "e4: id 1053 not in this window's assignable set",
+   "e4: id 1054 not in this window's assignable set",
+   "e4: id 1055 not in this window's assignable set",
+   "e5: id 1040 not in this window's assignable set",
+   "e5: id 1043 not in this window's assignable set",
+   "e5: id 1044 not in this window's assignable set",
+   "e5: id 1045 not in this window's assignable set",
+   "e5: id 1056 not in this window's assignable set",
+   "e5: id 1057 not in this window's assignable set",
+   "e5: id 1058 not in this window's assignable set",
+   "e5: id 1059 not in this window's assignable set",
+   "e5: id 1061 not in this window's assignable set",
+   "e5: id 1060 not in this window's assignable set",
+   "e5: id 1062 not in this window's assignable set",
+   "e5: id 1063 not in this window's assignable set",
+   "e5: id 1064 not in this window's assignable set",
+   "e5: id 1065 not in this window's assignable set",
+   "e5: id 1066 not in this window's assignable set",
+   "e5: id 1067 not in this window's assignable set",
+   "unassigned id 1048 not in window",
+   "unassigned id 1049 not in window",
+   "52 window ids not covered: ['P09-20240622-150155-791', 'P09-20240622-150155-792', 'P09-20240622-150155-1002', 'P09-20240622-150155-1004', 'P09-20240622-150155-1003']"
+  ],
+  "warnings": []
+ }
+}

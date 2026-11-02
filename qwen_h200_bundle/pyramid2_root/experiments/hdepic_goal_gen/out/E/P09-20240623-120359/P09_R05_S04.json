@@ -1,0 +1,126 @@
+{
+ "overall_goal": "Add coconut milk to the blender, then pour and enjoy the mango lassi.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve ingredients and inspect the blender.",
+   "action_ids": [
+    "P09-20240623-120359-394",
+    "P09-20240623-120359-395",
+    "P09-20240623-120359-396",
+    "P09-20240623-120359-397",
+    "P09-20240623-120359-398",
+    "P09-20240623-120359-399",
+    "P09-20240623-120359-400",
+    "P09-20240623-120359-401",
+    "P09-20240623-120359-402"
+   ],
+   "rationale": "The person retrieves coconut milk and honey from the cupboard and inspects them along with the blender."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Open and stir the tin of coconut milk.",
+   "action_ids": [
+    "P09-20240623-120359-403",
+    "P09-20240623-120359-404",
+    "P09-20240623-120359-405",
+    "P09-20240623-120359-406",
+    "P09-20240623-120359-407",
+    "P09-20240623-120359-408",
+    "P09-20240623-120359-409",
+    "P09-20240623-120359-410",
+    "P09-20240623-120359-411",
+    "P09-20240623-120359-412",
+    "P09-20240623-120359-413",
+    "P09-20240623-120359-414",
+    "P09-20240623-120359-415",
+    "P09-20240623-120359-416"
+   ],
+   "rationale": "The person uses a can opener and a tablespoon to open, inspect, and stir the tin of coconut milk."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Measure and pour coconut milk into the blender.",
+   "action_ids": [
+    "P09-20240623-120359-417",
+    "P09-20240623-120359-418",
+    "P09-20240623-120359-419",
+    "P09-20240623-120359-420",
+    "P09-20240623-120359-421",
+    "P09-20240623-120359-422",
+    "P09-20240623-120359-423",
+    "P09-20240623-120359-424",
+    "P09-20240623-120359-425",
+    "P09-20240623-120359-426"
+   ],
+   "rationale": "The person pours coconut milk into a measuring cup, confirms the quantity, stirs it, and adds it to the blender."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Prepare a tumbler and pour mango lassi from the blender.",
+   "action_ids": [
+    "P09-20240623-120359-940",
+    "P09-20240623-120359-941",
+    "P09-20240623-120359-942",
+    "P09-20240623-120359-943",
+    "P09-20240623-120359-944",
+    "P09-20240623-120359-945",
+    "P09-20240623-120359-946",
+    "P09-20240623-120359-947",
+    "P09-20240623-120359-948",
+    "P09-20240623-120359-949",
+    "P09-20240623-120359-950"
+   ],
+   "rationale": "The person gets a tumbler, removes the blender lid, and pours mango lassi into the tumbler."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Drink the mango lassi and refill the tumbler.",
+   "action_ids": [
+    "P09-20240623-120359-951",
+    "P09-20240623-120359-952",
+    "P09-20240623-120359-955",
+    "P09-20240623-120359-956"
+   ],
+   "rationale": "The person drinks from the tumbler and pours more mango lassi into it."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Prepare a keep cup and pour mango lassi into the cups.",
+   "action_ids": [
+    "P09-20240623-120359-1277",
+    "P09-20240623-120359-1278",
+    "P09-20240623-120359-1279",
+    "P09-20240623-120359-1280",
+    "P09-20240623-120359-1281",
+    "P09-20240623-120359-1282",
+    "P09-20240623-120359-1283",
+    "P09-20240623-120359-1284",
+    "P09-20240623-120359-1285",
+    "P09-20240623-120359-1286",
+    "P09-20240623-120359-1287",
+    "P09-20240623-120359-1288"
+   ],
+   "rationale": "The person retrieves a keep cup and pours mango lassi into both the keep cup and the tumbler."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Drink the mango lassi and refill the tumbler again.",
+   "action_ids": [
+    "P09-20240623-120359-1290",
+    "P09-20240623-120359-1291",
+    "P09-20240623-120359-1292",
+    "P09-20240623-120359-1293",
+    "P09-20240623-120359-1296",
+    "P09-20240623-120359-1297",
+    "P09-20240623-120359-1298"
+   ],
+   "rationale": "The person drinks more mango lassi, refills the tumbler, and inspects the remaining contents of the blender cup."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

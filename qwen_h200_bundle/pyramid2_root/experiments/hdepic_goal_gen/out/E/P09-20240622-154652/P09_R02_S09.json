@@ -1,0 +1,70 @@
+{
+ "overall_goal": "Fry the chicken cheese balls in oil, turning them for even cooking, and remove them when golden.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Turn the chicken cheese balls in the oil to ensure even frying.",
+   "action_ids": [
+    "P09-20240622-154652-507",
+    "P09-20240622-154652-528",
+    "P09-20240622-154652-564"
+   ],
+   "rationale": "The person uses a skimmer to rotate the frying chicken cheese balls in the hot oil."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Remove the fried chicken cheese balls from the oil and set them aside.",
+   "action_ids": [
+    "P09-20240622-154652-592",
+    "P09-20240622-154652-593",
+    "P09-20240622-154652-594",
+    "P09-20240622-154652-595",
+    "P09-20240622-154652-596",
+    "P09-20240622-154652-597"
+   ],
+   "rationale": "The person uses the skimmer to extract the fully cooked chicken cheese balls from the pan and transfers them to a bowl."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Add another chicken cheese ball to the oil and fry it.",
+   "action_ids": [
+    "P09-20240622-154652-598",
+    "P09-20240622-154652-625",
+    "P09-20240622-154652-626"
+   ],
+   "rationale": "The person drops a new chicken cheese ball into the hot oil and turns it with the skimmer to cook."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P09-20240622-154652-508",
+  "P09-20240622-154652-509",
+  "P09-20240622-154652-510",
+  "P09-20240622-154652-511",
+  "P09-20240622-154652-512",
+  "P09-20240622-154652-513",
+  "P09-20240622-154652-526",
+  "P09-20240622-154652-527",
+  "P09-20240622-154652-549",
+  "P09-20240622-154652-550",
+  "P09-20240622-154652-551",
+  "P09-20240622-154652-552",
+  "P09-20240622-154652-581",
+  "P09-20240622-154652-587",
+  "P09-20240622-154652-588",
+  "P09-20240622-154652-589",
+  "P09-20240622-154652-590",
+  "P09-20240622-154652-591",
+  "P09-20240622-154652-627",
+  "P09-20240622-154652-628",
+  "P09-20240622-154652-632",
+  "P09-20240622-154652-650",
+  "P09-20240622-154652-672",
+  "P09-20240622-154652-673",
+  "P09-20240622-154652-674",
+  "P09-20240622-154652-700"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "overall_goal": "Add and saute chopped onions, then measure and add garlic and ginger paste to the pan.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Add chopped onions to the frying pan and saute them.",
+   "action_ids": [
+    "P06-20240510-104642-463",
+    "P06-20240510-104642-464",
+    "P06-20240510-104642-583",
+    "P06-20240510-104642-584",
+    "P06-20240510-104642-585",
+    "P06-20240510-104642-586",
+    "P06-20240510-104642-590",
+    "P06-20240510-104642-666",
+    "P06-20240510-104642-673",
+    "P06-20240510-104642-674",
+    "P06-20240510-104642-686",
+    "P06-20240510-104642-687"
+   ],
+   "rationale": "The person retrieves the bowl of chopped onions, adds them to the frying pan, and repeatedly sautes them until they are golden brown."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Measure and add garlic paste to the frying pan.",
+   "action_ids": [
+    "P06-20240510-104642-706",
+    "P06-20240510-104642-707",
+    "P06-20240510-104642-708",
+    "P06-20240510-104642-709",
+    "P06-20240510-104642-710",
+    "P06-20240510-104642-711",
+    "P06-20240510-104642-712",
+    "P06-20240510-104642-713",
+    "P06-20240510-104642-714",
+    "P06-20240510-104642-725"
+   ],
+   "rationale": "The person prepares the weighing balance, opens the garlic paste jar, measures the paste with a spoon, and adds it to the pan."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Measure and add ginger paste to the frying pan and mix the ingredients.",
+   "action_ids": [
+    "P06-20240510-104642-727",
+    "P06-20240510-104642-728",
+    "P06-20240510-104642-729",
+    "P06-20240510-104642-730",
+    "P06-20240510-104642-735",
+    "P06-20240510-104642-736",
+    "P06-20240510-104642-737",
+    "P06-20240510-104642-738",
+    "P06-20240510-104642-749"
+   ],
+   "rationale": "The person opens the ginger paste jar, measures the paste, adds it to the pan, and mixes all the contents together."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P06-20240510-104642-462"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

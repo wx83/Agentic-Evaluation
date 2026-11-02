@@ -1,0 +1,23 @@
+{
+ "overall_goal": "Prepare the spaghetti and retrieve a plate.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Set aside the spaghetti and retrieve a plate.",
+   "action_ids": [
+    "P08-20240618-171546-396",
+    "P08-20240618-171546-410",
+    "P08-20240618-171546-411"
+   ],
+   "rationale": "The person places the spaghetti on the counter and then opens a drawer to take out a plate."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P08-20240618-171546-409",
+  "P08-20240618-171546-421"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

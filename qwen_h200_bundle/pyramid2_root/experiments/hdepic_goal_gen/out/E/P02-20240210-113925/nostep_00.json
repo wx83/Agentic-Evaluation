@@ -1,0 +1,208 @@
+{
+ "overall_goal": "Gather ingredients and utensils, prepare the cooking equipment, manage the cooking process, and tidy up the kitchen",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve plate, knife, and bread",
+   "action_ids": [
+    "P02-20240210-113925-1",
+    "P02-20240210-113925-2",
+    "P02-20240210-113925-3",
+    "P02-20240210-113925-4",
+    "P02-20240210-113925-5",
+    "P02-20240210-113925-6",
+    "P02-20240210-113925-7",
+    "P02-20240210-113925-8",
+    "P02-20240210-113925-9",
+    "P02-20240210-113925-10"
+   ],
+   "rationale": "The person gathers a plate, a bread knife, and a baguette from the drying rack and places them on the countertop for later use."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve ingredients from the fridge",
+   "action_ids": [
+    "P02-20240210-113925-11",
+    "P02-20240210-113925-12",
+    "P02-20240210-113925-13",
+    "P02-20240210-113925-14",
+    "P02-20240210-113925-15",
+    "P02-20240210-113925-16",
+    "P02-20240210-113925-17",
+    "P02-20240210-113925-18",
+    "P02-20240210-113925-19",
+    "P02-20240210-113925-20",
+    "P02-20240210-113925-21",
+    "P02-20240210-113925-22",
+    "P02-20240210-113925-23",
+    "P02-20240210-113925-24",
+    "P02-20240210-113925-25",
+    "P02-20240210-113925-26",
+    "P02-20240210-113925-27",
+    "P02-20240210-113925-28"
+   ],
+   "rationale": "The person opens the fridge multiple times to gather bacon, eggs, cheese, and milk, placing them on the countertop."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Retrieve and evaluate frying pan",
+   "action_ids": [
+    "P02-20240210-113925-29",
+    "P02-20240210-113925-30",
+    "P02-20240210-113925-31",
+    "P02-20240210-113925-32",
+    "P02-20240210-113925-33",
+    "P02-20240210-113925-34",
+    "P02-20240210-113925-35",
+    "P02-20240210-113925-36",
+    "P02-20240210-113925-37",
+    "P02-20240210-113925-38"
+   ],
+   "rationale": "The person gets a frying pan from the drying rack, places it on the hob, but realizes it is too small for the bacon."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Put away the unused frying pan",
+   "action_ids": [
+    "P02-20240210-113925-41",
+    "P02-20240210-113925-39",
+    "P02-20240210-113925-40",
+    "P02-20240210-113925-42",
+    "P02-20240210-113925-43",
+    "P02-20240210-113925-44"
+   ],
+   "rationale": "The person stacks the small frying pan with oven gloves and places it back into the cupboard."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Clean the frying pan",
+   "action_ids": [
+    "P02-20240210-113925-60",
+    "P02-20240210-113925-61",
+    "P02-20240210-113925-62",
+    "P02-20240210-113925-63",
+    "P02-20240210-113925-64",
+    "P02-20240210-113925-65",
+    "P02-20240210-113925-66",
+    "P02-20240210-113925-67",
+    "P02-20240210-113925-68"
+   ],
+   "rationale": "The person notices old oil on the frying pan, wipes it off using a kitchen towel, and disposes of the towel in the bin."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P02-20240210-113925-85",
+    "P02-20240210-113925-86",
+    "P02-20240210-113925-87",
+    "P02-20240210-113925-88",
+    "P02-20240210-113925-89",
+    "P02-20240210-113925-90",
+    "P02-20240210-113925-91",
+    "P02-20240210-113925-92",
+    "P02-20240210-113925-93",
+    "P02-20240210-113925-94",
+    "P02-20240210-113925-95",
+    "P02-20240210-113925-97",
+    "P02-20240210-113925-98"
+   ],
+   "rationale": "The person turns on the tap, uses washing up liquid to lather and rinse their hands, and then dries them with a towel."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Store leftover bacon in the fridge",
+   "action_ids": [
+    "P02-20240210-113925-99",
+    "P02-20240210-113925-100",
+    "P02-20240210-113925-101",
+    "P02-20240210-113925-103",
+    "P02-20240210-113925-104",
+    "P02-20240210-113925-105",
+    "P02-20240210-113925-106",
+    "P02-20240210-113925-107",
+    "P02-20240210-113925-108",
+    "P02-20240210-113925-109",
+    "P02-20240210-113925-110",
+    "P02-20240210-113925-111",
+    "P02-20240210-113925-112"
+   ],
+   "rationale": "The person places the remaining bacon medallions back into their packets and food bag, then stores them in the fridge."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Store leftover milk and eggs in the fridge",
+   "action_ids": [
+    "P02-20240210-113925-196",
+    "P02-20240210-113925-197",
+    "P02-20240210-113925-200",
+    "P02-20240210-113925-201",
+    "P02-20240210-113925-202",
+    "P02-20240210-113925-203",
+    "P02-20240210-113925-204",
+    "P02-20240210-113925-205",
+    "P02-20240210-113925-206",
+    "P02-20240210-113925-207",
+    "P02-20240210-113925-208"
+   ],
+   "rationale": "The person closes the milk bottle and egg cartons, then places them back into the fridge."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Manage cooking heat and handle spatula",
+   "action_ids": [
+    "P02-20240210-113925-51",
+    "P02-20240210-113925-102",
+    "P02-20240210-113925-133",
+    "P02-20240210-113925-171",
+    "P02-20240210-113925-182",
+    "P02-20240210-113925-183",
+    "P02-20240210-113925-184",
+    "P02-20240210-113925-216",
+    "P02-20240210-113925-243"
+   ],
+   "rationale": "The person turns on and adjusts the hob's heat to control the cooking process, and uses a spatula to manage the food."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Tidy up condiments and waste",
+   "action_ids": [
+    "P02-20240210-113925-52",
+    "P02-20240210-113925-55",
+    "P02-20240210-113925-56",
+    "P02-20240210-113925-170",
+    "P02-20240210-113925-194",
+    "P02-20240210-113925-195",
+    "P02-20240210-113925-224",
+    "P02-20240210-113925-225",
+    "P02-20240210-113925-226"
+   ],
+   "rationale": "The person closes and puts away the olive oil and pepper mill, and disposes of eggshells into the carton."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Retrieve additional cooking utensils",
+   "action_ids": [
+    "P02-20240210-113925-114",
+    "P02-20240210-113925-115",
+    "P02-20240210-113925-127",
+    "P02-20240210-113925-129",
+    "P02-20240210-113925-185",
+    "P02-20240210-113925-186",
+    "P02-20240210-113925-209"
+   ],
+   "rationale": "The person opens cupboards and drawers to gather a measuring jug, a spatula, and a stack of frying pans."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P02-20240210-113925-50",
+  "P02-20240210-113925-96",
+  "P02-20240210-113925-113",
+  "P02-20240210-113925-143",
+  "P02-20240210-113925-219"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

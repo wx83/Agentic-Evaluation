@@ -1,0 +1,201 @@
+{
+ "overall_goal": "Perform preparatory tasks including washing hands, retrieving ingredients, weighing items, and logging measurements",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P04-20240413-142619-5",
+    "P04-20240413-142619-6",
+    "P04-20240413-142619-7",
+    "P04-20240413-142619-8",
+    "P04-20240413-142619-9",
+    "P04-20240413-142619-11",
+    "P04-20240413-142619-10",
+    "P04-20240413-142619-12",
+    "P04-20240413-142619-13",
+    "P04-20240413-142619-14",
+    "P04-20240413-142619-15",
+    "P04-20240413-142619-16",
+    "P04-20240413-142619-17",
+    "P04-20240413-142619-18",
+    "P04-20240413-142619-19",
+    "P04-20240413-142619-20",
+    "P04-20240413-142619-21"
+   ],
+   "rationale": "The person turns on the tap, uses hand wash, rubs hands together, rinses them, and dries them with a kitchen towel."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve chicken and condiment jar from storage",
+   "action_ids": [
+    "P04-20240413-142619-22",
+    "P04-20240413-142619-23",
+    "P04-20240413-142619-24",
+    "P04-20240413-142619-32",
+    "P04-20240413-142619-33",
+    "P04-20240413-142619-34"
+   ],
+   "rationale": "The person opens the refrigerator to get a box of chicken and opens a cabinet to get a condiment jar."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Clear space on the worktop",
+   "action_ids": [
+    "P04-20240413-142619-58",
+    "P04-20240413-142619-59",
+    "P04-20240413-142619-60",
+    "P04-20240413-142619-61",
+    "P04-20240413-142619-62",
+    "P04-20240413-142619-63"
+   ],
+   "rationale": "The person moves the chicken, pushes the electric hob away, and repositions condiment jars to make room on the counter."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Search for and select mixing bowls",
+   "action_ids": [
+    "P04-20240413-142619-91",
+    "P04-20240413-142619-92",
+    "P04-20240413-142619-93",
+    "P04-20240413-142619-94",
+    "P04-20240413-142619-95",
+    "P04-20240413-142619-96",
+    "P04-20240413-142619-97",
+    "P04-20240413-142619-98",
+    "P04-20240413-142619-99",
+    "P04-20240413-142619-100",
+    "P04-20240413-142619-101",
+    "P04-20240413-142619-106",
+    "P04-20240413-142619-107",
+    "P04-20240413-142619-108"
+   ],
+   "rationale": "The person opens the upper shelf, pulls out various bowls, inspects them, puts the unwanted ones back, and closes the shelf."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Set up the weighing scale for the chicken",
+   "action_ids": [
+    "P04-20240413-142619-121",
+    "P04-20240413-142619-122",
+    "P04-20240413-142619-123",
+    "P04-20240413-142619-124",
+    "P04-20240413-142619-125"
+   ],
+   "rationale": "The person places the weighing scale on the worktop, puts a bowl on it, turns it on, and picks up the raw chicken container to weigh it."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Dispose of empty chicken packaging",
+   "action_ids": [
+    "P04-20240413-142619-132",
+    "P04-20240413-142619-133",
+    "P04-20240413-142619-134",
+    "P04-20240413-142619-135"
+   ],
+   "rationale": "The person closes the empty plastic box, opens the rubbish bin, throws the packaging away, and closes the bin."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Wash and dry hands after handling raw chicken",
+   "action_ids": [
+    "P04-20240413-142619-136",
+    "P04-20240413-142619-137",
+    "P04-20240413-142619-138",
+    "P04-20240413-142619-139",
+    "P04-20240413-142619-140",
+    "P04-20240413-142619-141",
+    "P04-20240413-142619-156",
+    "P04-20240413-142619-157",
+    "P04-20240413-142619-158",
+    "P04-20240413-142619-159",
+    "P04-20240413-142619-160"
+   ],
+   "rationale": "The person washes their hands under the tap and dries them with a kitchen rag to maintain hygiene after touching raw meat."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Season the chicken and manage spice jars",
+   "action_ids": [
+    "P04-20240413-142619-184",
+    "P04-20240413-142619-185",
+    "P04-20240413-142619-186",
+    "P04-20240413-142619-199",
+    "P04-20240413-142619-200",
+    "P04-20240413-142619-201",
+    "P04-20240413-142619-207",
+    "P04-20240413-142619-223",
+    "P04-20240413-142619-224",
+    "P04-20240413-142619-225",
+    "P04-20240413-142619-226",
+    "P04-20240413-142619-227",
+    "P04-20240413-142619-228",
+    "P04-20240413-142619-229",
+    "P04-20240413-142619-239",
+    "P04-20240413-142619-240",
+    "P04-20240413-142619-243",
+    "P04-20240413-142619-244"
+   ],
+   "rationale": "The person shakes seasoning from spoons into the chicken bowl, shakes the bowl to mix, and handles various condiment jars like garlic powder, onion powder, salt, and pepper."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Set up scale and weigh lemon pieces",
+   "action_ids": [
+    "P04-20240413-142619-272",
+    "P04-20240413-142619-273",
+    "P04-20240413-142619-274",
+    "P04-20240413-142619-275",
+    "P04-20240413-142619-276",
+    "P04-20240413-142619-277",
+    "P04-20240413-142619-278",
+    "P04-20240413-142619-279"
+   ],
+   "rationale": "The person retrieves a small plate from the upper shelf, places it on the weighing scale, turns the scale on, and places cut lemon pieces on it to measure their weight."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Log the ingredient measurements in a notebook",
+   "action_ids": [
+    "P04-20240413-142619-280",
+    "P04-20240413-142619-281",
+    "P04-20240413-142619-282",
+    "P04-20240413-142619-283",
+    "P04-20240413-142619-284",
+    "P04-20240413-142619-285",
+    "P04-20240413-142619-286",
+    "P04-20240413-142619-287",
+    "P04-20240413-142619-288"
+   ],
+   "rationale": "The person grabs a notebook, finds an empty page, searches for a pen, and writes down the measurements of the weighed ingredients."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P04-20240413-142619-1",
+  "P04-20240413-142619-2",
+  "P04-20240413-142619-3",
+  "P04-20240413-142619-4",
+  "P04-20240413-142619-55",
+  "P04-20240413-142619-56",
+  "P04-20240413-142619-57",
+  "P04-20240413-142619-64",
+  "P04-20240413-142619-65",
+  "P04-20240413-142619-68",
+  "P04-20240413-142619-69",
+  "P04-20240413-142619-70",
+  "P04-20240413-142619-90",
+  "P04-20240413-142619-117",
+  "P04-20240413-142619-118",
+  "P04-20240413-142619-119",
+  "P04-20240413-142619-120",
+  "P04-20240413-142619-142",
+  "P04-20240413-142619-245",
+  "P04-20240413-142619-253",
+  "P04-20240413-142619-254",
+  "P04-20240413-142619-255"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

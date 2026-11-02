@@ -1,0 +1,207 @@
+{
+ "overall_goal": "Clean kitchen utensils, jars, and a plastic bottle while occasionally checking the saucepan",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Wash the knife and chopping board",
+   "action_ids": [
+    "P09-20240621-153208-75-2",
+    "P09-20240621-153208-75-3",
+    "P09-20240621-153208-75-4",
+    "P09-20240621-153208-75-5",
+    "P09-20240621-153208-75-6",
+    "P09-20240621-153208-75-7",
+    "P09-20240621-153208-75-8",
+    "P09-20240621-153208-75-9",
+    "P09-20240621-153208-75-10",
+    "P09-20240621-153208-75-11",
+    "P09-20240621-153208-75-12",
+    "P09-20240621-153208-75-13",
+    "P09-20240621-153208-75-14",
+    "P09-20240621-153208-76"
+   ],
+   "rationale": "The person scrubs, rinses, and puts away the knife and chopping board."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Rinse the plastic bottle",
+   "action_ids": [
+    "P09-20240621-153208-77",
+    "P09-20240621-153208-81",
+    "P09-20240621-153208-78",
+    "P09-20240621-153208-79",
+    "P09-20240621-153208-80",
+    "P09-20240621-153208-82",
+    "P09-20240621-153208-83",
+    "P09-20240621-153208-84",
+    "P09-20240621-153208-85",
+    "P09-20240621-153208-86",
+    "P09-20240621-153208-87",
+    "P09-20240621-153208-88",
+    "P09-20240621-153208-89",
+    "P09-20240621-153208-90",
+    "P09-20240621-153208-91",
+    "P09-20240621-153208-92",
+    "P09-20240621-153208-93"
+   ],
+   "rationale": "The person empties and rinses a plastic bottle under the tap."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Dry hands",
+   "action_ids": [
+    "P09-20240621-153208-94",
+    "P09-20240621-153208-95",
+    "P09-20240621-153208-96",
+    "P09-20240621-153208-97"
+   ],
+   "rationale": "The person retrieves a napkin to dry their hands."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Turn on the kettle and check the saucepan",
+   "action_ids": [
+    "P09-20240621-153208-98",
+    "P09-20240621-153208-99",
+    "P09-20240621-153208-106-4",
+    "P09-20240621-153208-106-6",
+    "P09-20240621-153208-106-7",
+    "P09-20240621-153208-106-8",
+    "P09-20240621-153208-106-9",
+    "P09-20240621-153208-106-10",
+    "P09-20240621-153208-106-11"
+   ],
+   "rationale": "The person turns on the kettle, handles the saucepan lid and spoon, and dries their hands."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Empty and scrub the first glass jar",
+   "action_ids": [
+    "P09-20240621-153208-106-12",
+    "P09-20240621-153208-107",
+    "P09-20240621-153208-107-1",
+    "P09-20240621-153208-107-2",
+    "P09-20240621-153208-107-3",
+    "P09-20240621-153208-107-4",
+    "P09-20240621-153208-107-5",
+    "P09-20240621-153208-107-6"
+   ],
+   "rationale": "The person moves the plastic bottle out of the way, then opens and scrubs the first glass jar."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Wash and rinse the first glass jar and its lid",
+   "action_ids": [
+    "P09-20240621-153208-108-1",
+    "P09-20240621-153208-108",
+    "P09-20240621-153208-108-2",
+    "P09-20240621-153208-108-3",
+    "P09-20240621-153208-108-4",
+    "P09-20240621-153208-108-5",
+    "P09-20240621-153208-108-6",
+    "P09-20240621-153208-108-7",
+    "P09-20240621-153208-108-8",
+    "P09-20240621-153208-108-9",
+    "P09-20240621-153208-108-10",
+    "P09-20240621-153208-108-11",
+    "P09-20240621-153208-108-12",
+    "P09-20240621-153208-108-13"
+   ],
+   "rationale": "The person applies soap to the sponge, scrubs the lid, and rinses both the jar and lid under the tap."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Wash the second glass jar and its lid",
+   "action_ids": [
+    "P09-20240621-153208-108-14",
+    "P09-20240621-153208-108-15",
+    "P09-20240621-153208-109",
+    "P09-20240621-153208-111",
+    "P09-20240621-153208-110",
+    "P09-20240621-153208-112",
+    "P09-20240621-153208-113",
+    "P09-20240621-153208-114",
+    "P09-20240621-153208-115"
+   ],
+   "rationale": "The person empties, scrubs, and rinses another glass jar and its lid."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Wipe the counter and stir the saucepan",
+   "action_ids": [
+    "P09-20240621-153208-116",
+    "P09-20240621-153208-117",
+    "P09-20240621-153208-118",
+    "P09-20240621-153208-119",
+    "P09-20240621-153208-120",
+    "P09-20240621-153208-122"
+   ],
+   "rationale": "The person wipes the counter, dries their hands, and stirs the contents of the saucepan."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Peel the sticker and prepare the plastic bottle",
+   "action_ids": [
+    "P09-20240621-153208-123",
+    "P09-20240621-153208-124",
+    "P09-20240621-153208-125",
+    "P09-20240621-153208-126",
+    "P09-20240621-153208-127",
+    "P09-20240621-153208-128",
+    "P09-20240621-153208-129",
+    "P09-20240621-153208-130",
+    "P09-20240621-153208-131"
+   ],
+   "rationale": "The person removes the sticker from the plastic bottle and empties it."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Wash the plastic bottle with hot water and soap",
+   "action_ids": [
+    "P09-20240621-153208-132",
+    "P09-20240621-153208-133",
+    "P09-20240621-153208-134",
+    "P09-20240621-153208-135",
+    "P09-20240621-153208-136",
+    "P09-20240621-153208-137",
+    "P09-20240621-153208-138",
+    "P09-20240621-153208-139",
+    "P09-20240621-153208-140",
+    "P09-20240621-153208-141",
+    "P09-20240621-153208-142",
+    "P09-20240621-153208-143"
+   ],
+   "rationale": "The person pours hot water from the kettle and adds soap to wash the inside of the plastic bottle."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Rinse the plastic bottle thoroughly",
+   "action_ids": [
+    "P09-20240621-153208-144",
+    "P09-20240621-153208-145",
+    "P09-20240621-153208-146",
+    "P09-20240621-153208-147",
+    "P09-20240621-153208-148",
+    "P09-20240621-153208-149",
+    "P09-20240621-153208-150",
+    "P09-20240621-153208-151",
+    "P09-20240621-153208-152",
+    "P09-20240621-153208-153",
+    "P09-20240621-153208-154",
+    "P09-20240621-153208-155",
+    "P09-20240621-153208-156",
+    "P09-20240621-153208-157",
+    "P09-20240621-153208-158",
+    "P09-20240621-153208-159",
+    "P09-20240621-153208-160",
+    "P09-20240621-153208-161"
+   ],
+   "rationale": "The person repeatedly fills, shakes, and empties the plastic bottle to rinse out the soap."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

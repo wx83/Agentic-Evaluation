@@ -1,0 +1,43 @@
+{
+ "overall_goal": "Pour and spread batter into the frying pan",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Pour and spread the batter evenly in the frying pan",
+   "action_ids": [
+    "P06-20240510-090328-382",
+    "P06-20240510-090328-383",
+    "P06-20240510-090328-384",
+    "P06-20240510-090328-385",
+    "P06-20240510-090328-386",
+    "P06-20240510-090328-387"
+   ],
+   "rationale": "The person repeatedly pours batter from the bowl into the pan and spreads it evenly."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Scrape the remaining batter from the bowl",
+   "action_ids": [
+    "P06-20240510-090328-388",
+    "P06-20240510-090328-389",
+    "P06-20240510-090328-390",
+    "P06-20240510-090328-391"
+   ],
+   "rationale": "The person puts down the bowl and spoon, then picks the spoon back up to scrape batter off the bowl."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Pour additional batter into the frying pan",
+   "action_ids": [
+    "P06-20240510-090328-552",
+    "P06-20240510-090328-553"
+   ],
+   "rationale": "The person picks up the bowl again and pours more batter into the pan."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

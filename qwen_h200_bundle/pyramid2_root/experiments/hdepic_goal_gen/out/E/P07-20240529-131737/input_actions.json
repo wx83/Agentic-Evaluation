@@ -1,0 +1,4233 @@
+{
+ "video_id": "P07-20240529-131737",
+ "existing_label": "Chopped Chickpea Salad (P07_R02)",
+ "source": "HD_EPIC_Narrations.pkl (official)",
+ "actions": [
+  {
+   "action_id": "P07-20240529-131737-1",
+   "start_s": 4.82,
+   "end_s": 5.67,
+   "narration": "use the right hand to turn the dial on the oven to the right hand side to set the oven setting",
+   "verbs": [
+    "turn",
+    "set"
+   ],
+   "nouns": [
+    "dial",
+    "oven",
+    "right hand side",
+    "oven setting"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-2",
+   "start_s": 6.07,
+   "end_s": 8.42,
+   "narration": "use the right hand to turn the right hand dial on the oven to the right to set the temperature",
+   "verbs": [
+    "turn",
+    "set"
+   ],
+   "nouns": [
+    "right hand dial",
+    "oven",
+    "temperature"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-3",
+   "start_s": 11.09,
+   "end_s": 12.32,
+   "narration": "Use both hands to open the tote bag that is on the counter.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "tote bag",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-4",
+   "start_s": 12.85,
+   "end_s": 13.2,
+   "narration": "Use the right hand to remove a can of chickpeas from the tote bag and set it on the counter, while holding the tote bag open with the left hand.",
+   "verbs": [
+    "remove",
+    "set",
+    "hold"
+   ],
+   "nouns": [
+    "can of chickpeas",
+    "tote bag",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-5",
+   "start_s": 14.85,
+   "end_s": 15.87,
+   "narration": "Use the right hand to remove a glass jar of olives from the tote bag and set it on the counter.",
+   "verbs": [
+    "remove",
+    "set"
+   ],
+   "nouns": [
+    "glass jar of olives",
+    "tote bag",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-6",
+   "start_s": 16.5,
+   "end_s": 17.57,
+   "narration": "Use the right hand to remove a plastic package of lettuce from the tote bag and set it on the counter.",
+   "verbs": [
+    "remove",
+    "set"
+   ],
+   "nouns": [
+    "plastic package of lettuce",
+    "tote bag",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-7",
+   "start_s": 18.4,
+   "end_s": 20.15,
+   "narration": "Use the right hand to pick a plastic squeezy bottle of honey out of the tote bag. Lose grip on the honey and drop it back into the tote bag and then pick it up again and set it on the counter.",
+   "verbs": [
+    "pick",
+    "lose",
+    "drop",
+    "pick up",
+    "set"
+   ],
+   "nouns": [
+    "plastic squeezy bottle of honey",
+    "tote bag",
+    "grip",
+    "honey",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-8",
+   "start_s": 21.25,
+   "end_s": 22.25,
+   "narration": "Use both hands to move items around in the tote bag so that you can reach the other objects. Then use the right hand to pick up a plastic sleeve of cherry tomatoes.",
+   "verbs": [
+    "move",
+    "pick up"
+   ],
+   "nouns": [
+    "items",
+    "tote bag",
+    "other objects",
+    "plastic sleeve of cherry tomatoes"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-9",
+   "start_s": 22.6,
+   "end_s": 24.55,
+   "narration": "Set the cherry tomatoes down on the counter and hold the tote bag with the right hand while using the left hand to reach in and remove a packet of cheese.",
+   "verbs": [
+    "set down",
+    "hold",
+    "reach",
+    "remove"
+   ],
+   "nouns": [
+    "cherry tomatoes",
+    "counter",
+    "tote bag",
+    "packet of cheese"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-10",
+   "start_s": 24.52,
+   "end_s": 26.7,
+   "narration": "Push the tote bag to the back of the counter with the right hand to make space.",
+   "verbs": [
+    "push"
+   ],
+   "nouns": [
+    "tote bag",
+    "back of counter",
+    "space"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-11",
+   "start_s": 27.11,
+   "end_s": 28.78,
+   "narration": "Set the cheese down on the counter and push the grocery items backwards to make space.",
+   "verbs": [
+    "set down",
+    "push"
+   ],
+   "nouns": [
+    "cheese",
+    "counter",
+    "grocery items",
+    "backwards",
+    "space"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-12",
+   "start_s": 29.88,
+   "end_s": 31.07,
+   "narration": "Use the left hand to pick up the can of chickpeas.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "can of chickpeas"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-13",
+   "start_s": 31.81,
+   "end_s": 37.45,
+   "narration": "Use the right hand to adjust the phone that is on the counter, push it backwards to make space, and then flip it over so that it's face down.",
+   "verbs": [
+    "adjust",
+    "push",
+    "flip over"
+   ],
+   "nouns": [
+    "phone",
+    "counter",
+    "backwards",
+    "space"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-14",
+   "start_s": 38.09,
+   "end_s": 38.5,
+   "narration": "Use both hands to pick up the can of chickpeas.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "can of chickpeas"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-15",
+   "start_s": 40.71,
+   "end_s": 42.32,
+   "narration": "use the right hand to open the cutlery drawer.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "cutlery drawer"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-16",
+   "start_s": 43.36,
+   "end_s": 44.32,
+   "narration": "use the right hand to pick up the tin opener from the cutlery drawer",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "tin opener",
+    "cutlery drawer"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-17",
+   "start_s": 44.37,
+   "end_s": 44.88,
+   "narration": "place the can of chickpeas down on the counter using the left hand",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "can of chickpeas",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-18",
+   "start_s": 44.98,
+   "end_s": 46.39,
+   "narration": "Use the left hand to put a chopstick back in the cutlery drawer that has accidentally been pulled out.",
+   "verbs": [
+    "put"
+   ],
+   "nouns": [
+    "chopstick",
+    "cutlery drawer"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-19",
+   "start_s": 46.92,
+   "end_s": 47.38,
+   "narration": "use the left hand to hold the can steady while lining up the blade of the can opener with the top of the can",
+   "verbs": [
+    "hold",
+    "line up"
+   ],
+   "nouns": [
+    "can",
+    "blade of can opener",
+    "top of can"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-20",
+   "start_s": 47.36,
+   "end_s": 48.84,
+   "narration": "hold the handles of the can opener with the left hand",
+   "verbs": [
+    "hold"
+   ],
+   "nouns": [
+    "handles of can opener"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-21",
+   "start_s": 48.02,
+   "end_s": 49.19,
+   "narration": "use the right hand to turn the blade of the can opener",
+   "verbs": [
+    "turn"
+   ],
+   "nouns": [
+    "blade of can opener"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-22",
+   "start_s": 49.26,
+   "end_s": 51.84,
+   "narration": "Readjust the can opener using both hands.",
+   "verbs": [
+    "readjust"
+   ],
+   "nouns": [
+    "can opener"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-23",
+   "start_s": 51.54,
+   "end_s": 53.53,
+   "narration": "hold the tin in the left hand and hold the handles of the can opener in the right hand",
+   "verbs": [
+    "hold"
+   ],
+   "nouns": [
+    "tin",
+    "handles of can opener"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-24",
+   "start_s": 53.44,
+   "end_s": 55.83,
+   "narration": "squeeze the right hand to attach the blades to the top of the can opener and then take the handles of the can opener into the left hand and use the right hand to turn the blade",
+   "verbs": [
+    "squeeze",
+    "attach",
+    "take",
+    "turn"
+   ],
+   "nouns": [
+    "blades",
+    "top of can opener",
+    "handles of can opener",
+    "blade"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-25",
+   "start_s": 55.64,
+   "end_s": 62.84,
+   "narration": "turn the blade of the can opener to open up the top",
+   "verbs": [
+    "turn",
+    "open up"
+   ],
+   "nouns": [
+    "blade of can opener"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-26",
+   "start_s": 62.89,
+   "end_s": 63.59,
+   "narration": "remove the can opener from the tin holding it by the handles with both hands",
+   "verbs": [
+    "remove",
+    "hold"
+   ],
+   "nouns": [
+    "can opener",
+    "tin",
+    "handles"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-27",
+   "start_s": 63.76,
+   "end_s": 65.03,
+   "narration": "transfer the tin open to the right hand and place it down in the sink",
+   "verbs": [
+    "transfer",
+    "place down"
+   ],
+   "nouns": [
+    "tin",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-28",
+   "start_s": 66.59,
+   "end_s": 67.69,
+   "narration": "Use the right hand to open the top drawer of the kitchen island.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "top drawer of kitchen island"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-29",
+   "start_s": 67.3,
+   "end_s": 69.49,
+   "narration": "Use the right hand to pick up the saucepan lid so that the colander underneath it can be picked up with the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "saucepan lid",
+    "colander"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-30",
+   "start_s": 69.53,
+   "end_s": 71.64,
+   "narration": "Replace the sauce pan lid to the drawer and close the drawer.",
+   "verbs": [
+    "replace",
+    "close"
+   ],
+   "nouns": [
+    "sauce pan lid",
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-31",
+   "start_s": 70.48,
+   "end_s": 71.96,
+   "narration": "Carry the colander over to the sink in the left hand.",
+   "verbs": [
+    "carry over"
+   ],
+   "nouns": [
+    "colander",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-32",
+   "start_s": 71.75,
+   "end_s": 72.74,
+   "narration": "Place the colander into the sink using both hands.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "colander",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-33",
+   "start_s": 72.76,
+   "end_s": 73.75,
+   "narration": "turn the tap on by pulling the lever with the right hand",
+   "verbs": [
+    "turn on",
+    "pull"
+   ],
+   "nouns": [
+    "tap",
+    "lever"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-34",
+   "start_s": 73.79,
+   "end_s": 75.4,
+   "narration": "Pick up the can of chickpeas in the left hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "can of chickpeas"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-35",
+   "start_s": 75.45,
+   "end_s": 76.29,
+   "narration": "Transfer the chickpeas to the right hand.",
+   "verbs": [
+    "transfer"
+   ],
+   "nouns": [
+    "chickpeas"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-36",
+   "start_s": 76.26,
+   "end_s": 77.85,
+   "narration": "Tip the can so that the chickpeas go into the colander and the aquafaba drains out of the chickpeas.",
+   "verbs": [
+    "tip"
+   ],
+   "nouns": [
+    "can",
+    "chickpeas",
+    "colander",
+    "aquafaba"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-37",
+   "start_s": 77.6,
+   "end_s": 79.4,
+   "narration": "Shake the can and use the left hand to peel back the metal lid to make sure there are no chickpeas left inside.",
+   "verbs": [
+    "shake",
+    "peel",
+    "be"
+   ],
+   "nouns": [
+    "can",
+    "metal lid",
+    "there",
+    "no chickpeas"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-38",
+   "start_s": 79.37,
+   "end_s": 81.14,
+   "narration": "Hold the can under the running water to rinse it out.",
+   "verbs": [
+    "hold",
+    "rinse out"
+   ],
+   "nouns": [
+    "can",
+    "running water"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-39",
+   "start_s": 81.24,
+   "end_s": 83.08,
+   "narration": "shake the can slightly and then empty the water into the sink",
+   "verbs": [
+    "shake",
+    "empty"
+   ],
+   "nouns": [
+    "can",
+    "water",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-40",
+   "start_s": 82.58,
+   "end_s": 84.86,
+   "narration": "shake the can use the left hand to again peel back the metal lid and look inside the can",
+   "verbs": [
+    "shake",
+    "peel",
+    "look inside"
+   ],
+   "nouns": [
+    "can",
+    "metal lid"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-41",
+   "start_s": 84.91,
+   "end_s": 85.76,
+   "narration": "Holding the metal lid open with the thumb and index finger of the left hand, hold the can under the running water to rinse it.",
+   "verbs": [
+    "hold",
+    "rinse"
+   ],
+   "nouns": [
+    "metal lid",
+    "thumb",
+    "can",
+    "running water"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-42",
+   "start_s": 85.35,
+   "end_s": 88.15,
+   "narration": "swirl the can around and then empty the water into the sink",
+   "verbs": [
+    "swirl",
+    "empty"
+   ],
+   "nouns": [
+    "can",
+    "water",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-43",
+   "start_s": 87.95,
+   "end_s": 89.27,
+   "narration": "Transfer the can to the left hand and put it down in the sink.",
+   "verbs": [
+    "transfer",
+    "put"
+   ],
+   "nouns": [
+    "can",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-44",
+   "start_s": 89.11,
+   "end_s": 90.49,
+   "narration": "Pick up the colander in the right hand and run the chickpeas under the running water, swirling them around to rinse off the left over aquafaba.",
+   "verbs": [
+    "pick up",
+    "run",
+    "swirl",
+    "rinse off"
+   ],
+   "nouns": [
+    "colander",
+    "chickpeas",
+    "running water",
+    "left over aquafaba"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-45",
+   "start_s": 90.47,
+   "end_s": 91.19,
+   "narration": "transfer the colander to the left hand and adjust the tap using the right hand",
+   "verbs": [
+    "transfer",
+    "adjust"
+   ],
+   "nouns": [
+    "colander",
+    "tap"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-46",
+   "start_s": 92.25,
+   "end_s": 95.62,
+   "narration": "Holding the colander in both hands, swirl the chickpeas around in a circular motion to rinse off the aquafaba.",
+   "verbs": [
+    "hold",
+    "swirl",
+    "rinse off"
+   ],
+   "nouns": [
+    "colander",
+    "chickpeas",
+    "circular motion",
+    "aquafaba"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-47",
+   "start_s": 95.49,
+   "end_s": 100.7,
+   "narration": "Holding the colander in both hands, move it forward and backward to get the chickpeas under the running water and rinse off the aquafaba.",
+   "verbs": [
+    "hold",
+    "move",
+    "get",
+    "rinse off"
+   ],
+   "nouns": [
+    "colander",
+    "chickpeas",
+    "running water",
+    "aquafaba"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-48",
+   "start_s": 99.53,
+   "end_s": 103.74,
+   "narration": "Holding the colander in both hands, swirl it around in fast circular motions to rinse the chickpeas under the running water.",
+   "verbs": [
+    "hold",
+    "swirl",
+    "rinse"
+   ],
+   "nouns": [
+    "colander",
+    "fast circular motions",
+    "chickpeas",
+    "running water"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-49",
+   "start_s": 103.81,
+   "end_s": 105.5,
+   "narration": "Toss the chickpeas back and forth to rinse them off.",
+   "verbs": [
+    "toss",
+    "rinse off"
+   ],
+   "nouns": [
+    "chickpeas"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-50",
+   "start_s": 105.45,
+   "end_s": 105.94,
+   "narration": "Turn off the tap using the right hand to close the lever.",
+   "verbs": [
+    "turn off",
+    "close"
+   ],
+   "nouns": [
+    "tap",
+    "lever"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-51",
+   "start_s": 106.25,
+   "end_s": 107.78,
+   "narration": "Holding the colander in both hands, swirl the chickpeas around to dry them off.",
+   "verbs": [
+    "hold",
+    "swirl",
+    "dry off"
+   ],
+   "nouns": [
+    "colander",
+    "chickpeas"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-52",
+   "start_s": 107.81,
+   "end_s": 111.06,
+   "narration": "holding the colander in both hands throw the chickpeas up and down to dry them off",
+   "verbs": [
+    "hold",
+    "throw",
+    "dry off"
+   ],
+   "nouns": [
+    "colander",
+    "chickpeas"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-53",
+   "start_s": 111.14,
+   "end_s": 112.2,
+   "narration": "Holding the colander in both hands, swirl the chickpeas in a circular motion to dry them off.",
+   "verbs": [
+    "hold",
+    "swirl",
+    "dry off"
+   ],
+   "nouns": [
+    "colander",
+    "chickpeas",
+    "circular motion"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-54",
+   "start_s": 112.13,
+   "end_s": 113.53,
+   "narration": "Holding the colander in both hands throw the chickpeas up and down to dry them off.",
+   "verbs": [
+    "hold",
+    "throw",
+    "dry off"
+   ],
+   "nouns": [
+    "colander",
+    "chickpeas"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-55",
+   "start_s": 113.63,
+   "end_s": 114.04,
+   "narration": "put the colander down in the sink and pick up the can using the right hand",
+   "verbs": [
+    "put down",
+    "pick up"
+   ],
+   "nouns": [
+    "colander",
+    "sink",
+    "can"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-56",
+   "start_s": 116.73,
+   "end_s": 119.14,
+   "narration": "Use the left hand to open the bottom drawer of the kitchen island and the right hand to drop the empty can into the recycling bin.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "bottom drawer of kitchen island",
+    "empty can",
+    "recycling bin"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-57",
+   "start_s": 120.26,
+   "end_s": 121.22,
+   "narration": "use the right hand to open the drawer under the oven",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "drawer",
+    "oven"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-58",
+   "start_s": 121.32,
+   "end_s": 121.74,
+   "narration": "Use both hands to pick up a circular tray so that the tray beneath it can be reached.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "circular tray",
+    "tray"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-59",
+   "start_s": 121.74,
+   "end_s": 122.61,
+   "narration": "Transfer the tray into the left hand and use the right hand to pick up the square tray beneath it.",
+   "verbs": [
+    "transfer",
+    "pick up"
+   ],
+   "nouns": [
+    "tray",
+    "square tray"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-60",
+   "start_s": 122.7,
+   "end_s": 124.51,
+   "narration": "Replace the circular tray into the drawer and close the drawer.",
+   "verbs": [
+    "replace",
+    "close"
+   ],
+   "nouns": [
+    "circular tray",
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-61",
+   "start_s": 123.54,
+   "end_s": 125.75,
+   "narration": "carry the rectangular tray over to the countertop",
+   "verbs": [
+    "carry over"
+   ],
+   "nouns": [
+    "rectangular tray",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-62",
+   "start_s": 125.8,
+   "end_s": 126.47,
+   "narration": "place the rectangular tray down on the countertop using both hands",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "rectangular tray",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-63",
+   "start_s": 126.57,
+   "end_s": 127.21,
+   "narration": "Pick up the colander of chickpeas in the right hand from the sink.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "colander of chickpeas",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-64",
+   "start_s": 127.31,
+   "end_s": 128.18,
+   "narration": "Shake the colander with the right hand to get off any excess water.",
+   "verbs": [
+    "shake",
+    "get off"
+   ],
+   "nouns": [
+    "colander",
+    "any excess water"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-65",
+   "start_s": 129.04,
+   "end_s": 130.05,
+   "narration": "Use the right hand to take a sheet of kitchen paper and pull it away from the roll.",
+   "verbs": [
+    "take",
+    "pull"
+   ],
+   "nouns": [
+    "sheet of kitchen paper",
+    "roll"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-66",
+   "start_s": 130.15,
+   "end_s": 130.42,
+   "narration": "holding the roll of kitchen paper steady with the left hand pull out two more sheets",
+   "verbs": [
+    "hold",
+    "pull out"
+   ],
+   "nouns": [
+    "roll of kitchen paper",
+    "two more sheets"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-67",
+   "start_s": 130.29,
+   "end_s": 132.02,
+   "narration": "Fold the sheets together and remove them from the roll by pulling the left and right hands apart.",
+   "verbs": [
+    "fold",
+    "remove",
+    "pull"
+   ],
+   "nouns": [
+    "sheets",
+    "roll",
+    "left"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-68",
+   "start_s": 132.12,
+   "end_s": 133.15,
+   "narration": "place the kitchen paper flat on the counter",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "kitchen paper",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-69",
+   "start_s": 133.25,
+   "end_s": 134.8,
+   "narration": "replace the kitchen roll back onto the counter",
+   "verbs": [
+    "replace"
+   ],
+   "nouns": [
+    "kitchen roll",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-70",
+   "start_s": 135.75,
+   "end_s": 136.87,
+   "narration": "Pick up the colander of chickpeas in the right hand.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "colander of chickpeas"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-71",
+   "start_s": 137.25,
+   "end_s": 141.15,
+   "narration": "Tip the colander so that the chickpeas tip out onto the kitchen paper using the left hand to stop them from rolling away.",
+   "verbs": [
+    "tip",
+    "roll"
+   ],
+   "nouns": [
+    "colander",
+    "chickpeas",
+    "tip",
+    "kitchen paper"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-72",
+   "start_s": 141.6,
+   "end_s": 142.75,
+   "narration": "Replace the colander in the sink using the right hand while using the left hand to pick up the chickpeas that rolled away and place them on the kitchen paper.",
+   "verbs": [
+    "replace",
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "colander",
+    "sink",
+    "chickpeas",
+    "kitchen paper"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-73",
+   "start_s": 143.5,
+   "end_s": 144.2,
+   "narration": "Use the right hand to pick up the chickpeas that rolled away and place them on the kitchen paper.",
+   "verbs": [
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "chickpeas",
+    "kitchen paper"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-74",
+   "start_s": 144.2,
+   "end_s": 145.02,
+   "narration": "Use the left hand to fold over the kitchen paper so that it is on top of the chickpeas and gently press down to dry them.",
+   "verbs": [
+    "fold over",
+    "press",
+    "dry"
+   ],
+   "nouns": [
+    "kitchen paper",
+    "top of chickpeas",
+    "chickpeas"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-75",
+   "start_s": 145.12,
+   "end_s": 146.62,
+   "narration": "Use both hands to gently press down on the chickpeas to dry them.",
+   "verbs": [
+    "press on",
+    "dry"
+   ],
+   "nouns": [
+    "chickpeas"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-76",
+   "start_s": 148.2,
+   "end_s": 149.45,
+   "narration": "Use both hands to gently press down on the chickpeas to dry them.",
+   "verbs": [
+    "press on",
+    "dry"
+   ],
+   "nouns": [
+    "chickpeas"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-77",
+   "start_s": 149.66,
+   "end_s": 152.0,
+   "narration": "Use both hands to gently tap the chickpeas to dry them.",
+   "verbs": [
+    "tap",
+    "dry"
+   ],
+   "nouns": [
+    "chickpeas"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-78",
+   "start_s": 152.23,
+   "end_s": 153.1,
+   "narration": "Unfold the piece of kitchen roll to reveal the pile of chickpeas.",
+   "verbs": [
+    "unfold",
+    "reveal"
+   ],
+   "nouns": [
+    "piece of kitchen roll",
+    "pile of chickpeas"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-79",
+   "start_s": 156.36,
+   "end_s": 159.5,
+   "narration": "Use the right hand to pick up one of the chickpeas and then hold it between the left thumb and index finger and use the right thumb and index finger in a pinching motion to pull away the loose skin.",
+   "verbs": [
+    "pick up",
+    "hold",
+    "pull"
+   ],
+   "nouns": [
+    "chickpeas",
+    "left thumb",
+    "index finger",
+    "right thumb",
+    "pinching motion",
+    "loose skin"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-80",
+   "start_s": 159.57,
+   "end_s": 160.1,
+   "narration": "place the loose skin down on the countertop",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "loose skin",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-81",
+   "start_s": 160.01,
+   "end_s": 161.22,
+   "narration": "pick up a chickpea with the right thumb and index finger.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "chickpea",
+    "right thumb",
+    "index finger"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-82",
+   "start_s": 161.17,
+   "end_s": 162.1,
+   "narration": "place the loose skin down on the countertop",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "loose skin",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-83",
+   "start_s": 162.08,
+   "end_s": 164.11,
+   "narration": "Pick up some loose skin with the right hand and place it on the countertop.",
+   "verbs": [
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "some loose skin",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-84",
+   "start_s": 164.17,
+   "end_s": 165.32,
+   "narration": "pick up the loose skin with the right hand and place it on the countertop",
+   "verbs": [
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "loose skin",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-85",
+   "start_s": 165.33,
+   "end_s": 167.36,
+   "narration": "use the left hand to pick up a piece of loose skin and place it down on the countertop",
+   "verbs": [
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "piece of loose skin",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-86",
+   "start_s": 167.35,
+   "end_s": 168.6,
+   "narration": "use the left hand to scoop the loose skin into a neat pile",
+   "verbs": [
+    "scoop"
+   ],
+   "nouns": [
+    "loose skin",
+    "neat pile"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-87",
+   "start_s": 168.43,
+   "end_s": 170.65,
+   "narration": "Use the right hand to pick up a chickpea, hold it between the left thumb and index finger and remove the loose skin.",
+   "verbs": [
+    "pick up",
+    "hold",
+    "remove"
+   ],
+   "nouns": [
+    "chickpea",
+    "left thumb",
+    "index finger",
+    "loose skin"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-88",
+   "start_s": 170.7,
+   "end_s": 171.29,
+   "narration": "place the skin down on the counter",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "skin",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-89",
+   "start_s": 171.28,
+   "end_s": 173.55,
+   "narration": "peel off another piece of loose skin and place it down on the counter",
+   "verbs": [
+    "peel off",
+    "place"
+   ],
+   "nouns": [
+    "another piece of loose skin",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-90",
+   "start_s": 173.44,
+   "end_s": 175.01,
+   "narration": "use both hands to peel off another piece of loose skin and place it down on the counter",
+   "verbs": [
+    "peel off",
+    "place"
+   ],
+   "nouns": [
+    "another piece of loose skin",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-91",
+   "start_s": 174.55,
+   "end_s": 175.81,
+   "narration": "pick up a chickpea in the left hand and use the right hand to peel off the loose skin",
+   "verbs": [
+    "pick up",
+    "peel off"
+   ],
+   "nouns": [
+    "chickpea",
+    "loose skin"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-92",
+   "start_s": 175.91,
+   "end_s": 176.43,
+   "narration": "place the loose skin down on the counter",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "loose skin",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-93",
+   "start_s": 176.42,
+   "end_s": 177.76,
+   "narration": "Use the fingertips to sort through the pile of chickpeas looking for loose skin.",
+   "verbs": [
+    "sort through",
+    "look for"
+   ],
+   "nouns": [
+    "fingertips",
+    "pile of chickpeas",
+    "loose skin"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-94",
+   "start_s": 177.57,
+   "end_s": 178.39,
+   "narration": "use the right hand to pick up a piece of loose skin and place it down on the counter",
+   "verbs": [
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "piece of loose skin",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-95",
+   "start_s": 178.49,
+   "end_s": 180.6,
+   "narration": "use the right hand to pick up a piece of loose skin and place it down on the counter",
+   "verbs": [
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "piece of loose skin",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-96",
+   "start_s": 180.7,
+   "end_s": 181.84,
+   "narration": "use the right hand to pick up a piece of loose skin.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "piece of loose skin"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-97",
+   "start_s": 181.93,
+   "end_s": 182.73,
+   "narration": "place the loose skin down on the counter",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "loose skin",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-98",
+   "start_s": 185.36,
+   "end_s": 186.28,
+   "narration": "pick up the kitchen paper using both hands one on each side",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "kitchen paper",
+    "each side"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-99",
+   "start_s": 186.38,
+   "end_s": 189.16,
+   "narration": "Fold the kitchen paper over the chickpeas to dry them and press down gently with both hands.",
+   "verbs": [
+    "fold",
+    "dry",
+    "press with"
+   ],
+   "nouns": [
+    "kitchen paper",
+    "chickpeas"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-101",
+   "start_s": 189.0,
+   "end_s": 192.99,
+   "narration": "lift up the chickpeas using the kitchen paper and place them down on the baking tray",
+   "verbs": [
+    "lift up",
+    "place"
+   ],
+   "nouns": [
+    "chickpeas",
+    "kitchen paper",
+    "baking tray"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-100",
+   "start_s": 189.21,
+   "end_s": 191.86,
+   "narration": "Unfold the kitchen paper and then take hold of the left and right sides with the left and right hands.",
+   "verbs": [
+    "unfold",
+    "take"
+   ],
+   "nouns": [
+    "kitchen paper",
+    "hold of left",
+    "right sides",
+    "left"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-102",
+   "start_s": 193.09,
+   "end_s": 196.62,
+   "narration": "Hold the kitchen paper by the top right and left corners and tip the chickpeas onto the baking tray.",
+   "verbs": [
+    "hold",
+    "tip"
+   ],
+   "nouns": [
+    "kitchen paper",
+    "top right",
+    "left corners",
+    "chickpeas",
+    "baking tray"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-103",
+   "start_s": 196.15,
+   "end_s": 196.98,
+   "narration": "place the kitchen paper down on the counter",
+   "verbs": [
+    "place down"
+   ],
+   "nouns": [
+    "kitchen paper",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-104",
+   "start_s": 197.08,
+   "end_s": 199.16,
+   "narration": "Use the right and left fingers to scoop up the chickpeas that had rolled off the kitchen paper and place them onto the baking tray.",
+   "verbs": [
+    "scoop up",
+    "place"
+   ],
+   "nouns": [
+    "right",
+    "left fingers",
+    "chickpeas",
+    "kitchen paper",
+    "baking tray"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-105",
+   "start_s": 197.89,
+   "end_s": 200.11,
+   "narration": "Use the fingertips to sort through the chickpeas on the baking tray and pick up a piece of loose skin with the right hand and put it down on the counter.",
+   "verbs": [
+    "sort through",
+    "pick up",
+    "put"
+   ],
+   "nouns": [
+    "fingertips",
+    "chickpeas",
+    "baking tray",
+    "piece of loose skin",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-106",
+   "start_s": 200.21,
+   "end_s": 203.04,
+   "narration": "use the left hand to pick up a piece of loose skin,",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "piece of loose skin"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-107",
+   "start_s": 203.14,
+   "end_s": 205.55,
+   "narration": "Use the right hand to pick up a piece of loose skin and place it into the upturned left palm.",
+   "verbs": [
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "piece of loose skin",
+    "upturned left palm"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-108",
+   "start_s": 205.65,
+   "end_s": 206.2,
+   "narration": "Use the left hand to drop the loose skin onto the counter and then sort through the pile with the fingertips looking for loose skin.",
+   "verbs": [
+    "drop",
+    "sort through",
+    "look for"
+   ],
+   "nouns": [
+    "loose skin",
+    "counter",
+    "pile",
+    "fingertips"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-109",
+   "start_s": 206.3,
+   "end_s": 207.9,
+   "narration": "Use the right thumb and index finger to pick up a piece of loose skin and drop it onto the counter.",
+   "verbs": [
+    "pick up",
+    "drop"
+   ],
+   "nouns": [
+    "right thumb",
+    "index finger",
+    "piece of loose skin",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-111",
+   "start_s": 208.0,
+   "end_s": 208.97,
+   "narration": "Drop the piece of loose skin onto the counter using the right hand.",
+   "verbs": [
+    "drop"
+   ],
+   "nouns": [
+    "piece of loose skin",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-110",
+   "start_s": 208.0,
+   "end_s": 209.02,
+   "narration": "use the left fingertips to sort through the pile looking for loose skin and the right thumb and index finger to pick up a piece of loose skin",
+   "verbs": [
+    "sort through",
+    "look for"
+   ],
+   "nouns": [
+    "left fingertips",
+    "pile",
+    "loose skin",
+    "right thumb",
+    "index finger",
+    "piece of loose skin"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-112",
+   "start_s": 209.02,
+   "end_s": 210.98,
+   "narration": "Use the fingertips to sort through the pile looking for loose skin. Use the right hand to pick up a piece of loose skin.",
+   "verbs": [
+    "sort through",
+    "look for",
+    "pick up"
+   ],
+   "nouns": [
+    "fingertips",
+    "pile",
+    "loose skin",
+    "piece of loose skin"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-113",
+   "start_s": 211.08,
+   "end_s": 211.6,
+   "narration": "drop the loose skin onto the counter using the right hand",
+   "verbs": [
+    "drop"
+   ],
+   "nouns": [
+    "loose skin",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-114",
+   "start_s": 211.7,
+   "end_s": 213.88,
+   "narration": "Pick up a chickpea in the right hand, hold it steady in the left hand and use the right thumb and index finger to pull off the loose skin and drop it onto the counter.",
+   "verbs": [
+    "pick up",
+    "hold",
+    "pull off",
+    "drop"
+   ],
+   "nouns": [
+    "chickpea",
+    "right thumb",
+    "index finger",
+    "loose skin",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-115",
+   "start_s": 213.98,
+   "end_s": 214.86,
+   "narration": "use the fingertips to sort through the pile looking for loose skin",
+   "verbs": [
+    "sort through",
+    "look for"
+   ],
+   "nouns": [
+    "fingertips",
+    "pile",
+    "loose skin"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-116",
+   "start_s": 214.96,
+   "end_s": 217.12,
+   "narration": "use the right hand to pick up a piece of loose skin and drop it onto the counter",
+   "verbs": [
+    "pick up",
+    "drop"
+   ],
+   "nouns": [
+    "piece of loose skin",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-117",
+   "start_s": 217.18,
+   "end_s": 218.8,
+   "narration": "use the right hand to pick up a piece of loose skin and drop it onto the counter",
+   "verbs": [
+    "pick up",
+    "drop"
+   ],
+   "nouns": [
+    "piece of loose skin",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-118",
+   "start_s": 218.9,
+   "end_s": 221.12,
+   "narration": "Use the fingertips to sort through the pile and use the right hand to pick up a piece of loose skin and drop it onto the counter.",
+   "verbs": [
+    "sort through",
+    "pick up",
+    "drop"
+   ],
+   "nouns": [
+    "fingertips",
+    "pile",
+    "piece of loose skin",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-119",
+   "start_s": 221.22,
+   "end_s": 222.21,
+   "narration": "use the fingertips to sort through the pile",
+   "verbs": [
+    "sort through"
+   ],
+   "nouns": [
+    "fingertips",
+    "pile"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-120",
+   "start_s": 222.24,
+   "end_s": 223.85,
+   "narration": "Use the fingertips to arrange the chickpeas so that they are evenly distributed and will cook evenly.",
+   "verbs": [
+    "arrange"
+   ],
+   "nouns": [
+    "fingertips",
+    "chickpeas"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-121",
+   "start_s": 224.17,
+   "end_s": 225.97,
+   "narration": "Use the right thumb and index finger to pick up a piece of loose skin.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "right thumb",
+    "index finger",
+    "piece of loose skin"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-122",
+   "start_s": 226.18,
+   "end_s": 226.73,
+   "narration": "drop the loose skin onto the counter",
+   "verbs": [
+    "drop"
+   ],
+   "nouns": [
+    "loose skin",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-123",
+   "start_s": 227.69,
+   "end_s": 228.71,
+   "narration": "use the left and right fingertips to scoop the loose skins together into a neat pile",
+   "verbs": [
+    "scoop"
+   ],
+   "nouns": [
+    "left",
+    "right fingertips",
+    "loose skins",
+    "neat pile"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-124",
+   "start_s": 228.87,
+   "end_s": 231.41,
+   "narration": "Use the right fingertips to pick up the loose skins and place them into the upturned left palm.",
+   "verbs": [
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "right fingertips",
+    "loose skins",
+    "upturned left palm"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-125",
+   "start_s": 233.21,
+   "end_s": 233.77,
+   "narration": "use the right hand to open the lid of the food waste bin.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "lid of food waste bin"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-126",
+   "start_s": 233.84,
+   "end_s": 234.58,
+   "narration": "tip the left hand so that the skins fall into the food waste bin",
+   "verbs": [
+    "tip"
+   ],
+   "nouns": [
+    "skins",
+    "food waste bin"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-127",
+   "start_s": 236.12,
+   "end_s": 238.11,
+   "narration": "Pick up the piece of kitchen paper from the counter and use it to dry both hands.",
+   "verbs": [
+    "pick up",
+    "dry"
+   ],
+   "nouns": [
+    "piece of kitchen paper",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-128",
+   "start_s": 241.59,
+   "end_s": 242.69,
+   "narration": "use the left hand to open the bin and the right hand to put the kitchen paper into the bin",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "bin",
+    "kitchen paper"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-129",
+   "start_s": 242.84,
+   "end_s": 243.13,
+   "narration": "close the bin",
+   "verbs": [
+    "close"
+   ],
+   "nouns": [
+    "bin"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-130",
+   "start_s": 243.67,
+   "end_s": 244.27,
+   "narration": "Use the right hand to pick up the piece of paper from the countertop.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "piece of paper",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-131",
+   "start_s": 246.36,
+   "end_s": 247.05,
+   "narration": "Place the piece of paper down on the countertop and use the left hand to open the cutlery drawer.",
+   "verbs": [
+    "place",
+    "open"
+   ],
+   "nouns": [
+    "piece of paper",
+    "countertop",
+    "cutlery drawer"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-132",
+   "start_s": 247.15,
+   "end_s": 250.11,
+   "narration": "using the right hand to pull the drawer open reach in with the left hand and pick up the measuring spoons",
+   "verbs": [
+    "pull",
+    "reach with",
+    "pick up"
+   ],
+   "nouns": [
+    "drawer",
+    "measuring spoons"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-133",
+   "start_s": 250.05,
+   "end_s": 251.65,
+   "narration": "use the left hand to pick up the bottle of olive oil that is next to the cooker",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "bottle of olive oil",
+    "cooker"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-134",
+   "start_s": 253.65,
+   "end_s": 254.22,
+   "narration": "Place the olive oil down on the counter using the left hand and hold the measuring spoons in the right hand.",
+   "verbs": [
+    "place",
+    "hold"
+   ],
+   "nouns": [
+    "olive oil",
+    "counter",
+    "measuring spoons"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-135",
+   "start_s": 254.19,
+   "end_s": 256.2,
+   "narration": "use both hands to sort through the spoons to find the one tablespoon spoon",
+   "verbs": [
+    "sort through",
+    "find"
+   ],
+   "nouns": [
+    "spoons",
+    "one tablespoon spoon"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-136",
+   "start_s": 256.51,
+   "end_s": 259.36,
+   "narration": "Holding the measuring spoons in the right hand and the bottle of olive oil in the left hand, use the thumb and the edge of the index finger of the right hand to screw open the cap of the olive oil bottle.",
+   "verbs": [
+    "hold",
+    "screw open"
+   ],
+   "nouns": [
+    "measuring spoons",
+    "olive oil",
+    "thumb",
+    "cap of olive oil bottle"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-137",
+   "start_s": 259.46,
+   "end_s": 264.4,
+   "narration": "Place the lid on the countertop and pour the bottle using the left hand into the spoon that is held in the right hand to measure out a tablespoon of olive oil.",
+   "verbs": [
+    "place",
+    "pour",
+    "measure out"
+   ],
+   "nouns": [
+    "lid",
+    "countertop",
+    "bottle",
+    "spoon",
+    "tablespoon of olive oil"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-138",
+   "start_s": 262.71,
+   "end_s": 268.48,
+   "narration": "Once the spoon is full of olive oil, tip it over the chickpeas on the baking tray, moving the spoon around so the oil is distributed across the chickpeas.",
+   "verbs": [
+    "tip",
+    "move"
+   ],
+   "nouns": [
+    "spoon",
+    "olive oil",
+    "chickpeas",
+    "baking tray",
+    "oil"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-139",
+   "start_s": 268.58,
+   "end_s": 269.62,
+   "narration": "Shake the spoon so that all of the olive oil goes onto the chickpeas.",
+   "verbs": [
+    "shake"
+   ],
+   "nouns": [
+    "spoon",
+    "of olive oil",
+    "chickpeas"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-140",
+   "start_s": 269.52,
+   "end_s": 270.47,
+   "narration": "Place the olive oil bottle down on the counter using the left hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "olive oil bottle",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-141",
+   "start_s": 271.68,
+   "end_s": 274.38,
+   "narration": "Slowly tip the spoon so that the last drop of olive oil goes onto the chickpeas.",
+   "verbs": [
+    "tip"
+   ],
+   "nouns": [
+    "spoon",
+    "last drop of olive oil",
+    "chickpeas"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-142",
+   "start_s": 274.31,
+   "end_s": 276.3,
+   "narration": "shake the last of the oil onto the tray and then place the measuring spoons down on the counter",
+   "verbs": [
+    "shake",
+    "place down"
+   ],
+   "nouns": [
+    "oil",
+    "tray",
+    "measuring spoons",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-143",
+   "start_s": 276.58,
+   "end_s": 277.53,
+   "narration": "Hold the rectangular tray full of chickpeas by the bottom two corners and slide it back and forth on the counter top to shake the chickpeas and cover them in oil.",
+   "verbs": [
+    "hold",
+    "slide",
+    "shake",
+    "cover"
+   ],
+   "nouns": [
+    "rectangular tray",
+    "chickpeas",
+    "bottom two corners",
+    "counter top",
+    "oil"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-144",
+   "start_s": 277.43,
+   "end_s": 280.3,
+   "narration": "shake the chickpeas back and forth on the countertop to cover them in oil",
+   "verbs": [
+    "shake",
+    "cover"
+   ],
+   "nouns": [
+    "chickpeas",
+    "countertop",
+    "oil"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-145",
+   "start_s": 280.74,
+   "end_s": 283.32,
+   "narration": "Hold the piece of paper steady with the fingertips of the left hand while using the index finger of the right hand to point to the recipe on the paper and read the next step of the recipe.",
+   "verbs": [
+    "hold",
+    "point to",
+    "read"
+   ],
+   "nouns": [
+    "piece of paper",
+    "recipe",
+    "paper",
+    "next step of recipe"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-146",
+   "start_s": 283.76,
+   "end_s": 284.78,
+   "narration": "Use the left hand to open the drawer underneath the cooker which is full of spice jars.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "drawer",
+    "cooker",
+    "spice jars"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-147",
+   "start_s": 284.88,
+   "end_s": 292.68,
+   "narration": "Use the fingertips of the left hand to tap the top of the spice jars, reading them as you go along.",
+   "verbs": [
+    "tap",
+    "read"
+   ],
+   "nouns": [
+    "top of spice jars",
+    "spice jars"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-148",
+   "start_s": 292.58,
+   "end_s": 293.83,
+   "narration": "Use the index finger on the right hand to tap the top of a spice jar to read it.",
+   "verbs": [
+    "tap",
+    "read"
+   ],
+   "nouns": [
+    "index finger",
+    "top of spice jar"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-149",
+   "start_s": 293.89,
+   "end_s": 294.82,
+   "narration": "use the right hand to move a packet of spices out of the way to read the spice jar behind it",
+   "verbs": [
+    "move",
+    "read"
+   ],
+   "nouns": [
+    "packet of spices",
+    "spice jar"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-150",
+   "start_s": 295.94,
+   "end_s": 296.7,
+   "narration": "pick up a spice jar using the right hand and put it into the left hand",
+   "verbs": [
+    "pick up",
+    "put"
+   ],
+   "nouns": [
+    "spice jar"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-151",
+   "start_s": 296.88,
+   "end_s": 298.06,
+   "narration": "pick up a spice jar at the right hand and twist it to read the label",
+   "verbs": [
+    "pick up",
+    "twist",
+    "read"
+   ],
+   "nouns": [
+    "spice jar",
+    "label"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-152",
+   "start_s": 298.13,
+   "end_s": 298.99,
+   "narration": "Replace the spice jar back in the drawer.",
+   "verbs": [
+    "replace"
+   ],
+   "nouns": [
+    "spice jar",
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-153",
+   "start_s": 299.23,
+   "end_s": 299.83,
+   "narration": "Use the figure tips of the right hand to tap the top of the spice jars, reading them.",
+   "verbs": [
+    "tap",
+    "read"
+   ],
+   "nouns": [
+    "top of spice jars",
+    "spice jars"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-154",
+   "start_s": 300.23,
+   "end_s": 310.1,
+   "narration": "use the index finger of the right hand to tap the top of the spice jars deciding which one to use",
+   "verbs": [
+    "tap"
+   ],
+   "nouns": [
+    "top of spice jars",
+    "which one"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-155",
+   "start_s": 310.79,
+   "end_s": 311.98,
+   "narration": "twist a spice jar so that the writing is the right way up and can be read",
+   "verbs": [
+    "twist"
+   ],
+   "nouns": [
+    "spice jar",
+    "writing",
+    "right way"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-156",
+   "start_s": 312.08,
+   "end_s": 312.93,
+   "narration": "Pick up the spice jar and place it into the left hand.",
+   "verbs": [
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "spice jar"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-157",
+   "start_s": 313.24,
+   "end_s": 314.83,
+   "narration": "tap the top of the spice jars reading them",
+   "verbs": [
+    "tap",
+    "read"
+   ],
+   "nouns": [
+    "top of spice jars",
+    "spice jars"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-158",
+   "start_s": 322.55,
+   "end_s": 324.62,
+   "narration": "pick up a spice jar and turn it so that the label can be read",
+   "verbs": [
+    "pick up",
+    "turn"
+   ],
+   "nouns": [
+    "spice jar",
+    "label"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-159",
+   "start_s": 324.72,
+   "end_s": 330.23,
+   "narration": "Holding the spice jar in the right hand, use one of the fingers of the right hand to push the drawer closed.",
+   "verbs": [
+    "hold",
+    "push"
+   ],
+   "nouns": [
+    "spice jar",
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-160",
+   "start_s": 330.68,
+   "end_s": 331.73,
+   "narration": "Holding two spice jars between the fingers of the left hand, move the spice jar from the right hand into the left hand.",
+   "verbs": [
+    "hold",
+    "move"
+   ],
+   "nouns": [
+    "two spice jars",
+    "spice jar"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-161",
+   "start_s": 331.74,
+   "end_s": 332.49,
+   "narration": "use the right hand to pick up another jar of spices from the drawer",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "another jar of spices",
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-162",
+   "start_s": 333.54,
+   "end_s": 334.14,
+   "narration": "place the spice jar down on the counter using the right hand",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "spice jar",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-163",
+   "start_s": 334.22,
+   "end_s": 334.99,
+   "narration": "Using the left and right hand, place the rest of the spice jars on the counter.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "left",
+    "rest of spice jars",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-164",
+   "start_s": 335.01,
+   "end_s": 336.16,
+   "narration": "Holding the green spice jar in the left hand, twist the lid to open it using the right hand.",
+   "verbs": [
+    "hold",
+    "twist",
+    "open"
+   ],
+   "nouns": [
+    "green spice jar",
+    "lid"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-165",
+   "start_s": 336.2,
+   "end_s": 336.94,
+   "narration": "place the lid down on the counter and pick up a small measuring spoon",
+   "verbs": [
+    "place down",
+    "pick up"
+   ],
+   "nouns": [
+    "lid",
+    "counter",
+    "small measuring spoon"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-166",
+   "start_s": 337.88,
+   "end_s": 339.2,
+   "narration": "Sort through the measuring spoons using the fingers of the left hand and the right hand.",
+   "verbs": [
+    "sort through"
+   ],
+   "nouns": [
+    "measuring spoons"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-167",
+   "start_s": 338.43,
+   "end_s": 341.08,
+   "narration": "Select the correct measuring spoon.",
+   "verbs": [
+    "select"
+   ],
+   "nouns": [
+    "correct measuring spoon"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-168",
+   "start_s": 340.96,
+   "end_s": 344.39,
+   "narration": "Use the measuring spoon in the right hand to pick up a spoonful of spices.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "measuring spoon",
+    "spoonful of spices"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-169",
+   "start_s": 343.58,
+   "end_s": 347.41,
+   "narration": "Pour the spices over the chickpeas on the baking tray, shaking the spoon back and forth to evenly distribute them.",
+   "verbs": [
+    "pour",
+    "shake",
+    "distribute"
+   ],
+   "nouns": [
+    "spices",
+    "chickpeas",
+    "baking tray",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-170",
+   "start_s": 346.96,
+   "end_s": 348.74,
+   "narration": "Tip the spoon so that all of the spices go onto the chickpeas on the tray and put the spice jar down using the left hand.",
+   "verbs": [
+    "tip",
+    "put"
+   ],
+   "nouns": [
+    "spoon",
+    "of spices",
+    "chickpeas",
+    "tray",
+    "spice jar"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-171",
+   "start_s": 349.13,
+   "end_s": 349.61,
+   "narration": "pick up the lid of the spice jar using the left hand",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "lid of spice jar"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-172",
+   "start_s": 349.66,
+   "end_s": 350.24,
+   "narration": "pick up the spice jar and the lid in the left hand",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "spice jar",
+    "lid"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-173",
+   "start_s": 350.32,
+   "end_s": 351.38,
+   "narration": "Use the right hand to twist the jar so that the lid screws back on.",
+   "verbs": [
+    "twist"
+   ],
+   "nouns": [
+    "jar",
+    "lid"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-174",
+   "start_s": 351.26,
+   "end_s": 352.6,
+   "narration": "use the left hand to twist the lid back on top of the jar",
+   "verbs": [
+    "twist"
+   ],
+   "nouns": [
+    "lid",
+    "top of jar"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-175",
+   "start_s": 352.57,
+   "end_s": 353.4,
+   "narration": "put the jar down using the left hand",
+   "verbs": [
+    "put down"
+   ],
+   "nouns": [
+    "jar"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-176",
+   "start_s": 353.46,
+   "end_s": 354.09,
+   "narration": "use the left and right hand to hold the purple spice jar",
+   "verbs": [
+    "hold"
+   ],
+   "nouns": [
+    "left",
+    "purple spice jar"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-177",
+   "start_s": 354.04,
+   "end_s": 356.02,
+   "narration": "Use the left hand to twist open the lid of the purple spice jar.",
+   "verbs": [
+    "twist open"
+   ],
+   "nouns": [
+    "lid of purple spice jar"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-181",
+   "start_s": 356.0,
+   "end_s": 357.8,
+   "narration": "Distribute the spice across the chickpeas on the tray, moving the spoon back and forth.",
+   "verbs": [
+    "distribute",
+    "move"
+   ],
+   "nouns": [
+    "spice",
+    "chickpeas",
+    "tray",
+    "spoon"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-178",
+   "start_s": 356.11,
+   "end_s": 356.58,
+   "narration": "Place the lid down on the counter.",
+   "verbs": [
+    "place down"
+   ],
+   "nouns": [
+    "lid",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-179",
+   "start_s": 356.62,
+   "end_s": 358.42,
+   "narration": "Pick up the purple spice jar with the left hand and with the right hand dip the spoon into the jar to pick up a spoonful of spices.",
+   "verbs": [
+    "pick up",
+    "dip"
+   ],
+   "nouns": [
+    "purple spice jar",
+    "spoon",
+    "jar",
+    "spoonful of spices"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-182",
+   "start_s": 357.9,
+   "end_s": 363.77,
+   "narration": "Tip the spoon upside down and shake it so that all of the spices go onto the chickpeas and use the left hand to put the spice jar down on the countertop.",
+   "verbs": [
+    "tip",
+    "shake",
+    "put down"
+   ],
+   "nouns": [
+    "spoon",
+    "of spices",
+    "chickpeas",
+    "spice jar",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-180",
+   "start_s": 358.49,
+   "end_s": 360.02,
+   "narration": "Distribute the spice.",
+   "verbs": [
+    "distribute"
+   ],
+   "nouns": [
+    "spice"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-183",
+   "start_s": 363.85,
+   "end_s": 364.9,
+   "narration": "use the left hand to pick up the lid of the spice jar and place it on top of the jar",
+   "verbs": [
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "lid of spice jar",
+    "top of jar"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-184",
+   "start_s": 364.84,
+   "end_s": 367.34,
+   "narration": "Use the right hand to hold the jar steady while also holding the measuring spoon while using the left hand to twist the lid of the jar back on top of the jar.",
+   "verbs": [
+    "hold",
+    "twist"
+   ],
+   "nouns": [
+    "jar",
+    "measuring spoon",
+    "lid of jar",
+    "top of jar"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-185",
+   "start_s": 367.44,
+   "end_s": 368.52,
+   "narration": "pick up the next purple spice jar in the left hand while gripping the lid with the right hand",
+   "verbs": [
+    "pick up",
+    "grip"
+   ],
+   "nouns": [
+    "next purple spice jar",
+    "lid"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-186",
+   "start_s": 368.62,
+   "end_s": 369.45,
+   "narration": "Use the right hand to untwist the lid and place it down on the countertop.",
+   "verbs": [
+    "untwist",
+    "place down"
+   ],
+   "nouns": [
+    "lid",
+    "countertop"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-187",
+   "start_s": 369.55,
+   "end_s": 370.32,
+   "narration": "put the measuring spoon into the jar to pick up a spoonful of spices",
+   "verbs": [
+    "put",
+    "pick up"
+   ],
+   "nouns": [
+    "measuring spoon",
+    "jar",
+    "spoonful of spices"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-188",
+   "start_s": 370.17,
+   "end_s": 371.83,
+   "narration": "stir the spoon around to loosen the spices inside",
+   "verbs": [
+    "stir",
+    "loosen"
+   ],
+   "nouns": [
+    "spoon",
+    "spices"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-189",
+   "start_s": 371.93,
+   "end_s": 377.1,
+   "narration": "Remove a spoonful of spices and shake the spoon back and forth over the tray to distribute the spices, over the chickpeas.",
+   "verbs": [
+    "remove",
+    "shake",
+    "distribute"
+   ],
+   "nouns": [
+    "spoonful of spices",
+    "spoon",
+    "tray",
+    "spices",
+    "chickpeas"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-190",
+   "start_s": 377.2,
+   "end_s": 377.93,
+   "narration": "tip the spoon upside down and shake it so that all of the spices go onto the tray",
+   "verbs": [
+    "tip",
+    "shake"
+   ],
+   "nouns": [
+    "spoon",
+    "of spices",
+    "tray"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-191",
+   "start_s": 378.24,
+   "end_s": 378.97,
+   "narration": "pick up the lid with the right hand and place it back onto the jar in the left hand",
+   "verbs": [
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "lid",
+    "jar"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-192",
+   "start_s": 378.81,
+   "end_s": 383.33,
+   "narration": "use the right hand to screw the lid back onto the jar",
+   "verbs": [
+    "screw"
+   ],
+   "nouns": [
+    "lid",
+    "jar"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-193",
+   "start_s": 383.43,
+   "end_s": 383.93,
+   "narration": "Place the jar down on the countertop using the left hand and then sort through the measuring spoons in the right hand.",
+   "verbs": [
+    "place",
+    "sort through"
+   ],
+   "nouns": [
+    "jar",
+    "countertop",
+    "measuring spoons"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-194",
+   "start_s": 384.03,
+   "end_s": 390.05,
+   "narration": "Look at the measuring spoons until the right size is found. Take this spoon in the right hand and use the left hand to remove the lid from the orange spice jar.",
+   "verbs": [
+    "look at",
+    "take",
+    "remove"
+   ],
+   "nouns": [
+    "measuring spoons",
+    "right size",
+    "spoon",
+    "lid",
+    "orange spice jar"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-195",
+   "start_s": 390.01,
+   "end_s": 390.46,
+   "narration": "Place the lid down on the counter and transfer the spice jar to the left hand.",
+   "verbs": [
+    "place down",
+    "transfer"
+   ],
+   "nouns": [
+    "lid",
+    "counter",
+    "spice jar"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-196",
+   "start_s": 391.22,
+   "end_s": 391.82,
+   "narration": "dip the spoon into the spices",
+   "verbs": [
+    "dip"
+   ],
+   "nouns": [
+    "spoon",
+    "spices"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-197",
+   "start_s": 391.92,
+   "end_s": 396.68,
+   "narration": "Take a spoonful of spice and distribute it evenly over the chickpeas by shaking the spoon backwards and forwards.",
+   "verbs": [
+    "take",
+    "distribute",
+    "shake"
+   ],
+   "nouns": [
+    "spoonful of spice",
+    "spoon",
+    "chickpeas",
+    "backwards",
+    "forwards"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-198",
+   "start_s": 396.78,
+   "end_s": 397.93,
+   "narration": "Tip the spoon upside down and shake it to get all of the spices onto the chickpeas.",
+   "verbs": [
+    "tip",
+    "shake",
+    "get"
+   ],
+   "nouns": [
+    "spoon",
+    "of spices",
+    "chickpeas"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-199",
+   "start_s": 398.26,
+   "end_s": 400.01,
+   "narration": "Tap the spoon against the edge of the tray so that all of the spices come out of the spoon.",
+   "verbs": [
+    "tap"
+   ],
+   "nouns": [
+    "spoon",
+    "edge of tray",
+    "of spices"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-200",
+   "start_s": 399.79,
+   "end_s": 400.33,
+   "narration": "drop the spoon into the sink using the right hand and then pick up the lid of the spice jar",
+   "verbs": [
+    "drop",
+    "pick up"
+   ],
+   "nouns": [
+    "spoon",
+    "sink",
+    "lid of spice jar"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-201",
+   "start_s": 400.85,
+   "end_s": 401.94,
+   "narration": "Place the lid of the spice jar back onto the jar.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "lid of spice jar",
+    "jar"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-202",
+   "start_s": 402.01,
+   "end_s": 403.62,
+   "narration": "Drop the lid onto the counter top and then pick it up again in the right hand.",
+   "verbs": [
+    "drop",
+    "pick up"
+   ],
+   "nouns": [
+    "lid",
+    "counter top"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-203",
+   "start_s": 403.48,
+   "end_s": 405.26,
+   "narration": "Screw the lid onto the spice jar that's being held in the left hand.",
+   "verbs": [
+    "screw"
+   ],
+   "nouns": [
+    "lid",
+    "spice jar"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-204",
+   "start_s": 405.23,
+   "end_s": 406.36,
+   "narration": "place the spice jar down on the countertop using the left hand and use the right hand to pick up the jar of spices",
+   "verbs": [
+    "place",
+    "pick up"
+   ],
+   "nouns": [
+    "spice jar",
+    "countertop",
+    "jar of spices"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-205",
+   "start_s": 405.97,
+   "end_s": 408.05,
+   "narration": "twist the lid to tighten it using the right hand so that it's properly closed",
+   "verbs": [
+    "twist",
+    "tighten"
+   ],
+   "nouns": [
+    "lid"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-206",
+   "start_s": 407.89,
+   "end_s": 409.08,
+   "narration": "place the spice jar down on the counter using the left hand and use the right hand to pick up another spice jar",
+   "verbs": [
+    "place",
+    "pick up"
+   ],
+   "nouns": [
+    "spice jar",
+    "counter",
+    "another spice jar"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-207",
+   "start_s": 408.98,
+   "end_s": 409.78,
+   "narration": "Use the right hand to tighten the lid and then use both hands to pick up all four spice jars.",
+   "verbs": [
+    "tighten",
+    "pick up"
+   ],
+   "nouns": [
+    "lid",
+    "four spice jars"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-208",
+   "start_s": 409.78,
+   "end_s": 411.73,
+   "narration": "Holding two spice jars in each hand, go over to the spice drawer.",
+   "verbs": [
+    "hold",
+    "go to"
+   ],
+   "nouns": [
+    "two spice jars",
+    "spice drawer"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-209",
+   "start_s": 411.66,
+   "end_s": 412.89,
+   "narration": "Use the index finger of the right hand, which is holding two spice jars, to open the drawer.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "two spice jars",
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-211",
+   "start_s": 412.0,
+   "end_s": 417.07,
+   "narration": "Use the right hand to place another jar of spice into the drawer, holding the remaining two jars in the left hand.",
+   "verbs": [
+    "place",
+    "hold"
+   ],
+   "nouns": [
+    "another jar of spice",
+    "drawer",
+    "remaining two jars"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-210",
+   "start_s": 412.69,
+   "end_s": 415.22,
+   "narration": "Use the right hand to place a jar of spice back into the drawer, holding the other three jars in the left hand.",
+   "verbs": [
+    "place",
+    "hold"
+   ],
+   "nouns": [
+    "jar of spice",
+    "drawer",
+    "other three jars"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-212",
+   "start_s": 414.0,
+   "end_s": 415.24,
+   "narration": "Use the right hand to place a jar of spice back into the drawer, holding the remaining jar in the left hand.",
+   "verbs": [
+    "place",
+    "hold"
+   ],
+   "nouns": [
+    "jar of spice",
+    "drawer",
+    "remaining jar"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-213",
+   "start_s": 415.34,
+   "end_s": 418.17,
+   "narration": "use the left hand to place the remaining jar back in the drawer",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "remaining jar",
+    "drawer"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-214",
+   "start_s": 418.27,
+   "end_s": 418.93,
+   "narration": "close the drawer with the left hand and open the top drawer with the right hand",
+   "verbs": [
+    "close",
+    "open"
+   ],
+   "nouns": [
+    "drawer",
+    "top drawer"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-215",
+   "start_s": 419.01,
+   "end_s": 420.47,
+   "narration": "use the right hand to pick out a spatula from the drawer,",
+   "verbs": [
+    "pick out"
+   ],
+   "nouns": [
+    "spatula",
+    "drawer",
+    "."
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-216",
+   "start_s": 420.57,
+   "end_s": 421.44,
+   "narration": "put the spatula down and then pick up a wooden spoon",
+   "verbs": [
+    "put down",
+    "pick up"
+   ],
+   "nouns": [
+    "spatula",
+    "wooden spoon"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-217",
+   "start_s": 421.54,
+   "end_s": 428.24,
+   "narration": "Use the wooden spoon in the right hand to stir the chickpeas and spices around on the tray to evenly coat the chickpeas.",
+   "verbs": [
+    "stir",
+    "coat"
+   ],
+   "nouns": [
+    "wooden spoon",
+    "chickpeas",
+    "spices",
+    "tray"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-218",
+   "start_s": 428.34,
+   "end_s": 451.7,
+   "narration": "Use the wooden spoon in the right hand to stir the chickpeas and spices around on the tray to evenly coat the chickpeas.",
+   "verbs": [
+    "stir",
+    "coat"
+   ],
+   "nouns": [
+    "wooden spoon",
+    "chickpeas",
+    "spices",
+    "tray"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-219",
+   "start_s": 451.54,
+   "end_s": 456.41,
+   "narration": "Hold the tray by the two bottom corners and quickly slide it back and forth across the counter to shake the chickpeas and coat them in the oil and spices",
+   "verbs": [
+    "hold",
+    "slide",
+    "shake",
+    "coat"
+   ],
+   "nouns": [
+    "tray",
+    "two bottom corners",
+    "counter",
+    "chickpeas",
+    "oil",
+    "spices"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-220",
+   "start_s": 456.17,
+   "end_s": 464.27,
+   "narration": "Tap the wooden spoon on the side of the tray to get off the excess oil",
+   "verbs": [
+    "tap",
+    "get off"
+   ],
+   "nouns": [
+    "wooden spoon",
+    "side of tray",
+    "excess oil"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-221",
+   "start_s": 458.0,
+   "end_s": 461.45,
+   "narration": "Scrape the wooden spoon on the side of the tray to get off the excess oil",
+   "verbs": [
+    "scrape",
+    "get off"
+   ],
+   "nouns": [
+    "wooden spoon",
+    "side of tray",
+    "excess oil"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-222",
+   "start_s": 460.84,
+   "end_s": 463.35,
+   "narration": "Tap the wooden spoon on the side of the tray",
+   "verbs": [
+    "tap"
+   ],
+   "nouns": [
+    "wooden spoon",
+    "side of tray"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-223",
+   "start_s": 464.27,
+   "end_s": 465.7,
+   "narration": "Using both hands pick up the tray of chickpeas",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "tray of chickpeas"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-224",
+   "start_s": 465.77,
+   "end_s": 468.22,
+   "narration": "Place the wooden spoon down on spoon rest to the left of the cooker using the right hand.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "wooden spoon",
+    "spoon rest",
+    "left of cooker"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-225",
+   "start_s": 468.32,
+   "end_s": 469.47,
+   "narration": "Use the right hand to open the oven by pulling on the handle and swinging the door open",
+   "verbs": [
+    "open",
+    "pull on",
+    "swinge"
+   ],
+   "nouns": [
+    "oven",
+    "handle",
+    "door"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-226",
+   "start_s": 469.5,
+   "end_s": 471.13,
+   "narration": "Use the left hand to place the tray of chickpeas onto the top shelf of the oven.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "tray of chickpeas",
+    "top shelf of oven"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-227",
+   "start_s": 471.5,
+   "end_s": 472.65,
+   "narration": "Use the left hand to tap the phone on the countertop to check the time.",
+   "verbs": [
+    "tap",
+    "check"
+   ],
+   "nouns": [
+    "phone",
+    "countertop",
+    "time"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-228",
+   "start_s": 477.77,
+   "end_s": 478.83,
+   "narration": "Use the right hand to pick up a plastic package of lettuce.",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "plastic package of lettuce"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-229",
+   "start_s": 478.85,
+   "end_s": 483.1,
+   "narration": "Use both hands to open the packet of lettuce.",
+   "verbs": [
+    "open"
+   ],
+   "nouns": [
+    "packet of lettuce"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-230",
+   "start_s": 483.16,
+   "end_s": 489.2,
+   "narration": "Use the right hand to remove the lettuce from the packet.",
+   "verbs": [
+    "remove"
+   ],
+   "nouns": [
+    "lettuce",
+    "packet"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-231",
+   "start_s": 486.85,
+   "end_s": 487.35,
+   "narration": "Place the lettuce down on the countertop while holding the packet in the left hand",
+   "verbs": [
+    "place",
+    "hold"
+   ],
+   "nouns": [
+    "lettuce",
+    "countertop",
+    "packet"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-232",
+   "start_s": 487.5,
+   "end_s": 489.58,
+   "narration": "Use the right hand to pull the other head of lettuce out of the packet, using the left hand to hold the plastic sleeve.",
+   "verbs": [
+    "pull",
+    "hold"
+   ],
+   "nouns": [
+    "other head of lettuce",
+    "packet",
+    "plastic sleeve"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-233",
+   "start_s": 489.3,
+   "end_s": 490.35,
+   "narration": "Discard the plastic sleeve onto the countertop and place the lettuce onto the wooden chopping board.",
+   "verbs": [
+    "discard",
+    "place"
+   ],
+   "nouns": [
+    "plastic sleeve",
+    "countertop",
+    "lettuce",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-234",
+   "start_s": 490.64,
+   "end_s": 491.75,
+   "narration": "Use both hands to slide the wooden chopping board over to the left so that it is in a better position for use.",
+   "verbs": [
+    "slide over"
+   ],
+   "nouns": [
+    "wooden chopping board",
+    "better position"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-235",
+   "start_s": 491.83,
+   "end_s": 492.4,
+   "narration": "pick up the lettuce using the right hand and place it into the left hand",
+   "verbs": [
+    "pick up",
+    "place"
+   ],
+   "nouns": [
+    "lettuce"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-236",
+   "start_s": 492.4,
+   "end_s": 493.07,
+   "narration": "Use the right hand to tear off individual leaves and place them onto the wooden chopping board.",
+   "verbs": [
+    "tear off",
+    "place"
+   ],
+   "nouns": [
+    "individual leaves",
+    "wooden chopping board"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-237",
+   "start_s": 493.17,
+   "end_s": 494.53,
+   "narration": "Use the left hand to tear off a leaf and place it onto the chopping board.",
+   "verbs": [
+    "tear off",
+    "place"
+   ],
+   "nouns": [
+    "leaf",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-238",
+   "start_s": 494.63,
+   "end_s": 495.54,
+   "narration": "Use the left hand to tear off a leaf and place it onto the chopping board.",
+   "verbs": [
+    "tear off",
+    "place"
+   ],
+   "nouns": [
+    "leaf",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-239",
+   "start_s": 495.64,
+   "end_s": 497.42,
+   "narration": "Use the right hand to tear off a leaf and place it onto the chopping board.",
+   "verbs": [
+    "tear off",
+    "place"
+   ],
+   "nouns": [
+    "leaf",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-240",
+   "start_s": 497.52,
+   "end_s": 498.85,
+   "narration": "Use the left hand to tear off a leaf and place it onto the chopping board.",
+   "verbs": [
+    "tear off",
+    "place"
+   ],
+   "nouns": [
+    "leaf",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-241",
+   "start_s": 498.83,
+   "end_s": 500.46,
+   "narration": "Use the left hand while holding the lettuce in the right hand to tear off a leaf and place it onto the chopping board.",
+   "verbs": [
+    "hold",
+    "tear off",
+    "place"
+   ],
+   "nouns": [
+    "lettuce",
+    "leaf",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-242",
+   "start_s": 500.56,
+   "end_s": 502.82,
+   "narration": "Use the left hand while holding the lettuce in the right hand to tear off a leaf and place it onto the chopping board.",
+   "verbs": [
+    "hold",
+    "tear off",
+    "place"
+   ],
+   "nouns": [
+    "lettuce",
+    "leaf",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-243",
+   "start_s": 502.92,
+   "end_s": 504.13,
+   "narration": "Use the left hand while holding the lettuce in the right hand to tear off a leaf and place it onto the chopping board.",
+   "verbs": [
+    "hold",
+    "tear off",
+    "place"
+   ],
+   "nouns": [
+    "lettuce",
+    "leaf",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-244",
+   "start_s": 504.29,
+   "end_s": 506.13,
+   "narration": "Sneeze into the left hand",
+   "verbs": [
+    "sneeze into"
+   ],
+   "nouns": []
+  },
+  {
+   "action_id": "P07-20240529-131737-245",
+   "start_s": 507.53,
+   "end_s": 509.3,
+   "narration": "Use the left hand while holding the lettuce in the right hand to tear off a leaf and place it onto the chopping board.",
+   "verbs": [
+    "hold",
+    "tear off",
+    "place"
+   ],
+   "nouns": [
+    "lettuce",
+    "leaf",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-246",
+   "start_s": 509.4,
+   "end_s": 510.56,
+   "narration": "use the left hand while holding the lettuce in the right hand to tear off a leaf and place it onto the chopping board Thanks.",
+   "verbs": [
+    "hold",
+    "tear off",
+    "place"
+   ],
+   "nouns": [
+    "lettuce",
+    "leaf",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-247",
+   "start_s": 510.64,
+   "end_s": 512.21,
+   "narration": "Use the right hand while holding the lettuce in the left hand, tear off a leaf and place it onto the chopping board.",
+   "verbs": [
+    "hold",
+    "tear off",
+    "place"
+   ],
+   "nouns": [
+    "lettuce",
+    "leaf",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-248",
+   "start_s": 512.18,
+   "end_s": 513.21,
+   "narration": "Use the right hand while holding the lettuce in the left hand, tear off a leaf and place it onto the chopping board.",
+   "verbs": [
+    "hold",
+    "tear off",
+    "place"
+   ],
+   "nouns": [
+    "lettuce",
+    "leaf",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-249",
+   "start_s": 513.64,
+   "end_s": 514.9,
+   "narration": "Use the right hand while holding the lettuce in the left hand, tear off a leaf and place it onto the chopping board.",
+   "verbs": [
+    "hold",
+    "tear off",
+    "place"
+   ],
+   "nouns": [
+    "lettuce",
+    "leaf",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-250",
+   "start_s": 515.24,
+   "end_s": 516.53,
+   "narration": "Use the left hand while holding the lettuce in the right hand to tear off a leaf.",
+   "verbs": [
+    "hold",
+    "tear off"
+   ],
+   "nouns": [
+    "lettuce",
+    "leaf"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-251",
+   "start_s": 517.03,
+   "end_s": 519.53,
+   "narration": "Use the left hand to tear off the core of the lettuce from the bottom",
+   "verbs": [
+    "tear off"
+   ],
+   "nouns": [
+    "core of lettuce",
+    "bottom"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-252",
+   "start_s": 519.63,
+   "end_s": 522.75,
+   "narration": "Separate the remaining leaves using both hands and place them on the chopping board",
+   "verbs": [
+    "separate",
+    "place"
+   ],
+   "nouns": [
+    "remaining leaves",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-253",
+   "start_s": 522.85,
+   "end_s": 525.18,
+   "narration": "Pick up the other lettuce in the right hand and tear off a leaf using the left hand",
+   "verbs": [
+    "pick up",
+    "tear off"
+   ],
+   "nouns": [
+    "other lettuce",
+    "leaf"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-254",
+   "start_s": 525.28,
+   "end_s": 526.14,
+   "narration": "Tear off a leaf using the left hand and place it on the chopping board.",
+   "verbs": [
+    "tear off",
+    "place"
+   ],
+   "nouns": [
+    "leaf",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-255",
+   "start_s": 526.21,
+   "end_s": 527.91,
+   "narration": "Tear off a leaf using the right hand and place it on the chopping board.",
+   "verbs": [
+    "tear off",
+    "place"
+   ],
+   "nouns": [
+    "leaf",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-256",
+   "start_s": 528.01,
+   "end_s": 529.53,
+   "narration": "Tear off a leaf using the right hand and place it on the chopping board",
+   "verbs": [
+    "tear off",
+    "place"
+   ],
+   "nouns": [
+    "leaf",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-257",
+   "start_s": 529.63,
+   "end_s": 532.55,
+   "narration": "Tear off a leaf using the right hand and place it on the chopping board",
+   "verbs": [
+    "tear off",
+    "place"
+   ],
+   "nouns": [
+    "leaf",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-258",
+   "start_s": 532.65,
+   "end_s": 533.67,
+   "narration": "Tear off a leaf using the right hand and place it on the chopping board",
+   "verbs": [
+    "tear off",
+    "place"
+   ],
+   "nouns": [
+    "leaf",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-259",
+   "start_s": 533.77,
+   "end_s": 535.82,
+   "narration": "Tear off a leaf using the right hand and place it on the chopping board",
+   "verbs": [
+    "tear off",
+    "place"
+   ],
+   "nouns": [
+    "leaf",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-261",
+   "start_s": 534.0,
+   "end_s": 536.31,
+   "narration": "Use the thumb and the side of the index finger of the left hand to tear off the core of the lettuce from the bottom while holding the remaining leaves in the right hand",
+   "verbs": [
+    "tear off",
+    "hold"
+   ],
+   "nouns": [
+    "thumb",
+    "core of lettuce",
+    "bottom",
+    "remaining leaves"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-262",
+   "start_s": 535.56,
+   "end_s": 539.26,
+   "narration": "Discard the core of the lettuce to the back of the chopping board and use both hands to pull apart the remaining leaves and place them on the chopping board",
+   "verbs": [
+    "discard",
+    "pull",
+    "place"
+   ],
+   "nouns": [
+    "core of lettuce",
+    "back of chopping board",
+    "remaining leaves",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-260",
+   "start_s": 535.92,
+   "end_s": 536.54,
+   "narration": "Tear off a leaf using the left hand and place it on the chopping board",
+   "verbs": [
+    "tear off",
+    "place"
+   ],
+   "nouns": [
+    "leaf",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-263",
+   "start_s": 539.36,
+   "end_s": 544.18,
+   "narration": "Use both hands to scoop up the pile of lettuce leaves",
+   "verbs": [
+    "scoop up"
+   ],
+   "nouns": [
+    "pile of lettuce leaves"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-264",
+   "start_s": 544.28,
+   "end_s": 545.12,
+   "narration": "Pick up the pile of lettuce leaves and take it towards the sink",
+   "verbs": [
+    "pick up",
+    "take"
+   ],
+   "nouns": [
+    "pile of lettuce leaves",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-265",
+   "start_s": 545.22,
+   "end_s": 546.83,
+   "narration": "Drop the pile of lettuce leaves into the colander in the sink",
+   "verbs": [
+    "drop"
+   ],
+   "nouns": [
+    "pile of lettuce leaves",
+    "colander",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-266",
+   "start_s": 546.93,
+   "end_s": 548.47,
+   "narration": "Return to the chopping board and use the right hand to pick up the last leaf",
+   "verbs": [
+    "return to",
+    "pick up"
+   ],
+   "nouns": [
+    "chopping board",
+    "last leaf"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-267",
+   "start_s": 548.82,
+   "end_s": 551.07,
+   "narration": "Place the remaining leaves into the colander in the sink.",
+   "verbs": [
+    "place"
+   ],
+   "nouns": [
+    "remaining leaves",
+    "colander",
+    "sink"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-268",
+   "start_s": 551.17,
+   "end_s": 552.18,
+   "narration": "Use the left hand to turn on the tap by opening the lever",
+   "verbs": [
+    "turn on",
+    "open"
+   ],
+   "nouns": [
+    "tap",
+    "lever"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-269",
+   "start_s": 552.14,
+   "end_s": 553.29,
+   "narration": "Pick up the colander in both hands and place it under the running water to rinse the lettuce leaves.",
+   "verbs": [
+    "pick up",
+    "place",
+    "rinse"
+   ],
+   "nouns": [
+    "colander",
+    "running water",
+    "lettuce leaves"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-270",
+   "start_s": 553.28,
+   "end_s": 554.02,
+   "narration": "Use the right hand to adjust the positioning of the tap while using the left hand to put the colander down in the sink so that the running water runs over the lettuce leaves to rinse them.",
+   "verbs": [
+    "adjust",
+    "put down",
+    "rinse"
+   ],
+   "nouns": [
+    "positioning of tap",
+    "colander",
+    "sink",
+    "running water",
+    "lettuce leaves"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-271",
+   "start_s": 554.52,
+   "end_s": 555.91,
+   "narration": "Use both hands to pick up the lettuce leaves in the colander and move them around so that they are rinsed by the running water",
+   "verbs": [
+    "pick up",
+    "move"
+   ],
+   "nouns": [
+    "lettuce leaves",
+    "colander",
+    "running water"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-272",
+   "start_s": 556.01,
+   "end_s": 557.92,
+   "narration": "Use both hands to pick up the lettuce leaves in the colander and turn them on their end so that the running water runs through them and removes the dirt.",
+   "verbs": [
+    "pick up",
+    "turn",
+    "remove"
+   ],
+   "nouns": [
+    "lettuce leaves",
+    "colander",
+    "colander end",
+    "running water",
+    "dirt"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-273",
+   "start_s": 558.02,
+   "end_s": 559.16,
+   "narration": "Use the right hand to adjust the positioning of the colander",
+   "verbs": [
+    "adjust"
+   ],
+   "nouns": [
+    "positioning of colander"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-274",
+   "start_s": 559.26,
+   "end_s": 560.25,
+   "narration": "Use the right hand to adjust the positioning of the colander.",
+   "verbs": [
+    "adjust"
+   ],
+   "nouns": [
+    "positioning of colander"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-275",
+   "start_s": 560.35,
+   "end_s": 564.41,
+   "narration": "Use the right hand while holding the lettuce in the left hand, tear off a leaf and place it onto the chopping board. Use both hands to turn the colander in a circular motion so that the running water can rinse all of the lettuce leaves.",
+   "verbs": [
+    "hold",
+    "tear off",
+    "place",
+    "turn"
+   ],
+   "nouns": [
+    "lettuce",
+    "leaf",
+    "chopping board",
+    "colander",
+    "circular motion",
+    "running water",
+    "of lettuce leaves"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-276",
+   "start_s": 564.51,
+   "end_s": 565.04,
+   "narration": "Pick up a lettuce leaf in the left hand and use the thumb of the right hand to rub away the dirt",
+   "verbs": [
+    "pick up",
+    "rub away"
+   ],
+   "nouns": [
+    "lettuce leaf",
+    "dirt"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-277",
+   "start_s": 565.14,
+   "end_s": 568.11,
+   "narration": "Pick up a handful of lettuce leaves and use the thumbs and index fingers to rub away the dirt",
+   "verbs": [
+    "pick up",
+    "rub away"
+   ],
+   "nouns": [
+    "handful of lettuce leaves",
+    "thumbs",
+    "index fingers",
+    "dirt"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-278",
+   "start_s": 568.21,
+   "end_s": 569.24,
+   "narration": "Turn off the tap using the right hand to close the lever.",
+   "verbs": [
+    "turn off",
+    "close"
+   ],
+   "nouns": [
+    "tap",
+    "lever"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-279",
+   "start_s": 569.29,
+   "end_s": 571.06,
+   "narration": "Pick up the lettuce leaves",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "lettuce leaves"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-280",
+   "start_s": 571.16,
+   "end_s": 571.93,
+   "narration": "Use both hands to pick up all of the lettuce leaves",
+   "verbs": [
+    "pick up"
+   ],
+   "nouns": [
+    "of lettuce leaves"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-281",
+   "start_s": 571.3,
+   "end_s": 572.92,
+   "narration": "Let the water drain out of the lettuce leaves",
+   "verbs": [],
+   "nouns": [
+    "water",
+    "lettuce leaves"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-282",
+   "start_s": 572.9,
+   "end_s": 573.49,
+   "narration": "Shake the lettuce leaves up and down to get rid of excess water.",
+   "verbs": [
+    "shake",
+    "get rid of"
+   ],
+   "nouns": [
+    "lettuce leaves",
+    "excess water"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-283",
+   "start_s": 574.0,
+   "end_s": 576.04,
+   "narration": "Squeeze the lettuce leaves in both hands to get rid of excess water",
+   "verbs": [
+    "squeeze",
+    "get rid of"
+   ],
+   "nouns": [
+    "lettuce leaves",
+    "excess water"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-284",
+   "start_s": 575.72,
+   "end_s": 579.25,
+   "narration": "Squeeze the lettuce leaves in both hands to get rid of excess water",
+   "verbs": [
+    "squeeze",
+    "get rid of"
+   ],
+   "nouns": [
+    "lettuce leaves",
+    "excess water"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-285",
+   "start_s": 580.04,
+   "end_s": 580.55,
+   "narration": "Use the left hand to shake the lettuce leaves to get rid of excess water.",
+   "verbs": [
+    "shake",
+    "get rid of"
+   ],
+   "nouns": [
+    "lettuce leaves",
+    "excess water"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-286",
+   "start_s": 580.73,
+   "end_s": 582.25,
+   "narration": "Drop the lettuce leaves into the colander and use both hands to shake the colander to get rid of excess water.",
+   "verbs": [
+    "drop",
+    "shake",
+    "get rid of"
+   ],
+   "nouns": [
+    "lettuce leaves",
+    "colander",
+    "excess water"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-287",
+   "start_s": 582.66,
+   "end_s": 583.48,
+   "narration": "Use the left hand to pick up a piece of lettuce that had fallen into the sink and replace it in the colander.",
+   "verbs": [
+    "pick up",
+    "replace"
+   ],
+   "nouns": [
+    "piece of lettuce",
+    "sink",
+    "colander"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-288",
+   "start_s": 583.58,
+   "end_s": 584.61,
+   "narration": "Using the left hand to stop the lettuce from falling out of the colander, shake the colander up and down to get rid of water.",
+   "verbs": [
+    "fall out",
+    "shake",
+    "get rid of"
+   ],
+   "nouns": [
+    "lettuce",
+    "colander",
+    "water"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-289",
+   "start_s": 584.53,
+   "end_s": 588.85,
+   "narration": "Shake the colander back and forth using the right hand to get rid of water",
+   "verbs": [
+    "shake",
+    "get rid of"
+   ],
+   "nouns": [
+    "colander",
+    "water"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-291",
+   "start_s": 589.0,
+   "end_s": 591.25,
+   "narration": "Carry the colander back over to the chopping board and set it down on the counter.",
+   "verbs": [
+    "carry",
+    "set down"
+   ],
+   "nouns": [
+    "colander",
+    "chopping board",
+    "counter"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-290",
+   "start_s": 590.27,
+   "end_s": 591.05,
+   "narration": "Tear off a leaf and place it onto the chopping board.",
+   "verbs": [
+    "tear off",
+    "place"
+   ],
+   "nouns": [
+    "leaf",
+    "chopping board"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-292",
+   "start_s": 592.35,
+   "end_s": 598.6,
+   "narration": "Pick up the tea towel from the hook and use it to dry the hands",
+   "verbs": [
+    "pick up",
+    "dry"
+   ],
+   "nouns": [
+    "tea towel",
+    "hook"
+   ]
+  },
+  {
+   "action_id": "P07-20240529-131737-293",
+   "start_s": 598.7,
+   "end_s": 599.67,
+   "narration": "Tear off a leaf and place it onto the chopping board. Replace the tea towel on the hook.",
+   "verbs": [
+    "tear off",
+    "place",
+    "replace"
+   ],
+   "nouns": [
+    "leaf",
+    "chopping board",
+    "tea towel",
+    "hook"
+   ]
+  }
+ ]
+}

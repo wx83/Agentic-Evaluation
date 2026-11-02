@@ -1,0 +1,50 @@
+{
+ "overall_goal": "Check the pudding in the oven and serve it with cream",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Turn off the timer and check if the pudding is done",
+   "action_ids": [
+    "P05-20240425-201444-555",
+    "P05-20240425-201444-556",
+    "P05-20240425-201444-557",
+    "P05-20240425-201444-558",
+    "P05-20240425-201444-559",
+    "P05-20240425-201444-560",
+    "P05-20240425-201444-561",
+    "P05-20240425-201444-565",
+    "P05-20240425-201444-566",
+    "P05-20240425-201444-567"
+   ],
+   "rationale": "The person turns off their phone timer, puts on oven gloves, opens the oven, and uses a knife to test the pudding's doneness."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Serve the pudding with cream and taste it",
+   "action_ids": [
+    "P05-20240425-201444-598",
+    "P05-20240425-201444-599",
+    "P05-20240425-201444-600",
+    "P05-20240425-201444-601",
+    "P05-20240425-201444-602",
+    "P05-20240425-201444-603",
+    "P05-20240425-201444-604",
+    "P05-20240425-201444-605",
+    "P05-20240425-201444-606",
+    "P05-20240425-201444-607",
+    "P05-20240425-201444-608"
+   ],
+   "rationale": "The person places the hot ramekin on the counter, tastes some excess chocolate, pours double cream over the pudding, and prepares the plate for eating."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P05-20240425-201444-551",
+  "P05-20240425-201444-552",
+  "P05-20240425-201444-553",
+  "P05-20240425-201444-554"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

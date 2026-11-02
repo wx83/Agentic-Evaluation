@@ -1,0 +1,277 @@
+{
+ "overall_goal": "Prepare the celery, carrots, bell peppers, and mushrooms for cooking.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve, wash, and dry the celery",
+   "action_ids": [
+    "P08-20240618-163547-17",
+    "P08-20240618-163547-18",
+    "P08-20240618-163547-22",
+    "P08-20240618-163547-23",
+    "P08-20240618-163547-24",
+    "P08-20240618-163547-60",
+    "P08-20240618-163547-256",
+    "P08-20240618-163547-257",
+    "P08-20240618-163547-258",
+    "P08-20240618-163547-259",
+    "P08-20240618-163547-260",
+    "P08-20240618-163547-261",
+    "P08-20240618-163547-262"
+   ],
+   "rationale": "The person retrieves celery from the refrigerator, tears off a stalk, and washes and dries it."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Trim and weigh the celery",
+   "action_ids": [
+    "P08-20240618-163547-263",
+    "P08-20240618-163547-264",
+    "P08-20240618-163547-265",
+    "P08-20240618-163547-266",
+    "P08-20240618-163547-267",
+    "P08-20240618-163547-268",
+    "P08-20240618-163547-269",
+    "P08-20240618-163547-270",
+    "P08-20240618-163547-272"
+   ],
+   "rationale": "The person cuts the ends off the celery stalk and weighs it on the kitchen scale."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Chop the celery and transfer to the bowl",
+   "action_ids": [
+    "P08-20240618-163547-275",
+    "P08-20240618-163547-276",
+    "P08-20240618-163547-277",
+    "P08-20240618-163547-278",
+    "P08-20240618-163547-279",
+    "P08-20240618-163547-280",
+    "P08-20240618-163547-281",
+    "P08-20240618-163547-282",
+    "P08-20240618-163547-283",
+    "P08-20240618-163547-284",
+    "P08-20240618-163547-285",
+    "P08-20240618-163547-286",
+    "P08-20240618-163547-287",
+    "P08-20240618-163547-288"
+   ],
+   "rationale": "The person chops the celery into smaller pieces and transfers them from the cutting board to the metal bowl."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Peel and trim the carrots",
+   "action_ids": [
+    "P08-20240618-163547-291",
+    "P08-20240618-163547-292",
+    "P08-20240618-163547-293",
+    "P08-20240618-163547-294",
+    "P08-20240618-163547-295",
+    "P08-20240618-163547-296",
+    "P08-20240618-163547-297",
+    "P08-20240618-163547-298",
+    "P08-20240618-163547-299",
+    "P08-20240618-163547-300",
+    "P08-20240618-163547-301",
+    "P08-20240618-163547-302",
+    "P08-20240618-163547-303",
+    "P08-20240618-163547-304",
+    "P08-20240618-163547-305",
+    "P08-20240618-163547-306"
+   ],
+   "rationale": "The person retrieves a peeler from the dishwasher, peels the carrot, and trims its ends."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Dice the first half of the carrot",
+   "action_ids": [
+    "P08-20240618-163547-315",
+    "P08-20240618-163547-316",
+    "P08-20240618-163547-317",
+    "P08-20240618-163547-318",
+    "P08-20240618-163547-319",
+    "P08-20240618-163547-320",
+    "P08-20240618-163547-321",
+    "P08-20240618-163547-322",
+    "P08-20240618-163547-323",
+    "P08-20240618-163547-324",
+    "P08-20240618-163547-325",
+    "P08-20240618-163547-326",
+    "P08-20240618-163547-327"
+   ],
+   "rationale": "The person cuts the first half of the carrot into small cubes."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Dice the second half of the carrot and transfer to the bowl",
+   "action_ids": [
+    "P08-20240618-163547-328",
+    "P08-20240618-163547-329",
+    "P08-20240618-163547-330",
+    "P08-20240618-163547-331",
+    "P08-20240618-163547-332",
+    "P08-20240618-163547-333",
+    "P08-20240618-163547-334",
+    "P08-20240618-163547-335",
+    "P08-20240618-163547-336",
+    "P08-20240618-163547-337",
+    "P08-20240618-163547-338",
+    "P08-20240618-163547-339",
+    "P08-20240618-163547-340"
+   ],
+   "rationale": "The person dices the second half of the carrot and scrapes all the pieces into the metal bowl."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Chop the first pieces of bell pepper and transfer to the bowl",
+   "action_ids": [
+    "P08-20240618-163547-343",
+    "P08-20240618-163547-344",
+    "P08-20240618-163547-345",
+    "P08-20240618-163547-346",
+    "P08-20240618-163547-365",
+    "P08-20240618-163547-366",
+    "P08-20240618-163547-367",
+    "P08-20240618-163547-368",
+    "P08-20240618-163547-369",
+    "P08-20240618-163547-370"
+   ],
+   "rationale": "The person cuts the first pieces of bell pepper into smaller cubes and moves them to the bowl."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Chop the remaining bell pepper and transfer to the bowl",
+   "action_ids": [
+    "P08-20240618-163547-371",
+    "P08-20240618-163547-372",
+    "P08-20240618-163547-373",
+    "P08-20240618-163547-374",
+    "P08-20240618-163547-375",
+    "P08-20240618-163547-376",
+    "P08-20240618-163547-377",
+    "P08-20240618-163547-378",
+    "P08-20240618-163547-379",
+    "P08-20240618-163547-380",
+    "P08-20240618-163547-381"
+   ],
+   "rationale": "The person chops the remaining bell pepper into cubes and scrapes them into the metal bowl."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Store leftover vegetables in the refrigerator",
+   "action_ids": [
+    "P08-20240618-163547-382",
+    "P08-20240618-163547-383",
+    "P08-20240618-163547-384",
+    "P08-20240618-163547-385",
+    "P08-20240618-163547-386",
+    "P08-20240618-163547-387"
+   ],
+   "rationale": "The person puts the leftover celery and carrots back into the refrigerator."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Weigh and wash the mushrooms",
+   "action_ids": [
+    "P08-20240618-163547-410",
+    "P08-20240618-163547-411",
+    "P08-20240618-163547-412",
+    "P08-20240618-163547-414",
+    "P08-20240618-163547-415",
+    "P08-20240618-163547-416",
+    "P08-20240618-163547-417",
+    "P08-20240618-163547-418",
+    "P08-20240618-163547-420"
+   ],
+   "rationale": "The person weighs the mushrooms on the scale and washes them in a colander under the tap."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Dry the mushrooms with paper towels",
+   "action_ids": [
+    "P08-20240618-163547-421",
+    "P08-20240618-163547-422",
+    "P08-20240618-163547-423",
+    "P08-20240618-163547-424",
+    "P08-20240618-163547-425",
+    "P08-20240618-163547-427",
+    "P08-20240618-163547-428",
+    "P08-20240618-163547-430",
+    "P08-20240618-163547-431",
+    "P08-20240618-163547-432",
+    "P08-20240618-163547-433",
+    "P08-20240618-163547-434",
+    "P08-20240618-163547-438"
+   ],
+   "rationale": "The person dries the washed mushrooms individually using paper towels."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Slice the first batch of mushrooms",
+   "action_ids": [
+    "P08-20240618-163547-439",
+    "P08-20240618-163547-440",
+    "P08-20240618-163547-447",
+    "P08-20240618-163547-448",
+    "P08-20240618-163547-449",
+    "P08-20240618-163547-450",
+    "P08-20240618-163547-451",
+    "P08-20240618-163547-452",
+    "P08-20240618-163547-453",
+    "P08-20240618-163547-454",
+    "P08-20240618-163547-455",
+    "P08-20240618-163547-456",
+    "P08-20240618-163547-457"
+   ],
+   "rationale": "The person removes the stems from the first batch of mushrooms and slices them."
+  },
+  {
+   "goal_id": "e13",
+   "description": "Slice the remaining mushrooms and transfer to the bowl",
+   "action_ids": [
+    "P08-20240618-163547-458",
+    "P08-20240618-163547-459",
+    "P08-20240618-163547-460",
+    "P08-20240618-163547-461",
+    "P08-20240618-163547-462",
+    "P08-20240618-163547-463",
+    "P08-20240618-163547-464",
+    "P08-20240618-163547-465",
+    "P08-20240618-163547-466",
+    "P08-20240618-163547-467",
+    "P08-20240618-163547-468",
+    "P08-20240618-163547-469",
+    "P08-20240618-163547-470",
+    "P08-20240618-163547-471",
+    "P08-20240618-163547-472"
+   ],
+   "rationale": "The person removes the stems from the remaining mushrooms, slices them, and transfers all pieces to the metal bowl."
+  },
+  {
+   "goal_id": "e14",
+   "description": "Clean up the cutting board and discard trash",
+   "action_ids": [
+    "P08-20240618-163547-473",
+    "P08-20240618-163547-474",
+    "P08-20240618-163547-475",
+    "P08-20240618-163547-476",
+    "P08-20240618-163547-477"
+   ],
+   "rationale": "The person places the cutting board and knife in the sink and throws away the trash."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P08-20240618-163547-271",
+  "P08-20240618-163547-349",
+  "P08-20240618-163547-350",
+  "P08-20240618-163547-413",
+  "P08-20240618-163547-426",
+  "P08-20240618-163547-435",
+  "P08-20240618-163547-436",
+  "P08-20240618-163547-437"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

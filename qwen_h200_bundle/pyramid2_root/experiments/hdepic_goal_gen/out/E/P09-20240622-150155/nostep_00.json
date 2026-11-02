@@ -1,0 +1,207 @@
+{
+ "overall_goal": "Clean the kitchen area, measure breadcrumbs and flour, and retrieve plates",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve utensils and tidy cookware",
+   "action_ids": [
+    "P09-20240622-150155-1",
+    "P09-20240622-150155-2",
+    "P09-20240622-150155-3",
+    "P09-20240622-150155-9",
+    "P09-20240622-150155-10"
+   ],
+   "rationale": "The person retrieves a potato peeler and a saucepan, and places a frying pan in the draining rack."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Wash hands and clean up the sink area",
+   "action_ids": [
+    "P09-20240622-150155-25",
+    "P09-20240622-150155-26",
+    "P09-20240622-150155-27",
+    "P09-20240622-150155-28",
+    "P09-20240622-150155-29",
+    "P09-20240622-150155-30",
+    "P09-20240622-150155-31",
+    "P09-20240622-150155-32",
+    "P09-20240622-150155-33",
+    "P09-20240622-150155-34",
+    "P09-20240622-150155-35",
+    "P09-20240622-150155-36"
+   ],
+   "rationale": "The person washes their hands with soap and water, and squeezes water out of a discarded chicken bag in the sink."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Dry hands and put away hand towels",
+   "action_ids": [
+    "P09-20240622-150155-37",
+    "P09-20240622-150155-38",
+    "P09-20240622-150155-39",
+    "P09-20240622-150155-40",
+    "P09-20240622-150155-41",
+    "P09-20240622-150155-42",
+    "P09-20240622-150155-43",
+    "P09-20240622-150155-44",
+    "P09-20240622-150155-45",
+    "P09-20240622-150155-46",
+    "P09-20240622-150155-47",
+    "P09-20240622-150155-48",
+    "P09-20240622-150155-49",
+    "P09-20240622-150155-50",
+    "P09-20240622-150155-51"
+   ],
+   "rationale": "The person retrieves clean hand towels from the cupboard, dries their hands, hangs a towel on the rack, and closes the cupboard."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Open the breadcrumbs and prepare the scale",
+   "action_ids": [
+    "P09-20240622-150155-52",
+    "P09-20240622-150155-53",
+    "P09-20240622-150155-54",
+    "P09-20240622-150155-55",
+    "P09-20240622-150155-56",
+    "P09-20240622-150155-57",
+    "P09-20240622-150155-58",
+    "P09-20240622-150155-59",
+    "P09-20240622-150155-60",
+    "P09-20240622-150155-61",
+    "P09-20240622-150155-62",
+    "P09-20240622-150155-63"
+   ],
+   "rationale": "The person retrieves the breadcrumbs cup, opens it, and turns on the scale to prepare for measuring."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Check and fix the scale's battery",
+   "action_ids": [
+    "P09-20240622-150155-64",
+    "P09-20240622-150155-65",
+    "P09-20240622-150155-66",
+    "P09-20240622-150155-67",
+    "P09-20240622-150155-68",
+    "P09-20240622-150155-69",
+    "P09-20240622-150155-70",
+    "P09-20240622-150155-71",
+    "P09-20240622-150155-72",
+    "P09-20240622-150155-73",
+    "P09-20240622-150155-74",
+    "P09-20240622-150155-75"
+   ],
+   "rationale": "The person flips the scale upside down to check and properly seat the battery before using it."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Measure the first batch of breadcrumbs",
+   "action_ids": [
+    "P09-20240622-150155-76",
+    "P09-20240622-150155-77",
+    "P09-20240622-150155-78",
+    "P09-20240622-150155-79",
+    "P09-20240622-150155-80",
+    "P09-20240622-150155-81",
+    "P09-20240622-150155-82",
+    "P09-20240622-150155-83",
+    "P09-20240622-150155-84",
+    "P09-20240622-150155-85",
+    "P09-20240622-150155-86",
+    "P09-20240622-150155-87",
+    "P09-20240622-150155-88",
+    "P09-20240622-150155-89",
+    "P09-20240622-150155-90",
+    "P09-20240622-150155-91"
+   ],
+   "rationale": "The person resets the scale, pours breadcrumbs onto it, and then transfers the measured breadcrumbs into a white bowl."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Measure additional breadcrumbs into the bowl",
+   "action_ids": [
+    "P09-20240622-150155-92",
+    "P09-20240622-150155-93",
+    "P09-20240622-150155-94",
+    "P09-20240622-150155-95",
+    "P09-20240622-150155-96",
+    "P09-20240622-150155-97",
+    "P09-20240622-150155-98",
+    "P09-20240622-150155-99",
+    "P09-20240622-150155-101",
+    "P09-20240622-150155-100",
+    "P09-20240622-150155-102",
+    "P09-20240622-150155-103",
+    "P09-20240622-150155-104",
+    "P09-20240622-150155-105",
+    "P09-20240622-150155-106",
+    "P09-20240622-150155-107",
+    "P09-20240622-150155-108",
+    "P09-20240622-150155-109",
+    "P09-20240622-150155-110",
+    "P09-20240622-150155-111",
+    "P09-20240622-150155-112"
+   ],
+   "rationale": "The person continues to weigh more breadcrumbs using the scale and adds them to the bowl."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Store the breadcrumbs",
+   "action_ids": [
+    "P09-20240622-150155-113",
+    "P09-20240622-150155-114",
+    "P09-20240622-150155-115",
+    "P09-20240622-150155-116",
+    "P09-20240622-150155-117",
+    "P09-20240622-150155-118",
+    "P09-20240622-150155-119"
+   ],
+   "rationale": "The person puts the cap back on the breadcrumbs cup and stores it in the cupboard."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Retrieve plates from the cupboard",
+   "action_ids": [
+    "P09-20240622-150155-121",
+    "P09-20240622-150155-122",
+    "P09-20240622-150155-123",
+    "P09-20240622-150155-124"
+   ],
+   "rationale": "The person opens the cupboard and takes out some plates."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Measure the flour",
+   "action_ids": [
+    "P09-20240622-150155-129",
+    "P09-20240622-150155-130",
+    "P09-20240622-150155-131",
+    "P09-20240622-150155-132",
+    "P09-20240622-150155-133",
+    "P09-20240622-150155-134",
+    "P09-20240622-150155-135",
+    "P09-20240622-150155-151"
+   ],
+   "rationale": "The person places a bowl on the scale, opens a bag of flour, and scoops out flour to measure it."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Seal and store the bag of flour",
+   "action_ids": [
+    "P09-20240622-150155-152",
+    "P09-20240622-150155-153",
+    "P09-20240622-150155-154",
+    "P09-20240622-150155-155",
+    "P09-20240622-150155-156",
+    "P09-20240622-150155-157",
+    "P09-20240622-150155-158",
+    "P09-20240622-150155-159"
+   ],
+   "rationale": "The person closes and seals the bag of flour, then places it back into the cupboard, moving a pouch of rice out of the way."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,201 @@
+{
+ "overall_goal": "Manage cooking temperatures, prepare garlic, and cook the mushrooms and aubergine for the pizza",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve garlic and a plate",
+   "action_ids": [
+    "P03-20240217-192543-358",
+    "P03-20240217-192543-359",
+    "P03-20240217-192543-360",
+    "P03-20240217-192543-361",
+    "P03-20240217-192543-362",
+    "P03-20240217-192543-363",
+    "P03-20240217-192543-364",
+    "P03-20240217-192543-367"
+   ],
+   "rationale": "The person clears an empty cup, retrieves more garlic from a net, and gets a plate from the cupboard."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Manage the boiling egg",
+   "action_ids": [
+    "P03-20240217-192543-372",
+    "P03-20240217-192543-375",
+    "P03-20240217-192543-378",
+    "P03-20240217-192543-380"
+   ],
+   "rationale": "The person adjusts the heat for the boiling egg and starts a stopwatch to time it."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Transfer cooked aubergine and start cooking mushrooms",
+   "action_ids": [
+    "P03-20240217-192543-370",
+    "P03-20240217-192543-382",
+    "P03-20240217-192543-385",
+    "P03-20240217-192543-386",
+    "P03-20240217-192543-387",
+    "P03-20240217-192543-388",
+    "P03-20240217-192543-389",
+    "P03-20240217-192543-390",
+    "P03-20240217-192543-391",
+    "P03-20240217-192543-392"
+   ],
+   "rationale": "The person removes the cooked aubergine from the pan, transfers sliced mushrooms into the pan, and redistributes the aubergine on kitchen roll."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Season and stir the mushrooms",
+   "action_ids": [
+    "P03-20240217-192543-393",
+    "P03-20240217-192543-394",
+    "P03-20240217-192543-395",
+    "P03-20240217-192543-396",
+    "P03-20240217-192543-397",
+    "P03-20240217-192543-398",
+    "P03-20240217-192543-399",
+    "P03-20240217-192543-400",
+    "P03-20240217-192543-401",
+    "P03-20240217-192543-402",
+    "P03-20240217-192543-403",
+    "P03-20240217-192543-404",
+    "P03-20240217-192543-405",
+    "P03-20240217-192543-406",
+    "P03-20240217-192543-407",
+    "P03-20240217-192543-408",
+    "P03-20240217-192543-409",
+    "P03-20240217-192543-410"
+   ],
+   "rationale": "The person stirs the mushrooms, seasons them with salt and black pepper, and retrieves ground garlic before deciding to add it later."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Peel garlic cloves",
+   "action_ids": [
+    "P03-20240217-192543-411",
+    "P03-20240217-192543-412",
+    "P03-20240217-192543-413",
+    "P03-20240217-192543-414",
+    "P03-20240217-192543-415",
+    "P03-20240217-192543-416",
+    "P03-20240217-192543-417",
+    "P03-20240217-192543-418",
+    "P03-20240217-192543-419",
+    "P03-20240217-192543-420",
+    "P03-20240217-192543-421",
+    "P03-20240217-192543-422",
+    "P03-20240217-192543-423"
+   ],
+   "rationale": "The person peels several garlic cloves using a knife and places them on the chopping board."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Stir mushrooms and wash hands",
+   "action_ids": [
+    "P03-20240217-192543-424",
+    "P03-20240217-192543-425",
+    "P03-20240217-192543-426",
+    "P03-20240217-192543-428",
+    "P03-20240217-192543-429",
+    "P03-20240217-192543-430",
+    "P03-20240217-192543-431",
+    "P03-20240217-192543-432",
+    "P03-20240217-192543-433",
+    "P03-20240217-192543-434",
+    "P03-20240217-192543-435",
+    "P03-20240217-192543-436"
+   ],
+   "rationale": "The person stirs the mushrooms, picks up a spilled slice, and then washes and dries their hands."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Separate garlic cloves using a knife",
+   "action_ids": [
+    "P03-20240217-192543-437",
+    "P03-20240217-192543-438",
+    "P03-20240217-192543-439",
+    "P03-20240217-192543-440",
+    "P03-20240217-192543-441",
+    "P03-20240217-192543-442",
+    "P03-20240217-192543-443",
+    "P03-20240217-192543-444",
+    "P03-20240217-192543-445",
+    "P03-20240217-192543-446",
+    "P03-20240217-192543-447"
+   ],
+   "rationale": "The person uses a knife to cut and separate a whole head of garlic into individual cloves."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Pull apart garlic cloves and store them",
+   "action_ids": [
+    "P03-20240217-192543-448",
+    "P03-20240217-192543-449",
+    "P03-20240217-192543-450",
+    "P03-20240217-192543-451",
+    "P03-20240217-192543-452",
+    "P03-20240217-192543-453",
+    "P03-20240217-192543-454",
+    "P03-20240217-192543-455",
+    "P03-20240217-192543-456",
+    "P03-20240217-192543-457",
+    "P03-20240217-192543-458",
+    "P03-20240217-192543-459",
+    "P03-20240217-192543-460",
+    "P03-20240217-192543-461"
+   ],
+   "rationale": "The person pulls the separated garlic cloves apart by hand and places them into a small cup."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Turn the hob back on and stir the mushrooms",
+   "action_ids": [
+    "P03-20240217-192543-462",
+    "P03-20240217-192543-463",
+    "P03-20240217-192543-464",
+    "P03-20240217-192543-465",
+    "P03-20240217-192543-466",
+    "P03-20240217-192543-467",
+    "P03-20240217-192543-468",
+    "P03-20240217-192543-469",
+    "P03-20240217-192543-470",
+    "P03-20240217-192543-471",
+    "P03-20240217-192543-472",
+    "P03-20240217-192543-473",
+    "P03-20240217-192543-474",
+    "P03-20240217-192543-475",
+    "P03-20240217-192543-476",
+    "P03-20240217-192543-477"
+   ],
+   "rationale": "The person realizes the hob is off, turns it back on, continues stirring the mushrooms, and retrieves another spilled slice."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Add ground garlic to mushrooms and put spices away",
+   "action_ids": [
+    "P03-20240217-192543-478",
+    "P03-20240217-192543-479",
+    "P03-20240217-192543-480",
+    "P03-20240217-192543-481",
+    "P03-20240217-192543-482",
+    "P03-20240217-192543-483",
+    "P03-20240217-192543-484",
+    "P03-20240217-192543-485",
+    "P03-20240217-192543-486",
+    "P03-20240217-192543-488",
+    "P03-20240217-192543-489",
+    "P03-20240217-192543-490"
+   ],
+   "rationale": "The person adds ground garlic to the cooked mushrooms, puts the spice containers away, and gives the mushrooms a final stir."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P03-20240217-192543-427",
+  "P03-20240217-192543-487"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

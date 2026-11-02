@@ -1,0 +1,207 @@
+{
+ "overall_goal": "Unload the dishwasher and put away clean dishes and items",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Unload plates and saucepans from the dishwasher bottom rack",
+   "action_ids": [
+    "P03-20240216-185832-121",
+    "P03-20240216-185832-122",
+    "P03-20240216-185832-123",
+    "P03-20240216-185832-124",
+    "P03-20240216-185832-125",
+    "P03-20240216-185832-126",
+    "P03-20240216-185832-127",
+    "P03-20240216-185832-128"
+   ],
+   "rationale": "The person removes plates and saucepans from the bottom rack and stacks them in the cupboard."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Unload bowls and cups from the dishwasher bottom rack",
+   "action_ids": [
+    "P03-20240216-185832-129",
+    "P03-20240216-185832-130",
+    "P03-20240216-185832-131",
+    "P03-20240216-185832-132",
+    "P03-20240216-185832-133",
+    "P03-20240216-185832-134",
+    "P03-20240216-185832-135",
+    "P03-20240216-185832-136",
+    "P03-20240216-185832-137",
+    "P03-20240216-185832-138",
+    "P03-20240216-185832-139"
+   ],
+   "rationale": "The person takes bowls and cups from the bottom rack and places them on the cupboard shelves."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Dry and store plastic containers from the dishwasher",
+   "action_ids": [
+    "P03-20240216-185832-141",
+    "P03-20240216-185832-140",
+    "P03-20240216-185832-142",
+    "P03-20240216-185832-143",
+    "P03-20240216-185832-144",
+    "P03-20240216-185832-145",
+    "P03-20240216-185832-146",
+    "P03-20240216-185832-147",
+    "P03-20240216-185832-148",
+    "P03-20240216-185832-149",
+    "P03-20240216-185832-150",
+    "P03-20240216-185832-151"
+   ],
+   "rationale": "The person retrieves plastic containers, shakes off water, dries them with a cloth, and stores them."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Unload and organize cutlery from the dishwasher",
+   "action_ids": [
+    "P03-20240216-185832-152",
+    "P03-20240216-185832-153",
+    "P03-20240216-185832-154",
+    "P03-20240216-185832-155",
+    "P03-20240216-185832-156",
+    "P03-20240216-185832-157",
+    "P03-20240216-185832-158",
+    "P03-20240216-185832-159",
+    "P03-20240216-185832-160",
+    "P03-20240216-185832-161",
+    "P03-20240216-185832-162",
+    "P03-20240216-185832-163",
+    "P03-20240216-185832-164",
+    "P03-20240216-185832-165",
+    "P03-20240216-185832-166",
+    "P03-20240216-185832-167",
+    "P03-20240216-185832-168"
+   ],
+   "rationale": "The person unloads various pieces of cutlery from the dishwasher and organizes them in the cutlery tray."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Transition to the dishwasher top rack and store the colander",
+   "action_ids": [
+    "P03-20240216-185832-169",
+    "P03-20240216-185832-170",
+    "P03-20240216-185832-171",
+    "P03-20240216-185832-172",
+    "P03-20240216-185832-173",
+    "P03-20240216-185832-174",
+    "P03-20240216-185832-175",
+    "P03-20240216-185832-176",
+    "P03-20240216-185832-177"
+   ],
+   "rationale": "The person closes the bottom rack, opens the top rack, and puts away a metal colander."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Unload and store bowls from the dishwasher top rack",
+   "action_ids": [
+    "P03-20240216-185832-178",
+    "P03-20240216-185832-179",
+    "P03-20240216-185832-180",
+    "P03-20240216-185832-181",
+    "P03-20240216-185832-182",
+    "P03-20240216-185832-183",
+    "P03-20240216-185832-184",
+    "P03-20240216-185832-185",
+    "P03-20240216-185832-186",
+    "P03-20240216-185832-187",
+    "P03-20240216-185832-188",
+    "P03-20240216-185832-189"
+   ],
+   "rationale": "The person takes multiple bowls from the top rack, stacks them, and places them in the cupboard."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Unload and store cups, glasses, and a saucepan",
+   "action_ids": [
+    "P03-20240216-185832-190",
+    "P03-20240216-185832-191",
+    "P03-20240216-185832-192",
+    "P03-20240216-185832-193",
+    "P03-20240216-185832-194",
+    "P03-20240216-185832-195",
+    "P03-20240216-185832-196",
+    "P03-20240216-185832-197",
+    "P03-20240216-185832-198",
+    "P03-20240216-185832-201",
+    "P03-20240216-185832-199",
+    "P03-20240216-185832-200",
+    "P03-20240216-185832-202",
+    "P03-20240216-185832-203",
+    "P03-20240216-185832-204",
+    "P03-20240216-185832-205"
+   ],
+   "rationale": "The person unloads cups, glasses, and a saucepan, placing them in their respective cupboards."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Dry and store a white bowl from the dishwasher top rack",
+   "action_ids": [
+    "P03-20240216-185832-206",
+    "P03-20240216-185832-207",
+    "P03-20240216-185832-208",
+    "P03-20240216-185832-209",
+    "P03-20240216-185832-210",
+    "P03-20240216-185832-211",
+    "P03-20240216-185832-212",
+    "P03-20240216-185832-213",
+    "P03-20240216-185832-214",
+    "P03-20240216-185832-215"
+   ],
+   "rationale": "The person retrieves a wet white bowl, dries it thoroughly with a cloth, and stores it."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Unload and store ramekins, plates, and lids from the dishwasher top rack",
+   "action_ids": [
+    "P03-20240216-185832-216",
+    "P03-20240216-185832-217",
+    "P03-20240216-185832-218",
+    "P03-20240216-185832-219",
+    "P03-20240216-185832-220",
+    "P03-20240216-185832-221",
+    "P03-20240216-185832-222",
+    "P03-20240216-185832-223",
+    "P03-20240216-185832-224",
+    "P03-20240216-185832-225",
+    "P03-20240216-185832-226",
+    "P03-20240216-185832-227"
+   ],
+   "rationale": "The person unloads ramekins, plates, and plastic lids from the top rack and organizes them in the cupboard."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Put away the V60 coffee filter and stand from the drying rack",
+   "action_ids": [
+    "P03-20240216-185832-228",
+    "P03-20240216-185832-229",
+    "P03-20240216-185832-230",
+    "P03-20240216-185832-231",
+    "P03-20240216-185832-232"
+   ],
+   "rationale": "The person takes a coffee filter and stand from the drying rack and puts them away in a cupboard."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Unpack a plastic food box and close the dishwasher",
+   "action_ids": [
+    "P03-20240216-185832-233",
+    "P03-20240216-185832-234",
+    "P03-20240216-185832-235",
+    "P03-20240216-185832-236",
+    "P03-20240216-185832-237",
+    "P03-20240216-185832-238",
+    "P03-20240216-185832-239",
+    "P03-20240216-185832-240"
+   ],
+   "rationale": "The person unpacks a plastic food box on the counter and pushes the dishwasher top rack closed."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

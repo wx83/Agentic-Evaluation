@@ -1,0 +1,41 @@
+{
+ "overall_goal": "Bake the tarts in the oven and let them cool",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Place the muffin trays in the oven and set the timer",
+   "action_ids": [
+    "P02-20240211-120927-552",
+    "P02-20240211-120927-553",
+    "P02-20240211-120927-554",
+    "P02-20240211-120927-555",
+    "P02-20240211-120927-556",
+    "P02-20240211-120927-557",
+    "P02-20240211-120927-558",
+    "P02-20240211-120927-559"
+   ],
+   "rationale": "The person opens the oven, places both muffin trays inside, closes the door, and sets the timer to bake the tarts."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Remove the baked tarts from the oven and set them on the hob to cool",
+   "action_ids": [
+    "P02-20240211-120927-796",
+    "P02-20240211-120927-797",
+    "P02-20240211-120927-798",
+    "P02-20240211-120927-799",
+    "P02-20240211-120927-800",
+    "P02-20240211-120927-801",
+    "P02-20240211-120927-802",
+    "P02-20240211-120927-803",
+    "P02-20240211-120927-804"
+   ],
+   "rationale": "The person takes both muffin trays out of the oven, closes the door, and arranges them on the hob to cool."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

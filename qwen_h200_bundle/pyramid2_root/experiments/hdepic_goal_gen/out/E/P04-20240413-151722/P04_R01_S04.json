@@ -1,0 +1,374 @@
+{
+ "overall_goal": "Build four grilled chicken wraps by adding lettuce, chicken, onion, tomatoes, and sauce to tortillas, and rolling them.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve tortillas and prepare the first one on a plate.",
+   "action_ids": [
+    "P04-20240413-151722-220",
+    "P04-20240413-151722-221",
+    "P04-20240413-151722-222",
+    "P04-20240413-151722-223",
+    "P04-20240413-151722-224",
+    "P04-20240413-151722-225",
+    "P04-20240413-151722-226",
+    "P04-20240413-151722-227",
+    "P04-20240413-151722-228",
+    "P04-20240413-151722-229",
+    "P04-20240413-151722-246",
+    "P04-20240413-151722-247",
+    "P04-20240413-151722-248"
+   ],
+   "rationale": "The person gets the bag of tortillas from the shelf, opens it, and places the first tortilla on a plate to start building the wrap."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Add shredded lettuce to the first wrap.",
+   "action_ids": [
+    "P04-20240413-151722-249",
+    "P04-20240413-151722-250",
+    "P04-20240413-151722-251",
+    "P04-20240413-151722-252",
+    "P04-20240413-151722-253",
+    "P04-20240413-151722-254",
+    "P04-20240413-151722-255",
+    "P04-20240413-151722-256",
+    "P04-20240413-151722-257",
+    "P04-20240413-151722-258",
+    "P04-20240413-151722-259",
+    "P04-20240413-151722-260",
+    "P04-20240413-151722-261",
+    "P04-20240413-151722-262"
+   ],
+   "rationale": "The person grabs handfuls of shredded lettuce from a bowl and spreads them onto the first tortilla."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Add grilled chicken to the first wrap.",
+   "action_ids": [
+    "P04-20240413-151722-269",
+    "P04-20240413-151722-270",
+    "P04-20240413-151722-271",
+    "P04-20240413-151722-272",
+    "P04-20240413-151722-273",
+    "P04-20240413-151722-274",
+    "P04-20240413-151722-275",
+    "P04-20240413-151722-276",
+    "P04-20240413-151722-277",
+    "P04-20240413-151722-278",
+    "P04-20240413-151722-279",
+    "P04-20240413-151722-280",
+    "P04-20240413-151722-281",
+    "P04-20240413-151722-282",
+    "P04-20240413-151722-283",
+    "P04-20240413-151722-284",
+    "P04-20240413-151722-285",
+    "P04-20240413-151722-286",
+    "P04-20240413-151722-287",
+    "P04-20240413-151722-288",
+    "P04-20240413-151722-289",
+    "P04-20240413-151722-290"
+   ],
+   "rationale": "The person uses a spoon to scoop grilled chicken pieces from a bowl and arranges them on top of the lettuce."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Add chopped onion, tomatoes, and sauce to the first wrap.",
+   "action_ids": [
+    "P04-20240413-151722-291",
+    "P04-20240413-151722-292",
+    "P04-20240413-151722-293",
+    "P04-20240413-151722-294",
+    "P04-20240413-151722-295",
+    "P04-20240413-151722-296",
+    "P04-20240413-151722-297",
+    "P04-20240413-151722-298",
+    "P04-20240413-151722-299",
+    "P04-20240413-151722-300",
+    "P04-20240413-151722-301"
+   ],
+   "rationale": "The person adds the remaining ingredients, including onions, tomatoes, and sauce, to complete the filling for the first wrap."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Roll the first wrap and move it to the serving plate.",
+   "action_ids": [
+    "P04-20240413-151722-302",
+    "P04-20240413-151722-303",
+    "P04-20240413-151722-304",
+    "P04-20240413-151722-305",
+    "P04-20240413-151722-306",
+    "P04-20240413-151722-307",
+    "P04-20240413-151722-308",
+    "P04-20240413-151722-309",
+    "P04-20240413-151722-310",
+    "P04-20240413-151722-311",
+    "P04-20240413-151722-313",
+    "P04-20240413-151722-314",
+    "P04-20240413-151722-315"
+   ],
+   "rationale": "The person folds and rolls the filled tortilla into a wrap, then transfers it to a serving plate."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Prepare the second tortilla and add shredded lettuce.",
+   "action_ids": [
+    "P04-20240413-151722-316",
+    "P04-20240413-151722-319",
+    "P04-20240413-151722-320",
+    "P04-20240413-151722-321",
+    "P04-20240413-151722-322",
+    "P04-20240413-151722-323"
+   ],
+   "rationale": "The person takes out a new tortilla, places it on the plate, and adds shredded lettuce to form the base of the second wrap."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Add grilled chicken to the second wrap.",
+   "action_ids": [
+    "P04-20240413-151722-324",
+    "P04-20240413-151722-325",
+    "P04-20240413-151722-326",
+    "P04-20240413-151722-327",
+    "P04-20240413-151722-328",
+    "P04-20240413-151722-329",
+    "P04-20240413-151722-330",
+    "P04-20240413-151722-331",
+    "P04-20240413-151722-332",
+    "P04-20240413-151722-333",
+    "P04-20240413-151722-334",
+    "P04-20240413-151722-335"
+   ],
+   "rationale": "The person spoons grilled chicken pieces onto the lettuce bed of the second tortilla."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Add chopped onion and tomatoes to the second wrap.",
+   "action_ids": [
+    "P04-20240413-151722-336",
+    "P04-20240413-151722-337",
+    "P04-20240413-151722-338",
+    "P04-20240413-151722-339",
+    "P04-20240413-151722-340",
+    "P04-20240413-151722-341",
+    "P04-20240413-151722-342",
+    "P04-20240413-151722-343",
+    "P04-20240413-151722-344",
+    "P04-20240413-151722-345",
+    "P04-20240413-151722-346",
+    "P04-20240413-151722-347",
+    "P04-20240413-151722-348"
+   ],
+   "rationale": "The person sprinkles chopped onions and tomatoes over the chicken in the second wrap."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Add sauce to the second wrap.",
+   "action_ids": [
+    "P04-20240413-151722-349",
+    "P04-20240413-151722-350",
+    "P04-20240413-151722-351",
+    "P04-20240413-151722-352",
+    "P04-20240413-151722-353",
+    "P04-20240413-151722-354",
+    "P04-20240413-151722-355",
+    "P04-20240413-151722-356",
+    "P04-20240413-151722-357"
+   ],
+   "rationale": "The person spoons sauce over the ingredients in the second wrap before rolling."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Roll the second wrap and move it to the serving plate.",
+   "action_ids": [
+    "P04-20240413-151722-358",
+    "P04-20240413-151722-359",
+    "P04-20240413-151722-360",
+    "P04-20240413-151722-361",
+    "P04-20240413-151722-362",
+    "P04-20240413-151722-363",
+    "P04-20240413-151722-364",
+    "P04-20240413-151722-365",
+    "P04-20240413-151722-366",
+    "P04-20240413-151722-367",
+    "P04-20240413-151722-368",
+    "P04-20240413-151722-369",
+    "P04-20240413-151722-370",
+    "P04-20240413-151722-371",
+    "P04-20240413-151722-372"
+   ],
+   "rationale": "The person carefully folds and rolls the second tortilla, then places the finished wrap on the serving plate."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Prepare the third tortilla and add shredded lettuce.",
+   "action_ids": [
+    "P04-20240413-151722-373",
+    "P04-20240413-151722-374",
+    "P04-20240413-151722-375",
+    "P04-20240413-151722-376",
+    "P04-20240413-151722-377",
+    "P04-20240413-151722-378",
+    "P04-20240413-151722-381",
+    "P04-20240413-151722-382",
+    "P04-20240413-151722-379",
+    "P04-20240413-151722-380",
+    "P04-20240413-151722-383",
+    "P04-20240413-151722-384"
+   ],
+   "rationale": "The person pulls out a third tortilla, places it on the plate, and spreads shredded lettuce over it."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Add grilled chicken and chopped onion to the third wrap.",
+   "action_ids": [
+    "P04-20240413-151722-385",
+    "P04-20240413-151722-386",
+    "P04-20240413-151722-387",
+    "P04-20240413-151722-388",
+    "P04-20240413-151722-389",
+    "P04-20240413-151722-390",
+    "P04-20240413-151722-391",
+    "P04-20240413-151722-392",
+    "P04-20240413-151722-393"
+   ],
+   "rationale": "The person adds grilled chicken pieces and chopped onions to the third tortilla."
+  },
+  {
+   "goal_id": "e13",
+   "description": "Add chopped tomatoes and sauce to the third wrap.",
+   "action_ids": [
+    "P04-20240413-151722-394",
+    "P04-20240413-151722-395",
+    "P04-20240413-151722-396",
+    "P04-20240413-151722-397",
+    "P04-20240413-151722-398",
+    "P04-20240413-151722-399",
+    "P04-20240413-151722-401",
+    "P04-20240413-151722-400",
+    "P04-20240413-151722-402",
+    "P04-20240413-151722-403",
+    "P04-20240413-151722-404",
+    "P04-20240413-151722-405",
+    "P04-20240413-151722-406"
+   ],
+   "rationale": "The person finishes filling the third wrap by adding chopped tomatoes and spooning sauce over the ingredients."
+  },
+  {
+   "goal_id": "e14",
+   "description": "Roll the third wrap and move it to the serving plate.",
+   "action_ids": [
+    "P04-20240413-151722-407",
+    "P04-20240413-151722-408",
+    "P04-20240413-151722-409",
+    "P04-20240413-151722-410",
+    "P04-20240413-151722-411",
+    "P04-20240413-151722-412",
+    "P04-20240413-151722-413",
+    "P04-20240413-151722-414",
+    "P04-20240413-151722-415",
+    "P04-20240413-151722-416",
+    "P04-20240413-151722-417",
+    "P04-20240413-151722-418",
+    "P04-20240413-151722-419",
+    "P04-20240413-151722-420",
+    "P04-20240413-151722-421",
+    "P04-20240413-151722-422",
+    "P04-20240413-151722-423",
+    "P04-20240413-151722-424"
+   ],
+   "rationale": "The person folds the edges of the third tortilla, rolls it up, and transfers it to the serving plate."
+  },
+  {
+   "goal_id": "e15",
+   "description": "Prepare the fourth tortilla and add shredded lettuce.",
+   "action_ids": [
+    "P04-20240413-151722-425",
+    "P04-20240413-151722-426",
+    "P04-20240413-151722-427",
+    "P04-20240413-151722-428",
+    "P04-20240413-151722-429",
+    "P04-20240413-151722-430"
+   ],
+   "rationale": "The person takes out the final tortilla, places it on the plate, and adds shredded lettuce."
+  },
+  {
+   "goal_id": "e16",
+   "description": "Add grilled chicken and chopped onion to the fourth wrap.",
+   "action_ids": [
+    "P04-20240413-151722-431",
+    "P04-20240413-151722-432",
+    "P04-20240413-151722-433",
+    "P04-20240413-151722-434",
+    "P04-20240413-151722-435",
+    "P04-20240413-151722-436",
+    "P04-20240413-151722-437",
+    "P04-20240413-151722-438",
+    "P04-20240413-151722-439",
+    "P04-20240413-151722-440",
+    "P04-20240413-151722-441",
+    "P04-20240413-151722-442"
+   ],
+   "rationale": "The person transfers the remaining grilled chicken and chopped onions onto the fourth tortilla."
+  },
+  {
+   "goal_id": "e17",
+   "description": "Add chopped tomatoes and sauce to the fourth wrap.",
+   "action_ids": [
+    "P04-20240413-151722-443",
+    "P04-20240413-151722-444",
+    "P04-20240413-151722-445",
+    "P04-20240413-151722-446",
+    "P04-20240413-151722-447",
+    "P04-20240413-151722-448",
+    "P04-20240413-151722-449",
+    "P04-20240413-151722-450",
+    "P04-20240413-151722-451",
+    "P04-20240413-151722-452",
+    "P04-20240413-151722-453",
+    "P04-20240413-151722-454"
+   ],
+   "rationale": "The person adds the last of the chopped tomatoes and sauce to complete the filling for the fourth wrap."
+  },
+  {
+   "goal_id": "e18",
+   "description": "Roll the fourth wrap and move it to the serving plate.",
+   "action_ids": [
+    "P04-20240413-151722-455",
+    "P04-20240413-151722-456",
+    "P04-20240413-151722-457",
+    "P04-20240413-151722-458",
+    "P04-20240413-151722-459",
+    "P04-20240413-151722-460",
+    "P04-20240413-151722-461",
+    "P04-20240413-151722-462",
+    "P04-20240413-151722-463",
+    "P04-20240413-151722-464",
+    "P04-20240413-151722-465",
+    "P04-20240413-151722-466",
+    "P04-20240413-151722-467",
+    "P04-20240413-151722-468",
+    "P04-20240413-151722-469",
+    "P04-20240413-151722-470",
+    "P04-20240413-151722-471",
+    "P04-20240413-151722-472",
+    "P04-20240413-151722-473",
+    "P04-20240413-151722-474",
+    "P04-20240413-151722-475"
+   ],
+   "rationale": "The person folds and rolls the fourth tortilla, then places the completed wrap onto the serving plate with the others."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P04-20240413-151722-219",
+  "P04-20240413-151722-267",
+  "P04-20240413-151722-268",
+  "P04-20240413-151722-312",
+  "P04-20240413-151722-317",
+  "P04-20240413-151722-318"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

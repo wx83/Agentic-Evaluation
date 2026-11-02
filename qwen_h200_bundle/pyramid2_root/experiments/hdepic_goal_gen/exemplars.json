@@ -1,0 +1,626 @@
+[
+ {
+  "source": "EgoPlan-Bench (EPIC-KITCHENS)",
+  "video_id": "P25_104",
+  "goal": "Stir pasta for the third time and wash hands",
+  "steps": [
+   {
+    "t0": 580.2469135802469,
+    "t1": 583.4501167834501,
+    "narration": "pick up spoon"
+   },
+   {
+    "t0": 581.1644978311646,
+    "t1": 584.4678011344678,
+    "narration": "open lid"
+   },
+   {
+    "t0": 584.9516182849517,
+    "t1": 592.1087754421088,
+    "narration": "stir pasta"
+   },
+   {
+    "t0": 592.2422422422422,
+    "t1": 592.2422422422422,
+    "narration": "close lid (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench (EPIC-KITCHENS)",
+  "video_id": "P01_105",
+  "goal": "Wash knife, cutting board, and peeler",
+  "steps": [
+   {
+    "t0": 1512.595929262596,
+    "t1": 1513.1464798131465,
+    "narration": "pick up knife"
+   },
+   {
+    "t0": 1513.1631631631633,
+    "t1": 1515.6656656656658,
+    "narration": "rinse knife"
+   },
+   {
+    "t0": 1515.7323990657324,
+    "t1": 1516.5165165165165,
+    "narration": "adjust tap"
+   },
+   {
+    "t0": 1516.5165165165165,
+    "t1": 1517.0337003670338,
+    "narration": "put knife onto drying rack"
+   },
+   {
+    "t0": 1517.0337003670338,
+    "t1": 1517.0337003670338,
+    "narration": "pick up cutting board (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench (EPIC-KITCHENS)",
+  "video_id": "P11_103",
+  "goal": "Add kale into the pot and stir",
+  "steps": [
+   {
+    "t0": 25.125125125125127,
+    "t1": 26.309642976309643,
+    "narration": "put down knife"
+   },
+   {
+    "t0": 26.159492826159493,
+    "t1": 26.943610276943613,
+    "narration": "put down chopping board"
+   },
+   {
+    "t0": 27.97797797797798,
+    "t1": 28.795462128795464,
+    "narration": "pick up kale"
+   },
+   {
+    "t0": 28.712045378712048,
+    "t1": 30.997664330997665,
+    "narration": "open kale"
+   },
+   {
+    "t0": 31.08108108108108,
+    "t1": 34.38438438438438,
+    "narration": "pour kale into pot"
+   },
+   {
+    "t0": 35.20186853520187,
+    "t1": 35.20186853520187,
+    "narration": "pick up knife (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench (EPIC-KITCHENS)",
+  "video_id": "P30_109",
+  "goal": "Store clean pot and pan",
+  "steps": [
+   {
+    "t0": 51.818485151818486,
+    "t1": 52.6026026026026,
+    "narration": "pick up plate"
+   },
+   {
+    "t0": 52.16883550216884,
+    "t1": 52.919586252919586,
+    "narration": "open cupboard"
+   },
+   {
+    "t0": 53.11978645311979,
+    "t1": 54.12078745412079,
+    "narration": "put plate into cupboard"
+   },
+   {
+    "t0": 54.03737070403737,
+    "t1": 54.67133800467134,
+    "narration": "put bowl into cupboard"
+   },
+   {
+    "t0": 55.12178845512179,
+    "t1": 55.789122455789126,
+    "narration": "pick up plate"
+   },
+   {
+    "t0": 55.92258925592259,
+    "t1": 56.74007340674007,
+    "narration": "put plate into cupboard"
+   },
+   {
+    "t0": 56.89022355689023,
+    "t1": 56.89022355689023,
+    "narration": "pick up pot lid (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench (EPIC-KITCHENS)",
+  "video_id": "P26_23",
+  "goal": "Cook pasta with sauce",
+  "steps": [
+   {
+    "t0": 0.6339673006339673,
+    "t1": 23.973973973973976,
+    "narration": "drain sauce"
+   },
+   {
+    "t0": 24.074074074074076,
+    "t1": 28.91224557891225,
+    "narration": "put lid"
+   },
+   {
+    "t0": 29.22922922922923,
+    "t1": 30.93093093093093,
+    "narration": "open lid"
+   },
+   {
+    "t0": 30.83083083083083,
+    "t1": 33.60026693360027,
+    "narration": "place lid"
+   },
+   {
+    "t0": 34.567901234567906,
+    "t1": 37.63763763763764,
+    "narration": "place spoon"
+   },
+   {
+    "t0": 36.97030363697031,
+    "t1": 38.05472138805472,
+    "narration": "pick up dish with pasta"
+   },
+   {
+    "t0": 38.48848848848849,
+    "t1": 40.190190190190194,
+    "narration": "put pasta in the pot"
+   },
+   {
+    "t0": 43.10977644310978,
+    "t1": 43.10977644310978,
+    "narration": "set flame (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench (EPIC-KITCHENS)",
+  "video_id": "P01_09",
+  "goal": "Clean up the kitchen and put away ingredients",
+  "steps": [
+   {
+    "t0": 2745.612278945612,
+    "t1": 2747.2472472472473,
+    "narration": "take flour bag"
+   },
+   {
+    "t0": 2747.3473473473473,
+    "t1": 2750.6006006006005,
+    "narration": "take lid and bottle"
+   },
+   {
+    "t0": 2753.42008675342,
+    "t1": 2754.220887554221,
+    "narration": "take lid"
+   },
+   {
+    "t0": 2754.2375709042376,
+    "t1": 2755.839172505839,
+    "narration": "close bottle"
+   },
+   {
+    "t0": 2757.7744411077747,
+    "t1": 2758.641975308642,
+    "narration": "take mozzarella bag"
+   },
+   {
+    "t0": 2760.760760760761,
+    "t1": 2763.446780113447,
+    "narration": "open fridge"
+   },
+   {
+    "t0": 2763.2632632632635,
+    "t1": 2769.3360026693363,
+    "narration": "put sauce into fridge"
+   },
+   {
+    "t0": 2769.285952619286,
+    "t1": 2770.770770770771,
+    "narration": "take beer"
+   },
+   {
+    "t0": 2770.870870870871,
+    "t1": 2772.822822822823,
+    "narration": "put down beer"
+   },
+   {
+    "t0": 2772.922922922923,
+    "t1": 2772.922922922923,
+    "narration": "fold mozzarella bag (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench (EPIC-KITCHENS)",
+  "video_id": "P30_107",
+  "goal": "Remove pak choi from packaging and wash",
+  "steps": [
+   {
+    "t0": 377.19386052719386,
+    "t1": 377.660994327661,
+    "narration": "open cupboard"
+   },
+   {
+    "t0": 377.82782782782783,
+    "t1": 380.0800800800801,
+    "narration": "take colander"
+   },
+   {
+    "t0": 380.7974641307975,
+    "t1": 386.63663663663664,
+    "narration": "wash mushrooms"
+   },
+   {
+    "t0": 389.2225558892226,
+    "t1": 390.52385719052387,
+    "narration": "put colander into sink"
+   },
+   {
+    "t0": 390.57390724057393,
+    "t1": 395.37871204537873,
+    "narration": "empty vegetables into colander"
+   },
+   {
+    "t0": 395.31197864531197,
+    "t1": 399.44944944944945,
+    "narration": "scrape bits out of washing up bowl"
+   },
+   {
+    "t0": 399.9332665999333,
+    "t1": 401.9185852519186,
+    "narration": "shake colander"
+   },
+   {
+    "t0": 404.7380714047381,
+    "t1": 405.28862195528865,
+    "narration": "open cupboard"
+   },
+   {
+    "t0": 405.15515515515517,
+    "t1": 407.3073073073073,
+    "narration": "take bowl"
+   },
+   {
+    "t0": 407.8578578578579,
+    "t1": 408.69202535869204,
+    "narration": "take colander"
+   },
+   {
+    "t0": 408.99232565899234,
+    "t1": 409.8431765098432,
+    "narration": "put colander"
+   },
+   {
+    "t0": 411.49482816149487,
+    "t1": 411.49482816149487,
+    "narration": "turn on tap (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench (EPIC-KITCHENS)",
+  "video_id": "P08_06",
+  "goal": "Clean the hob and sink area",
+  "steps": [
+   {
+    "t0": 301.13446780113446,
+    "t1": 301.7517517517518,
+    "narration": "turn water on"
+   },
+   {
+    "t0": 302.9195862529196,
+    "t1": 305.1718385051719,
+    "narration": "squeeze excess water"
+   },
+   {
+    "t0": 306.47313980647317,
+    "t1": 309.20920920920923,
+    "narration": "clean counter top"
+   },
+   {
+    "t0": 308.9255922589256,
+    "t1": 310.8274941608275,
+    "narration": "move scale"
+   },
+   {
+    "t0": 317.701034367701,
+    "t1": 323.5902569235903,
+    "narration": "clean hob"
+   },
+   {
+    "t0": 325.94260927594263,
+    "t1": 337.7043710377044,
+    "narration": "still clean hob"
+   },
+   {
+    "t0": 344.8114781448115,
+    "t1": 346.312979646313,
+    "narration": "turn water on"
+   },
+   {
+    "t0": 346.8134801468135,
+    "t1": 361.4280947614281,
+    "narration": "clean sink with sponge"
+   },
+   {
+    "t0": 352.1021021021021,
+    "t1": 370.12012012012013,
+    "narration": "still clean sink with sponge"
+   },
+   {
+    "t0": 361.61161161161164,
+    "t1": 362.86286286286287,
+    "narration": "turn water off"
+   },
+   {
+    "t0": 362.962962962963,
+    "t1": 364.96496496496496,
+    "narration": "squeeze excess water in sponge"
+   },
+   {
+    "t0": 366.06606606606607,
+    "t1": 376.32632632632635,
+    "narration": "clean around sink"
+   },
+   {
+    "t0": 377.5275275275275,
+    "t1": 382.2489155822489,
+    "narration": "throw away bits"
+   },
+   {
+    "t0": 382.3823823823824,
+    "t1": 383.5502168835502,
+    "narration": "get tissue"
+   },
+   {
+    "t0": 386.63663663663664,
+    "t1": 386.63663663663664,
+    "narration": "clean sink (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench (EPIC-KITCHENS)",
+  "video_id": "P04_113",
+  "goal": "Putting forks, spoons, ramekin, plates, knife, and scissors in the dishwasher",
+  "steps": [
+   {
+    "t0": 206.65665665665665,
+    "t1": 207.69102435769102,
+    "narration": "pick up fork"
+   },
+   {
+    "t0": 208.14147480814148,
+    "t1": 208.69202535869204,
+    "narration": "put fork in dishwasher"
+   },
+   {
+    "t0": 209.55955955955957,
+    "t1": 210.57724391057724,
+    "narration": "pick up ramekin"
+   },
+   {
+    "t0": 211.27794461127795,
+    "t1": 212.16216216216216,
+    "narration": "take spoons from ramekin"
+   },
+   {
+    "t0": 212.8294961628295,
+    "t1": 213.7303970637304,
+    "narration": "put spoons in cutlery tray"
+   },
+   {
+    "t0": 213.96396396396398,
+    "t1": 214.68134801468136,
+    "narration": "open dishwasher drawer"
+   },
+   {
+    "t0": 214.49783116449785,
+    "t1": 215.5321988655322,
+    "narration": "put ramekin in dishwasher"
+   },
+   {
+    "t0": 216.21621621621622,
+    "t1": 217.1338004671338,
+    "narration": "pick up plate"
+   },
+   {
+    "t0": 217.61761761761764,
+    "t1": 218.11811811811813,
+    "narration": "close dishwasher drawer"
+   },
+   {
+    "t0": 218.78545211878546,
+    "t1": 220.92092092092093,
+    "narration": "put plate in dishwasher"
+   },
+   {
+    "t0": 221.63830497163832,
+    "t1": 222.5558892225559,
+    "narration": "pick up plates"
+   },
+   {
+    "t0": 223.8571905238572,
+    "t1": 225.77577577577577,
+    "narration": "put plate in dishwasher"
+   },
+   {
+    "t0": 226.00934267600934,
+    "t1": 226.42642642642645,
+    "narration": "pick up spoon"
+   },
+   {
+    "t0": 226.42642642642645,
+    "t1": 227.24391057724392,
+    "narration": "put spoon in cutlery tray"
+   },
+   {
+    "t0": 227.19386052719386,
+    "t1": 228.51184517851186,
+    "narration": "put plate in dishwasher"
+   },
+   {
+    "t0": 229.86319652986322,
+    "t1": 231.09776443109777,
+    "narration": "pick up knife and fork"
+   },
+   {
+    "t0": 230.93093093093094,
+    "t1": 232.51584918251586,
+    "narration": "put knife and fork in cutlery tray"
+   },
+   {
+    "t0": 232.48248248248248,
+    "t1": 234.40106773440107,
+    "narration": "lift up dishwasher drawer"
+   },
+   {
+    "t0": 234.40106773440107,
+    "t1": 234.40106773440107,
+    "narration": "close dishwasher drawer (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench (EPIC-KITCHENS)",
+  "video_id": "P03_119",
+  "goal": "Pick up, open, wash, and rinse clip top jar",
+  "steps": [
+   {
+    "t0": 464.69803136469807,
+    "t1": 465.31531531531533,
+    "narration": "pick up clip top jar"
+   },
+   {
+    "t0": 465.98264931598266,
+    "t1": 467.4674674674675,
+    "narration": "open clip top jar"
+   },
+   {
+    "t0": 467.2505839172506,
+    "t1": 467.88455121788456,
+    "narration": "pick up sponge"
+   },
+   {
+    "t0": 467.81781781781785,
+    "t1": 476.2095428762096,
+    "narration": "wash clip top jar"
+   },
+   {
+    "t0": 476.62662662662666,
+    "t1": 479.1291291291291,
+    "narration": "rinse clip top jar"
+   },
+   {
+    "t0": 481.26459793126463,
+    "t1": 481.26459793126463,
+    "narration": "remove seal of clip top jar (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench2 (Ego4D, 30 fps)",
+  "video_id": "043323ee",
+  "goal": "prepare to go out",
+  "steps": [
+   {
+    "t0": 2855.866666666667,
+    "t1": 2858.0666666666666,
+    "narration": "remove coat"
+   },
+   {
+    "t0": 2861.6,
+    "t1": 2863.766666666667,
+    "narration": "pick hanger"
+   },
+   {
+    "t0": 2866.1,
+    "t1": 2868.3,
+    "narration": "hang coat"
+   },
+   {
+    "t0": 2870.8333333333335,
+    "t1": 2873.0,
+    "narration": "select coat"
+   },
+   {
+    "t0": 2875.0333333333333,
+    "t1": 2877.233333333333,
+    "narration": "pick coat"
+   },
+   {
+    "t0": 2877.766666666667,
+    "t1": 2879.9666666666667,
+    "narration": "put back hanger"
+   },
+   {
+    "t0": 2905.6,
+    "t1": 2907.8,
+    "narration": "wear coat"
+   },
+   {
+    "t0": 2942.0666666666666,
+    "t1": 2942.0666666666666,
+    "narration": "remove coat (next action, official answer)"
+   }
+  ]
+ },
+ {
+  "source": "EgoPlan-Bench2 (Ego4D, 30 fps)",
+  "video_id": "45dc74e1",
+  "goal": "cook food",
+  "steps": [
+   {
+    "t0": 282.96666666666664,
+    "t1": 285.76666666666665,
+    "narration": "turn dough"
+   },
+   {
+    "t0": 302.0,
+    "t1": 304.76666666666665,
+    "narration": "place stick on basin"
+   },
+   {
+    "t0": 328.23333333333335,
+    "t1": 330.3666666666667,
+    "narration": "pick cooking stick"
+   },
+   {
+    "t0": 330.3666666666667,
+    "t1": 332.53333333333336,
+    "narration": "stir food"
+   },
+   {
+    "t0": 383.96666666666664,
+    "t1": 386.76666666666665,
+    "narration": "take food with stick"
+   },
+   {
+    "t0": 393.73333333333335,
+    "t1": 396.53333333333336,
+    "narration": "pick bowl"
+   },
+   {
+    "t0": 397.3,
+    "t1": 400.06666666666666,
+    "narration": "put food in basin"
+   },
+   {
+    "t0": 403.03333333333336,
+    "t1": 403.03333333333336,
+    "narration": "place bowl on floor (next action, official answer)"
+   }
+  ]
+ }
+]

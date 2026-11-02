@@ -1,0 +1,71 @@
+{
+ "overall_goal": "Add sweetcorn, season with Worcestershire sauce and apple cider vinegar, and cook the mixture.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Fetch and open the bag of sweetcorn.",
+   "action_ids": [
+    "P02-20240209-184316-903",
+    "P02-20240209-184316-904",
+    "P02-20240209-184316-905",
+    "P02-20240209-184316-906",
+    "P02-20240209-184316-915",
+    "P02-20240209-184316-916",
+    "P02-20240209-184316-917",
+    "P02-20240209-184316-918"
+   ],
+   "rationale": "The person retrieves the sweetcorn from the garage freezer, gets scissors, and cuts the bag open."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Season the food with Worcestershire sauce and apple cider vinegar.",
+   "action_ids": [
+    "P02-20240209-184316-982",
+    "P02-20240209-184316-983",
+    "P02-20240209-184316-989",
+    "P02-20240209-184316-990",
+    "P02-20240209-184316-995",
+    "P02-20240209-184316-996",
+    "P02-20240209-184316-1001",
+    "P02-20240209-184316-1002"
+   ],
+   "rationale": "The person opens and adds Worcestershire sauce and apple cider vinegar to the pan, stirring them into the food."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Add the sweetcorn to the pan and mix it in.",
+   "action_ids": [
+    "P02-20240209-184316-1009",
+    "P02-20240209-184316-1010",
+    "P02-20240209-184316-1017",
+    "P02-20240209-184316-1018",
+    "P02-20240209-184316-1019",
+    "P02-20240209-184316-1020",
+    "P02-20240209-184316-1021",
+    "P02-20240209-184316-1022"
+   ],
+   "rationale": "The person pours the sweetcorn into the pan and stirs and shakes the pan to mix it evenly."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Cook and stir the food mixture.",
+   "action_ids": [
+    "P02-20240209-184316-1055",
+    "P02-20240209-184316-1056",
+    "P02-20240209-184316-1057",
+    "P02-20240209-184316-1109",
+    "P02-20240209-184316-1110",
+    "P02-20240209-184316-1111",
+    "P02-20240209-184316-1112",
+    "P02-20240209-184316-1113",
+    "P02-20240209-184316-1114"
+   ],
+   "rationale": "The person continues to cook the food, stirring, shaking, and scraping the pan to ensure even cooking."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

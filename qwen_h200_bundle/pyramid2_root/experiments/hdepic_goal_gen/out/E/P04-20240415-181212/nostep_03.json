@@ -1,0 +1,91 @@
+{
+ "overall_goal": "Clean up the workspace by putting away ingredients, clearing used utensils to the sink, and wiping the chopping board.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Put away ingredients into the cabinet and refrigerator",
+   "action_ids": [
+    "P04-20240415-181212-562",
+    "P04-20240415-181212-563",
+    "P04-20240415-181212-566",
+    "P04-20240415-181212-567",
+    "P04-20240415-181212-572",
+    "P04-20240415-181212-573",
+    "P04-20240415-181212-574",
+    "P04-20240415-181212-575",
+    "P04-20240415-181212-576",
+    "P04-20240415-181212-577",
+    "P04-20240415-181212-578",
+    "P04-20240415-181212-579",
+    "P04-20240415-181212-599",
+    "P04-20240415-181212-600",
+    "P04-20240415-181212-601",
+    "P04-20240415-181212-602"
+   ],
+   "rationale": "The person seals the salt jar, places the olive oil and salt into the bottom cabinet, and stores the packet of ghee in the refrigerator."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Move used utensils and tools to the sink for washing",
+   "action_ids": [
+    "P04-20240415-181212-564",
+    "P04-20240415-181212-565",
+    "P04-20240415-181212-588",
+    "P04-20240415-181212-589",
+    "P04-20240415-181212-590",
+    "P04-20240415-181212-591",
+    "P04-20240415-181212-592",
+    "P04-20240415-181212-593",
+    "P04-20240415-181212-594",
+    "P04-20240415-181212-595",
+    "P04-20240415-181212-596",
+    "P04-20240415-181212-597",
+    "P04-20240415-181212-598"
+   ],
+   "rationale": "The person gathers a spoon, measuring jug, tumbler, and plastic chopping board, empties leftover food from the tumbler into the bin, and places all the items into the sink."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Organize items on the countertop",
+   "action_ids": [
+    "P04-20240415-181212-568",
+    "P04-20240415-181212-569",
+    "P04-20240415-181212-570",
+    "P04-20240415-181212-571",
+    "P04-20240415-181212-580",
+    "P04-20240415-181212-581",
+    "P04-20240415-181212-582",
+    "P04-20240415-181212-583",
+    "P04-20240415-181212-584",
+    "P04-20240415-181212-585",
+    "P04-20240415-181212-586",
+    "P04-20240415-181212-587"
+   ],
+   "rationale": "The person tidies up the workspace by arranging the mortar and pestle, folding the notebook, capping the pen, and moving the weighing scale."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Wipe the wooden chopping board and dispose of food debris",
+   "action_ids": [
+    "P04-20240415-181212-603",
+    "P04-20240415-181212-604",
+    "P04-20240415-181212-605",
+    "P04-20240415-181212-606",
+    "P04-20240415-181212-607",
+    "P04-20240415-181212-608",
+    "P04-20240415-181212-609",
+    "P04-20240415-181212-610",
+    "P04-20240415-181212-611",
+    "P04-20240415-181212-612",
+    "P04-20240415-181212-613",
+    "P04-20240415-181212-614"
+   ],
+   "rationale": "The person uses a kitchen rag to scrub the wooden chopping board, collects the debris into their hand, and throws it into the rubbish bin."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

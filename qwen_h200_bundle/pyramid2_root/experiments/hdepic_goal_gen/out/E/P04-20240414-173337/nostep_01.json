@@ -1,0 +1,155 @@
+{
+ "overall_goal": "Prepare the cooking station, clean the utensils, and manage the cooking process for making dosas.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve spatulas from the drawers.",
+   "action_ids": [
+    "P04-20240414-173337-184",
+    "P04-20240414-173337-185",
+    "P04-20240414-173337-186",
+    "P04-20240414-173337-187",
+    "P04-20240414-173337-188",
+    "P04-20240414-173337-189",
+    "P04-20240414-173337-190",
+    "P04-20240414-173337-191",
+    "P04-20240414-173337-192",
+    "P04-20240414-173337-193",
+    "P04-20240414-173337-194",
+    "P04-20240414-173337-195",
+    "P04-20240414-173337-196",
+    "P04-20240414-173337-197",
+    "P04-20240414-173337-198",
+    "P04-20240414-173337-199",
+    "P04-20240414-173337-200",
+    "P04-20240414-173337-201"
+   ],
+   "rationale": "The person searches through the kitchen drawers to find and take out the necessary spatulas for cooking."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Wash the spatula and turn on the electric hob.",
+   "action_ids": [
+    "P04-20240414-173337-202",
+    "P04-20240414-173337-203",
+    "P04-20240414-173337-204",
+    "P04-20240414-173337-205",
+    "P04-20240414-173337-206",
+    "P04-20240414-173337-207",
+    "P04-20240414-173337-208"
+   ],
+   "rationale": "The person cleans the retrieved spatula under running water and then turns on the electric hob to start heating the pan."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Check the pan's temperature and prepare the oil.",
+   "action_ids": [
+    "P04-20240414-173337-209",
+    "P04-20240414-173337-210",
+    "P04-20240414-173337-211",
+    "P04-20240414-173337-212",
+    "P04-20240414-173337-213",
+    "P04-20240414-173337-214",
+    "P04-20240414-173337-215",
+    "P04-20240414-173337-216",
+    "P04-20240414-173337-217",
+    "P04-20240414-173337-218",
+    "P04-20240414-173337-219",
+    "P04-20240414-173337-224"
+   ],
+   "rationale": "The person handles the oil cup and sprinkles water on the pan to test if it is hot enough to start cooking."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Retrieve basting brushes from the drawer.",
+   "action_ids": [
+    "P04-20240414-173337-225",
+    "P04-20240414-173337-226",
+    "P04-20240414-173337-227",
+    "P04-20240414-173337-228",
+    "P04-20240414-173337-229"
+   ],
+   "rationale": "The person opens a drawer, searches for, and retrieves basting brushes needed for cooking."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Manage utensils and adjust the hob's heat.",
+   "action_ids": [
+    "P04-20240414-173337-238",
+    "P04-20240414-173337-247",
+    "P04-20240414-173337-259",
+    "P04-20240414-173337-260",
+    "P04-20240414-173337-261",
+    "P04-20240414-173337-262",
+    "P04-20240414-173337-263",
+    "P04-20240414-173337-271",
+    "P04-20240414-173337-272",
+    "P04-20240414-173337-273",
+    "P04-20240414-173337-274",
+    "P04-20240414-173337-277"
+   ],
+   "rationale": "The person adjusts the temperature of the hob and organizes various utensils like the ladle, spatulas, and oil cups on the counter."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Retrieve a plate and organize the cooking counter.",
+   "action_ids": [
+    "P04-20240414-173337-278",
+    "P04-20240414-173337-279",
+    "P04-20240414-173337-280",
+    "P04-20240414-173337-281",
+    "P04-20240414-173337-282",
+    "P04-20240414-173337-287",
+    "P04-20240414-173337-288",
+    "P04-20240414-173337-306",
+    "P04-20240414-173337-307"
+   ],
+   "rationale": "The person moves items on the chopping board, retrieves a large plate from the cabinet, and turns off the hob."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Clean the pan and spatula by scraping off leftover dosa bits.",
+   "action_ids": [
+    "P04-20240414-173337-310",
+    "P04-20240414-173337-311",
+    "P04-20240414-173337-312",
+    "P04-20240414-173337-313",
+    "P04-20240414-173337-314",
+    "P04-20240414-173337-315",
+    "P04-20240414-173337-316",
+    "P04-20240414-173337-317",
+    "P04-20240414-173337-318",
+    "P04-20240414-173337-319"
+   ],
+   "rationale": "The person uses a wooden spatula to scrape off and remove stuck bits of dosa from the metallic spatula and the pan."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Drizzle oil on the dosa and manage the cooking utensils.",
+   "action_ids": [
+    "P04-20240414-173337-320",
+    "P04-20240414-173337-321",
+    "P04-20240414-173337-322",
+    "P04-20240414-173337-331",
+    "P04-20240414-173337-332",
+    "P04-20240414-173337-339",
+    "P04-20240414-173337-342",
+    "P04-20240414-173337-346",
+    "P04-20240414-173337-347",
+    "P04-20240414-173337-348",
+    "P04-20240414-173337-357",
+    "P04-20240414-173337-359",
+    "P04-20240414-173337-376",
+    "P04-20240414-173337-377"
+   ],
+   "rationale": "The person handles the oil and ghee cups, drizzles oil onto the cooking dosa, and manages the ladle and spatula."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P04-20240414-173337-358"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

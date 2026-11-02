@@ -1,0 +1,63 @@
+{
+ "overall_goal": "Add garam masala, salt, and green peas to the cooker and stir",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Add garam masala to the cooker and stir",
+   "action_ids": [
+    "P04-20240415-181212-343",
+    "P04-20240415-181212-344",
+    "P04-20240415-181212-376",
+    "P04-20240415-181212-377",
+    "P04-20240415-181212-378",
+    "P04-20240415-181212-379",
+    "P04-20240415-181212-382"
+   ],
+   "rationale": "The person positions the ingredients, transfers the garam masala powder into the pressure cooker, and stirs the mixture."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Add salt to the cooker and stir",
+   "action_ids": [
+    "P04-20240415-181212-386",
+    "P04-20240415-181212-387",
+    "P04-20240415-181212-388",
+    "P04-20240415-181212-391",
+    "P04-20240415-181212-392",
+    "P04-20240415-181212-393",
+    "P04-20240415-181212-394",
+    "P04-20240415-181212-395",
+    "P04-20240415-181212-396",
+    "P04-20240415-181212-400",
+    "P04-20240415-181212-401"
+   ],
+   "rationale": "The person opens the salt jar, retrieves a spoon from the drawer, adds salt to the pressure cooker, and stirs the contents."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Add green peas to the cooker and stir",
+   "action_ids": [
+    "P04-20240415-181212-403",
+    "P04-20240415-181212-404",
+    "P04-20240415-181212-405",
+    "P04-20240415-181212-406",
+    "P04-20240415-181212-418",
+    "P04-20240415-181212-422",
+    "P04-20240415-181212-423",
+    "P04-20240415-181212-426",
+    "P04-20240415-181212-427",
+    "P04-20240415-181212-428",
+    "P04-20240415-181212-429"
+   ],
+   "rationale": "The person transfers green peas from a bowl into the pressure cooker and thoroughly stirs the ingredients together."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P04-20240415-181212-341",
+  "P04-20240415-181212-342"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

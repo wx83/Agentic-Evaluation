@@ -1,0 +1,40 @@
+{
+ "overall_goal": "Toast ground black pepper in a frying pan",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve a spatula and open the black pepper jar",
+   "action_ids": [
+    "P01-20240202-161948-43",
+    "P01-20240202-161948-44",
+    "P01-20240202-161948-45",
+    "P01-20240202-161948-46",
+    "P01-20240202-161948-57",
+    "P01-20240202-161948-56",
+    "P01-20240202-161948-58",
+    "P01-20240202-161948-59",
+    "P01-20240202-161948-60"
+   ],
+   "rationale": "The person gets a wooden spatula from the drawer to stir the pepper later, then picks up and struggles to open the black pepper jar."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Grind black pepper into the frying pan",
+   "action_ids": [
+    "P01-20240202-161948-62",
+    "P01-20240202-161948-63",
+    "P01-20240202-161948-64",
+    "P01-20240202-161948-65",
+    "P01-20240202-161948-70",
+    "P01-20240202-161948-71",
+    "P01-20240202-161948-72"
+   ],
+   "rationale": "The person repeatedly grinds peppercorns into the pan and shakes the jar to ensure all the ground pepper falls in."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

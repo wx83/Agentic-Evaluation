@@ -1,0 +1,251 @@
+[
+ {
+  "score": 26,
+  "dom": "beep",
+  "video": "P04-20240415-181212",
+  "recipe": "Peas Pulao",
+  "step": "S06: Add 300ml of water and 1tbsp of lemon juice followed by the drained ba",
+  "sub_goal": "Fill the measuring jug with water",
+  "goal_id": "E_g9",
+  "start": "5:55.8",
+  "end": "6:38.9",
+  "start_s": 355.82,
+  "end_s": 398.89,
+  "dur": 43,
+  "n_narr": 20,
+  "label": "audio_critical",
+  "sounds_starting_inside": {
+   "click": 2,
+   "beep": 6,
+   "water": 5
+  },
+  "keywords": [
+   "pour"
+  ]
+ },
+ {
+  "score": 24,
+  "dom": "beep",
+  "video": "P03-20240218-190556",
+  "recipe": "Beef Stroganoff",
+  "step": "S02: Boil the potatoes for 15-20 mins or until soft, then drain.",
+  "sub_goal": "Fill the saucepan with hot water and set it on the hob to boil.",
+  "goal_id": "E_g10",
+  "start": "11:00.1",
+  "end": "11:17.0",
+  "start_s": 660.06,
+  "end_s": 677.02,
+  "dur": 17,
+  "n_narr": 8,
+  "label": "audio_critical",
+  "sounds_starting_inside": {
+   "water": 3,
+   "click": 1,
+   "beep": 1
+  },
+  "keywords": [
+   "boil",
+   "hob",
+   "tap",
+   "turn on"
+  ]
+ },
+ {
+  "score": 20,
+  "dom": "beep",
+  "video": "P04-20240414-173337",
+  "recipe": "Masala Dosa",
+  "step": "S05: Roast the dosa until it turns golden brown in colour and then remove i",
+  "sub_goal": "Scrape the broken dosa from the pan and transfer it to a plate",
+  "goal_id": "E_g19",
+  "start": "11:06.2",
+  "end": "11:53.0",
+  "start_s": 666.24,
+  "end_s": 713.01,
+  "dur": 47,
+  "n_narr": 9,
+  "label": "audio_critical",
+  "sounds_starting_inside": {
+   "beep": 5
+  },
+  "keywords": [
+   "hob",
+   "scale",
+   "weigh"
+  ]
+ },
+ {
+  "score": 18,
+  "dom": "sizzling / boiling",
+  "video": "P06-20240510-090328",
+  "recipe": "Uttapam Pancake",
+  "step": "S04: When the pan is hot enough, pour a ladle full of batter in the centre ",
+  "sub_goal": "Pour and spread the batter evenly in the frying pan",
+  "goal_id": "E_g19",
+  "start": "17:52.2",
+  "end": "18:31.2",
+  "start_s": 1072.21,
+  "end_s": 1111.24,
+  "dur": 39,
+  "n_narr": 6,
+  "label": "audio_critical",
+  "sounds_starting_inside": {
+   "sizzling / boiling": 3
+  },
+  "keywords": [
+   "fry",
+   "pour"
+  ]
+ },
+ {
+  "score": 18,
+  "dom": "sizzling / boiling",
+  "video": "P08-20240617-184909",
+  "recipe": "Fish Cakes and Vegetables",
+  "step": "S04: Boil water for couscous (170 ml)",
+  "sub_goal": "Fill the kettle with water and turn it on to boil",
+  "goal_id": "E_g18",
+  "start": "6:34.4",
+  "end": "6:54.8",
+  "start_s": 394.39,
+  "end_s": 414.75,
+  "dur": 20,
+  "n_narr": 8,
+  "label": "audio_critical",
+  "sounds_starting_inside": {
+   "water": 1,
+   "sizzling / boiling": 1
+  },
+  "keywords": [
+   "boil",
+   "kettle",
+   "tap",
+   "turn on"
+  ]
+ },
+ {
+  "score": 17,
+  "dom": "water",
+  "video": "P02-20240209-184316",
+  "recipe": "Mushroom, Tomato, Sweetcorn and Onion Saute",
+  "step": "S01: Preheat the pan over medium low heat then add 2 tablespoons olive oil.",
+  "sub_goal": "Pour and spread oil in the pan.",
+  "goal_id": "E_g41",
+  "start": "7:48.7",
+  "end": "8:17.3",
+  "start_s": 468.74,
+  "end_s": 497.32,
+  "dur": 29,
+  "n_narr": 6,
+  "label": "audio_critical",
+  "sounds_starting_inside": {
+   "water": 2
+  },
+  "keywords": [
+   "fry",
+   "heat",
+   "hob",
+   "pour"
+  ]
+ },
+ {
+  "score": 17,
+  "dom": "water",
+  "video": "P03-20240217-131219",
+  "recipe": "Red Lentils Squash Curry",
+  "step": "S01: Rinse lentils",
+  "sub_goal": "Rinse and drain the lentils multiple times.",
+  "goal_id": "E_g4",
+  "start": "2:26.4",
+  "end": "3:15.4",
+  "start_s": 146.41,
+  "end_s": 195.38,
+  "dur": 49,
+  "n_narr": 9,
+  "label": "audio_helpful",
+  "sounds_starting_inside": {
+   "water": 8
+  },
+  "keywords": [
+   "rinse",
+   "scale",
+   "tap",
+   "turn on"
+  ]
+ },
+ {
+  "score": 17,
+  "dom": "kettle / mixer / appliance",
+  "video": "P03-20240217-192543",
+  "recipe": "Pizza with Aubergine and Egg",
+  "step": "S02: Fry the aubergine with sunflower oil until it's very soft. Add salt an",
+  "sub_goal": "Add the aubergine to the pan and start stirring",
+  "goal_id": "E_g6",
+  "start": "5:47.7",
+  "end": "6:37.8",
+  "start_s": 347.72,
+  "end_s": 397.84,
+  "dur": 50,
+  "n_narr": 6,
+  "label": "audio_critical",
+  "sounds_starting_inside": {
+   "water": 1,
+   "kettle / mixer / appliance": 1,
+   "sizzling / boiling": 1
+  },
+  "keywords": [
+   "fry",
+   "pour"
+  ]
+ },
+ {
+  "score": 16,
+  "dom": "sizzling / boiling",
+  "video": "P06-20240510-090328",
+  "recipe": "Uttapam Pancake",
+  "step": "S03: Take a frying pan and place it on gas stove to heat it up. Place some ",
+  "sub_goal": "Melt and spread butter on the heated pan",
+  "goal_id": "E_g17",
+  "start": "17:18.2",
+  "end": "17:44.6",
+  "start_s": 1038.16,
+  "end_s": 1064.6,
+  "dur": 26,
+  "n_narr": 8,
+  "label": "audio_critical",
+  "sounds_starting_inside": {
+   "sizzling / boiling": 1
+  },
+  "keywords": [
+   "flame",
+   "fry",
+   "heat",
+   "stove"
+  ]
+ },
+ {
+  "score": 14,
+  "dom": "kettle / mixer / appliance",
+  "video": "P03-20240217-131219",
+  "recipe": "Red Lentils Squash Curry",
+  "step": "S05: Fry the onion until golden (around 6-8 mins)",
+  "sub_goal": "Add oil and transfer the chopped onions into the frying pan",
+  "goal_id": "E_g37",
+  "start": "22:18.4",
+  "end": "23:05.0",
+  "start_s": 1338.43,
+  "end_s": 1384.97,
+  "dur": 47,
+  "n_narr": 5,
+  "label": "audio_helpful",
+  "sounds_starting_inside": {
+   "kettle / mixer / appliance": 1
+  },
+  "keywords": [
+   "fry",
+   "hob",
+   "pour",
+   "tap"
+  ]
+ }
+]

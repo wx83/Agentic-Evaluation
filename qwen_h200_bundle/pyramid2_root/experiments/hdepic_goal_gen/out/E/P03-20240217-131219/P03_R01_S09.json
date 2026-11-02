@@ -1,0 +1,60 @@
+{
+ "overall_goal": "Add coconut milk and water to the curry and stir.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare and open the coconut milk can.",
+   "action_ids": [
+    "P03-20240217-131219-491",
+    "P03-20240217-131219-783",
+    "P03-20240217-131219-784",
+    "P03-20240217-131219-785",
+    "P03-20240217-131219-786",
+    "P03-20240217-131219-787",
+    "P03-20240217-131219-788",
+    "P03-20240217-131219-789",
+    "P03-20240217-131219-790",
+    "P03-20240217-131219-791"
+   ],
+   "rationale": "The person reads the label, retrieves a can opener from a drawer, clears space, and opens the coconut milk can."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Pour the coconut milk into the pan and stir the mixture.",
+   "action_ids": [
+    "P03-20240217-131219-792",
+    "P03-20240217-131219-793",
+    "P03-20240217-131219-794",
+    "P03-20240217-131219-795",
+    "P03-20240217-131219-796",
+    "P03-20240217-131219-797",
+    "P03-20240217-131219-798"
+   ],
+   "rationale": "The person empties the coconut milk into the frying pan, picks up a spatula, and stirs the ingredients together."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Add water to the pan and stir the ingredients.",
+   "action_ids": [
+    "P03-20240217-131219-832",
+    "P03-20240217-131219-833",
+    "P03-20240217-131219-834",
+    "P03-20240217-131219-835",
+    "P03-20240217-131219-836",
+    "P03-20240217-131219-837",
+    "P03-20240217-131219-838",
+    "P03-20240217-131219-847",
+    "P03-20240217-131219-848"
+   ],
+   "rationale": "The person fills a glass with tap water, pours it into the pan to dilute the curry, puts the glass away on the drying rack, and stirs the pan again."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P03-20240217-131219-492",
+  "P03-20240217-131219-831"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

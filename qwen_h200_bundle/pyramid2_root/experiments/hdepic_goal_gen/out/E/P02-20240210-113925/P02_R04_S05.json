@@ -1,0 +1,55 @@
+{
+ "overall_goal": "Season the eggs with salt and paprika.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Season the eggs with salt.",
+   "action_ids": [
+    "P02-20240210-113925-356",
+    "P02-20240210-113925-357",
+    "P02-20240210-113925-358",
+    "P02-20240210-113925-361",
+    "P02-20240210-113925-359",
+    "P02-20240210-113925-362",
+    "P02-20240210-113925-360",
+    "P02-20240210-113925-363"
+   ],
+   "rationale": "The person pours salt into their hand and sprinkles it into the egg mixture."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Scramble the eggs in the pan.",
+   "action_ids": [
+    "P02-20240210-113925-364",
+    "P02-20240210-113925-365",
+    "P02-20240210-113925-366",
+    "P02-20240210-113925-367",
+    "P02-20240210-113925-368"
+   ],
+   "rationale": "The person uses a spatula to stir and scramble the eggs, then shakes the pan to distribute them evenly."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Season the eggs with paprika.",
+   "action_ids": [
+    "P02-20240210-113925-375",
+    "P02-20240210-113925-379",
+    "P02-20240210-113925-380",
+    "P02-20240210-113925-381",
+    "P02-20240210-113925-382",
+    "P02-20240210-113925-383",
+    "P02-20240210-113925-384"
+   ],
+   "rationale": "The person opens the paprika jar and shakes the spice into the scrambled eggs."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P02-20240210-113925-376",
+  "P02-20240210-113925-377",
+  "P02-20240210-113925-378"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

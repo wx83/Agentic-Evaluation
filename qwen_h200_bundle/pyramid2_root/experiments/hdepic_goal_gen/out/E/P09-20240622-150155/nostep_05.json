@@ -1,0 +1,180 @@
+{
+ "overall_goal": "Prepare ingredients by checking doneness, weighing cheese, shredding chicken, and mixing with spices.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve a potato masher from the drawer.",
+   "action_ids": [
+    "P09-20240622-150155-787",
+    "P09-20240622-150155-788",
+    "P09-20240622-150155-789",
+    "P09-20240622-150155-790"
+   ],
+   "rationale": "The person opens a drawer, rummages, and takes out a potato masher."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Rearrange pans and check the doneness of the chicken and potatoes.",
+   "action_ids": [
+    "P09-20240622-150155-793",
+    "P09-20240622-150155-794",
+    "P09-20240622-150155-795",
+    "P09-20240622-150155-797",
+    "P09-20240622-150155-798",
+    "P09-20240622-150155-799",
+    "P09-20240622-150155-800",
+    "P09-20240622-150155-804",
+    "P09-20240622-150155-823",
+    "P09-20240622-150155-824",
+    "P09-20240622-150155-826",
+    "P09-20240622-150155-841",
+    "P09-20240622-150155-842",
+    "P09-20240622-150155-843",
+    "P09-20240622-150155-844",
+    "P09-20240622-150155-845",
+    "P09-20240622-150155-846",
+    "P09-20240622-150155-847",
+    "P09-20240622-150155-933",
+    "P09-20240622-150155-971",
+    "P09-20240622-150155-972"
+   ],
+   "rationale": "The person moves the saucepans on the hob, adjusts the heat, and repeatedly uses a fork to check if the chicken and potatoes are cooked through."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Retrieve cheese from the fridge and weigh it on the scale.",
+   "action_ids": [
+    "P09-20240622-150155-810",
+    "P09-20240622-150155-811",
+    "P09-20240622-150155-812",
+    "P09-20240622-150155-813",
+    "P09-20240622-150155-827",
+    "P09-20240622-150155-828",
+    "P09-20240622-150155-829",
+    "P09-20240622-150155-830",
+    "P09-20240622-150155-831",
+    "P09-20240622-150155-832",
+    "P09-20240622-150155-833",
+    "P09-20240622-150155-834",
+    "P09-20240622-150155-835",
+    "P09-20240622-150155-836",
+    "P09-20240622-150155-837",
+    "P09-20240622-150155-838",
+    "P09-20240622-150155-839",
+    "P09-20240622-150155-840"
+   ],
+   "rationale": "The person gets a bag of cheese from the fridge, sets up a scale, and begins measuring out the grated cheese."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Drain the chicken and transfer the potatoes to a new saucepan.",
+   "action_ids": [
+    "P09-20240622-150155-852",
+    "P09-20240622-150155-855",
+    "P09-20240622-150155-856",
+    "P09-20240622-150155-857",
+    "P09-20240622-150155-858",
+    "P09-20240622-150155-859",
+    "P09-20240622-150155-860",
+    "P09-20240622-150155-861",
+    "P09-20240622-150155-862",
+    "P09-20240622-150155-863",
+    "P09-20240622-150155-864",
+    "P09-20240622-150155-865",
+    "P09-20240622-150155-866",
+    "P09-20240622-150155-867",
+    "P09-20240622-150155-868",
+    "P09-20240622-150155-869",
+    "P09-20240622-150155-870",
+    "P09-20240622-150155-871"
+   ],
+   "rationale": "The person removes chicken bits from the pot, empties the hot water into the sink, and transfers the boiled potatoes into a different saucepan to continue cooking."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Weigh additional cheese on the scale.",
+   "action_ids": [
+    "P09-20240622-150155-872",
+    "P09-20240622-150155-873",
+    "P09-20240622-150155-874",
+    "P09-20240622-150155-875",
+    "P09-20240622-150155-876",
+    "P09-20240622-150155-877",
+    "P09-20240622-150155-878",
+    "P09-20240622-150155-879",
+    "P09-20240622-150155-880",
+    "P09-20240622-150155-881",
+    "P09-20240622-150155-882",
+    "P09-20240622-150155-883",
+    "P09-20240622-150155-884",
+    "P09-20240622-150155-885",
+    "P09-20240622-150155-886",
+    "P09-20240622-150155-887",
+    "P09-20240622-150155-888",
+    "P09-20240622-150155-889",
+    "P09-20240622-150155-890",
+    "P09-20240622-150155-891",
+    "P09-20240622-150155-892",
+    "P09-20240622-150155-893",
+    "P09-20240622-150155-894",
+    "P09-20240622-150155-895"
+   ],
+   "rationale": "The person continues to retrieve grated cheese from the bag, carefully placing it on the scale and picking up any spilled pieces."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Shred the cooked chicken and transfer it to a bowl.",
+   "action_ids": [
+    "P09-20240622-150155-853",
+    "P09-20240622-150155-854",
+    "P09-20240622-150155-896",
+    "P09-20240622-150155-897",
+    "P09-20240622-150155-898",
+    "P09-20240622-150155-899",
+    "P09-20240622-150155-900",
+    "P09-20240622-150155-901",
+    "P09-20240622-150155-902",
+    "P09-20240622-150155-903",
+    "P09-20240622-150155-904",
+    "P09-20240622-150155-905",
+    "P09-20240622-150155-906",
+    "P09-20240622-150155-907",
+    "P09-20240622-150155-908",
+    "P09-20240622-150155-909",
+    "P09-20240622-150155-911",
+    "P09-20240622-150155-910",
+    "P09-20240622-150155-912",
+    "P09-20240622-150155-916"
+   ],
+   "rationale": "The person uses two forks to shred the chicken on a chop board, retrieves a bowl from the cupboard, and scoops the shredded chicken into it."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Mix the shredded chicken with spices and clean the workspace.",
+   "action_ids": [
+    "P09-20240622-150155-949",
+    "P09-20240622-150155-962",
+    "P09-20240622-150155-963",
+    "P09-20240622-150155-964",
+    "P09-20240622-150155-965",
+    "P09-20240622-150155-966",
+    "P09-20240622-150155-969",
+    "P09-20240622-150155-970"
+   ],
+   "rationale": "The person mixes the chicken and spices in the bowl, wipes the counter and their hands with a napkin, and places the empty bowl in the sink."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P09-20240622-150155-805",
+  "P09-20240622-150155-806",
+  "P09-20240622-150155-807",
+  "P09-20240622-150155-808",
+  "P09-20240622-150155-809",
+  "P09-20240622-150155-820",
+  "P09-20240622-150155-822"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

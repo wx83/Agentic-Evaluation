@@ -1,0 +1,21 @@
+{
+ "overall_goal": "Place the cookie dough trays in the oven to bake.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Put the baking trays into the oven.",
+   "action_ids": [
+    "P07-20240530-102543-615",
+    "P07-20240530-102543-616",
+    "P07-20240530-102543-617",
+    "P07-20240530-102543-618"
+   ],
+   "rationale": "The person carries the trays of cookie dough to the oven, opens the door, and places both trays inside."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

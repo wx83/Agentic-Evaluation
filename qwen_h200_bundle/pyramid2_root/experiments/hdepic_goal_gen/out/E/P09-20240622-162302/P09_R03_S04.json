@@ -1,0 +1,131 @@
+{
+ "overall_goal": "Sweeten the hibiscus drink and store it in the fridge to cool",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve sugar and measuring tools",
+   "action_ids": [
+    "P09-20240622-162302-73",
+    "P09-20240622-162302-132",
+    "P09-20240622-162302-133",
+    "P09-20240622-162302-134",
+    "P09-20240622-162302-135",
+    "P09-20240622-162302-136",
+    "P09-20240622-162302-137",
+    "P09-20240622-162302-152",
+    "P09-20240622-162302-153",
+    "P09-20240622-162302-154",
+    "P09-20240622-162302-155",
+    "P09-20240622-162302-156",
+    "P09-20240622-162302-157",
+    "P09-20240622-162302-160",
+    "P09-20240622-162302-161",
+    "P09-20240622-162302-162",
+    "P09-20240622-162302-163",
+    "P09-20240622-162302-164"
+   ],
+   "rationale": "The person collects all necessary ingredients and utensils to measure the sugar."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Measure and dissolve the sugar",
+   "action_ids": [
+    "P09-20240622-162302-185",
+    "P09-20240622-162302-186",
+    "P09-20240622-162302-206",
+    "P09-20240622-162302-207",
+    "P09-20240622-162302-208",
+    "P09-20240622-162302-209",
+    "P09-20240622-162302-210",
+    "P09-20240622-162302-211",
+    "P09-20240622-162302-212",
+    "P09-20240622-162302-213"
+   ],
+   "rationale": "The person prepares a sugar syrup by dissolving the measured sugar in hot water before adding it to the drink."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Add the dissolved sugar and hibiscus drink to a plastic bottle",
+   "action_ids": [
+    "P09-20240622-162302-215",
+    "P09-20240622-162302-216",
+    "P09-20240622-162302-217",
+    "P09-20240622-162302-218",
+    "P09-20240622-162302-219",
+    "P09-20240622-162302-220",
+    "P09-20240622-162302-221",
+    "P09-20240622-162302-222",
+    "P09-20240622-162302-223",
+    "P09-20240622-162302-224",
+    "P09-20240622-162302-225"
+   ],
+   "rationale": "The person begins transferring the sweetened drink into a bottle for storage."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Wash a beaker",
+   "action_ids": [
+    "P09-20240622-162302-226",
+    "P09-20240622-162302-228",
+    "P09-20240622-162302-229",
+    "P09-20240622-162302-230",
+    "P09-20240622-162302-231",
+    "P09-20240622-162302-232",
+    "P09-20240622-162302-233",
+    "P09-20240622-162302-234",
+    "P09-20240622-162302-235",
+    "P09-20240622-162302-236",
+    "P09-20240622-162302-237",
+    "P09-20240622-162302-238",
+    "P09-20240622-162302-239",
+    "P09-20240622-162302-240",
+    "P09-20240622-162302-241",
+    "P09-20240622-162302-242",
+    "P09-20240622-162302-243",
+    "P09-20240622-162302-244",
+    "P09-20240622-162302-245"
+   ],
+   "rationale": "The person cleans a beaker to use it as a vessel for transferring the rest of the drink."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Transfer the remaining hibiscus drink into the plastic bottle",
+   "action_ids": [
+    "P09-20240622-162302-246",
+    "P09-20240622-162302-247",
+    "P09-20240622-162302-248",
+    "P09-20240622-162302-249",
+    "P09-20240622-162302-250",
+    "P09-20240622-162302-251",
+    "P09-20240622-162302-252",
+    "P09-20240622-162302-253",
+    "P09-20240622-162302-254",
+    "P09-20240622-162302-255",
+    "P09-20240622-162302-283"
+   ],
+   "rationale": "The person uses the clean beaker to safely pour the remaining drink into the narrow mouth of the plastic bottle."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Store the hibiscus drink in the fridge",
+   "action_ids": [
+    "P09-20240622-162302-586",
+    "P09-20240622-162302-587",
+    "P09-20240622-162302-588",
+    "P09-20240622-162302-589",
+    "P09-20240622-162302-590",
+    "P09-20240622-162302-591",
+    "P09-20240622-162302-592"
+   ],
+   "rationale": "The person puts the finished drink in the refrigerator to cool, completing the recipe step."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P09-20240622-162302-284",
+  "P09-20240622-162302-285"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

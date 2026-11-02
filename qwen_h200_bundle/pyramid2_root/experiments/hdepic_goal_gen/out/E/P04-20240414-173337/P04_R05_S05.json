@@ -1,0 +1,82 @@
+{
+ "overall_goal": "Roast the dosa, fold it, and remove it from the pan",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Loosen the dosa from the pan and attempt to fold it",
+   "action_ids": [
+    "P04-20240414-173337-275",
+    "P04-20240414-173337-276",
+    "P04-20240414-173337-289",
+    "P04-20240414-173337-290",
+    "P04-20240414-173337-291",
+    "P04-20240414-173337-292",
+    "P04-20240414-173337-293",
+    "P04-20240414-173337-294",
+    "P04-20240414-173337-295",
+    "P04-20240414-173337-296",
+    "P04-20240414-173337-297",
+    "P04-20240414-173337-298"
+   ],
+   "rationale": "The person uses a spatula to check, loosen, and try to fold the dosa, but it begins to break."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Scrape the broken dosa from the pan and transfer it to a plate",
+   "action_ids": [
+    "P04-20240414-173337-299",
+    "P04-20240414-173337-300",
+    "P04-20240414-173337-301",
+    "P04-20240414-173337-302",
+    "P04-20240414-173337-303",
+    "P04-20240414-173337-304",
+    "P04-20240414-173337-305",
+    "P04-20240414-173337-308",
+    "P04-20240414-173337-309"
+   ],
+   "rationale": "The person clears space on the counter, brings a plate closer, and scrapes the broken pieces of dosa off the pan onto the plate."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Clean the spatula",
+   "action_ids": [
+    "P04-20240414-173337-360",
+    "P04-20240414-173337-361",
+    "P04-20240414-173337-362",
+    "P04-20240414-173337-363",
+    "P04-20240414-173337-364"
+   ],
+   "rationale": "The person uses a knife to scrape off the bits of dosa stuck to the spatula."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Loosen and attempt to fold another dosa",
+   "action_ids": [
+    "P04-20240414-173337-365",
+    "P04-20240414-173337-367",
+    "P04-20240414-173337-366",
+    "P04-20240414-173337-368",
+    "P04-20240414-173337-369"
+   ],
+   "rationale": "The person slides the spatula under the dosa to lift and fold it, but it breaks down again."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Turn off the hob and transfer the remaining broken dosa to the plate",
+   "action_ids": [
+    "P04-20240414-173337-370",
+    "P04-20240414-173337-371",
+    "P04-20240414-173337-372",
+    "P04-20240414-173337-373",
+    "P04-20240414-173337-374",
+    "P04-20240414-173337-375"
+   ],
+   "rationale": "The person turns off the heat, moves the pan to the plate, and scrapes the rest of the broken dosa onto the plate."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "overall_goal": "Retrieve the minced beef from the refrigerator and place it on the counter",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Take the minced beef out of the refrigerator and place it on the kitchen counter",
+   "action_ids": [
+    "P08-20240618-163547-9",
+    "P08-20240618-163547-10",
+    "P08-20240618-163547-11",
+    "P08-20240618-163547-12"
+   ],
+   "rationale": "The person opens the refrigerator drawer, takes out the food, and carries it to the counter to prepare for cooking."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

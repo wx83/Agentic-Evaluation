@@ -1,0 +1,201 @@
+{
+ "overall_goal": "Prepare mushrooms by washing and slicing them, and gather other ingredients and cookware.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Take out mushrooms from the box",
+   "action_ids": [
+    "P03-20240217-192543-209",
+    "P03-20240217-192543-210",
+    "P03-20240217-192543-211",
+    "P03-20240217-192543-212",
+    "P03-20240217-192543-213",
+    "P03-20240217-192543-214",
+    "P03-20240217-192543-215",
+    "P03-20240217-192543-216",
+    "P03-20240217-192543-221",
+    "P03-20240217-192543-217",
+    "P03-20240217-192543-218",
+    "P03-20240217-192543-219",
+    "P03-20240217-192543-220",
+    "P03-20240217-192543-222",
+    "P03-20240217-192543-223",
+    "P03-20240217-192543-224"
+   ],
+   "rationale": "The person opens the box of mushrooms and takes out several mushrooms, placing them on the kitchen top."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Store the remaining mushrooms in the fridge",
+   "action_ids": [
+    "P03-20240217-192543-225",
+    "P03-20240217-192543-226",
+    "P03-20240217-192543-227",
+    "P03-20240217-192543-228",
+    "P03-20240217-192543-229",
+    "P03-20240217-192543-230",
+    "P03-20240217-192543-231",
+    "P03-20240217-192543-232"
+   ],
+   "rationale": "The person opens the fridge, places the box of mushrooms inside, and rearranges other items to ensure the fridge door can close."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Wash the first batch of mushrooms",
+   "action_ids": [
+    "P03-20240217-192543-237",
+    "P03-20240217-192543-238",
+    "P03-20240217-192543-239",
+    "P03-20240217-192543-240",
+    "P03-20240217-192543-242",
+    "P03-20240217-192543-241",
+    "P03-20240217-192543-243",
+    "P03-20240217-192543-244",
+    "P03-20240217-192543-245",
+    "P03-20240217-192543-246",
+    "P03-20240217-192543-247",
+    "P03-20240217-192543-248",
+    "P03-20240217-192543-249",
+    "P03-20240217-192543-250",
+    "P03-20240217-192543-251",
+    "P03-20240217-192543-252",
+    "P03-20240217-192543-253"
+   ],
+   "rationale": "The person turns on the tap and washes several mushrooms one by one, shaking off excess water and placing them into a colander."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Wash the remaining mushrooms and check for cleanliness",
+   "action_ids": [
+    "P03-20240217-192543-254",
+    "P03-20240217-192543-255",
+    "P03-20240217-192543-256",
+    "P03-20240217-192543-257",
+    "P03-20240217-192543-258",
+    "P03-20240217-192543-259",
+    "P03-20240217-192543-260",
+    "P03-20240217-192543-262",
+    "P03-20240217-192543-261",
+    "P03-20240217-192543-263",
+    "P03-20240217-192543-264",
+    "P03-20240217-192543-265",
+    "P03-20240217-192543-266",
+    "P03-20240217-192543-267",
+    "P03-20240217-192543-271",
+    "P03-20240217-192543-268",
+    "P03-20240217-192543-269",
+    "P03-20240217-192543-270",
+    "P03-20240217-192543-273",
+    "P03-20240217-192543-272"
+   ],
+   "rationale": "The person finishes washing the last mushrooms, re-washes one that still had soil, inspects the washed mushrooms, turns off the tap, and moves the colander."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Prepare the knife and slice the first few mushrooms",
+   "action_ids": [
+    "P03-20240217-192543-282",
+    "P03-20240217-192543-283",
+    "P03-20240217-192543-284",
+    "P03-20240217-192543-285",
+    "P03-20240217-192543-286",
+    "P03-20240217-192543-287",
+    "P03-20240217-192543-288",
+    "P03-20240217-192543-289",
+    "P03-20240217-192543-290",
+    "P03-20240217-192543-291",
+    "P03-20240217-192543-292",
+    "P03-20240217-192543-293",
+    "P03-20240217-192543-294",
+    "P03-20240217-192543-295"
+   ],
+   "rationale": "The person wipes the knife clean and begins slicing the washed mushrooms into thin strips on the chopping board."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Slice the remaining mushrooms and move the chopping board",
+   "action_ids": [
+    "P03-20240217-192543-296",
+    "P03-20240217-192543-297",
+    "P03-20240217-192543-298",
+    "P03-20240217-192543-299",
+    "P03-20240217-192543-300",
+    "P03-20240217-192543-301",
+    "P03-20240217-192543-302",
+    "P03-20240217-192543-303",
+    "P03-20240217-192543-304",
+    "P03-20240217-192543-305",
+    "P03-20240217-192543-306",
+    "P03-20240217-192543-307",
+    "P03-20240217-192543-308",
+    "P03-20240217-192543-309"
+   ],
+   "rationale": "The person finishes slicing the rest of the mushrooms, cuts a thick slice in half, and moves the chopping board with the sliced mushrooms aside."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Dispose of aubergine scraps",
+   "action_ids": [
+    "P03-20240217-192543-312",
+    "P03-20240217-192543-313",
+    "P03-20240217-192543-314",
+    "P03-20240217-192543-315",
+    "P03-20240217-192543-316",
+    "P03-20240217-192543-317",
+    "P03-20240217-192543-318"
+   ],
+   "rationale": "The person gathers leftover bits of aubergine from the counter and throws them into the food waste bin under the sink."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Retrieve a saucepan and place it on the hob",
+   "action_ids": [
+    "P03-20240217-192543-328",
+    "P03-20240217-192543-330",
+    "P03-20240217-192543-331",
+    "P03-20240217-192543-332"
+   ],
+   "rationale": "The person opens a cupboard, takes out a saucepan, and sets it down on the hob."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Retrieve an egg from the fridge",
+   "action_ids": [
+    "P03-20240217-192543-333",
+    "P03-20240217-192543-334",
+    "P03-20240217-192543-335",
+    "P03-20240217-192543-336"
+   ],
+   "rationale": "The person opens the fridge, accesses the egg box, and takes out one egg."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Take out garlic cloves",
+   "action_ids": [
+    "P03-20240217-192543-353",
+    "P03-20240217-192543-354",
+    "P03-20240217-192543-355",
+    "P03-20240217-192543-356",
+    "P03-20240217-192543-357"
+   ],
+   "rationale": "The person picks up a cup containing garlic and takes out two cloves, placing them on the kitchen top."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P03-20240217-192543-233",
+  "P03-20240217-192543-236",
+  "P03-20240217-192543-281",
+  "P03-20240217-192543-310",
+  "P03-20240217-192543-311",
+  "P03-20240217-192543-319",
+  "P03-20240217-192543-329",
+  "P03-20240217-192543-346",
+  "P03-20240217-192543-347",
+  "P03-20240217-192543-351",
+  "P03-20240217-192543-352"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

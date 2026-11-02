@@ -1,0 +1,187 @@
+{
+ "overall_goal": "Prepare ingredients, manage the cooking process, and organize the workspace",
+ "goals": [
+  {
+   "goal_id": "g1",
+   "description": "Retrieve knives from the drawer",
+   "action_ids": [
+    "P02-20240209-184316-10",
+    "P02-20240209-184316-12",
+    "P02-20240209-184316-13",
+    "P02-20240209-184316-17"
+   ],
+   "rationale": "The person opens the cutlery drawer and selects knives to place on the cutting board for later use."
+  },
+  {
+   "goal_id": "g2",
+   "description": "Retrieve potatoes and mushrooms from the fridge",
+   "action_ids": [
+    "P02-20240209-184316-18",
+    "P02-20240209-184316-19",
+    "P02-20240209-184316-25",
+    "P02-20240209-184316-30",
+    "P02-20240209-184316-31",
+    "P02-20240209-184316-32",
+    "P02-20240209-184316-33",
+    "P02-20240209-184316-34",
+    "P02-20240209-184316-35",
+    "P02-20240209-184316-36",
+    "P02-20240209-184316-37",
+    "P02-20240209-184316-38",
+    "P02-20240209-184316-39",
+    "P02-20240209-184316-40",
+    "P02-20240209-184316-41",
+    "P02-20240209-184316-42",
+    "P02-20240209-184316-43",
+    "P02-20240209-184316-44",
+    "P02-20240209-184316-45",
+    "P02-20240209-184316-46"
+   ],
+   "rationale": "The person opens the fridge, searches through the vegetable drawers, selects suitable potatoes and mushrooms, and closes the fridge."
+  },
+  {
+   "goal_id": "g3",
+   "description": "Wash the potatoes",
+   "action_ids": [
+    "P02-20240209-184316-47",
+    "P02-20240209-184316-48",
+    "P02-20240209-184316-49",
+    "P02-20240209-184316-50",
+    "P02-20240209-184316-51",
+    "P02-20240209-184316-52",
+    "P02-20240209-184316-53"
+   ],
+   "rationale": "The person turns on the tap, rubs the potatoes to remove dirt, and shakes off excess water."
+  },
+  {
+   "goal_id": "g4",
+   "description": "Wrap the potatoes in kitchen towel",
+   "action_ids": [
+    "P02-20240209-184316-54",
+    "P02-20240209-184316-55",
+    "P02-20240209-184316-56",
+    "P02-20240209-184316-57",
+    "P02-20240209-184316-58",
+    "P02-20240209-184316-59",
+    "P02-20240209-184316-61",
+    "P02-20240209-184316-60",
+    "P02-20240209-184316-62",
+    "P02-20240209-184316-63",
+    "P02-20240209-184316-64",
+    "P02-20240209-184316-65",
+    "P02-20240209-184316-66",
+    "P02-20240209-184316-67",
+    "P02-20240209-184316-68",
+    "P02-20240209-184316-69"
+   ],
+   "rationale": "The person tears off pieces of kitchen towel and folds them around the potatoes to protect them during microwaving."
+  },
+  {
+   "goal_id": "g5",
+   "description": "Microwave the potatoes",
+   "action_ids": [
+    "P02-20240209-184316-70",
+    "P02-20240209-184316-71",
+    "P02-20240209-184316-72",
+    "P02-20240209-184316-73",
+    "P02-20240209-184316-74",
+    "P02-20240209-184316-75",
+    "P02-20240209-184316-76",
+    "P02-20240209-184316-355",
+    "P02-20240209-184316-356",
+    "P02-20240209-184316-357",
+    "P02-20240209-184316-358",
+    "P02-20240209-184316-359",
+    "P02-20240209-184316-360",
+    "P02-20240209-184316-361",
+    "P02-20240209-184316-362"
+   ],
+   "rationale": "The person places the wrapped potatoes in the microwave, sets the timer, and later checks them to ensure they are cooking properly."
+  },
+  {
+   "goal_id": "g6",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P02-20240209-184316-314",
+    "P02-20240209-184316-315",
+    "P02-20240209-184316-316",
+    "P02-20240209-184316-317",
+    "P02-20240209-184316-318",
+    "P02-20240209-184316-319",
+    "P02-20240209-184316-320"
+   ],
+   "rationale": "The person turns on the tap, wets their hands, shakes off water, and dries them with a towel."
+  },
+  {
+   "goal_id": "g7",
+   "description": "Season and manage the food in the frying pan",
+   "action_ids": [
+    "P02-20240209-184316-346",
+    "P02-20240209-184316-368",
+    "P02-20240209-184316-369",
+    "P02-20240209-184316-370",
+    "P02-20240209-184316-371",
+    "P02-20240209-184316-372",
+    "P02-20240209-184316-373",
+    "P02-20240209-184316-378",
+    "P02-20240209-184316-379",
+    "P02-20240209-184316-380",
+    "P02-20240209-184316-381",
+    "P02-20240209-184316-501",
+    "P02-20240209-184316-504",
+    "P02-20240209-184316-505",
+    "P02-20240209-184316-506",
+    "P02-20240209-184316-511",
+    "P02-20240209-184316-582",
+    "P02-20240209-184316-589"
+   ],
+   "rationale": "The person adds salt to the frying pan, adjusts the burner temperature, and stirs the contents with a spatula."
+  },
+  {
+   "goal_id": "g8",
+   "description": "Tidy up and organize the workspace",
+   "action_ids": [
+    "P02-20240209-184316-1",
+    "P02-20240209-184316-2",
+    "P02-20240209-184316-312",
+    "P02-20240209-184316-322",
+    "P02-20240209-184316-330",
+    "P02-20240209-184316-331",
+    "P02-20240209-184316-332",
+    "P02-20240209-184316-333",
+    "P02-20240209-184316-334",
+    "P02-20240209-184316-342",
+    "P02-20240209-184316-343",
+    "P02-20240209-184316-363",
+    "P02-20240209-184316-366",
+    "P02-20240209-184316-512",
+    "P02-20240209-184316-513",
+    "P02-20240209-184316-580",
+    "P02-20240209-184316-590",
+    "P02-20240209-184316-596"
+   ],
+   "rationale": "The person throws away trash, puts away unused ingredients, and arranges items like the chopping board and garlic for the next steps."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P02-20240209-184316-3",
+  "P02-20240209-184316-4",
+  "P02-20240209-184316-77",
+  "P02-20240209-184316-78",
+  "P02-20240209-184316-132",
+  "P02-20240209-184316-190",
+  "P02-20240209-184316-191",
+  "P02-20240209-184316-313",
+  "P02-20240209-184316-321",
+  "P02-20240209-184316-367",
+  "P02-20240209-184316-448",
+  "P02-20240209-184316-500",
+  "P02-20240209-184316-507",
+  "P02-20240209-184316-581",
+  "P02-20240209-184316-584"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

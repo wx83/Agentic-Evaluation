@@ -1,0 +1,221 @@
+{
+ "overall_goal": "Perform various kitchen preparation tasks including organizing ingredients, cracking eggs, boiling water, and washing a saucepan",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Rearrange the cupboard",
+   "action_ids": [
+    "P09-20240622-150155-160",
+    "P09-20240622-150155-161",
+    "P09-20240622-150155-162",
+    "P09-20240622-150155-163"
+   ],
+   "rationale": "The person rearranges items inside the cupboard and then closes it."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Prepare bowls of flour",
+   "action_ids": [
+    "P09-20240622-150155-164",
+    "P09-20240622-150155-165",
+    "P09-20240622-150155-166",
+    "P09-20240622-150155-167"
+   ],
+   "rationale": "The person pours flour from one bowl into another to create two separate bowls of flour."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Prepare the scale",
+   "action_ids": [
+    "P09-20240622-150155-168",
+    "P09-20240622-150155-169",
+    "P09-20240622-150155-170"
+   ],
+   "rationale": "The person places an empty bowl on the scale and resets it."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Close and store spice bottles",
+   "action_ids": [
+    "P09-20240622-150155-171",
+    "P09-20240622-150155-189",
+    "P09-20240622-150155-190",
+    "P09-20240622-150155-191",
+    "P09-20240622-150155-192",
+    "P09-20240622-150155-193",
+    "P09-20240622-150155-194",
+    "P09-20240622-150155-195",
+    "P09-20240622-150155-196",
+    "P09-20240622-150155-197",
+    "P09-20240622-150155-205",
+    "P09-20240622-150155-206",
+    "P09-20240622-150155-207",
+    "P09-20240622-150155-208",
+    "P09-20240622-150155-209",
+    "P09-20240622-150155-210",
+    "P09-20240622-150155-211",
+    "P09-20240622-150155-212",
+    "P09-20240622-150155-213",
+    "P09-20240622-150155-214",
+    "P09-20240622-150155-224",
+    "P09-20240622-150155-225"
+   ],
+   "rationale": "The person caps multiple spice bottles, arranges them, and stores them away in the cupboard."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Mix the spices",
+   "action_ids": [
+    "P09-20240622-150155-226",
+    "P09-20240622-150155-228"
+   ],
+   "rationale": "The person mixes the spices together in a bowl and places it back on the scale."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Transfer flour into a tupperware",
+   "action_ids": [
+    "P09-20240622-150155-229",
+    "P09-20240622-150155-230",
+    "P09-20240622-150155-231",
+    "P09-20240622-150155-232",
+    "P09-20240622-150155-233",
+    "P09-20240622-150155-234",
+    "P09-20240622-150155-243",
+    "P09-20240622-150155-244",
+    "P09-20240622-150155-245",
+    "P09-20240622-150155-246",
+    "P09-20240622-150155-247",
+    "P09-20240622-150155-248",
+    "P09-20240622-150155-249"
+   ],
+   "rationale": "The person retrieves a tupperware container and empties a bowl of flour into it."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Rearrange items on the counter",
+   "action_ids": [
+    "P09-20240622-150155-235",
+    "P09-20240622-150155-236",
+    "P09-20240622-150155-237",
+    "P09-20240622-150155-238",
+    "P09-20240622-150155-239",
+    "P09-20240622-150155-240",
+    "P09-20240622-150155-241",
+    "P09-20240622-150155-242",
+    "P09-20240622-150155-278",
+    "P09-20240622-150155-279",
+    "P09-20240622-150155-280",
+    "P09-20240622-150155-281"
+   ],
+   "rationale": "The person moves various bowls, tupperware, and a saucepan around to organize the counter space."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Crack eggs and discard the shells",
+   "action_ids": [
+    "P09-20240622-150155-250",
+    "P09-20240622-150155-254",
+    "P09-20240622-150155-255",
+    "P09-20240622-150155-256",
+    "P09-20240622-150155-257",
+    "P09-20240622-150155-258",
+    "P09-20240622-150155-259",
+    "P09-20240622-150155-260",
+    "P09-20240622-150155-261",
+    "P09-20240622-150155-262",
+    "P09-20240622-150155-263"
+   ],
+   "rationale": "The person cracks eggs into a bowl, stacks the empty shells, and walks across the room to discard them."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Place the saucepan on the hob",
+   "action_ids": [
+    "P09-20240622-150155-264",
+    "P09-20240622-150155-265"
+   ],
+   "rationale": "The person retrieves a saucepan from the counter and places it onto the hob."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Fill and turn on the electric kettle",
+   "action_ids": [
+    "P09-20240622-150155-266",
+    "P09-20240622-150155-267",
+    "P09-20240622-150155-268",
+    "P09-20240622-150155-269",
+    "P09-20240622-150155-270",
+    "P09-20240622-150155-271",
+    "P09-20240622-150155-272",
+    "P09-20240622-150155-273",
+    "P09-20240622-150155-274",
+    "P09-20240622-150155-275",
+    "P09-20240622-150155-276",
+    "P09-20240622-150155-277"
+   ],
+   "rationale": "The person takes the electric kettle to the sink, fills it with water, returns it to its dock, and turns it on."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Retrieve a teaspoon",
+   "action_ids": [
+    "P09-20240622-150155-282",
+    "P09-20240622-150155-283"
+   ],
+   "rationale": "The person searches for and retrieves a teaspoon to beat the eggs."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Retrieve a saucepan from the cupboard",
+   "action_ids": [
+    "P09-20240622-150155-289",
+    "P09-20240622-150155-290",
+    "P09-20240622-150155-291",
+    "P09-20240622-150155-292",
+    "P09-20240622-150155-293",
+    "P09-20240622-150155-294",
+    "P09-20240622-150155-295",
+    "P09-20240622-150155-296",
+    "P09-20240622-150155-297",
+    "P09-20240622-150155-300",
+    "P09-20240622-150155-301",
+    "P09-20240622-150155-302",
+    "P09-20240622-150155-303",
+    "P09-20240622-150155-304",
+    "P09-20240622-150155-305",
+    "P09-20240622-150155-306",
+    "P09-20240622-150155-307",
+    "P09-20240622-150155-308",
+    "P09-20240622-150155-309",
+    "P09-20240622-150155-310",
+    "P09-20240622-150155-311"
+   ],
+   "rationale": "The person rummages through the cupboard, inspecting various pots and covers, before finally retrieving a specific saucepan."
+  },
+  {
+   "goal_id": "e13",
+   "description": "Wash the saucepan",
+   "action_ids": [
+    "P09-20240622-150155-312",
+    "P09-20240622-150155-313",
+    "P09-20240622-150155-314",
+    "P09-20240622-150155-315",
+    "P09-20240622-150155-316",
+    "P09-20240622-150155-317",
+    "P09-20240622-150155-318",
+    "P09-20240622-150155-319",
+    "P09-20240622-150155-320",
+    "P09-20240622-150155-321",
+    "P09-20240622-150155-322",
+    "P09-20240622-150155-323"
+   ],
+   "rationale": "The person takes the saucepan to the sink, applies washing-up liquid, and wets a sponge to wash it."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

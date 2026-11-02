@@ -1,0 +1,20 @@
+{
+ "overall_goal": "Check the doneness of the sweet potatoes in the oven",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Inspect the sweet potatoes in the oven",
+   "action_ids": [
+    "P07-20240531-201703-269",
+    "P07-20240531-201703-270",
+    "P07-20240531-201703-271"
+   ],
+   "rationale": "The person opens the oven door to visually check if the sweet potatoes are cooked and then closes the door."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

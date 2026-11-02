@@ -1,0 +1,201 @@
+{
+ "overall_goal": "Wash various dishes and utensils and load them into the dishwasher or place them on the drainer",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Wash a spoon and load it into the dishwasher",
+   "action_ids": [
+    "P01-20240203-184214-392",
+    "P01-20240203-184214-393",
+    "P01-20240203-184214-394",
+    "P01-20240203-184214-395",
+    "P01-20240203-184214-396",
+    "P01-20240203-184214-397",
+    "P01-20240203-184214-398",
+    "P01-20240203-184214-399",
+    "P01-20240203-184214-400",
+    "P01-20240203-184214-401",
+    "P01-20240203-184214-402",
+    "P01-20240203-184214-403",
+    "P01-20240203-184214-404",
+    "P01-20240203-184214-405",
+    "P01-20240203-184214-406",
+    "P01-20240203-184214-407",
+    "P01-20240203-184214-408",
+    "P01-20240203-184214-409",
+    "P01-20240203-184214-410"
+   ],
+   "rationale": "The person prepares the sponge with soap, lathers and rinses a spoon, and places it in the dishwasher's cutlery tray."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Wash a tray and load it into the dishwasher",
+   "action_ids": [
+    "P01-20240203-184214-411",
+    "P01-20240203-184214-412",
+    "P01-20240203-184214-413",
+    "P01-20240203-184214-414",
+    "P01-20240203-184214-415",
+    "P01-20240203-184214-416",
+    "P01-20240203-184214-417",
+    "P01-20240203-184214-418",
+    "P01-20240203-184214-419",
+    "P01-20240203-184214-420",
+    "P01-20240203-184214-421",
+    "P01-20240203-184214-422",
+    "P01-20240203-184214-423",
+    "P01-20240203-184214-424",
+    "P01-20240203-184214-425",
+    "P01-20240203-184214-426"
+   ],
+   "rationale": "The person lathers and rinses a tray, then opens the lower drawer of the dishwasher to place the tray inside."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Rinse a second tray and load it into the dishwasher",
+   "action_ids": [
+    "P01-20240203-184214-427",
+    "P01-20240203-184214-428",
+    "P01-20240203-184214-429",
+    "P01-20240203-184214-431",
+    "P01-20240203-184214-430",
+    "P01-20240203-184214-432"
+   ],
+   "rationale": "The person rinses another tray under the tap and places it upside down in the lower drawer of the dishwasher."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Rinse a pot and load it into the dishwasher",
+   "action_ids": [
+    "P01-20240203-184214-433",
+    "P01-20240203-184214-434",
+    "P01-20240203-184214-435",
+    "P01-20240203-184214-436",
+    "P01-20240203-184214-437",
+    "P01-20240203-184214-438",
+    "P01-20240203-184214-439",
+    "P01-20240203-184214-440",
+    "P01-20240203-184214-441",
+    "P01-20240203-184214-442"
+   ],
+   "rationale": "The person empties a pot, rinses it under the tap, places it in the dishwasher, and closes the dishwasher door."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Apply soap and lather the food processor bowl",
+   "action_ids": [
+    "P01-20240203-184214-443",
+    "P01-20240203-184214-444",
+    "P01-20240203-184214-445",
+    "P01-20240203-184214-446",
+    "P01-20240203-184214-447",
+    "P01-20240203-184214-448",
+    "P01-20240203-184214-449",
+    "P01-20240203-184214-451",
+    "P01-20240203-184214-450",
+    "P01-20240203-184214-452",
+    "P01-20240203-184214-453",
+    "P01-20240203-184214-454",
+    "P01-20240203-184214-455",
+    "P01-20240203-184214-456",
+    "P01-20240203-184214-457"
+   ],
+   "rationale": "The person empties the food processor bowl, applies washing up liquid to the sponge, and lathers the inside and outside of the bowl."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Rinse the food processor bowl and place it on the drainer",
+   "action_ids": [
+    "P01-20240203-184214-458",
+    "P01-20240203-184214-461",
+    "P01-20240203-184214-459",
+    "P01-20240203-184214-462",
+    "P01-20240203-184214-460",
+    "P01-20240203-184214-463",
+    "P01-20240203-184214-464",
+    "P01-20240203-184214-465",
+    "P01-20240203-184214-466",
+    "P01-20240203-184214-467",
+    "P01-20240203-184214-468",
+    "P01-20240203-184214-469",
+    "P01-20240203-184214-470",
+    "P01-20240203-184214-471",
+    "P01-20240203-184214-472",
+    "P01-20240203-184214-473",
+    "P01-20240203-184214-474",
+    "P01-20240203-184214-475"
+   ],
+   "rationale": "The person thoroughly rinses the lathered food processor bowl under the tap and sets it on the drainer to dry."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Wash a ladle and place it on the drainer",
+   "action_ids": [
+    "P01-20240203-184214-476",
+    "P01-20240203-184214-477",
+    "P01-20240203-184214-478",
+    "P01-20240203-184214-479",
+    "P01-20240203-184214-480",
+    "P01-20240203-184214-481",
+    "P01-20240203-184214-482",
+    "P01-20240203-184214-483"
+   ],
+   "rationale": "The person lathers and rinses a ladle, then places it on the drainer."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Wash a garlic presser using a brush",
+   "action_ids": [
+    "P01-20240203-184214-485",
+    "P01-20240203-184214-486",
+    "P01-20240203-184214-487",
+    "P01-20240203-184214-488",
+    "P01-20240203-184214-489",
+    "P01-20240203-184214-490",
+    "P01-20240203-184214-491",
+    "P01-20240203-184214-492",
+    "P01-20240203-184214-493"
+   ],
+   "rationale": "The person uses a brush to clean the garlic presser under running water and removes leftover garlic."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Wash a peeler and place it on the drainer",
+   "action_ids": [
+    "P01-20240203-184214-494",
+    "P01-20240203-184214-495",
+    "P01-20240203-184214-496",
+    "P01-20240203-184214-497",
+    "P01-20240203-184214-498",
+    "P01-20240203-184214-499",
+    "P01-20240203-184214-500",
+    "P01-20240203-184214-501",
+    "P01-20240203-184214-502",
+    "P01-20240203-184214-503",
+    "P01-20240203-184214-504",
+    "P01-20240203-184214-505",
+    "P01-20240203-184214-506"
+   ],
+   "rationale": "The person lathers the blade and handle of a peeler, rinses it, and places it on the drainer."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Rinse spoons",
+   "action_ids": [
+    "P01-20240203-184214-507",
+    "P01-20240203-184214-508",
+    "P01-20240203-184214-509",
+    "P01-20240203-184214-510",
+    "P01-20240203-184214-511"
+   ],
+   "rationale": "The person picks up spoons from the sink and rinses them under the tap."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P01-20240203-184214-484"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

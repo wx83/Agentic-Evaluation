@@ -1,0 +1,56 @@
+{
+ "overall_goal": "Add dressing and seasonings to the salad and toss to combine",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Add olive oil to the salad",
+   "action_ids": [
+    "P08-20240613-123547-124",
+    "P08-20240613-123547-125",
+    "P08-20240613-123547-126",
+    "P08-20240613-123547-127",
+    "P08-20240613-123547-128",
+    "P08-20240613-123547-129",
+    "P08-20240613-123547-130",
+    "P08-20240613-123547-131",
+    "P08-20240613-123547-132",
+    "P08-20240613-123547-133",
+    "P08-20240613-123547-134",
+    "P08-20240613-123547-135",
+    "P08-20240613-123547-136",
+    "P08-20240613-123547-137"
+   ],
+   "rationale": "The person prepares the salad bowl and repeatedly measures and pours olive oil into the salad."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Add balsamic glaze and seasonings to the salad",
+   "action_ids": [
+    "P08-20240613-123547-153",
+    "P08-20240613-123547-154",
+    "P08-20240613-123547-155",
+    "P08-20240613-123547-156",
+    "P08-20240613-123547-161",
+    "P08-20240613-123547-162",
+    "P08-20240613-123547-165",
+    "P08-20240613-123547-166"
+   ],
+   "rationale": "The person measures and adds balsamic glaze, followed by grinding salt and pepper into the salad bowl."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Toss the salad",
+   "action_ids": [
+    "P08-20240613-123547-169",
+    "P08-20240613-123547-170",
+    "P08-20240613-123547-208"
+   ],
+   "rationale": "The person uses two spoons to mix and toss the salad ingredients with the dressing."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

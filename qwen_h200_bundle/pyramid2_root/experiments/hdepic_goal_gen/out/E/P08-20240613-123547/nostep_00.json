@@ -1,0 +1,182 @@
+{
+ "overall_goal": "Log nutritional values, measure ingredients, and clean up the workspace",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Retrieve ingredients and log initial measurements",
+   "action_ids": [
+    "P08-20240613-123547-1",
+    "P08-20240613-123547-2",
+    "P08-20240613-123547-3",
+    "P08-20240613-123547-9",
+    "P08-20240613-123547-16",
+    "P08-20240613-123547-17",
+    "P08-20240613-123547-25",
+    "P08-20240613-123547-27",
+    "P08-20240613-123547-33"
+   ],
+   "rationale": "The person opens the refrigerator to get ingredients, sets up the scale, and uses their phone to scan and record measurements for the salad and cucumber."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Manage the workspace and prepare for chopping",
+   "action_ids": [
+    "P08-20240613-123547-49",
+    "P08-20240613-123547-56",
+    "P08-20240613-123547-66",
+    "P08-20240613-123547-92",
+    "P08-20240613-123547-94",
+    "P08-20240613-123547-110"
+   ],
+   "rationale": "The person clears vegetables and peels out of the way, moves the chopping board, and positions ingredients like bread and onion to prepare for cutting."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Add salad seeds and log their measurements",
+   "action_ids": [
+    "P08-20240613-123547-68",
+    "P08-20240613-123547-69",
+    "P08-20240613-123547-70",
+    "P08-20240613-123547-71",
+    "P08-20240613-123547-72",
+    "P08-20240613-123547-73",
+    "P08-20240613-123547-74",
+    "P08-20240613-123547-75",
+    "P08-20240613-123547-76",
+    "P08-20240613-123547-77"
+   ],
+   "rationale": "The person scoops salad seeds into the bowl and uses their phone to record the added amount."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Log measurements for coriander and prepare it",
+   "action_ids": [
+    "P08-20240613-123547-79",
+    "P08-20240613-123547-80",
+    "P08-20240613-123547-81",
+    "P08-20240613-123547-82",
+    "P08-20240613-123547-85",
+    "P08-20240613-123547-86"
+   ],
+   "rationale": "The person scans the coriander with their phone to log its measurements, then places it on the cutting board."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Log measurements for the Tupperware container",
+   "action_ids": [
+    "P08-20240613-123547-111",
+    "P08-20240613-123547-112",
+    "P08-20240613-123547-113",
+    "P08-20240613-123547-114",
+    "P08-20240613-123547-115",
+    "P08-20240613-123547-119",
+    "P08-20240613-123547-123"
+   ],
+   "rationale": "The person handles a Tupperware container, adjusting the scale to record its measurements."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Log nutritional values for olive oil and balsamic glaze",
+   "action_ids": [
+    "P08-20240613-123547-138",
+    "P08-20240613-123547-139",
+    "P08-20240613-123547-140",
+    "P08-20240613-123547-141",
+    "P08-20240613-123547-142",
+    "P08-20240613-123547-143",
+    "P08-20240613-123547-144",
+    "P08-20240613-123547-145",
+    "P08-20240613-123547-146",
+    "P08-20240613-123547-147",
+    "P08-20240613-123547-148",
+    "P08-20240613-123547-149",
+    "P08-20240613-123547-150",
+    "P08-20240613-123547-151",
+    "P08-20240613-123547-152",
+    "P08-20240613-123547-157",
+    "P08-20240613-123547-158",
+    "P08-20240613-123547-159",
+    "P08-20240613-123547-160"
+   ],
+   "rationale": "The person scans the barcodes of the olive oil and balsamic glaze bottles with their phone to record their nutritional values in the app."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Add seasonings and log their nutritional values",
+   "action_ids": [
+    "P08-20240613-123547-163",
+    "P08-20240613-123547-164",
+    "P08-20240613-123547-167",
+    "P08-20240613-123547-168",
+    "P08-20240613-123547-171",
+    "P08-20240613-123547-172",
+    "P08-20240613-123547-173",
+    "P08-20240613-123547-174"
+   ],
+   "rationale": "The person adds salt, pepper, and oregano to the salad, using their phone to log the nutritional values of each seasoning."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Clean up ingredients and the workspace",
+   "action_ids": [
+    "P08-20240613-123547-175",
+    "P08-20240613-123547-176",
+    "P08-20240613-123547-177",
+    "P08-20240613-123547-178",
+    "P08-20240613-123547-179",
+    "P08-20240613-123547-180",
+    "P08-20240613-123547-181",
+    "P08-20240613-123547-182",
+    "P08-20240613-123547-183",
+    "P08-20240613-123547-184",
+    "P08-20240613-123547-185",
+    "P08-20240613-123547-186",
+    "P08-20240613-123547-187"
+   ],
+   "rationale": "The person puts away the oil, glaze, shakers, and vegetables into the refrigerator, then scrapes food scraps into the trash and moves the chopping board to the sink."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Log nutritional values and measure the bread",
+   "action_ids": [
+    "P08-20240613-123547-188",
+    "P08-20240613-123547-189",
+    "P08-20240613-123547-191",
+    "P08-20240613-123547-192",
+    "P08-20240613-123547-193",
+    "P08-20240613-123547-198",
+    "P08-20240613-123547-199",
+    "P08-20240613-123547-200",
+    "P08-20240613-123547-201",
+    "P08-20240613-123547-202",
+    "P08-20240613-123547-203"
+   ],
+   "rationale": "The person retrieves the cutting board to prepare more bread, scans the baguette's barcode to log its nutritional value, and weighs a slice on the scale."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Perform final cleanup and prepare for serving",
+   "action_ids": [
+    "P08-20240613-123547-207",
+    "P08-20240613-123547-209",
+    "P08-20240613-123547-212",
+    "P08-20240613-123547-213",
+    "P08-20240613-123547-214",
+    "P08-20240613-123547-215",
+    "P08-20240613-123547-216",
+    "P08-20240613-123547-217",
+    "P08-20240613-123547-218",
+    "P08-20240613-123547-219",
+    "P08-20240613-123547-220"
+   ],
+   "rationale": "The person clears utensils and the cutting board to the sink, puts the red onion away, throws away scraps, and sets out plates with the salad bowl."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P08-20240613-123547-67"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

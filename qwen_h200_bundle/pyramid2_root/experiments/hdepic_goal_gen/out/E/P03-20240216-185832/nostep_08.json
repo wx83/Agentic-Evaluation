@@ -1,0 +1,201 @@
+{
+ "overall_goal": "Perform various kitchen tasks including setting the table, washing dishes, folding pizza dough, and managing food waste",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Set the table with plates and tea towels",
+   "action_ids": [
+    "P03-20240216-185832-1388",
+    "P03-20240216-185832-1389",
+    "P03-20240216-185832-1390",
+    "P03-20240216-185832-1392",
+    "P03-20240216-185832-1393"
+   ],
+   "rationale": "The person places tea towels and plates on the table to prepare for serving."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Wash and dry a plate from the dishwasher",
+   "action_ids": [
+    "P03-20240216-185832-1398",
+    "P03-20240216-185832-1399",
+    "P03-20240216-185832-1400",
+    "P03-20240216-185832-1401",
+    "P03-20240216-185832-1402",
+    "P03-20240216-185832-1403",
+    "P03-20240216-185832-1404",
+    "P03-20240216-185832-1405",
+    "P03-20240216-185832-1406",
+    "P03-20240216-185832-1407",
+    "P03-20240216-185832-1408",
+    "P03-20240216-185832-1409",
+    "P03-20240216-185832-1411",
+    "P03-20240216-185832-1410",
+    "P03-20240216-185832-1412",
+    "P03-20240216-185832-1413",
+    "P03-20240216-185832-1414",
+    "P03-20240216-185832-1415",
+    "P03-20240216-185832-1416",
+    "P03-20240216-185832-1417"
+   ],
+   "rationale": "The person retrieves a plate from the dishwasher, washes it with a sponge and running water, dries it with a cloth, and places it on the drying rack."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Pour the mixed eggs into the frying pan",
+   "action_ids": [
+    "P03-20240216-185832-1425",
+    "P03-20240216-185832-1426",
+    "P03-20240216-185832-1443",
+    "P03-20240216-185832-1448"
+   ],
+   "rationale": "The person moves the bowl of mixed eggs and pours them into the frying pan to cook the omelette."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Fold and rest the pizza dough",
+   "action_ids": [
+    "P03-20240216-185832-1427",
+    "P03-20240216-185832-1428",
+    "P03-20240216-185832-1429",
+    "P03-20240216-185832-1430",
+    "P03-20240216-185832-1431",
+    "P03-20240216-185832-1432",
+    "P03-20240216-185832-1433",
+    "P03-20240216-185832-1434",
+    "P03-20240216-185832-1435",
+    "P03-20240216-185832-1436",
+    "P03-20240216-185832-1437",
+    "P03-20240216-185832-1438",
+    "P03-20240216-185832-1439",
+    "P03-20240216-185832-1440",
+    "P03-20240216-185832-1441",
+    "P03-20240216-185832-1442"
+   ],
+   "rationale": "The person wipes their hands, uncovers the pizza dough, uses a scraper to fold and flip it, and then covers it again to rest."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Set the table with cutlery and a glass",
+   "action_ids": [
+    "P03-20240216-185832-1480",
+    "P03-20240216-185832-1481",
+    "P03-20240216-185832-1482",
+    "P03-20240216-185832-1483",
+    "P03-20240216-185832-1484",
+    "P03-20240216-185832-1485",
+    "P03-20240216-185832-1486",
+    "P03-20240216-185832-1487",
+    "P03-20240216-185832-1488",
+    "P03-20240216-185832-1489",
+    "P03-20240216-185832-1490",
+    "P03-20240216-185832-1491",
+    "P03-20240216-185832-1492",
+    "P03-20240216-185832-1493"
+   ],
+   "rationale": "The person retrieves forks, knives, and a glass from the cupboards and arranges them on the table with the plates."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Clean up food waste from the kitchen top",
+   "action_ids": [
+    "P03-20240216-185832-1518",
+    "P03-20240216-185832-1519",
+    "P03-20240216-185832-1520",
+    "P03-20240216-185832-1521",
+    "P03-20240216-185832-1522",
+    "P03-20240216-185832-1523",
+    "P03-20240216-185832-1524",
+    "P03-20240216-185832-1525",
+    "P03-20240216-185832-1526",
+    "P03-20240216-185832-1527",
+    "P03-20240216-185832-1528",
+    "P03-20240216-185832-1529",
+    "P03-20240216-185832-1530"
+   ],
+   "rationale": "The person gathers onion skins and burnt potato chunks from the counter and throws them into the food waste bin under the sink."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P03-20240216-185832-1531",
+    "P03-20240216-185832-1532",
+    "P03-20240216-185832-1533",
+    "P03-20240216-185832-1534",
+    "P03-20240216-185832-1535",
+    "P03-20240216-185832-1536",
+    "P03-20240216-185832-1537",
+    "P03-20240216-185832-1538"
+   ],
+   "rationale": "The person rinses their hands under the tap and dries them with a cloth."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Wash and dry the glass lid",
+   "action_ids": [
+    "P03-20240216-185832-1540",
+    "P03-20240216-185832-1541",
+    "P03-20240216-185832-1542",
+    "P03-20240216-185832-1543",
+    "P03-20240216-185832-1544",
+    "P03-20240216-185832-1545",
+    "P03-20240216-185832-1546"
+   ],
+   "rationale": "The person washes the glass lid under the tap to remove raw egg and dries it with a cloth."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Prepare to flip the omelette",
+   "action_ids": [
+    "P03-20240216-185832-1547",
+    "P03-20240216-185832-1548",
+    "P03-20240216-185832-1549",
+    "P03-20240216-185832-1550"
+   ],
+   "rationale": "The person retrieves the dry plate, places the glass lid on the frying pan, and picks up the pan."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Wash and dry the glass lid again",
+   "action_ids": [
+    "P03-20240216-185832-1563",
+    "P03-20240216-185832-1564",
+    "P03-20240216-185832-1565",
+    "P03-20240216-185832-1566",
+    "P03-20240216-185832-1567",
+    "P03-20240216-185832-1568",
+    "P03-20240216-185832-1569",
+    "P03-20240216-185832-1570"
+   ],
+   "rationale": "The person washes the glass lid under the tap a second time to remove raw egg and shakes it dry."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P03-20240216-185832-1394",
+  "P03-20240216-185832-1396",
+  "P03-20240216-185832-1397",
+  "P03-20240216-185832-1418",
+  "P03-20240216-185832-1422",
+  "P03-20240216-185832-1423",
+  "P03-20240216-185832-1424",
+  "P03-20240216-185832-1469",
+  "P03-20240216-185832-1473",
+  "P03-20240216-185832-1474",
+  "P03-20240216-185832-1478",
+  "P03-20240216-185832-1479",
+  "P03-20240216-185832-1494",
+  "P03-20240216-185832-1497",
+  "P03-20240216-185832-1498",
+  "P03-20240216-185832-1499",
+  "P03-20240216-185832-1513",
+  "P03-20240216-185832-1514",
+  "P03-20240216-185832-1515",
+  "P03-20240216-185832-1517",
+  "P03-20240216-185832-1539"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

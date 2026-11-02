@@ -1,0 +1,42 @@
+{
+ "overall_goal": "Tidy up the workspace, wash hands, and monitor the baking cookies",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Tidy up baking tools and supplies",
+   "action_ids": [
+    "P07-20240530-102543-614",
+    "P07-20240530-102543-625"
+   ],
+   "rationale": "The person clears the workspace by putting down spoons and storing the baking paper."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Monitor the baking cookies",
+   "action_ids": [
+    "P07-20240530-102543-619",
+    "P07-20240530-102543-628"
+   ],
+   "rationale": "The person closes the oven door and later checks on the progress of the cookies baking inside."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P07-20240530-102543-620",
+    "P07-20240530-102543-621",
+    "P07-20240530-102543-622",
+    "P07-20240530-102543-623",
+    "P07-20240530-102543-624",
+    "P07-20240530-102543-626",
+    "P07-20240530-102543-627"
+   ],
+   "rationale": "The person washes their hands in the sink, dries them with a tea towel, and hangs the towel back up."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

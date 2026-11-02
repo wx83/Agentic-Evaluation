@@ -1,0 +1,215 @@
+{
+ "overall_goal": "Blend and season the soup, then prepare and add fresh coriander",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Blend the soup",
+   "action_ids": [
+    "P01-20240203-135502-713",
+    "P01-20240203-135502-714",
+    "P01-20240203-135502-715",
+    "P01-20240203-135502-716",
+    "P01-20240203-135502-717",
+    "P01-20240203-135502-718",
+    "P01-20240203-135502-719",
+    "P01-20240203-135502-720",
+    "P01-20240203-135502-721",
+    "P01-20240203-135502-722",
+    "P01-20240203-135502-723",
+    "P01-20240203-135502-724",
+    "P01-20240203-135502-725",
+    "P01-20240203-135502-726",
+    "P01-20240203-135502-727"
+   ],
+   "rationale": "The person uses a hand blender to thoroughly blend the soup in the pot."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Season the soup with spice",
+   "action_ids": [
+    "P01-20240203-135502-728",
+    "P01-20240203-135502-729",
+    "P01-20240203-135502-730",
+    "P01-20240203-135502-731",
+    "P01-20240203-135502-732",
+    "P01-20240203-135502-733",
+    "P01-20240203-135502-734",
+    "P01-20240203-135502-735",
+    "P01-20240203-135502-736"
+   ],
+   "rationale": "The person retrieves a jar of spice, measures some into the lid, pours it into the soup, and returns the jar."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Blend the spice into the soup",
+   "action_ids": [
+    "P01-20240203-135502-737",
+    "P01-20240203-135502-738",
+    "P01-20240203-135502-739",
+    "P01-20240203-135502-740",
+    "P01-20240203-135502-741",
+    "P01-20240203-135502-742",
+    "P01-20240203-135502-743",
+    "P01-20240203-135502-744",
+    "P01-20240203-135502-745",
+    "P01-20240203-135502-746"
+   ],
+   "rationale": "The person uses the blender to mix the newly added spice evenly into the soup."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Taste the soup",
+   "action_ids": [
+    "P01-20240203-135502-747",
+    "P01-20240203-135502-748",
+    "P01-20240203-135502-749",
+    "P01-20240203-135502-751",
+    "P01-20240203-135502-750",
+    "P01-20240203-135502-752",
+    "P01-20240203-135502-753",
+    "P01-20240203-135502-754",
+    "P01-20240203-135502-755",
+    "P01-20240203-135502-756"
+   ],
+   "rationale": "The person gets a teaspoon, scoops a bit of soup, cools it down, tastes it to check the seasoning, and discards the spoon."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Blend the soup until smooth",
+   "action_ids": [
+    "P01-20240203-135502-757",
+    "P01-20240203-135502-758",
+    "P01-20240203-135502-759",
+    "P01-20240203-135502-760"
+   ],
+   "rationale": "The person turns the blender on again to ensure the soup is fully smooth."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Retrieve coriander and chopping board",
+   "action_ids": [
+    "P01-20240203-135502-761",
+    "P01-20240203-135502-762",
+    "P01-20240203-135502-763",
+    "P01-20240203-135502-765",
+    "P01-20240203-135502-767",
+    "P01-20240203-135502-768",
+    "P01-20240203-135502-769",
+    "P01-20240203-135502-770",
+    "P01-20240203-135502-771",
+    "P01-20240203-135502-772",
+    "P01-20240203-135502-773"
+   ],
+   "rationale": "The person fetches a bag of coriander and a chopping board to prepare for chopping."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Retrieve strainer and transfer coriander into it",
+   "action_ids": [
+    "P01-20240203-135502-774",
+    "P01-20240203-135502-775",
+    "P01-20240203-135502-776",
+    "P01-20240203-135502-777",
+    "P01-20240203-135502-778",
+    "P01-20240203-135502-781",
+    "P01-20240203-135502-779",
+    "P01-20240203-135502-782",
+    "P01-20240203-135502-780",
+    "P01-20240203-135502-783"
+   ],
+   "rationale": "The person gets a strainer from the cupboard and places handfuls of coriander into it for washing."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Wash the coriander and separate leaves from stems",
+   "action_ids": [
+    "P01-20240203-135502-784",
+    "P01-20240203-135502-785",
+    "P01-20240203-135502-786",
+    "P01-20240203-135502-787",
+    "P01-20240203-135502-788",
+    "P01-20240203-135502-789",
+    "P01-20240203-135502-790",
+    "P01-20240203-135502-791",
+    "P01-20240203-135502-792",
+    "P01-20240203-135502-793",
+    "P01-20240203-135502-794",
+    "P01-20240203-135502-795",
+    "P01-20240203-135502-796",
+    "P01-20240203-135502-797"
+   ],
+   "rationale": "The person rinses the coriander under the tap, shakes off excess water, and picks the leaves off the stems onto the chopping board."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Chop the coriander leaves",
+   "action_ids": [
+    "P01-20240203-135502-798",
+    "P01-20240203-135502-799",
+    "P01-20240203-135502-800",
+    "P01-20240203-135502-801",
+    "P01-20240203-135502-802",
+    "P01-20240203-135502-803",
+    "P01-20240203-135502-804",
+    "P01-20240203-135502-805",
+    "P01-20240203-135502-806",
+    "P01-20240203-135502-807"
+   ],
+   "rationale": "The person dries their hands, gets a knife, and coarsely chops the coriander leaves on the board."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Final blend and discard the blender",
+   "action_ids": [
+    "P01-20240203-135502-808",
+    "P01-20240203-135502-809",
+    "P01-20240203-135502-810",
+    "P01-20240203-135502-811",
+    "P01-20240203-135502-812",
+    "P01-20240203-135502-813",
+    "P01-20240203-135502-814",
+    "P01-20240203-135502-815",
+    "P01-20240203-135502-816",
+    "P01-20240203-135502-817",
+    "P01-20240203-135502-818",
+    "P01-20240203-135502-819"
+   ],
+   "rationale": "The person gives the soup one last blend, unplugs the blender, detaches its head, and places the dirty head in the sink."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Add chopped coriander to the soup and stir",
+   "action_ids": [
+    "P01-20240203-135502-821",
+    "P01-20240203-135502-820",
+    "P01-20240203-135502-822",
+    "P01-20240203-135502-823",
+    "P01-20240203-135502-824",
+    "P01-20240203-135502-825",
+    "P01-20240203-135502-826",
+    "P01-20240203-135502-827",
+    "P01-20240203-135502-828",
+    "P01-20240203-135502-829"
+   ],
+   "rationale": "The person slides the chopped coriander from the board into the soup and stirs it in with a spatula."
+  },
+  {
+   "goal_id": "e12",
+   "description": "Get a bowl for serving",
+   "action_ids": [
+    "P01-20240203-135502-830",
+    "P01-20240203-135502-831",
+    "P01-20240203-135502-832"
+   ],
+   "rationale": "The person opens the cupboard and retrieves a bowl to serve the finished soup."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P01-20240203-135502-764",
+  "P01-20240203-135502-766"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

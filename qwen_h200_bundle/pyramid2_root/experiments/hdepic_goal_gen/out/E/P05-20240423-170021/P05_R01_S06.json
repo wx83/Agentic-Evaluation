@@ -1,0 +1,22 @@
+{
+ "overall_goal": "Retrieve tins of tomatoes from the cupboard",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Get tins of tomatoes from the cupboard and place them on the counter",
+   "action_ids": [
+    "P05-20240423-170021-394",
+    "P05-20240423-170021-395",
+    "P05-20240423-170021-396",
+    "P05-20240423-170021-397",
+    "P05-20240423-170021-398"
+   ],
+   "rationale": "The person opens the cupboard, searches for and takes out tins of tomatoes, closes the cupboard, and places the tins on the counter."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

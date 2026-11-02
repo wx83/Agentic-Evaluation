@@ -1,0 +1,187 @@
+{
+ "overall_goal": "Clean the kitchen workspace, organize recipe cards, and add spice mix and stock to the pan",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Clean up spilled onion and scrape the spatula into the pan",
+   "action_ids": [
+    "P03-20240217-131219-645",
+    "P03-20240217-131219-646",
+    "P03-20240217-131219-647",
+    "P03-20240217-131219-648",
+    "P03-20240217-131219-649",
+    "P03-20240217-131219-650",
+    "P03-20240217-131219-651",
+    "P03-20240217-131219-652",
+    "P03-20240217-131219-653",
+    "P03-20240217-131219-654",
+    "P03-20240217-131219-655"
+   ],
+   "rationale": "The person picks up spilled onion bits from the hob and kitchen top, tosses them into the pan, and uses a knife to scrape onion bits off the spatula."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Dispose of vegetable peels and wash hands",
+   "action_ids": [
+    "P03-20240217-131219-658",
+    "P03-20240217-131219-659",
+    "P03-20240217-131219-660",
+    "P03-20240217-131219-661",
+    "P03-20240217-131219-662",
+    "P03-20240217-131219-663",
+    "P03-20240217-131219-664",
+    "P03-20240217-131219-665",
+    "P03-20240217-131219-666",
+    "P03-20240217-131219-667",
+    "P03-20240217-131219-668",
+    "P03-20240217-131219-669",
+    "P03-20240217-131219-670",
+    "P03-20240217-131219-671",
+    "P03-20240217-131219-672",
+    "P03-20240217-131219-673",
+    "P03-20240217-131219-674",
+    "P03-20240217-131219-675",
+    "P03-20240217-131219-676"
+   ],
+   "rationale": "The person gathers vegetable peels from the kitchen top and floor, throws them into the food waste bin and sink, puts the bin away, and then washes and dries their hands."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Find and consult recipe kits and cards",
+   "action_ids": [
+    "P03-20240217-131219-688",
+    "P03-20240217-131219-689",
+    "P03-20240217-131219-690",
+    "P03-20240217-131219-691",
+    "P03-20240217-131219-692",
+    "P03-20240217-131219-693",
+    "P03-20240217-131219-694",
+    "P03-20240217-131219-695",
+    "P03-20240217-131219-696",
+    "P03-20240217-131219-697",
+    "P03-20240217-131219-698",
+    "P03-20240217-131219-710",
+    "P03-20240217-131219-711",
+    "P03-20240217-131219-712",
+    "P03-20240217-131219-744",
+    "P03-20240217-131219-776",
+    "P03-20240217-131219-777"
+   ],
+   "rationale": "The person searches through recipe kits on a stand to find the correct one, organizes the recipe cards, and repeatedly consults the recipe card and box."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Repeatedly scrape food residue off the spatula",
+   "action_ids": [
+    "P03-20240217-131219-677",
+    "P03-20240217-131219-683",
+    "P03-20240217-131219-684",
+    "P03-20240217-131219-685",
+    "P03-20240217-131219-686",
+    "P03-20240217-131219-687",
+    "P03-20240217-131219-702",
+    "P03-20240217-131219-703",
+    "P03-20240217-131219-704",
+    "P03-20240217-131219-705",
+    "P03-20240217-131219-706",
+    "P03-20240217-131219-740",
+    "P03-20240217-131219-741",
+    "P03-20240217-131219-742",
+    "P03-20240217-131219-743"
+   ],
+   "rationale": "The person repeatedly picks up the spatula and knife to scrape food residue and oil off the spatula into the frying pan."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Add dahl spice mix to the pan and stir",
+   "action_ids": [
+    "P03-20240217-131219-759",
+    "P03-20240217-131219-760",
+    "P03-20240217-131219-761",
+    "P03-20240217-131219-762",
+    "P03-20240217-131219-763",
+    "P03-20240217-131219-764",
+    "P03-20240217-131219-765",
+    "P03-20240217-131219-766",
+    "P03-20240217-131219-767"
+   ],
+   "rationale": "The person opens the pink tub containing dahl spice mix, pours it into the frying pan, and stirs the contents with the spatula."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Scrape the spatula and wash hands",
+   "action_ids": [
+    "P03-20240217-131219-768",
+    "P03-20240217-131219-769",
+    "P03-20240217-131219-770",
+    "P03-20240217-131219-771",
+    "P03-20240217-131219-772",
+    "P03-20240217-131219-773",
+    "P03-20240217-131219-774",
+    "P03-20240217-131219-775",
+    "P03-20240217-131219-778",
+    "P03-20240217-131219-779",
+    "P03-20240217-131219-780",
+    "P03-20240217-131219-781"
+   ],
+   "rationale": "The person uses a knife to wipe food residue off the spatula into the pan, puts the utensils down, and then rinses and dries their hands."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Open the ginger lentil stock tub and scoop it into the pan",
+   "action_ids": [
+    "P03-20240217-131219-799",
+    "P03-20240217-131219-800",
+    "P03-20240217-131219-801",
+    "P03-20240217-131219-802",
+    "P03-20240217-131219-803",
+    "P03-20240217-131219-804",
+    "P03-20240217-131219-806",
+    "P03-20240217-131219-807",
+    "P03-20240217-131219-808",
+    "P03-20240217-131219-809",
+    "P03-20240217-131219-810",
+    "P03-20240217-131219-811",
+    "P03-20240217-131219-812",
+    "P03-20240217-131219-813",
+    "P03-20240217-131219-814",
+    "P03-20240217-131219-815",
+    "P03-20240217-131219-816",
+    "P03-20240217-131219-817",
+    "P03-20240217-131219-818",
+    "P03-20240217-131219-819"
+   ],
+   "rationale": "The person puts down the spatula, uses a knife to cut open the green plastic tub of ginger lentil stock, removes the sleeve, and uses a teaspoon to scoop the thick stock into the frying pan."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Stir the ginger lentil stock into the pan and clean utensils",
+   "action_ids": [
+    "P03-20240217-131219-820",
+    "P03-20240217-131219-821",
+    "P03-20240217-131219-822",
+    "P03-20240217-131219-823",
+    "P03-20240217-131219-824",
+    "P03-20240217-131219-825"
+   ],
+   "rationale": "The person wipes the teaspoon with the spatula, stirs the ginger lentil stock into the pan's contents, and taps the spatula to remove residue before putting it down."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P03-20240217-131219-637",
+  "P03-20240217-131219-638",
+  "P03-20240217-131219-656",
+  "P03-20240217-131219-657",
+  "P03-20240217-131219-707",
+  "P03-20240217-131219-708",
+  "P03-20240217-131219-709",
+  "P03-20240217-131219-745",
+  "P03-20240217-131219-758",
+  "P03-20240217-131219-782",
+  "P03-20240217-131219-805"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "overall_goal": "Measure the correct amount of water for the dosa mixture",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Fill the measuring cup with water from the cooler",
+   "action_ids": [
+    "P04-20240414-173337-118",
+    "P04-20240414-173337-119",
+    "P04-20240414-173337-120",
+    "P04-20240414-173337-121"
+   ],
+   "rationale": "The person places the measuring cup on the water cooler and fills it with cold water."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Adjust the water level to the exact measurement",
+   "action_ids": [
+    "P04-20240414-173337-122",
+    "P04-20240414-173337-123",
+    "P04-20240414-173337-124",
+    "P04-20240414-173337-125",
+    "P04-20240414-173337-126",
+    "P04-20240414-173337-127",
+    "P04-20240414-173337-128",
+    "P04-20240414-173337-129",
+    "P04-20240414-173337-130"
+   ],
+   "rationale": "The person repeatedly pours out excess water and checks the level on the counter to ensure the correct amount is measured."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P04-20240414-173337-117"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

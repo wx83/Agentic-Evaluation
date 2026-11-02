@@ -1,0 +1,42 @@
+{
+ "overall_goal": "Microwave the frozen banana and mash it",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Place the banana in a jug and start the microwave",
+   "action_ids": [
+    "P07-20240530-102543-171",
+    "P07-20240530-102543-173",
+    "P07-20240530-102543-174",
+    "P07-20240530-102543-175"
+   ],
+   "rationale": "The person puts the frozen banana into a glass jug, places it in the microwave, and starts the heating process."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Take the jug out of the microwave",
+   "action_ids": [
+    "P07-20240530-102543-180",
+    "P07-20240530-102543-181",
+    "P07-20240530-102543-182"
+   ],
+   "rationale": "The person opens the microwave, retrieves the heated jug, and closes the door."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Mash and stir the banana with a fork",
+   "action_ids": [
+    "P07-20240530-102543-183",
+    "P07-20240530-102543-184",
+    "P07-20240530-102543-185",
+    "P07-20240530-102543-186"
+   ],
+   "rationale": "The person uses a fork to scrape, mash, and stir the heated banana inside the jug."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

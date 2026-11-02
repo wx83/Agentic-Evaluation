@@ -1,0 +1,90 @@
+{
+ "overall_goal": "Prepare, season, and roast the chicken.",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Prepare the baking tray with aluminum foil.",
+   "action_ids": [
+    "P08-20240614-125650-13",
+    "P08-20240614-125650-14",
+    "P08-20240614-125650-15",
+    "P08-20240614-125650-16",
+    "P08-20240614-125650-17",
+    "P08-20240614-125650-18",
+    "P08-20240614-125650-19",
+    "P08-20240614-125650-20"
+   ],
+   "rationale": "The person gets aluminum foil and lines the baking tray with it to prepare for the chicken."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Retrieve the chicken and place it on the baking tray.",
+   "action_ids": [
+    "P08-20240614-125650-22",
+    "P08-20240614-125650-23",
+    "P08-20240614-125650-24",
+    "P08-20240614-125650-25",
+    "P08-20240614-125650-32",
+    "P08-20240614-125650-33",
+    "P08-20240614-125650-37",
+    "P08-20240614-125650-38",
+    "P08-20240614-125650-43"
+   ],
+   "rationale": "The person takes the chicken from the refrigerator, weighs it, and transfers it from its bag onto the prepared baking tray."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Season the chicken with salt and pepper.",
+   "action_ids": [
+    "P08-20240614-125650-44",
+    "P08-20240614-125650-45",
+    "P08-20240614-125650-46",
+    "P08-20240614-125650-47",
+    "P08-20240614-125650-48",
+    "P08-20240614-125650-49",
+    "P08-20240614-125650-50",
+    "P08-20240614-125650-51",
+    "P08-20240614-125650-53",
+    "P08-20240614-125650-54",
+    "P08-20240614-125650-55",
+    "P08-20240614-125650-56",
+    "P08-20240614-125650-57",
+    "P08-20240614-125650-58"
+   ],
+   "rationale": "The person applies salt and pepper to both sides of the chicken, flipping it and wiping their hands as needed."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Add oregano, brush the seasoning, and spray with olive oil.",
+   "action_ids": [
+    "P08-20240614-125650-61",
+    "P08-20240614-125650-62",
+    "P08-20240614-125650-63",
+    "P08-20240614-125650-64",
+    "P08-20240614-125650-65",
+    "P08-20240614-125650-66",
+    "P08-20240614-125650-69",
+    "P08-20240614-125650-70",
+    "P08-20240614-125650-71"
+   ],
+   "rationale": "The person sprinkles oregano, uses a brush to spread the seasoning evenly, and sprays the chicken with olive oil."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Place the chicken in the oven to roast.",
+   "action_ids": [
+    "P08-20240614-125650-83",
+    "P08-20240614-125650-84",
+    "P08-20240614-125650-85",
+    "P08-20240614-125650-86",
+    "P08-20240614-125650-87"
+   ],
+   "rationale": "The person picks up the baking tray, opens the oven, places the tray inside, and closes the door to begin roasting."
+  }
+ ],
+ "unassigned_action_ids": [],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

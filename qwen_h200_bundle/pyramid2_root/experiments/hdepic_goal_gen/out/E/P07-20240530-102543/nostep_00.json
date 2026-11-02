@@ -1,0 +1,194 @@
+{
+ "overall_goal": "Unload clean dishes, load dirty dishes, clean the kitchen, and prepare ingredients",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Unload glasses, mugs, and utensils from the top drawer of the dishwasher",
+   "action_ids": [
+    "P07-20240530-102543-3",
+    "P07-20240530-102543-4",
+    "P07-20240530-102543-5",
+    "P07-20240530-102543-6",
+    "P07-20240530-102543-7",
+    "P07-20240530-102543-8",
+    "P07-20240530-102543-9",
+    "P07-20240530-102543-10",
+    "P07-20240530-102543-11",
+    "P07-20240530-102543-12",
+    "P07-20240530-102543-13",
+    "P07-20240530-102543-14",
+    "P07-20240530-102543-15",
+    "P07-20240530-102543-16",
+    "P07-20240530-102543-17",
+    "P07-20240530-102543-18"
+   ],
+   "rationale": "The person opens the dishwasher and puts away glasses, mugs, and a cheese grater from the top drawer."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Unload bowls and jugs from the top drawer of the dishwasher",
+   "action_ids": [
+    "P07-20240530-102543-19",
+    "P07-20240530-102543-20",
+    "P07-20240530-102543-21",
+    "P07-20240530-102543-22",
+    "P07-20240530-102543-23",
+    "P07-20240530-102543-24",
+    "P07-20240530-102543-25",
+    "P07-20240530-102543-26",
+    "P07-20240530-102543-27",
+    "P07-20240530-102543-28",
+    "P07-20240530-102543-29",
+    "P07-20240530-102543-30",
+    "P07-20240530-102543-31",
+    "P07-20240530-102543-32",
+    "P07-20240530-102543-33",
+    "P07-20240530-102543-34",
+    "P07-20240530-102543-35",
+    "P07-20240530-102543-36",
+    "P07-20240530-102543-37",
+    "P07-20240530-102543-38",
+    "P07-20240530-102543-39",
+    "P07-20240530-102543-40"
+   ],
+   "rationale": "The person continues unloading the top drawer, putting away bowls, a wooden spoon, a knife, and glass jugs."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Unload dishes and containers from the bottom drawer of the dishwasher",
+   "action_ids": [
+    "P07-20240530-102543-41",
+    "P07-20240530-102543-42",
+    "P07-20240530-102543-43",
+    "P07-20240530-102543-44",
+    "P07-20240530-102543-45",
+    "P07-20240530-102543-46",
+    "P07-20240530-102543-47",
+    "P07-20240530-102543-48",
+    "P07-20240530-102543-49",
+    "P07-20240530-102543-50",
+    "P07-20240530-102543-51",
+    "P07-20240530-102543-52",
+    "P07-20240530-102543-53",
+    "P07-20240530-102543-54",
+    "P07-20240530-102543-55",
+    "P07-20240530-102543-56",
+    "P07-20240530-102543-57",
+    "P07-20240530-102543-58",
+    "P07-20240530-102543-59",
+    "P07-20240530-102543-60",
+    "P07-20240530-102543-61",
+    "P07-20240530-102543-62"
+   ],
+   "rationale": "The person unloads shallow dishes, a plastic tub, a saucepan lid, and mugs from the bottom drawer of the dishwasher."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Unload cutlery from the dishwasher",
+   "action_ids": [
+    "P07-20240530-102543-63",
+    "P07-20240530-102543-64",
+    "P07-20240530-102543-65",
+    "P07-20240530-102543-66",
+    "P07-20240530-102543-67",
+    "P07-20240530-102543-68",
+    "P07-20240530-102543-69",
+    "P07-20240530-102543-70",
+    "P07-20240530-102543-71"
+   ],
+   "rationale": "The person takes cutlery out of the cutlery tray and puts it away in the cutlery drawer."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Load dirty dishes into the dishwasher",
+   "action_ids": [
+    "P07-20240530-102543-72",
+    "P07-20240530-102543-76",
+    "P07-20240530-102543-77",
+    "P07-20240530-102543-78",
+    "P07-20240530-102543-79",
+    "P07-20240530-102543-80",
+    "P07-20240530-102543-81",
+    "P07-20240530-102543-82",
+    "P07-20240530-102543-83",
+    "P07-20240530-102543-84",
+    "P07-20240530-102543-85",
+    "P07-20240530-102543-86"
+   ],
+   "rationale": "The person places dirty spoons, glasses, bowls, and mugs into the dishwasher."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Clean the countertop and dispose of food waste",
+   "action_ids": [
+    "P07-20240530-102543-73",
+    "P07-20240530-102543-74",
+    "P07-20240530-102543-75",
+    "P07-20240530-102543-88",
+    "P07-20240530-102543-89",
+    "P07-20240530-102543-90"
+   ],
+   "rationale": "The person collects food waste from the countertop and throws it into the bin and sink."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P07-20240530-102543-87",
+    "P07-20240530-102543-124",
+    "P07-20240530-102543-125",
+    "P07-20240530-102543-126",
+    "P07-20240530-102543-127",
+    "P07-20240530-102543-128",
+    "P07-20240530-102543-129",
+    "P07-20240530-102543-130"
+   ],
+   "rationale": "The person uses soap and water to wash their hands and dries them with a tea towel."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Tidy up the kitchen space and put away ingredients",
+   "action_ids": [
+    "P07-20240530-102543-1",
+    "P07-20240530-102543-2",
+    "P07-20240530-102543-111",
+    "P07-20240530-102543-112",
+    "P07-20240530-102543-122",
+    "P07-20240530-102543-123",
+    "P07-20240530-102543-157",
+    "P07-20240530-102543-158",
+    "P07-20240530-102543-159",
+    "P07-20240530-102543-178",
+    "P07-20240530-102543-179"
+   ],
+   "rationale": "The person moves a stool, tidies paper and pen, rewraps butter, puts away sugar, and moves chocolate chips out of the way."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Prepare and log ingredients",
+   "action_ids": [
+    "P07-20240530-102543-142",
+    "P07-20240530-102543-143",
+    "P07-20240530-102543-144",
+    "P07-20240530-102543-146",
+    "P07-20240530-102543-172",
+    "P07-20240530-102543-176",
+    "P07-20240530-102543-177",
+    "P07-20240530-102543-187",
+    "P07-20240530-102543-194"
+   ],
+   "rationale": "The person operates the digital scales, handles chocolate chips and a frozen banana, and makes a note on paper."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P07-20240530-102543-91",
+  "P07-20240530-102543-117",
+  "P07-20240530-102543-120",
+  "P07-20240530-102543-121",
+  "P07-20240530-102543-131"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}

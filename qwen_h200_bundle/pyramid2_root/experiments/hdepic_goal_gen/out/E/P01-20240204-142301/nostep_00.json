@@ -1,0 +1,208 @@
+{
+ "overall_goal": "Prepare and season chicken in a tray, wash dishes, and clean up the workspace",
+ "goals": [
+  {
+   "goal_id": "e1",
+   "description": "Preheat the oven",
+   "action_ids": [
+    "P01-20240204-142301-1",
+    "P01-20240204-142301-2",
+    "P01-20240204-142301-3",
+    "P01-20240204-142301-4"
+   ],
+   "rationale": "The person turns on the oven and sets the temperature dial to start preheating."
+  },
+  {
+   "goal_id": "e2",
+   "description": "Wash a bowl",
+   "action_ids": [
+    "P01-20240204-142301-7",
+    "P01-20240204-142301-8",
+    "P01-20240204-142301-9",
+    "P01-20240204-142301-10",
+    "P01-20240204-142301-11",
+    "P01-20240204-142301-12",
+    "P01-20240204-142301-13",
+    "P01-20240204-142301-14",
+    "P01-20240204-142301-15",
+    "P01-20240204-142301-16",
+    "P01-20240204-142301-17",
+    "P01-20240204-142301-18",
+    "P01-20240204-142301-19",
+    "P01-20240204-142301-20",
+    "P01-20240204-142301-21",
+    "P01-20240204-142301-22",
+    "P01-20240204-142301-23",
+    "P01-20240204-142301-24",
+    "P01-20240204-142301-25",
+    "P01-20240204-142301-26"
+   ],
+   "rationale": "The person puts on gloves, applies washing liquid to a sponge, and washes and rinses a bowl before taking off the gloves."
+  },
+  {
+   "goal_id": "e3",
+   "description": "Rinse the rice",
+   "action_ids": [
+    "P01-20240204-142301-39",
+    "P01-20240204-142301-40",
+    "P01-20240204-142301-41",
+    "P01-20240204-142301-42",
+    "P01-20240204-142301-45",
+    "P01-20240204-142301-48",
+    "P01-20240204-142301-49",
+    "P01-20240204-142301-50",
+    "P01-20240204-142301-53"
+   ],
+   "rationale": "The person tilts a bowl of rice to drain the water, adds more water, and drains it again."
+  },
+  {
+   "goal_id": "e4",
+   "description": "Wash and dry hands",
+   "action_ids": [
+    "P01-20240204-142301-76",
+    "P01-20240204-142301-77",
+    "P01-20240204-142301-78",
+    "P01-20240204-142301-79",
+    "P01-20240204-142301-80"
+   ],
+   "rationale": "The person rinses their hands under the tap and dries them with a towel."
+  },
+  {
+   "goal_id": "e5",
+   "description": "Transfer chicken pieces to the tray",
+   "action_ids": [
+    "P01-20240204-142301-81",
+    "P01-20240204-142301-82",
+    "P01-20240204-142301-84",
+    "P01-20240204-142301-85",
+    "P01-20240204-142301-86",
+    "P01-20240204-142301-87",
+    "P01-20240204-142301-88",
+    "P01-20240204-142301-89",
+    "P01-20240204-142301-90",
+    "P01-20240204-142301-91",
+    "P01-20240204-142301-92",
+    "P01-20240204-142301-93",
+    "P01-20240204-142301-94",
+    "P01-20240204-142301-95",
+    "P01-20240204-142301-96",
+    "P01-20240204-142301-97",
+    "P01-20240204-142301-98"
+   ],
+   "rationale": "The person places a tray on the counter, uncovers a bowl of marinated chicken, and moves the chicken pieces one by one onto the tray."
+  },
+  {
+   "goal_id": "e6",
+   "description": "Pour remaining marination into the tray",
+   "action_ids": [
+    "P01-20240204-142301-99",
+    "P01-20240204-142301-100",
+    "P01-20240204-142301-101",
+    "P01-20240204-142301-102",
+    "P01-20240204-142301-103",
+    "P01-20240204-142301-104",
+    "P01-20240204-142301-105"
+   ],
+   "rationale": "The person pours the leftover marination liquid and herbs from the bowl over the chicken in the tray."
+  },
+  {
+   "goal_id": "e7",
+   "description": "Rinse hands and the empty bowl",
+   "action_ids": [
+    "P01-20240204-142301-106",
+    "P01-20240204-142301-107",
+    "P01-20240204-142301-108",
+    "P01-20240204-142301-109",
+    "P01-20240204-142301-110",
+    "P01-20240204-142301-111"
+   ],
+   "rationale": "The person rinses the empty marination bowl and their hands under the tap, then dries their hands."
+  },
+  {
+   "goal_id": "e8",
+   "description": "Oil and arrange the chicken in the tray",
+   "action_ids": [
+    "P01-20240204-142301-112",
+    "P01-20240204-142301-113",
+    "P01-20240204-142301-114",
+    "P01-20240204-142301-115",
+    "P01-20240204-142301-116",
+    "P01-20240204-142301-117",
+    "P01-20240204-142301-118",
+    "P01-20240204-142301-119",
+    "P01-20240204-142301-120"
+   ],
+   "rationale": "The person pours vegetable oil over the chicken and distributes the garlic and rosemary evenly around the tray."
+  },
+  {
+   "goal_id": "e9",
+   "description": "Get a knife and stock cubes",
+   "action_ids": [
+    "P01-20240204-142301-121",
+    "P01-20240204-142301-122",
+    "P01-20240204-142301-123",
+    "P01-20240204-142301-124",
+    "P01-20240204-142301-125",
+    "P01-20240204-142301-126",
+    "P01-20240204-142301-128"
+   ],
+   "rationale": "The person retrieves a knife from a drawer and a box of chicken stock cubes from the fridge."
+  },
+  {
+   "goal_id": "e10",
+   "description": "Season the chicken with a stock cube",
+   "action_ids": [
+    "P01-20240204-142301-130",
+    "P01-20240204-142301-131",
+    "P01-20240204-142301-132",
+    "P01-20240204-142301-133",
+    "P01-20240204-142301-134",
+    "P01-20240204-142301-135",
+    "P01-20240204-142301-136",
+    "P01-20240204-142301-137",
+    "P01-20240204-142301-138",
+    "P01-20240204-142301-139",
+    "P01-20240204-142301-140",
+    "P01-20240204-142301-141",
+    "P01-20240204-142301-142",
+    "P01-20240204-142301-143",
+    "P01-20240204-142301-144",
+    "P01-20240204-142301-145",
+    "P01-20240204-142301-146",
+    "P01-20240204-142301-147"
+   ],
+   "rationale": "The person opens a stock cube and uses a knife to slice and crumble it over the chicken in the tray."
+  },
+  {
+   "goal_id": "e11",
+   "description": "Clean up packaging and workspace",
+   "action_ids": [
+    "P01-20240204-142301-148",
+    "P01-20240204-142301-149",
+    "P01-20240204-142301-150",
+    "P01-20240204-142301-151",
+    "P01-20240204-142301-152",
+    "P01-20240204-142301-153",
+    "P01-20240204-142301-154",
+    "P01-20240204-142301-155",
+    "P01-20240204-142301-156",
+    "P01-20240204-142301-157",
+    "P01-20240204-142301-158",
+    "P01-20240204-142301-160",
+    "P01-20240204-142301-161"
+   ],
+   "rationale": "The person throws away the empty packaging and cling film, dries their hands, and moves the chopping board and knife to tidy the counter."
+  }
+ ],
+ "unassigned_action_ids": [
+  "P01-20240204-142301-27",
+  "P01-20240204-142301-57",
+  "P01-20240204-142301-83",
+  "P01-20240204-142301-129",
+  "P01-20240204-142301-171"
+ ],
+ "_validation": {
+  "errors": [],
+  "warnings": []
+ }
+}
