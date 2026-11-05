@@ -1,6 +1,14 @@
+---
+pretty_name: pyramid2 v31 bundle (HD-EPIC Method E)
+license: other
+language: [zh, en]
+---
 # pyramid2 v31 bundle(11-04)— 换服务器跑 v30b / v31
 
 同一内容也在 GitHub `wx83/Agentic-Evaluation` 的 branch `v31`(不含源视频)。这里(私有 HF dataset `WitneyWW/pyramid2-v31-1104`)多了公开集里没有的 5 个源视频。
+
+**状态(11-04 22:15 更新)**:v30b 的 61 / 62 / 63 三个 task 已在原服务器跑完,L1–L4 完整 history + score.json 都在 `pyramid_v2/runs/`,**不需要在新服务器重跑任何下层**;结果摘要见 §6。
+新服务器只要:`pip install -r requirements.txt` → `./setup_data.sh` → 设 `OPENROUTER_API_KEY` → `./run_v31.sh 61 62 13 55`(每 task 约 $5–10,只跑 L3 的三个 v31 skill)。held-out task(h4 / h5)要先 `./run_full.sh hX` 跑全四层再 `./run_v31.sh hX`。
 
 ## 0. 这是什么
 
@@ -59,7 +67,7 @@ run_v31.sh  run_full.sh  setup_data.sh  requirements.txt
 pip install -r requirements.txt          # python >= 3.10;另需 ffmpeg / ffprobe
 ./setup_data.sh                          # 下载 4 个公开源视频(约 5 GB)
 export OPENROUTER_API_KEY=sk-or-...      # 或写进 .secrets/openrouter_key
-./run_v31.sh 61 62 13 55                 # v31 只跑 L3,history 从 seed run 复制;每 task 约 $5–10
+./run_v31.sh 61 62 13 55                 # v31 只跑 L3,L1/L2 history 从 seed run(61/62/63 = v30b 跑完的,13/55 = v28)复制;每 task 约 $5–10
 ./run_full.sh h4 && ./run_v31.sh h4      # held-out:先用 v30b 规则跑全四层(约 $25–40),再跑 v31
 ```
 
