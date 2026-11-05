@@ -54,7 +54,7 @@ def ask_text(text, model, run_dir, meta, max_tokens=512):
     t0 = time.time(); err = None; out = None; u = {}
     for attempt in range(5):
         try:
-            r = NV.client().models.generate_content(model=NV.resolve_model(model), contents=[text], config=types.GenerateContentConfig(**kw))
+            r = NV.client().models.generate_content(model=model, contents=[text], config=types.GenerateContentConfig(**kw))
             um = getattr(r, "usage_metadata", None); g = lambda k: getattr(um, k, None) if um is not None else None
             u = {"tok_in": g("prompt_token_count"), "tok_out": g("candidates_token_count"), "tok_think": g("thoughts_token_count")}
             out = r.text; err = None

@@ -1,0 +1,459 @@
+{
+ "task_id": "P08-20240614-125650__P08_R04_S04",
+ "prompt_hash": "cf45465f7c",
+ "model": "gcp/google/gemini-3.1-pro-preview",
+ "created": "2026-11-03T23:17:50",
+ "input": {
+  "task_id": "P08-20240614-125650__P08_R04_S04",
+  "goal": "Chop carrot, coriander and avocado and add to bowl with tabbouleh salad.",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "text": "Measure and peel the carrot."
+   },
+   {
+    "idx": 2,
+    "text": "Chop the carrot and add it to the salad bowl."
+   },
+   {
+    "idx": 3,
+    "text": "Measure, chop, and add coriander to the salad bowl."
+   },
+   {
+    "idx": 4,
+    "text": "Cut and score the avocado."
+   },
+   {
+    "idx": 5,
+    "text": "Scoop the avocado pieces, measure them, and add to the salad bowl."
+   }
+  ],
+  "skills": {
+   "object_recognition": "L1: which object is in hand / being handled at the moment of the event",
+   "action_recognition": "L2: what action (verb + object) the event is",
+   "event_object_role": "L2: which object is acted on, with which tool, to which destination in the event",
+   "action_temporal_order": "L2: the order of two actions shown close together inside one sub-goal",
+   "sound_action_binding": "L2: which action / object produced the sound heard",
+   "sound_movement_binding": "L2: which object movement coincides with the sound",
+   "spatial_near": "L1: at the moment of the event, which of the listed objects is nearest to a reference object (3D positions from the dataset)",
+   "spatial_side": "L1: at the moment of the event, which listed object is leftmost / rightmost from the wearer's viewpoint",
+   "sound_anchored_spatial_near": "L2: at the moment of a sound, which listed object is nearest to a reference object",
+   "sound_anchored_spatial_side": "L2: at the moment of a sound, which listed object is leftmost / rightmost for the wearer",
+   "object_location_at_time": "L1: on which surface / fixture / container an object is put down at the event",
+   "object_state_change": "L2: where an object was taken from and where it went in one movement"
+  },
+  "l3_relation_types": {
+   "object_continuity": "the same object / ingredient appears in an event of sub-goal k and an event of the ADJACENT sub-goal k+1; what happened to it between them (chopped broccoli -> in the pan)",
+   "state_change": "how the state of an object differs between the two events (whole -> chopped, empty -> full, raw -> browned)",
+   "causal_prerequisite": "the earlier event is a physical prerequisite of the later one (could not be done without it)",
+   "hidden_state": "an appliance / container state was set in the earlier event and is not visible in the later segment; what is its state at the end of the later segment"
+  },
+  "n_sub_goals": 5
+ },
+ "plan": {
+  "task_id": "P08-20240614-125650__P08_R04_S04",
+  "goal": "Chop carrot, coriander and avocado and add to bowl with tabbouleh salad.",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "events": [
+     {
+      "event_id": "s1e1",
+      "sub_goal": 1,
+      "type": "action",
+      "description": "The carrot is placed on the scale to be measured.",
+      "objects": [
+       "carrot",
+       "scale"
+      ],
+      "verbs": [
+       "place",
+       "measure"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role",
+       "object_location_at_time"
+      ],
+      "relevance": "Measures the correct amount of carrot for the salad."
+     },
+     {
+      "event_id": "s1e2",
+      "sub_goal": 1,
+      "type": "action",
+      "description": "The carrot is peeled using a peeler.",
+      "objects": [
+       "carrot",
+       "peeler"
+      ],
+      "verbs": [
+       "peel"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "Prepares the carrot for chopping."
+     },
+     {
+      "event_id": "s1e3",
+      "sub_goal": 1,
+      "type": "sound",
+      "description": "A scraping sound is heard as the peeler removes the carrot skin.",
+      "objects": [
+       "carrot",
+       "peeler"
+      ],
+      "verbs": [
+       "scrape"
+      ],
+      "skills": [
+       "sound_action_binding",
+       "sound_movement_binding"
+      ],
+      "relevance": "Indicates the peeling action is occurring."
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 2,
+    "events": [
+     {
+      "event_id": "s2e1",
+      "sub_goal": 2,
+      "type": "action",
+      "description": "The peeled carrot is chopped into pieces with a knife on a cutting board.",
+      "objects": [
+       "carrot",
+       "knife",
+       "cutting board"
+      ],
+      "verbs": [
+       "chop"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "Processes the carrot into the required size for the salad."
+     },
+     {
+      "event_id": "s2e2",
+      "sub_goal": 2,
+      "type": "sound",
+      "description": "Rhythmic chopping sounds are heard as the knife hits the cutting board.",
+      "objects": [
+       "knife",
+       "cutting board"
+      ],
+      "verbs": [
+       "chop"
+      ],
+      "skills": [
+       "sound_action_binding",
+       "sound_movement_binding"
+      ],
+      "relevance": "Indicates the chopping action is actively happening."
+     },
+     {
+      "event_id": "s2e3",
+      "sub_goal": 2,
+      "type": "action",
+      "description": "The chopped carrot pieces are transferred into the salad bowl.",
+      "objects": [
+       "carrot",
+       "salad bowl"
+      ],
+      "verbs": [
+       "transfer",
+       "add"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role",
+       "object_state_change"
+      ],
+      "relevance": "Combines the prepared carrot with the rest of the salad."
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 3,
+    "events": [
+     {
+      "event_id": "s3e1",
+      "sub_goal": 3,
+      "type": "action",
+      "description": "Coriander is placed on the scale to be measured.",
+      "objects": [
+       "coriander",
+       "scale"
+      ],
+      "verbs": [
+       "place",
+       "measure"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role",
+       "object_location_at_time"
+      ],
+      "relevance": "Ensures the correct amount of coriander is used."
+     },
+     {
+      "event_id": "s3e2",
+      "sub_goal": 3,
+      "type": "action",
+      "description": "The coriander is chopped with a knife.",
+      "objects": [
+       "coriander",
+       "knife"
+      ],
+      "verbs": [
+       "chop"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "Prepares the herb for the salad."
+     },
+     {
+      "event_id": "s3e3",
+      "sub_goal": 3,
+      "type": "action",
+      "description": "The chopped coriander is added to the salad bowl.",
+      "objects": [
+       "coriander",
+       "salad bowl"
+      ],
+      "verbs": [
+       "add"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role",
+       "object_state_change"
+      ],
+      "relevance": "Integrates the coriander into the salad mixture."
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 4,
+    "events": [
+     {
+      "event_id": "s4e1",
+      "sub_goal": 4,
+      "type": "action",
+      "description": "The avocado is cut in half using a knife.",
+      "objects": [
+       "avocado",
+       "knife"
+      ],
+      "verbs": [
+       "cut"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "Opens the avocado to access the flesh."
+     },
+     {
+      "event_id": "s4e2",
+      "sub_goal": 4,
+      "type": "action",
+      "description": "The flesh of the avocado half is scored in a grid pattern with the knife.",
+      "objects": [
+       "avocado",
+       "knife"
+      ],
+      "verbs": [
+       "score"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "Pre-cuts the avocado flesh into pieces for easy scooping."
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 5,
+    "events": [
+     {
+      "event_id": "s5e1",
+      "sub_goal": 5,
+      "type": "action",
+      "description": "The scored avocado pieces are scooped out of the skin using a spoon.",
+      "objects": [
+       "avocado",
+       "spoon"
+      ],
+      "verbs": [
+       "scoop"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "Removes the edible avocado pieces from the skin."
+     },
+     {
+      "event_id": "s5e2",
+      "sub_goal": 5,
+      "type": "action",
+      "description": "The scooped avocado pieces are placed on the scale to be measured.",
+      "objects": [
+       "avocado",
+       "scale"
+      ],
+      "verbs": [
+       "place",
+       "measure"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role",
+       "object_location_at_time"
+      ],
+      "relevance": "Ensures the correct quantity of avocado is added."
+     },
+     {
+      "event_id": "s5e3",
+      "sub_goal": 5,
+      "type": "action",
+      "description": "The measured avocado pieces are transferred into the salad bowl.",
+      "objects": [
+       "avocado",
+       "salad bowl"
+      ],
+      "verbs": [
+       "transfer",
+       "add"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role",
+       "object_state_change"
+      ],
+      "relevance": "Completes the addition of all required ingredients to the salad."
+     }
+    ],
+    "irrelevant": ""
+   }
+  ],
+  "relations": [
+   {
+    "rel_id": "r1",
+    "type": "state_change",
+    "skill": "cross_event_integration",
+    "events": [
+     "s1e2",
+     "s2e1"
+    ],
+    "ask": "What is the state of the carrot when it is being chopped?",
+    "answer_hint": "The carrot was peeled in the previous step."
+   },
+   {
+    "rel_id": "r2",
+    "type": "hidden_state",
+    "skill": "hidden_state_inference",
+    "events": [
+     "s2e3",
+     "s3e3"
+    ],
+    "ask": "What is already in the salad bowl when the coriander is added?",
+    "answer_hint": "The chopped carrot was added to the bowl in the previous step."
+   },
+   {
+    "rel_id": "r3",
+    "type": "hidden_state",
+    "skill": "hidden_state_inference",
+    "events": [
+     "s3e3",
+     "s4e1"
+    ],
+    "ask": "What does the salad bowl contain while the avocado is being cut?",
+    "answer_hint": "The chopped carrot and coriander were added to it in the preceding steps."
+   },
+   {
+    "rel_id": "r4",
+    "type": "causal_prerequisite",
+    "skill": "causal_prerequisite_reasoning",
+    "events": [
+     "s4e2",
+     "s5e1"
+    ],
+    "ask": "Why does the avocado flesh come out in small pieces when scooped?",
+    "answer_hint": "It was scored into a grid pattern with a knife in the previous step."
+   },
+   {
+    "rel_id": "r5",
+    "type": "state_change",
+    "skill": "cross_event_integration",
+    "events": [
+     "s4e2",
+     "s5e1"
+    ],
+    "ask": "How does the state of the avocado flesh change during the scooping action?",
+    "answer_hint": "It goes from being scored inside the skin to loose pieces."
+   }
+  ],
+  "decision_points": [
+   {
+    "idx": 2,
+    "real": true,
+    "why": "Transitioning from peeling and measuring to chopping requires a change of tools (peeler to knife) and a new physical action."
+   },
+   {
+    "idx": 3,
+    "real": true,
+    "why": "The person must decide to switch from preparing the carrot to preparing a new ingredient, the coriander."
+   },
+   {
+    "idx": 4,
+    "real": true,
+    "why": "The person must decide to switch from preparing the coriander to preparing the avocado."
+   },
+   {
+    "idx": 5,
+    "real": true,
+    "why": "Transitioning from scoring the avocado to scooping it requires switching tools from a knife to a spoon."
+   },
+   {
+    "idx": 6,
+    "real": true,
+    "why": "All specified ingredients have been chopped and added to the bowl, meaning the person must decide that the task is complete."
+   }
+  ]
+ },
+ "warnings": [],
+ "usage": {
+  "tok_in": 1557,
+  "tok_out": 2787,
+  "tok_think": 2664,
+  "model_version": "google/gemini-3.1-pro-preview",
+  "finish_reason": "STOP"
+ },
+ "status": "ok",
+ "raw_len": 10228
+}

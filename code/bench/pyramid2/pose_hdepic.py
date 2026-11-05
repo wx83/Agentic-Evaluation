@@ -1,3 +1,4 @@
+import os
 #!/usr/bin/env python3
 """HD-EPIC 相机 6DoF 轨迹(移植自 agent/bench/pyramid/pose.py,10-27):SLAM zip 定向抽取 closed_loop_trajectory.csv -> 10 Hz -> mp4 秒。
 缓存与旧管线共用 output/_shared/pose/pose_<video>.json(同格式 pose_version 1,已有的 6 个直接复用)。
@@ -9,10 +10,9 @@ import json, subprocess, bisect, sys
 from pathlib import Path
 import numpy as np
 
-SLAM_ROOT = Path("/mnt/data_new/hd-epic/SLAM-and-Gaze")
-VIDEO_ROOT = Path("/mnt/data_new/hd-epic/video")
-import os
-POSE_DIR = Path(os.environ.get("P2_POSE_DIR", "/mnt/work_new/weihanxu/output/_shared/pose"))   # bundle: $P2_POSE_DIR (setup_full_data.sh sets it)
+SLAM_ROOT = Path(os.environ.get("HDEPIC_ROOT", "/mnt/data_new/hd-epic")) / "SLAM-and-Gaze"
+VIDEO_ROOT = Path(os.environ.get("HDEPIC_ROOT", "/mnt/data_new/hd-epic")) / "video"
+POSE_DIR = Path(os.environ.get("P2_POSE_DIR", "/mnt/work_new/weihanxu/output/_shared/pose"))
 HZ = 10.0
 POSE_VERSION = 1
 

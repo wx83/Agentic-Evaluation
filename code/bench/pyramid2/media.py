@@ -1,5 +1,6 @@
+import os
 """media_manifest 行 <-> 实际媒体;裁剪复用 bench/clips.py(加 src/vf/out_dir 后可跨数据集)。"""
-import json, os, subprocess
+import json, subprocess
 from pathlib import Path
 import p2config as P
 import clips
@@ -45,6 +46,12 @@ def materialize(ref, store, force=False):
                 "duration": row.get("duration_sec")}
     wins = [[float(a), float(b)] for a, b in ref["windows"]]
     src, vf, out_dir = Path(os.path.expandvars(row["path"])), _vf(row), _out_dir(row)
+    if ref.get("variant") == "frame":                        # 11-02 v24 L1:单帧 jpg(窗口起点那一帧),可叠加字母框
+        import v24 as _V24
+        t = wins[0][0]; boxes = ref.get("boxes") or None
+        fp = _V24.frame_path(row["video_id"], t, boxes)
+        _V24.render_frame(src, t, fp, boxes=boxes)
+        return {"path": fp, "windows": wins, "time_map": {"kind": "frame", "time_base": "frame", "segments": [{"clip_start": 0.0, "clip_end": 0.0, "abs_start": t}]}, "duration": 0.0, "image": True, "flags": []}
     silent = not ((row.get("audio") or {}).get("present", True))
     if len(wins) == 1:
         a, b = wins[0]
@@ -53,13 +60,28 @@ def materialize(ref, store, force=False):
         path = clips.ensure_episodes(row["video_id"], [tuple(w) for w in wins], force=force, src=src, vf=vf, out_dir=out_dir, silent_audio=silent)
     if ref.get("variant") == "mute":
         path = muted(path)
+    if ref.get("variant") == "aonly":                        # 11-04 v30:audio-only 条件 = 画面换成等长纯黑,音轨原样
+        path = audio_only(path)
     segs, acc = [], 0.0
     for a, b in wins:
         segs.append({"clip_start": round(acc, 3), "clip_end": round(acc + (b - a), 3), "abs_start": a})
         acc += b - a
     return {"path": path, "windows": wins,
             "time_map": {"kind": "concat" if len(wins) > 1 else "single", "time_base": "clip_local_seconds", "segments": segs},
-            "duration": round(acc, 3), "flags": ["NO_SOURCE_AUDIO"] if silent else []}
+            "duration": round(acc, 3), "flags": (["NO_SOURCE_AUDIO"] if silent else []) + ({"mute": ["VIDEO_ONLY"], "aonly": ["AUDIO_ONLY"]}.get(ref.get("variant") or "", []))}
+
+
+def audio_only(path):
+    """11-04 v30:黑画面(同分辨率 / 帧率)+ 原音轨,容器仍是 mp4(Gemini / OpenRouter 内联视频都能听)。"""
+    out = Path(str(path)[:-4] + "_aonly.mp4")
+    if not out.exists():
+        pr = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height,r_frame_rate", "-of", "csv=p=0", str(path)],
+                            capture_output=True, text=True, check=True).stdout.strip().split(",")
+        w, h, fps = pr[0], pr[1], pr[2]
+        subprocess.run(["ffmpeg", "-nostdin", "-y", "-loglevel", "error", "-i", str(path), "-f", "lavfi", "-i", f"color=c=black:s={w}x{h}:r={fps}",
+                        "-map", "1:v:0", "-map", "0:a:0", "-c:v", "libx264", "-pix_fmt", "yuv420p", "-c:a", "aac", "-shortest", str(out)],
+                       check=True, capture_output=True)
+    return out
 
 
 def muted(path):

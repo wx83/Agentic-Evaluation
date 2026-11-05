@@ -29,7 +29,7 @@ KINDS = {"sound_source_direction", "gaze_sample",   # 10-27 晚 AEA(adapters/aea
     # geo3d(10-15 spec §4-§7):每 clip 一条 frame / calibration;fixture 为 Gemini candidate
     "spatial_frame", "camera_calibration", "fixture_candidate",
 }
-FORMATS = {"single_choice", "multi_select", "short_answer", "plan", "gap_steps", "bbox"}   # bbox(10-27):object_grounding,作答 = 框
+FORMATS = {"single_choice", "multi_select", "short_answer", "plan", "gap_steps", "bbox", "time_window"}   # time_window(11-02 v24):L2 temporal grounding 4 档,作答 = 起止   # bbox(10-27):object_grounding,作答 = 框
 ACTIONS_DIAG = {"PROPOSE_DIAGNOSTIC", "REQUEST_VERIFICATION", "BEGIN_CONFIRMATION", "INCONCLUSIVE"}
 ACTIONS_CONF = {"PROPOSE_CONFIRMATION", "REQUEST_VERIFICATION", "INCONCLUSIVE"}
 STRATEGIES = {"coverage", "same_skill_new_event", "same_skill_cleaner_event", "same_event_new_format",

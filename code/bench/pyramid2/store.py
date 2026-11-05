@@ -34,11 +34,15 @@ class Store:
         self._cap = None; self._reg = None
 
     # ---- lazy loads ----
+    _LOCK = __import__("threading").RLock()        # 11-02c:懒加载在并行 solver 线程里首次触发会同时建索引("list modified during sort" / "dictionary changed size")
+
     @property
     def evidence(self):
         if self._ev is None:
-            self._ev = {r["evidence_id"]: r for r in read_jsonl(self.dir / "evidence.jsonl")}
-            self._index()
+            with Store._LOCK:
+                if self._ev is None:
+                    ev = {r["evidence_id"]: r for r in read_jsonl(self.dir / "evidence.jsonl")}
+                    self._ev = ev; self._index()
         return self._ev
 
     def _index(self):
@@ -65,13 +69,15 @@ class Store:
     @property
     def media_rows(self):
         if self._media is None:
-            self._media = {m["media_id"]: m for m in read_jsonl(self.dir / "media_manifest.jsonl")}
+            with Store._LOCK:
+                if self._media is None: self._media = {m["media_id"]: m for m in read_jsonl(self.dir / "media_manifest.jsonl")}
         return self._media
 
     @property
     def items(self):
         if self._items is None:
-            self._items = read_jsonl(self.dir / "items.jsonl")
+            with Store._LOCK:
+                if self._items is None: self._items = read_jsonl(self.dir / "items.jsonl")
         return self._items
 
     @property

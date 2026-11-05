@@ -1,4 +1,5 @@
 """ffmpeg 裁剪 + 内容寻址缓存。必须重编码：-c copy 会把切点吸附到关键帧。"""
+import os, threading, uuid
 import json, subprocess, sys, hashlib
 import config as C
 
@@ -49,9 +50,23 @@ def ensure_clip(video_id, t0, t1, force=False, box=None, src=None, vf=None, out_
                "-pix_fmt", "yuv420p", "-vf", vf, "-r", "15",
                "-c:a", "aac", "-b:a", "128k", "-ac", "2", "-ar", "48000",
                "-movflags", "+faststart", str(out)]
-    subprocess.run(cmd, check=True, capture_output=True)
-    probe(out, expect=t1 - t0)
+    with _lock_for(out):                                                         # 11-02b:同进程多线程(solver reps / necessity 臂)裁同一 clip 时串行
+        if out.exists() and not force:
+            return out
+        tmp = out.with_name(out.stem + f".tmp{os.getpid()}_{threading.get_ident()}_{uuid.uuid4().hex[:6]}" + out.suffix)   # 11-02:先写临时文件再 rename;名字按进程+线程唯一
+        cmd[-1] = str(tmp)
+        subprocess.run(cmd, check=True, capture_output=True)
+        probe(tmp, expect=t1 - t0)
+        os.replace(tmp, out)
     return out
+
+
+_LOCKS, _LOCKS_GUARD = {}, threading.Lock()
+
+
+def _lock_for(path):
+    with _LOCKS_GUARD:
+        return _LOCKS.setdefault(str(path), threading.Lock())
 
 
 def probe(p, expect=None, tol=0.30):
@@ -94,13 +109,18 @@ def ensure_episodes(video_id, windows, box=None, force=False, src=None, vf=None,
     if out.exists() and not force:
         return out
     parts = [ensure_clip(video_id, a, b, force=force, box=box, src=src, vf=vf, out_dir=out_dir, silent_audio=silent_audio) for a, b in windows]
-    lst = out.with_suffix(".txt")
-    lst.write_text("".join(f"file '{p}'\n" for p in parts))
-    subprocess.run(["ffmpeg", "-nostdin", "-y", "-f", "concat", "-safe", "0",
-                    "-i", str(lst), "-c", "copy", "-movflags", "+faststart", str(out)],
-                   check=True, capture_output=True)
-    lst.unlink()
-    probe(out, expect=sum(b - a for a, b in windows), tol=0.20 + 0.15 * len(windows))   # 10-28:每段 -c copy 拼接各带 ~0.14 s 余量,3-4 段时按段数放宽
+    with _lock_for(out):                                                         # 11-02b:列表文件与输出都按进程+线程唯一命名,写完再 rename
+        if out.exists() and not force:
+            return out
+        uniq = f"{os.getpid()}_{threading.get_ident()}_{uuid.uuid4().hex[:6]}"
+        lst = out.with_name(out.stem + f".tmp{uniq}.txt"); tmp = out.with_name(out.stem + f".tmp{uniq}" + out.suffix)
+        lst.write_text("".join(f"file '{p}'\n" for p in parts))
+        subprocess.run(["ffmpeg", "-nostdin", "-y", "-f", "concat", "-safe", "0",
+                        "-i", str(lst), "-c", "copy", "-movflags", "+faststart", str(tmp)],
+                       check=True, capture_output=True)
+        lst.unlink()
+        probe(tmp, expect=sum(b - a for a, b in windows), tol=0.20 + 0.15 * len(windows))   # 10-28:每段 -c copy 拼接各带 ~0.14 s 余量,3-4 段时按段数放宽
+        os.replace(tmp, out)
     return out
 
 

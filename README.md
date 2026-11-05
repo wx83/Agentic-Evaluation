@@ -1,3 +1,5 @@
+> **v31 (2026-11-05)** — latest pyramid2 code (L2 modality conditions, chained L3, v31 spatio-temporal skills, diagnostics), prompts, contracts, 9-video data subset and the finished v30b runs for tasks 61/62/63 were merged from branch `v31`. See [README_v31.md](README_v31.md) for how to run `run_v31.sh` / `run_full.sh`; the full bundle with source videos is the private HF dataset `WitneyWW/pyramid2-v31-1104`.
+
 # Agentic Evaluation — pyramid2 on HD-EPIC Method E · branch `qwen-solver`
 
 Same benchmark code as branch `gemini-solver` (read that README first for the benchmark itself: layers, skills, tiers, arms, scoring,

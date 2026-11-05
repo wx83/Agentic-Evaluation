@@ -1,0 +1,246 @@
+{
+ "layer": "L1",
+ "stop_reason": "EVENT_LOOP_COMPLETE",
+ "phase": "DONE",
+ "turns": 27,
+ "scored": 9,
+ "correct": 8,
+ "raw_acc": 0.889,
+ "cluster_dedup_acc": 0.889,
+ "followup_items": 0,
+ "by_verdict": {
+  "guessable": 15,
+  "item_invalid": 3,
+  "correct": 8,
+  "wrong": 1
+ },
+ "by_format": {
+  "single_choice": 9
+ },
+ "by_skill": {
+  "object_recognition": {
+   "verdict": "boundary 2.0",
+   "scored": 2,
+   "correct": 1,
+   "clusters": 2,
+   "staircase": {
+    "boundary": 2.0,
+    "stop": "examiner_failed",
+    "unconverged": true,
+    "phase": "done",
+    "levels_tested": [
+     2
+    ],
+    "per_level": {
+     "2": "1/2"
+    },
+    "n_search": 2,
+    "n_reused_events": 0,
+    "trace": [
+     {
+      "turn": 3,
+      "level": 2,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 5,
+      "level": 2,
+      "verdict": "wrong",
+      "reused": false
+     }
+    ],
+    "reversal_levels": [],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": [
+    3,
+    5
+   ]
+  },
+  "object_box_choice": {
+   "verdict": "boundary>=4",
+   "scored": 7,
+   "correct": 7,
+   "clusters": 7,
+   "staircase": {
+    "boundary": 4.5,
+    "stop": "ceiling",
+    "unconverged": false,
+    "phase": "done",
+    "levels_tested": [
+     2,
+     3,
+     4
+    ],
+    "per_level": {
+     "2": "2/2",
+     "3": "2/2",
+     "4": "3/3"
+    },
+    "n_search": 6,
+    "n_reused_events": 0,
+    "trace": [
+     {
+      "turn": 4,
+      "level": 2,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 15,
+      "level": 2,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 20,
+      "level": 3,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 22,
+      "level": 3,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 23,
+      "level": 4,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 24,
+      "level": 4,
+      "verdict": "correct",
+      "reused": false
+     }
+    ],
+    "reversal_levels": [],
+    "verify": [
+     {
+      "level": 4,
+      "expect": "correct",
+      "verdict": "correct",
+      "turn": 27
+     }
+    ],
+    "boundary_confirmed": true
+   },
+   "turns": [
+    4,
+    15,
+    20,
+    22,
+    23,
+    24,
+    27
+   ]
+  }
+ },
+ "stair": {
+  "object_recognition": {
+   "boundary": 2.0,
+   "stop": "examiner_failed",
+   "unconverged": true,
+   "phase": "done",
+   "levels_tested": [
+    2
+   ],
+   "per_level": {
+    "2": "1/2"
+   },
+   "n_search": 2,
+   "n_reused_events": 0,
+   "trace": [
+    {
+     "turn": 3,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 5,
+     "level": 2,
+     "verdict": "wrong",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "verify": [],
+   "boundary_confirmed": null
+  },
+  "object_box_choice": {
+   "boundary": 4.5,
+   "stop": "ceiling",
+   "unconverged": false,
+   "phase": "done",
+   "levels_tested": [
+    2,
+    3,
+    4
+   ],
+   "per_level": {
+    "2": "2/2",
+    "3": "2/2",
+    "4": "3/3"
+   },
+   "n_search": 6,
+   "n_reused_events": 0,
+   "trace": [
+    {
+     "turn": 4,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 15,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 20,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 22,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 23,
+     "level": 4,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 24,
+     "level": 4,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "verify": [
+    {
+     "level": 4,
+     "expect": "correct",
+     "verdict": "correct",
+     "turn": 27
+    }
+   ],
+   "boundary_confirmed": true
+  }
+ },
+ "hypotheses": [],
+ "confirmation": null,
+ "not_evaluated": {}
+}

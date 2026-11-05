@@ -28,6 +28,14 @@ def answer_text(row, mode, render="full"):
     """展示给 Solver 的答案文字。gold = reference(字母展开成选项文字);self = parsed(没有就 raw 首行)。
     render="qa"(10-30,合约 history_render):history 不展示选项,选择题答案只给选项文字、不带字母(字母没有选项就没意义)。"""
     fmt, opts = row.get("format"), row.get("options")
+    if row.get("_force_mode"): mode = row["_force_mode"]       # 11-02 v21:定点覆盖(题树 required_facts → gold / wrong)
+    if mode == "wrong":                                  # 11-02 v20 wrong 臂:单选把参考答案换成另一个选项(下一个字母);其它题型给不出可信的错答案,退回参考答案
+        if fmt == "single_choice" and opts:
+            letters = [m.group(1) for o in opts for m in [_LETTER.match(o or "")] if m]
+            ref = str(row.get("reference") or "").strip().upper()[:1]
+            if ref in letters:
+                row = dict(row, reference=letters[(letters.index(ref) + 1) % len(letters)])
+        mode = "gold"
     if render == "qa" and fmt in ("single_choice", "multi_select"):
         letters = re.findall(r"[A-E]", str(row.get("reference") if mode == "gold" else (row.get("parsed") or "")).upper())
         texts = [_opt_text(opts, L) for L in letters]
@@ -207,7 +215,7 @@ def select_relevant_balanced(rows, current, sample_id, per_layer=8):
 
 
 def history_for(run_dir, layer, sample_id, mode, cap=12, exclude_same_answer=True, current=None, respect_cutoff=False, only_scope_ids=None, only_base=False, label=None,
-                select=None, per_layer=8, per_subgoal=6, event_ids=None, render="full"):
+                select=None, per_layer=8, per_subgoal=6, event_ids=None, render="full", only_ids=None, overrides=None, exclude_subgoals=None):
     """返回 {mode, n, excluded, turns, text}。exclude_same_answer:两臂都按下层题的 gold 文字与本题 gold 文字相同来剔除,保证两臂题集一致。
     respect_cutoff(10-21):本题有 observation_cutoff 时,剔除窗口结束晚于 cutoff 的下层题(否则下层题会把 cutoff 之后的步骤带给 Solver);剔除的记在 excluded_after_cutoff。"""
     if mode in (None, "none"):
@@ -217,6 +225,15 @@ def history_for(run_dir, layer, sample_id, mode, cap=12, exclude_same_answer=Tru
         rows = [h for h in rows if not h.get("tests_hypothesis") and not h.get("confirmation_slot")]
     if only_scope_ids is not None:                     # 10-22 题树:只带指定节点(子节点)的题
         want = set(only_scope_ids); rows = [h for h in rows if h.get("scope_id") in want]
+    if exclude_subgoals:                               # 11-02 v23b gap 题:隐藏的 sub-goal 的下层事实不能进 history(那是答案)
+        ex = {int(x) for x in exclude_subgoals}
+        def _sgidx(h):
+            i = (h.get("sg") or {}).get("idx"); return set(i) if isinstance(i, list) else ({int(i)} if i is not None else set())
+        rows = [h for h in rows if not (_sgidx(h) & ex)]
+    if only_ids is not None:                           # 11-02 v21:只带指定 candidate_id 的下层题(定点 gold 臂)
+        want = set(only_ids); rows = [h for h in rows if h.get("candidate_id") in want]
+    if overrides:                                      # 11-02 v21:指定下层题的答案强制按 gold / wrong 展示(其余按 mode)
+        rows = [dict(h, _force_mode=overrides[h["candidate_id"]]) if h.get("candidate_id") in overrides else h for h in rows]
     excluded = []; excluded_cut = []
     cut = (current or {}).get("output", {}).get("public", {}).get("observation_cutoff") if current else None
     if select in ("by_subgoal", "by_event") and cut is None and current is not None:          # 10-28 v15:没有 cutoff 的题按 clip 结束时刻截断 history
@@ -252,10 +269,12 @@ def history_for(run_dir, layer, sample_id, mode, cap=12, exclude_same_answer=Tru
     else:
         rows = rows[-cap:] if cap else rows
     return {"mode": mode, "label": label or "neutral", "n": len(rows), "excluded": excluded, "excluded_after_cutoff": excluded_cut, "cutoff": cut, "only_scope_ids": only_scope_ids, "only_base": only_base,
+            "only_ids": sorted(only_ids) if only_ids else None, "overrides": overrides or None,
             "select": select, "per_layer": sel_stats,
             "turns": [[h["layer"], h["turn"]] for h in rows], "depth_available": depth(run_dir, layer, sample_id),
             "render": render,
-            "text": (render_facts(rows, mode, label, run_dir, grouped=(select == "by_subgoal" or (select == "by_event" and not event_ids))) if render == "facts" else
+            "text": (render_facts_prog(rows, mode, label, current) if render == "facts2" else
+                     render_facts(rows, mode, label, run_dir, grouped=(select == "by_subgoal" or (select == "by_event" and not event_ids))) if render == "facts" else
                      __import__("sg").render_grouped(rows, mode, label, render) if (select == "by_subgoal" or (select == "by_event" and not event_ids)) else globals()["render"](rows, mode, label, render))}
 
 
@@ -320,17 +339,91 @@ def render_facts(rows, mode, label=None, run_dir=None, grouped=True):
     return "\n".join(L) + "\n"
 
 
+
+# ------------------------------------------------------------------ 11-04 v30(用户定):history 改成程序生成的事实句(省 token;时间换算到当前 clip 的时间轴)
+def _mmss(t):
+    t = max(0.0, float(t)); return f"{int(t // 60)}:{int(t % 60):02d}"
+
+
+def _cur_windows(current):
+    wins = [w for m_ in ((current or {}).get("output") or {}).get("public", {}).get("media_refs") or [] for w in (m_.get("windows") or []) if isinstance(w, (list, tuple)) and len(w) == 2]
+    return [[float(a), float(b)] for a, b in wins]
+
+
+def _abs_to_phrase(t0, t1, wins):
+    """绝对秒 [t0, t1] → 相对当前 clip 的说法。多段 clip 按顺序累加(段前 1 s 卡片不算,近似)。"""
+    if not wins: return f"at about {_mmss(t0)}-{_mmss(t1)} of the earlier clip"
+    acc = 0.0
+    for a, b in wins:
+        if t0 >= a - 0.5 and t1 <= b + 0.5:
+            c0, c1 = acc + max(0.0, t0 - a), acc + min(b - a, t1 - a)
+            return f"at about {_mmss(c0)}-{_mmss(c1)} of this clip" if c1 - c0 >= 1.0 else f"at about {_mmss(c0)} of this clip"
+        acc += b - a
+    first, last = wins[0][0], wins[-1][1]
+    if t1 <= first + 0.5: return f"about {int(round(first - t1))} s before this clip starts"
+    if t0 >= last - 0.5: return "after this clip ends"
+    return "between the parts shown in this clip"
+
+
+_Q_WHEN = re.compile(r"^(?:in (?:the|this) clip,?\s*)?(?:at what (?:time|point|moment)|when)\s+(?:is|are|does|do|did|was|were)\s+(.*?)\s*\??$", re.I)
+_Q_IMG = re.compile(r"^(?:in (?:the|this) (?:image|frame|picture),?\s*)?(.*?)\s*\??$", re.I)
+_SPAN = re.compile(r"(\d+):(\d{2})\s*[-–]\s*(\d+):(\d{2})")
+
+
+def _fact_line(h, mode, wins):
+    """一行事实句:L1 单帧题 / L2 时间段题 / 其它单选题 / 短答题。返回 None = 这题不进事实(画框题)。"""
+    q = (h.get("question") or "").strip().replace("\n", " "); fmt = h.get("format"); sk = h.get("capability_skill") or ""
+    if sk == "object_box_choice": return None
+    ans = answer_text(h, mode, "qa") or "(no answer)"
+    ans = ans.strip().rstrip(".")
+    m_w = [w for m_ in (h.get("media_refs") or []) for w in (m_.get("windows") or []) if isinstance(w, (list, tuple)) and len(w) == 2]
+    # 时间段答案(L2 定位题):把 L2 clip 内的 M:SS 换成绝对秒,再换成当前 clip 的说法
+    sp = _SPAN.search(ans)
+    if sp and m_w:
+        base = float(m_w[0][0]); t0 = base + int(sp.group(1)) * 60 + int(sp.group(2)); t1 = base + int(sp.group(3)) * 60 + int(sp.group(4))
+        m = _Q_WHEN.match(q); subj = m.group(1) if m else q.rstrip("?")
+        return f"{subj[0].upper() + subj[1:]}: {_abs_to_phrase(t0, t1, wins)}."
+    if (h.get("layer") == "L1" or "image" in q.lower()) and m_w:            # 单帧题:帧时刻换成当前 clip 的说法
+        m = _Q_IMG.match(q); core = (m.group(1) if m else q).rstrip("?")
+        t = float(m_w[0][0]); when = _abs_to_phrase(t, t, wins)
+        m2 = re.match(r"^(?:what|which)(?: object| item| tool| thing)?(?: is| are) (the camera wearer|the person|the wearer|they|he|she) (\w+ing)(?: (?:in|with) (?:their|his|her) (left|right) hand)?", core, flags=re.I)
+        if m2:
+            hand = f" in their {m2.group(3)} hand" if m2.group(3) else ""
+            return f"{m2.group(1)[0].upper() + m2.group(1)[1:]} is {m2.group(2)} {ans}{hand} ({when})."
+        return f"{core[0].upper() + core[1:]} -> {ans} ({when})."
+    if len(ans.split()) >= 6 and re.search(r"\b(before|after|then|while)\b", ans):   # 先后题:答案本身就是陈述句
+        return ans + "."
+    core = re.sub(r"^(?:in (?:the|this) clip,?\s*)", "", q, flags=re.I).rstrip("?")
+    return f"{core[0].upper() + core[1:]} -> {ans}."
+
+
+def render_facts_prog(rows, mode, label=None, current=None):
+    if not rows: return ""
+    wins = _cur_windows(current); L = [FACTS_HEADER[label or "neutral"]]
+    for h in rows:
+        line = _fact_line(h, mode, wins)
+        if line: L.append(f"- ({h['layer']}) {line}")
+    return "\n".join(L) + "\n" if len(L) > 1 else ""
+
 # ------------------------------------------------------------------ gold replay
 def solve_reps(cand, contract, store, run_dir, history_text, n_rep=1, blind=False):
     """同题重答 n_rep 次(10-21,压 3.7-flash 关不掉 thinking 的重答噪声):单选按 parsed 字母取多数(平票取先出现的),
     其它题型取第 1 次;返回 (多数那次的 sol, 其 grade, reps 列表[{raw, parsed, verdict, score}])。blind=True 时不传 clip,只给文字。"""
     import solver as SV, grade as GR
-    outs = []
-    for k in range(n_rep):
-        sol = SV.solve_blind(cand, contract, run_dir=run_dir, history_text=history_text) if blind else \
-              SV.solve(cand, contract, store, run_dir=run_dir, history_text=history_text)
-        gr = GR.grade(cand, sol, contract, run_dir=run_dir)
-        outs.append((sol, gr))
+    def _one(k):
+        for _t in range(3):                                                   # 11-02c:并行 reps 偶发 "dictionary changed size during iteration"(线程共享 dict),同题重试
+            try:
+                sol = SV.solve_blind(cand, contract, run_dir=run_dir, history_text=history_text) if blind else \
+                      SV.solve(cand, contract, store, run_dir=run_dir, history_text=history_text)
+                return sol, GR.grade(cand, sol, contract, run_dir=run_dir)
+            except RuntimeError as e:
+                if "changed size" not in str(e) or _t == 2: raise
+                time.sleep(0.5)
+    if n_rep > 1 and contract.get("parallel_reps", True):          # 11-02(用户:加速):三答并行发出
+        from concurrent.futures import ThreadPoolExecutor
+        with ThreadPoolExecutor(max_workers=n_rep) as ex: outs = list(ex.map(_one, range(n_rep)))
+    else:
+        outs = [_one(k) for k in range(n_rep)]
     reps = [{"rep": k, "raw": so["raw"], "parsed": g["parsed"], "verdict": g["verdict"], "score": g["score"]} for k, (so, g) in enumerate(outs)]
     if n_rep == 1:
         return outs[0][0], outs[0][1], reps
@@ -393,11 +486,16 @@ def replay(contract, from_run_id, levels=None, history_from="src"):
             if cand is None:
                 CT.log(dst, f"{layer} t{h['turn']}: candidate missing, skipped"); continue
             only = (h.get("tree") or {}).get("depends_on") if (contract.get("history_scope") == "tree" and h.get("tree")) else None
+            ov = None
+            if contract.get("targeted") in ("corrected", "wrong"):          # 11-02 v21:定点臂 —— history 按 self,只把本题 required_facts 换成 gold / wrong
+                req = ((cand.get("output") or {}).get("private") or {}).get("required_facts") or []
+                ov = {fid: ("gold" if contract["targeted"] == "corrected" else "wrong") for fid in req}
             hist = history_for(dst if history_from == "dst" else src, layer, h.get("sample_id"), mode, cap=contract.get("history_cap", 12),
                                exclude_same_answer=contract.get("history_exclude_same_answer", True), current=cand,
                                respect_cutoff=contract.get("history_respect_cutoff", False), only_scope_ids=only, only_base=contract.get("history_only_base", False),
                                label=contract.get("history_label"), select=contract.get("history_select"), per_layer=contract.get("history_per_layer", 8),
-                               per_subgoal=contract.get("history_per_subgoal", 6), render=contract.get("history_render", "full")) if h.get("sample_id") else None
+                               per_subgoal=contract.get("history_per_subgoal", 6), render=contract.get("history_render", "full"), overrides=ov,
+                               exclude_subgoals=((cand.get("output") or {}).get("private") or {}).get("history_exclude_subgoals")) if h.get("sample_id") else None
             n_rep = max(1, int(reps_by.get(layer, contract.get("solver_reps", 1))))
             try:
                 sol, gr, reps = solve_reps(cand, contract, store, dst, hist["text"] if hist else None, n_rep, blind=blind)

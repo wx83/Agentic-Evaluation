@@ -84,6 +84,15 @@ def grade(cand, sol, contract, run_dir=None):
             v, swapped = (v2, True) if v2 > v1 + 0.05 else (v1, False)
             thr = float(contract.get("bbox_iou_min", 0.5))                   # 10-30:阈值从合约读(默认 0.5 不变)
             res.update(verdict="correct" if v >= thr else "wrong", score=round(v, 3), judge="rule", reason=f"IoU {v:.2f} (min {thr:g})" + (" (yx order)" if swapped else ""))
+    elif fmt == "time_window":                                 # 11-02 v24 L2 4 档:区间 IoU >= tw_iou_min(默认 0.3)
+        import v24 as _V24
+        got = _V24.parse_time_window(raw); want = pri.get("tw_ref_sec")
+        res["parsed"] = got
+        if got is None or not want:
+            res.update(verdict="wrong", score=0.0, judge="rule", reason="no time span parsed")
+        else:
+            v = _V24.iou_1d(got, [float(want[0]), float(want[1])]); thr = float(contract.get("tw_iou_min", _V24.TW_IOU_MIN))
+            res.update(verdict="correct" if v >= thr else "wrong", score=round(v, 3), judge="rule", reason=f"IoU {v:.2f} (min {thr:g})")
     elif fmt == "gap_steps":                                   # 10-24:允许 1 行;逐行编号解析,再交 judge 按 rubric 判
         lines = [m.group(1).strip() for m in re.finditer(r"(?m)^\s*\d+\s*[.)]\s*(.+?)\s*$", raw or "")]
         lines = [l for l in lines if not re.match(r"(?i)^(time|because)\s*[:：]", l)]

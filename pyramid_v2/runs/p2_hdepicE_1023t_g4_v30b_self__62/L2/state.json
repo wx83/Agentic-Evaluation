@@ -1,0 +1,344 @@
+{
+ "turn": 97,
+ "phase": "DONE",
+ "stop_reason": "EVENT_LOOP_COMPLETE",
+ "solver_errors": 0,
+ "frozen_clusters": [],
+ "consec_inconclusive": 0,
+ "confirmation": null,
+ "not_evaluated": {},
+ "unresolved_by_skill": {
+  "action_recognition": 0,
+  "event_object_role": 0,
+  "action_temporal_order": 0,
+  "sound_action_binding": 0,
+  "sound_movement_binding": 0,
+  "sound_localization": 0
+ },
+ "examiner_errors": 0,
+ "stair": {
+  "action_recognition": {
+   "level": 4,
+   "streak": 0,
+   "trace": [
+    {
+     "turn": 2,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 12,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 24,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 38,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 50,
+     "level": 4,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 56,
+     "level": 4,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "last_dir": "up",
+   "phase": "done",
+   "stop": "ceiling",
+   "boundary": 4.5,
+   "unconverged": false,
+   "verify": [
+    {
+     "level": 4,
+     "expect": "correct",
+     "verdict": "correct",
+     "turn": 61
+    },
+    {
+     "level": 4,
+     "expect": "correct",
+     "verdict": "wrong",
+     "turn": 72
+    },
+    {
+     "level": 4,
+     "expect": "correct",
+     "verdict": "correct",
+     "turn": 83
+    },
+    {
+     "level": 4,
+     "expect": "correct",
+     "verdict": "wrong",
+     "turn": 88
+    },
+    {
+     "level": 4,
+     "expect": "correct",
+     "verdict": "wrong",
+     "turn": 90
+    },
+    {
+     "level": 4,
+     "expect": "correct",
+     "verdict": "wrong",
+     "turn": 93
+    },
+    {
+     "level": 4,
+     "expect": "correct",
+     "verdict": "correct",
+     "turn": 96
+    }
+   ],
+   "invalid_streak": 0,
+   "floor_hits": 0,
+   "_announced": true
+  },
+  "event_object_role": {
+   "level": 4,
+   "streak": 0,
+   "trace": [
+    {
+     "turn": 4,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 14,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 26,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 52,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 57,
+     "level": 4,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 62,
+     "level": 4,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "last_dir": "up",
+   "phase": "done",
+   "stop": "ceiling",
+   "boundary": 4.5,
+   "unconverged": false,
+   "verify": [
+    {
+     "level": 4,
+     "expect": "correct",
+     "verdict": "wrong",
+     "turn": 73
+    },
+    {
+     "level": 4,
+     "expect": "correct",
+     "verdict": "correct",
+     "turn": 84
+    },
+    {
+     "level": 4,
+     "expect": "correct",
+     "verdict": "wrong",
+     "turn": 89
+    },
+    {
+     "level": 4,
+     "expect": "correct",
+     "verdict": "wrong",
+     "turn": 91
+    },
+    {
+     "level": 4,
+     "expect": "correct",
+     "verdict": "wrong",
+     "turn": 94
+    },
+    {
+     "level": 4,
+     "expect": "correct",
+     "verdict": "correct",
+     "turn": 97
+    }
+   ],
+   "invalid_streak": 0,
+   "floor_hits": 0,
+   "_announced": true
+  },
+  "action_temporal_order": {
+   "level": 1,
+   "streak": 0,
+   "trace": [
+    {
+     "turn": 5,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 15,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 29,
+     "level": 3,
+     "verdict": "wrong",
+     "reused": false
+    },
+    {
+     "turn": 55,
+     "level": 2,
+     "verdict": "wrong",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [
+    3
+   ],
+   "last_dir": "down",
+   "phase": "done",
+   "stop": "examiner_failed",
+   "boundary": 2.5,
+   "unconverged": true,
+   "verify": [],
+   "invalid_streak": 3,
+   "floor_hits": 0,
+   "_announced": true
+  },
+  "sound_action_binding": {
+   "level": 1,
+   "streak": 0,
+   "trace": [
+    {
+     "turn": 7,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 46,
+     "level": 2,
+     "verdict": "wrong",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "last_dir": "down",
+   "phase": "done",
+   "stop": "examiner_failed",
+   "boundary": 2.0,
+   "unconverged": true,
+   "verify": [],
+   "invalid_streak": 3,
+   "floor_hits": 0,
+   "_announced": true
+  },
+  "sound_movement_binding": {
+   "level": 3,
+   "streak": 0,
+   "trace": [
+    {
+     "turn": 8,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 21,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "last_dir": "up",
+   "phase": "done",
+   "stop": "examiner_failed",
+   "boundary": 2.0,
+   "unconverged": true,
+   "verify": [],
+   "invalid_streak": 3,
+   "floor_hits": 0,
+   "_announced": true
+  },
+  "sound_localization": {
+   "level": 2,
+   "streak": 0,
+   "trace": [
+    {
+     "turn": 22,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 35,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 92,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 95,
+     "level": 3,
+     "verdict": "wrong",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [
+    3
+   ],
+   "last_dir": "down",
+   "phase": "done",
+   "stop": "events_exhausted",
+   "boundary": 2.25,
+   "unconverged": true,
+   "verify": [],
+   "invalid_streak": 0,
+   "floor_hits": 0
+  }
+ }
+}

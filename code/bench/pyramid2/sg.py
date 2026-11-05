@@ -14,7 +14,7 @@ import ids
 import retrieve as R
 
 CACHE = P.DATA / "sg_cache"
-DS = {"hdepic_e"}
+DS = {"hdepic_e", "aea_s", "aea_p"}      # 11-03 v29:+ AEA 两人录像(adapters/aea_savvy.py)
 EVENT_PAD = 5.0                      # L1 / L3 段:event 中心 ± 5 s
 L2_WINDOWS = {1: 15.0, 2: 30.0, 3: None, 4: None}       # v16(10-28 用户定):15 / 30 / 整段单选 / 整段短答;None = 整个 sub-goal
 L3_MAX_SEC = 180.0                   # v16:L3 = 本 sub-goal + 相邻 sub-goal 的连续窗口,1 档两段、2 档前+本+后、3/4 档以 pair 为中心扩到 180 s(3 单选,4 短答)
@@ -28,7 +28,7 @@ L2_SKILLS = ["action_recognition", "event_object_role", "action_temporal_order",
 L3_SKILLS = sorted(set(L3_REL_SKILL.values()))
 L4_SKILLS = ["goal_conditioned_planning"]
 LAYER_OF = {**{s: "L1" for s in L1_SKILLS}, **{s: "L2" for s in L2_SKILLS}, **{s: "L3" for s in L3_SKILLS}, **{s: "L4" for s in L4_SKILLS}}
-EVENT_TYPES = ("action", "sound", "placement", "state")
+EVENT_TYPES = ("action", "sound", "placement", "state", "speech")      # 11-03 v29:speech = 一句话(AEA utterance)
 SKILL_DEFS = {
     "object_recognition": "L1: which object is in hand / being handled at the moment of the event",
     "spatial_near": "L1: at the moment of the event, which of the listed objects is nearest to a reference object (3D positions from the dataset)",
@@ -103,7 +103,8 @@ def build_input(store, contract, task_id):
     ti = task_info(store, task_id)
     if ti is None: return None
     skills = [s for s in (contract.get("include_skills") or list(LAYER_OF)) if s in LAYER_OF]
-    return {"task_id": task_id, "goal": ti["goal"], "sub_goals": [{"idx": s["idx"], "text": s["text"]} for s in ti["steps"]],
+    ann = {s["idx"]: (ti["step_rec"].get(s["idx"]) or {}).get("value", {}).get("events") for s in ti["steps"]}      # 11-03 v29:AEA sub-goal 自带已标注事件(speech / sound),planner 从中选
+    return {"task_id": task_id, "goal": ti["goal"], "sub_goals": [{"idx": s["idx"], "text": s["text"], **({"annotated_events": ann[s["idx"]]} if ann.get(s["idx"]) else {})} for s in ti["steps"]],
             "skills": {s: SKILL_DEFS[s] for s in skills if s in SKILL_DEFS},
             "l3_relation_types": {k: v for k, v in REL_DEFS.items() if L3_REL_SKILL[k] in skills},
             "n_sub_goals": len(ti["steps"])}
@@ -132,7 +133,8 @@ def validate(out, inp):
             sks = [s for s in (e.get("skills") or []) if s in allowed_sk]
             evs.append({"event_id": eid, "sub_goal": idx, "type": typ, "description": str(e["description"])[:200],
                         "objects": [str(x).lower()[:40] for x in (e.get("objects") or [])][:6], "verbs": [str(x).lower()[:30] for x in (e.get("verbs") or [])][:4],
-                        "skills": sks, "relevance": str(e.get("relevance") or "")[:200]})
+                        "skills": sks, "relevance": str(e.get("relevance") or "")[:200],
+                        "source_ids": [str(x) for x in (e.get("source_ids") or []) if isinstance(x, (str, int))][:6]})      # 11-03 v29:planner 直接引用标注事件 id(AEA annotated_events)
         by_idx[idx] = {"idx": idx, "events": evs, "irrelevant": str(sg_.get("irrelevant") or "")[:200]}
     for s in inp["sub_goals"]:
         clean["sub_goals"].append(by_idx.get(s["idx"], {"idx": s["idx"], "events": [], "irrelevant": ""}))
@@ -195,6 +197,8 @@ def _score(ev, r):
         rt = _toks(_narr_text(r)) | {_stem(x) for n in (v.get("nouns") or []) for x in n.lower().split()} | {_stem(x) for n in (v.get("verbs") or []) for x in n.lower().split()}
     elif r["kind"] == "sound_event":
         rt = _toks(v.get("label_phrase") or v.get("label") or "")
+    elif r["kind"] == "utterance":                                                   # 11-03 v29
+        rt = _toks(v.get("text") or "") | _toks(v.get("topic") or "")
     elif r["kind"] in ("object_move", "object_location_transition", "object_mask_anchor", "object_visible_track"):
         rt = _toks(v.get("object_name") or v.get("name") or "") | _toks(v.get("to_fixture_kind") or "")
     elif r["kind"] == "spatial_relation":
@@ -215,12 +219,30 @@ def match_events(store, ti, plan):
         narr = sorted(_recs(store, vid, s["t0"] - 0.3, s["t1"] + 0.3, kinds={"action_narration"}), key=lambda r: r["time"]["start_sec"])
         snd = _recs(store, vid, s["t0"], s["t1"], kinds={"sound_event"})
         mov = _recs(store, vid, s["t0"], s["t1"], kinds={"object_move", "object_location_transition"})
+        utt = _recs(store, vid, s["t0"] - 1.0, s["t1"] + 1.0, kinds={"utterance"})                                        # 11-03 v29
+        by_ref = {(r["value"] or {}).get("event_ref"): r for r in utt + snd if (r["value"] or {}).get("event_ref")}
         for ev in sg_["events"]:
             scored = []
             for r in narr:
                 sc, on, vn = _score(ev, r)
                 if on or (vn and sc >= 1.5): scored.append((sc, r))
             ev["time"] = None; ev["records"] = []; ev["matched"] = False; ev["match_note"] = ""
+            src = [by_ref[x] for x in (ev.get("source_ids") or []) if x in by_ref]
+            if src:                                                                  # 11-03 v29:planner 直接引用的标注事件:时间 = 这些记录的并集,不再按词匹配
+                ev["time"] = [round(min(r["time"]["start_sec"] for r in src), 3), round(max(r["time"]["end_sec"] for r in src), 3)]
+                ev["records"] = [r["evidence_id"] for r in src]; ev["matched"] = True; ev["match_note"] = f"{len(src)} annotated event(s) by id"
+                a, b2 = ev["time"]; ev["centre"] = round((a + b2) / 2, 3)
+                ev["time"] = [round(max(a, s["t0"] - 1.0), 3), round(min(b2, s["t1"] + 1.0), 3)]
+                continue
+            if ev["type"] == "speech":                                               # 11-03 v29:没给 id 的 speech event 按词匹配 utterance
+                cand = [(sc, r) for r in utt for sc, on, vn in [_score(ev, r)] if sc > 0]
+                if cand:
+                    sc, r = max(cand, key=lambda x: x[0])
+                    ev["time"] = [round(r["time"]["start_sec"], 3), round(r["time"]["end_sec"], 3)]; ev["records"] = [r["evidence_id"]]; ev["matched"] = True
+                    a, b2 = ev["time"]; ev["centre"] = round((a + b2) / 2, 3); ev["match_note"] = "utterance by words"
+                else:
+                    ev["match_note"] = "no utterance in this sub-goal matches the described speech"
+                continue
             if ev["type"] == "sound":
                 cand = [(sc, r) for r in snd for sc, on, vn in [_score(ev, r)] if sc > 0]
                 if cand:
@@ -424,7 +446,8 @@ def l12_clusters(store, ti, plan, skill, layer):
     """每个 sub-goal 一个 cluster:窗口 = sub-goal 整段;锚点 = skill 的锚记录里落在已匹配 event 附近的那些。"""
     vid = ti["video_id"]; m = store.media_of_video(vid); D = (m or {}).get("duration_sec") or 1e9
     if skill == "object_grounding": return grounding_clusters(store, ti, plan)
-    spec = R.skill_spec(skill, "hdepic_e")
+    _ds_ = (store.media_of_video(vid) or {}).get("dataset") or "hdepic_e"
+    spec = R.skill_spec(skill, _ds_ if _ds_ in R.SKILL_NEEDS_BY_DATASET else "hdepic_e")      # 11-03 v29:aea_s 用自己的 anchor 表(含 utterance)
     if spec is None: return []
     out = []
     knobs_all = {}
@@ -519,12 +542,21 @@ def l3_clusters(store, ti, plan, skill, seed=0):
         w3 = [round(max(0.0, c_ - half), 3), round(min(D, c_ + half), 3)]
         if w3[1] - w3[0] < w1[1] - w1[0]: w3 = list(w1)
         wins_by = {1: w1, 2: w2, 3: w3, 4: w3}
+        later_only = L3_WINDOW_MODE == "later_only"
+        if later_only:                                                           # 11-01:clip = 后一个 sub-goal 整段(≥ MIN_WIN),四档同窗口
+            wk = [round(steps[kb]["t0"], 3), round(steps[kb]["t1"], 3)]
+            if wk[1] - wk[0] < MIN_WIN: wk = [round(max(0.0, wk[1] - MIN_WIN), 3), wk[1]]
+            wins_by = {1: wk, 2: wk, 3: wk, 4: wk}
         for tier in (1, 2, 3, 4):
             w = wins_by[tier]
-            if tier == 2 and w2 == w1: continue                                  # 没有前后 sub-goal 可加:2 档不存在
-            if tier == 3 and w3[1] - w3[0] <= w2[1] - w2[0] + 1.0: w = w2        # 180 s 不比 2 档大:3 档沿用 2 档窗口(题型相同,等于再问一次)
-            core = [r for r in _recs(store, vid, w[0], w[1], kinds={"action_narration", "sound_event", "object_move", "object_location_transition", "spatial_relation"})
+            if not later_only and tier == 2 and w2 == w1: continue               # 没有前后 sub-goal 可加:2 档不存在
+            if not later_only and tier == 3 and w3[1] - w3[0] <= w2[1] - w2[0] + 1.0: w = w2        # 180 s 不比 2 档大:3 档沿用 2 档窗口(题型相同,等于再问一次)
+            core = [r for r in _recs(store, vid, w[0], w[1], kinds={"action_narration", "sound_event", "object_move", "object_location_transition", "spatial_relation", "utterance"})
                     if _near_event(r, evs, pad=EVENT_PAD) is not None or any(r["evidence_id"] in e["records"] for e in evs)]
+            if later_only:                                                       # 前一个 event 的记录不在窗内,但 Examiner 要靠它们写参考答案:显式加进 core(Solver 看不到记录,只看 clip)
+                for rid in A["records"]:
+                    r = store.get(rid)
+                    if r is not None and r["solver_access"] != "answer_only": core.append(r)
             core = list({r["evidence_id"]: r for r in core}.values())
             for k_ in sorted(steps):
                 if steps[k_]["t1"] >= w[0] and steps[k_]["t0"] <= w[1] and k_ in ti["step_rec"] and ti["step_rec"][k_]["evidence_id"] not in {r["evidence_id"] for r in core}:
@@ -533,7 +565,8 @@ def l3_clusters(store, ti, plan, skill, seed=0):
             meta = {"kind": "L3", "tier": tier, "rel_id": rel["rel_id"], "rel_type": rel["type"], "rel_source": rel.get("source", "planner"), "ask": rel["ask"], "answer_hint": rel["answer_hint"],
                     "idx": [ka, kb], "this_sub_goal": kb, "events": [{k: e[k] for k in ("event_id", "sub_goal", "type", "description", "objects", "time", "records")} for e in evs],
                     "sub_goals_in_clip": [k_ for k_ in sorted(steps) if steps[k_]["t1"] >= w[0] and steps[k_]["t0"] <= w[1]],
-                    "window_rule": {1: "sub-goal k and k+1 only", 2: "previous + the pair + next sub-goal", 3: "180 s centred on the pair, single choice", 4: "180 s centred on the pair, short answer"}[tier],
+                    "window_rule": ("LATER SUB-GOAL ONLY: the clip shows sub-goal k+1 only; the earlier event is NOT in the clip (the Solver can only know it from its lower-layer history); " + {1: "single choice", 2: "single choice", 3: "single choice", 4: "short answer"}[tier]) if later_only else
+                                   {1: "sub-goal k and k+1 only", 2: "previous + the pair + next sub-goal", 3: "180 s centred on the pair, single choice", 4: "180 s centred on the pair, short answer"}[tier],
                     "n_segments": 1, "total_sec": round(w[1] - w[0], 1)}
             anchor = next((r for r in core if r["evidence_id"] in A["records"]), core[0])
             out.append(_mk_cluster(skill, ti, store, windows=[w], cutoff=w[1], anchor=anchor, core=core, sg_meta=meta, two=False))
@@ -566,12 +599,21 @@ def l4_clusters(store, ti, plan, skill):
     return out
 
 
+V24 = False                          # 11-02 v24(合约 layers = "v24"):四层重排,pool / 档 / 补齐 / 校验 / HARNESS 转到 v24.py
+L3_WINDOW_MODE = None                # 11-01(合约 l3_window_mode = "later_only"):L3 clip 只给后一个 sub-goal k,前一个 sub-goal 的事实只能来自 history;四档窗口相同,题型仍 1-3 单选 4 短答
+L3_STRICT_NORESTATE = False          # 11-01(合约 l3_no_restate_strict):题面出现前一个 event 描述里 ≥2 个非共享词(动词 / 名词)即拒绝
 L4_WINDOW_SEC = None                 # 10-31(合约 l4_window_sec):L4 clip 只取决策点前 N 秒;None = 前一个 sub-goal 整段(v16/v17 默认)
 
 
 def build_pools(store, contract, plan_by_task, skills, layer, seed=0):
-    global L4_WINDOW_SEC
+    global L4_WINDOW_SEC, L3_WINDOW_MODE, L3_STRICT_NORESTATE
     L4_WINDOW_SEC = float(contract["l4_window_sec"]) if contract.get("l4_window_sec") else None
+    L3_WINDOW_MODE = contract.get("l3_window_mode"); L3_STRICT_NORESTATE = bool(contract.get("l3_no_restate_strict"))
+    global V24
+    if contract.get("layers") == "v24":
+        import v24 as _V24
+        V24 = True
+        return _V24.build_pools(store, contract, plan_by_task, skills, layer, seed=seed)
     pools = {}
     for cap in skills:
         cl = []
@@ -587,6 +629,10 @@ def build_pools(store, contract, plan_by_task, skills, layer, seed=0):
 
 # ---------------------------------------------------------------- 4. 阶梯接口
 def spec_for(cap, level, c=None, contract=None):
+    if V24 or ((c or {}).get("sg") or {}).get("v24"):
+        import v24 as _V24
+        s = _V24.spec_for(cap, level, c, contract=contract)
+        if s: return s
     layer = LAYER_OF.get(cap)
     fmt = FORMAT_OF[level]
     if cap == "object_grounding":
@@ -684,7 +730,7 @@ def autofill(out, ctx, c):
     if not sg_ or not isinstance(pub, dict) or not isinstance(pri, dict): return
     filled = []
     d = ctx.get("difficulty") or {}
-    if sg_.get("kind") in ("L1", "L2"):
+    if sg_.get("kind") in ("L1", "L2") or sg_.get("v24_event"):
         if not pri.get("sg_event_id"):
             refs = [x if isinstance(x, str) else x.get("evidence_id") for x in (pri.get("evidence_refs") or [])]
             ae = sg_.get("anchor_event") or {}
@@ -725,22 +771,38 @@ def autofill(out, ctx, c):
     if sg_.get("grounding") and isinstance(c.get("l3ext"), dict) and c["l3ext"].get("object"):     # grounding:private.grounding.object 由 cluster 定
         g = pri.get("grounding") if isinstance(pri.get("grounding"), dict) else {}
         if not g.get("object"): pri["grounding"] = {**g, "object": c["l3ext"]["object"]}; filled.append("grounding.object")
-    elif sg_.get("kind") == "L3":
+    elif sg_.get("kind") == "L3" and not sg_.get("v24_event"):
         if pri.get("sg_rel_id") != sg_.get("rel_id"): pri["sg_rel_id"] = sg_.get("rel_id"); filled.append("sg_rel_id")
         for ref in pub.get("media_refs") or []:
             want = [list(map(float, c["window"]))]
             ws = [list(map(float, w)) for w in (ref.get("windows") or []) if len(w) == 2]
             if ws != want: ref["windows"] = [list(c["window"])]; filled.append("window")
     if filled: pri["autofilled"] = sorted(set(filled))
+    if sg_.get("v24"):                                                                 # 11-02 v24:帧窗口 / 画框选项 / 时间段选项 / 关系窗口
+        import v24 as _V24
+        _V24.autofill(out, ctx, c)
 
 
 def checks(out, ctx, c, store):
     e = []; sg_ = c["sg"]; layer = sg_["kind"]; pub, pri = out["public"], out["private"]
+    if sg_.get("v24"):
+        import v24 as _V24
+        return _V24.checks(out, ctx, c, store)
     q = (pub.get("question") or "").lower(); d = ctx.get("difficulty") or {}
     wins = [list(map(float, w)) for ref in (pub.get("media_refs") or []) for w in (ref.get("windows") or []) if len(w) == 2]
     total = sum(w[1] - w[0] for w in wins)
     refs = [x if isinstance(x, str) else x.get("evidence_id") for x in (pri.get("evidence_refs") or [])]
     offered = {r["evidence_id"]: r for r in ctx["verified_evidence"]}
+    if ctx.get("lower_layer_facts") is not None and layer in ("L3", "L4") and not ctx.get("tree_fact"):      # 11-02 v21 题树:必须列出 1–3 条下层事实 id,且不在本题 clip 里可见(v22 由程序填,不校验)
+        facts = {f["fact_id"]: f for f in ctx["lower_layer_facts"]}
+        req = pri.get("required_facts")
+        if not isinstance(req, list) or not (1 <= len(req) <= 3):
+            e.append("private.required_facts must list 1-3 fact_id values from lower_layer_facts: the facts the correct answer hinges on")
+        else:
+            bad = [r for r in req if r not in facts]
+            if bad: e.append(f"private.required_facts contains unknown fact_id {bad[:3]}; use fact_id values from lower_layer_facts")
+            vis = [r for r in req if r in facts and facts[r].get("visible_in_clip")]
+            if vis and ctx.get("tree_require_hidden", True): e.append(f"required_facts {vis[:3]} are visible inside this item's clip window; the answer must hinge on facts the Solver can only know from its lower-layer history (visible_in_clip = false)")
     if layer in ("L1", "L2"):
         eid = pri.get("sg_event_id")
         ev_ids = {x["event_id"] for x in sg_["events"]}
@@ -789,6 +851,11 @@ def checks(out, ctx, c, store):
         a_toks = {_stem(x) for v in ev_a.get("verbs", []) for x in re.findall(r"[a-z]+", v)} if ev_a.get("verbs") else set()
         if a_toks and (a_toks & _toks(q)) and pub.get("format") != "short_answer":
             e.append(f"L3: the question must not describe what happened in the earlier sub-goal ({ev_a['description']!r}); name only the object / action of the later sub-goal and ask for the relation")
+        if L3_STRICT_NORESTATE and len(sg_["events"]) >= 2:                      # 11-01:前一个 event 描述里、后一个 event 没有的词,题面出现 ≥2 个就算复述
+            ev_b = sg_["events"][-1]
+            leak = (_toks(ev_a["description"]) - _toks(ev_b["description"]) - {_stem(x) for o in ev_b.get("objects", []) for x in re.findall(r"[a-z]+", o)}) & _toks(q)
+            if len(leak) >= 2:
+                e.append(f"L3 (strict): the question restates the earlier event ({ev_a['description']!r}): words {sorted(leak)} ; describe only what is visible in the clip (sub-goal k+1) and ask for what happened before / why")
         # 两个关系 event 的记录都要被引用
         for ev in sg_["events"][:2]:
             if not (set(ev["records"]) & set(refs)) and not any(_near_event(offered[r], [ev]) for r in refs if r in offered and offered[r]["kind"] != "task_step"):
@@ -878,12 +945,22 @@ HARNESS_RULES = """
 
 
 # ---------------------------------------------------------------- 8. v17(10-29 用户定):按 event 遍历,阶梯只管档位
+def _unit_t(c):
+    """11-03:relation unit 的排序时间;spatial_change 的移动可能不落在任何 planner event 上(events 为空),退回 cluster 窗口起点。"""
+    evs = c["sg"].get("events") or []
+    return evs[0]["time"][0] if evs else float((c.get("windows") or [c["window"]])[0][0])
+
+
 def _event_units(state, layer):
     """本层要遍历的单位:L1/L2 = (event, {skill: cluster}),L3 = (relation, {skill: {tier: cluster}}),按时间排。"""
     units = {}
-    if layer in ("L1", "L2"):
+    if layer in ("L1", "L2") or (layer == "L3" and any(c["sg"].get("v24_event") for pool in state.pools.values() for c in pool)):     # v24:L3 的 relation_at_time / change_over_time 也按 event 遍历
         for cap, pool in state.pools.items():
             for c in pool:
+                if c["sg"].get("rel_id"):                                                                                             # v24 L3 关系 cluster 走下面的 relation 分支
+                    rid = c["sg"]["rel_id"]
+                    u = units.setdefault(rid, {"kind": "relation", "id": rid, "t": _unit_t(c), "events": c["sg"]["events"], "skills": {}})
+                    u["skills"].setdefault(cap, {})[c["sg"]["tier"]] = c; continue
                 for rid, eid in (c["sg"].get("anchor_event") or {}).items():
                     ev = next((e for e in c["sg"]["events"] if e["event_id"] == eid), None)
                     if ev is None: continue
@@ -893,7 +970,7 @@ def _event_units(state, layer):
         for cap, pool in state.pools.items():
             for c in pool:
                 rid = c["sg"]["rel_id"]
-                u = units.setdefault(rid, {"kind": "relation", "id": rid, "t": c["sg"]["events"][0]["time"][0], "events": c["sg"]["events"], "skills": {}})
+                u = units.setdefault(rid, {"kind": "relation", "id": rid, "t": _unit_t(c), "events": c["sg"]["events"], "skills": {}})
                 u["skills"].setdefault(cap, {})[c["sg"]["tier"]] = c
     out = sorted(units.values(), key=lambda u: (u["t"], u["id"]))
     cap = int((state.c or {}).get("events_per_subgoal", 3))                 # v17:每个 sub-goal 最多 cap 个 event(适用 skill 多的优先),task 07 有 37 个 event
@@ -956,8 +1033,12 @@ def run_layer_events(store, state, contract, run_dir, *, run_turn, log, mock=Non
             spec = spec_for(cap, level, cl, contract=contract); spec["phase"] = "verify" if st.get("stop") else "search"
             if st.get("stop"): spec["expect"] = "correct" if level <= (st.get("boundary") or level) else "wrong"
             pair = (o, cap)
-            row = run_turn(store, state, contract, run_dir, pair, None, [cl], "DIAGNOSIS", mock=mock, difficulty=spec)
-            if row.get("sg") is not None: row["sg"]["unit"] = u["id"]
+            for _try in range(1 + int(contract.get("unit_retries", 0))):     # 11-02 v21:同一 (unit, skill) 被过滤时原地重出,最多 unit_retries 次
+                row = run_turn(store, state, contract, run_dir, pair, None, [cl], "DIAGNOSIS", mock=mock, difficulty=spec)
+                if row.get("sg") is not None: row["sg"]["unit"] = u["id"]
+                if row["verdict"] in ("correct", "wrong") or _try == int(contract.get("unit_retries", 0)): break
+                if state.history: state.history[-1] = row
+                state.save(); log(run_dir, f"  {layer} t{state.turn:02d} {cap:32s} {u['id']:6s} -> {row['verdict']} (retry {_try + 1}/{contract.get('unit_retries', 0)})")
             v = row["verdict"]
             if v in ("correct", "wrong"):
                 st["invalid_streak"] = 0
@@ -968,7 +1049,7 @@ def run_layer_events(store, state, contract, run_dir, *, run_turn, log, mock=Non
                     st.setdefault("verify", []).append({"level": level, "expect": spec.get("expect"), "verdict": v, "turn": row["turn"]})
             else:
                 st["invalid_streak"] += 1
-                if st["invalid_streak"] >= 3 and not st.get("stop"):
+                if st["invalid_streak"] >= int(contract.get("stair_invalid_limit", 3)) and not st.get("stop"):   # 11-01:与 staircase 一样读合约(v19 盲测过滤多,设 6)
                     st["stop"] = "examiner_failed"; st["phase"] = "done"
                     if st["boundary"] is None and st["trace"]: st["boundary"] = round(sum(t["level"] for t in st["trace"][-2:]) / 2, 2); st["unconverged"] = True
             log(run_dir, f"  {layer} t{state.turn:02d} {cap:32s} L{level} {row['format'] or '-':13s} {u['kind']} {u['id']:6s} {spec['phase']:6s} -> {v}"
