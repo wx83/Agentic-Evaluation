@@ -30,7 +30,7 @@ Examiner = Gemini 3.1 Pro(出题、sub-goal planner、judge),Solver = Gemini 4(`
 
 | task | 说明 | location / displacement / identity |
 |---|---|---|
-| 61 P07_R07_S03、62 P08_R04_S04 | v30 / v30b 跑过的 task | 6 / 7 / 2、4 / 8 / 1(0.15 m 阈值时;0.3 m 下更少) |
+| 61 P07_R07_S03、62 P08_R04_S04 | v30 / v30b 跑完的 task,L1 / L2 seed 已在本包 | 6 / 7 / 2、4 / 8 / 1(0.15 m 阈值时;0.3 m 下更少) |
 | 13 P01_R05_S02、55 P09_R02_S07 | v28 跑过 | 10 / 12 / 2、0 / 4 / 0 |
 | h1 P02_R06_S03、h2 P09_R03_S04 | held-out | 2 / 1 / 0、0 / 3 / 0 |
 | h3 P09_R01_S02 | held-out | 5 / 4 / 2 |
@@ -47,7 +47,7 @@ code/bench/{clips,config,primitives,prompt,timeline_index}.py, code/bench/pyrami
 prompts/               所有 prompt(§4)
 pyramid_v2/contracts/  v28(seed)、v30、v30b(61/62/63 + h1–h5 全四层)、v31(61/62/13/55 + h1–h5 只 L3)
 pyramid_v2/data/       9 个视频的 evidence 子集(32,621 条官方标注记录)、media_manifest、capability_map、skill_exclusions、sg_cache(planner 缓存 15 个,含 h1–h5)
-pyramid_v2/runs/       seed run:v28 13 / 55 的 L1+L2;v30b 61 / 62 / 63(完整四层 + score.json,若本包是 v30b 跑完后的版本)
+pyramid_v2/runs/       seed run:v28 13 / 55 的 L1+L2;v30b 61 / 62 / 63 完整四层(history / score.json / usage.jsonl / run.log,11-04 22:15 跑完)+ diag_v30b_61_62_63.txt
 output/_shared/pose/   9 个视频的 SLAM 位姿缓存;hd-epic/Digital-Twin/meshes/{P01,P02,P07,P08,P09}/ fixture mesh
 hd-epic/video/         P08 ×3、P09 ×2 源视频(公开集没有);其余 4 个用 setup_data.sh 下载
 run_v31.sh  run_full.sh  setup_data.sh  requirements.txt
@@ -96,3 +96,23 @@ history 事实句由 `chain.render_facts_prog` 程序生成(`history_render = fa
 
 `solver_reps`(3)、`unit_retries`(2)、`examiner_attempts`、`blind_mark_only`(false = 所有 skill 盲猜作废)、`blind_hard_skills`、`l2_modality`、`history_render`、`include_skills`。
 减少 token 的下一步(未做):程序填 L1 / L2 选项让盲猜回到基线、unit_retries → 1、按 skill 熔断、裁剪 Examiner 输入。
+
+## 6. v30b 结果(61 / 62 / 63,Examiner Gemini 3.1 Pro,Solver Gemini 4,self 臂;11-04)
+
+逐层(只算 correct / wrong 的判分题;三 task 合并):
+
+| 层 | 通过率 v30 → v30b | mastery 61 / 62 / 63 | 判分题 / 盲猜作废 / 校验作废(v30b) |
+|---|---|---|---|
+| L1 Frame Perception | 92% → 92%(L1 与 v30 共用) | 0.69 / 0.78 / 0.81 | 39 / 60 / 7 |
+| L2 Localization × 模态 | 54% → 73% | 0.46 / 0.62 / 0.49 | 114 / 136 / 3 |
+| L3 Spatio-temporal | 76% → 69% | 0.42 / 0.42 / 0.54 | 110 / 142 / 19 |
+| L4 Planning | 88% → 78% | 0.44 / 0.44 / 0.38 | 9 / 6 / 2 |
+
+- mastery 在 L1 > L2 ≳ L3 ≈ L4 上单调(L2 / L3 在 61 / 62 持平,63 L3 反超);通过率 L1 > L2 > L3 > L4 **不成立**(L4 题少、L3 的 cross_event / object_location_at_time 仍 96–100%,这正是 v31 要换掉的三个)。
+- L2 按模态:只画面 81%(62/77)、视听 58%(14/24)、只音轨 54%(7/13)。sound_action_binding 36%、sound_localization 54%,是 L2 最难的两类;v30 里 sound_action_binding 0/10 是选项顺序泄漏,修后回到 5/14。
+- 链式 L3:sound_object_location 70%(7/10)、sound_object_nearest 58%(11/19);有 L2 history 与无 history 的通过率差在噪声内(67% vs 1/1;57% vs 60%),和 v28 的 gold≈self 一致——history 事实句对这几题没有可测的帮助。
+- 时间段题:45/45 四段等长,正确段字母 A/B/C/D = 6/14/14/11(卡方 3.8,不显著),v30 的「正确段在 A/D」已消。
+- 仍存在的泄漏(v31 代码已修,v30b 跑的是旧代码):L1 Examiner 写的选项答案偏 A(19/7/6/4,卡方 15.3);spatial_change 程序填选项答案在首位(盲猜 54%)。盲猜率高于 45% 的 skill 还有 object_recognition 63%、object_box_choice 58%、action_temporal_order 71%、sound_*_binding 75–77%、object_state_change 75%、causal 9/9——这些盲猜答对的题都已作废重出,不进分数,但占了 52% 的 turn(344/665),是 token 浪费主因。
+- 费用(OpenRouter 标价,按去重后的 usage.jsonl):61 $27、62 $30、63 $31,合计 ≈ $89;Examiner 调用 213–237 次 / task,校验拒绝 132 次。
+
+v31 建议(跑之前不必再改代码,但有两点可选):① 把 L1 / L2 的选项也改成程序打乱或程序填充(盲猜率 58–77% 的那几类),能把作废 turn 减一半;② `unit_retries` 2 → 1。两者都只影响 token,不影响题的定义。

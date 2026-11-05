@@ -1,0 +1,159 @@
+{
+ "run": "p2_hdepicE_1023t_g4_v30b_self__63",
+ "layers": {
+  "L1": {
+   "score": 1.812,
+   "mastery": 0.812,
+   "n_skills": 2,
+   "n_converged": 0
+  },
+  "L2": {
+   "score": 2.488,
+   "mastery": 0.488,
+   "n_skills": 5,
+   "n_converged": 3
+  },
+  "L3": {
+   "score": 3.536,
+   "mastery": 0.536,
+   "n_skills": 7,
+   "n_converged": 4
+  },
+  "L4": {
+   "score": 4.375,
+   "mastery": 0.375,
+   "n_skills": 1,
+   "n_converged": 0
+  }
+ },
+ "skills": {
+  "object_recognition": {
+   "layer": "L1",
+   "boundary": 4.5,
+   "score": 2.0,
+   "stop": "",
+   "converged": false
+  },
+  "object_box_choice": {
+   "layer": "L1",
+   "boundary": 3.0,
+   "score": 1.625,
+   "stop": "",
+   "converged": false
+  },
+  "action_recognition": {
+   "layer": "L2",
+   "boundary": 4.5,
+   "score": 3.0,
+   "stop": "ceiling",
+   "converged": true
+  },
+  "event_object_role": {
+   "layer": "L2",
+   "boundary": 2.5,
+   "score": 2.5,
+   "stop": "reversals",
+   "converged": true
+  },
+  "action_temporal_order": {
+   "layer": "L2",
+   "boundary": null,
+   "score": null,
+   "stop": "examiner_failed",
+   "converged": false
+  },
+  "sound_action_binding": {
+   "layer": "L2",
+   "boundary": 1.5,
+   "score": 2.25,
+   "stop": "reversals",
+   "converged": true
+  },
+  "sound_movement_binding": {
+   "layer": "L2",
+   "boundary": 2.25,
+   "score": 2.438,
+   "stop": "events_exhausted",
+   "converged": false
+  },
+  "sound_localization": {
+   "layer": "L2",
+   "boundary": 1.5,
+   "score": 2.25,
+   "stop": "examiner_failed",
+   "converged": false
+  },
+  "spatial_near": {
+   "layer": "L3",
+   "boundary": 1.0,
+   "score": 3.125,
+   "stop": "events_exhausted",
+   "converged": false
+  },
+  "sound_anchored_spatial_near": {
+   "layer": "L3",
+   "boundary": 1.0,
+   "score": 3.125,
+   "stop": "events_exhausted",
+   "converged": false
+  },
+  "object_location_at_time": {
+   "layer": "L3",
+   "boundary": 2.5,
+   "score": 3.5,
+   "stop": "events_exhausted",
+   "converged": false
+  },
+  "object_state_change": {
+   "layer": "L3",
+   "boundary": null,
+   "score": null,
+   "stop": "examiner_failed",
+   "converged": false
+  },
+  "cross_event_integration": {
+   "layer": "L3",
+   "boundary": 4.5,
+   "score": 4.0,
+   "stop": "ceiling",
+   "converged": true
+  },
+  "causal_prerequisite_reasoning": {
+   "layer": "L3",
+   "boundary": null,
+   "score": null,
+   "stop": "None",
+   "converged": false
+  },
+  "spatial_change": {
+   "layer": "L3",
+   "boundary": 2,
+   "score": 3.375,
+   "stop": "reversals",
+   "converged": true
+  },
+  "sound_object_location": {
+   "layer": "L3",
+   "boundary": 4.5,
+   "score": 4.0,
+   "stop": "ceiling",
+   "converged": true
+  },
+  "sound_object_nearest": {
+   "layer": "L3",
+   "boundary": 3,
+   "score": 3.625,
+   "stop": "reversals",
+   "converged": true
+  },
+  "goal_conditioned_planning": {
+   "layer": "L4",
+   "boundary": 2,
+   "score": 4.375,
+   "stop": "examiner_failed",
+   "converged": false
+  }
+ },
+ "pyramid": 2.211,
+ "height": 1
+}
