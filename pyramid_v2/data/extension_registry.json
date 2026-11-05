@@ -1,0 +1,290 @@
+{
+ "registry_version": "ext-v1",
+ "note": "新 skill 默认 provisional、未启用;启用靠 run_contract.extension_registry.enabled_skills。不覆盖 legacy mapping。",
+ "skills": {
+  "explicit_statement": {
+   "layer": "L1",
+   "domain": "human.communication",
+   "requires_kinds": [
+    "utterance"
+   ],
+   "status": "provisional"
+  },
+  "participant_presence": {
+   "layer": "L1",
+   "domain": "human.social",
+   "requires_kinds": [
+    "person_talking",
+    "person_looking"
+   ],
+   "status": "provisional"
+  },
+  "object_recognition": {
+   "layer": "L1",
+   "domain": "physical.objects_properties",
+   "requires_kinds": [
+    "visual_query_track",
+    "object_parts_attributes",
+    "hand_object_interaction"
+   ],
+   "status": "provisional"
+  },
+  "utterance_speaker_binding": {
+   "layer": "L2",
+   "domain": "human.communication",
+   "requires_kinds": [
+    "utterance",
+    "person_talking"
+   ],
+   "status": "provisional"
+  },
+  "explicit_preference_statement": {
+   "layer": "L3",
+   "domain": "human.goals_preferences",
+   "requires_kinds": [
+    "utterance"
+   ],
+   "status": "provisional"
+  },
+  "hand_object_role": {
+   "layer": "L2",
+   "domain": "physical.dynamics",
+   "requires_kinds": [
+    "hand_object_role"
+   ],
+   "status": "provisional"
+  },
+  "hand_object_interaction_recognition": {
+   "layer": "L2",
+   "domain": "physical.dynamics",
+   "requires_kinds": [
+    "hand_object_interaction",
+    "action_scene_graph"
+   ],
+   "status": "merged",
+   "note": "v3 并入 action_recognition(capability_map),不再单列"
+  },
+  "object_attribute_visible": {
+   "layer": "L1",
+   "domain": "physical.objects_properties",
+   "requires_kinds": [
+    "object_visible_track"
+   ],
+   "status": "provisional",
+   "note": "可见属性(颜色 / 材质 / 大小),来自 HD-EPIC 物体名里的属性词"
+  },
+  "hand_used": {
+   "layer": "L1",
+   "domain": "physical.dynamics",
+   "requires_kinds": [
+    "action_narration"
+   ],
+   "status": "provisional",
+   "note": "动作用的是哪只手(narration hands 字段)"
+  },
+  "object_location_at_time": {
+   "layer": "L1",
+   "domain": "physical.spatial",
+   "requires_kinds": [
+    "object_location_transition"
+   ],
+   "status": "provisional",
+   "note": "放下那一刻物体在哪类 fixture 上(单帧位置,capability_map 的例外条款归 L1)"
+  },
+  "tactile_check_recognition": {
+   "layer": "L1",
+   "domain": "physical.objects_properties",
+   "requires_kinds": [
+    "tactile_property_episode"
+   ],
+   "status": "provisional",
+   "note": "看得见的检查动作在查什么触觉属性(捏 = 软硬,拧 = 松紧);属性值本身不在 L1"
+  },
+  "needs_touch_awareness": {
+   "layer": "L3",
+   "domain": "physical.objects_properties",
+   "requires_kinds": [
+    "tactile_property_episode"
+   ],
+   "status": "provisional",
+   "note": "控制项:该状态只有摸才知道,正确回答是「无法从视频 / 音频判断」;测模型会不会过度自信"
+  },
+  "tactile_aware_planning": {
+   "layer": "L4",
+   "domain": "physical.objects_properties",
+   "requires_kinds": [
+    "tactile_property_episode"
+   ],
+   "status": "provisional",
+   "note": "给目标与当前状态,计划必须包含必要的触觉检查步骤(或等价的检测手段),并说明跳过的后果"
+  },
+  "contact_action_recognition": {
+   "layer": "L1",
+   "domain": "physical.dynamics",
+   "requires_kinds": [
+    "contact_rich_action"
+   ],
+   "status": "provisional",
+   "note": "contact-rich:看得见的接触动作是什么(捏 / 拧 / 揉 / 按 / 刮 / 倒),对什么物体"
+  },
+  "contact_feedback_binding": {
+   "layer": "L2",
+   "domain": "physical.dynamics",
+   "requires_kinds": [
+    "contact_rich_action"
+   ],
+   "status": "provisional",
+   "note": "contact-rich:这个 event 里的接触动作在感知什么反馈、event 结束时物体状态如何"
+  },
+  "contact_state_inference": {
+   "layer": "L3",
+   "domain": "physical.objects_properties",
+   "requires_kinds": [
+    "contact_rich_action"
+   ],
+   "status": "provisional",
+   "note": "contact-rich:从接触线索推断隐藏状态(软硬 / 松紧 / 熟度),并判断该状态能否从视频 / 音频确定"
+  },
+  "contact_conditioned_next_action": {
+   "layer": "L4",
+   "domain": "task.structure",
+   "requires_kinds": [
+    "contact_rich_action"
+   ],
+   "status": "provisional",
+   "note": "contact-rich:给目标与接触反馈,选下一步(记录的下一动作只是一个参考,rubric 接受其它合理选择)"
+  },
+  "plan_gap_filling": {
+   "layer": "L4",
+   "domain": "task.structure",
+   "requires_kinds": [
+    "task_step",
+    "task_segment",
+    "action_narration"
+   ],
+   "status": "provisional",
+   "note": "10-24: head/tail segments of consecutive sub-goals, hidden steps in between; single_choice with typed distractors or gap_steps free-form"
+  },
+  "cross_event_integration": {
+   "layer": "L3",
+   "domain": "physical.dynamics",
+   "requires_kinds": [
+    "task_step",
+    "action_narration"
+   ],
+   "status": "provisional",
+   "note": "10-27: two 12 s segments far apart; answer needs both"
+  },
+  "hidden_state_inference": {
+   "layer": "L3",
+   "domain": "physical.dynamics",
+   "requires_kinds": [
+    "action_narration"
+   ],
+   "status": "provisional",
+   "note": "10-27: state of appliance/container at clip end, last change before the clip (narration)"
+  },
+  "spatial_state_integration": {
+   "layer": "L3",
+   "domain": "physical.spatial",
+   "requires_kinds": [
+    "object_location_transition",
+    "action_narration"
+   ],
+   "status": "provisional",
+   "note": "10-27: nearest/farthest among resting objects at clip end, 3D resting positions from mask_info; some placed before the clip"
+  },
+  "causal_prerequisite_reasoning": {
+   "layer": "L3",
+   "domain": "physical.dynamics",
+   "requires_kinds": [
+    "task_step",
+    "action_narration"
+   ],
+   "status": "provisional",
+   "note": "10-27: which earlier sub-goal is a physical prerequisite of the shown one; Examiner-declared, needs verification"
+  },
+  "sound_anchored_spatial_near": {
+   "layer": "L2",
+   "domain": "physical.spatial",
+   "requires_kinds": [
+    "spatial_relation",
+    "sound_event",
+    "object_location_transition"
+   ],
+   "status": "provisional",
+   "note": "10-27: sound fixes the moment, geometry gives the nearest object (capability-v2 low_spatial_near); needs derived spatial_relation with anchor_kind sound"
+  },
+  "sound_anchored_spatial_side": {
+   "layer": "L2",
+   "domain": "physical.spatial",
+   "requires_kinds": [
+    "spatial_relation",
+    "sound_event",
+    "object_location_transition"
+   ],
+   "status": "provisional",
+   "note": "10-27: sound fixes the moment, device pose gives the wearer's left/right extreme (capability-v2 low_spatial_side)"
+  },
+  "sound_movement_binding": {
+   "layer": "L2",
+   "domain": "physical.dynamics",
+   "requires_kinds": [
+    "sound_event",
+    "object_location_transition"
+   ],
+   "status": "provisional",
+   "note": "10-27: which object movement produced / coincides with the sound"
+  },
+  "egocentric_frame_transform": {
+   "layer": "L3",
+   "domain": "physical.spatial",
+   "requires_kinds": [
+    "object_location_transition",
+    "action_narration"
+   ],
+   "status": "provisional",
+   "note": "10-27: object put down in the clip, wearer turns; quadrant of the object relative to the wearer at the end (SLAM pose + 3D resting position)"
+  },
+  "gaze_primed_next_pickup": {
+   "layer": "L3",
+   "domain": "human.attention",
+   "requires_kinds": [
+    "object_visible_track",
+    "gaze_fixation",
+    "action_narration"
+   ],
+   "status": "provisional",
+   "note": "10-27: clip ends before a recorded pick-up (gaze priming annotated); which object will be picked up next"
+  },
+  "object_grounding": {
+   "layer": "L1",
+   "domain": "physical.spatial",
+   "requires_kinds": [
+    "object_mask_anchor"
+   ],
+   "status": "provisional",
+   "note": "10-27: bounding box of a named object in the first frame of a 1 s clip; official mask box; IoU >= 0.5"
+  },
+  "gaze_direction": {
+   "layer": "L1",
+   "domain": "human.attention",
+   "requires_kinds": [
+    "gaze_sample",
+    "action_narration"
+   ],
+   "status": "provisional",
+   "note": "10-27 AEA: where the wearer's gaze points (relative to the camera heading) at an anchored moment; official MPS eye gaze"
+  },
+  "sound_source_localization": {
+   "layer": "L2",
+   "domain": "physical.spatial",
+   "requires_kinds": [
+    "sound_source_direction",
+    "sound_event"
+   ],
+   "status": "provisional",
+   "note": "10-27 AEA: from which direction (relative to the wearer's facing) a sound came, the sounding fixture located by SAM3+MPS; spatial audio"
+  }
+ }
+}

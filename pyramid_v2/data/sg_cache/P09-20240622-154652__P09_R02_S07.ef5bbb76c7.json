@@ -1,0 +1,503 @@
+{
+ "task_id": "P09-20240622-154652__P09_R02_S07",
+ "prompt_hash": "ef5bbb76c7",
+ "model": "gcp/google/gemini-3.1-pro-preview",
+ "created": "2026-10-28T01:10:21",
+ "input": {
+  "task_id": "P09-20240622-154652__P09_R02_S07",
+  "goal": "Dredge each Chicken-cheese ball into flour, then dip into egg and roll in the breadcrumbs, ensuring the entire surface of the chicken ball is covered in breadcrumbs.",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "text": "Set up the breadcrumbs in a bowl"
+   },
+   {
+    "idx": 2,
+    "text": "Store the breadcrumbs container and prepare the flour bowl"
+   },
+   {
+    "idx": 3,
+    "text": "Retrieve flour from the cabinet and pour it into the bowl"
+   },
+   {
+    "idx": 4,
+    "text": "Form the first chicken ball and coat it with flour"
+   },
+   {
+    "idx": 5,
+    "text": "Dip the first chicken ball in egg and coat it with breadcrumbs"
+   },
+   {
+    "idx": 6,
+    "text": "Form the second chicken ball and coat it with flour"
+   },
+   {
+    "idx": 7,
+    "text": "Dip the second chicken ball in egg, sprinkle with more flour, and coat it with breadcrumbs"
+   }
+  ],
+  "skills": {
+   "object_recognition": "L1: which object is in hand / being handled at the moment of the event",
+   "spatial_near": "L1: at the moment of the event, which of the listed objects is nearest to a reference object (3D positions from the dataset)",
+   "spatial_side": "L1: at the moment of the event, which listed object is leftmost / rightmost from the wearer's viewpoint",
+   "object_location_at_time": "L1: on which surface / fixture / container an object is put down at the event",
+   "object_grounding": "L1: localise the object of the event in a frame (bounding box)",
+   "action_recognition": "L2: what action (verb + object) the event is",
+   "event_object_role": "L2: which object is acted on, with which tool, to which destination in the event",
+   "action_temporal_order": "L2: the order of two actions shown close together inside one sub-goal",
+   "sound_action_binding": "L2: which action / object produced the sound heard",
+   "object_state_change": "L2: where an object was taken from and where it went in one movement",
+   "sound_movement_binding": "L2: which object movement coincides with the sound",
+   "sound_anchored_spatial_near": "L2: at the moment of a sound, which listed object is nearest to a reference object",
+   "sound_anchored_spatial_side": "L2: at the moment of a sound, which listed object is leftmost / rightmost for the wearer"
+  },
+  "l3_relation_types": {
+   "temporal_order": "which of two events (from different sub-goals) happened first in the activity; the Solver sees the two segments in a SHUFFLED order and must infer the order from state cues (flour already on the ball, pan already full)",
+   "object_continuity": "the same object / ingredient appears in both events; what happened to it between them (chopped broccoli -> in the pan)",
+   "state_change": "how the state of an object differs between the two events (whole -> chopped, empty -> full, raw -> browned)",
+   "causal_prerequisite": "the earlier event is a physical prerequisite of the later one (could not be done without it)",
+   "hidden_state": "an appliance / container state was set in the earlier event and is not visible in the later segment; what is its state at the end of the later segment",
+   "spatial_end_state": "after placements in the two events, which listed object ends nearest / farthest to a reference object (needs 3D records)"
+  },
+  "n_sub_goals": 7
+ },
+ "plan": {
+  "task_id": "P09-20240622-154652__P09_R02_S07",
+  "goal": "Dredge each Chicken-cheese ball into flour, then dip into egg and roll in the breadcrumbs, ensuring the entire surface of the chicken ball is covered in breadcrumbs.",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "events": [
+     {
+      "event_id": "s1e1",
+      "sub_goal": 1,
+      "type": "action",
+      "description": "Pour breadcrumbs from a container into a bowl.",
+      "objects": [
+       "breadcrumbs",
+       "container",
+       "bowl"
+      ],
+      "verbs": [
+       "pour"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role",
+       "object_recognition"
+      ],
+      "relevance": "Prepares the breadcrumbs station for coating."
+     },
+     {
+      "event_id": "s1e2",
+      "sub_goal": 1,
+      "type": "sound",
+      "description": "The rustling sound of dry breadcrumbs falling into the bowl.",
+      "objects": [
+       "breadcrumbs",
+       "bowl"
+      ],
+      "verbs": [
+       "fall"
+      ],
+      "skills": [
+       "sound_action_binding",
+       "sound_movement_binding"
+      ],
+      "relevance": "Confirms the breadcrumbs are being dispensed."
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 2,
+    "events": [
+     {
+      "event_id": "s2e1",
+      "sub_goal": 2,
+      "type": "placement",
+      "description": "Put the breadcrumbs container away.",
+      "objects": [
+       "container"
+      ],
+      "verbs": [
+       "put",
+       "store"
+      ],
+      "skills": [
+       "object_location_at_time",
+       "object_state_change"
+      ],
+      "relevance": "Clears the workspace for the next steps."
+     },
+     {
+      "event_id": "s2e2",
+      "sub_goal": 2,
+      "type": "placement",
+      "description": "Place an empty bowl on the counter for the flour.",
+      "objects": [
+       "bowl",
+       "counter"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_location_at_time",
+       "object_recognition"
+      ],
+      "relevance": "Prepares the receptacle for the flour station."
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 3,
+    "events": [
+     {
+      "event_id": "s3e1",
+      "sub_goal": 3,
+      "type": "action",
+      "description": "Take the flour container from the cabinet.",
+      "objects": [
+       "flour",
+       "cabinet"
+      ],
+      "verbs": [
+       "take",
+       "retrieve"
+      ],
+      "skills": [
+       "object_recognition",
+       "object_state_change"
+      ],
+      "relevance": "Obtains the necessary ingredient for dredging."
+     },
+     {
+      "event_id": "s3e2",
+      "sub_goal": 3,
+      "type": "action",
+      "description": "Pour flour into the empty bowl.",
+      "objects": [
+       "flour",
+       "bowl"
+      ],
+      "verbs": [
+       "pour"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "Sets up the flour station for coating."
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 4,
+    "events": [
+     {
+      "event_id": "s4e1",
+      "sub_goal": 4,
+      "type": "action",
+      "description": "Shape the chicken and cheese mixture into a ball with hands.",
+      "objects": [
+       "chicken",
+       "cheese",
+       "hands"
+      ],
+      "verbs": [
+       "shape",
+       "form"
+      ],
+      "skills": [
+       "action_recognition",
+       "object_recognition"
+      ],
+      "relevance": "Creates the core item to be coated."
+     },
+     {
+      "event_id": "s4e2",
+      "sub_goal": 4,
+      "type": "action",
+      "description": "Place the chicken ball into the flour bowl and roll it around.",
+      "objects": [
+       "chicken ball",
+       "flour",
+       "bowl"
+      ],
+      "verbs": [
+       "place",
+       "roll"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "Applies the first layer of the dredging process."
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 5,
+    "events": [
+     {
+      "event_id": "s5e1",
+      "sub_goal": 5,
+      "type": "action",
+      "description": "Transfer the flour-coated chicken ball into the egg bowl and turn it.",
+      "objects": [
+       "chicken ball",
+       "egg",
+       "bowl"
+      ],
+      "verbs": [
+       "transfer",
+       "turn"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "Applies the binder layer so breadcrumbs will stick."
+     },
+     {
+      "event_id": "s5e2",
+      "sub_goal": 5,
+      "type": "action",
+      "description": "Move the egg-coated chicken ball into the breadcrumbs bowl and roll it until covered.",
+      "objects": [
+       "chicken ball",
+       "breadcrumbs",
+       "bowl"
+      ],
+      "verbs": [
+       "move",
+       "roll"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "Completes the final coating layer for the first ball."
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 6,
+    "events": [
+     {
+      "event_id": "s6e1",
+      "sub_goal": 6,
+      "type": "action",
+      "description": "Shape a second portion of chicken and cheese mixture into a ball.",
+      "objects": [
+       "chicken",
+       "cheese"
+      ],
+      "verbs": [
+       "shape",
+       "form"
+      ],
+      "skills": [
+       "action_recognition",
+       "object_recognition"
+      ],
+      "relevance": "Creates the second item to be coated."
+     },
+     {
+      "event_id": "s6e2",
+      "sub_goal": 6,
+      "type": "action",
+      "description": "Place the second chicken ball into the flour bowl and roll it.",
+      "objects": [
+       "chicken ball",
+       "flour",
+       "bowl"
+      ],
+      "verbs": [
+       "place",
+       "roll"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "Applies the first layer of the dredging process to the second ball."
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 7,
+    "events": [
+     {
+      "event_id": "s7e1",
+      "sub_goal": 7,
+      "type": "action",
+      "description": "Transfer the second chicken ball into the egg bowl.",
+      "objects": [
+       "chicken ball",
+       "egg",
+       "bowl"
+      ],
+      "verbs": [
+       "transfer"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "Applies the binder layer to the second ball."
+     },
+     {
+      "event_id": "s7e2",
+      "sub_goal": 7,
+      "type": "action",
+      "description": "Sprinkle additional flour onto the chicken ball.",
+      "objects": [
+       "flour",
+       "chicken ball"
+      ],
+      "verbs": [
+       "sprinkle"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "Ensures the ball is fully dry/coated before the final breadcrumb layer."
+     },
+     {
+      "event_id": "s7e3",
+      "sub_goal": 7,
+      "type": "action",
+      "description": "Move the second chicken ball into the breadcrumbs bowl and roll it.",
+      "objects": [
+       "chicken ball",
+       "breadcrumbs",
+       "bowl"
+      ],
+      "verbs": [
+       "move",
+       "roll"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "Completes the final coating layer for the second ball."
+     }
+    ],
+    "irrelevant": ""
+   }
+  ],
+  "relations": [
+   {
+    "rel_id": "r1",
+    "type": "causal_prerequisite",
+    "skill": "causal_prerequisite_reasoning",
+    "events": [
+     "s3e2",
+     "s4e2"
+    ],
+    "ask": "Why was the flour poured into the bowl before the chicken ball was placed in it?",
+    "answer_hint": "The flour must be in the bowl to coat the chicken ball."
+   },
+   {
+    "rel_id": "r2",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s4e1",
+     "s5e2"
+    ],
+    "ask": "What happens to the chicken ball formed in the first event by the time of the second event?",
+    "answer_hint": "It gets coated in flour, then egg, and finally breadcrumbs."
+   },
+   {
+    "rel_id": "r3",
+    "type": "temporal_order",
+    "skill": "inter_event_temporal_reasoning",
+    "events": [
+     "s4e2",
+     "s5e1"
+    ],
+    "ask": "Which coating step happened first for the first chicken ball?",
+    "answer_hint": "The ball is rolled in flour before being transferred to the egg bowl."
+   },
+   {
+    "rel_id": "r4",
+    "type": "state_change",
+    "skill": "cross_event_integration",
+    "events": [
+     "s6e1",
+     "s7e3"
+    ],
+    "ask": "How does the appearance of the second chicken ball change between these two events?",
+    "answer_hint": "It goes from a raw, uncoated mixture to being fully covered in breadcrumbs."
+   },
+   {
+    "rel_id": "r5",
+    "type": "temporal_order",
+    "skill": "inter_event_temporal_reasoning",
+    "events": [
+     "s1e1",
+     "s3e2"
+    ],
+    "ask": "Which dry ingredient was poured into its bowl first?",
+    "answer_hint": "The breadcrumbs were poured before the flour."
+   }
+  ],
+  "decision_points": [
+   {
+    "idx": 2,
+    "real": true,
+    "why": "The person must decide to clear the workspace by storing the breadcrumbs container before setting up the next station."
+   },
+   {
+    "idx": 3,
+    "real": true,
+    "why": "The person must decide which ingredient to retrieve next (flour) to continue setting up the dredging stations."
+   },
+   {
+    "idx": 4,
+    "real": true,
+    "why": "The person transitions from preparing the stations to actually forming the first chicken ball."
+   },
+   {
+    "idx": 5,
+    "real": true,
+    "why": "The person must decide to move the ball from the flour to the egg and breadcrumbs, following the correct dredging sequence."
+   },
+   {
+    "idx": 6,
+    "real": true,
+    "why": "The person decides to start the process over for a second chicken ball rather than doing something else."
+   },
+   {
+    "idx": 7,
+    "real": true,
+    "why": "The person must decide to move the second ball through the remaining coating steps, including an extra sprinkle of flour."
+   },
+   {
+    "idx": 8,
+    "real": true,
+    "why": "The task is complete once the second ball is fully coated in breadcrumbs, requiring a decision to stop or move to cooking."
+   }
+  ]
+ },
+ "warnings": [],
+ "usage": {
+  "tok_in": 1680,
+  "tok_out": 2981,
+  "tok_think": 1486,
+  "model_version": "gemini-3.1-pro-preview",
+  "finish_reason": "FinishReason.STOP"
+ },
+ "status": "ok",
+ "raw_len": 10945
+}

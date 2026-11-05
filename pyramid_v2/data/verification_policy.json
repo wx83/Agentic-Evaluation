@@ -1,0 +1,154 @@
+{
+ "policy_version": "vp1",
+ "default": {
+  "status": "needs_verification",
+  "method": null
+ },
+ "sources": {
+  "hdepic.*": {
+   "status": "verified",
+   "method": "dataset_gt"
+  },
+  "hdepic.spatial_derived": {
+   "status": "verified",
+   "method": "derived_from_dataset_gt_3d"
+  },
+  "hdepic.recipe_tasks": {
+   "status": "verified",
+   "method": "join_of_dataset_gt"
+  },
+  "hdepic.contact_rich": {
+   "status": "verified",
+   "method": "lexicon_on_dataset_gt_narration"
+  },
+  "ego4d.contact_rich": {
+   "status": "verified",
+   "method": "lexicon_on_dataset_gt_narration"
+  },
+  "hdepic_e.*": {
+   "status": "verified",
+   "method": "dataset_gt"
+  },
+  "hdepic_e.gemini_subgoal": {
+   "status": "needs_verification",
+   "method": null
+  },
+  "hdepic_e.gemini_next": {
+   "status": "needs_verification",
+   "method": null
+  },
+  "aea_p.*": {
+   "status": "needs_verification",
+   "method": null
+  },
+  "egoplan.*": {
+   "status": "verified",
+   "method": "dataset_gt"
+  },
+  "egoplan.geo3d_da3_sam3": {
+   "status": "needs_verification",
+   "method": null
+  },
+  "ego4d.*": {
+   "rule": "ego4d_provenance",
+   "human": "verified/dataset_gt",
+   "human-curated": "verified/dataset_gt",
+   "human-verified": "verified/dataset_gt",
+   "model-assisted + human filter": "needs_verification",
+   "automatic": "needs_verification"
+  },
+  "hdepic_annot.*": {
+   "rule": "x06_record"
+  },
+  "epic_kitchens.tactile": {
+   "rule": "field",
+   "field": "verified",
+   "true": "verified/human_review"
+  },
+  "object_memory.*": {
+   "status": "needs_verification",
+   "method": null
+  },
+  "pyramid_seed43.task_timeline": {
+   "rule": "field",
+   "field": "status",
+   "verified": "verified/human_review",
+   "draft": "needs_verification",
+   "rejected": "rejected"
+  },
+  "pyramid_seed43.plan_traj": {
+   "rule": "field",
+   "field": "status",
+   "verified": "verified/human_review",
+   "draft": "needs_verification",
+   "rejected": "rejected"
+  }
+ },
+ "reviews": [
+  {
+   "name": "pyramid_review",
+   "file": "reviews/pyramid_review.csv",
+   "key": [
+    "section",
+    "question_id"
+   ],
+   "targets": "items;tactile->tactile:<T>;plan_traj->task_timeline:<task_id>",
+   "verified_if": {
+    "question_check": "ok",
+    "answer_check": "ok",
+    "gt_check": "ok"
+   },
+   "rejected_if_any": {
+    "gt_check": "wrong"
+   }
+  },
+  {
+   "name": "hdepic_annot_review",
+   "file": "reviews/annot_review.csv",
+   "key": [
+    "step",
+    "item_id"
+   ],
+   "targets": "evidence annotation_id",
+   "verified_if": {
+    "answer": "ok"
+   },
+   "rejected_if_any": {
+    "answer": "wrong"
+   }
+  },
+  {
+   "name": "ego4d_annot_review",
+   "file": "reviews/ego4d_annot_review.csv",
+   "key": [
+    "section",
+    "question_id"
+   ],
+   "targets": "evidence via legacy_eid",
+   "verified_if": {
+    "check_content": "ok",
+    "check_time": "ok"
+   },
+   "rejected_if_any": {
+    "check_content": "wrong"
+   }
+  },
+  {
+   "name": "geo3d_review",
+   "file": "reviews/geo3d_review.csv",
+   "key": [
+    "section",
+    "question_id"
+   ],
+   "targets": "evidence via reviews/geo3d_review_map.json (question_id -> evidence_ids); R/S/T/F 节改 status,D 节只进 checks",
+   "verified_if": {
+    "question_check": "ok",
+    "gt_check": "ok"
+   },
+   "rejected_if_any": {
+    "question_check": "wrong"
+   }
+  }
+ ],
+ "aggregation": "每 (reviewer,key) 取最新一行;任一 rejected -> rejected;全 verified -> verified;否则 needs_verification"
+}

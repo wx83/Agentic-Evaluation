@@ -1,0 +1,467 @@
+{
+ "task_id": "P07-20240531-201703__P07_R07_S03",
+ "prompt_hash": "e0227fd998",
+ "model": "gcp/google/gemini-3.1-pro-preview",
+ "created": "2026-10-29T16:35:14",
+ "input": {
+  "task_id": "P07-20240531-201703__P07_R07_S03",
+  "goal": "Pulse all the dressing ingredients in a food processor until mostly smooth.",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "text": "Test the blender and prepare the avocado"
+   },
+   {
+    "idx": 2,
+    "text": "Weigh and add the avocado to the canister"
+   },
+   {
+    "idx": 3,
+    "text": "Retrieve and add greek yoghurt to the canister"
+   },
+   {
+    "idx": 4,
+    "text": "Add water and parsley to the canister"
+   },
+   {
+    "idx": 5,
+    "text": "Prepare and add garlic to the canister"
+   },
+   {
+    "idx": 6,
+    "text": "Add salt and blend the dressing ingredients"
+   }
+  ],
+  "skills": {
+   "object_recognition": "L1: which object is in hand / being handled at the moment of the event",
+   "spatial_near": "L1: at the moment of the event, which of the listed objects is nearest to a reference object (3D positions from the dataset)",
+   "spatial_side": "L1: at the moment of the event, which listed object is leftmost / rightmost from the wearer's viewpoint",
+   "object_location_at_time": "L1: on which surface / fixture / container an object is put down at the event",
+   "object_grounding": "L1: localise the object of the event in a frame (bounding box)",
+   "action_recognition": "L2: what action (verb + object) the event is",
+   "event_object_role": "L2: which object is acted on, with which tool, to which destination in the event",
+   "action_temporal_order": "L2: the order of two actions shown close together inside one sub-goal",
+   "sound_action_binding": "L2: which action / object produced the sound heard",
+   "object_state_change": "L2: where an object was taken from and where it went in one movement",
+   "sound_movement_binding": "L2: which object movement coincides with the sound",
+   "sound_anchored_spatial_near": "L2: at the moment of a sound, which listed object is nearest to a reference object",
+   "sound_anchored_spatial_side": "L2: at the moment of a sound, which listed object is leftmost / rightmost for the wearer"
+  },
+  "l3_relation_types": {
+   "object_continuity": "the same object / ingredient appears in an event of sub-goal k and an event of the ADJACENT sub-goal k+1; what happened to it between them (chopped broccoli -> in the pan)",
+   "state_change": "how the state of an object differs between the two events (whole -> chopped, empty -> full, raw -> browned)",
+   "causal_prerequisite": "the earlier event is a physical prerequisite of the later one (could not be done without it)",
+   "hidden_state": "an appliance / container state was set in the earlier event and is not visible in the later segment; what is its state at the end of the later segment",
+   "spatial_end_state": "after placements in the two events, which listed object ends nearest / farthest to a reference object (needs 3D records)"
+  },
+  "n_sub_goals": 6
+ },
+ "plan": {
+  "task_id": "P07-20240531-201703__P07_R07_S03",
+  "goal": "Pulse all the dressing ingredients in a food processor until mostly smooth.",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "events": [
+     {
+      "event_id": "s1e1",
+      "sub_goal": 1,
+      "type": "action",
+      "description": "The blender button is pressed to test the appliance.",
+      "objects": [
+       "blender",
+       "button"
+      ],
+      "verbs": [
+       "press",
+       "test"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "ensures the blender is working before adding ingredients"
+     },
+     {
+      "event_id": "s1e2",
+      "sub_goal": 1,
+      "type": "sound",
+      "description": "The blender motor whirs briefly.",
+      "objects": [
+       "blender"
+      ],
+      "verbs": [
+       "whir"
+      ],
+      "skills": [
+       "sound_action_binding",
+       "sound_anchored_spatial_near"
+      ],
+      "relevance": "confirms the blender is operational"
+     },
+     {
+      "event_id": "s1e3",
+      "sub_goal": 1,
+      "type": "action",
+      "description": "The avocado is cut open with a knife.",
+      "objects": [
+       "avocado",
+       "knife"
+      ],
+      "verbs": [
+       "cut",
+       "open"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role",
+       "object_state_change"
+      ],
+      "relevance": "prepares the avocado to be added to the dressing"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 2,
+    "events": [
+     {
+      "event_id": "s2e1",
+      "sub_goal": 2,
+      "type": "placement",
+      "description": "The canister is placed onto the scale.",
+      "objects": [
+       "canister",
+       "scale"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_recognition",
+       "object_location_at_time",
+       "spatial_near"
+      ],
+      "relevance": "prepares the canister to weigh the incoming ingredients"
+     },
+     {
+      "event_id": "s2e2",
+      "sub_goal": 2,
+      "type": "action",
+      "description": "The avocado flesh is scooped into the canister.",
+      "objects": [
+       "avocado",
+       "spoon",
+       "canister"
+      ],
+      "verbs": [
+       "scoop",
+       "add"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role",
+       "object_state_change"
+      ],
+      "relevance": "adds the first ingredient to the blender"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 3,
+    "events": [
+     {
+      "event_id": "s3e1",
+      "sub_goal": 3,
+      "type": "action",
+      "description": "Greek yoghurt is scooped into the canister.",
+      "objects": [
+       "yoghurt",
+       "spoon",
+       "canister"
+      ],
+      "verbs": [
+       "scoop",
+       "add"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "adds the next ingredient to the dressing mixture"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 4,
+    "events": [
+     {
+      "event_id": "s4e1",
+      "sub_goal": 4,
+      "type": "action",
+      "description": "Water is poured into the canister.",
+      "objects": [
+       "water",
+       "cup",
+       "canister"
+      ],
+      "verbs": [
+       "pour"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role",
+       "object_state_change"
+      ],
+      "relevance": "adds liquid to help the blending process"
+     },
+     {
+      "event_id": "s4e2",
+      "sub_goal": 4,
+      "type": "action",
+      "description": "Parsley is added to the canister.",
+      "objects": [
+       "parsley",
+       "canister"
+      ],
+      "verbs": [
+       "add"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "adds herbs to the dressing"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 5,
+    "events": [
+     {
+      "event_id": "s5e1",
+      "sub_goal": 5,
+      "type": "action",
+      "description": "Garlic is prepared with a knife.",
+      "objects": [
+       "garlic",
+       "knife"
+      ],
+      "verbs": [
+       "prepare",
+       "cut"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "makes the garlic ready to be blended"
+     },
+     {
+      "event_id": "s5e2",
+      "sub_goal": 5,
+      "type": "action",
+      "description": "The prepared garlic is added to the canister.",
+      "objects": [
+       "garlic",
+       "canister"
+      ],
+      "verbs": [
+       "add"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role",
+       "object_state_change"
+      ],
+      "relevance": "adds the garlic to the dressing mixture"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 6,
+    "events": [
+     {
+      "event_id": "s6e1",
+      "sub_goal": 6,
+      "type": "action",
+      "description": "Salt is added to the canister.",
+      "objects": [
+       "salt",
+       "canister"
+      ],
+      "verbs": [
+       "add",
+       "sprinkle"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "seasons the dressing"
+     },
+     {
+      "event_id": "s6e2",
+      "sub_goal": 6,
+      "type": "state",
+      "description": "The lid is secured onto the canister.",
+      "objects": [
+       "lid",
+       "canister"
+      ],
+      "verbs": [
+       "secure",
+       "close"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "prevents the ingredients from spilling during blending"
+     },
+     {
+      "event_id": "s6e3",
+      "sub_goal": 6,
+      "type": "action",
+      "description": "The blender is turned on to pulse the ingredients.",
+      "objects": [
+       "blender",
+       "button"
+      ],
+      "verbs": [
+       "press",
+       "pulse"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "mixes the ingredients into a smooth dressing"
+     },
+     {
+      "event_id": "s6e4",
+      "sub_goal": 6,
+      "type": "sound",
+      "description": "The blender motor runs in pulses.",
+      "objects": [
+       "blender"
+      ],
+      "verbs": [
+       "run",
+       "whir"
+      ],
+      "skills": [
+       "sound_action_binding",
+       "sound_anchored_spatial_near"
+      ],
+      "relevance": "indicates the blending process is actively happening"
+     }
+    ],
+    "irrelevant": ""
+   }
+  ],
+  "relations": [
+   {
+    "rel_id": "r1",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s1e3",
+     "s2e2"
+    ],
+    "ask": "What is being scooped into the canister?",
+    "answer_hint": "The avocado that was cut open in the previous step."
+   },
+   {
+    "rel_id": "r3",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s2e2",
+     "s3e1"
+    ],
+    "ask": "What is already in the canister when the yoghurt is added?",
+    "answer_hint": "The avocado added in the previous step."
+   },
+   {
+    "rel_id": "r4",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s3e1",
+     "s4e1"
+    ],
+    "ask": "What is already in the canister when the water is poured?",
+    "answer_hint": "The yoghurt added in the previous step."
+   },
+   {
+    "rel_id": "r5",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s4e2",
+     "s5e2"
+    ],
+    "ask": "What is already in the canister when the garlic is added?",
+    "answer_hint": "The parsley added in the previous step."
+   }
+  ],
+  "decision_points": [
+   {
+    "idx": 2,
+    "real": true,
+    "why": "After preparing the avocado, the person must decide to weigh and add it to the canister next."
+   },
+   {
+    "idx": 3,
+    "real": true,
+    "why": "After adding the avocado, the person must decide which ingredient to add next, in this case, greek yoghurt."
+   },
+   {
+    "idx": 4,
+    "real": true,
+    "why": "After adding the yoghurt, the person must decide to add water and parsley."
+   },
+   {
+    "idx": 5,
+    "real": true,
+    "why": "After adding water and parsley, the person must decide to prepare and add the garlic."
+   },
+   {
+    "idx": 6,
+    "real": true,
+    "why": "After adding the garlic, the person must decide to add salt and then start blending."
+   },
+   {
+    "idx": 7,
+    "real": true,
+    "why": "The person must decide when the dressing is mostly smooth and stop the blender to finish the task."
+   }
+  ]
+ },
+ "warnings": [
+  "relation r2: needs >= 2 events from different sub-goals",
+  "relation r6: needs >= 2 events from different sub-goals",
+  "relation r7: needs >= 2 events from different sub-goals"
+ ],
+ "usage": {
+  "tok_in": 1620,
+  "tok_out": 2894,
+  "tok_think": 1626,
+  "model_version": "gemini-3.1-pro-preview",
+  "finish_reason": "FinishReason.STOP"
+ },
+ "status": "ok",
+ "raw_len": 10248
+}
