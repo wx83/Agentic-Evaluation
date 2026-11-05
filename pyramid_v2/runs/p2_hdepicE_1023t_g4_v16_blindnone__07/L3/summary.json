@@ -1,0 +1,46 @@
+{
+ "layer": "L3",
+ "stop_reason": "REPLAY_OF:p2_hdepicE_1023t_g4_v16_self__07",
+ "phase": "DONE",
+ "turns": 12,
+ "scored": 12,
+ "correct": 7,
+ "raw_acc": 0.583,
+ "cluster_dedup_acc": 0.583,
+ "followup_items": 0,
+ "by_verdict": {
+  "correct": 7,
+  "wrong": 5
+ },
+ "by_format": {
+  "single_choice": 10,
+  "short_answer": 2
+ },
+ "by_skill": {
+  "cross_event_integration": {
+   "verdict": "not_evaluated",
+   "reason": "no expected-event cluster for this skill on this task (sg mode)"
+  },
+  "hidden_state_inference": {
+   "verdict": "not_evaluated",
+   "reason": "no expected-event cluster for this skill on this task (sg mode)"
+  },
+  "spatial_state_integration": {
+   "verdict": "not_evaluated",
+   "reason": "no expected-event cluster for this skill on this task (sg mode)"
+  },
+  "causal_prerequisite_reasoning": {
+   "verdict": "not_evaluated",
+   "reason": "no expected-event cluster for this skill on this task (sg mode)"
+  }
+ },
+ "stair": null,
+ "hypotheses": [],
+ "confirmation": null,
+ "not_evaluated": {
+  "cross_event_integration": "no expected-event cluster for this skill on this task (sg mode)",
+  "hidden_state_inference": "no expected-event cluster for this skill on this task (sg mode)",
+  "spatial_state_integration": "no expected-event cluster for this skill on this task (sg mode)",
+  "causal_prerequisite_reasoning": "no expected-event cluster for this skill on this task (sg mode)"
+ }
+}

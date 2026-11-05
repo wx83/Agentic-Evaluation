@@ -1,0 +1,763 @@
+{
+ "layer": "L2",
+ "stop_reason": "STAIRCASE_COMPLETE",
+ "phase": "DONE",
+ "turns": 30,
+ "scored": 23,
+ "correct": 21,
+ "raw_acc": 0.913,
+ "cluster_dedup_acc": 0.895,
+ "followup_items": 0,
+ "by_verdict": {
+  "correct": 21,
+  "evidence_unresolved": 7,
+  "wrong": 2
+ },
+ "by_format": {
+  "single_choice": 15,
+  "short_answer": 8
+ },
+ "by_skill": {
+  "sound_action_binding": {
+   "verdict": "boundary 3.5",
+   "scored": 5,
+   "correct": 5,
+   "clusters": 3,
+   "staircase": {
+    "boundary": 3.5,
+    "stop": "exhausted_at_level",
+    "unconverged": true,
+    "phase": "done",
+    "levels_tested": [
+     1,
+     2,
+     3
+    ],
+    "per_level": {
+     "1": "2/2",
+     "2": "2/2",
+     "3": "1/1"
+    },
+    "n_search": 5,
+    "n_reused_events": 2,
+    "trace": [
+     {
+      "turn": 1,
+      "level": 1,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 2,
+      "level": 1,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 5,
+      "level": 2,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 6,
+      "level": 2,
+      "verdict": "correct",
+      "reused": true
+     },
+     {
+      "turn": 7,
+      "level": 3,
+      "verdict": "correct",
+      "reused": true
+     }
+    ],
+    "reversal_levels": [],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": [
+    1,
+    2,
+    5,
+    6,
+    7
+   ]
+  },
+  "object_state_change": {
+   "verdict": "boundary>=4",
+   "scored": 2,
+   "correct": 2,
+   "clusters": 2,
+   "staircase": {
+    "boundary": 4.5,
+    "stop": "ceiling",
+    "unconverged": false,
+    "phase": "done",
+    "levels_tested": [
+     4
+    ],
+    "per_level": {
+     "4": "2/2"
+    },
+    "n_search": 2,
+    "n_reused_events": 0,
+    "trace": [
+     {
+      "turn": 10,
+      "level": 4,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 11,
+      "level": 4,
+      "verdict": "correct",
+      "reused": false
+     }
+    ],
+    "reversal_levels": [],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": [
+    10,
+    11
+   ]
+  },
+  "action_temporal_order": {
+   "verdict": "boundary>=4",
+   "scored": 7,
+   "correct": 6,
+   "clusters": 6,
+   "staircase": {
+    "boundary": 4.5,
+    "stop": "ceiling",
+    "unconverged": false,
+    "phase": "done",
+    "levels_tested": [
+     2,
+     3,
+     4
+    ],
+    "per_level": {
+     "2": "2/2",
+     "3": "2/3",
+     "4": "2/2"
+    },
+    "n_search": 7,
+    "n_reused_events": 1,
+    "trace": [
+     {
+      "turn": 12,
+      "level": 3,
+      "verdict": "wrong",
+      "reused": false
+     },
+     {
+      "turn": 13,
+      "level": 2,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 14,
+      "level": 2,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 15,
+      "level": 3,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 16,
+      "level": 3,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 17,
+      "level": 4,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 18,
+      "level": 4,
+      "verdict": "correct",
+      "reused": true
+     }
+    ],
+    "reversal_levels": [
+     2
+    ],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+   ]
+  },
+  "action_recognition": {
+   "verdict": "boundary>=4",
+   "scored": 4,
+   "correct": 4,
+   "clusters": 4,
+   "staircase": {
+    "boundary": 4.5,
+    "stop": "ceiling",
+    "unconverged": false,
+    "phase": "done",
+    "levels_tested": [
+     3,
+     4
+    ],
+    "per_level": {
+     "3": "2/2",
+     "4": "2/2"
+    },
+    "n_search": 4,
+    "n_reused_events": 0,
+    "trace": [
+     {
+      "turn": 19,
+      "level": 3,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 20,
+      "level": 3,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 21,
+      "level": 4,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 22,
+      "level": 4,
+      "verdict": "correct",
+      "reused": false
+     }
+    ],
+    "reversal_levels": [],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": [
+    19,
+    20,
+    21,
+    22
+   ]
+  },
+  "event_object_role": {
+   "verdict": "boundary>=4",
+   "scored": 2,
+   "correct": 2,
+   "clusters": 2,
+   "staircase": {
+    "boundary": 4.5,
+    "stop": "ceiling",
+    "unconverged": false,
+    "phase": "done",
+    "levels_tested": [
+     4
+    ],
+    "per_level": {
+     "4": "2/2"
+    },
+    "n_search": 2,
+    "n_reused_events": 0,
+    "trace": [
+     {
+      "turn": 23,
+      "level": 4,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 24,
+      "level": 4,
+      "verdict": "correct",
+      "reused": false
+     }
+    ],
+    "reversal_levels": [],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": [
+    23,
+    24
+   ]
+  },
+  "sound_anchored_spatial_near": {
+   "verdict": "boundary<1",
+   "scored": 3,
+   "correct": 2,
+   "clusters": 2,
+   "staircase": {
+    "boundary": 0.5,
+    "stop": "exhausted_at_level",
+    "unconverged": true,
+    "phase": "done",
+    "levels_tested": [
+     1,
+     2
+    ],
+    "per_level": {
+     "1": "1/1",
+     "2": "1/2"
+    },
+    "n_search": 3,
+    "n_reused_events": 1,
+    "trace": [
+     {
+      "turn": 25,
+      "level": 2,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 26,
+      "level": 2,
+      "verdict": "wrong",
+      "reused": false
+     },
+     {
+      "turn": 27,
+      "level": 1,
+      "verdict": "correct",
+      "reused": true
+     }
+    ],
+    "reversal_levels": [],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": [
+    25,
+    26,
+    27
+   ]
+  },
+  "sound_anchored_spatial_side": {
+   "verdict": "not_evaluated",
+   "reason": "no expected-event cluster for this skill on this task (sg mode)"
+  },
+  "sound_movement_binding": {
+   "verdict": "not_started",
+   "scored": 0,
+   "correct": 0,
+   "clusters": 0,
+   "staircase": {
+    "boundary": null,
+    "stop": "exhausted_at_level",
+    "unconverged": true,
+    "phase": "done",
+    "levels_tested": [],
+    "per_level": {},
+    "n_search": 0,
+    "n_reused_events": 0,
+    "trace": [],
+    "reversal_levels": [],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": []
+  }
+ },
+ "stair": {
+  "sound_action_binding": {
+   "boundary": 3.5,
+   "stop": "exhausted_at_level",
+   "unconverged": true,
+   "phase": "done",
+   "levels_tested": [
+    1,
+    2,
+    3
+   ],
+   "per_level": {
+    "1": "2/2",
+    "2": "2/2",
+    "3": "1/1"
+   },
+   "n_search": 5,
+   "n_reused_events": 2,
+   "trace": [
+    {
+     "turn": 1,
+     "level": 1,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 2,
+     "level": 1,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 5,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 6,
+     "level": 2,
+     "verdict": "correct",
+     "reused": true
+    },
+    {
+     "turn": 7,
+     "level": 3,
+     "verdict": "correct",
+     "reused": true
+    }
+   ],
+   "reversal_levels": [],
+   "verify": [],
+   "boundary_confirmed": null
+  },
+  "object_state_change": {
+   "boundary": 4.5,
+   "stop": "ceiling",
+   "unconverged": false,
+   "phase": "done",
+   "levels_tested": [
+    4
+   ],
+   "per_level": {
+    "4": "2/2"
+   },
+   "n_search": 2,
+   "n_reused_events": 0,
+   "trace": [
+    {
+     "turn": 10,
+     "level": 4,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 11,
+     "level": 4,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "verify": [],
+   "boundary_confirmed": null
+  },
+  "action_temporal_order": {
+   "boundary": 4.5,
+   "stop": "ceiling",
+   "unconverged": false,
+   "phase": "done",
+   "levels_tested": [
+    2,
+    3,
+    4
+   ],
+   "per_level": {
+    "2": "2/2",
+    "3": "2/3",
+    "4": "2/2"
+   },
+   "n_search": 7,
+   "n_reused_events": 1,
+   "trace": [
+    {
+     "turn": 12,
+     "level": 3,
+     "verdict": "wrong",
+     "reused": false
+    },
+    {
+     "turn": 13,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 14,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 15,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 16,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 17,
+     "level": 4,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 18,
+     "level": 4,
+     "verdict": "correct",
+     "reused": true
+    }
+   ],
+   "reversal_levels": [
+    2
+   ],
+   "verify": [],
+   "boundary_confirmed": null
+  },
+  "action_recognition": {
+   "boundary": 4.5,
+   "stop": "ceiling",
+   "unconverged": false,
+   "phase": "done",
+   "levels_tested": [
+    3,
+    4
+   ],
+   "per_level": {
+    "3": "2/2",
+    "4": "2/2"
+   },
+   "n_search": 4,
+   "n_reused_events": 0,
+   "trace": [
+    {
+     "turn": 19,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 20,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 21,
+     "level": 4,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 22,
+     "level": 4,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "verify": [],
+   "boundary_confirmed": null
+  },
+  "event_object_role": {
+   "boundary": 4.5,
+   "stop": "ceiling",
+   "unconverged": false,
+   "phase": "done",
+   "levels_tested": [
+    4
+   ],
+   "per_level": {
+    "4": "2/2"
+   },
+   "n_search": 2,
+   "n_reused_events": 0,
+   "trace": [
+    {
+     "turn": 23,
+     "level": 4,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 24,
+     "level": 4,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "verify": [],
+   "boundary_confirmed": null
+  },
+  "sound_anchored_spatial_near": {
+   "boundary": 0.5,
+   "stop": "exhausted_at_level",
+   "unconverged": true,
+   "phase": "done",
+   "levels_tested": [
+    1,
+    2
+   ],
+   "per_level": {
+    "1": "1/1",
+    "2": "1/2"
+   },
+   "n_search": 3,
+   "n_reused_events": 1,
+   "trace": [
+    {
+     "turn": 25,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 26,
+     "level": 2,
+     "verdict": "wrong",
+     "reused": false
+    },
+    {
+     "turn": 27,
+     "level": 1,
+     "verdict": "correct",
+     "reused": true
+    }
+   ],
+   "reversal_levels": [],
+   "verify": [],
+   "boundary_confirmed": null
+  },
+  "sound_movement_binding": {
+   "boundary": null,
+   "stop": "exhausted_at_level",
+   "unconverged": true,
+   "phase": "done",
+   "levels_tested": [],
+   "per_level": {},
+   "n_search": 0,
+   "n_reused_events": 0,
+   "trace": [],
+   "reversal_levels": [],
+   "verify": [],
+   "boundary_confirmed": null
+  }
+ },
+ "hypotheses": [
+  {
+   "hypothesis_id": "h:sound_action_binding:item_defect:3",
+   "skill": "sound_action_binding",
+   "type": "item_defect",
+   "evidence_cluster_id": "1c67aeb04deb86c6",
+   "original_turn": 3,
+   "opened_turn": 3,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "The anchor_event mapping assigns sounds 35493, 35494, and 35495 (sliding and plastic collisions at 106-113s) to event s3e1 ('pours the chickpeas from the can into a colander'). However, during 106-113s, the person is swirling and throwing the chickpeas in the colander, which visually matches event s"
+  },
+  {
+   "hypothesis_id": "h:sound_action_binding:item_defect:4",
+   "skill": "sound_action_binding",
+   "type": "item_defect",
+   "evidence_cluster_id": "f961ba2b6ca53811",
+   "original_turn": 4,
+   "opened_turn": 4,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "The anchor_event mapping assigns sounds 35505, 35506, 35507, and 35508 to event s4e1 ('dumps the rinsed chickpeas from the colander onto paper towels'). However, these sounds occur at 131.8s, 132.9s, 136.1s, and 142.2s respectively, which correspond to placing the kitchen paper, replacing the kitche"
+  },
+  {
+   "hypothesis_id": "h:sound_action_binding:item_defect:8",
+   "skill": "sound_action_binding",
+   "type": "item_defect",
+   "evidence_cluster_id": "39e5eac097699673",
+   "original_turn": 8,
+   "opened_turn": 8,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "The anchor_event mapping assigns sounds 35488 (plastic-only collision), 35491 (metal-only collision), and 35492 (metal-only collision) to event s2e3 ('The sound of running water splashing into the metal can'). However, these sounds correspond to placing the plastic colander in the sink (72.2s), peel"
+  },
+  {
+   "hypothesis_id": "h:sound_action_binding:item_defect:9",
+   "skill": "sound_action_binding",
+   "type": "item_defect",
+   "evidence_cluster_id": "75a8b7da1d0a8b85",
+   "original_turn": 9,
+   "opened_turn": 9,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "The anchor_event mapping assigns sound 35510 to event s6e1 ('The person moves the dried chickpeas from the paper towels onto a baking tray.'). However, this sound occurs at 185.3s, which is before s6e1 starts (189.0s) and corresponds to the person picking up the kitchen paper. Furthermore, sounds 35"
+  },
+  {
+   "hypothesis_id": "h:sound_anchored_spatial_near:item_defect:28",
+   "skill": "sound_anchored_spatial_near",
+   "type": "item_defect",
+   "evidence_cluster_id": "ee47b629be8a8e6d",
+   "original_turn": 28,
+   "opened_turn": 28,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "The spatial record 37958e40704f3ab5 is anchored to a 'plastic-only collision' sound at 72.433s, but the anchor_event mapping assigns it to s2e3 ('The sound of running water splashing into the metal can'). Asking the solver about the spatial relation at the moment of the water splashing sound would e"
+  },
+  {
+   "hypothesis_id": "h:sound_movement_binding:item_defect:29",
+   "skill": "sound_movement_binding",
+   "type": "item_defect",
+   "evidence_cluster_id": "62b593a67ee937b4",
+   "original_turn": 29,
+   "opened_turn": 29,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "The anchor_event mapping assigns sounds 35488 (plastic-only collision) and 35492 (metal-only collision) to event s2e3 ('The sound of running water splashing into the metal can'). However, these sounds correspond to the movement of the colander to the sink (ending at 72.69s) and the movement of the c"
+  },
+  {
+   "hypothesis_id": "h:sound_movement_binding:item_defect:30",
+   "skill": "sound_movement_binding",
+   "type": "item_defect",
+   "evidence_cluster_id": "655a295a4397884f",
+   "original_turn": 30,
+   "opened_turn": 30,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "The anchor_event mapping assigns sounds 35505, 35506, 35507, and 35508 to event s4e1 ('dumps the rinsed chickpeas from the colander onto paper towels'). However, as noted in turn 4, these sounds correspond to placing the kitchen paper, replacing the kitchen roll, picking up the colander, and replaci"
+  }
+ ],
+ "confirmation": null,
+ "not_evaluated": {
+  "sound_anchored_spatial_side": "no expected-event cluster for this skill on this task (sg mode)"
+ }
+}

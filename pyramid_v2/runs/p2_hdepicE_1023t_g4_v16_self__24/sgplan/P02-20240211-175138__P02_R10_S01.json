@@ -1,0 +1,1639 @@
+{
+ "task_id": "P02-20240211-175138__P02_R10_S01",
+ "prompt_hash": "0813f3d74d",
+ "model": "gcp/google/gemini-3.1-pro-preview",
+ "created": "2026-10-29T16:57:29",
+ "input": {
+  "task_id": "P02-20240211-175138__P02_R10_S01",
+  "goal": "Preheat the oven to 200 degrees C, fan 180 degrees C, gas 6. Line a large roasting tray with baking paper, remove the stalks from the mushrooms and place them on the tray.",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "text": "Retrieve the cutting board and mushrooms"
+   },
+   {
+    "idx": 2,
+    "text": "Line the baking tray with foil and preheat the oven"
+   },
+   {
+    "idx": 3,
+    "text": "Open the first packet of mushrooms and begin washing them"
+   },
+   {
+    "idx": 4,
+    "text": "Continue washing the first batch of mushrooms"
+   },
+   {
+    "idx": 5,
+    "text": "Finish washing the first batch of mushrooms"
+   },
+   {
+    "idx": 6,
+    "text": "Open the second packet of mushrooms and start washing them"
+   },
+   {
+    "idx": 7,
+    "text": "Continue washing the second batch of mushrooms"
+   },
+   {
+    "idx": 8,
+    "text": "Finish washing the second batch of mushrooms and place them on the cutting board"
+   },
+   {
+    "idx": 9,
+    "text": "Slice the first few mushrooms and place them in the mixing bowl"
+   },
+   {
+    "idx": 10,
+    "text": "Continue slicing mushrooms and placing them in the mixing bowl"
+   },
+   {
+    "idx": 11,
+    "text": "Slice more mushrooms and place them in the mixing bowl"
+   },
+   {
+    "idx": 12,
+    "text": "Continue slicing mushrooms and placing them in the mixing bowl"
+   },
+   {
+    "idx": 13,
+    "text": "Slice more mushrooms and place them in the mixing bowl"
+   },
+   {
+    "idx": 14,
+    "text": "Slice the final mushrooms and transfer all slices to the baking tray"
+   }
+  ],
+  "skills": {
+   "object_recognition": "L1: which object is in hand / being handled at the moment of the event",
+   "spatial_near": "L1: at the moment of the event, which of the listed objects is nearest to a reference object (3D positions from the dataset)",
+   "spatial_side": "L1: at the moment of the event, which listed object is leftmost / rightmost from the wearer's viewpoint",
+   "object_location_at_time": "L1: on which surface / fixture / container an object is put down at the event",
+   "object_grounding": "L1: localise the object of the event in a frame (bounding box)",
+   "action_recognition": "L2: what action (verb + object) the event is",
+   "event_object_role": "L2: which object is acted on, with which tool, to which destination in the event",
+   "action_temporal_order": "L2: the order of two actions shown close together inside one sub-goal",
+   "sound_action_binding": "L2: which action / object produced the sound heard",
+   "object_state_change": "L2: where an object was taken from and where it went in one movement",
+   "sound_movement_binding": "L2: which object movement coincides with the sound",
+   "sound_anchored_spatial_near": "L2: at the moment of a sound, which listed object is nearest to a reference object",
+   "sound_anchored_spatial_side": "L2: at the moment of a sound, which listed object is leftmost / rightmost for the wearer"
+  },
+  "l3_relation_types": {
+   "object_continuity": "the same object / ingredient appears in an event of sub-goal k and an event of the ADJACENT sub-goal k+1; what happened to it between them (chopped broccoli -> in the pan)",
+   "state_change": "how the state of an object differs between the two events (whole -> chopped, empty -> full, raw -> browned)",
+   "causal_prerequisite": "the earlier event is a physical prerequisite of the later one (could not be done without it)",
+   "hidden_state": "an appliance / container state was set in the earlier event and is not visible in the later segment; what is its state at the end of the later segment",
+   "spatial_end_state": "after placements in the two events, which listed object ends nearest / farthest to a reference object (needs 3D records)"
+  },
+  "n_sub_goals": 14
+ },
+ "plan": {
+  "task_id": "P02-20240211-175138__P02_R10_S01",
+  "goal": "Preheat the oven to 200 degrees C, fan 180 degrees C, gas 6. Line a large roasting tray with baking paper, remove the stalks from the mushrooms and place them on the tray.",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "events": [
+     {
+      "event_id": "s1e1",
+      "sub_goal": 1,
+      "type": "placement",
+      "description": "The cutting board is placed on the counter.",
+      "objects": [
+       "cutting board",
+       "counter"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_recognition",
+       "object_location_at_time",
+       "action_recognition"
+      ],
+      "relevance": "prepares the workspace for slicing",
+      "time": [
+       48.0,
+       49.6
+      ],
+      "records": [
+       "hdepic_e:P02-20240211-175138:movement:7d550d8e6d273150:fa3ba2b3ee10ca4a",
+       "hdepic_e:P02-20240211-175138:narration:24",
+       "hdepic_e:P02-20240211-175138:narration:24~2"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 5.5",
+      "centre": 48.8
+     },
+     {
+      "event_id": "s1e2",
+      "sub_goal": 1,
+      "type": "placement",
+      "description": "The packets of mushrooms are placed on the counter.",
+      "objects": [
+       "mushrooms",
+       "counter"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_recognition",
+       "object_location_at_time",
+       "action_recognition"
+      ],
+      "relevance": "brings the ingredients to the workspace",
+      "time": [
+       70.267,
+       72.567
+      ],
+      "records": [
+       "hdepic_e:P02-20240211-175138:movement:aa346d7d5e41892a:45f1caa69ab4ac5f",
+       "hdepic_e:P02-20240211-175138:narration:43",
+       "hdepic_e:P02-20240211-175138:narration:43~2"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 4.0",
+      "centre": 71.417
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 2,
+    "events": [
+     {
+      "event_id": "s2e1",
+      "sub_goal": 2,
+      "type": "action",
+      "description": "Foil is placed onto the baking tray.",
+      "objects": [
+       "foil",
+       "baking tray"
+      ],
+      "verbs": [
+       "place",
+       "line"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "prepares the tray for roasting",
+      "time": [
+       121.01,
+       130.1
+      ],
+      "records": [
+       "hdepic_e:P02-20240211-175138:narration:76",
+       "hdepic_e:P02-20240211-175138:narration:76~2",
+       "hdepic_e:P02-20240211-175138:narration:77",
+       "hdepic_e:P02-20240211-175138:narration:77~2",
+       "hdepic_e:P02-20240211-175138:narration:78",
+       "hdepic_e:P02-20240211-175138:narration:78~2",
+       "hdepic_e:P02-20240211-175138:movement:dd1a59533ca0096a:87dbb14bbe169fb1"
+      ],
+      "matched": true,
+      "match_note": "6 narration(s), best score 7.5",
+      "centre": 125.555
+     },
+     {
+      "event_id": "s2e2",
+      "sub_goal": 2,
+      "type": "state",
+      "description": "The oven is turned on.",
+      "objects": [
+       "oven"
+      ],
+      "verbs": [
+       "turn"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "object_state_change"
+      ],
+      "relevance": "starts the preheating process",
+      "time": [
+       131.06,
+       136.82
+      ],
+      "records": [
+       "hdepic_e:P02-20240211-175138:narration:80",
+       "hdepic_e:P02-20240211-175138:narration:80~2",
+       "hdepic_e:P02-20240211-175138:movement:dd1a59533ca0096a:87dbb14bbe169fb1"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 3.5",
+      "centre": 133.94
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 3,
+    "events": [
+     {
+      "event_id": "s3e1",
+      "sub_goal": 3,
+      "type": "action",
+      "description": "The first packet of mushrooms is opened.",
+      "objects": [
+       "packet",
+       "mushrooms"
+      ],
+      "verbs": [
+       "open"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "object_state_change"
+      ],
+      "relevance": "accesses the mushrooms for washing",
+      "time": [
+       138.43,
+       140.05
+      ],
+      "records": [
+       "hdepic_e:P02-20240211-175138:narration:81",
+       "hdepic_e:P02-20240211-175138:narration:81~2",
+       "hdepic_e:P02-20240211-175138:narration:82",
+       "hdepic_e:P02-20240211-175138:narration:82~2",
+       "hdepic_e:P02-20240211-175138:movement:dd1a59533ca0096a:027025026f2b468a",
+       "hdepic_e:P02-20240211-175138:movement:aa73afc1022b2f75:c0cc99660274e65f"
+      ],
+      "matched": true,
+      "match_note": "4 narration(s), best score 2.0",
+      "centre": 139.24
+     },
+     {
+      "event_id": "s3e2",
+      "sub_goal": 3,
+      "type": "sound",
+      "description": "Water running sound starts.",
+      "objects": [
+       "water",
+       "tap"
+      ],
+      "verbs": [
+       "run"
+      ],
+      "skills": [
+       "sound_action_binding",
+       "sound_anchored_spatial_near"
+      ],
+      "relevance": "indicates the start of the washing process",
+      "time": [
+       144.22,
+       160.35
+      ],
+      "records": [
+       "hdepic_e:P02-20240211-175138:narration:86",
+       "hdepic_e:P02-20240211-175138:narration:86~2",
+       "hdepic_e:P02-20240211-175138:sound:11123",
+       "hdepic_e:P02-20240211-175138:sound:11123~2",
+       "hdepic_e:P02-20240211-175138:movement:b7de39c106df7218:67e26da3f3ae919a",
+       "hdepic_e:P02-20240211-175138:movement:5b96a9ebf3b2e85d:8a606e4d3ce6cffa",
+       "hdepic_e:P02-20240211-175138:movement:10c6533bb2a246bd:f928a01ff08455fe"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 4.0",
+      "centre": 152.285
+     },
+     {
+      "event_id": "s3e3",
+      "sub_goal": 3,
+      "type": "action",
+      "description": "Mushrooms are washed under the tap.",
+      "objects": [
+       "mushrooms",
+       "tap"
+      ],
+      "verbs": [
+       "wash"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "cleans the mushrooms",
+      "time": [
+       144.22,
+       145.27
+      ],
+      "records": [
+       "hdepic_e:P02-20240211-175138:narration:86",
+       "hdepic_e:P02-20240211-175138:narration:86~2"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 5.5",
+      "centre": 144.745
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 4,
+    "events": [],
+    "irrelevant": "Continuing to wash the first batch of mushrooms is a continuation of the previous action."
+   },
+   {
+    "idx": 5,
+    "events": [
+     {
+      "event_id": "s5e1",
+      "sub_goal": 5,
+      "type": "sound",
+      "description": "The water running sound stops.",
+      "objects": [
+       "water",
+       "tap"
+      ],
+      "verbs": [
+       "stop"
+      ],
+      "skills": [
+       "sound_action_binding"
+      ],
+      "relevance": "indicates the end of washing the first batch",
+      "time": [
+       192.47,
+       226.41
+      ],
+      "records": [
+       "hdepic_e:P02-20240211-175138:narration:135",
+       "hdepic_e:P02-20240211-175138:narration:135~2",
+       "hdepic_e:P02-20240211-175138:sound:11140",
+       "hdepic_e:P02-20240211-175138:movement:9f0cb68ade84de50:de30deee41e2f439",
+       "hdepic_e:P02-20240211-175138:movement:24cc3c38ee4390b0:e74053df3813774e",
+       "hdepic_e:P02-20240211-175138:movement:5f3481321e53599d:2381f6fd4cc4fdd8",
+       "hdepic_e:P02-20240211-175138:movement:f320f5291c0fd1e2:cda06ffa1e0979e0",
+       "hdepic_e:P02-20240211-175138:movement:133563985d9a1d90:609aca96376e5762",
+       "hdepic_e:P02-20240211-175138:movement:b55dae0a1ec4c15b:2ec3ff7c4e3a039b"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 4.0",
+      "centre": 209.44
+     },
+     {
+      "event_id": "s5e2",
+      "sub_goal": 5,
+      "type": "placement",
+      "description": "The washed mushrooms are placed down.",
+      "objects": [
+       "mushrooms"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_recognition",
+       "object_location_at_time",
+       "action_recognition"
+      ],
+      "relevance": "sets aside the clean mushrooms",
+      "time": [
+       192.47,
+       207.9
+      ],
+      "records": [
+       "hdepic_e:P02-20240211-175138:movement:ece92bfdf17cb502:8f3d4127e4fb1318",
+       "hdepic_e:P02-20240211-175138:narration:122",
+       "hdepic_e:P02-20240211-175138:narration:122~2",
+       "hdepic_e:P02-20240211-175138:movement:9f0cb68ade84de50:de30deee41e2f439",
+       "hdepic_e:P02-20240211-175138:movement:24cc3c38ee4390b0:e74053df3813774e",
+       "hdepic_e:P02-20240211-175138:movement:5f3481321e53599d:2381f6fd4cc4fdd8"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 4.0",
+      "centre": 200.185
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 6,
+    "events": [
+     {
+      "event_id": "s6e1",
+      "sub_goal": 6,
+      "type": "action",
+      "description": "The second packet of mushrooms is opened.",
+      "objects": [
+       "packet",
+       "mushrooms"
+      ],
+      "verbs": [
+       "open"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "object_state_change"
+      ],
+      "relevance": "accesses the second batch of mushrooms for washing",
+      "time": [
+       249.34,
+       251.49
+      ],
+      "records": [
+       "hdepic_e:P02-20240211-175138:narration:151",
+       "hdepic_e:P02-20240211-175138:narration:151~2",
+       "hdepic_e:P02-20240211-175138:movement:aa346d7d5e41892a:f67b9b8669d8391c"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 5.5",
+      "centre": 250.415
+     },
+     {
+      "event_id": "s6e2",
+      "sub_goal": 6,
+      "type": "sound",
+      "description": "Water running sound starts.",
+      "objects": [
+       "water",
+       "tap"
+      ],
+      "verbs": [
+       "run"
+      ],
+      "skills": [
+       "sound_action_binding",
+       "sound_anchored_spatial_near"
+      ],
+      "relevance": "indicates the start of washing the second batch",
+      "time": [
+       260.452,
+       278.31
+      ],
+      "records": [
+       "hdepic_e:P02-20240211-175138:narration:169",
+       "hdepic_e:P02-20240211-175138:narration:169~2",
+       "hdepic_e:P02-20240211-175138:sound:11159",
+       "hdepic_e:P02-20240211-175138:sound:11159~2",
+       "hdepic_e:P02-20240211-175138:sound:11163",
+       "hdepic_e:P02-20240211-175138:sound:11163~2",
+       "hdepic_e:P02-20240211-175138:sound:11164",
+       "hdepic_e:P02-20240211-175138:sound:11164~2",
+       "hdepic_e:P02-20240211-175138:sound:11165",
+       "hdepic_e:P02-20240211-175138:sound:11165~2",
+       "hdepic_e:P02-20240211-175138:sound:11167",
+       "hdepic_e:P02-20240211-175138:sound:11167~2",
+       "hdepic_e:P02-20240211-175138:movement:a074b128f2857f3a:cc99075e45dd4646",
+       "hdepic_e:P02-20240211-175138:movement:3e6e3ebad690017a:b8968356138b74f3",
+       "hdepic_e:P02-20240211-175138:movement:f4d8b8299a4b1fa7:27198da4a0f6f5be",
+       "hdepic_e:P02-20240211-175138:movement:fcbd68479317b78a:12b4e2c9a85809bd",
+       "hdepic_e:P02-20240211-175138:movement:657591b4dfdff79f:9573bcdf7baafe95",
+       "hdepic_e:P02-20240211-175138:movement:c5ee43cbfc384730:91094b53ab690d58",
+       "hdepic_e:P02-20240211-175138:movement:c5ee43cbfc384730:d20055a055ce1f62",
+       "hdepic_e:P02-20240211-175138:movement:c5ee43cbfc384730:dfa629fd3a1e0cec"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 4.0",
+      "centre": 269.381
+     },
+     {
+      "event_id": "s6e3",
+      "sub_goal": 6,
+      "type": "action",
+      "description": "The second batch of mushrooms is washed under the tap.",
+      "objects": [
+       "mushrooms",
+       "tap"
+      ],
+      "verbs": [
+       "wash"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "cleans the second batch of mushrooms",
+      "time": [
+       278.41,
+       279.31
+      ],
+      "records": [
+       "hdepic_e:P02-20240211-175138:narration:170",
+       "hdepic_e:P02-20240211-175138:narration:170~2"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 4.0",
+      "centre": 278.86
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 7,
+    "events": [],
+    "irrelevant": "Continuing to wash the second batch of mushrooms is a continuation of the previous action."
+   },
+   {
+    "idx": 8,
+    "events": [
+     {
+      "event_id": "s8e1",
+      "sub_goal": 8,
+      "type": "sound",
+      "description": "The water running sound stops.",
+      "objects": [
+       "water",
+       "tap"
+      ],
+      "verbs": [
+       "stop"
+      ],
+      "skills": [
+       "sound_action_binding"
+      ],
+      "relevance": "indicates the end of washing the second batch",
+      "time": [
+       299.18,
+       312.431
+      ],
+      "records": [
+       "hdepic_e:P02-20240211-175138:narration:195",
+       "hdepic_e:P02-20240211-175138:narration:195~2",
+       "hdepic_e:P02-20240211-175138:sound:11170",
+       "hdepic_e:P02-20240211-175138:movement:0aeb457828737a29:dcd06e6fb3a71a1d",
+       "hdepic_e:P02-20240211-175138:movement:4bc2a42075fa5052:298e7f1fa952741e",
+       "hdepic_e:P02-20240211-175138:movement:77387330a3e829bb:5bfe4814d2f14819"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 4.0",
+      "centre": 305.805
+     },
+     {
+      "event_id": "s8e2",
+      "sub_goal": 8,
+      "type": "placement",
+      "description": "The washed mushrooms are placed on the cutting board.",
+      "objects": [
+       "mushrooms",
+       "cutting board"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_recognition",
+       "object_location_at_time",
+       "action_recognition"
+      ],
+      "relevance": "prepares the mushrooms for slicing",
+      "time": [
+       299.18,
+       314.56
+      ],
+      "records": [
+       "hdepic_e:P02-20240211-175138:movement:a074b128f2857f3a:2fb39f79e1917f91",
+       "hdepic_e:P02-20240211-175138:narration:198",
+       "hdepic_e:P02-20240211-175138:narration:198~2",
+       "hdepic_e:P02-20240211-175138:movement:0aeb457828737a29:dcd06e6fb3a71a1d",
+       "hdepic_e:P02-20240211-175138:movement:4bc2a42075fa5052:298e7f1fa952741e",
+       "hdepic_e:P02-20240211-175138:movement:77387330a3e829bb:5bfe4814d2f14819"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 7.5",
+      "centre": 306.87
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 9,
+    "events": [
+     {
+      "event_id": "s9e1",
+      "sub_goal": 9,
+      "type": "action",
+      "description": "A knife slices the mushrooms.",
+      "objects": [
+       "knife",
+       "mushrooms"
+      ],
+      "verbs": [
+       "slice"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "cuts the mushrooms into pieces",
+      "time": [
+       687.13,
+       692.45
+      ],
+      "records": [
+       "hdepic_e:P02-20240211-175138:narration:412",
+       "hdepic_e:P02-20240211-175138:narration:412~2"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 5.5",
+      "centre": 689.79
+     },
+     {
+      "event_id": "s9e2",
+      "sub_goal": 9,
+      "type": "sound",
+      "description": "Chopping sound is heard.",
+      "objects": [
+       "knife",
+       "cutting board"
+      ],
+      "verbs": [
+       "chop"
+      ],
+      "skills": [
+       "sound_action_binding",
+       "sound_movement_binding"
+      ],
+      "relevance": "indicates the slicing action",
+      "time": [
+       687.94,
+       695.41
+      ],
+      "records": [
+       "hdepic_e:P02-20240211-175138:narration:417",
+       "hdepic_e:P02-20240211-175138:narration:417~2",
+       "hdepic_e:P02-20240211-175138:sound:11336",
+       "hdepic_e:P02-20240211-175138:sound:11336~2",
+       "hdepic_e:P02-20240211-175138:sound:11337",
+       "hdepic_e:P02-20240211-175138:sound:11337~2",
+       "hdepic_e:P02-20240211-175138:sound:11339",
+       "hdepic_e:P02-20240211-175138:sound:11339~2",
+       "hdepic_e:P02-20240211-175138:sound:11340",
+       "hdepic_e:P02-20240211-175138:sound:11340~2",
+       "hdepic_e:P02-20240211-175138:sound:11343",
+       "hdepic_e:P02-20240211-175138:sound:11343~2",
+       "hdepic_e:P02-20240211-175138:movement:dc17cdbaab9434ce:b7c6a4ed3eac3161"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 5.5",
+      "centre": 691.675
+     },
+     {
+      "event_id": "s9e3",
+      "sub_goal": 9,
+      "type": "action",
+      "description": "Sliced mushrooms are placed into the mixing bowl.",
+      "objects": [
+       "mushrooms",
+       "mixing bowl"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_recognition",
+       "object_location_at_time",
+       "action_recognition"
+      ],
+      "relevance": "collects the sliced mushrooms",
+      "time": [
+       693.23,
+       694.86
+      ],
+      "records": [
+       "hdepic_e:P02-20240211-175138:narration:414",
+       "hdepic_e:P02-20240211-175138:narration:414~2",
+       "hdepic_e:P02-20240211-175138:narration:416",
+       "hdepic_e:P02-20240211-175138:narration:416~2",
+       "hdepic_e:P02-20240211-175138:movement:dc17cdbaab9434ce:b7c6a4ed3eac3161"
+      ],
+      "matched": true,
+      "match_note": "4 narration(s), best score 8.0",
+      "centre": 694.045
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 10,
+    "events": [],
+    "irrelevant": "Continuing to slice mushrooms and placing them in the mixing bowl is a continuation of the previous action."
+   },
+   {
+    "idx": 11,
+    "events": [],
+    "irrelevant": "Slicing more mushrooms and placing them in the mixing bowl is a continuation of the previous action."
+   },
+   {
+    "idx": 12,
+    "events": [],
+    "irrelevant": "Continuing to slice mushrooms and placing them in the mixing bowl is a continuation of the previous action."
+   },
+   {
+    "idx": 13,
+    "events": [],
+    "irrelevant": "Slicing more mushrooms and placing them in the mixing bowl is a continuation of the previous action."
+   },
+   {
+    "idx": 14,
+    "events": [
+     {
+      "event_id": "s14e1",
+      "sub_goal": 14,
+      "type": "action",
+      "description": "The final mushrooms are sliced.",
+      "objects": [
+       "mushrooms",
+       "knife"
+      ],
+      "verbs": [
+       "slice"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "finishes cutting the mushrooms",
+      "time": [
+       812.74,
+       817.79
+      ],
+      "records": [
+       "hdepic_e:P02-20240211-175138:narration:518",
+       "hdepic_e:P02-20240211-175138:narration:518~2",
+       "hdepic_e:P02-20240211-175138:movement:114e68bd761eaf0e:cc1b2ebdb53a0271"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 5.5",
+      "centre": 815.265
+     },
+     {
+      "event_id": "s14e2",
+      "sub_goal": 14,
+      "type": "action",
+      "description": "The sliced mushrooms are transferred from the mixing bowl to the baking tray.",
+      "objects": [
+       "mushrooms",
+       "mixing bowl",
+       "baking tray"
+      ],
+      "verbs": [
+       "transfer"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "object_state_change"
+      ],
+      "relevance": "moves the prepared mushrooms to the roasting tray",
+      "time": [
+       857.04,
+       864.62
+      ],
+      "records": [
+       "hdepic_e:P02-20240211-175138:narration:533",
+       "hdepic_e:P02-20240211-175138:narration:533~2",
+       "hdepic_e:P02-20240211-175138:sound:11434",
+       "hdepic_e:P02-20240211-175138:sound:11434~2"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 10.0",
+      "centre": 860.83
+     }
+    ],
+    "irrelevant": ""
+   }
+  ],
+  "relations": [
+   {
+    "rel_id": "r1",
+    "type": "spatial_end_state",
+    "skill": "spatial_state_integration",
+    "events": [
+     "s1e1",
+     "s2e1"
+    ],
+    "ask": "after the foil is placed on the tray, which object is nearest to the cutting board",
+    "answer_hint": "the cutting board was placed on the counter in the previous step",
+    "source": "planner"
+   },
+   {
+    "rel_id": "r2",
+    "type": "hidden_state",
+    "skill": "hidden_state_inference",
+    "events": [
+     "s2e2",
+     "s3e1"
+    ],
+    "ask": "what is the state of the oven while the first packet of mushrooms is opened",
+    "answer_hint": "the oven was turned on in the previous step",
+    "source": "planner"
+   },
+   {
+    "rel_id": "r3",
+    "type": "spatial_end_state",
+    "skill": "spatial_state_integration",
+    "events": [
+     "s5e2",
+     "s6e1"
+    ],
+    "ask": "after the second packet is opened, which object is nearest to the first batch of mushrooms",
+    "answer_hint": "the first batch of mushrooms was placed down in the previous step",
+    "source": "planner"
+   },
+   {
+    "rel_id": "r4",
+    "type": "causal_prerequisite",
+    "skill": "causal_prerequisite_reasoning",
+    "events": [
+     "s8e2",
+     "s9e1"
+    ],
+    "ask": "what had to happen to the mushrooms before they could be sliced",
+    "answer_hint": "the mushrooms were placed on the cutting board in the previous step",
+    "source": "planner"
+   },
+   {
+    "rel_id": "r5",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s8e2",
+     "s9e3"
+    ],
+    "ask": "where do the mushrooms go after being placed on the cutting board",
+    "answer_hint": "the mushrooms are sliced and placed into the mixing bowl",
+    "source": "planner"
+   },
+   {
+    "rel_id": "d1",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s5e1",
+     "s6e2"
+    ],
+    "source": "derived",
+    "ask": "what happened to the shared object (tap, water) between the earlier event and the later one; what the later event shows that the earlier did not",
+    "answer_hint": "The water running sound stops. -> Water running sound starts."
+   },
+   {
+    "rel_id": "d2",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s8e2",
+     "s9e2"
+    ],
+    "source": "derived",
+    "ask": "what happened to the shared object (board, cut) between the earlier event and the later one; what the later event shows that the earlier did not",
+    "answer_hint": "The washed mushrooms are placed on the cutting board. -> Chopping sound is heard."
+   },
+   {
+    "rel_id": "d3",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s5e2",
+     "s6e3"
+    ],
+    "source": "derived",
+    "ask": "what happened to the shared object (mushroom) between the earlier event and the later one; what the later event shows that the earlier did not",
+    "answer_hint": "The washed mushrooms are placed down. -> The second batch of mushrooms is washed under the tap."
+   },
+   {
+    "rel_id": "d4",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s5e1",
+     "s6e3"
+    ],
+    "source": "derived",
+    "ask": "what happened to the shared object (tap) between the earlier event and the later one; what the later event shows that the earlier did not",
+    "answer_hint": "The water running sound stops. -> The second batch of mushrooms is washed under the tap."
+   }
+  ],
+  "decision_points": [
+   {
+    "idx": 2,
+    "real": true,
+    "why": "After retrieving the cutting board and mushrooms, the person decides to prepare the baking tray and oven before washing the mushrooms."
+   },
+   {
+    "idx": 3,
+    "real": true,
+    "why": "After preparing the tray and oven, the person decides to start washing the mushrooms."
+   },
+   {
+    "idx": 4,
+    "real": false,
+    "why": "Continuing to wash the mushrooms is a continuation of the previous action."
+   },
+   {
+    "idx": 5,
+    "real": false,
+    "why": "Finishing washing the mushrooms is the natural conclusion of the washing process."
+   },
+   {
+    "idx": 6,
+    "real": true,
+    "why": "After finishing the first batch, the person decides to open and wash the second packet."
+   },
+   {
+    "idx": 7,
+    "real": false,
+    "why": "Continuing to wash the second batch is a continuation of the previous action."
+   },
+   {
+    "idx": 8,
+    "real": false,
+    "why": "Finishing washing the second batch is the natural conclusion of the washing process."
+   },
+   {
+    "idx": 9,
+    "real": true,
+    "why": "After washing all mushrooms, the person decides to start slicing them."
+   },
+   {
+    "idx": 10,
+    "real": false,
+    "why": "Continuing to slice mushrooms is a continuation of the previous action."
+   },
+   {
+    "idx": 11,
+    "real": false,
+    "why": "Slicing more mushrooms is a continuation of the previous action."
+   },
+   {
+    "idx": 12,
+    "real": false,
+    "why": "Continuing to slice mushrooms is a continuation of the previous action."
+   },
+   {
+    "idx": 13,
+    "real": false,
+    "why": "Slicing more mushrooms is a continuation of the previous action."
+   },
+   {
+    "idx": 14,
+    "real": false,
+    "why": "Slicing the final mushrooms is the natural conclusion of the slicing process."
+   },
+   {
+    "idx": 15,
+    "real": true,
+    "why": "After transferring all slices to the baking tray, the person has completed the preparation and must decide what to do next."
+   }
+  ],
+  "events": {
+   "s1e1": {
+    "event_id": "s1e1",
+    "sub_goal": 1,
+    "type": "placement",
+    "description": "The cutting board is placed on the counter.",
+    "objects": [
+     "cutting board",
+     "counter"
+    ],
+    "verbs": [
+     "place"
+    ],
+    "skills": [
+     "object_recognition",
+     "object_location_at_time",
+     "action_recognition"
+    ],
+    "relevance": "prepares the workspace for slicing",
+    "time": [
+     48.0,
+     49.6
+    ],
+    "records": [
+     "hdepic_e:P02-20240211-175138:movement:7d550d8e6d273150:fa3ba2b3ee10ca4a",
+     "hdepic_e:P02-20240211-175138:narration:24",
+     "hdepic_e:P02-20240211-175138:narration:24~2"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 5.5",
+    "centre": 48.8
+   },
+   "s1e2": {
+    "event_id": "s1e2",
+    "sub_goal": 1,
+    "type": "placement",
+    "description": "The packets of mushrooms are placed on the counter.",
+    "objects": [
+     "mushrooms",
+     "counter"
+    ],
+    "verbs": [
+     "place"
+    ],
+    "skills": [
+     "object_recognition",
+     "object_location_at_time",
+     "action_recognition"
+    ],
+    "relevance": "brings the ingredients to the workspace",
+    "time": [
+     70.267,
+     72.567
+    ],
+    "records": [
+     "hdepic_e:P02-20240211-175138:movement:aa346d7d5e41892a:45f1caa69ab4ac5f",
+     "hdepic_e:P02-20240211-175138:narration:43",
+     "hdepic_e:P02-20240211-175138:narration:43~2"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 4.0",
+    "centre": 71.417
+   },
+   "s2e1": {
+    "event_id": "s2e1",
+    "sub_goal": 2,
+    "type": "action",
+    "description": "Foil is placed onto the baking tray.",
+    "objects": [
+     "foil",
+     "baking tray"
+    ],
+    "verbs": [
+     "place",
+     "line"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "prepares the tray for roasting",
+    "time": [
+     121.01,
+     130.1
+    ],
+    "records": [
+     "hdepic_e:P02-20240211-175138:narration:76",
+     "hdepic_e:P02-20240211-175138:narration:76~2",
+     "hdepic_e:P02-20240211-175138:narration:77",
+     "hdepic_e:P02-20240211-175138:narration:77~2",
+     "hdepic_e:P02-20240211-175138:narration:78",
+     "hdepic_e:P02-20240211-175138:narration:78~2",
+     "hdepic_e:P02-20240211-175138:movement:dd1a59533ca0096a:87dbb14bbe169fb1"
+    ],
+    "matched": true,
+    "match_note": "6 narration(s), best score 7.5",
+    "centre": 125.555
+   },
+   "s2e2": {
+    "event_id": "s2e2",
+    "sub_goal": 2,
+    "type": "state",
+    "description": "The oven is turned on.",
+    "objects": [
+     "oven"
+    ],
+    "verbs": [
+     "turn"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "object_state_change"
+    ],
+    "relevance": "starts the preheating process",
+    "time": [
+     131.06,
+     136.82
+    ],
+    "records": [
+     "hdepic_e:P02-20240211-175138:narration:80",
+     "hdepic_e:P02-20240211-175138:narration:80~2",
+     "hdepic_e:P02-20240211-175138:movement:dd1a59533ca0096a:87dbb14bbe169fb1"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 3.5",
+    "centre": 133.94
+   },
+   "s3e1": {
+    "event_id": "s3e1",
+    "sub_goal": 3,
+    "type": "action",
+    "description": "The first packet of mushrooms is opened.",
+    "objects": [
+     "packet",
+     "mushrooms"
+    ],
+    "verbs": [
+     "open"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "object_state_change"
+    ],
+    "relevance": "accesses the mushrooms for washing",
+    "time": [
+     138.43,
+     140.05
+    ],
+    "records": [
+     "hdepic_e:P02-20240211-175138:narration:81",
+     "hdepic_e:P02-20240211-175138:narration:81~2",
+     "hdepic_e:P02-20240211-175138:narration:82",
+     "hdepic_e:P02-20240211-175138:narration:82~2",
+     "hdepic_e:P02-20240211-175138:movement:dd1a59533ca0096a:027025026f2b468a",
+     "hdepic_e:P02-20240211-175138:movement:aa73afc1022b2f75:c0cc99660274e65f"
+    ],
+    "matched": true,
+    "match_note": "4 narration(s), best score 2.0",
+    "centre": 139.24
+   },
+   "s3e2": {
+    "event_id": "s3e2",
+    "sub_goal": 3,
+    "type": "sound",
+    "description": "Water running sound starts.",
+    "objects": [
+     "water",
+     "tap"
+    ],
+    "verbs": [
+     "run"
+    ],
+    "skills": [
+     "sound_action_binding",
+     "sound_anchored_spatial_near"
+    ],
+    "relevance": "indicates the start of the washing process",
+    "time": [
+     144.22,
+     160.35
+    ],
+    "records": [
+     "hdepic_e:P02-20240211-175138:narration:86",
+     "hdepic_e:P02-20240211-175138:narration:86~2",
+     "hdepic_e:P02-20240211-175138:sound:11123",
+     "hdepic_e:P02-20240211-175138:sound:11123~2",
+     "hdepic_e:P02-20240211-175138:movement:b7de39c106df7218:67e26da3f3ae919a",
+     "hdepic_e:P02-20240211-175138:movement:5b96a9ebf3b2e85d:8a606e4d3ce6cffa",
+     "hdepic_e:P02-20240211-175138:movement:10c6533bb2a246bd:f928a01ff08455fe"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 4.0",
+    "centre": 152.285
+   },
+   "s3e3": {
+    "event_id": "s3e3",
+    "sub_goal": 3,
+    "type": "action",
+    "description": "Mushrooms are washed under the tap.",
+    "objects": [
+     "mushrooms",
+     "tap"
+    ],
+    "verbs": [
+     "wash"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "cleans the mushrooms",
+    "time": [
+     144.22,
+     145.27
+    ],
+    "records": [
+     "hdepic_e:P02-20240211-175138:narration:86",
+     "hdepic_e:P02-20240211-175138:narration:86~2"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 5.5",
+    "centre": 144.745
+   },
+   "s5e1": {
+    "event_id": "s5e1",
+    "sub_goal": 5,
+    "type": "sound",
+    "description": "The water running sound stops.",
+    "objects": [
+     "water",
+     "tap"
+    ],
+    "verbs": [
+     "stop"
+    ],
+    "skills": [
+     "sound_action_binding"
+    ],
+    "relevance": "indicates the end of washing the first batch",
+    "time": [
+     192.47,
+     226.41
+    ],
+    "records": [
+     "hdepic_e:P02-20240211-175138:narration:135",
+     "hdepic_e:P02-20240211-175138:narration:135~2",
+     "hdepic_e:P02-20240211-175138:sound:11140",
+     "hdepic_e:P02-20240211-175138:movement:9f0cb68ade84de50:de30deee41e2f439",
+     "hdepic_e:P02-20240211-175138:movement:24cc3c38ee4390b0:e74053df3813774e",
+     "hdepic_e:P02-20240211-175138:movement:5f3481321e53599d:2381f6fd4cc4fdd8",
+     "hdepic_e:P02-20240211-175138:movement:f320f5291c0fd1e2:cda06ffa1e0979e0",
+     "hdepic_e:P02-20240211-175138:movement:133563985d9a1d90:609aca96376e5762",
+     "hdepic_e:P02-20240211-175138:movement:b55dae0a1ec4c15b:2ec3ff7c4e3a039b"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 4.0",
+    "centre": 209.44
+   },
+   "s5e2": {
+    "event_id": "s5e2",
+    "sub_goal": 5,
+    "type": "placement",
+    "description": "The washed mushrooms are placed down.",
+    "objects": [
+     "mushrooms"
+    ],
+    "verbs": [
+     "place"
+    ],
+    "skills": [
+     "object_recognition",
+     "object_location_at_time",
+     "action_recognition"
+    ],
+    "relevance": "sets aside the clean mushrooms",
+    "time": [
+     192.47,
+     207.9
+    ],
+    "records": [
+     "hdepic_e:P02-20240211-175138:movement:ece92bfdf17cb502:8f3d4127e4fb1318",
+     "hdepic_e:P02-20240211-175138:narration:122",
+     "hdepic_e:P02-20240211-175138:narration:122~2",
+     "hdepic_e:P02-20240211-175138:movement:9f0cb68ade84de50:de30deee41e2f439",
+     "hdepic_e:P02-20240211-175138:movement:24cc3c38ee4390b0:e74053df3813774e",
+     "hdepic_e:P02-20240211-175138:movement:5f3481321e53599d:2381f6fd4cc4fdd8"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 4.0",
+    "centre": 200.185
+   },
+   "s6e1": {
+    "event_id": "s6e1",
+    "sub_goal": 6,
+    "type": "action",
+    "description": "The second packet of mushrooms is opened.",
+    "objects": [
+     "packet",
+     "mushrooms"
+    ],
+    "verbs": [
+     "open"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "object_state_change"
+    ],
+    "relevance": "accesses the second batch of mushrooms for washing",
+    "time": [
+     249.34,
+     251.49
+    ],
+    "records": [
+     "hdepic_e:P02-20240211-175138:narration:151",
+     "hdepic_e:P02-20240211-175138:narration:151~2",
+     "hdepic_e:P02-20240211-175138:movement:aa346d7d5e41892a:f67b9b8669d8391c"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 5.5",
+    "centre": 250.415
+   },
+   "s6e2": {
+    "event_id": "s6e2",
+    "sub_goal": 6,
+    "type": "sound",
+    "description": "Water running sound starts.",
+    "objects": [
+     "water",
+     "tap"
+    ],
+    "verbs": [
+     "run"
+    ],
+    "skills": [
+     "sound_action_binding",
+     "sound_anchored_spatial_near"
+    ],
+    "relevance": "indicates the start of washing the second batch",
+    "time": [
+     260.452,
+     278.31
+    ],
+    "records": [
+     "hdepic_e:P02-20240211-175138:narration:169",
+     "hdepic_e:P02-20240211-175138:narration:169~2",
+     "hdepic_e:P02-20240211-175138:sound:11159",
+     "hdepic_e:P02-20240211-175138:sound:11159~2",
+     "hdepic_e:P02-20240211-175138:sound:11163",
+     "hdepic_e:P02-20240211-175138:sound:11163~2",
+     "hdepic_e:P02-20240211-175138:sound:11164",
+     "hdepic_e:P02-20240211-175138:sound:11164~2",
+     "hdepic_e:P02-20240211-175138:sound:11165",
+     "hdepic_e:P02-20240211-175138:sound:11165~2",
+     "hdepic_e:P02-20240211-175138:sound:11167",
+     "hdepic_e:P02-20240211-175138:sound:11167~2",
+     "hdepic_e:P02-20240211-175138:movement:a074b128f2857f3a:cc99075e45dd4646",
+     "hdepic_e:P02-20240211-175138:movement:3e6e3ebad690017a:b8968356138b74f3",
+     "hdepic_e:P02-20240211-175138:movement:f4d8b8299a4b1fa7:27198da4a0f6f5be",
+     "hdepic_e:P02-20240211-175138:movement:fcbd68479317b78a:12b4e2c9a85809bd",
+     "hdepic_e:P02-20240211-175138:movement:657591b4dfdff79f:9573bcdf7baafe95",
+     "hdepic_e:P02-20240211-175138:movement:c5ee43cbfc384730:91094b53ab690d58",
+     "hdepic_e:P02-20240211-175138:movement:c5ee43cbfc384730:d20055a055ce1f62",
+     "hdepic_e:P02-20240211-175138:movement:c5ee43cbfc384730:dfa629fd3a1e0cec"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 4.0",
+    "centre": 269.381
+   },
+   "s6e3": {
+    "event_id": "s6e3",
+    "sub_goal": 6,
+    "type": "action",
+    "description": "The second batch of mushrooms is washed under the tap.",
+    "objects": [
+     "mushrooms",
+     "tap"
+    ],
+    "verbs": [
+     "wash"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "cleans the second batch of mushrooms",
+    "time": [
+     278.41,
+     279.31
+    ],
+    "records": [
+     "hdepic_e:P02-20240211-175138:narration:170",
+     "hdepic_e:P02-20240211-175138:narration:170~2"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 4.0",
+    "centre": 278.86
+   },
+   "s8e1": {
+    "event_id": "s8e1",
+    "sub_goal": 8,
+    "type": "sound",
+    "description": "The water running sound stops.",
+    "objects": [
+     "water",
+     "tap"
+    ],
+    "verbs": [
+     "stop"
+    ],
+    "skills": [
+     "sound_action_binding"
+    ],
+    "relevance": "indicates the end of washing the second batch",
+    "time": [
+     299.18,
+     312.431
+    ],
+    "records": [
+     "hdepic_e:P02-20240211-175138:narration:195",
+     "hdepic_e:P02-20240211-175138:narration:195~2",
+     "hdepic_e:P02-20240211-175138:sound:11170",
+     "hdepic_e:P02-20240211-175138:movement:0aeb457828737a29:dcd06e6fb3a71a1d",
+     "hdepic_e:P02-20240211-175138:movement:4bc2a42075fa5052:298e7f1fa952741e",
+     "hdepic_e:P02-20240211-175138:movement:77387330a3e829bb:5bfe4814d2f14819"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 4.0",
+    "centre": 305.805
+   },
+   "s8e2": {
+    "event_id": "s8e2",
+    "sub_goal": 8,
+    "type": "placement",
+    "description": "The washed mushrooms are placed on the cutting board.",
+    "objects": [
+     "mushrooms",
+     "cutting board"
+    ],
+    "verbs": [
+     "place"
+    ],
+    "skills": [
+     "object_recognition",
+     "object_location_at_time",
+     "action_recognition"
+    ],
+    "relevance": "prepares the mushrooms for slicing",
+    "time": [
+     299.18,
+     314.56
+    ],
+    "records": [
+     "hdepic_e:P02-20240211-175138:movement:a074b128f2857f3a:2fb39f79e1917f91",
+     "hdepic_e:P02-20240211-175138:narration:198",
+     "hdepic_e:P02-20240211-175138:narration:198~2",
+     "hdepic_e:P02-20240211-175138:movement:0aeb457828737a29:dcd06e6fb3a71a1d",
+     "hdepic_e:P02-20240211-175138:movement:4bc2a42075fa5052:298e7f1fa952741e",
+     "hdepic_e:P02-20240211-175138:movement:77387330a3e829bb:5bfe4814d2f14819"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 7.5",
+    "centre": 306.87
+   },
+   "s9e1": {
+    "event_id": "s9e1",
+    "sub_goal": 9,
+    "type": "action",
+    "description": "A knife slices the mushrooms.",
+    "objects": [
+     "knife",
+     "mushrooms"
+    ],
+    "verbs": [
+     "slice"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "cuts the mushrooms into pieces",
+    "time": [
+     687.13,
+     692.45
+    ],
+    "records": [
+     "hdepic_e:P02-20240211-175138:narration:412",
+     "hdepic_e:P02-20240211-175138:narration:412~2"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 5.5",
+    "centre": 689.79
+   },
+   "s9e2": {
+    "event_id": "s9e2",
+    "sub_goal": 9,
+    "type": "sound",
+    "description": "Chopping sound is heard.",
+    "objects": [
+     "knife",
+     "cutting board"
+    ],
+    "verbs": [
+     "chop"
+    ],
+    "skills": [
+     "sound_action_binding",
+     "sound_movement_binding"
+    ],
+    "relevance": "indicates the slicing action",
+    "time": [
+     687.94,
+     695.41
+    ],
+    "records": [
+     "hdepic_e:P02-20240211-175138:narration:417",
+     "hdepic_e:P02-20240211-175138:narration:417~2",
+     "hdepic_e:P02-20240211-175138:sound:11336",
+     "hdepic_e:P02-20240211-175138:sound:11336~2",
+     "hdepic_e:P02-20240211-175138:sound:11337",
+     "hdepic_e:P02-20240211-175138:sound:11337~2",
+     "hdepic_e:P02-20240211-175138:sound:11339",
+     "hdepic_e:P02-20240211-175138:sound:11339~2",
+     "hdepic_e:P02-20240211-175138:sound:11340",
+     "hdepic_e:P02-20240211-175138:sound:11340~2",
+     "hdepic_e:P02-20240211-175138:sound:11343",
+     "hdepic_e:P02-20240211-175138:sound:11343~2",
+     "hdepic_e:P02-20240211-175138:movement:dc17cdbaab9434ce:b7c6a4ed3eac3161"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 5.5",
+    "centre": 691.675
+   },
+   "s9e3": {
+    "event_id": "s9e3",
+    "sub_goal": 9,
+    "type": "action",
+    "description": "Sliced mushrooms are placed into the mixing bowl.",
+    "objects": [
+     "mushrooms",
+     "mixing bowl"
+    ],
+    "verbs": [
+     "place"
+    ],
+    "skills": [
+     "object_recognition",
+     "object_location_at_time",
+     "action_recognition"
+    ],
+    "relevance": "collects the sliced mushrooms",
+    "time": [
+     693.23,
+     694.86
+    ],
+    "records": [
+     "hdepic_e:P02-20240211-175138:narration:414",
+     "hdepic_e:P02-20240211-175138:narration:414~2",
+     "hdepic_e:P02-20240211-175138:narration:416",
+     "hdepic_e:P02-20240211-175138:narration:416~2",
+     "hdepic_e:P02-20240211-175138:movement:dc17cdbaab9434ce:b7c6a4ed3eac3161"
+    ],
+    "matched": true,
+    "match_note": "4 narration(s), best score 8.0",
+    "centre": 694.045
+   },
+   "s14e1": {
+    "event_id": "s14e1",
+    "sub_goal": 14,
+    "type": "action",
+    "description": "The final mushrooms are sliced.",
+    "objects": [
+     "mushrooms",
+     "knife"
+    ],
+    "verbs": [
+     "slice"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "finishes cutting the mushrooms",
+    "time": [
+     812.74,
+     817.79
+    ],
+    "records": [
+     "hdepic_e:P02-20240211-175138:narration:518",
+     "hdepic_e:P02-20240211-175138:narration:518~2",
+     "hdepic_e:P02-20240211-175138:movement:114e68bd761eaf0e:cc1b2ebdb53a0271"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 5.5",
+    "centre": 815.265
+   },
+   "s14e2": {
+    "event_id": "s14e2",
+    "sub_goal": 14,
+    "type": "action",
+    "description": "The sliced mushrooms are transferred from the mixing bowl to the baking tray.",
+    "objects": [
+     "mushrooms",
+     "mixing bowl",
+     "baking tray"
+    ],
+    "verbs": [
+     "transfer"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "object_state_change"
+    ],
+    "relevance": "moves the prepared mushrooms to the roasting tray",
+    "time": [
+     857.04,
+     864.62
+    ],
+    "records": [
+     "hdepic_e:P02-20240211-175138:narration:533",
+     "hdepic_e:P02-20240211-175138:narration:533~2",
+     "hdepic_e:P02-20240211-175138:sound:11434",
+     "hdepic_e:P02-20240211-175138:sound:11434~2"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 10.0",
+    "centre": 860.83
+   }
+  }
+ },
+ "warnings": [],
+ "usage": {
+  "tok_in": 1838,
+  "tok_out": 3952,
+  "tok_think": 8975,
+  "model_version": "gemini-3.1-pro-preview",
+  "finish_reason": "FinishReason.STOP"
+ },
+ "status": "ok",
+ "raw_len": 14301
+}

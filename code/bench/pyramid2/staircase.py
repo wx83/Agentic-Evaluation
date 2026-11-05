@@ -184,10 +184,15 @@ def _estimate(st, edge):
     return round(statistics.mean(pts), 2)
 
 
-def update_search(st, level, verdict, turn, contract, avail, reused=False):
+def update_search(st, level, verdict, turn, contract, avail, reused=False, cap=None):
     """按 2-down-1-up 更新;返回 'up' / 'down' / 'stay'。streak 只数同一档内连续对;到顶(第 4 档连对)= ceiling,到底(第 1 档两错)= floor;
-    上下一档没有 cluster 可用 = exhausted_up / exhausted_down(边界取 level±0.5,标 unconverged)。"""
+    上下一档没有 cluster 可用 = exhausted_up / exhausted_down(边界取 level±0.5,标 unconverged)。
+    11-01 stair_fixed_level_skills {skill: level}(合约,可选):该 skill 不走阶梯,固定在该档把池子问完(不触底 / 不触顶 / 不算反转 / 不受 budget),用于 L4 全部决策点遍历。"""
     st["trace"].append({"turn": turn, "level": level, "verdict": verdict, "reused": bool(reused)})
+    fixed = (contract.get("stair_fixed_level_skills") or {}).get(cap)
+    if fixed:
+        st["level"] = int(fixed); st["fixed_level"] = int(fixed)
+        return "stay"
     budget = int(contract.get("stair_budget", 6))
     move = "stay"
     if verdict == "correct":
@@ -324,7 +329,7 @@ def run_layer(store, state, contract, run_dir, *, run_turn, log, rank, mock=None
             st["invalid_streak"] = 0
             if phase_at_ask == "search":
                 avail = sorted(set(levels_available(state, store, cap, rank) + [level]))
-                row["stair_move"] = update_search(st, level, v, row["turn"], contract, avail, reused=reused)
+                row["stair_move"] = update_search(st, level, v, row["turn"], contract, avail, reused=reused, cap=cap)
             else:
                 slot["verdict"] = v; slot["turn"] = row["turn"]
                 if all(x["verdict"] is not None for x in st["verify"]):

@@ -1,0 +1,899 @@
+{
+ "task_id": "P08-20240617-184909__P08_R07_S09",
+ "prompt_hash": "fe6546f8a0",
+ "model": "qwen3-omni-30b-a3b-instruct",
+ "created": "2026-10-28T16:19:29",
+ "input": {
+  "task_id": "P08-20240617-184909__P08_R07_S09",
+  "goal": "Add broccoli and green beans to pan and stir",
+  "scenario": null,
+  "task_window": [
+   950.88,
+   1682.89
+  ],
+  "observation_cutoff": 1682.89,
+  "steps": [
+   {
+    "idx": 1,
+    "text": "Chop the broccoli into smaller pieces",
+    "t0": 950.88,
+    "t1": 981.58
+   },
+   {
+    "idx": 2,
+    "text": "Continue chopping the broccoli into smaller pieces",
+    "t0": 981.47,
+    "t1": 1000.83
+   },
+   {
+    "idx": 3,
+    "text": "Transfer the chopped broccoli and other vegetables to the pan",
+    "t0": 1100.98,
+    "t1": 1137.45
+   },
+   {
+    "idx": 4,
+    "text": "Stir the vegetables in the pan",
+    "t0": 1189.77,
+    "t1": 1247.48
+   },
+   {
+    "idx": 5,
+    "text": "Continue stirring the vegetables in the pan",
+    "t0": 1355.52,
+    "t1": 1452.72
+   },
+   {
+    "idx": 6,
+    "text": "Continue stirring the vegetables in the pan",
+    "t0": 1511.35,
+    "t1": 1634.05
+   },
+   {
+    "idx": 7,
+    "text": "Finish stirring the vegetables and turn off the stove",
+    "t0": 1673.61,
+    "t1": 1682.89
+   }
+  ],
+  "next_action": {
+   "text": "The step is complete; nothing more needs to be done for it.",
+   "choices": {
+    "A": "Continue stirring the vegetables in the pan",
+    "B": "Continue stirring the vegetables in the pan",
+    "C": "Finish stirring the vegetables and turn off the stove",
+    "D": "The step is complete; nothing more needs to be done for it."
+   },
+   "gold_letter": "D"
+  },
+  "skills": {
+   "object_recognition": {
+    "layer": "L1",
+    "definition": "The object the camera wearer handles at one moment of a recorded step: ask what is in hand / being manipulated when a visible cue happens. Not the purpose.",
+    "evidence_steps": [
+     1,
+     2,
+     3,
+     5,
+     6
+    ],
+    "evidence_note": "evidence_steps are recorded steps that can be shown inside a 30 s clip window; the item asks about what is visible."
+   },
+   "action_recognition": {
+    "layer": "L2",
+    "definition": "What action (verb + object) is performed within one recorded step shown in the clip.",
+    "evidence_steps": [
+     1,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "evidence_note": "evidence_steps are recorded steps that can be shown inside a 30 s clip window; the item asks about what is visible."
+   },
+   "event_object_role": {
+    "layer": "L2",
+    "definition": "Within one recorded step: which object is acted on, which tool is used, where it goes (destination).",
+    "evidence_steps": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "evidence_note": "evidence_steps are recorded steps that can be shown inside a 30 s clip window; the item asks about what is visible."
+   },
+   "action_temporal_order": {
+    "layer": "L2",
+    "definition": "Order of recorded steps that are directly shown close together (span <= 15 s).",
+    "evidence_steps": [
+     1,
+     2,
+     3,
+     5,
+     6
+    ],
+    "evidence_note": "evidence_steps are recorded steps that can be shown inside a 30 s clip window; the item asks about what is visible."
+   },
+   "sound_action_binding": {
+    "layer": "L2",
+    "definition": "Within one recorded sub-goal: which action / object produced a sound heard in the clip.",
+    "evidence_steps": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "evidence_note": "evidence_steps are the sub-goals containing an annotated sound; pick sounds produced by goal actions (chopping, sizzling, pouring), not background."
+   },
+   "inter_event_temporal_reasoning": {
+    "layer": "L3",
+    "definition": "Order / count / progress across steps spread over the task (span > 15 s): what came before what, how many times an action recurred, which steps are already done by the cutoff.",
+    "evidence_steps": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "evidence_note": "evidence_steps are anchor steps of 60 s windows; the item must integrate at least two steps more than 15 s apart."
+   },
+   "goal_conditioned_planning": {
+    "layer": "L4",
+    "definition": "At the task cutoff: what action to take next (the four official choices) or the next 4-8 steps to finish the task.",
+    "evidence_steps": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     "segment"
+    ],
+    "evidence_note": "the clip ends at the task's observation frame (after all recorded steps); 'segment' = the whole recorded progress, 'next' = the official next action, which is the reference answer."
+   },
+   "plan_gap_filling": {
+    "layer": "L4",
+    "definition": "Given the end of sub-goal k and the start of sub-goal k+m, which sub-goals were carried out in between (recorded order); event_refs = [k, k+m].",
+    "evidence_steps": [
+     2
+    ],
+    "evidence_note": "evidence_steps are HEAD steps k that have a tail step k+m (m = 2, 3 or 4) in this task; an entry's event_refs must be [k, k+m]; the Solver sees only the last seconds of k and the first seconds (or frame) of k+m and must name the hidden steps in between."
+   },
+   "cross_event_integration": {
+    "layer": "L3",
+    "definition": "Combine evidence from two moments of the task far apart in time (two short segments, span 20 s - several minutes): what carried over, what changed, counts across both; event_refs = [head, tail].",
+    "evidence_steps": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "evidence_note": "evidence_steps are HEAD sub-goals that have a later sub-goal in this task; an entry's event_refs must be [head, tail]; the Solver sees the last 12 s of head and the first 12 s of tail."
+   },
+   "hidden_state_inference": {
+    "layer": "L3",
+    "definition": "The state (on/off, open/closed, covered, plugged) of an appliance or container at the end of a clip, when the last change of that state happened before the clip and is not visible in it.",
+    "evidence_steps": [
+     4,
+     5,
+     6,
+     7
+    ],
+    "evidence_note": "evidence_steps are the sub-goals during which a 30 s clip can be cut after an earlier recorded state change (hob/tap/light on-off, door open-closed, pan covered); the item asks the state at the end of that clip."
+   },
+   "spatial_state_integration": {
+    "layer": "L3",
+    "definition": "Which of several objects resting around the kitchen is nearest / farthest to a reference object at the end of the clip, when some of them were put down before the clip (3D resting positions from the dataset).",
+    "evidence_steps": [
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "evidence_note": "evidence_steps are the sub-goals during which a 30 s clip ends with a reference object just put down; candidates are other resting objects with recorded 3D positions."
+   },
+   "causal_prerequisite_reasoning": {
+    "layer": "L3",
+    "definition": "Which earlier recorded sub-goal was a physical prerequisite of the sub-goal shown in the clip (explicit task model; prerequisite declared by the Examiner, candidate reference).",
+    "evidence_steps": [
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "evidence_note": "evidence_steps are EFFECT sub-goals (idx >= 2) shown in a 30 s clip; the item asks which earlier sub-goal was its physical prerequisite."
+   },
+   "spatial_near": {
+    "layer": "L1",
+    "definition": "At one moment inside a recorded sub-goal: which of the listed objects is nearest / farthest to a reference object (3D positions from the dataset; candidates listed in the question).",
+    "evidence_steps": [
+     4,
+     5,
+     6
+    ],
+    "evidence_note": "evidence_steps are the sub-goals during which a dataset-derived nearest / farthest relation holds at one moment; pick those whose reference object is an ingredient / tool / container of the goal."
+   },
+   "spatial_side": {
+    "layer": "L1",
+    "definition": "At one moment inside a recorded sub-goal: which of the listed objects is leftmost / rightmost from the camera wearer's viewpoint at that moment.",
+    "evidence_steps": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "evidence_note": "evidence_steps are the sub-goals during which a dataset-derived left / right relation (wearer's view) holds at one moment; pick goal objects."
+   },
+   "object_location_at_time": {
+    "layer": "L1",
+    "definition": "Where (on which fixture / surface / container) an object is put down at one moment of a recorded sub-goal.",
+    "evidence_steps": [
+     2,
+     5,
+     6
+    ],
+    "evidence_note": "evidence_steps are the sub-goals in which a recorded put-down happens; pick put-downs of goal objects."
+   },
+   "sound_anchored_spatial_near": {
+    "layer": "L2",
+    "definition": "The moment is fixed by a sound inside a recorded sub-goal; at that moment, which listed object is nearest to the reference object.",
+    "evidence_steps": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "evidence_note": "evidence_steps are the sub-goals where a sound fixes the moment of a derived nearest relation; pick goal objects / goal sounds."
+   },
+   "sound_anchored_spatial_side": {
+    "layer": "L2",
+    "definition": "The moment is fixed by a sound inside a recorded sub-goal; at that moment, which listed object is leftmost / rightmost for the wearer.",
+    "evidence_steps": [
+     1,
+     2,
+     4,
+     5,
+     6
+    ],
+    "evidence_note": "evidence_steps are the sub-goals where a sound fixes the moment of a derived left / right relation; pick goal objects / goal sounds."
+   },
+   "object_state_change": {
+    "layer": "L2",
+    "definition": "Within one recorded sub-goal: an object's start and end location / state through one movement (where it was taken from, where it went).",
+    "evidence_steps": [
+     2,
+     4,
+     5,
+     6
+    ],
+    "evidence_note": "evidence_steps are the sub-goals containing a recorded movement (pick-up -> put-down) of an object; pick goal objects."
+   },
+   "sound_movement_binding": {
+    "layer": "L2",
+    "definition": "Within one recorded sub-goal: which object movement produced / coincides with a sound.",
+    "evidence_steps": [
+     1,
+     2,
+     4,
+     5,
+     6,
+     7
+    ],
+    "evidence_note": "evidence_steps are the sub-goals where an annotated sound coincides with a recorded object movement; pick goal objects."
+   },
+   "inter_event_spatial_extreme": {
+    "layer": "L3",
+    "definition": "After several placements across sub-goals, which listed object ends nearest / farthest to a reference (needs integrating where things were put in different sub-goals).",
+    "evidence_steps": [
+     3,
+     4,
+     5,
+     6
+    ],
+    "evidence_note": "evidence_steps are the sub-goals whose end has a derived nearest / farthest relation built from earlier placements; pick goal objects."
+   },
+   "inter_event_spatial_order": {
+    "layer": "L3",
+    "definition": "After several placements across sub-goals, the order of the listed objects by distance to a reference.",
+    "evidence_steps": [
+     3,
+     4,
+     5,
+     6
+    ],
+    "evidence_note": "evidence_steps are the sub-goals whose end has a derived distance order built from earlier placements; pick goal objects."
+   },
+   "egocentric_frame_transform": {
+    "layer": "L3",
+    "definition": "After the wearer puts an object down and then moves or turns, where is that object relative to the wearer at the end of the clip (front/back x left/right, from the wearer's own viewpoint then); needs the clip to show the placement.",
+    "evidence_steps": [
+     3,
+     4,
+     5,
+     6
+    ],
+    "evidence_note": "evidence_steps are the sub-goals during which a 30 s clip ends after a recorded placement, with the device pose known; the item asks the object's quadrant relative to the wearer at the end."
+   },
+   "gaze_primed_next_pickup": {
+    "layer": "L3",
+    "definition": "Which object the wearer will pick up next, asked just before the pick-up (clip ends 0.3-8 s before it); reference = the recorded pick-up, cue = the wearer's gaze / head turn.",
+    "evidence_steps": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "evidence_note": "evidence_steps are the sub-goals in which a recorded pick-up with gaze priming happens; the clip ends shortly before the pick-up."
+   },
+   "object_grounding": {
+    "layer": "L1",
+    "definition": "Give the bounding box of a named object in the first frame of a 1 s clip (official mask box; IoU scoring).",
+    "evidence_steps": [
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "evidence_note": "evidence_steps are the sub-goals containing annotated object masks; the item asks for the box in the first frame of a 1 s clip."
+   }
+  }
+ },
+ "scope": {
+  "task_id": "P08-20240617-184909__P08_R07_S09",
+  "goal": "Add broccoli and green beans to pan and stir",
+  "phases": [
+   {
+    "name": "Chop broccoli",
+    "step_idx": [
+     1,
+     2
+    ]
+   },
+   {
+    "name": "Transfer to pan",
+    "step_idx": [
+     3
+    ]
+   },
+   {
+    "name": "Stir vegetables",
+    "step_idx": [
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "name": "Finish and turn off stove",
+    "step_idx": [
+     7
+    ]
+   }
+  ],
+  "layers": {
+   "L1": {
+    "object_recognition": [
+     {
+      "scope_id": "L1-object_recognition-1",
+      "event_refs": [
+       1,
+       2,
+       3
+      ],
+      "target": "broccoli",
+      "relation": null,
+      "ask": "What ingredient is being chopped in steps 1 and 2?",
+      "avoid": "The green beans are not mentioned in the sub-goals; avoid confusion with them."
+     },
+     {
+      "scope_id": "L1-object_recognition-2",
+      "event_refs": [
+       3,
+       4,
+       5,
+       6,
+       7
+      ],
+      "target": "pan",
+      "relation": null,
+      "ask": "Where are the vegetables placed after step 3?",
+      "avoid": "Avoid mentioning the cutting board or knife unless they are directly referenced."
+     }
+    ],
+    "spatial_near": [
+     {
+      "scope_id": "L1-spatial_near-1",
+      "event_refs": [
+       4,
+       5,
+       6
+      ],
+      "target": "pan",
+      "relation": "nearest",
+      "ask": "Which object is nearest to the pan during stirring?",
+      "avoid": "Avoid asking about unrelated objects like the tap or stove."
+     }
+    ],
+    "spatial_side": [
+     {
+      "scope_id": "L1-spatial_side-1",
+      "event_refs": [
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7
+      ],
+      "target": "knife",
+      "relation": "rightmost",
+      "ask": "From the camera wearer's view, where is the knife placed after chopping?",
+      "avoid": "Avoid asking about objects not in the goal, like the phone or towel."
+     }
+    ],
+    "object_location_at_time": [
+     {
+      "scope_id": "L1-object_location_at_time-1",
+      "event_refs": [
+       2
+      ],
+      "target": "chopped broccoli",
+      "relation": "on cutting board",
+      "ask": "Where is the chopped broccoli after step 2?",
+      "avoid": "Avoid asking about the pan or stove unless they are referenced."
+     },
+     {
+      "scope_id": "L1-object_location_at_time-2",
+      "event_refs": [
+       3
+      ],
+      "target": "broccoli",
+      "relation": "in pan",
+      "ask": "Where is the broccoli after step 3?",
+      "avoid": "Avoid asking about green beans since they are not mentioned in the sub-goals."
+     }
+    ],
+    "object_grounding": [
+     {
+      "scope_id": "L1-object_grounding-1",
+      "event_refs": [
+       2,
+       3,
+       4,
+       5,
+       6
+      ],
+      "target": "broccoli",
+      "relation": null,
+      "ask": "What is the bounding box of the broccoli in the first frame of step 2?",
+      "avoid": "Avoid asking about green beans or other ingredients not mentioned."
+     }
+    ]
+   },
+   "L2": {
+    "action_recognition": [
+     {
+      "scope_id": "L2-action_recognition-1",
+      "event_refs": [
+       1,
+       2
+      ],
+      "target": "chop broccoli",
+      "relation": null,
+      "ask": "What action is performed in steps 1 and 2?",
+      "avoid": "Avoid mentioning green beans or other ingredients not in the sub-goals."
+     },
+     {
+      "scope_id": "L2-action_recognition-2",
+      "event_refs": [
+       3
+      ],
+      "target": "transfer vegetables to pan",
+      "relation": null,
+      "ask": "What action is performed in step 3?",
+      "avoid": "Avoid mentioning stirring or turning off the stove."
+     },
+     {
+      "scope_id": "L2-action_recognition-3",
+      "event_refs": [
+       4,
+       5,
+       6
+      ],
+      "target": "stir vegetables",
+      "relation": null,
+      "ask": "What action is performed in steps 4, 5, and 6?",
+      "avoid": "Avoid mentioning chopping or transferring."
+     },
+     {
+      "scope_id": "L2-action_recognition-4",
+      "event_refs": [
+       7
+      ],
+      "target": "turn off stove",
+      "relation": null,
+      "ask": "What action is performed in step 7?",
+      "avoid": "Avoid mentioning stirring or transferring."
+     }
+    ],
+    "event_object_role": [
+     {
+      "scope_id": "L2-event_object_role-1",
+      "event_refs": [
+       1,
+       2
+      ],
+      "target": "broccoli",
+      "relation": "acted on",
+      "ask": "What ingredient is being chopped in steps 1 and 2?",
+      "avoid": "Avoid mentioning green beans or other ingredients."
+     },
+     {
+      "scope_id": "L2-event_object_role-2",
+      "event_refs": [
+       3
+      ],
+      "target": "pan",
+      "relation": "destination",
+      "ask": "Where are the chopped vegetables placed after step 3?",
+      "avoid": "Avoid mentioning the cutting board or knife."
+     },
+     {
+      "scope_id": "L2-event_object_role-3",
+      "event_refs": [
+       4,
+       5,
+       6
+      ],
+      "target": "vegetables",
+      "relation": "acted on",
+      "ask": "What is being stirred in steps 4, 5, and 6?",
+      "avoid": "Avoid mentioning the pan or stove."
+     }
+    ],
+    "action_temporal_order": [
+     {
+      "scope_id": "L2-action_temporal_order-1",
+      "event_refs": [
+       1,
+       2
+      ],
+      "target": "chop broccoli",
+      "relation": "before",
+      "ask": "Which step comes before step 2?",
+      "avoid": "Avoid mentioning steps outside the goal."
+     },
+     {
+      "scope_id": "L2-action_temporal_order-2",
+      "event_refs": [
+       3,
+       4
+      ],
+      "target": "transfer to pan",
+      "relation": "before",
+      "ask": "Which step comes before step 4?",
+      "avoid": "Avoid mentioning steps outside the goal."
+     }
+    ],
+    "sound_action_binding": [
+     {
+      "scope_id": "L2-sound_action_binding-1",
+      "event_refs": [
+       1,
+       2
+      ],
+      "target": "chopping",
+      "relation": "produced by",
+      "ask": "What sound is produced during the chopping of broccoli?",
+      "avoid": "Avoid mentioning stirring or sizzling."
+     },
+     {
+      "scope_id": "L2-sound_action_binding-2",
+      "event_refs": [
+       4,
+       5,
+       6
+      ],
+      "target": "stirring",
+      "relation": "produced by",
+      "ask": "What sound is produced during stirring?",
+      "avoid": "Avoid mentioning chopping or turning off the stove."
+     }
+    ],
+    "object_state_change": [
+     {
+      "scope_id": "L2-object_state_change-1",
+      "event_refs": [
+       2
+      ],
+      "target": "broccoli",
+      "relation": "from cutting board to chopped",
+      "ask": "Where was the broccoli before step 2?",
+      "avoid": "Avoid mentioning green beans or other ingredients."
+     },
+     {
+      "scope_id": "L2-object_state_change-2",
+      "event_refs": [
+       3
+      ],
+      "target": "broccoli",
+      "relation": "from cutting board to pan",
+      "ask": "Where was the broccoli before step 3?",
+      "avoid": "Avoid mentioning green beans or other ingredients."
+     },
+     {
+      "scope_id": "L2-object_state_change-3",
+      "event_refs": [
+       4,
+       5,
+       6
+      ],
+      "target": "vegetables",
+      "relation": "in pan",
+      "ask": "Where are the vegetables after step 4?",
+      "avoid": "Avoid mentioning green beans or other ingredients."
+     }
+    ],
+    "sound_movement_binding": [
+     {
+      "scope_id": "L2-sound_movement_binding-1",
+      "event_refs": [
+       1,
+       2
+      ],
+      "target": "chopping",
+      "relation": "coincides with",
+      "ask": "Which movement coincides with the chopping sound?",
+      "avoid": "Avoid mentioning stirring or turning off the stove."
+     },
+     {
+      "scope_id": "L2-sound_movement_binding-2",
+      "event_refs": [
+       4,
+       5,
+       6
+      ],
+      "target": "stirring",
+      "relation": "coincides with",
+      "ask": "Which movement coincides with the stirring sound?",
+      "avoid": "Avoid mentioning chopping or turning off the stove."
+     }
+    ]
+   },
+   "L3": {
+    "inter_event_temporal_reasoning": [
+     {
+      "scope_id": "L3-inter_event_temporal_reasoning-1",
+      "event_refs": [
+       1,
+       3
+      ],
+      "target": "chop broccoli",
+      "relation": "before",
+      "ask": "Which step must be completed before transferring vegetables to the pan?",
+      "avoid": "Avoid mentioning steps outside the goal."
+     },
+     {
+      "scope_id": "L3-inter_event_temporal_reasoning-2",
+      "event_refs": [
+       3,
+       4
+      ],
+      "target": "transfer to pan",
+      "relation": "before",
+      "ask": "Which step must be completed before stirring?",
+      "avoid": "Avoid mentioning steps outside the goal."
+     }
+    ],
+    "cross_event_integration": [
+     {
+      "scope_id": "L3-cross_event_integration-1",
+      "event_refs": [
+       2,
+       3
+      ],
+      "target": "chopped broccoli",
+      "relation": "carried over",
+      "ask": "What ingredient is carried over from step 2 to step 3?",
+      "avoid": "Avoid mentioning green beans or other ingredients."
+     },
+     {
+      "scope_id": "L3-cross_event_integration-2",
+      "event_refs": [
+       3,
+       4
+      ],
+      "target": "vegetables",
+      "relation": "carried over",
+      "ask": "What is being stirred in step 4?",
+      "avoid": "Avoid mentioning green beans or other ingredients."
+     }
+    ],
+    "hidden_state_inference": [
+     {
+      "scope_id": "L3-hidden_state_inference-1",
+      "event_refs": [
+       4,
+       5,
+       6,
+       7
+      ],
+      "target": "hob",
+      "relation": "on",
+      "ask": "Is the hob on at the end of step 6?",
+      "avoid": "Avoid mentioning the tap or light."
+     }
+    ],
+    "spatial_state_integration": [
+     {
+      "scope_id": "L3-spatial_state_integration-1",
+      "event_refs": [
+       3,
+       4,
+       5,
+       6,
+       7
+      ],
+      "target": "pan",
+      "relation": "nearest",
+      "ask": "Which object is nearest to the pan during stirring?",
+      "avoid": "Avoid mentioning unrelated objects like the tap or towel."
+     }
+    ],
+    "causal_prerequisite_reasoning": [
+     {
+      "scope_id": "L3-causal_prerequisite_reasoning-1",
+      "event_refs": [
+       3,
+       4
+      ],
+      "target": "transfer to pan",
+      "relation": "prerequisite",
+      "ask": "Which step is a prerequisite for stirring?",
+      "avoid": "Avoid mentioning steps outside the goal."
+     }
+    ],
+    "inter_event_spatial_extreme": [
+     {
+      "scope_id": "L3-inter_event_spatial_extreme-1",
+      "event_refs": [
+       3,
+       4,
+       5,
+       6
+      ],
+      "target": "broccoli",
+      "relation": "farthest",
+      "ask": "Which ingredient is farthest from the pan after step 6?",
+      "avoid": "Avoid mentioning green beans or other ingredients."
+     }
+    ],
+    "inter_event_spatial_order": [
+     {
+      "scope_id": "L3-inter_event_spatial_order-1",
+      "event_refs": [
+       3,
+       4,
+       5,
+       6
+      ],
+      "target": "broccoli",
+      "relation": "first",
+      "ask": "Which ingredient was placed in the pan first?",
+      "avoid": "Avoid mentioning green beans or other ingredients."
+     }
+    ],
+    "egocentric_frame_transform": [
+     {
+      "scope_id": "L3-egocentric_frame_transform-1",
+      "event_refs": [
+       3,
+       4,
+       5,
+       6
+      ],
+      "target": "pan",
+      "relation": "front-left",
+      "ask": "Where is the pan relative to the wearer after step 6?",
+      "avoid": "Avoid mentioning unrelated objects like the tap or towel."
+     }
+    ],
+    "gaze_primed_next_pickup": [
+     {
+      "scope_id": "L3-gaze_primed_next_pickup-1",
+      "event_refs": [
+       2,
+       3,
+       4,
+       5,
+       6
+      ],
+      "target": "knife",
+      "relation": "next pickup",
+      "ask": "Which tool is the wearer about to pick up next?",
+      "avoid": "Avoid mentioning the pan or broccoli."
+     }
+    ]
+   },
+   "L4": {
+    "goal_conditioned_planning": [
+     {
+      "scope_id": "L4-goal_conditioned_planning-1",
+      "event_refs": [
+       "segment"
+      ],
+      "target": "next action",
+      "relation": "finish",
+      "ask": "What is the next action after step 7?",
+      "avoid": "Avoid mentioning stirring or turning off the stove."
+     },
+     {
+      "scope_id": "L4-goal_conditioned_planning-2",
+      "event_refs": [
+       "next"
+      ],
+      "target": "next action",
+      "relation": "complete",
+      "ask": "What is the next action after the task is complete?",
+      "avoid": "Avoid mentioning stirring or turning off the stove."
+     }
+    ],
+    "plan_gap_filling": [
+     {
+      "scope_id": "L4-plan_gap_filling-1",
+      "event_refs": [
+       2,
+       4
+      ],
+      "target": "transfer to pan",
+      "relation": "hidden",
+      "ask": "What sub-goal was carried out between step 2 and step 4?",
+      "avoid": "Avoid mentioning steps outside the goal."
+     },
+     {
+      "scope_id": "L4-plan_gap_filling-2",
+      "event_refs": [
+       3,
+       5
+      ],
+      "target": "stir vegetables",
+      "relation": "hidden",
+      "ask": "What sub-goal was carried out between step 3 and step 5?",
+      "avoid": "Avoid mentioning steps outside the goal."
+     }
+    ]
+   }
+  },
+  "skipped": {}
+ },
+ "warnings": [],
+ "usage": {
+  "tok_in": 4449,
+  "tok_out": null,
+  "tok_think": null,
+  "model_version": "Qwen3-Omni-30B-A3B-Instruct",
+  "latency_model_sec": 163.24
+ },
+ "status": "ok",
+ "raw_len": 13427
+}

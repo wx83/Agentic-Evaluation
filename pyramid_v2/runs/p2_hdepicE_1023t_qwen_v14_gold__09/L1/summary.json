@@ -1,0 +1,76 @@
+{
+ "layer": "L1",
+ "stop_reason": "REPLAY_OF:p2_hdepicE_1023t_qwen_v14_self__09",
+ "phase": "DONE",
+ "turns": 20,
+ "scored": 8,
+ "correct": 6,
+ "raw_acc": 0.75,
+ "cluster_dedup_acc": 0.75,
+ "followup_items": 0,
+ "by_verdict": {
+  "wrong": 2,
+  "correct": 6
+ },
+ "by_format": {
+  "single_choice": 8
+ },
+ "by_skill": {
+  "spatial_near": {
+   "verdict": "inconclusive",
+   "reason": "no scored items"
+  },
+  "spatial_side": {
+   "verdict": "mixed",
+   "scored": 2,
+   "correct": 0,
+   "clusters": 2,
+   "cluster_first_correct": 0,
+   "wrong_explained_as_chance": 0,
+   "supported_hypotheses": [],
+   "pass_verified_on_fresh_event": false,
+   "turns": [
+    5,
+    6
+   ]
+  },
+  "object_recognition": {
+   "verdict": "stable_pass",
+   "scored": 4,
+   "correct": 4,
+   "clusters": 4,
+   "cluster_first_correct": 4,
+   "wrong_explained_as_chance": 0,
+   "supported_hypotheses": [],
+   "pass_verified_on_fresh_event": false,
+   "turns": [
+    10,
+    11,
+    12,
+    13
+   ]
+  },
+  "object_location_at_time": {
+   "verdict": "stable_pass",
+   "scored": 2,
+   "correct": 2,
+   "clusters": 2,
+   "cluster_first_correct": 2,
+   "wrong_explained_as_chance": 0,
+   "supported_hypotheses": [],
+   "pass_verified_on_fresh_event": false,
+   "turns": [
+    19,
+    20
+   ]
+  },
+  "object_grounding": {
+   "verdict": "inconclusive",
+   "reason": "no scored items"
+  }
+ },
+ "stair": null,
+ "hypotheses": [],
+ "confirmation": null,
+ "not_evaluated": {}
+}

@@ -1,0 +1,594 @@
+{
+ "task_id": "P04-20240413-142619__P04_R01_S04",
+ "prompt_hash": "e3726503cb",
+ "model": "gcp/google/gemini-3.1-pro-preview",
+ "created": "2026-10-29T13:16:15",
+ "input": {
+  "task_id": "P04-20240413-142619__P04_R01_S04",
+  "goal": "Build the wraps: On a tortilla wrap, add shredded lettuce, chopped tomatoes, chopped onion, spicy chicken and creamy hot sauce, then wrap into a burrito shaped roll or whatever shape desired.",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "text": "Retrieve and organize the ingredients"
+   },
+   {
+    "idx": 2,
+    "text": "Open the lettuce bag and take out lettuce"
+   },
+   {
+    "idx": 3,
+    "text": "Peel and halve the onion"
+   },
+   {
+    "idx": 4,
+    "text": "Finely chop the onion"
+   },
+   {
+    "idx": 5,
+    "text": "Transfer the chopped onion into a bowl"
+   },
+   {
+    "idx": 6,
+    "text": "Prepare the chopping board and weigh a tomato"
+   },
+   {
+    "idx": 7,
+    "text": "Remove seeds from the first tomato"
+   },
+   {
+    "idx": 8,
+    "text": "Finely chop the first tomato"
+   },
+   {
+    "idx": 9,
+    "text": "Remove seeds from the second tomato"
+   },
+   {
+    "idx": 10,
+    "text": "Finely chop the second tomato"
+   }
+  ],
+  "skills": {
+   "object_recognition": "L1: which object is in hand / being handled at the moment of the event",
+   "spatial_near": "L1: at the moment of the event, which of the listed objects is nearest to a reference object (3D positions from the dataset)",
+   "spatial_side": "L1: at the moment of the event, which listed object is leftmost / rightmost from the wearer's viewpoint",
+   "object_location_at_time": "L1: on which surface / fixture / container an object is put down at the event",
+   "object_grounding": "L1: localise the object of the event in a frame (bounding box)",
+   "action_recognition": "L2: what action (verb + object) the event is",
+   "event_object_role": "L2: which object is acted on, with which tool, to which destination in the event",
+   "action_temporal_order": "L2: the order of two actions shown close together inside one sub-goal",
+   "sound_action_binding": "L2: which action / object produced the sound heard",
+   "object_state_change": "L2: where an object was taken from and where it went in one movement",
+   "sound_movement_binding": "L2: which object movement coincides with the sound",
+   "sound_anchored_spatial_near": "L2: at the moment of a sound, which listed object is nearest to a reference object",
+   "sound_anchored_spatial_side": "L2: at the moment of a sound, which listed object is leftmost / rightmost for the wearer"
+  },
+  "l3_relation_types": {
+   "object_continuity": "the same object / ingredient appears in an event of sub-goal k and an event of the ADJACENT sub-goal k+1; what happened to it between them (chopped broccoli -> in the pan)",
+   "state_change": "how the state of an object differs between the two events (whole -> chopped, empty -> full, raw -> browned)",
+   "causal_prerequisite": "the earlier event is a physical prerequisite of the later one (could not be done without it)",
+   "hidden_state": "an appliance / container state was set in the earlier event and is not visible in the later segment; what is its state at the end of the later segment",
+   "spatial_end_state": "after placements in the two events, which listed object ends nearest / farthest to a reference object (needs 3D records)"
+  },
+  "n_sub_goals": 10
+ },
+ "plan": {
+  "task_id": "P04-20240413-142619__P04_R01_S04",
+  "goal": "Build the wraps: On a tortilla wrap, add shredded lettuce, chopped tomatoes, chopped onion, spicy chicken and creamy hot sauce, then wrap into a burrito shaped roll or whatever shape desired.",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "events": [
+     {
+      "event_id": "s1e1",
+      "sub_goal": 1,
+      "type": "placement",
+      "description": "Various ingredients are placed onto the kitchen counter.",
+      "objects": [
+       "ingredients",
+       "counter"
+      ],
+      "verbs": [
+       "place",
+       "organize"
+      ],
+      "skills": [
+       "object_recognition",
+       "object_location_at_time",
+       "spatial_near"
+      ],
+      "relevance": "brings the necessary components into the workspace"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 2,
+    "events": [
+     {
+      "event_id": "s2e1",
+      "sub_goal": 2,
+      "type": "action",
+      "description": "The plastic bag containing lettuce is torn open.",
+      "objects": [
+       "bag",
+       "lettuce"
+      ],
+      "verbs": [
+       "open",
+       "tear"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role",
+       "object_state_change"
+      ],
+      "relevance": "provides access to the lettuce"
+     },
+     {
+      "event_id": "s2e2",
+      "sub_goal": 2,
+      "type": "sound",
+      "description": "A crinkling sound is made by the plastic bag being manipulated.",
+      "objects": [
+       "bag"
+      ],
+      "verbs": [
+       "crinkle"
+      ],
+      "skills": [
+       "sound_action_binding",
+       "sound_movement_binding"
+      ],
+      "relevance": "indicates the bag is being opened"
+     },
+     {
+      "event_id": "s2e3",
+      "sub_goal": 2,
+      "type": "action",
+      "description": "A handful of lettuce is pulled out of the bag.",
+      "objects": [
+       "lettuce",
+       "bag"
+      ],
+      "verbs": [
+       "pull",
+       "take"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role",
+       "object_state_change"
+      ],
+      "relevance": "extracts the ingredient needed for the wrap"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 3,
+    "events": [
+     {
+      "event_id": "s3e1",
+      "sub_goal": 3,
+      "type": "action",
+      "description": "The outer skin is peeled off the onion.",
+      "objects": [
+       "skin",
+       "onion"
+      ],
+      "verbs": [
+       "peel"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role",
+       "object_state_change"
+      ],
+      "relevance": "removes the inedible part of the onion"
+     },
+     {
+      "event_id": "s3e2",
+      "sub_goal": 3,
+      "type": "action",
+      "description": "The knife slices the peeled onion into two halves.",
+      "objects": [
+       "knife",
+       "onion"
+      ],
+      "verbs": [
+       "slice",
+       "halve"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role",
+       "object_state_change"
+      ],
+      "relevance": "prepares the onion for fine chopping"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 4,
+    "events": [
+     {
+      "event_id": "s4e1",
+      "sub_goal": 4,
+      "type": "action",
+      "description": "The knife rapidly cuts the onion halves into fine pieces.",
+      "objects": [
+       "knife",
+       "onion"
+      ],
+      "verbs": [
+       "chop",
+       "cut"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role",
+       "object_state_change"
+      ],
+      "relevance": "processes the onion to the required size for the wrap"
+     },
+     {
+      "event_id": "s4e2",
+      "sub_goal": 4,
+      "type": "sound",
+      "description": "A rapid tapping sound is heard as the knife hits the board.",
+      "objects": [
+       "knife",
+       "board"
+      ],
+      "verbs": [
+       "tap",
+       "hit"
+      ],
+      "skills": [
+       "sound_action_binding",
+       "sound_movement_binding"
+      ],
+      "relevance": "indicates the chopping action is occurring"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 5,
+    "events": [
+     {
+      "event_id": "s5e1",
+      "sub_goal": 5,
+      "type": "action",
+      "description": "The chopped onion pieces are scooped up and dropped into a bowl.",
+      "objects": [
+       "onion",
+       "bowl"
+      ],
+      "verbs": [
+       "scoop",
+       "transfer"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role",
+       "object_state_change"
+      ],
+      "relevance": "stores the prepared ingredient for later assembly"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 6,
+    "events": [
+     {
+      "event_id": "s6e1",
+      "sub_goal": 6,
+      "type": "placement",
+      "description": "A chopping board is set down on the workspace.",
+      "objects": [
+       "board",
+       "workspace"
+      ],
+      "verbs": [
+       "set",
+       "prepare"
+      ],
+      "skills": [
+       "object_recognition",
+       "object_location_at_time"
+      ],
+      "relevance": "provides a surface for cutting the tomato"
+     },
+     {
+      "event_id": "s6e2",
+      "sub_goal": 6,
+      "type": "placement",
+      "description": "A whole tomato is placed onto a digital scale.",
+      "objects": [
+       "tomato",
+       "scale"
+      ],
+      "verbs": [
+       "place",
+       "weigh"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role",
+       "object_location_at_time"
+      ],
+      "relevance": "measures the ingredient amount"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 7,
+    "events": [
+     {
+      "event_id": "s7e1",
+      "sub_goal": 7,
+      "type": "action",
+      "description": "The knife slices into the first tomato.",
+      "objects": [
+       "knife",
+       "tomato"
+      ],
+      "verbs": [
+       "slice",
+       "cut"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role",
+       "object_state_change"
+      ],
+      "relevance": "opens the tomato to access the seeds"
+     },
+     {
+      "event_id": "s7e2",
+      "sub_goal": 7,
+      "type": "action",
+      "description": "The inner seeds are scraped out of the tomato halves.",
+      "objects": [
+       "seeds",
+       "tomato"
+      ],
+      "verbs": [
+       "scrape",
+       "remove"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role",
+       "object_state_change"
+      ],
+      "relevance": "removes excess moisture before chopping"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 8,
+    "events": [
+     {
+      "event_id": "s8e1",
+      "sub_goal": 8,
+      "type": "action",
+      "description": "The deseeded tomato is cut into small diced pieces.",
+      "objects": [
+       "tomato",
+       "knife"
+      ],
+      "verbs": [
+       "chop",
+       "dice"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role",
+       "object_state_change"
+      ],
+      "relevance": "processes the tomato to the required size for the wrap"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 9,
+    "events": [
+     {
+      "event_id": "s9e1",
+      "sub_goal": 9,
+      "type": "action",
+      "description": "The knife slices into the second tomato.",
+      "objects": [
+       "knife",
+       "tomato"
+      ],
+      "verbs": [
+       "slice",
+       "cut"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role",
+       "object_state_change"
+      ],
+      "relevance": "opens the second tomato to access the seeds"
+     },
+     {
+      "event_id": "s9e2",
+      "sub_goal": 9,
+      "type": "action",
+      "description": "The seeds are removed from the second tomato.",
+      "objects": [
+       "seeds",
+       "tomato"
+      ],
+      "verbs": [
+       "remove",
+       "scrape"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role",
+       "object_state_change"
+      ],
+      "relevance": "removes excess moisture before chopping"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 10,
+    "events": [
+     {
+      "event_id": "s10e1",
+      "sub_goal": 10,
+      "type": "action",
+      "description": "The second deseeded tomato is cut into small diced pieces.",
+      "objects": [
+       "tomato",
+       "knife"
+      ],
+      "verbs": [
+       "chop",
+       "dice"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role",
+       "object_state_change"
+      ],
+      "relevance": "processes the second tomato to the required size for the wrap"
+     }
+    ],
+    "irrelevant": ""
+   }
+  ],
+  "relations": [
+   {
+    "rel_id": "r1",
+    "type": "state_change",
+    "skill": "cross_event_integration",
+    "events": [
+     "s3e2",
+     "s4e1"
+    ],
+    "ask": "What state was the onion in immediately before it was finely chopped?",
+    "answer_hint": "The earlier event cut the peeled onion into two halves."
+   },
+   {
+    "rel_id": "r2",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s4e1",
+     "s5e1"
+    ],
+    "ask": "What is the state of the ingredient being transferred into the bowl?",
+    "answer_hint": "The onion was just finely chopped in the previous step."
+   },
+   {
+    "rel_id": "r3",
+    "type": "causal_prerequisite",
+    "skill": "causal_prerequisite_reasoning",
+    "events": [
+     "s6e2",
+     "s7e1"
+    ],
+    "ask": "Which tomato is being cut into?",
+    "answer_hint": "The tomato that was just weighed on the scale."
+   },
+   {
+    "rel_id": "r4",
+    "type": "state_change",
+    "skill": "cross_event_integration",
+    "events": [
+     "s7e2",
+     "s8e1"
+    ],
+    "ask": "What part of the tomato is missing when it is being chopped?",
+    "answer_hint": "The seeds were scraped out in the previous step."
+   },
+   {
+    "rel_id": "r5",
+    "type": "state_change",
+    "skill": "cross_event_integration",
+    "events": [
+     "s9e2",
+     "s10e1"
+    ],
+    "ask": "What part of the second tomato is missing when it is being chopped?",
+    "answer_hint": "The seeds were removed in the previous step."
+   }
+  ],
+  "decision_points": [
+   {
+    "idx": 2,
+    "real": true,
+    "why": "Moving from general organization to preparing the first specific ingredient (lettuce)."
+   },
+   {
+    "idx": 3,
+    "real": true,
+    "why": "Switching focus from the lettuce to a new ingredient, the onion."
+   },
+   {
+    "idx": 4,
+    "real": false,
+    "why": "Chopping is the immediate logical next step after peeling and halving the onion."
+   },
+   {
+    "idx": 5,
+    "real": false,
+    "why": "Transferring the chopped ingredient to a bowl is a standard cleanup and prep completion step."
+   },
+   {
+    "idx": 6,
+    "real": true,
+    "why": "Switching focus from the onion to preparing the workspace for a new ingredient, the tomato."
+   },
+   {
+    "idx": 7,
+    "real": false,
+    "why": "Removing seeds is a natural preparation step after weighing the tomato."
+   },
+   {
+    "idx": 8,
+    "real": false,
+    "why": "Chopping immediately follows the deseeding process for the tomato."
+   },
+   {
+    "idx": 9,
+    "real": true,
+    "why": "Deciding to prepare a second tomato rather than moving on to the next ingredient."
+   },
+   {
+    "idx": 10,
+    "real": false,
+    "why": "Chopping immediately follows the deseeding process for the second tomato."
+   },
+   {
+    "idx": 11,
+    "real": true,
+    "why": "All ingredient preparation is complete, and the decision is made to transition to the actual assembly of the wraps."
+   }
+  ]
+ },
+ "warnings": [],
+ "usage": {
+  "tok_in": 1709,
+  "tok_out": 3424,
+  "tok_think": 2911,
+  "model_version": "gemini-3.1-pro-preview",
+  "finish_reason": "FinishReason.STOP"
+ },
+ "status": "ok",
+ "raw_len": 12340
+}

@@ -1,0 +1,196 @@
+{
+ "run": "p2_hdepicE_1023t_qwen_v14_self__09",
+ "layers": {
+  "L1": {
+   "score": 1.333,
+   "mastery": 0.333,
+   "n_skills": 3,
+   "n_converged": 0
+  },
+  "L2": {
+   "score": 2.4,
+   "mastery": 0.4,
+   "n_skills": 5,
+   "n_converged": 2
+  },
+  "L3": {
+   "score": 3.25,
+   "mastery": 0.25,
+   "n_skills": 3,
+   "n_converged": 1
+  },
+  "L4": null
+ },
+ "skills": {
+  "spatial_near": {
+   "layer": "L1",
+   "boundary": null,
+   "score": null,
+   "stop": "examiner_failed",
+   "converged": false
+  },
+  "spatial_side": {
+   "layer": "L1",
+   "boundary": 1.5,
+   "score": 1.25,
+   "stop": "examiner_failed",
+   "converged": false
+  },
+  "object_recognition": {
+   "layer": "L1",
+   "boundary": 2,
+   "score": 1.375,
+   "stop": "examiner_failed",
+   "converged": false
+  },
+  "object_location_at_time": {
+   "layer": "L1",
+   "boundary": 2,
+   "score": 1.375,
+   "stop": "examiner_failed",
+   "converged": false
+  },
+  "object_grounding": {
+   "layer": "L1",
+   "boundary": null,
+   "score": null,
+   "stop": "examiner_failed",
+   "converged": false
+  },
+  "sound_action_binding": {
+   "layer": "L2",
+   "boundary": 3,
+   "score": 2.625,
+   "stop": "examiner_failed",
+   "converged": false
+  },
+  "object_state_change": {
+   "layer": "L2",
+   "boundary": 0.5,
+   "score": 2.0,
+   "stop": "floor",
+   "converged": true
+  },
+  "action_temporal_order": {
+   "layer": "L2",
+   "boundary": 4,
+   "score": 2.875,
+   "stop": "examiner_failed",
+   "converged": false
+  },
+  "action_recognition": {
+   "layer": "L2",
+   "boundary": 0.5,
+   "score": 2.0,
+   "stop": "floor",
+   "converged": true
+  },
+  "event_object_role": {
+   "layer": "L2",
+   "boundary": 2.5,
+   "score": 2.5,
+   "stop": "exhausted_at_level",
+   "converged": false
+  },
+  "sound_anchored_spatial_near": {
+   "layer": "L2",
+   "boundary": null,
+   "score": null,
+   "stop": "examiner_failed",
+   "converged": false
+  },
+  "sound_anchored_spatial_side": {
+   "layer": "L2",
+   "boundary": null,
+   "score": null,
+   "stop": "examiner_failed",
+   "converged": false
+  },
+  "sound_movement_binding": {
+   "layer": "L2",
+   "boundary": null,
+   "score": null,
+   "stop": "examiner_failed",
+   "converged": false
+  },
+  "inter_event_temporal_reasoning": {
+   "layer": "L3",
+   "boundary": null,
+   "score": null,
+   "stop": "examiner_failed",
+   "converged": false
+  },
+  "inter_event_spatial_extreme": {
+   "layer": "L3",
+   "boundary": 2,
+   "score": 3.375,
+   "stop": "examiner_failed",
+   "converged": false
+  },
+  "inter_event_spatial_order": {
+   "layer": "L3",
+   "boundary": null,
+   "score": null,
+   "stop": "examiner_failed",
+   "converged": false
+  },
+  "cross_event_integration": {
+   "layer": "L3",
+   "boundary": null,
+   "score": null,
+   "stop": "examiner_failed",
+   "converged": false
+  },
+  "hidden_state_inference": {
+   "layer": "L3",
+   "boundary": 0.5,
+   "score": 3.0,
+   "stop": "floor",
+   "converged": true
+  },
+  "spatial_state_integration": {
+   "layer": "L3",
+   "boundary": null,
+   "score": null,
+   "stop": "examiner_failed",
+   "converged": false
+  },
+  "causal_prerequisite_reasoning": {
+   "layer": "L3",
+   "boundary": 2.0,
+   "score": 3.375,
+   "stop": "exhausted_at_level",
+   "converged": false
+  },
+  "egocentric_frame_transform": {
+   "layer": "L3",
+   "boundary": null,
+   "score": null,
+   "stop": "examiner_failed",
+   "converged": false
+  },
+  "gaze_primed_next_pickup": {
+   "layer": "L3",
+   "boundary": null,
+   "score": null,
+   "stop": "examiner_failed",
+   "converged": false
+  },
+  "goal_conditioned_planning": {
+   "layer": "L4",
+   "boundary": null,
+   "score": null,
+   "stop": "examiner_failed",
+   "converged": false
+  },
+  "plan_gap_filling": {
+   "layer": "L4",
+   "boundary": null,
+   "score": null,
+   "stop": "exhausted_at_level",
+   "converged": false
+  }
+ },
+ "pyramid": 0.983,
+ "height": 0
+}

@@ -1,0 +1,969 @@
+{
+ "layer": "L2",
+ "stop_reason": "STAIRCASE_COMPLETE",
+ "phase": "DONE",
+ "turns": 43,
+ "scored": 26,
+ "correct": 24,
+ "raw_acc": 0.923,
+ "cluster_dedup_acc": 0.917,
+ "followup_items": 0,
+ "by_verdict": {
+  "wrong": 2,
+  "correct": 24,
+  "evidence_unresolved": 17
+ },
+ "by_format": {
+  "single_choice": 22,
+  "short_answer": 4
+ },
+ "by_skill": {
+  "sound_action_binding": {
+   "verdict": "boundary 2",
+   "scored": 5,
+   "correct": 4,
+   "clusters": 5,
+   "staircase": {
+    "boundary": 2,
+    "stop": "examiner_failed",
+    "unconverged": true,
+    "phase": "done",
+    "levels_tested": [
+     1,
+     2
+    ],
+    "per_level": {
+     "1": "2/2",
+     "2": "2/3"
+    },
+    "n_search": 5,
+    "n_reused_events": 0,
+    "trace": [
+     {
+      "turn": 1,
+      "level": 2,
+      "verdict": "wrong",
+      "reused": false
+     },
+     {
+      "turn": 2,
+      "level": 1,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 3,
+      "level": 1,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 4,
+      "level": 2,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 5,
+      "level": 2,
+      "verdict": "correct",
+      "reused": false
+     }
+    ],
+    "reversal_levels": [
+     1
+    ],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  "object_state_change": {
+   "verdict": "boundary 3",
+   "scored": 4,
+   "correct": 4,
+   "clusters": 4,
+   "staircase": {
+    "boundary": 3,
+    "stop": "examiner_failed",
+    "unconverged": true,
+    "phase": "done",
+    "levels_tested": [
+     2,
+     3
+    ],
+    "per_level": {
+     "2": "2/2",
+     "3": "2/2"
+    },
+    "n_search": 4,
+    "n_reused_events": 0,
+    "trace": [
+     {
+      "turn": 9,
+      "level": 2,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 11,
+      "level": 2,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 12,
+      "level": 3,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 15,
+      "level": 3,
+      "verdict": "correct",
+      "reused": false
+     }
+    ],
+    "reversal_levels": [],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": [
+    9,
+    11,
+    12,
+    15
+   ]
+  },
+  "action_temporal_order": {
+   "verdict": "not_started",
+   "scored": 0,
+   "correct": 0,
+   "clusters": 0,
+   "staircase": {
+    "boundary": null,
+    "stop": "examiner_failed",
+    "unconverged": false,
+    "phase": "done",
+    "levels_tested": [],
+    "per_level": {},
+    "n_search": 0,
+    "n_reused_events": 0,
+    "trace": [],
+    "reversal_levels": [],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": []
+  },
+  "action_recognition": {
+   "verdict": "boundary>=4",
+   "scored": 6,
+   "correct": 6,
+   "clusters": 6,
+   "staircase": {
+    "boundary": 4.5,
+    "stop": "ceiling",
+    "unconverged": false,
+    "phase": "done",
+    "levels_tested": [
+     2,
+     3,
+     4
+    ],
+    "per_level": {
+     "2": "2/2",
+     "3": "2/2",
+     "4": "2/2"
+    },
+    "n_search": 6,
+    "n_reused_events": 0,
+    "trace": [
+     {
+      "turn": 22,
+      "level": 2,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 23,
+      "level": 2,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 24,
+      "level": 3,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 25,
+      "level": 3,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 26,
+      "level": 4,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 27,
+      "level": 4,
+      "verdict": "correct",
+      "reused": false
+     }
+    ],
+    "reversal_levels": [],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": [
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+   ]
+  },
+  "event_object_role": {
+   "verdict": "boundary>=4",
+   "scored": 6,
+   "correct": 6,
+   "clusters": 6,
+   "staircase": {
+    "boundary": 4.5,
+    "stop": "ceiling",
+    "unconverged": false,
+    "phase": "done",
+    "levels_tested": [
+     2,
+     3,
+     4
+    ],
+    "per_level": {
+     "2": "2/2",
+     "3": "2/2",
+     "4": "2/2"
+    },
+    "n_search": 6,
+    "n_reused_events": 0,
+    "trace": [
+     {
+      "turn": 28,
+      "level": 2,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 29,
+      "level": 2,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 30,
+      "level": 3,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 31,
+      "level": 3,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 32,
+      "level": 4,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 33,
+      "level": 4,
+      "verdict": "correct",
+      "reused": false
+     }
+    ],
+    "reversal_levels": [],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": [
+    28,
+    29,
+    30,
+    31,
+    32,
+    33
+   ]
+  },
+  "sound_anchored_spatial_near": {
+   "verdict": "boundary 1.75",
+   "scored": 4,
+   "correct": 3,
+   "clusters": 2,
+   "staircase": {
+    "boundary": 1.75,
+    "stop": "exhausted_at_level",
+    "unconverged": true,
+    "phase": "done",
+    "levels_tested": [
+     1,
+     2
+    ],
+    "per_level": {
+     "1": "2/2",
+     "2": "1/2"
+    },
+    "n_search": 4,
+    "n_reused_events": 2,
+    "trace": [
+     {
+      "turn": 34,
+      "level": 2,
+      "verdict": "wrong",
+      "reused": false
+     },
+     {
+      "turn": 35,
+      "level": 1,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 36,
+      "level": 1,
+      "verdict": "correct",
+      "reused": true
+     },
+     {
+      "turn": 37,
+      "level": 2,
+      "verdict": "correct",
+      "reused": true
+     }
+    ],
+    "reversal_levels": [
+     1
+    ],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": [
+    34,
+    35,
+    36,
+    37
+   ]
+  },
+  "sound_anchored_spatial_side": {
+   "verdict": "not_started",
+   "scored": 0,
+   "correct": 0,
+   "clusters": 0,
+   "staircase": {
+    "boundary": null,
+    "stop": "exhausted_at_level",
+    "unconverged": true,
+    "phase": "done",
+    "levels_tested": [],
+    "per_level": {},
+    "n_search": 0,
+    "n_reused_events": 0,
+    "trace": [],
+    "reversal_levels": [],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": []
+  },
+  "sound_movement_binding": {
+   "verdict": "boundary 2",
+   "scored": 1,
+   "correct": 1,
+   "clusters": 1,
+   "staircase": {
+    "boundary": 2,
+    "stop": "examiner_failed",
+    "unconverged": true,
+    "phase": "done",
+    "levels_tested": [
+     2
+    ],
+    "per_level": {
+     "2": "1/1"
+    },
+    "n_search": 1,
+    "n_reused_events": 0,
+    "trace": [
+     {
+      "turn": 40,
+      "level": 2,
+      "verdict": "correct",
+      "reused": false
+     }
+    ],
+    "reversal_levels": [],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": [
+    40
+   ]
+  }
+ },
+ "stair": {
+  "sound_action_binding": {
+   "boundary": 2,
+   "stop": "examiner_failed",
+   "unconverged": true,
+   "phase": "done",
+   "levels_tested": [
+    1,
+    2
+   ],
+   "per_level": {
+    "1": "2/2",
+    "2": "2/3"
+   },
+   "n_search": 5,
+   "n_reused_events": 0,
+   "trace": [
+    {
+     "turn": 1,
+     "level": 2,
+     "verdict": "wrong",
+     "reused": false
+    },
+    {
+     "turn": 2,
+     "level": 1,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 3,
+     "level": 1,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 4,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 5,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [
+    1
+   ],
+   "verify": [],
+   "boundary_confirmed": null
+  },
+  "object_state_change": {
+   "boundary": 3,
+   "stop": "examiner_failed",
+   "unconverged": true,
+   "phase": "done",
+   "levels_tested": [
+    2,
+    3
+   ],
+   "per_level": {
+    "2": "2/2",
+    "3": "2/2"
+   },
+   "n_search": 4,
+   "n_reused_events": 0,
+   "trace": [
+    {
+     "turn": 9,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 11,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 12,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 15,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "verify": [],
+   "boundary_confirmed": null
+  },
+  "action_temporal_order": {
+   "boundary": null,
+   "stop": "examiner_failed",
+   "unconverged": false,
+   "phase": "done",
+   "levels_tested": [],
+   "per_level": {},
+   "n_search": 0,
+   "n_reused_events": 0,
+   "trace": [],
+   "reversal_levels": [],
+   "verify": [],
+   "boundary_confirmed": null
+  },
+  "action_recognition": {
+   "boundary": 4.5,
+   "stop": "ceiling",
+   "unconverged": false,
+   "phase": "done",
+   "levels_tested": [
+    2,
+    3,
+    4
+   ],
+   "per_level": {
+    "2": "2/2",
+    "3": "2/2",
+    "4": "2/2"
+   },
+   "n_search": 6,
+   "n_reused_events": 0,
+   "trace": [
+    {
+     "turn": 22,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 23,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 24,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 25,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 26,
+     "level": 4,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 27,
+     "level": 4,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "verify": [],
+   "boundary_confirmed": null
+  },
+  "event_object_role": {
+   "boundary": 4.5,
+   "stop": "ceiling",
+   "unconverged": false,
+   "phase": "done",
+   "levels_tested": [
+    2,
+    3,
+    4
+   ],
+   "per_level": {
+    "2": "2/2",
+    "3": "2/2",
+    "4": "2/2"
+   },
+   "n_search": 6,
+   "n_reused_events": 0,
+   "trace": [
+    {
+     "turn": 28,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 29,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 30,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 31,
+     "level": 3,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 32,
+     "level": 4,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 33,
+     "level": 4,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "verify": [],
+   "boundary_confirmed": null
+  },
+  "sound_anchored_spatial_near": {
+   "boundary": 1.75,
+   "stop": "exhausted_at_level",
+   "unconverged": true,
+   "phase": "done",
+   "levels_tested": [
+    1,
+    2
+   ],
+   "per_level": {
+    "1": "2/2",
+    "2": "1/2"
+   },
+   "n_search": 4,
+   "n_reused_events": 2,
+   "trace": [
+    {
+     "turn": 34,
+     "level": 2,
+     "verdict": "wrong",
+     "reused": false
+    },
+    {
+     "turn": 35,
+     "level": 1,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 36,
+     "level": 1,
+     "verdict": "correct",
+     "reused": true
+    },
+    {
+     "turn": 37,
+     "level": 2,
+     "verdict": "correct",
+     "reused": true
+    }
+   ],
+   "reversal_levels": [
+    1
+   ],
+   "verify": [],
+   "boundary_confirmed": null
+  },
+  "sound_anchored_spatial_side": {
+   "boundary": null,
+   "stop": "exhausted_at_level",
+   "unconverged": true,
+   "phase": "done",
+   "levels_tested": [],
+   "per_level": {},
+   "n_search": 0,
+   "n_reused_events": 0,
+   "trace": [],
+   "reversal_levels": [],
+   "verify": [],
+   "boundary_confirmed": null
+  },
+  "sound_movement_binding": {
+   "boundary": 2,
+   "stop": "examiner_failed",
+   "unconverged": true,
+   "phase": "done",
+   "levels_tested": [
+    2
+   ],
+   "per_level": {
+    "2": "1/1"
+   },
+   "n_search": 1,
+   "n_reused_events": 0,
+   "trace": [
+    {
+     "turn": 40,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [],
+   "verify": [],
+   "boundary_confirmed": null
+  }
+ },
+ "hypotheses": [
+  {
+   "hypothesis_id": "h:sound_action_binding:item_defect:6",
+   "skill": "sound_action_binding",
+   "type": "item_defect",
+   "evidence_cluster_id": "c87e56692f10e238",
+   "original_turn": 6,
+   "opened_turn": 6,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "The anchor_event mapping incorrectly maps the appliance sound (sound:2291) to event s6e1 (804.24-805.8). However, narration 337 confirms the appliance does not work at that time. The sound actually occurs at 810.0 when the dial is turned again (narration 341), but this action is not listed in sg.eve"
+  },
+  {
+   "hypothesis_id": "h:sound_action_binding:item_defect:7",
+   "skill": "sound_action_binding",
+   "type": "item_defect",
+   "evidence_cluster_id": "31e715486b44a1fa",
+   "original_turn": 7,
+   "opened_turn": 7,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "The anchor_event mapping incorrectly maps sound:2297 (843.9-844.2) and sound:2298 (844.8-847.9) to event s7e2 (Drop biscuits, 838.9-842.0). These sounds actually correspond to putting down the packaging (narration 358) and closing the food processor lid (narration 359). Additionally, sound:2295 (825"
+  },
+  {
+   "hypothesis_id": "h:sound_action_binding:item_defect:8",
+   "skill": "sound_action_binding",
+   "type": "item_defect",
+   "evidence_cluster_id": "9a7fc17ffa07c9f3",
+   "original_turn": 8,
+   "opened_turn": 8,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "{'missing_information': 'Correct sound-to-event mapping for sound:2299 and a clip window that fully covers sound:2298.', 'verification_condition': 'Map sound:2299 to s8e2 (pressing the button/dial to run the processor) since it starts at 848.406. Adjust the clip window if sound:2298 is to be tested,"
+  },
+  {
+   "hypothesis_id": "h:object_state_change:item_defect:10",
+   "skill": "object_state_change",
+   "type": "item_defect",
+   "evidence_cluster_id": "e55ea0d770aed7bd",
+   "original_turn": 10,
+   "opened_turn": 10,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "{'missing_information': 'A movement record that correctly captures the blade being placed into the food processor bowl during the 624.67 - 626.13 window.', 'verification_condition': \"Correct the anchor event mapping to a movement record that aligns with the time and semantics of event s2e1, or verif"
+  },
+  {
+   "hypothesis_id": "h:object_state_change:item_defect:13",
+   "skill": "object_state_change",
+   "type": "item_defect",
+   "evidence_cluster_id": "4e8fb072cb5d82d1",
+   "original_turn": 13,
+   "opened_turn": 13,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "{'missing_information': 'The anchor_event mapping incorrectly maps the movement of the food processor (812.26-813.6) to event s6e1 (pressing the button, 804.24-805.8). The movement actually corresponds to pushing the food processor away from the edge (narration 343). Cannot form a valid object_state"
+  },
+  {
+   "hypothesis_id": "h:object_state_change:item_defect:14",
+   "skill": "object_state_change",
+   "type": "item_defect",
+   "evidence_cluster_id": "e070683368497063",
+   "original_turn": 14,
+   "opened_turn": 14,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "{'missing_information': \"The anchor_event mapping incorrectly maps the movement of the 'cover of food processer bowl' (63fafae74916e4b2) to event s7e2 (Drop biscuits into the food processor bowl). The cover movement actually corresponds to picking up the lid and closing the food processor (narration"
+  },
+  {
+   "hypothesis_id": "h:object_state_change:item_defect:16",
+   "skill": "object_state_change",
+   "type": "item_defect",
+   "evidence_cluster_id": "5fce265b46413c3c",
+   "original_turn": 16,
+   "opened_turn": 16,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "{'missing_information': 'The anchor_event mapping incorrectly maps the movement of biscuits (c900ae96394784a9:4747422eeb00874d and d8bd5e6bb0674e8c:7a4507ce6844d734) to event s9e1 (Remove the lid from the food processor bowl). These movements actually correspond to taking and dropping biscuits (s9e2"
+  },
+  {
+   "hypothesis_id": "h:object_state_change:item_defect:17",
+   "skill": "object_state_change",
+   "type": "item_defect",
+   "evidence_cluster_id": "b1794a043066e66b",
+   "original_turn": 17,
+   "opened_turn": 17,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "{'missing_information': 'The anchor_event mapping incorrectly maps the movements of the blade (fbb2475c3352e24a), the biscuit tube (a7036423663732ea), and the food processor lid (63fafae74916e4b2) to event s11e1 (Pour the remaining biscuits into the bowl). The blade and lid movements are separate ac"
+  },
+  {
+   "hypothesis_id": "h:object_state_change:item_defect:18",
+   "skill": "object_state_change",
+   "type": "item_defect",
+   "evidence_cluster_id": "f09cc618e0f888b7",
+   "original_turn": 18,
+   "opened_turn": 18,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "{'missing_information': 'The anchor_event mapping incorrectly maps the movement of biscuits (c900ae96394784a9:b405c8a783392a87) and the cover of the food processor bowl (63fafae74916e4b2:1245e059577531af) to event s12e2 (Pour biscuits from the second packet into the bowl). These movements occur afte"
+  },
+  {
+   "hypothesis_id": "h:action_temporal_order:item_defect:19",
+   "skill": "action_temporal_order",
+   "type": "item_defect",
+   "evidence_cluster_id": "c662c80c495d3496",
+   "original_turn": 19,
+   "opened_turn": 19,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "{'missing_information': \"The anchor_event mapping and event descriptions are misaligned. Event s1e2 is described as 'Place the food processor bowl on the counter', but its time [615.63, 616.33] and mapped records (e.g., narration 268) correspond to removing the food processor cover. The actual place"
+  },
+  {
+   "hypothesis_id": "h:action_temporal_order:item_defect:20",
+   "skill": "action_temporal_order",
+   "type": "item_defect",
+   "evidence_cluster_id": "27de40b29b76f6f5",
+   "original_turn": 20,
+   "opened_turn": 20,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "{'missing_information': 'The skill action_temporal_order requires at least two events in sg.events to compare their temporal order. However, the current cluster only provides one event (s2e1: Insert the blade into the food processor bowl).', 'verification_condition': 'Add another expected event to s"
+  },
+  {
+   "hypothesis_id": "h:action_temporal_order:item_defect:21",
+   "skill": "action_temporal_order",
+   "type": "item_defect",
+   "evidence_cluster_id": "e38ed8ffa68ab78f",
+   "original_turn": 21,
+   "opened_turn": 21,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "{'missing_information': 'The skill action_temporal_order requires at least two events in sg.events to compare their temporal order. However, the current cluster only provides one event (s3e1: Pick up the center spindle piece).', 'verification_condition': 'Add another expected event to sg.events for "
+  },
+  {
+   "hypothesis_id": "h:sound_anchored_spatial_side:item_defect:38",
+   "skill": "sound_anchored_spatial_side",
+   "type": "item_defect",
+   "evidence_cluster_id": "9e20989f238186ec",
+   "original_turn": 38,
+   "opened_turn": 38,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "{'missing_information': 'The anchor_event mapping incorrectly maps the spatial relations anchored to the sound at 582.018 (metal / plastic collision) to event s1e1 (Place the biscuit packets on the counter, 575.51-578.55). The sound actually occurs after the event, during the picking up of the bowl "
+  },
+  {
+   "hypothesis_id": "h:sound_movement_binding:item_defect:39",
+   "skill": "sound_movement_binding",
+   "type": "item_defect",
+   "evidence_cluster_id": "ff7c91a48639c9ff",
+   "original_turn": 39,
+   "opened_turn": 39,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "{'missing_information': 'The anchor_event mapping incorrectly maps sounds 2215, 2216, and 2217 to event s1e1 (Place the biscuit packets on the counter, 575.51-578.55). These sounds actually occur later (580-584s) during the movement of the bowl. Similarly, sounds 2224-2230 are mapped to s1e2 (Place "
+  },
+  {
+   "hypothesis_id": "h:sound_movement_binding:item_defect:41",
+   "skill": "sound_movement_binding",
+   "type": "item_defect",
+   "evidence_cluster_id": "09055c148b12d9c1",
+   "original_turn": 41,
+   "opened_turn": 41,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "{'missing_information': 'The anchor_event mapping incorrectly maps sounds 2267 and 2269 to event s3e1 (Pick up the center spindle piece, 719.06-721.14). These sounds occur after the event time and correspond to different actions (closing the cupboard and sliding the piece into the processor). Additi"
+  },
+  {
+   "hypothesis_id": "h:sound_movement_binding:item_defect:42",
+   "skill": "sound_movement_binding",
+   "type": "item_defect",
+   "evidence_cluster_id": "2f13a4429757f619",
+   "original_turn": 42,
+   "opened_turn": 42,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "{'missing_information': \"The event s5e2 is described as 'Plug the power cord into the wall outlet', but its annotated time [794.94, 795.73] corresponds only to picking up the plug (narration 332). The actual plugging in occurs at 801.44-803.79 (narration 335). Sounds 2285, 2286, and 2287 are mapped "
+  },
+  {
+   "hypothesis_id": "h:sound_movement_binding:item_defect:43",
+   "skill": "sound_movement_binding",
+   "type": "item_defect",
+   "evidence_cluster_id": "2575c6b64801747c",
+   "original_turn": 43,
+   "opened_turn": 43,
+   "tests": [],
+   "status": "supported",
+   "strategy_required": "request_verification",
+   "forbidden_formats": [],
+   "note": "{'missing_information': 'The anchor_event mapping incorrectly maps sounds 2290, 2291, and 2292 to event s6e1 (Press the button on the food processor base, 804.24-805.8). These sounds actually occur later (807.4-815.6) and correspond to closing the lid, running the appliance, and opening the lid. Can"
+  }
+ ],
+ "confirmation": null,
+ "not_evaluated": {}
+}

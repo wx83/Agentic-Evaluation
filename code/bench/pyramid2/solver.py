@@ -1,4 +1,5 @@
 """Solver:只看 solver_payload + 实际媒体;每题新 session;模型钉死不回退。"""
+import os
 import json, re, time
 import p2config as P
 import media as M
@@ -106,7 +107,7 @@ def ask_qwen(media_path, text, max_tokens=96, run_dir=None, meta=None):
 def _backend(contract):
     global QWEN_URL, QWEN_SEND_MEDIA
     if contract.get("solver_backend") == "qwen_http":
-        QWEN_URL = contract.get("qwen_url", "http://127.0.0.1:8765"); QWEN_SEND_MEDIA = bool(contract.get("qwen_send_media")); return "qwen_http"
+        QWEN_URL = (os.environ.get("QWEN_URL") or contract.get("qwen_url", "http://127.0.0.1:8765")); QWEN_SEND_MEDIA = bool(contract.get("qwen_send_media")); return "qwen_http"
     return "gemini"
 
 

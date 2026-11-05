@@ -1,0 +1,1924 @@
+{
+ "task_id": "P01-20240203-132119__P01_R05_S02",
+ "prompt_hash": "b08ef14a0c",
+ "model": "gcp/google/gemini-3.1-pro-preview",
+ "created": "2026-10-28T18:14:28",
+ "input": {
+  "task_id": "P01-20240203-132119__P01_R05_S02",
+  "goal": "Crumble up the biscuit and combine with the mixture",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "text": "Gather ingredients and prepare food processor parts."
+   },
+   {
+    "idx": 2,
+    "text": "Attempt to assemble the food processor blade."
+   },
+   {
+    "idx": 3,
+    "text": "Find the correct piece and figure out the assembly."
+   },
+   {
+    "idx": 4,
+    "text": "Wash and dry the center piece of the food processor."
+   },
+   {
+    "idx": 5,
+    "text": "Assemble the food processor blade and plug in the appliance."
+   },
+   {
+    "idx": 6,
+    "text": "Test the food processor and prepare it for use."
+   },
+   {
+    "idx": 7,
+    "text": "Add the first batch of biscuits to the food processor."
+   },
+   {
+    "idx": 8,
+    "text": "Crush the first batch of biscuits."
+   },
+   {
+    "idx": 9,
+    "text": "Add more biscuits to the food processor."
+   },
+   {
+    "idx": 10,
+    "text": "Crush the second batch of biscuits."
+   },
+   {
+    "idx": 11,
+    "text": "Add the remaining biscuits from the first packet and crush them."
+   },
+   {
+    "idx": 12,
+    "text": "Add a second packet of biscuits to the food processor."
+   },
+   {
+    "idx": 13,
+    "text": "Crush the second packet of biscuits."
+   }
+  ],
+  "skills": {
+   "object_recognition": "L1: which object is in hand / being handled at the moment of the event",
+   "spatial_near": "L1: at the moment of the event, which of the listed objects is nearest to a reference object (3D positions from the dataset)",
+   "spatial_side": "L1: at the moment of the event, which listed object is leftmost / rightmost from the wearer's viewpoint",
+   "object_location_at_time": "L1: on which surface / fixture / container an object is put down at the event",
+   "object_grounding": "L1: localise the object of the event in a frame (bounding box)",
+   "action_recognition": "L2: what action (verb + object) the event is",
+   "event_object_role": "L2: which object is acted on, with which tool, to which destination in the event",
+   "action_temporal_order": "L2: the order of two actions shown close together inside one sub-goal",
+   "sound_action_binding": "L2: which action / object produced the sound heard",
+   "object_state_change": "L2: where an object was taken from and where it went in one movement",
+   "sound_movement_binding": "L2: which object movement coincides with the sound",
+   "sound_anchored_spatial_near": "L2: at the moment of a sound, which listed object is nearest to a reference object",
+   "sound_anchored_spatial_side": "L2: at the moment of a sound, which listed object is leftmost / rightmost for the wearer"
+  },
+  "l3_relation_types": {
+   "object_continuity": "the same object / ingredient appears in an event of sub-goal k and an event of the ADJACENT sub-goal k+1; what happened to it between them (chopped broccoli -> in the pan)",
+   "state_change": "how the state of an object differs between the two events (whole -> chopped, empty -> full, raw -> browned)",
+   "causal_prerequisite": "the earlier event is a physical prerequisite of the later one (could not be done without it)",
+   "hidden_state": "an appliance / container state was set in the earlier event and is not visible in the later segment; what is its state at the end of the later segment",
+   "spatial_end_state": "after placements in the two events, which listed object ends nearest / farthest to a reference object (needs 3D records)"
+  },
+  "n_sub_goals": 13
+ },
+ "plan": {
+  "task_id": "P01-20240203-132119__P01_R05_S02",
+  "goal": "Crumble up the biscuit and combine with the mixture",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "events": [
+     {
+      "event_id": "s1e1",
+      "sub_goal": 1,
+      "type": "action",
+      "description": "Place the biscuit packets on the counter.",
+      "objects": [
+       "biscuit packet",
+       "counter"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_recognition",
+       "object_location_at_time",
+       "event_object_role"
+      ],
+      "relevance": "brings the main ingredient to the workspace",
+      "time": [
+       575.51,
+       578.55
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-132119:narration:253",
+       "hdepic_e:P01-20240203-132119:narration:254",
+       "hdepic_e:P01-20240203-132119:movement:e31326679f5a2aaa:d986eef41a222d6c"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 4.0",
+      "centre": 577.03
+     },
+     {
+      "event_id": "s1e2",
+      "sub_goal": 1,
+      "type": "action",
+      "description": "Place the food processor bowl on the counter.",
+      "objects": [
+       "food processor bowl",
+       "counter"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_recognition",
+       "object_location_at_time",
+       "event_object_role"
+      ],
+      "relevance": "prepares the appliance needed for crushing",
+      "time": [
+       615.63,
+       616.33
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-132119:narration:268",
+       "hdepic_e:P01-20240203-132119:movement:fbb2475c3352e24a:1d3db70a50cb2bc1"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 6.0",
+      "centre": 615.98
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 2,
+    "events": [
+     {
+      "event_id": "s2e1",
+      "sub_goal": 2,
+      "type": "action",
+      "description": "Insert the blade into the food processor bowl.",
+      "objects": [
+       "blade",
+       "food processor bowl"
+      ],
+      "verbs": [
+       "insert"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "attempts to set up the crushing mechanism",
+      "time": [
+       624.67,
+       626.13
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-132119:narration:274",
+       "hdepic_e:P01-20240203-132119:movement:fbb2475c3352e24a:0dea14a0290ef8c3"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 6.0",
+      "centre": 625.4
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 3,
+    "events": [
+     {
+      "event_id": "s3e1",
+      "sub_goal": 3,
+      "type": "action",
+      "description": "Pick up the center spindle piece.",
+      "objects": [
+       "spindle"
+      ],
+      "verbs": [
+       "pick"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition"
+      ],
+      "relevance": "retrieves the missing part required for assembly",
+      "time": [
+       719.06,
+       721.14
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-132119:narration:301",
+       "hdepic_e:P01-20240203-132119:movement:ed2e5901533cc90f:884b1a826c7e85bb"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 2.0",
+      "centre": 720.1
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 4,
+    "events": [
+     {
+      "event_id": "s4e1",
+      "sub_goal": 4,
+      "type": "action",
+      "description": "Wash the spindle under the running tap.",
+      "objects": [
+       "spindle",
+       "tap"
+      ],
+      "verbs": [
+       "wash"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "cleans the part before it touches food",
+      "time": [
+       753.83,
+       755.57
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-132119:narration:317",
+       "hdepic_e:P01-20240203-132119:narration:319"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 2.0",
+      "centre": 754.7
+     },
+     {
+      "event_id": "s4e2",
+      "sub_goal": 4,
+      "type": "sound",
+      "description": "Sound of running water from the tap.",
+      "objects": [
+       "tap",
+       "water"
+      ],
+      "verbs": [
+       "run"
+      ],
+      "skills": [
+       "sound_action_binding",
+       "sound_anchored_spatial_near"
+      ],
+      "relevance": "indicates the washing process",
+      "time": [
+       751.202,
+       759.808
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-132119:narration:317",
+       "hdepic_e:P01-20240203-132119:narration:319",
+       "hdepic_e:P01-20240203-132119:narration:320",
+       "hdepic_e:P01-20240203-132119:sound:2276",
+       "hdepic_e:P01-20240203-132119:sound:2277",
+       "hdepic_e:P01-20240203-132119:movement:56a7e30a6aab9f87:83d06c95cfa08f9f"
+      ],
+      "matched": true,
+      "match_note": "3 narration(s), best score 2.0",
+      "centre": 755.505
+     },
+     {
+      "event_id": "s4e3",
+      "sub_goal": 4,
+      "type": "action",
+      "description": "Dry the spindle with a towel.",
+      "objects": [
+       "spindle",
+       "towel"
+      ],
+      "verbs": [
+       "dry"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "removes water before placing it in the appliance",
+      "time": [
+       758.37,
+       760.05
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-132119:narration:321",
+       "hdepic_e:P01-20240203-132119:narration:322"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 3.5",
+      "centre": 759.21
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 5,
+    "events": [
+     {
+      "event_id": "s5e1",
+      "sub_goal": 5,
+      "type": "action",
+      "description": "Insert the spindle and blade into the food processor bowl.",
+      "objects": [
+       "spindle",
+       "blade",
+       "food processor bowl"
+      ],
+      "verbs": [
+       "insert"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "completes the blade assembly",
+      "time": [
+       788.59,
+       791.89
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-132119:narration:329"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 7.5",
+      "centre": 790.24
+     },
+     {
+      "event_id": "s5e2",
+      "sub_goal": 5,
+      "type": "action",
+      "description": "Plug the power cord into the wall outlet.",
+      "objects": [
+       "power cord",
+       "outlet"
+      ],
+      "verbs": [
+       "plug"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "provides power to the appliance",
+      "time": [
+       794.94,
+       795.73
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-132119:narration:332",
+       "hdepic_e:P01-20240203-132119:movement:b6cfc7fb29d2dc74:9f2407fb035f22da",
+       "hdepic_e:P01-20240203-132119:movement:e92c427f58c23bf4:9930a4594364ee65"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 1.5",
+      "centre": 795.335
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 6,
+    "events": [
+     {
+      "event_id": "s6e1",
+      "sub_goal": 6,
+      "type": "action",
+      "description": "Press the button on the food processor base.",
+      "objects": [
+       "button",
+       "food processor base"
+      ],
+      "verbs": [
+       "press"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "activates the motor to test it",
+      "time": [
+       804.24,
+       805.8
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-132119:narration:337"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 5.5",
+      "centre": 805.02
+     },
+     {
+      "event_id": "s6e2",
+      "sub_goal": 6,
+      "type": "sound",
+      "description": "Sound of the food processor motor running empty.",
+      "objects": [
+       "food processor base"
+      ],
+      "verbs": [
+       "run"
+      ],
+      "skills": [
+       "sound_action_binding"
+      ],
+      "relevance": "confirms the appliance is working",
+      "time": null,
+      "records": [],
+      "matched": false,
+      "match_note": "no sound record in this sub-goal matches the described sound (labels: footstep, kettle / mixer / appliance, metal / plastic collision, open / close)"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 7,
+    "events": [
+     {
+      "event_id": "s7e1",
+      "sub_goal": 7,
+      "type": "action",
+      "description": "Open the biscuit packet.",
+      "objects": [
+       "biscuit packet"
+      ],
+      "verbs": [
+       "open"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "object_state_change"
+      ],
+      "relevance": "accesses the biscuits",
+      "time": [
+       826.46,
+       827.17
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-132119:narration:352"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 5.5",
+      "centre": 826.815
+     },
+     {
+      "event_id": "s7e2",
+      "sub_goal": 7,
+      "type": "action",
+      "description": "Drop biscuits into the food processor bowl.",
+      "objects": [
+       "biscuits",
+       "food processor bowl"
+      ],
+      "verbs": [
+       "drop"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "loads the first batch of ingredients",
+      "time": [
+       838.95,
+       842.08
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-132119:narration:355",
+       "hdepic_e:P01-20240203-132119:narration:356"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 8.0",
+      "centre": 840.515
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 8,
+    "events": [
+     {
+      "event_id": "s8e1",
+      "sub_goal": 8,
+      "type": "action",
+      "description": "Place the lid on the food processor bowl.",
+      "objects": [
+       "lid",
+       "food processor bowl"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "secures the bowl for processing",
+      "time": [
+       847.28,
+       848.17
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-132119:narration:359"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 7.5",
+      "centre": 847.725
+     },
+     {
+      "event_id": "s8e2",
+      "sub_goal": 8,
+      "type": "action",
+      "description": "Press the button to run the processor.",
+      "objects": [
+       "button",
+       "food processor base"
+      ],
+      "verbs": [
+       "press"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "starts the crushing process",
+      "time": [
+       847.28,
+       848.17
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-132119:narration:359"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 4.0",
+      "centre": 847.725
+     },
+     {
+      "event_id": "s8e3",
+      "sub_goal": 8,
+      "type": "sound",
+      "description": "Loud crunching sound of biscuits being crushed.",
+      "objects": [
+       "biscuits",
+       "food processor bowl"
+      ],
+      "verbs": [
+       "crunch",
+       "crush"
+      ],
+      "skills": [
+       "sound_action_binding"
+      ],
+      "relevance": "indicates the biscuits are breaking down",
+      "time": null,
+      "records": [],
+      "matched": false,
+      "match_note": "no sound record in this sub-goal matches the described sound (labels: kettle / mixer / appliance)"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 9,
+    "events": [
+     {
+      "event_id": "s9e1",
+      "sub_goal": 9,
+      "type": "action",
+      "description": "Remove the lid from the food processor bowl.",
+      "objects": [
+       "lid",
+       "food processor bowl"
+      ],
+      "verbs": [
+       "remove"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "opens the bowl to add more",
+      "time": [
+       869.36,
+       873.06
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-132119:narration:368",
+       "hdepic_e:P01-20240203-132119:narration:369",
+       "hdepic_e:P01-20240203-132119:narration:370",
+       "hdepic_e:P01-20240203-132119:movement:63fafae74916e4b2:ed1d02438c3a626c",
+       "hdepic_e:P01-20240203-132119:movement:a7036423663732ea:8e136b68046b17e0"
+      ],
+      "matched": true,
+      "match_note": "3 narration(s), best score 6.0",
+      "centre": 871.21
+     },
+     {
+      "event_id": "s9e2",
+      "sub_goal": 9,
+      "type": "action",
+      "description": "Drop more biscuits into the bowl.",
+      "objects": [
+       "biscuits",
+       "food processor bowl"
+      ],
+      "verbs": [
+       "drop"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "loads the next batch",
+      "time": [
+       870.69,
+       871.1
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-132119:narration:369"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 8.0",
+      "centre": 870.895
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 10,
+    "events": [
+     {
+      "event_id": "s10e1",
+      "sub_goal": 10,
+      "type": "action",
+      "description": "Place the lid back on the bowl.",
+      "objects": [
+       "lid",
+       "food processor bowl"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "secures the bowl again",
+      "time": [
+       884.65,
+       885.56
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-132119:narration:375"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 8.0",
+      "centre": 885.105
+     },
+     {
+      "event_id": "s10e2",
+      "sub_goal": 10,
+      "type": "action",
+      "description": "Press the button to run the processor.",
+      "objects": [
+       "button",
+       "food processor base"
+      ],
+      "verbs": [
+       "press"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "crushes the second batch",
+      "time": [
+       884.65,
+       886.76
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-132119:narration:375",
+       "hdepic_e:P01-20240203-132119:narration:376"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 4.0",
+      "centre": 885.705
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 11,
+    "events": [
+     {
+      "event_id": "s11e1",
+      "sub_goal": 11,
+      "type": "action",
+      "description": "Pour the remaining biscuits from the packet into the bowl.",
+      "objects": [
+       "biscuits",
+       "biscuit packet",
+       "food processor bowl"
+      ],
+      "verbs": [
+       "pour"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "empties the first packet",
+      "time": [
+       971.06,
+       973.57
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-132119:narration:406"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 8.5",
+      "centre": 972.315
+     },
+     {
+      "event_id": "s11e2",
+      "sub_goal": 11,
+      "type": "action",
+      "description": "Press the button to crush the remaining biscuits.",
+      "objects": [
+       "button",
+       "food processor base"
+      ],
+      "verbs": [
+       "press"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "finishes crushing the first packet",
+      "time": [
+       971.06,
+       973.57
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-132119:narration:406"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 5.0",
+      "centre": 972.315
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 12,
+    "events": [
+     {
+      "event_id": "s12e1",
+      "sub_goal": 12,
+      "type": "action",
+      "description": "Open the second packet of biscuits.",
+      "objects": [
+       "biscuit packet"
+      ],
+      "verbs": [
+       "open"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "object_state_change"
+      ],
+      "relevance": "accesses more ingredients",
+      "time": [
+       1062.64,
+       1064.49
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-132119:narration:442",
+       "hdepic_e:P01-20240203-132119:narration:443",
+       "hdepic_e:P01-20240203-132119:movement:095cea4424851bb4:a577a1ccbd3dcddb"
+      ],
+      "matched": true,
+      "match_note": "2 narration(s), best score 3.5",
+      "centre": 1063.565
+     },
+     {
+      "event_id": "s12e2",
+      "sub_goal": 12,
+      "type": "action",
+      "description": "Pour biscuits from the second packet into the bowl.",
+      "objects": [
+       "biscuits",
+       "biscuit packet",
+       "food processor bowl"
+      ],
+      "verbs": [
+       "pour"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "adds the final batch of biscuits",
+      "time": [
+       1066.64,
+       1076.3
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-132119:narration:445",
+       "hdepic_e:P01-20240203-132119:narration:446",
+       "hdepic_e:P01-20240203-132119:narration:447"
+      ],
+      "matched": true,
+      "match_note": "3 narration(s), best score 8.0",
+      "centre": 1071.47
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 13,
+    "events": [
+     {
+      "event_id": "s13e1",
+      "sub_goal": 13,
+      "type": "action",
+      "description": "Press the button to run the processor.",
+      "objects": [
+       "button",
+       "food processor base"
+      ],
+      "verbs": [
+       "press"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "crushes the second packet",
+      "time": [
+       1085.94,
+       1086.64
+      ],
+      "records": [
+       "hdepic_e:P01-20240203-132119:narration:456"
+      ],
+      "matched": true,
+      "match_note": "1 narration(s), best score 4.0",
+      "centre": 1086.29
+     },
+     {
+      "event_id": "s13e2",
+      "sub_goal": 13,
+      "type": "sound",
+      "description": "Sound of crushing biscuits.",
+      "objects": [
+       "biscuits",
+       "food processor bowl"
+      ],
+      "verbs": [
+       "crush"
+      ],
+      "skills": [
+       "sound_action_binding"
+      ],
+      "relevance": "indicates the final crushing is happening",
+      "time": null,
+      "records": [],
+      "matched": false,
+      "match_note": "no sound record in this sub-goal matches the described sound (labels: kettle / mixer / appliance)"
+     }
+    ],
+    "irrelevant": ""
+   }
+  ],
+  "relations": [
+   {
+    "rel_id": "r1",
+    "type": "causal_prerequisite",
+    "skill": "causal_prerequisite_reasoning",
+    "events": [
+     "s4e3",
+     "s5e1"
+    ],
+    "ask": "Why was the spindle dried before being inserted into the bowl?",
+    "answer_hint": "The spindle was washed and needed to be dried before assembly.",
+    "source": "planner"
+   },
+   {
+    "rel_id": "r2",
+    "type": "causal_prerequisite",
+    "skill": "causal_prerequisite_reasoning",
+    "events": [
+     "s5e2",
+     "s6e1"
+    ],
+    "ask": "What allowed the food processor to turn on when the button was pressed?",
+    "answer_hint": "The power cord was plugged into the outlet.",
+    "source": "planner"
+   },
+   {
+    "rel_id": "r3",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s7e2",
+     "s8e2"
+    ],
+    "ask": "What is being crushed when the button is pressed?",
+    "answer_hint": "The first batch of biscuits that were dropped into the bowl.",
+    "source": "planner"
+   },
+   {
+    "rel_id": "r4",
+    "type": "state_change",
+    "skill": "cross_event_integration",
+    "events": [
+     "s8e2",
+     "s9e2"
+    ],
+    "ask": "How does the state of the biscuits in the bowl change before more are added?",
+    "answer_hint": "The first batch of biscuits was crushed into crumbs.",
+    "source": "planner"
+   },
+   {
+    "rel_id": "r5",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s9e2",
+     "s10e2"
+    ],
+    "ask": "What is being crushed in this step?",
+    "answer_hint": "The additional biscuits that were just dropped into the bowl.",
+    "source": "planner"
+   },
+   {
+    "rel_id": "r6",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s12e2",
+     "s13e1"
+    ],
+    "ask": "What is being crushed when the processor is run this time?",
+    "answer_hint": "The biscuits poured from the second packet.",
+    "source": "planner"
+   },
+   {
+    "rel_id": "d1",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s11e1",
+     "s12e2"
+    ],
+    "source": "derived",
+    "ask": "what happened to the shared object (biscuit, bowl, food, packet, processor) between the earlier event and the later one; what the later event shows that the earlier did not",
+    "answer_hint": "Pour the remaining biscuits from the packet into the bowl. -> Pour biscuits from the second packet into the bowl."
+   },
+   {
+    "rel_id": "d2",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s8e1",
+     "s9e1"
+    ],
+    "source": "derived",
+    "ask": "what happened to the shared object (bowl, food, lid, processor) between the earlier event and the later one; what the later event shows that the earlier did not",
+    "answer_hint": "Place the lid on the food processor bowl. -> Remove the lid from the food processor bowl."
+   },
+   {
+    "rel_id": "d3",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s9e1",
+     "s10e1"
+    ],
+    "source": "derived",
+    "ask": "what happened to the shared object (bowl, food, lid, processor) between the earlier event and the later one; what the later event shows that the earlier did not",
+    "answer_hint": "Remove the lid from the food processor bowl. -> Place the lid back on the bowl."
+   },
+   {
+    "rel_id": "d4",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s10e2",
+     "s11e2"
+    ],
+    "source": "derived",
+    "ask": "what happened to the shared object (base, button, food, processor) between the earlier event and the later one; what the later event shows that the earlier did not",
+    "answer_hint": "Press the button to run the processor. -> Press the button to crush the remaining biscuits."
+   },
+   {
+    "rel_id": "d5",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s1e2",
+     "s2e1"
+    ],
+    "source": "derived",
+    "ask": "what happened to the shared object (bowl, food, processor) between the earlier event and the later one; what the later event shows that the earlier did not",
+    "answer_hint": "Place the food processor bowl on the counter. -> Insert the blade into the food processor bowl."
+   },
+   {
+    "rel_id": "d6",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s7e2",
+     "s8e1"
+    ],
+    "source": "derived",
+    "ask": "what happened to the shared object (bowl, food, processor) between the earlier event and the later one; what the later event shows that the earlier did not",
+    "answer_hint": "Drop biscuits into the food processor bowl. -> Place the lid on the food processor bowl."
+   },
+   {
+    "rel_id": "d7",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s8e1",
+     "s9e2"
+    ],
+    "source": "derived",
+    "ask": "what happened to the shared object (bowl, food, processor) between the earlier event and the later one; what the later event shows that the earlier did not",
+    "answer_hint": "Place the lid on the food processor bowl. -> Drop more biscuits into the bowl."
+   },
+   {
+    "rel_id": "d8",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s9e2",
+     "s10e1"
+    ],
+    "source": "derived",
+    "ask": "what happened to the shared object (bowl, food, processor) between the earlier event and the later one; what the later event shows that the earlier did not",
+    "answer_hint": "Drop more biscuits into the bowl. -> Place the lid back on the bowl."
+   }
+  ],
+  "decision_points": [
+   {
+    "idx": 2,
+    "real": true,
+    "why": "Deciding to start assembling the appliance after gathering the parts."
+   },
+   {
+    "idx": 3,
+    "real": true,
+    "why": "Realizing a piece is missing or incorrect and deciding to find the right one."
+   },
+   {
+    "idx": 4,
+    "real": true,
+    "why": "Deciding the spindle needs to be washed before it can be used."
+   },
+   {
+    "idx": 5,
+    "real": true,
+    "why": "Resuming the assembly process now that the part is clean."
+   },
+   {
+    "idx": 6,
+    "real": true,
+    "why": "Deciding to test the appliance empty to ensure it works before adding food."
+   },
+   {
+    "idx": 7,
+    "real": true,
+    "why": "Starting the actual food processing task by adding the first ingredient."
+   },
+   {
+    "idx": 8,
+    "real": true,
+    "why": "Deciding to crush the first batch rather than filling the bowl completely."
+   },
+   {
+    "idx": 9,
+    "real": true,
+    "why": "Deciding to process the biscuits in batches and adding the next round."
+   },
+   {
+    "idx": 10,
+    "real": false,
+    "why": "Simply repeating the crushing action for the newly added batch."
+   },
+   {
+    "idx": 11,
+    "real": false,
+    "why": "Continuing the established batching and crushing process for the first packet."
+   },
+   {
+    "idx": 12,
+    "real": true,
+    "why": "Deciding that more biscuits are needed for the recipe and opening a second packet."
+   },
+   {
+    "idx": 13,
+    "real": false,
+    "why": "Repeating the crushing action for the second packet."
+   },
+   {
+    "idx": 14,
+    "real": true,
+    "why": "Deciding the biscuits are sufficiently crumbled and the task is complete."
+   }
+  ],
+  "events": {
+   "s1e1": {
+    "event_id": "s1e1",
+    "sub_goal": 1,
+    "type": "action",
+    "description": "Place the biscuit packets on the counter.",
+    "objects": [
+     "biscuit packet",
+     "counter"
+    ],
+    "verbs": [
+     "place"
+    ],
+    "skills": [
+     "object_recognition",
+     "object_location_at_time",
+     "event_object_role"
+    ],
+    "relevance": "brings the main ingredient to the workspace",
+    "time": [
+     575.51,
+     578.55
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-132119:narration:253",
+     "hdepic_e:P01-20240203-132119:narration:254",
+     "hdepic_e:P01-20240203-132119:movement:e31326679f5a2aaa:d986eef41a222d6c"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 4.0",
+    "centre": 577.03
+   },
+   "s1e2": {
+    "event_id": "s1e2",
+    "sub_goal": 1,
+    "type": "action",
+    "description": "Place the food processor bowl on the counter.",
+    "objects": [
+     "food processor bowl",
+     "counter"
+    ],
+    "verbs": [
+     "place"
+    ],
+    "skills": [
+     "object_recognition",
+     "object_location_at_time",
+     "event_object_role"
+    ],
+    "relevance": "prepares the appliance needed for crushing",
+    "time": [
+     615.63,
+     616.33
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-132119:narration:268",
+     "hdepic_e:P01-20240203-132119:movement:fbb2475c3352e24a:1d3db70a50cb2bc1"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 6.0",
+    "centre": 615.98
+   },
+   "s2e1": {
+    "event_id": "s2e1",
+    "sub_goal": 2,
+    "type": "action",
+    "description": "Insert the blade into the food processor bowl.",
+    "objects": [
+     "blade",
+     "food processor bowl"
+    ],
+    "verbs": [
+     "insert"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "attempts to set up the crushing mechanism",
+    "time": [
+     624.67,
+     626.13
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-132119:narration:274",
+     "hdepic_e:P01-20240203-132119:movement:fbb2475c3352e24a:0dea14a0290ef8c3"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 6.0",
+    "centre": 625.4
+   },
+   "s3e1": {
+    "event_id": "s3e1",
+    "sub_goal": 3,
+    "type": "action",
+    "description": "Pick up the center spindle piece.",
+    "objects": [
+     "spindle"
+    ],
+    "verbs": [
+     "pick"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition"
+    ],
+    "relevance": "retrieves the missing part required for assembly",
+    "time": [
+     719.06,
+     721.14
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-132119:narration:301",
+     "hdepic_e:P01-20240203-132119:movement:ed2e5901533cc90f:884b1a826c7e85bb"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 2.0",
+    "centre": 720.1
+   },
+   "s4e1": {
+    "event_id": "s4e1",
+    "sub_goal": 4,
+    "type": "action",
+    "description": "Wash the spindle under the running tap.",
+    "objects": [
+     "spindle",
+     "tap"
+    ],
+    "verbs": [
+     "wash"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "cleans the part before it touches food",
+    "time": [
+     753.83,
+     755.57
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-132119:narration:317",
+     "hdepic_e:P01-20240203-132119:narration:319"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 2.0",
+    "centre": 754.7
+   },
+   "s4e2": {
+    "event_id": "s4e2",
+    "sub_goal": 4,
+    "type": "sound",
+    "description": "Sound of running water from the tap.",
+    "objects": [
+     "tap",
+     "water"
+    ],
+    "verbs": [
+     "run"
+    ],
+    "skills": [
+     "sound_action_binding",
+     "sound_anchored_spatial_near"
+    ],
+    "relevance": "indicates the washing process",
+    "time": [
+     751.202,
+     759.808
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-132119:narration:317",
+     "hdepic_e:P01-20240203-132119:narration:319",
+     "hdepic_e:P01-20240203-132119:narration:320",
+     "hdepic_e:P01-20240203-132119:sound:2276",
+     "hdepic_e:P01-20240203-132119:sound:2277",
+     "hdepic_e:P01-20240203-132119:movement:56a7e30a6aab9f87:83d06c95cfa08f9f"
+    ],
+    "matched": true,
+    "match_note": "3 narration(s), best score 2.0",
+    "centre": 755.505
+   },
+   "s4e3": {
+    "event_id": "s4e3",
+    "sub_goal": 4,
+    "type": "action",
+    "description": "Dry the spindle with a towel.",
+    "objects": [
+     "spindle",
+     "towel"
+    ],
+    "verbs": [
+     "dry"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "removes water before placing it in the appliance",
+    "time": [
+     758.37,
+     760.05
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-132119:narration:321",
+     "hdepic_e:P01-20240203-132119:narration:322"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 3.5",
+    "centre": 759.21
+   },
+   "s5e1": {
+    "event_id": "s5e1",
+    "sub_goal": 5,
+    "type": "action",
+    "description": "Insert the spindle and blade into the food processor bowl.",
+    "objects": [
+     "spindle",
+     "blade",
+     "food processor bowl"
+    ],
+    "verbs": [
+     "insert"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "completes the blade assembly",
+    "time": [
+     788.59,
+     791.89
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-132119:narration:329"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 7.5",
+    "centre": 790.24
+   },
+   "s5e2": {
+    "event_id": "s5e2",
+    "sub_goal": 5,
+    "type": "action",
+    "description": "Plug the power cord into the wall outlet.",
+    "objects": [
+     "power cord",
+     "outlet"
+    ],
+    "verbs": [
+     "plug"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "provides power to the appliance",
+    "time": [
+     794.94,
+     795.73
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-132119:narration:332",
+     "hdepic_e:P01-20240203-132119:movement:b6cfc7fb29d2dc74:9f2407fb035f22da",
+     "hdepic_e:P01-20240203-132119:movement:e92c427f58c23bf4:9930a4594364ee65"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 1.5",
+    "centre": 795.335
+   },
+   "s6e1": {
+    "event_id": "s6e1",
+    "sub_goal": 6,
+    "type": "action",
+    "description": "Press the button on the food processor base.",
+    "objects": [
+     "button",
+     "food processor base"
+    ],
+    "verbs": [
+     "press"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "activates the motor to test it",
+    "time": [
+     804.24,
+     805.8
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-132119:narration:337"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 5.5",
+    "centre": 805.02
+   },
+   "s6e2": {
+    "event_id": "s6e2",
+    "sub_goal": 6,
+    "type": "sound",
+    "description": "Sound of the food processor motor running empty.",
+    "objects": [
+     "food processor base"
+    ],
+    "verbs": [
+     "run"
+    ],
+    "skills": [
+     "sound_action_binding"
+    ],
+    "relevance": "confirms the appliance is working",
+    "time": null,
+    "records": [],
+    "matched": false,
+    "match_note": "no sound record in this sub-goal matches the described sound (labels: footstep, kettle / mixer / appliance, metal / plastic collision, open / close)"
+   },
+   "s7e1": {
+    "event_id": "s7e1",
+    "sub_goal": 7,
+    "type": "action",
+    "description": "Open the biscuit packet.",
+    "objects": [
+     "biscuit packet"
+    ],
+    "verbs": [
+     "open"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "object_state_change"
+    ],
+    "relevance": "accesses the biscuits",
+    "time": [
+     826.46,
+     827.17
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-132119:narration:352"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 5.5",
+    "centre": 826.815
+   },
+   "s7e2": {
+    "event_id": "s7e2",
+    "sub_goal": 7,
+    "type": "action",
+    "description": "Drop biscuits into the food processor bowl.",
+    "objects": [
+     "biscuits",
+     "food processor bowl"
+    ],
+    "verbs": [
+     "drop"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "loads the first batch of ingredients",
+    "time": [
+     838.95,
+     842.08
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-132119:narration:355",
+     "hdepic_e:P01-20240203-132119:narration:356"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 8.0",
+    "centre": 840.515
+   },
+   "s8e1": {
+    "event_id": "s8e1",
+    "sub_goal": 8,
+    "type": "action",
+    "description": "Place the lid on the food processor bowl.",
+    "objects": [
+     "lid",
+     "food processor bowl"
+    ],
+    "verbs": [
+     "place"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "secures the bowl for processing",
+    "time": [
+     847.28,
+     848.17
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-132119:narration:359"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 7.5",
+    "centre": 847.725
+   },
+   "s8e2": {
+    "event_id": "s8e2",
+    "sub_goal": 8,
+    "type": "action",
+    "description": "Press the button to run the processor.",
+    "objects": [
+     "button",
+     "food processor base"
+    ],
+    "verbs": [
+     "press"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "starts the crushing process",
+    "time": [
+     847.28,
+     848.17
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-132119:narration:359"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 4.0",
+    "centre": 847.725
+   },
+   "s8e3": {
+    "event_id": "s8e3",
+    "sub_goal": 8,
+    "type": "sound",
+    "description": "Loud crunching sound of biscuits being crushed.",
+    "objects": [
+     "biscuits",
+     "food processor bowl"
+    ],
+    "verbs": [
+     "crunch",
+     "crush"
+    ],
+    "skills": [
+     "sound_action_binding"
+    ],
+    "relevance": "indicates the biscuits are breaking down",
+    "time": null,
+    "records": [],
+    "matched": false,
+    "match_note": "no sound record in this sub-goal matches the described sound (labels: kettle / mixer / appliance)"
+   },
+   "s9e1": {
+    "event_id": "s9e1",
+    "sub_goal": 9,
+    "type": "action",
+    "description": "Remove the lid from the food processor bowl.",
+    "objects": [
+     "lid",
+     "food processor bowl"
+    ],
+    "verbs": [
+     "remove"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "opens the bowl to add more",
+    "time": [
+     869.36,
+     873.06
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-132119:narration:368",
+     "hdepic_e:P01-20240203-132119:narration:369",
+     "hdepic_e:P01-20240203-132119:narration:370",
+     "hdepic_e:P01-20240203-132119:movement:63fafae74916e4b2:ed1d02438c3a626c",
+     "hdepic_e:P01-20240203-132119:movement:a7036423663732ea:8e136b68046b17e0"
+    ],
+    "matched": true,
+    "match_note": "3 narration(s), best score 6.0",
+    "centre": 871.21
+   },
+   "s9e2": {
+    "event_id": "s9e2",
+    "sub_goal": 9,
+    "type": "action",
+    "description": "Drop more biscuits into the bowl.",
+    "objects": [
+     "biscuits",
+     "food processor bowl"
+    ],
+    "verbs": [
+     "drop"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "loads the next batch",
+    "time": [
+     870.69,
+     871.1
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-132119:narration:369"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 8.0",
+    "centre": 870.895
+   },
+   "s10e1": {
+    "event_id": "s10e1",
+    "sub_goal": 10,
+    "type": "action",
+    "description": "Place the lid back on the bowl.",
+    "objects": [
+     "lid",
+     "food processor bowl"
+    ],
+    "verbs": [
+     "place"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "secures the bowl again",
+    "time": [
+     884.65,
+     885.56
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-132119:narration:375"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 8.0",
+    "centre": 885.105
+   },
+   "s10e2": {
+    "event_id": "s10e2",
+    "sub_goal": 10,
+    "type": "action",
+    "description": "Press the button to run the processor.",
+    "objects": [
+     "button",
+     "food processor base"
+    ],
+    "verbs": [
+     "press"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "crushes the second batch",
+    "time": [
+     884.65,
+     886.76
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-132119:narration:375",
+     "hdepic_e:P01-20240203-132119:narration:376"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 4.0",
+    "centre": 885.705
+   },
+   "s11e1": {
+    "event_id": "s11e1",
+    "sub_goal": 11,
+    "type": "action",
+    "description": "Pour the remaining biscuits from the packet into the bowl.",
+    "objects": [
+     "biscuits",
+     "biscuit packet",
+     "food processor bowl"
+    ],
+    "verbs": [
+     "pour"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "empties the first packet",
+    "time": [
+     971.06,
+     973.57
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-132119:narration:406"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 8.5",
+    "centre": 972.315
+   },
+   "s11e2": {
+    "event_id": "s11e2",
+    "sub_goal": 11,
+    "type": "action",
+    "description": "Press the button to crush the remaining biscuits.",
+    "objects": [
+     "button",
+     "food processor base"
+    ],
+    "verbs": [
+     "press"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "finishes crushing the first packet",
+    "time": [
+     971.06,
+     973.57
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-132119:narration:406"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 5.0",
+    "centre": 972.315
+   },
+   "s12e1": {
+    "event_id": "s12e1",
+    "sub_goal": 12,
+    "type": "action",
+    "description": "Open the second packet of biscuits.",
+    "objects": [
+     "biscuit packet"
+    ],
+    "verbs": [
+     "open"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "object_state_change"
+    ],
+    "relevance": "accesses more ingredients",
+    "time": [
+     1062.64,
+     1064.49
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-132119:narration:442",
+     "hdepic_e:P01-20240203-132119:narration:443",
+     "hdepic_e:P01-20240203-132119:movement:095cea4424851bb4:a577a1ccbd3dcddb"
+    ],
+    "matched": true,
+    "match_note": "2 narration(s), best score 3.5",
+    "centre": 1063.565
+   },
+   "s12e2": {
+    "event_id": "s12e2",
+    "sub_goal": 12,
+    "type": "action",
+    "description": "Pour biscuits from the second packet into the bowl.",
+    "objects": [
+     "biscuits",
+     "biscuit packet",
+     "food processor bowl"
+    ],
+    "verbs": [
+     "pour"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "adds the final batch of biscuits",
+    "time": [
+     1066.64,
+     1076.3
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-132119:narration:445",
+     "hdepic_e:P01-20240203-132119:narration:446",
+     "hdepic_e:P01-20240203-132119:narration:447"
+    ],
+    "matched": true,
+    "match_note": "3 narration(s), best score 8.0",
+    "centre": 1071.47
+   },
+   "s13e1": {
+    "event_id": "s13e1",
+    "sub_goal": 13,
+    "type": "action",
+    "description": "Press the button to run the processor.",
+    "objects": [
+     "button",
+     "food processor base"
+    ],
+    "verbs": [
+     "press"
+    ],
+    "skills": [
+     "object_recognition",
+     "action_recognition",
+     "event_object_role"
+    ],
+    "relevance": "crushes the second packet",
+    "time": [
+     1085.94,
+     1086.64
+    ],
+    "records": [
+     "hdepic_e:P01-20240203-132119:narration:456"
+    ],
+    "matched": true,
+    "match_note": "1 narration(s), best score 4.0",
+    "centre": 1086.29
+   },
+   "s13e2": {
+    "event_id": "s13e2",
+    "sub_goal": 13,
+    "type": "sound",
+    "description": "Sound of crushing biscuits.",
+    "objects": [
+     "biscuits",
+     "food processor bowl"
+    ],
+    "verbs": [
+     "crush"
+    ],
+    "skills": [
+     "sound_action_binding"
+    ],
+    "relevance": "indicates the final crushing is happening",
+    "time": null,
+    "records": [],
+    "matched": false,
+    "match_note": "no sound record in this sub-goal matches the described sound (labels: kettle / mixer / appliance)"
+   }
+  }
+ },
+ "warnings": [],
+ "usage": {
+  "tok_in": 1767,
+  "tok_out": 4610,
+  "tok_think": 2638,
+  "model_version": "gemini-3.1-pro-preview",
+  "finish_reason": "FinishReason.STOP"
+ },
+ "status": "ok",
+ "raw_len": 16717
+}

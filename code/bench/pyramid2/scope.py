@@ -1,6 +1,7 @@
 """Scope planner(10-14 用户定):goal + plan -> 每层每 skill「问哪些 event、推什么关系、避免什么」。
 每样本一次 Gemini 调用(contract.scope_model,默认 examiner_model),缓存 data/scope_cache/<task_id>.<hash>.json,run 里复制到 runs/<run>/scope/。
 Examiner 每轮只看本层本 skill 的条目(context.build_context -> entries_for);cluster 选择按命中排序(controller.pool_for -> cluster_hit)。"""
+import os
 import json, hashlib, time, collections
 from pathlib import Path
 import p2config as P
@@ -212,7 +213,7 @@ def plan_one(contract, store, task_id, run_dir=None, force=False, mock=None):
         for attempt in range(2):
             try:
                 if qwen_scope:                                  # 10-28(用户定):scope planner 也可走本地 Qwen
-                    text, u = EX.call_qwen(sys_p, json.dumps(inp, ensure_ascii=False), contract.get("qwen_examiner_url") or contract.get("qwen_url", "http://127.0.0.1:8799"),
+                    text, u = EX.call_qwen(sys_p, json.dumps(inp, ensure_ascii=False), contract.get("qwen_examiner_url") or (os.environ.get("QWEN_URL") or contract.get("qwen_url", "http://127.0.0.1:8799")),
                                            max_tokens=contract.get("scope_max_tokens", 6144), run_dir=run_dir, role="scope", meta={"task_id": task_id})
                 else:
                     text, u = EX.call(sys_p, json.dumps(inp, ensure_ascii=False), rec["model"], max_tokens=contract.get("scope_max_tokens", 8192),

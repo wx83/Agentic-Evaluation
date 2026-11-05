@@ -1,0 +1,52 @@
+{
+ "layer": "L1",
+ "stop_reason": "REPLAY_OF:p2_hdepicE_1023t_g4_v16_self__13",
+ "phase": "DONE",
+ "turns": 19,
+ "scored": 17,
+ "correct": 7,
+ "raw_acc": 0.412,
+ "cluster_dedup_acc": 0.375,
+ "followup_items": 0,
+ "by_verdict": {
+  "correct": 7,
+  "wrong": 10
+ },
+ "by_format": {
+  "single_choice": 12,
+  "short_answer": 1,
+  "bbox": 4
+ },
+ "by_skill": {
+  "spatial_near": {
+   "verdict": "not_evaluated",
+   "reason": "no expected-event cluster for this skill on this task (sg mode)"
+  },
+  "spatial_side": {
+   "verdict": "not_evaluated",
+   "reason": "no expected-event cluster for this skill on this task (sg mode)"
+  },
+  "object_recognition": {
+   "verdict": "not_evaluated",
+   "reason": "no expected-event cluster for this skill on this task (sg mode)"
+  },
+  "object_location_at_time": {
+   "verdict": "not_evaluated",
+   "reason": "no expected-event cluster for this skill on this task (sg mode)"
+  },
+  "object_grounding": {
+   "verdict": "not_evaluated",
+   "reason": "no expected-event cluster for this skill on this task (sg mode)"
+  }
+ },
+ "stair": null,
+ "hypotheses": [],
+ "confirmation": null,
+ "not_evaluated": {
+  "spatial_near": "no expected-event cluster for this skill on this task (sg mode)",
+  "spatial_side": "no expected-event cluster for this skill on this task (sg mode)",
+  "object_recognition": "no expected-event cluster for this skill on this task (sg mode)",
+  "object_location_at_time": "no expected-event cluster for this skill on this task (sg mode)",
+  "object_grounding": "no expected-event cluster for this skill on this task (sg mode)"
+ }
+}

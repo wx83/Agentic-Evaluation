@@ -1,0 +1,117 @@
+{
+ "run": "p2_hdepicE_1023t_g4_v16_self__44",
+ "layers": {
+  "L1": {
+   "score": 1.458,
+   "mastery": 0.458,
+   "n_skills": 3,
+   "n_converged": 2
+  },
+  "L2": {
+   "score": 2.958,
+   "mastery": 0.958,
+   "n_skills": 6,
+   "n_converged": 6
+  },
+  "L3": {
+   "score": 3.75,
+   "mastery": 0.75,
+   "n_skills": 1,
+   "n_converged": 1
+  },
+  "L4": {
+   "score": 4.5,
+   "mastery": 0.5,
+   "n_skills": 1,
+   "n_converged": 0
+  }
+ },
+ "skills": {
+  "spatial_side": {
+   "layer": "L1",
+   "boundary": 2.0,
+   "score": 1.375,
+   "stop": "exhausted_at_level",
+   "converged": false
+  },
+  "object_recognition": {
+   "layer": "L1",
+   "boundary": 4.5,
+   "score": 2.0,
+   "stop": "ceiling",
+   "converged": true
+  },
+  "object_location_at_time": {
+   "layer": "L1",
+   "boundary": null,
+   "score": null,
+   "stop": "examiner_failed",
+   "converged": false
+  },
+  "object_grounding": {
+   "layer": "L1",
+   "boundary": 0.5,
+   "score": 1.0,
+   "stop": "floor",
+   "converged": true
+  },
+  "sound_action_binding": {
+   "layer": "L2",
+   "boundary": 4.5,
+   "score": 3.0,
+   "stop": "ceiling",
+   "converged": true
+  },
+  "object_state_change": {
+   "layer": "L2",
+   "boundary": 4.5,
+   "score": 3.0,
+   "stop": "ceiling",
+   "converged": true
+  },
+  "action_temporal_order": {
+   "layer": "L2",
+   "boundary": 3.5,
+   "score": 2.75,
+   "stop": "reversals",
+   "converged": true
+  },
+  "action_recognition": {
+   "layer": "L2",
+   "boundary": 4.5,
+   "score": 3.0,
+   "stop": "ceiling",
+   "converged": true
+  },
+  "event_object_role": {
+   "layer": "L2",
+   "boundary": 4.5,
+   "score": 3.0,
+   "stop": "ceiling",
+   "converged": true
+  },
+  "sound_movement_binding": {
+   "layer": "L2",
+   "boundary": 4.5,
+   "score": 3.0,
+   "stop": "ceiling",
+   "converged": true
+  },
+  "cross_event_integration": {
+   "layer": "L3",
+   "boundary": 3.5,
+   "score": 3.75,
+   "stop": "reversals",
+   "converged": true
+  },
+  "goal_conditioned_planning": {
+   "layer": "L4",
+   "boundary": 2.5,
+   "score": 4.5,
+   "stop": "exhausted_up",
+   "converged": false
+  }
+ },
+ "pyramid": 2.666,
+ "height": 0
+}

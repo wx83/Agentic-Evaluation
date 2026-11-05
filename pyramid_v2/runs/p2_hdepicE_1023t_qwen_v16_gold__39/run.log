@@ -1,0 +1,33 @@
+[21:34:39]   L1 t06 object_location_at_time          replay(gold) self=wrong   -> wrong (hist n=0)
+[21:35:29]   L1 t07 object_location_at_time          replay(gold) self=wrong   -> wrong (hist n=0)
+[21:36:35]   L1 t08 object_grounding                 replay(gold) self=wrong   -> wrong (hist n=0)
+[21:37:09]   L1 t09 object_grounding                 replay(gold) self=wrong   -> wrong (hist n=0)
+[21:37:42]   L1 t10 object_grounding                 replay(gold) self=wrong   -> wrong (hist n=0)
+[21:37:42] L1: replayed 5 items
+[21:38:40]   L2 t01 sound_action_binding             replay(gold) self=correct -> correct (hist n=1)
+[21:40:26]   L2 t05 object_state_change              replay(gold) self=correct -> correct (hist n=1)
+[21:41:46]   L2 t06 object_state_change              replay(gold) self=correct -> correct (hist n=3)
+[21:43:48]   L2 t09 object_state_change              replay(gold) self=correct -> correct (hist n=1)
+[21:45:23]   L2 t10 object_state_change              replay(gold) self=correct -> correct (hist n=3)
+[21:46:46]   L2 t15 action_temporal_order            replay(gold) self=correct -> correct (hist n=1)
+[21:48:16]   L2 t16 action_temporal_order            replay(gold) self=correct -> correct (hist n=3)
+[21:50:03]   L2 t20 action_recognition               replay(gold) self=correct -> correct (hist n=1)
+[21:51:20]   L2 t21 action_recognition               replay(gold) self=correct -> correct (hist n=3)
+[21:53:24]   L2 t23 action_recognition               replay(gold) self=wrong   -> wrong (hist n=3)
+[21:54:50]   L2 t24 action_recognition               replay(gold) self=wrong   -> wrong (hist n=5)
+[21:56:06]   L2 t25 action_recognition               replay(gold) self=wrong   -> correct (hist n=5)
+[21:57:17]   L2 t26 action_recognition               replay(gold) self=wrong   -> wrong (hist n=5)
+[21:58:29]   L2 t27 action_recognition               replay(gold) self=correct -> correct (hist n=1)
+[21:59:44]   L2 t28 action_recognition               replay(gold) self=correct -> correct (hist n=2)
+[22:01:02]   L2 t37 sound_movement_binding           replay(gold) self=correct -> correct (hist n=3)
+[22:02:30]   L2 t39 sound_movement_binding           replay(gold) self=wrong   -> wrong (hist n=5)
+[22:03:42]   L2 t41 sound_movement_binding           replay(gold) self=wrong   -> wrong (hist n=2)
+[22:05:34]   L2 t42 sound_movement_binding           replay(gold) self=wrong   -> wrong (hist n=5)
+[22:05:34] L2: replayed 19 items
+[22:12:29]   L3 t01 cross_event_integration          replay(gold) self=correct -> correct (hist n=13)
+[22:19:24]   L3 t02 cross_event_integration          replay(gold) self=wrong   -> wrong (hist n=14)
+[22:24:55]   L3 t03 cross_event_integration          replay(gold) self=correct -> correct (hist n=14)
+[22:27:42]   L3 t07 causal_prerequisite_reasoning    replay(gold) self=correct -> correct (hist n=7)
+[22:27:42] L3: replayed 4 items
+[22:27:42] L4: nothing to replay
+[22:27:42] replay finished

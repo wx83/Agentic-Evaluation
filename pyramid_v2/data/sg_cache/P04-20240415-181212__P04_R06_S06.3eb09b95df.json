@@ -1,0 +1,422 @@
+{
+ "task_id": "P04-20240415-181212__P04_R06_S06",
+ "prompt_hash": "3eb09b95df",
+ "model": "gcp/google/gemini-3.1-pro-preview",
+ "created": "2026-10-28T18:14:58",
+ "input": {
+  "task_id": "P04-20240415-181212__P04_R06_S06",
+  "goal": "Add 300ml of water and 1tbsp of lemon juice followed by the drained basmati rice and fry on a slightly high flame for 2 to 3 minutes. Mix gently to evenly coat the rice with the cooked masala.",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "text": "Prepare the measuring jug and tumbler"
+   },
+   {
+    "idx": 2,
+    "text": "Fill the measuring jug with water"
+   },
+   {
+    "idx": 3,
+    "text": "Add water to the pressure cooker"
+   },
+   {
+    "idx": 4,
+    "text": "Extract and add lemon juice to the pressure cooker"
+   },
+   {
+    "idx": 5,
+    "text": "Stir the contents and adjust the heat"
+   },
+   {
+    "idx": 6,
+    "text": "Add basmati rice to the pressure cooker"
+   },
+   {
+    "idx": 7,
+    "text": "Mix the rice with the masala"
+   }
+  ],
+  "skills": {
+   "object_recognition": "L1: which object is in hand / being handled at the moment of the event",
+   "spatial_near": "L1: at the moment of the event, which of the listed objects is nearest to a reference object (3D positions from the dataset)",
+   "spatial_side": "L1: at the moment of the event, which listed object is leftmost / rightmost from the wearer's viewpoint",
+   "object_location_at_time": "L1: on which surface / fixture / container an object is put down at the event",
+   "object_grounding": "L1: localise the object of the event in a frame (bounding box)",
+   "action_recognition": "L2: what action (verb + object) the event is",
+   "event_object_role": "L2: which object is acted on, with which tool, to which destination in the event",
+   "action_temporal_order": "L2: the order of two actions shown close together inside one sub-goal",
+   "sound_action_binding": "L2: which action / object produced the sound heard",
+   "object_state_change": "L2: where an object was taken from and where it went in one movement",
+   "sound_movement_binding": "L2: which object movement coincides with the sound",
+   "sound_anchored_spatial_near": "L2: at the moment of a sound, which listed object is nearest to a reference object",
+   "sound_anchored_spatial_side": "L2: at the moment of a sound, which listed object is leftmost / rightmost for the wearer"
+  },
+  "l3_relation_types": {
+   "object_continuity": "the same object / ingredient appears in an event of sub-goal k and an event of the ADJACENT sub-goal k+1; what happened to it between them (chopped broccoli -> in the pan)",
+   "state_change": "how the state of an object differs between the two events (whole -> chopped, empty -> full, raw -> browned)",
+   "causal_prerequisite": "the earlier event is a physical prerequisite of the later one (could not be done without it)",
+   "hidden_state": "an appliance / container state was set in the earlier event and is not visible in the later segment; what is its state at the end of the later segment",
+   "spatial_end_state": "after placements in the two events, which listed object ends nearest / farthest to a reference object (needs 3D records)"
+  },
+  "n_sub_goals": 7
+ },
+ "plan": {
+  "task_id": "P04-20240415-181212__P04_R06_S06",
+  "goal": "Add 300ml of water and 1tbsp of lemon juice followed by the drained basmati rice and fry on a slightly high flame for 2 to 3 minutes. Mix gently to evenly coat the rice with the cooked masala.",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "events": [
+     {
+      "event_id": "s1e1",
+      "sub_goal": 1,
+      "type": "placement",
+      "description": "The measuring jug is placed on the counter.",
+      "objects": [
+       "measuring jug",
+       "counter"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_recognition",
+       "object_location_at_time"
+      ],
+      "relevance": "prepares the container needed to measure the water"
+     },
+     {
+      "event_id": "s1e2",
+      "sub_goal": 1,
+      "type": "placement",
+      "description": "The tumbler is placed on the counter.",
+      "objects": [
+       "tumbler",
+       "counter"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_recognition",
+       "object_location_at_time"
+      ],
+      "relevance": "prepares an additional container for the task"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 2,
+    "events": [
+     {
+      "event_id": "s2e1",
+      "sub_goal": 2,
+      "type": "action",
+      "description": "Water is poured into the measuring jug.",
+      "objects": [
+       "water",
+       "measuring jug"
+      ],
+      "verbs": [
+       "pour",
+       "fill"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "measures the required 300ml of water"
+     },
+     {
+      "event_id": "s2e2",
+      "sub_goal": 2,
+      "type": "sound",
+      "description": "Sound of water running and splashing into the jug.",
+      "objects": [
+       "water",
+       "measuring jug"
+      ],
+      "verbs": [
+       "splash"
+      ],
+      "skills": [
+       "sound_action_binding"
+      ],
+      "relevance": "indicates the jug is being filled"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 3,
+    "events": [
+     {
+      "event_id": "s3e1",
+      "sub_goal": 3,
+      "type": "action",
+      "description": "Water is poured from the measuring jug into the pressure cooker.",
+      "objects": [
+       "water",
+       "measuring jug",
+       "pressure cooker"
+      ],
+      "verbs": [
+       "pour"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "adds the measured water to the cooking vessel"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 4,
+    "events": [
+     {
+      "event_id": "s4e1",
+      "sub_goal": 4,
+      "type": "action",
+      "description": "Lemon juice is squeezed from a lemon half into the pressure cooker.",
+      "objects": [
+       "lemon",
+       "lemon juice",
+       "pressure cooker"
+      ],
+      "verbs": [
+       "squeeze",
+       "extract"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "adds the required lemon juice to the mixture"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 5,
+    "events": [
+     {
+      "event_id": "s5e1",
+      "sub_goal": 5,
+      "type": "action",
+      "description": "The liquid and masala in the pressure cooker are stirred with a spatula.",
+      "objects": [
+       "spatula",
+       "pressure cooker",
+       "masala"
+      ],
+      "verbs": [
+       "stir"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "mixes the newly added water and lemon juice with the base"
+     },
+     {
+      "event_id": "s5e2",
+      "sub_goal": 5,
+      "type": "state",
+      "description": "The stove knob is turned to adjust the heat.",
+      "objects": [
+       "stove knob"
+      ],
+      "verbs": [
+       "turn",
+       "adjust"
+      ],
+      "skills": [
+       "object_state_change",
+       "action_recognition"
+      ],
+      "relevance": "sets the flame to slightly high for frying the rice"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 6,
+    "events": [
+     {
+      "event_id": "s6e1",
+      "sub_goal": 6,
+      "type": "action",
+      "description": "Drained basmati rice is poured from a bowl into the pressure cooker.",
+      "objects": [
+       "basmati rice",
+       "bowl",
+       "pressure cooker"
+      ],
+      "verbs": [
+       "pour",
+       "add"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "introduces the main ingredient to the cooker"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 7,
+    "events": [
+     {
+      "event_id": "s7e1",
+      "sub_goal": 7,
+      "type": "action",
+      "description": "The rice and masala are gently mixed together with a spatula.",
+      "objects": [
+       "basmati rice",
+       "masala",
+       "spatula",
+       "pressure cooker"
+      ],
+      "verbs": [
+       "mix",
+       "stir"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "evenly coats the rice with the cooked masala"
+     },
+     {
+      "event_id": "s7e2",
+      "sub_goal": 7,
+      "type": "sound",
+      "description": "Sizzling and bubbling sound from the pressure cooker.",
+      "objects": [
+       "pressure cooker",
+       "basmati rice"
+      ],
+      "verbs": [
+       "sizzle",
+       "bubble"
+      ],
+      "skills": [
+       "sound_action_binding"
+      ],
+      "relevance": "indicates the rice is frying on the high flame"
+     }
+    ],
+    "irrelevant": ""
+   }
+  ],
+  "relations": [
+   {
+    "rel_id": "r1",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s1e1",
+     "s2e1"
+    ],
+    "ask": "What container is being filled with water?",
+    "answer_hint": "The measuring jug that was placed on the counter in the previous step."
+   },
+   {
+    "rel_id": "r2",
+    "type": "causal_prerequisite",
+    "skill": "causal_prerequisite_reasoning",
+    "events": [
+     "s2e1",
+     "s3e1"
+    ],
+    "ask": "Where did the water being poured into the pressure cooker come from?",
+    "answer_hint": "The measuring jug was just filled with water."
+   },
+   {
+    "rel_id": "r3",
+    "type": "state_change",
+    "skill": "cross_event_integration",
+    "events": [
+     "s3e1",
+     "s4e1"
+    ],
+    "ask": "What liquid is already in the pressure cooker when the lemon is squeezed?",
+    "answer_hint": "Water was poured into the cooker in the immediately preceding step."
+   },
+   {
+    "rel_id": "r4",
+    "type": "hidden_state",
+    "skill": "hidden_state_inference",
+    "events": [
+     "s5e2",
+     "s6e1"
+    ],
+    "ask": "What is the heat level of the stove while the rice is being added?",
+    "answer_hint": "The stove knob was turned to adjust the heat to a slightly high flame just before adding the rice."
+   },
+   {
+    "rel_id": "r5",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s6e1",
+     "s7e1"
+    ],
+    "ask": "What ingredient is being coated with the masala?",
+    "answer_hint": "The drained basmati rice that was just poured into the pressure cooker."
+   }
+  ],
+  "decision_points": [
+   {
+    "idx": 2,
+    "real": true,
+    "why": "The person must decide to transition from preparing the containers to actively filling the jug with the correct amount of water."
+   },
+   {
+    "idx": 3,
+    "real": true,
+    "why": "The person must decide to move the filled jug to the stove and pour it into the cooker."
+   },
+   {
+    "idx": 4,
+    "real": true,
+    "why": "The person must decide to switch ingredients from water to lemon juice."
+   },
+   {
+    "idx": 5,
+    "real": true,
+    "why": "The person must decide to mix the liquids and adjust the stove heat before proceeding to the next ingredient."
+   },
+   {
+    "idx": 6,
+    "real": true,
+    "why": "The person must decide that the liquid base is ready and it is time to add the drained rice."
+   },
+   {
+    "idx": 7,
+    "real": false,
+    "why": "Mixing the rice immediately after adding it is a natural continuation to prevent clumping and ensure even coating, not a new strategic decision."
+   },
+   {
+    "idx": 8,
+    "real": true,
+    "why": "The person must decide that the rice is evenly coated and has fried for the required 2 to 3 minutes, concluding the task."
+   }
+  ]
+ },
+ "warnings": [],
+ "usage": {
+  "tok_in": 1672,
+  "tok_out": 2472,
+  "tok_think": 2432,
+  "model_version": "gemini-3.1-pro-preview",
+  "finish_reason": "FinishReason.STOP"
+ },
+ "status": "ok",
+ "raw_len": 8834
+}

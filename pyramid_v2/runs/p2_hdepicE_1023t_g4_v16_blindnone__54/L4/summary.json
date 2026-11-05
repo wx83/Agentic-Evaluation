@@ -1,0 +1,30 @@
+{
+ "layer": "L4",
+ "stop_reason": "REPLAY_OF:p2_hdepicE_1023t_g4_v16_self__54",
+ "phase": "DONE",
+ "turns": 5,
+ "scored": 5,
+ "correct": 2,
+ "raw_acc": 0.4,
+ "cluster_dedup_acc": 0.4,
+ "followup_items": 0,
+ "by_verdict": {
+  "wrong": 3,
+  "correct": 2
+ },
+ "by_format": {
+  "single_choice": 5
+ },
+ "by_skill": {
+  "goal_conditioned_planning": {
+   "verdict": "not_evaluated",
+   "reason": "no expected-event cluster for this skill on this task (sg mode)"
+  }
+ },
+ "stair": null,
+ "hypotheses": [],
+ "confirmation": null,
+ "not_evaluated": {
+  "goal_conditioned_planning": "no expected-event cluster for this skill on this task (sg mode)"
+ }
+}

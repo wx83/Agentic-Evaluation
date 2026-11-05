@@ -1,0 +1,548 @@
+{
+ "task_id": "P09-20240621-153208__P09_R03_S01",
+ "prompt_hash": "82a2a0a3da",
+ "model": "gcp/google/gemini-3.1-pro-preview",
+ "created": "2026-10-29T21:12:00",
+ "input": {
+  "task_id": "P09-20240621-153208__P09_R03_S01",
+  "goal": "Add the Hibiscus (Zobo) flowers and chopped ginger into a pot a fill with water",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "text": "Retrieve and weigh the ginger"
+   },
+   {
+    "idx": 2,
+    "text": "Rinse the saucepan and fill it with water"
+   },
+   {
+    "idx": 3,
+    "text": "Open the hibiscus flower package and weigh the flowers"
+   },
+   {
+    "idx": 4,
+    "text": "Clear the scale and re-weigh the hibiscus flowers"
+   },
+   {
+    "idx": 5,
+    "text": "Prepare the cutting board and knife"
+   },
+   {
+    "idx": 6,
+    "text": "Add the weighed hibiscus flowers to the saucepan"
+   },
+   {
+    "idx": 7,
+    "text": "Wash, chop, and add the ginger to the saucepan"
+   },
+   {
+    "idx": 8,
+    "text": "Add additional hibiscus flowers from a plastic bag"
+   },
+   {
+    "idx": 9,
+    "text": "Add a second batch of water to the saucepan"
+   },
+   {
+    "idx": 10,
+    "text": "Add a third batch of water to the saucepan"
+   }
+  ],
+  "skills": {
+   "object_recognition": "L1: which object is in hand / being handled at the moment of the event",
+   "spatial_near": "L1: at the moment of the event, which of the listed objects is nearest to a reference object (3D positions from the dataset)",
+   "spatial_side": "L1: at the moment of the event, which listed object is leftmost / rightmost from the wearer's viewpoint",
+   "object_location_at_time": "L1: on which surface / fixture / container an object is put down at the event",
+   "object_grounding": "L1: localise the object of the event in a frame (bounding box)",
+   "action_recognition": "L2: what action (verb + object) the event is",
+   "event_object_role": "L2: which object is acted on, with which tool, to which destination in the event",
+   "action_temporal_order": "L2: the order of two actions shown close together inside one sub-goal",
+   "sound_action_binding": "L2: which action / object produced the sound heard",
+   "object_state_change": "L2: where an object was taken from and where it went in one movement",
+   "sound_movement_binding": "L2: which object movement coincides with the sound",
+   "sound_anchored_spatial_near": "L2: at the moment of a sound, which listed object is nearest to a reference object",
+   "sound_anchored_spatial_side": "L2: at the moment of a sound, which listed object is leftmost / rightmost for the wearer"
+  },
+  "l3_relation_types": {
+   "object_continuity": "the same object / ingredient appears in an event of sub-goal k and an event of the ADJACENT sub-goal k+1; what happened to it between them (chopped broccoli -> in the pan)",
+   "state_change": "how the state of an object differs between the two events (whole -> chopped, empty -> full, raw -> browned)",
+   "causal_prerequisite": "the earlier event is a physical prerequisite of the later one (could not be done without it)",
+   "hidden_state": "an appliance / container state was set in the earlier event and is not visible in the later segment; what is its state at the end of the later segment",
+   "spatial_end_state": "after placements in the two events, which listed object ends nearest / farthest to a reference object (needs 3D records)"
+  },
+  "n_sub_goals": 10
+ },
+ "plan": {
+  "task_id": "P09-20240621-153208__P09_R03_S01",
+  "goal": "Add the Hibiscus (Zobo) flowers and chopped ginger into a pot a fill with water",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "events": [
+     {
+      "event_id": "s1e1",
+      "sub_goal": 1,
+      "type": "placement",
+      "description": "The ginger is placed onto the digital scale.",
+      "objects": [
+       "ginger",
+       "scale"
+      ],
+      "verbs": [
+       "place",
+       "weigh"
+      ],
+      "skills": [
+       "object_recognition",
+       "object_location_at_time",
+       "event_object_role"
+      ],
+      "relevance": "It measures the required amount of ginger for the recipe."
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 2,
+    "events": [
+     {
+      "event_id": "s2e1",
+      "sub_goal": 2,
+      "type": "sound",
+      "description": "Water is heard running from the tap into the saucepan.",
+      "objects": [
+       "water",
+       "saucepan",
+       "tap"
+      ],
+      "verbs": [
+       "run",
+       "fill"
+      ],
+      "skills": [
+       "sound_action_binding",
+       "action_recognition"
+      ],
+      "relevance": "It prepares the saucepan with the liquid base for the drink."
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 3,
+    "events": [
+     {
+      "event_id": "s3e1",
+      "sub_goal": 3,
+      "type": "action",
+      "description": "The package of hibiscus flowers is opened.",
+      "objects": [
+       "package",
+       "hibiscus flowers"
+      ],
+      "verbs": [
+       "open"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "It provides access to the main ingredient."
+     },
+     {
+      "event_id": "s3e2",
+      "sub_goal": 3,
+      "type": "placement",
+      "description": "The hibiscus flowers are placed onto the scale.",
+      "objects": [
+       "hibiscus flowers",
+       "scale"
+      ],
+      "verbs": [
+       "place",
+       "weigh"
+      ],
+      "skills": [
+       "object_location_at_time",
+       "event_object_role"
+      ],
+      "relevance": "It measures the required amount of hibiscus flowers."
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 4,
+    "events": [
+     {
+      "event_id": "s4e1",
+      "sub_goal": 4,
+      "type": "action",
+      "description": "The hibiscus flowers are removed from the scale.",
+      "objects": [
+       "hibiscus flowers",
+       "scale"
+      ],
+      "verbs": [
+       "remove"
+      ],
+      "skills": [
+       "object_state_change",
+       "action_recognition"
+      ],
+      "relevance": "It clears the scale to reset or tare the measurement."
+     },
+     {
+      "event_id": "s4e2",
+      "sub_goal": 4,
+      "type": "placement",
+      "description": "The hibiscus flowers are placed back onto the scale.",
+      "objects": [
+       "hibiscus flowers",
+       "scale"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_location_at_time",
+       "event_object_role"
+      ],
+      "relevance": "It ensures an accurate measurement of the flowers."
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 5,
+    "events": [
+     {
+      "event_id": "s5e1",
+      "sub_goal": 5,
+      "type": "placement",
+      "description": "The cutting board is placed on the counter.",
+      "objects": [
+       "cutting board",
+       "counter"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_location_at_time",
+       "object_recognition"
+      ],
+      "relevance": "It sets up the workspace for chopping."
+     },
+     {
+      "event_id": "s5e2",
+      "sub_goal": 5,
+      "type": "placement",
+      "description": "The knife is placed on the cutting board.",
+      "objects": [
+       "knife",
+       "cutting board"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_location_at_time",
+       "spatial_near"
+      ],
+      "relevance": "It prepares the tool needed to chop the ginger."
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 6,
+    "events": [
+     {
+      "event_id": "s6e1",
+      "sub_goal": 6,
+      "type": "action",
+      "description": "The weighed hibiscus flowers are poured into the saucepan.",
+      "objects": [
+       "hibiscus flowers",
+       "saucepan"
+      ],
+      "verbs": [
+       "pour",
+       "add"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role",
+       "object_state_change"
+      ],
+      "relevance": "It combines the main ingredient with the water."
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 7,
+    "events": [
+     {
+      "event_id": "s7e1",
+      "sub_goal": 7,
+      "type": "action",
+      "description": "The ginger is washed under the running tap.",
+      "objects": [
+       "ginger",
+       "tap",
+       "water"
+      ],
+      "verbs": [
+       "wash"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "It cleans the ginger before processing."
+     },
+     {
+      "event_id": "s7e2",
+      "sub_goal": 7,
+      "type": "sound",
+      "description": "Chopping sounds are heard as the knife cuts the ginger.",
+      "objects": [
+       "ginger",
+       "knife",
+       "cutting board"
+      ],
+      "verbs": [
+       "chop"
+      ],
+      "skills": [
+       "sound_action_binding",
+       "action_recognition"
+      ],
+      "relevance": "It breaks the ginger down to release its flavor."
+     },
+     {
+      "event_id": "s7e3",
+      "sub_goal": 7,
+      "type": "action",
+      "description": "The chopped ginger is transferred into the saucepan.",
+      "objects": [
+       "ginger",
+       "saucepan"
+      ],
+      "verbs": [
+       "transfer",
+       "add"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role",
+       "object_state_change"
+      ],
+      "relevance": "It adds the flavoring ingredient to the pot."
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 8,
+    "events": [
+     {
+      "event_id": "s8e1",
+      "sub_goal": 8,
+      "type": "action",
+      "description": "More hibiscus flowers are poured from a plastic bag into the saucepan.",
+      "objects": [
+       "hibiscus flowers",
+       "plastic bag",
+       "saucepan"
+      ],
+      "verbs": [
+       "pour",
+       "add"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "It increases the concentration of the hibiscus in the pot."
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 9,
+    "events": [
+     {
+      "event_id": "s9e1",
+      "sub_goal": 9,
+      "type": "action",
+      "description": "A second batch of water is poured into the saucepan.",
+      "objects": [
+       "water",
+       "saucepan",
+       "container"
+      ],
+      "verbs": [
+       "pour",
+       "add"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role",
+       "sound_action_binding"
+      ],
+      "relevance": "It adjusts the liquid volume for the recipe."
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 10,
+    "events": [
+     {
+      "event_id": "s10e1",
+      "sub_goal": 10,
+      "type": "action",
+      "description": "A third batch of water is poured into the saucepan.",
+      "objects": [
+       "water",
+       "saucepan",
+       "container"
+      ],
+      "verbs": [
+       "pour",
+       "add"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "It further increases the liquid volume to the desired level."
+     }
+    ],
+    "irrelevant": ""
+   }
+  ],
+  "relations": [
+   {
+    "rel_id": "r1",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s3e2",
+     "s4e1"
+    ],
+    "ask": "What happened to the hibiscus flowers immediately before they were removed from the scale?",
+    "answer_hint": "They were placed on the scale to be weighed initially."
+   },
+   {
+    "rel_id": "r2",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s6e1",
+     "s7e3"
+    ],
+    "ask": "What ingredient is already in the saucepan when the chopped ginger is added?",
+    "answer_hint": "The weighed hibiscus flowers were poured into the saucepan previously."
+   },
+   {
+    "rel_id": "r3",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s7e3",
+     "s8e1"
+    ],
+    "ask": "What was added to the saucepan right before the additional hibiscus flowers from the plastic bag?",
+    "answer_hint": "The chopped ginger was transferred into the saucepan."
+   },
+   {
+    "rel_id": "r4",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s8e1",
+     "s9e1"
+    ],
+    "ask": "What dry ingredients are present in the saucepan when the second batch of water is poured in?",
+    "answer_hint": "Both the chopped ginger and the combined batches of hibiscus flowers are in the pan."
+   },
+   {
+    "rel_id": "r5",
+    "type": "state_change",
+    "skill": "cross_event_integration",
+    "events": [
+     "s9e1",
+     "s10e1"
+    ],
+    "ask": "How does the state of the saucepan change after the third batch of water is added?",
+    "answer_hint": "The water level inside the saucepan increases."
+   }
+  ],
+  "decision_points": [
+   {
+    "idx": 2,
+    "real": true,
+    "why": "The person switches from handling the ginger to preparing the saucepan with water."
+   },
+   {
+    "idx": 3,
+    "real": true,
+    "why": "The person switches from the saucepan to opening and weighing a new ingredient."
+   },
+   {
+    "idx": 4,
+    "real": true,
+    "why": "The person decides to clear the scale and re-weigh, likely to correct a measurement or tare issue."
+   },
+   {
+    "idx": 5,
+    "real": true,
+    "why": "The person moves to set up the prep station for chopping."
+   },
+   {
+    "idx": 6,
+    "real": true,
+    "why": "The person decides it is time to combine the weighed flowers into the main cooking pot."
+   },
+   {
+    "idx": 7,
+    "real": true,
+    "why": "The person shifts focus to processing the ginger (washing and chopping) to add it to the pot."
+   },
+   {
+    "idx": 8,
+    "real": true,
+    "why": "The person evaluates the amount of flowers in the pot and decides to add more directly from the bag."
+   },
+   {
+    "idx": 9,
+    "real": true,
+    "why": "The person evaluates the liquid level and decides to add a second batch of water."
+   },
+   {
+    "idx": 10,
+    "real": false,
+    "why": "This is a continuation of the previous action, simply adding more water to reach the desired volume."
+   },
+   {
+    "idx": 11,
+    "real": true,
+    "why": "The person decides the pot has sufficient ingredients and water, concluding the task."
+   }
+  ]
+ },
+ "warnings": [],
+ "usage": {
+  "tok_in": 1713,
+  "tok_out": 3153,
+  "tok_think": 3517,
+  "model_version": "gemini-3.1-pro-preview",
+  "finish_reason": "FinishReason.STOP"
+ },
+ "status": "ok",
+ "raw_len": 11423
+}

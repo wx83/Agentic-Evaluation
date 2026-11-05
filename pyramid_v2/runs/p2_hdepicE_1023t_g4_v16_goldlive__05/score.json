@@ -1,0 +1,152 @@
+{
+ "run": "p2_hdepicE_1023t_g4_v16_goldlive__05",
+ "layers": {
+  "L1": {
+   "score": 1.475,
+   "mastery": 0.475,
+   "n_skills": 5,
+   "n_converged": 2
+  },
+  "L2": {
+   "score": 2.711,
+   "mastery": 0.711,
+   "n_skills": 8,
+   "n_converged": 5
+  },
+  "L3": {
+   "score": 3.292,
+   "mastery": 0.292,
+   "n_skills": 3,
+   "n_converged": 1
+  },
+  "L4": {
+   "score": 4.75,
+   "mastery": 0.75,
+   "n_skills": 1,
+   "n_converged": 0
+  }
+ },
+ "skills": {
+  "spatial_near": {
+   "layer": "L1",
+   "boundary": 2.0,
+   "score": 1.375,
+   "stop": "exhausted_at_level",
+   "converged": false
+  },
+  "spatial_side": {
+   "layer": "L1",
+   "boundary": 1.5,
+   "score": 1.25,
+   "stop": "exhausted_down",
+   "converged": false
+  },
+  "object_recognition": {
+   "layer": "L1",
+   "boundary": 4.5,
+   "score": 2.0,
+   "stop": "ceiling",
+   "converged": true
+  },
+  "object_location_at_time": {
+   "layer": "L1",
+   "boundary": 3.5,
+   "score": 1.75,
+   "stop": "exhausted_at_level",
+   "converged": false
+  },
+  "object_grounding": {
+   "layer": "L1",
+   "boundary": 0.5,
+   "score": 1.0,
+   "stop": "floor",
+   "converged": true
+  },
+  "sound_action_binding": {
+   "layer": "L2",
+   "boundary": 4.5,
+   "score": 3.0,
+   "stop": "ceiling",
+   "converged": true
+  },
+  "object_state_change": {
+   "layer": "L2",
+   "boundary": 4.5,
+   "score": 3.0,
+   "stop": "ceiling",
+   "converged": true
+  },
+  "action_temporal_order": {
+   "layer": "L2",
+   "boundary": 4.5,
+   "score": 3.0,
+   "stop": "ceiling",
+   "converged": true
+  },
+  "action_recognition": {
+   "layer": "L2",
+   "boundary": 4.5,
+   "score": 3.0,
+   "stop": "ceiling",
+   "converged": true
+  },
+  "event_object_role": {
+   "layer": "L2",
+   "boundary": 4.5,
+   "score": 3.0,
+   "stop": "ceiling",
+   "converged": true
+  },
+  "sound_anchored_spatial_near": {
+   "layer": "L2",
+   "boundary": 2.0,
+   "score": 2.375,
+   "stop": "exhausted_at_level",
+   "converged": false
+  },
+  "sound_anchored_spatial_side": {
+   "layer": "L2",
+   "boundary": 0.5,
+   "score": 2.0,
+   "stop": "exhausted_at_level",
+   "converged": false
+  },
+  "sound_movement_binding": {
+   "layer": "L2",
+   "boundary": 1.75,
+   "score": 2.312,
+   "stop": "exhausted_at_level",
+   "converged": false
+  },
+  "cross_event_integration": {
+   "layer": "L3",
+   "boundary": 2.5,
+   "score": 3.5,
+   "stop": "reversals",
+   "converged": true
+  },
+  "hidden_state_inference": {
+   "layer": "L3",
+   "boundary": 0.5,
+   "score": 3.0,
+   "stop": "exhausted_at_level",
+   "converged": false
+  },
+  "causal_prerequisite_reasoning": {
+   "layer": "L3",
+   "boundary": 2.0,
+   "score": 3.375,
+   "stop": "exhausted_at_level",
+   "converged": false
+  },
+  "goal_conditioned_planning": {
+   "layer": "L4",
+   "boundary": 3.5,
+   "score": 4.75,
+   "stop": "exhausted_at_level",
+   "converged": false
+  }
+ },
+ "pyramid": 2.228,
+ "height": 0
+}

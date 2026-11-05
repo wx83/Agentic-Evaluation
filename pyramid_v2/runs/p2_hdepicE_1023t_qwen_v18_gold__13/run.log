@@ -1,0 +1,12 @@
+[04:22:33]   L3 t01 cross_event_integration          replay(gold) self=correct -> correct (hist n=36)
+[04:26:21]   L3 t02 causal_prerequisite_reasoning    replay(gold) self=wrong   -> correct (hist n=70)
+[04:27:56]   L3 t03 causal_prerequisite_reasoning    replay(gold) self=wrong   -> correct (hist n=70)
+[04:30:56]   L3 t04 cross_event_integration          replay(gold) self=wrong   -> correct (hist n=97)
+[04:32:16]   L3 t05 cross_event_integration          replay(gold) self=correct -> correct (hist n=83)
+[04:32:16] L3: replayed 5 items
+[04:32:46]   L4 t01 goal_conditioned_planning        replay(gold) self=wrong   -> wrong (hist n=37)
+[04:33:08]   L4 t02 goal_conditioned_planning        replay(gold) self=correct -> correct (hist n=19)
+[04:33:29]   L4 t03 goal_conditioned_planning        replay(gold) self=wrong   -> wrong (hist n=49)
+[04:33:56]   L4 t04 goal_conditioned_planning        replay(gold) self=wrong   -> wrong (hist n=66)
+[04:33:56] L4: replayed 4 items
+[04:33:56] replay finished

@@ -1,0 +1,30 @@
+{
+ "layer": "L4",
+ "stop_reason": "REPLAY_OF:p2_hdepicE_1023t_qwen_v18_self__13",
+ "phase": "DONE",
+ "turns": 4,
+ "scored": 4,
+ "correct": 1,
+ "raw_acc": 0.25,
+ "cluster_dedup_acc": 0.25,
+ "followup_items": 0,
+ "by_verdict": {
+  "wrong": 3,
+  "correct": 1
+ },
+ "by_format": {
+  "single_choice": 4
+ },
+ "by_skill": {
+  "goal_conditioned_planning": {
+   "verdict": "not_evaluated",
+   "reason": "no expected-event cluster for this skill on this task (sg mode)"
+  }
+ },
+ "stair": null,
+ "hypotheses": [],
+ "confirmation": null,
+ "not_evaluated": {
+  "goal_conditioned_planning": "no expected-event cluster for this skill on this task (sg mode)"
+ }
+}
