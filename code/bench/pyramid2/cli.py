@@ -1,4 +1,3 @@
-import os
 #!/usr/bin/env python3
 """pyramid2 命令行:dry-run / propose / run / report / preflight / check-joins / audit-leaks / stats。"""
 import argparse, json, sys, collections
@@ -107,22 +106,19 @@ def cmd_propose(a):
 def cmd_preflight(a):
     import requests, nv_gemini as NV
     c = load_contract(a.contract)
-    if NV.BACKEND == "google":      # Google AI Studio: no gateway model list; just probe each model below
-        ids = None
-    else:
-        r = requests.get(f"{NV.BASE_URL}/v1/models", headers={"Authorization": f"Bearer {NV.load_key()}"}, timeout=30)
-        ids = {m["id"] for m in r.json()["data"]}
+    r = requests.get(f"{NV.BASE_URL}/v1/models", headers={"Authorization": f"Bearer {NV.load_key()}"}, timeout=30)
+    ids = {m["id"] for m in r.json()["data"]}
     ok = True
     for k in ("examiner_model", "solver_model", "judge_model"):
         m = c.get(k)
         if not m: continue
         if (k == "examiner_model" and c.get("examiner_backend") == "qwen_http") or (k == "solver_model" and c.get("solver_backend") == "qwen_http"):   # 10-28:本地 Qwen 不在 NVIDIA 模型表里,改探活
             try:
-                requests.get((os.environ.get("QWEN_URL") or c.get("qwen_url", "http://127.0.0.1:8799")) + "/", timeout=5); probe = "OK(qwen_server up)"
+                requests.get(c.get("qwen_url", "http://127.0.0.1:8799") + "/", timeout=5); probe = "OK(qwen_server up)"
             except Exception as e:
                 probe = f"FAIL {type(e).__name__}"; ok = False
             print(f"{k:15s} {m:40s} listed=skipped probe={probe!r}"); continue
-        present = True if ids is None else m in ids
+        present = m in ids
         try:
             text, u = NV.gen("Reply with the single word OK.", model=m, max_tokens=512)
             probe = (text or "").strip()[:20]
@@ -288,7 +284,7 @@ def cmd_sg_dry(a):
                     extra = f" bands {{{', '.join(f'{t}:{len(v)}' for t, v in sg_['bands'].items())}}} knob {sorted(set(k['kind'] for k in sg_['knob'].values()))}" if layer == "L1" else f" tiers {sg_['tiers']}"
                     L.append(f"- sg{sg_['idx']} win {x['window']} events {[e['event_id'] for e in sg_['events']]} anchors {len(sg_['anchor_event'])} core {len(x['core'])}{extra}")
                 elif layer == "L3":
-                    L.append(f"- {sg_['rel_id']} ({sg_.get('rel_source')}) tier {sg_['tier']} sub-goals {sg_.get('idx')} win {x['window']} ({sg_['total_sec']}s, {sg_.get('window_rule')}) in-clip {sg_.get('sub_goals_in_clip')} core {len(x['core'])}")
+                    L.append(f"- {sg_.get('rel_id') or ('ev:' + ','.join(sg_.get('anchor_event', {}).values()))} ({sg_.get('rel_source')}) tier {sg_.get('tier', sg_.get('tiers'))} sub-goals {sg_.get('idx')} win {x['window']} ({sg_.get('total_sec')}s, {sg_.get('window_rule')}) in-clip {sg_.get('sub_goals_in_clip')} core {len(x['core'])}")
                 else:
                     L.append(f"- decision idx {sg_['idx']} win {x['window']} cutoff {x['observation_cutoff']} remaining {sg_['n_remaining']} final={sg_['final']} core {len(x['core'])}")
         L.append("")

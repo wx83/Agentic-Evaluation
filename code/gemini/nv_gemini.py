@@ -32,42 +32,17 @@ r.text=None。要么 thinking_budget=0,要么 max_tokens >= 256。
 """
 import argparse, json, os, sys, time, hashlib
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))   # 让 `import or_gemini` 在任何 cwd 都能找到
 
 BASE_URL = "https://inference-api.nvidia.com"
 MODEL = os.environ.get("NV_GEMINI_MODEL", "gcp/google/gemini-3.1-pro-preview")
-_REPO = Path(__file__).resolve().parent.parent.parent
 KEY_FILES = [Path(os.environ.get("NVIDIA_API_KEY_FILE", "")),
-             _REPO / ".secrets" / "nvidia_key"]
-GOOGLE_KEY_FILES = [Path(os.environ.get("GEMINI_API_KEY_FILE", "")),
-                    _REPO / ".secrets" / "gemini_api_key"]
-# GEMINI_BACKEND: "nv" (default; NVIDIA gateway, model names carry the gcp/google/ prefix)
-#                 "google" (Google AI Studio / generativelanguage API with a plain GEMINI_API_KEY; prefix is stripped)
-BACKEND = os.environ.get("GEMINI_BACKEND", "nv")
-assert BACKEND in ("nv", "google"), f"GEMINI_BACKEND={BACKEND} must be nv or google"
+             Path("/mnt/work_new/weihanxu/holi/.secrets/nvidia_key"),
+             Path("/mnt/work_new/weihanxu/gemini_api_key")]
 _client = None
 
 
-def load_google_key():
-    k = (os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY") or "").strip()
-    for f in GOOGLE_KEY_FILES:
-        if k: break
-        if str(f) and f.is_file():
-            k = f.read_text().strip()
-    if not k:
-        raise RuntimeError(f"Google Gemini key not found: export GEMINI_API_KEY=... or write it to {GOOGLE_KEY_FILES[1]}")
-    return k
-
-
-def resolve_model(model):
-    """Contracts name models the NVIDIA-gateway way (gcp/google/<name>). On the google backend the prefix is dropped."""
-    if BACKEND == "google" and model and model.startswith("gcp/google/"):
-        return model[len("gcp/google/"):]
-    return model
-
-
 def load_key():
-    if BACKEND == "google":
-        return load_google_key()
     k = os.environ.get("NVIDIA_API_KEY", "").strip()
     for f in KEY_FILES:
         if k: break
@@ -86,22 +61,25 @@ def key_kind():
 
 def key_id():
     """key 指纹(sha256 前 8 位),给用量统计用;与 pyramid/gemini_io.key_id 同一算法。"""
+    if os.environ.get("GEMINI_BACKEND") == "openrouter":
+        import or_gemini
+        return or_gemini.key_id()
     return hashlib.sha256(load_key().encode()).hexdigest()[:8]
 
 
 # ---------- 路线 A:google-genai SDK,base_url 指向 NVIDIA ----------
 def client(timeout_ms=120_000):
     global _client
+    if os.environ.get("GEMINI_BACKEND") == "openrouter":      # 11-01:GEMINI_BACKEND=openrouter → 同接口转到 or_gemini(OpenAI 协议 shim)
+        import or_gemini
+        return or_gemini.client()
     if _client is None:
         from google import genai
         from google.genai import types
-        if BACKEND == "google":
-            _client = genai.Client(api_key=load_key(), http_options=types.HttpOptions(timeout=timeout_ms))
-        else:
-            _client = genai.Client(api_key=load_key(),
-                                   http_options=types.HttpOptions(base_url=BASE_URL,
-                                                                  api_version="v1beta",
-                                                                  timeout=timeout_ms))
+        _client = genai.Client(api_key=load_key(),
+                               http_options=types.HttpOptions(base_url=BASE_URL,
+                                                              api_version="v1beta",
+                                                              timeout=timeout_ms))
     return _client
 
 
@@ -111,7 +89,7 @@ def gen(prompt, model=None, system=None, temperature=0.0, max_tokens=1024, json_
     kw = dict(temperature=temperature, max_output_tokens=max_tokens, system_instruction=system)
     if json_mode:
         kw["response_mime_type"] = "application/json"
-    r = client().models.generate_content(model=resolve_model(model or MODEL), contents=prompt,
+    r = client().models.generate_content(model=model or MODEL, contents=prompt,
                                          config=types.GenerateContentConfig(**kw))
     u = getattr(r, "usage_metadata", None)
     g = lambda k: getattr(u, k, None) if u is not None else None

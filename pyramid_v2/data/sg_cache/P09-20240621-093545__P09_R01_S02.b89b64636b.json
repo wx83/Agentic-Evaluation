@@ -1,0 +1,684 @@
+{
+ "task_id": "P09-20240621-093545__P09_R01_S02",
+ "prompt_hash": "b89b64636b",
+ "model": "gcp/google/gemini-3.1-pro-preview",
+ "created": "2026-11-04T20:06:26",
+ "input": {
+  "task_id": "P09-20240621-093545__P09_R01_S02",
+  "goal": "Add the chicken chunks in (they should have been cooked 80%)",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "text": "Retrieve the package of chicken from the fridge"
+   },
+   {
+    "idx": 2,
+    "text": "Rearrange items in the fridge and close the door"
+   },
+   {
+    "idx": 3,
+    "text": "Retrieve the chopping board and knife"
+   },
+   {
+    "idx": 4,
+    "text": "Open the chicken package and extract the chicken breasts"
+   },
+   {
+    "idx": 5,
+    "text": "Wash the whole chicken breasts"
+   },
+   {
+    "idx": 6,
+    "text": "Submerge the chicken breasts in a bowl of water to defrost"
+   },
+   {
+    "idx": 7,
+    "text": "Cut the first chicken breast into chunks"
+   },
+   {
+    "idx": 8,
+    "text": "Cut the second chicken breast into chunks and transfer to a bowl"
+   },
+   {
+    "idx": 9,
+    "text": "Rinse and drain the cut chicken chunks"
+   },
+   {
+    "idx": 10,
+    "text": "Place the chicken chunks in a pot with water"
+   },
+   {
+    "idx": 11,
+    "text": "Boil and stir the chicken chunks"
+   },
+   {
+    "idx": 12,
+    "text": "Drain the boiled chicken chunks using a colander"
+   },
+   {
+    "idx": 13,
+    "text": "Add the cooked chicken chunks to the main dish"
+   }
+  ],
+  "skills": {},
+  "l3_relation_types": {},
+  "n_sub_goals": 13
+ },
+ "plan": {
+  "task_id": "P09-20240621-093545__P09_R01_S02",
+  "goal": "Add the chicken chunks in (they should have been cooked 80%)",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "events": [
+     {
+      "event_id": "s1e1",
+      "sub_goal": 1,
+      "type": "action",
+      "description": "The person takes the package of chicken out of the fridge.",
+      "objects": [
+       "fridge",
+       "chicken package"
+      ],
+      "verbs": [
+       "take"
+      ],
+      "skills": [],
+      "relevance": "Brings the main ingredient to the workspace.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 2,
+    "events": [
+     {
+      "event_id": "s2e1",
+      "sub_goal": 2,
+      "type": "state",
+      "description": "The fridge door is closed.",
+      "objects": [
+       "fridge door"
+      ],
+      "verbs": [
+       "close"
+      ],
+      "skills": [],
+      "relevance": "Secures the fridge after retrieving the ingredient.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": "Rearranging items inside the fridge is incidental to the main goal."
+   },
+   {
+    "idx": 3,
+    "events": [
+     {
+      "event_id": "s3e1",
+      "sub_goal": 3,
+      "type": "placement",
+      "description": "A chopping board is placed on the counter.",
+      "objects": [
+       "chopping board",
+       "counter"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [],
+      "relevance": "Prepares the surface for cutting.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s3e2",
+      "sub_goal": 3,
+      "type": "placement",
+      "description": "A knife is placed next to the chopping board.",
+      "objects": [
+       "knife",
+       "chopping board"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [],
+      "relevance": "Prepares the tool for cutting.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 4,
+    "events": [
+     {
+      "event_id": "s4e1",
+      "sub_goal": 4,
+      "type": "action",
+      "description": "The chicken package is opened.",
+      "objects": [
+       "chicken package"
+      ],
+      "verbs": [
+       "open"
+      ],
+      "skills": [],
+      "relevance": "Accesses the chicken.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s4e2",
+      "sub_goal": 4,
+      "type": "action",
+      "description": "Chicken breasts are pulled out of the package.",
+      "objects": [
+       "chicken breast",
+       "package"
+      ],
+      "verbs": [
+       "pull"
+      ],
+      "skills": [],
+      "relevance": "Extracts the meat for preparation.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 5,
+    "events": [
+     {
+      "event_id": "s5e1",
+      "sub_goal": 5,
+      "type": "sound",
+      "description": "Water is heard running from the tap.",
+      "objects": [
+       "tap",
+       "water"
+      ],
+      "verbs": [
+       "run"
+      ],
+      "skills": [],
+      "relevance": "Indicates washing has started.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s5e2",
+      "sub_goal": 5,
+      "type": "action",
+      "description": "The whole chicken breasts are washed under the running water.",
+      "objects": [
+       "chicken breast",
+       "water"
+      ],
+      "verbs": [
+       "wash"
+      ],
+      "skills": [],
+      "relevance": "Cleans the chicken.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 6,
+    "events": [
+     {
+      "event_id": "s6e1",
+      "sub_goal": 6,
+      "type": "placement",
+      "description": "The chicken breasts are placed into a bowl.",
+      "objects": [
+       "chicken breast",
+       "bowl"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [],
+      "relevance": "Prepares the chicken for defrosting.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s6e2",
+      "sub_goal": 6,
+      "type": "action",
+      "description": "Water is poured into the bowl to submerge the chicken.",
+      "objects": [
+       "water",
+       "bowl",
+       "chicken breast"
+      ],
+      "verbs": [
+       "pour",
+       "submerge"
+      ],
+      "skills": [],
+      "relevance": "Defrosts the chicken.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 7,
+    "events": [
+     {
+      "event_id": "s7e1",
+      "sub_goal": 7,
+      "type": "action",
+      "description": "The knife cuts the first chicken breast into smaller chunks.",
+      "objects": [
+       "knife",
+       "chicken breast",
+       "chunk"
+      ],
+      "verbs": [
+       "cut"
+      ],
+      "skills": [],
+      "relevance": "Processes the meat into the required size.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s7e2",
+      "sub_goal": 7,
+      "type": "sound",
+      "description": "A chopping sound is heard as the knife hits the board.",
+      "objects": [
+       "knife",
+       "chopping board"
+      ],
+      "verbs": [
+       "chop"
+      ],
+      "skills": [],
+      "relevance": "Confirms the cutting action.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 8,
+    "events": [
+     {
+      "event_id": "s8e1",
+      "sub_goal": 8,
+      "type": "action",
+      "description": "The knife cuts the second chicken breast into chunks.",
+      "objects": [
+       "knife",
+       "chicken breast",
+       "chunk"
+      ],
+      "verbs": [
+       "cut"
+      ],
+      "skills": [],
+      "relevance": "Processes the remaining meat.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s8e2",
+      "sub_goal": 8,
+      "type": "placement",
+      "description": "The cut chicken chunks are transferred into a bowl.",
+      "objects": [
+       "chunk",
+       "bowl"
+      ],
+      "verbs": [
+       "transfer"
+      ],
+      "skills": [],
+      "relevance": "Collects the prepared meat.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 9,
+    "events": [
+     {
+      "event_id": "s9e1",
+      "sub_goal": 9,
+      "type": "action",
+      "description": "The chicken chunks are rinsed under the tap.",
+      "objects": [
+       "chunk",
+       "tap",
+       "water"
+      ],
+      "verbs": [
+       "rinse"
+      ],
+      "skills": [],
+      "relevance": "Cleans the cut pieces.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s9e2",
+      "sub_goal": 9,
+      "type": "action",
+      "description": "The water is drained from the bowl of chicken chunks.",
+      "objects": [
+       "water",
+       "bowl",
+       "chunk"
+      ],
+      "verbs": [
+       "drain"
+      ],
+      "skills": [],
+      "relevance": "Removes excess washing water.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 10,
+    "events": [
+     {
+      "event_id": "s10e1",
+      "sub_goal": 10,
+      "type": "placement",
+      "description": "The chicken chunks are placed into a pot.",
+      "objects": [
+       "chunk",
+       "pot"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [],
+      "relevance": "Moves the meat to the cooking vessel.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s10e2",
+      "sub_goal": 10,
+      "type": "action",
+      "description": "Water is added to the pot with the chicken.",
+      "objects": [
+       "water",
+       "pot"
+      ],
+      "verbs": [
+       "add"
+      ],
+      "skills": [],
+      "relevance": "Provides the boiling medium.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 11,
+    "events": [
+     {
+      "event_id": "s11e1",
+      "sub_goal": 11,
+      "type": "state",
+      "description": "The stove burner under the pot is turned on.",
+      "objects": [
+       "stove burner",
+       "pot"
+      ],
+      "verbs": [
+       "turn"
+      ],
+      "skills": [],
+      "relevance": "Applies heat to cook the chicken.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s11e2",
+      "sub_goal": 11,
+      "type": "action",
+      "description": "A utensil stirs the chicken chunks in the boiling water.",
+      "objects": [
+       "utensil",
+       "chunk",
+       "water"
+      ],
+      "verbs": [
+       "stir"
+      ],
+      "skills": [],
+      "relevance": "Ensures even cooking.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s11e3",
+      "sub_goal": 11,
+      "type": "sound",
+      "description": "A bubbling sound is heard from the boiling water.",
+      "objects": [
+       "water"
+      ],
+      "verbs": [
+       "bubble"
+      ],
+      "skills": [],
+      "relevance": "Confirms the water has reached boiling point.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 12,
+    "events": [
+     {
+      "event_id": "s12e1",
+      "sub_goal": 12,
+      "type": "action",
+      "description": "The contents of the pot are poured into a colander.",
+      "objects": [
+       "pot",
+       "colander",
+       "chunk"
+      ],
+      "verbs": [
+       "pour"
+      ],
+      "skills": [],
+      "relevance": "Separates the cooked chicken from the boiling water.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s12e2",
+      "sub_goal": 12,
+      "type": "sound",
+      "description": "Water is heard splashing and draining through the colander.",
+      "objects": [
+       "water",
+       "colander"
+      ],
+      "verbs": [
+       "splash",
+       "drain"
+      ],
+      "skills": [],
+      "relevance": "Confirms the draining process.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 13,
+    "events": [
+     {
+      "event_id": "s13e1",
+      "sub_goal": 13,
+      "type": "action",
+      "description": "The cooked chicken chunks are transferred from the colander to the main dish pan.",
+      "objects": [
+       "chunk",
+       "colander",
+       "pan"
+      ],
+      "verbs": [
+       "transfer"
+      ],
+      "skills": [],
+      "relevance": "Integrates the prepared chicken into the final dish.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s13e2",
+      "sub_goal": 13,
+      "type": "sound",
+      "description": "A sizzling sound starts as the chicken hits the hot pan.",
+      "objects": [
+       "chunk",
+       "pan"
+      ],
+      "verbs": [
+       "sizzle"
+      ],
+      "skills": [],
+      "relevance": "Confirms the chicken is added to the active cooking process.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   }
+  ],
+  "relations": [
+   {
+    "rel_id": "r1",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s4e2",
+     "s5e2"
+    ],
+    "ask": "What is being washed under the water?",
+    "answer_hint": "The chicken breasts that were just extracted from the package."
+   },
+   {
+    "rel_id": "r3",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s7e1",
+     "s8e1"
+    ],
+    "ask": "What is being cut now?",
+    "answer_hint": "The second chicken breast, following the first one."
+   },
+   {
+    "rel_id": "r5",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s11e2",
+     "s12e1"
+    ],
+    "ask": "What is being poured into the colander?",
+    "answer_hint": "The chicken chunks that were just boiling in the pot."
+   },
+   {
+    "rel_id": "r6",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s12e1",
+     "s13e1"
+    ],
+    "ask": "Where do the chicken chunks come from before entering the main dish?",
+    "answer_hint": "They were just drained in the colander."
+   }
+  ],
+  "decision_points": [
+   {
+    "idx": 2,
+    "real": true,
+    "why": "The person must decide to close the fridge and organize it after retrieving the chicken, rather than leaving it open."
+   },
+   {
+    "idx": 3,
+    "real": true,
+    "why": "The person transitions from gathering ingredients to gathering the necessary tools (board and knife) for preparation."
+   },
+   {
+    "idx": 4,
+    "real": true,
+    "why": "The person decides to start processing the chicken by opening the package."
+   },
+   {
+    "idx": 5,
+    "real": true,
+    "why": "The person makes a conscious choice to wash the chicken before proceeding to defrost or cut it."
+   },
+   {
+    "idx": 6,
+    "real": true,
+    "why": "The person decides the chicken needs defrosting and chooses to submerge it in water."
+   },
+   {
+    "idx": 7,
+    "real": true,
+    "why": "The person decides the chicken is ready to be cut and begins chopping the first breast."
+   },
+   {
+    "idx": 8,
+    "real": false,
+    "why": "Cutting the second breast is a direct continuation of cutting the first breast, not a new decision."
+   },
+   {
+    "idx": 9,
+    "real": true,
+    "why": "The person decides to rinse the chunks after cutting, which is a distinct hygiene/prep step."
+   },
+   {
+    "idx": 10,
+    "real": true,
+    "why": "The person transitions from prepping the meat to setting up the cooking process by placing it in a pot."
+   },
+   {
+    "idx": 11,
+    "real": true,
+    "why": "The person decides to apply heat and begin the boiling process."
+   },
+   {
+    "idx": 12,
+    "real": true,
+    "why": "The person must judge that the chicken is 80% cooked and decide to stop the boiling by draining it."
+   },
+   {
+    "idx": 13,
+    "real": true,
+    "why": "The person decides to integrate the partially cooked chicken into the main dish."
+   },
+   {
+    "idx": 14,
+    "real": true,
+    "why": "The person decides the goal of adding the 80% cooked chicken chunks to the main dish is complete."
+   }
+  ]
+ },
+ "warnings": [
+  "relation type 'state_dependency' dropped",
+  "relation type 'cause_effect' dropped"
+ ],
+ "usage": {
+  "tok_in": 1249,
+  "tok_out": 4332,
+  "tok_think": 4008,
+  "model_version": "google/gemini-3.1-pro-preview",
+  "finish_reason": "STOP"
+ },
+ "status": "ok",
+ "raw_len": 15663
+}

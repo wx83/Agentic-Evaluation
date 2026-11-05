@@ -1,5 +1,4 @@
 """Solver:只看 solver_payload + 实际媒体;每题新 session;模型钉死不回退。"""
-import os
 import json, re, time
 import p2config as P
 import media as M
@@ -46,8 +45,20 @@ def build_prompt(payload, mat, history_text=None, plan_mode=None, goal=None, goa
     if payload.get("gap_item"):
         pre += ("Segment 1 ends where a hidden part of the activity begins; segment 2 starts right after the hidden part. "
                 "Work out what happened in between from the state before and after (and from the earlier answers above, if any).\n")
-    if payload.get("observation_cutoff") is not None:
+    if mat and mat.get("image"):                                 # 11-02 v24 L1:单帧
+        pre += "You are shown ONE IMAGE: a single frame from a first-person video of someone working in a kitchen.\n"
+        if fmt == "single_choice":
+            return pre + f"Question: {q}\nOptions:\n" + "\n".join(payload["options"]) + "\n\nSelect the best answer from the options above.\nReply on exactly one line, nothing else:\nAnswer: <A/B/C/D>"
+        if fmt == "short_answer":
+            return pre + f"Question: {q}\n\nReply on exactly one line, nothing else:\nAnswer: <a short phrase>"
+    if mat and "VIDEO_ONLY" in (mat.get("flags") or []):          # 11-04 v30:L2 模态条件
+        pre += "This clip has NO SOUND (the soundtrack was removed on purpose). Answer from what you can see.\n"
+    if mat and "AUDIO_ONLY" in (mat.get("flags") or []):
+        pre += "This clip has NO PICTURE (the video frames are black on purpose); only the original soundtrack is kept. Answer from what you can hear.\n"
+    if payload.get("observation_cutoff") is not None and not (mat and mat.get("image")):
         pre += "The clip ends at the moment you must answer; do not assume what happens afterwards.\n"
+    if fmt == "time_window":                                     # 11-02 v24 L2 4 档:写出事件在 clip 里的起止
+        return pre + f"Question: {q}\n\nReply on exactly one line, nothing else:\nTime: <M:SS>-<M:SS>   (start and end of that moment in clip time, for example 0:07-0:12)"
     if fmt == "single_choice":
         return pre + BP.build(q, payload["options"])
     if fmt == "multi_select":
@@ -72,7 +83,7 @@ def build_prompt(payload, mat, history_text=None, plan_mode=None, goal=None, goa
     raise ValueError(fmt)
 
 
-MAX_TOKENS = {"single_choice": 512, "multi_select": 512, "short_answer": 512, "plan": 1024, "gap_steps": 512, "bbox": 256}   # 3.7-flash 的 thinking 关不掉,输出配额要留给思考
+MAX_TOKENS = {"single_choice": 512, "multi_select": 512, "short_answer": 512, "plan": 1024, "gap_steps": 512, "bbox": 256, "time_window": 256}   # 3.7-flash 的 thinking 关不掉,输出配额要留给思考
 
 
 QWEN_URL = None     # 10-23:contract.solver_backend == "qwen_http" 时由 solve()/solve_blind() 设置(contract.qwen_url,默认 http://127.0.0.1:8765)
@@ -107,7 +118,7 @@ def ask_qwen(media_path, text, max_tokens=96, run_dir=None, meta=None):
 def _backend(contract):
     global QWEN_URL, QWEN_SEND_MEDIA
     if contract.get("solver_backend") == "qwen_http":
-        QWEN_URL = (os.environ.get("QWEN_URL") or contract.get("qwen_url", "http://127.0.0.1:8765")); QWEN_SEND_MEDIA = bool(contract.get("qwen_send_media")); return "qwen_http"
+        QWEN_URL = contract.get("qwen_url", "http://127.0.0.1:8765"); QWEN_SEND_MEDIA = bool(contract.get("qwen_send_media")); return "qwen_http"
     return "gemini"
 
 
@@ -115,7 +126,7 @@ def ask(media_path, text, model, thinking="off", max_tokens=96, run_dir=None, me
     import nv_gemini as NV, logging
     logging.getLogger("google_genai").setLevel(logging.ERROR); logging.getLogger("google_genai.models").setLevel(logging.ERROR)
     from google.genai import types
-    part = types.Part.from_bytes(data=open(media_path, "rb").read(), mime_type="video/mp4")
+    part = types.Part.from_bytes(data=open(media_path, "rb").read(), mime_type=("image/jpeg" if str(media_path).lower().endswith((".jpg", ".jpeg")) else "video/mp4"))   # 11-02 v24:单帧
     kw = dict(temperature=0.0, top_p=0.001, max_output_tokens=max_tokens)
     if "gemini-4" in model:                        # 10-23:Gemini 4 不接受 thinking_budget,只接受 thinking_level;留足输出给思考
         kw["thinking_config"] = types.ThinkingConfig(thinking_level="low"); kw["max_output_tokens"] = max(max_tokens, 4096)
@@ -126,7 +137,7 @@ def ask(media_path, text, model, thinking="off", max_tokens=96, run_dir=None, me
     t0 = time.time(); err = None; text_out = None; u = {}
     for attempt in range(5):
         try:
-            r = NV.client().models.generate_content(model=NV.resolve_model(model), contents=[part, "\n" + text + "\n"],
+            r = NV.client().models.generate_content(model=model, contents=[part, "\n" + text + "\n"],
                                                     config=types.GenerateContentConfig(**kw))
             um = getattr(r, "usage_metadata", None)
             g = lambda k: getattr(um, k, None) if um is not None else None
@@ -217,7 +228,7 @@ def ask_text(text, model, max_tokens=512, run_dir=None, meta=None):
     t0 = time.time(); err = None; out = None; u = {}
     for attempt in range(5):
         try:
-            r = NV.client().models.generate_content(model=NV.resolve_model(model), contents=[text], config=types.GenerateContentConfig(**kw))
+            r = NV.client().models.generate_content(model=model, contents=[text], config=types.GenerateContentConfig(**kw))
             um = getattr(r, "usage_metadata", None); g = lambda k: getattr(um, k, None) if um is not None else None
             u = {"tok_in": g("prompt_token_count"), "tok_out": g("candidates_token_count"), "tok_think": g("thoughts_token_count"),
                  "model_version": getattr(r, "model_version", None)}

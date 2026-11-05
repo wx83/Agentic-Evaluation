@@ -1,5 +1,5 @@
-"""Examiner 调用(system = shared + layer prompt + harness,user = runtime context JSON)、输出校验、Solver 可见载荷。"""
 import os
+"""Examiner 调用(system = shared + layer prompt + harness,user = runtime context JSON)、输出校验、Solver 可见载荷。"""
 import json, re, time
 import p2config as P
 import schema, prompts, media as M
@@ -12,7 +12,6 @@ _PROMPTS = {}
 def _prompts(contract=None):
     """按 contract.prompt_md 取 prompt(缓存按路径);没指定就用 P.MD。"""
     from pathlib import Path as _P
-    import os
     path = os.path.expandvars((contract or {}).get("prompt_md") or str(P.MD))
     if path not in _PROMPTS:
         _PROMPTS[path] = prompts.md_prompts(_P(path))
@@ -48,7 +47,7 @@ def call(system, user_json, model, max_tokens=8192, thinking="default", run_dir=
     t0 = time.time(); err = None; text = None; u = {}
     for attempt in range(5):
         try:
-            r = NV.client().models.generate_content(model=NV.resolve_model(model), contents=user_json, config=types.GenerateContentConfig(**kw))
+            r = NV.client().models.generate_content(model=model, contents=user_json, config=types.GenerateContentConfig(**kw))
             um = getattr(r, "usage_metadata", None)
             g = lambda k: getattr(um, k, None) if um is not None else None
             fin = str(getattr(r, "candidates", None) and r.candidates[0].finish_reason)
@@ -98,11 +97,13 @@ def call_qwen(system, user_json, url, max_tokens=4096, run_dir=None, role="exami
 
 def propose(ctx, layer, contract, run_dir=None, dry_run=False):
     sys_p = prompts.system_prompt(layer, _prompts(contract))
+    if contract.get("prompt_addendum"):                   # 11-01:合约级附加规则(v19:不复述前文、避开已被盲测过滤的题)
+        sys_p = sys_p.rstrip() + "\n\nADDITIONAL RULES (contract):\n" + str(contract["prompt_addendum"]).strip() + "\n"
     user = json.dumps(ctx, ensure_ascii=False)
     if dry_run:
         return {"_dry_run": True, "system_chars": len(sys_p), "user_chars": len(user)}, {}
     if contract.get("examiner_backend") == "qwen_http":
-        text, u = call_qwen(sys_p, user, contract.get("qwen_examiner_url") or (os.environ.get("QWEN_URL") or contract.get("qwen_url", "http://127.0.0.1:8765")), max_tokens=contract.get("examiner_max_tokens", 4096),
+        text, u = call_qwen(sys_p, user, contract.get("qwen_examiner_url") or contract.get("qwen_url", "http://127.0.0.1:8765"), max_tokens=contract.get("examiner_max_tokens", 4096),
                             run_dir=run_dir, role="examiner", meta={"layer": layer, "skill": ctx.get("current_skill"), "phase": ctx.get("phase")})
     else:
         text, u = call(sys_p, user, contract["examiner_model"], max_tokens=contract.get("examiner_max_tokens", 8192),
@@ -177,7 +178,7 @@ def check_output(out, ctx, store):
             errs.append(f"media_id {ref.get('media_id')} != cluster media {c['media_id']}")
             continue
         if c.get("sg"):                                           # 10-28 v15:窗口规则在 sg.checks(段数 / 长度 / 含 event)
-            errs += M.validate_ref(ref, store, cutoff=cutoff, max_windows=max(1, len(c.get("windows") or [])), max_len=None, min_len=(0.9 if c["sg"].get("grounding") else 5.0))
+            errs += M.validate_ref(ref, store, cutoff=cutoff, max_windows=max(1, len(c.get("windows") or [])), max_len=None, min_len=(0.9 if (c["sg"].get("grounding") or c["sg"].get("frame")) else 5.0))
             if c["sg"].get("kind") in ("L1", "L2") and c["observation_cutoff"] is None:      # 程序把 cutoff 填成 clip 末尾(history 截断用),Examiner 不用管
                 ws_ = [w for w in (ref.get("windows") or []) if len(w) == 2]
                 if ws_: pub["observation_cutoff"] = round(max(float(w[1]) for w in ws_), 3)
@@ -218,12 +219,12 @@ def check_output(out, ctx, store):
         if len(set(texts)) < len(texts):
             errs.append("duplicate options")
         for t in texts:
-            if t and t in q and len(t) > 3:
+            if t and len(t) > 3 and re.search(r"(?<![\w])" + re.escape(t) + r"(?![\w])", q):   # 11-04:整词匹配("2 o'clock" 不再命中 "12 o'clock")
                 errs.append(f"option text appears in question: {t!r}")
     elif fmt == "multi_select":
         if not re.fullmatch(r"\s*(?:[A-E]\s*,?\s*)+", str(ref).upper()):
             errs.append("multi_select reference must be letters")
-    elif fmt in ("short_answer", "plan", "gap_steps"):
+    elif fmt in ("short_answer", "plan", "gap_steps", "time_window"):
         if isinstance(ref, str) and len(ref) > 3 and ref.lower() in q:
             errs.append("reference answer appears in question")
     # 绝对秒数泄漏:题面里出现 >= clip 总长(多窗拼接按总长)的秒数

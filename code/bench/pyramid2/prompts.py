@@ -111,7 +111,11 @@ def system_prompt(layer, prompts=None):
     h = HARNESS
     if SG_ON:
         import sg as _SG
-        h = HARNESS.rstrip("\n") + "\n" + _SG.HARNESS_RULES
+        if _SG.V24:
+            import v24 as _V24
+            h = HARNESS.rstrip("\n") + "\n" + _V24.HARNESS_RULES                   # 11-02 v24:四层重排的规则替换 sub-goal 规则
+        else:
+            h = HARNESS.rstrip("\n") + "\n" + _SG.HARNESS_RULES
     return p["shared"] + "\n\n" + p[layer] + "\n" + extra + h
 
 

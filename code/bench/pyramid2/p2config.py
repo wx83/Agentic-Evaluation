@@ -3,10 +3,12 @@ import os, sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-BENCH = HERE.parent                                  # .../agent/bench
+BENCH = HERE.parent                                  # .../code/bench
 PYR = BENCH / "pyramid"
-REPO = Path(os.environ.setdefault("P2_REPO", str(HERE.parent.parent.parent)))   # GitHub bundle root (code/, prompts/, pyramid_v2/, video/)
-os.environ.setdefault("P2_VIDEO_DIR", str(REPO / "video"))
+REPO = Path(os.environ.setdefault("P2_REPO", str(HERE.parent.parent.parent)))   # bundle root (code/, prompts/, pyramid_v2/, hd-epic/, output/)
+os.environ.setdefault("HDEPIC_ROOT", str(REPO / "hd-epic"))
+os.environ.setdefault("P2_POSE_DIR", str(REPO / "output" / "_shared" / "pose"))
+os.environ.setdefault("HDEPIC_ANNOT_ROOT", str(REPO / "hd-epic" / "annotations"))
 GEMINI_DIR = HERE.parent.parent / "gemini"
 for _p in (BENCH, PYR, GEMINI_DIR):
     if str(_p) not in sys.path:
@@ -21,7 +23,7 @@ RUNS = ROOT / "runs"
 MEDIA = ROOT / "media"
 LOGS = ROOT / "logs"
 
-MD = REPO / "prompts" / "1028_prompts_hdepic_e_v16.md"   # draft2:并入 contact-rich / 触觉反馈(10-13);draft1 原件在 1012.md
+MD = REPO / "prompts" / "1104_prompts_hdepic_e_v30.md"   # draft2:并入 contact-rich / 触觉反馈(10-13);draft1 原件在 1012.md
 PROMPT_VERSION = "physical-mental-draft2"
 PROMPT_HEADS = {"shared": "## 2. ", "L1": "## 3. ", "L2": "## 4. ", "L3": "## 5. ", "L4": "## 6. ", "task_context": "## 7. ", "scope": "## 8. ", "tree": "## 9. "}
 OPTIONAL_HEADS = {"task_context", "scope", "tree"}      # tree:1022_prompts_tree.md 的题树 planner(10-22)      # 1014_prompts_egoplan.md 才有;老 prompt 文件没有就跳过
@@ -32,7 +34,7 @@ PROTOCOL_VERSION = "independent-v1"
 CAPMAP_SRC = PYR / "capability_map.json"
 
 # raw_annotations/<alias> -> 真实路径(symlink,不复制)
-SOURCES = {   # only needed by build_data.py (full-dataset ingest); not used by `cli.py run` on the bundled data
+SOURCES = {
     "hdepic": "/mnt/work_new/weihanxu/HD-EPIC/annotations",
     "hdepic_videos": "/mnt/work_new/weihanxu/HD-EPIC/videos",
     "hdepic_gaze": "/mnt/work_new/weihanxu/HD-EPIC/gaze",

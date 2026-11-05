@@ -233,6 +233,9 @@ def active_skills(store, layer, contract):
     for k, m in store.registry["skills"].items():
         if k in enabled and (m["layer"] == layer or layer in m["layer"].split("/")):
             out.append((k, k))
+    if contract.get("layers") == "v24":                       # 11-02 v24:skill -> 层 按 v24.LAYERS_V24,不按 capability_map
+        import v24 as _V24
+        out = [(k, k) for k, L in _V24.LAYERS_V24.items() if L == layer]
     inc = contract.get("include_skills")
     if inc:
         out = [(o, c) for o, c in out if c in inc or o in inc]
@@ -418,7 +421,10 @@ def decide(state, contract):
 def _mapping(store, orig, cap, core):
     if orig in store.capmap["skills"]:
         return capmap.resolve(store.capmap, orig, core)
-    m = store.registry["skills"][orig]
+    m = store.registry["skills"].get(orig)
+    if m is None:                                             # 11-02 v24:v24.py 定义的新 skill(object_box_choice)不在 registry / capability_map 里
+        import v24 as _V24
+        m = {"layer": _V24.LAYERS_V24.get(orig, "L1"), "status": "provisional"}
     return {"original_skill": orig, "capability_layer": m["layer"], "capability_skill": cap,
             "classification_status": m.get("status", "provisional"), "lifecycle": "extension", "relation_operation": None}
 
@@ -446,7 +452,8 @@ def _history_row(state, layer, cand, pair, cluster, hyp, phase, verdict, sol=Non
             "causal_cause_idx": (pri.get("causal") or {}).get("cause_idx") if isinstance(pri.get("causal"), dict) else None,
             "solver_prompt": sol.get("prompt") if sol else None, "history_used": sol.get("history_used") if sol else None,
             **({"sg": {"idx": cluster["sg"].get("idx"), "kind": cluster["sg"].get("kind"), "tier": cluster["sg"].get("tier"), "rel_id": cluster["sg"].get("rel_id"),
-                       "event_id": pri.get("sg_event_id"), "n_segments": cluster["sg"].get("n_segments"),
+                       "event_id": pri.get("sg_event_id"), "n_segments": cluster["sg"].get("n_segments"), "unit": cluster["sg"].get("unit"),
+                       "tree_node": (cluster["sg"].get("tree_node") or {}).get("node_id"), "tree_tier": (cluster["sg"].get("tree_node") or {}).get("tier"), "l4_kind": (cluster["sg"].get("tree_node") or {}).get("l4_kind"),
                        "window_sec": round(sum(float(w[1]) - float(w[0]) for m_ in (pub.get("media_refs") or []) for w in (m_.get("windows") or []) if len(w) == 2), 1)}} if cluster and cluster.get("sg") else {}),
             "selection_reason": out.get("selection_reason"), "ts": time.strftime("%Y-%m-%dT%H:%M:%S"),
             **({"difficulty_level": difficulty.get("level"), "difficulty_format": difficulty.get("format"), "stair_phase": difficulty.get("phase"),
@@ -485,6 +492,85 @@ def seed_items_for(store, cap, clusters, limit=3):
     return out
 
 
+def cl_used_for_ctx(clusters):
+    return clusters[0] if clusters else {}
+
+
+def _lower_facts(run_dir, layer, clusters, contract):
+    """11-02 v21:下层计分题 → 事实列表(fact_id = candidate_id,参考答案文字,是否落在本题 clip 窗口内)。"""
+    cl = clusters[0]; sid = cl.get("sample_id")
+    w = cl.get("window") or [None, None]
+    rows = chain.lower_rows(run_dir, layer, sid)
+    out = []
+    for h in rows:
+        hw = [list(map(float, x)) for m_ in (h.get("media_refs") or []) for x in (m_.get("windows") or []) if len(x) == 2]
+        vis = any(w[0] is not None and a < float(w[1]) and b > float(w[0]) for a, b in hw) if hw else False
+        out.append({"fact_id": h["candidate_id"], "layer": h["layer"], "skill": h["capability_skill"], "sub_goal": (h.get("sg") or {}).get("idx"),
+                    "question": (h.get("question") or "")[:300], "reference_answer": chain.answer_text(h, "gold", "qa"),
+                    "fact_window_sec": [round(min(a for a, _ in hw), 1), round(max(b for _, b in hw), 1)] if hw else None, "visible_in_clip": vis})
+    return out
+
+
+def _necessity(cand, contract, store, run_dir, layer, state, cl_used):
+    """11-02 v20 necessity_filter:返回 (作废 verdict 或 None, 详情)。none 臂:看 clip、不带 history,须答错;gold 臂:看 clip、history = 下层参考答案(陈述句),须答对。各答 1 次。"""
+    import solver as SV, grade as GR
+    det = {}
+    try:
+        from concurrent.futures import ThreadPoolExecutor
+        hist = chain.history_for(run_dir, layer, cl_used["sample_id"], "gold", cap=contract.get("history_cap", 12), exclude_same_answer=contract.get("history_exclude_same_answer", True), current=cand,
+                                 respect_cutoff=contract.get("history_respect_cutoff", False), only_base=contract.get("history_only_base", False), label=contract.get("history_label"),
+                                 select=contract.get("history_select"), per_layer=contract.get("history_per_layer", 8), per_subgoal=contract.get("history_per_subgoal", 6), render=contract.get("history_render", "full"),
+                                 event_ids=([e["event_id"] for e in (cl_used.get("sg") or {}).get("events", [])] if layer != "L4" else None),
+                                 exclude_subgoals=(cl_used.get("sg") or {}).get("history_exclude_subgoals"))
+        def _arm(ht):
+            so = SV.solve(cand, contract, store, run_dir=run_dir, history_text=ht); return so, GR.grade(cand, so, contract, run_dir=run_dir)
+        with ThreadPoolExecutor(max_workers=2) as ex:                         # 11-02(加速):none 臂与 gold 臂并行
+            (sol_n, gr_n), (sol_g, gr_g) = list(ex.map(_arm, [None, hist["text"] if hist else None]))
+        det["none"] = {"verdict": gr_n["verdict"], "parsed": gr_n.get("parsed")}
+        if gr_n["verdict"] == "correct":
+            log(run_dir, f"  {layer} turn {state.turn} necessity: NOT DEPENDENT (none arm correct, {str(gr_n.get('parsed'))[:30]!r}) -> item dropped"); return "not_dependent", det
+        det["gold"] = {"verdict": gr_g["verdict"], "parsed": gr_g.get("parsed"), "n_facts": hist["n"] if hist else 0}
+        if gr_g["verdict"] != "correct":
+            log(run_dir, f"  {layer} turn {state.turn} necessity: UNANSWERABLE WITH FACTS (gold arm {gr_g['verdict']}, {hist['n'] if hist else 0} facts) -> item dropped"); return "unanswerable_with_facts", det
+        req = ((cand.get("output") or {}).get("private") or {}).get("required_facts") or []
+        if contract.get("tree_facts") and req:                                  # 11-02 v21:定点校验 —— 只给 required 的 gold 须对;全量 gold 但 required 换错须错
+            kw = dict(cap=contract.get("history_cap", 12), exclude_same_answer=contract.get("history_exclude_same_answer", True), current=cand, respect_cutoff=contract.get("history_respect_cutoff", False),
+                      only_base=contract.get("history_only_base", False), label=contract.get("history_label"), select=contract.get("history_select"), per_layer=contract.get("history_per_layer", 8),
+                      per_subgoal=contract.get("history_per_subgoal", 6), render=contract.get("history_render", "full"), event_ids=([e["event_id"] for e in (cl_used.get("sg") or {}).get("events", [])] if layer != "L4" else None),
+                      exclude_subgoals=(cl_used.get("sg") or {}).get("history_exclude_subgoals"))
+            h_only = chain.history_for(run_dir, layer, cl_used["sample_id"], "gold", only_ids=req, **kw)
+            h_w = chain.history_for(run_dir, layer, cl_used["sample_id"], "gold", overrides={f: "wrong" for f in req}, **kw)
+            with ThreadPoolExecutor(max_workers=2) as ex:                     # 定点 gold 与定点 wrong 并行
+                (sol_o, gr_o), (sol_w, gr_w) = list(ex.map(_arm, [h_only["text"] if h_only else None, h_w["text"] if h_w else None]))
+            det["gold_targeted"] = {"verdict": gr_o["verdict"], "parsed": gr_o.get("parsed"), "n_facts": h_only["n"] if h_only else 0}
+            if gr_o["verdict"] != "correct":
+                log(run_dir, f"  {layer} turn {state.turn} necessity: REQUIRED FACTS INSUFFICIENT (gold with only {len(req)} required facts -> {gr_o['verdict']}) -> item dropped"); return "facts_insufficient", det
+            det["wrong_targeted"] = {"verdict": gr_w["verdict"], "parsed": gr_w.get("parsed")}
+            if gr_w["verdict"] == "correct":
+                log(run_dir, f"  {layer} turn {state.turn} necessity: NOT SENSITIVE (required facts flipped, still correct) -> item dropped"); return "not_sensitive", det
+            det["required_facts"] = req
+            log(run_dir, f"  {layer} turn {state.turn} necessity: DEPENDENT+TARGETED (none wrong, gold ok, only-required ok, flipped-required wrong; facts {req}) -> kept")
+            return None, det
+        log(run_dir, f"  {layer} turn {state.turn} necessity: DEPENDENT (none wrong, gold correct with {hist['n'] if hist else 0} facts) -> kept")
+        return None, det
+    except Exception as e:
+        log(run_dir, f"  {layer} turn {state.turn} necessity error (item dropped as env_failure, will retry): {str(e)[:120]}"); return "env_failure", {"error": str(e)[:120]}   # 11-02c:校验失败不再默认收录
+
+
+def _blind_guessable(cand, contract, run_dir, layer, state):
+    """11-01 v19 blind_filter:Solver 不看 clip、不带 history 答一次;答对 = 可猜,题作废。失败(API 错)按不可猜处理。"""
+    import solver as SV, grade as GR
+    try:
+        sol = SV.solve_blind(cand, contract, run_dir=run_dir, history_text=None)
+        gr = GR.grade(cand, sol, contract, run_dir=run_dir)
+        ok = gr.get("verdict") == "correct"
+        state._blind_last = {"parsed": gr.get("parsed"), "verdict": gr.get("verdict"), "raw": (sol.get("raw") or "")[:200]}
+        log(run_dir, f"  {layer} turn {state.turn} blind_filter: {('GUESSABLE (marked only)' if contract.get('blind_mark_only') else 'GUESSABLE -> item dropped') if ok else 'not guessable'} (blind answer {str(gr.get('parsed'))[:40]!r})")
+        return ok
+    except Exception as e:
+        log(run_dir, f"  {layer} turn {state.turn} blind_filter error (kept item): {str(e)[:120]}"); return False
+
+
 def run_turn(store, state, contract, run_dir, pair, hyp, clusters, phase, mock=None, node=None, difficulty=None):
     """一轮:build_context -> Examiner -> check(重试一次)-> Solver -> grade -> history。返回 history row。
     node(10-22 题树):本轮只为这个节点出题;history 只带它的子节点;row/cand 记 tree 字段。"""
@@ -507,6 +593,23 @@ def run_turn(store, state, contract, run_dir, pair, hyp, clusters, phase, mock=N
         ctx = CX.strip_for_confirmation(ctx)
     if difficulty:                                     # v8:controller 定本题的档(题型 / 窗长),Examiner 与校验器都看它
         ctx["difficulty"] = difficulty
+    if contract.get("blind_filter"):                       # 11-01 v19:把本 skill 已被盲测过滤掉的题面告诉 Examiner,避免重复出
+        gq = [h["question"] for h in state.history if h["capability_skill"] == pair[1] and h.get("verdict") == "guessable" and h.get("question")]
+        if gq: ctx["blind_rejected_questions"] = gq[-6:]
+    if clusters and (clusters[0].get("sg") or {}).get("tree_node"):                     # 11-02 v22:告诉 Examiner 这道题必须测哪条事实、它依赖哪些子事实
+        tn = clusters[0]["sg"]["tree_node"]
+        ctx["tree_fact"] = {"fact_to_test": tn["fact"], "layer": tn["layer"], "kind": tn.get("kind"), "rel_type": tn.get("rel_type"),
+                            "children": tn.get("children"), "rule": "The item's correct answer must be exactly this fact (reworded as an option); distractors must be plausible alternatives that really occur in this task. "
+                            + ("For L3 / L4 the fact is NOT visible in the clip: the Solver can only know it from the lower-layer facts listed under children." if tn["layer"] in ("L3", "L4") else "")}
+    if contract.get("tree_facts") and layer in ("L2", "L3", "L4") and cl_used_for_ctx(clusters).get("sample_id"):   # 11-02 v21 题树:把本 task 的下层题(事实)连同 id 给 Examiner
+        ctx["lower_layer_facts"] = _lower_facts(run_dir, layer, clusters, contract)
+        ctx["tree_require_hidden"] = bool(contract.get("tree_require_hidden", True))
+    if contract.get("necessity_filter"):                   # 11-02 v20:必需性校验退回的题面 + 原因,告诉 Examiner 换问法 / 换干扰项
+        _why = {"not_dependent": "answerable from the clip alone without the lower-layer facts", "unanswerable_with_facts": "not answerable even with the correct lower-layer facts given",
+                "facts_insufficient": "the listed required_facts alone were not enough to answer it (list the facts it really hinges on)", "not_sensitive": "still answered correctly after the listed required_facts were replaced by wrong ones (it does not really hinge on them)"}
+        rq = [{"question": h["question"], "rejected_because": _why[h["verdict"]], **({"required_facts": h.get("necessity", {}).get("required_facts")} if h.get("necessity") else {})}
+              for h in state.history if h["capability_skill"] == pair[1] and h.get("verdict") in _why and h.get("question")]
+        if rq: ctx["necessity_rejected_questions"] = rq[-6:]
     if contract.get("examiner_backend") == "qwen_http" and not contract.get("sg_mode"):   # 10-28(用户定):Qwen 出题时把输入裁到 ≤ 50k token;落盘的 context 就是 Examiner 看到的
         if layer not in _SYS_TOK:
             _SYS_TOK[layer] = CX.n_tokens(prompts.system_prompt(layer, EX._prompts(contract)))
@@ -535,6 +638,9 @@ def run_turn(store, state, contract, run_dir, pair, hyp, clusters, phase, mock=N
                 if any(x in msg for x in ("429", "404", "RESOURCE_EXHAUSTED", "NOT_FOUND")):
                     break
                 continue
+        tn = (clusters[0].get("sg") or {}).get("tree_node") if clusters else None
+        if tn and isinstance(out.get("private"), dict) and tn.get("child_fact_ids") and layer != "L1":   # 11-02 v22 题树:依赖事实由程序填成子节点题的 candidate_id
+            out["private"]["required_facts"] = list(tn["child_fact_ids"])
         errors = EX.check_output(out, ctx, store)
         if phase == "DIAGNOSIS" and out.get("action") == "BEGIN_CONFIRMATION":
             errors = ["BEGIN_CONFIRMATION is not accepted: the controller decides phase transitions from the frozen budget, "
@@ -556,6 +662,8 @@ def run_turn(store, state, contract, run_dir, pair, hyp, clusters, phase, mock=N
         log(run_dir, f"  {layer} turn {state.turn} examiner output rejected (attempt {attempt+1}): {errors[:3]}")
     cl_used = next((c for c in clusters if c["evidence_cluster_id"] == out.get("evidence_cluster_id")), clusters[0])
     cand = EX.make_candidate(out, ctx, contract, layer, state.turn, u, ph, cl_used, errors)
+    if (cl_used.get("sg") or {}).get("history_exclude_subgoals") and isinstance(cand.get("output", {}).get("private"), dict):   # 11-02 v23b:重放时也要排除隐藏 sub-goal
+        cand["output"]["private"]["history_exclude_subgoals"] = cl_used["sg"]["history_exclude_subgoals"]
     if difficulty: cand["difficulty"] = difficulty
     if cl_used.get("sg") and isinstance((out.get("public") or None), dict) and (cl_used["sg"].get("n_segments") or 1) > 1:   # 10-28 v15:多段拼接给 Solver 的说明(乱序 / 顺序)
         out["public"]["sg_item"] = {"segments": cl_used["sg"]["n_segments"], "shuffled": bool(cl_used["sg"].get("segments_shuffled"))}
@@ -574,16 +682,23 @@ def run_turn(store, state, contract, run_dir, pair, hyp, clusters, phase, mock=N
         state.examiner_errors = 0
         row = _history_row(state, layer, cand, pair, cl_used, hyp, phase, "item_invalid", errors=errors, difficulty=difficulty)
         state.consec_inconclusive = 0
+    elif act in ("PROPOSE_DIAGNOSTIC", "PROPOSE_CONFIRMATION") and contract.get("blind_filter") and (not contract.get("blind_mark_only") or pair[1] in (contract.get("blind_hard_skills") or [])) and not mock and _blind_guessable(cand, contract, run_dir, layer, state):   # 11-03 v25:blind_hard_skills 里的 skill 盲测可猜照旧作废重出
+        state.examiner_errors = 0                            # 11-01 v19:盲测(不看 clip、不带 history)就能答对的题作废:不计分、不动档,记 guessable
+        row = _history_row(state, layer, cand, pair, cl_used, hyp, phase, "guessable", difficulty=difficulty)
+    elif act in ("PROPOSE_DIAGNOSTIC", "PROPOSE_CONFIRMATION") and contract.get("necessity_filter") and layer in contract.get("necessity_layers", ["L1", "L2", "L3", "L4"]) and not mock and cl_used.get("sample_id") and (_nec := _necessity(cand, contract, store, run_dir, layer, state, cl_used))[0] is not None:
+        state.examiner_errors = 0                            # 11-02 v20:none 臂(看 clip 不带 history)答对 = 不依赖下层;gold 臂(history=参考答案)答错 = 给了事实也答不了;两种都作废
+        row = _history_row(state, layer, cand, pair, cl_used, hyp, phase, _nec[0], difficulty=difficulty); row["necessity"] = _nec[1]
     elif act in ("PROPOSE_DIAGNOSTIC", "PROPOSE_CONFIRMATION"):
         state.examiner_errors = 0
         hist = None; gr_pre = None
-        if contract.get("history_mode") in ("self", "gold") and cl_used.get("sample_id"):
+        if contract.get("history_mode") in ("self", "gold", "wrong") and cl_used.get("sample_id"):
             only = node["depends_on"] if (node and contract.get("history_scope") == "tree") else None     # 10-22 题树:只带子节点
             hist = chain.history_for(run_dir, layer, cl_used["sample_id"], contract["history_mode"], cap=contract.get("history_cap", 12),
                                      exclude_same_answer=contract.get("history_exclude_same_answer", True), current=cand,
                                      respect_cutoff=contract.get("history_respect_cutoff", False), only_scope_ids=only, only_base=contract.get("history_only_base", False),
                                      label=contract.get("history_label"), select=contract.get("history_select"), per_layer=contract.get("history_per_layer", 8),
                                      per_subgoal=contract.get("history_per_subgoal", 6), render=contract.get("history_render", "full"),
+                                     exclude_subgoals=(cl_used.get("sg") or {}).get("history_exclude_subgoals"),
                                      event_ids=([e["event_id"] for e in (cl_used.get("sg") or {}).get("events", [])] if layer != "L4" else None))
         try:
             n_rep = int(contract.get("solver_reps", 1))
@@ -604,6 +719,9 @@ def run_turn(store, state, contract, run_dir, pair, hyp, clusters, phase, mock=N
             return row
         gr = gr_pre or (mock.grade(cand, sol) if mock else GR.grade(cand, sol, contract, run_dir=run_dir))
         row = _history_row(state, layer, cand, pair, cl_used, hyp, phase, gr["verdict"], sol=sol, gr=gr, difficulty=difficulty)
+        if contract.get("blind_filter") and contract.get("blind_mark_only") and not mock and pair[1] not in (contract.get("blind_hard_skills") or []):          # 11-02 v24(用户定):盲测只标记不作废;v25 硬过滤 skill 已在上面盲测过
+            row["blind_guessable"] = _blind_guessable(cand, contract, run_dir, layer, state); row["blind"] = getattr(state, "_blind_last", None)
+        if contract.get("necessity_filter") and "_nec" in dir() and _nec[1]: row["necessity"] = _nec[1]
         if sol.get("reps"): row["reps"] = sol["reps"]
         state.consec_inconclusive = 0; state.unresolved_by_skill[cap] = 0
     elif act == "REQUEST_VERIFICATION":
@@ -693,6 +811,11 @@ def run_layer(store, state, contract, run_dir, mock=None):
     if contract.get("include_skills") and not state.skills:
         state.stop_reason = "SKIPPED_BY_CONTRACT"; state.phase = "DONE"; state.save(); write_summary(state, contract)
         log(run_dir, f"{layer}: SKIPPED_BY_CONTRACT (no include_skills in this layer)"); return
+    if contract.get("tree_mode"):                                            # 11-02 v22:自上而下题树
+        import tree22
+        if not hasattr(state, "stair") or state.stair is None: state.stair = {}
+        tree22.run_tree_layer(store, state, contract, run_dir, run_turn=run_turn, log=log, mock=mock)
+        write_summary(state, contract); return
     if contract.get("difficulty_mode") == "staircase":                      # v8
         ST.run_layer(store, state, contract, run_dir, run_turn=run_turn, log=log, rank=_rank, mock=mock)
         write_summary(state, contract); return
@@ -775,6 +898,8 @@ def run(contract, levels=None, mock=None):
     global _SCOPE_BY_TASK, _SG_PLAN
     _SCOPE_BY_TASK = None; _SG_PLAN = None
     prompts.SG_ON = bool(contract.get("sg_mode"))
+    SG.V24 = contract.get("layers") == "v24"                     # 11-02 v24
+    import store as _ST; _ST.ACCEPT_SOURCES.update(contract.get("accept_unverified_sources") or [])      # 11-03 v29:必须在 sg planner 匹配之前放行 needs_verification 记录(AEA 全是),否则 event 全部 unmatched
     if contract.get("sg_mode"):                                   # 10-28 v15:goal -> 期望 event 的 planner(每 task 一次,缓存)
         tids = [contract["task_sample_id"]] if contract.get("task_sample_id") else SC.task_ids_for(store, contract)
         _SG_PLAN = SG.ensure(contract, store, run_dir, task_ids=tids)

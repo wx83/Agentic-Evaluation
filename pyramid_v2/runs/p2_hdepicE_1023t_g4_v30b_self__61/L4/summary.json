@@ -1,0 +1,133 @@
+{
+ "layer": "L4",
+ "stop_reason": "STAIRCASE_COMPLETE",
+ "phase": "DONE",
+ "turns": 5,
+ "scored": 4,
+ "correct": 3,
+ "raw_acc": 0.75,
+ "cluster_dedup_acc": 0.75,
+ "followup_items": 0,
+ "by_verdict": {
+  "guessable": 1,
+  "correct": 3,
+  "wrong": 1
+ },
+ "by_format": {
+  "single_choice": 3,
+  "plan": 1
+ },
+ "by_skill": {
+  "goal_conditioned_planning": {
+   "verdict": "boundary 2.25",
+   "scored": 4,
+   "correct": 3,
+   "clusters": 4,
+   "staircase": {
+    "boundary": 2.25,
+    "stop": "exhausted_at_level",
+    "unconverged": true,
+    "phase": "done",
+    "levels_tested": [
+     2,
+     3
+    ],
+    "per_level": {
+     "2": "3/3",
+     "3": "0/1"
+    },
+    "n_search": 4,
+    "n_reused_events": 1,
+    "trace": [
+     {
+      "turn": 2,
+      "level": 2,
+      "verdict": "correct",
+      "reused": true
+     },
+     {
+      "turn": 3,
+      "level": 2,
+      "verdict": "correct",
+      "reused": false
+     },
+     {
+      "turn": 4,
+      "level": 3,
+      "verdict": "wrong",
+      "reused": false
+     },
+     {
+      "turn": 5,
+      "level": 2,
+      "verdict": "correct",
+      "reused": false
+     }
+    ],
+    "reversal_levels": [
+     3
+    ],
+    "verify": [],
+    "boundary_confirmed": null
+   },
+   "turns": [
+    2,
+    3,
+    4,
+    5
+   ]
+  }
+ },
+ "stair": {
+  "goal_conditioned_planning": {
+   "boundary": 2.25,
+   "stop": "exhausted_at_level",
+   "unconverged": true,
+   "phase": "done",
+   "levels_tested": [
+    2,
+    3
+   ],
+   "per_level": {
+    "2": "3/3",
+    "3": "0/1"
+   },
+   "n_search": 4,
+   "n_reused_events": 1,
+   "trace": [
+    {
+     "turn": 2,
+     "level": 2,
+     "verdict": "correct",
+     "reused": true
+    },
+    {
+     "turn": 3,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    },
+    {
+     "turn": 4,
+     "level": 3,
+     "verdict": "wrong",
+     "reused": false
+    },
+    {
+     "turn": 5,
+     "level": 2,
+     "verdict": "correct",
+     "reused": false
+    }
+   ],
+   "reversal_levels": [
+    3
+   ],
+   "verify": [],
+   "boundary_confirmed": null
+  }
+ },
+ "hypotheses": [],
+ "confirmation": null,
+ "not_evaluated": {}
+}

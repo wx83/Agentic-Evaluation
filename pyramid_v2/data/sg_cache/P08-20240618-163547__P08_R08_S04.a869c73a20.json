@@ -1,0 +1,717 @@
+{
+ "task_id": "P08-20240618-163547__P08_R08_S04",
+ "prompt_hash": "a869c73a20",
+ "model": "gcp/google/gemini-3.1-pro-preview",
+ "created": "2026-11-04T20:07:43",
+ "input": {
+  "task_id": "P08-20240618-163547__P08_R08_S04",
+  "goal": "Add the carrot, celery, bell peppers, and mushrooms and cook for a further 2-3 minutes.",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "text": "Retrieve, wash, and dry the celery"
+   },
+   {
+    "idx": 2,
+    "text": "Trim and weigh the celery"
+   },
+   {
+    "idx": 3,
+    "text": "Chop the celery and transfer to the bowl"
+   },
+   {
+    "idx": 4,
+    "text": "Peel and trim the carrots"
+   },
+   {
+    "idx": 5,
+    "text": "Dice the first half of the carrot"
+   },
+   {
+    "idx": 6,
+    "text": "Dice the second half of the carrot and transfer to the bowl"
+   },
+   {
+    "idx": 7,
+    "text": "Chop the first pieces of bell pepper and transfer to the bowl"
+   },
+   {
+    "idx": 8,
+    "text": "Chop the remaining bell pepper and transfer to the bowl"
+   },
+   {
+    "idx": 9,
+    "text": "Store leftover vegetables in the refrigerator"
+   },
+   {
+    "idx": 10,
+    "text": "Weigh and wash the mushrooms"
+   },
+   {
+    "idx": 11,
+    "text": "Dry the mushrooms with paper towels"
+   },
+   {
+    "idx": 12,
+    "text": "Slice the first batch of mushrooms"
+   },
+   {
+    "idx": 13,
+    "text": "Slice the remaining mushrooms and transfer to the bowl"
+   },
+   {
+    "idx": 14,
+    "text": "Clean up the cutting board and discard trash"
+   }
+  ],
+  "skills": {},
+  "l3_relation_types": {},
+  "n_sub_goals": 14
+ },
+ "plan": {
+  "task_id": "P08-20240618-163547__P08_R08_S04",
+  "goal": "Add the carrot, celery, bell peppers, and mushrooms and cook for a further 2-3 minutes.",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "events": [
+     {
+      "event_id": "s1e1",
+      "sub_goal": 1,
+      "type": "action",
+      "description": "The person washes the celery under running water.",
+      "objects": [
+       "celery",
+       "water",
+       "sink"
+      ],
+      "verbs": [
+       "wash"
+      ],
+      "skills": [],
+      "relevance": "Cleans the celery before preparation.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s1e2",
+      "sub_goal": 1,
+      "type": "sound",
+      "description": "Water runs from the faucet.",
+      "objects": [
+       "water",
+       "faucet"
+      ],
+      "verbs": [
+       "run"
+      ],
+      "skills": [],
+      "relevance": "Indicates the washing process is active.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s1e3",
+      "sub_goal": 1,
+      "type": "action",
+      "description": "The person dries the celery with a towel.",
+      "objects": [
+       "celery",
+       "towel"
+      ],
+      "verbs": [
+       "dry"
+      ],
+      "skills": [],
+      "relevance": "Removes excess moisture before cutting.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 2,
+    "events": [
+     {
+      "event_id": "s2e1",
+      "sub_goal": 2,
+      "type": "action",
+      "description": "The person cuts the ends off the celery.",
+      "objects": [
+       "celery",
+       "knife",
+       "cutting board"
+      ],
+      "verbs": [
+       "cut",
+       "trim"
+      ],
+      "skills": [],
+      "relevance": "Removes the inedible parts of the vegetable.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s2e2",
+      "sub_goal": 2,
+      "type": "placement",
+      "description": "The celery is placed onto the kitchen scale.",
+      "objects": [
+       "celery",
+       "scale"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [],
+      "relevance": "Measures the correct amount of celery needed.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 3,
+    "events": [
+     {
+      "event_id": "s3e1",
+      "sub_goal": 3,
+      "type": "action",
+      "description": "The person chops the celery into small pieces.",
+      "objects": [
+       "celery",
+       "knife"
+      ],
+      "verbs": [
+       "chop"
+      ],
+      "skills": [],
+      "relevance": "Processes the celery to the desired size.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s3e2",
+      "sub_goal": 3,
+      "type": "sound",
+      "description": "A rhythmic chopping sound is heard.",
+      "objects": [
+       "knife",
+       "cutting board"
+      ],
+      "verbs": [
+       "chop"
+      ],
+      "skills": [],
+      "relevance": "Indicates the chopping action.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s3e3",
+      "sub_goal": 3,
+      "type": "placement",
+      "description": "The chopped celery is transferred into a bowl.",
+      "objects": [
+       "celery",
+       "bowl"
+      ],
+      "verbs": [
+       "transfer"
+      ],
+      "skills": [],
+      "relevance": "Collects the prepared ingredient.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 4,
+    "events": [
+     {
+      "event_id": "s4e1",
+      "sub_goal": 4,
+      "type": "action",
+      "description": "The person peels the carrots with a peeler.",
+      "objects": [
+       "carrot",
+       "peeler"
+      ],
+      "verbs": [
+       "peel"
+      ],
+      "skills": [],
+      "relevance": "Removes the outer skin of the carrots.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s4e2",
+      "sub_goal": 4,
+      "type": "action",
+      "description": "The person trims the ends of the carrots.",
+      "objects": [
+       "carrot",
+       "knife"
+      ],
+      "verbs": [
+       "trim"
+      ],
+      "skills": [],
+      "relevance": "Removes the inedible tips.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 5,
+    "events": [
+     {
+      "event_id": "s5e1",
+      "sub_goal": 5,
+      "type": "action",
+      "description": "The person cuts the first half of the carrot into dice.",
+      "objects": [
+       "carrot",
+       "knife"
+      ],
+      "verbs": [
+       "cut",
+       "dice"
+      ],
+      "skills": [],
+      "relevance": "Processes the carrot to the desired size.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 6,
+    "events": [
+     {
+      "event_id": "s6e1",
+      "sub_goal": 6,
+      "type": "action",
+      "description": "The person dices the remaining half of the carrot.",
+      "objects": [
+       "carrot",
+       "knife"
+      ],
+      "verbs": [
+       "dice"
+      ],
+      "skills": [],
+      "relevance": "Finishes processing the carrot.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s6e2",
+      "sub_goal": 6,
+      "type": "placement",
+      "description": "The diced carrots are moved into the bowl.",
+      "objects": [
+       "carrot",
+       "bowl"
+      ],
+      "verbs": [
+       "move"
+      ],
+      "skills": [],
+      "relevance": "Collects the prepared ingredient.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 7,
+    "events": [
+     {
+      "event_id": "s7e1",
+      "sub_goal": 7,
+      "type": "action",
+      "description": "The person chops pieces of bell pepper.",
+      "objects": [
+       "bell pepper",
+       "knife"
+      ],
+      "verbs": [
+       "chop"
+      ],
+      "skills": [],
+      "relevance": "Processes the bell pepper.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s7e2",
+      "sub_goal": 7,
+      "type": "placement",
+      "description": "The chopped bell pepper is transferred to the bowl.",
+      "objects": [
+       "bell pepper",
+       "bowl"
+      ],
+      "verbs": [
+       "transfer"
+      ],
+      "skills": [],
+      "relevance": "Collects the prepared ingredient.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 8,
+    "events": [
+     {
+      "event_id": "s8e1",
+      "sub_goal": 8,
+      "type": "action",
+      "description": "The person chops the rest of the bell pepper.",
+      "objects": [
+       "bell pepper",
+       "knife"
+      ],
+      "verbs": [
+       "chop"
+      ],
+      "skills": [],
+      "relevance": "Finishes processing the bell pepper.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s8e2",
+      "sub_goal": 8,
+      "type": "placement",
+      "description": "The remaining chopped bell pepper is moved to the bowl.",
+      "objects": [
+       "bell pepper",
+       "bowl"
+      ],
+      "verbs": [
+       "move"
+      ],
+      "skills": [],
+      "relevance": "Collects the prepared ingredient.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 9,
+    "events": [
+     {
+      "event_id": "s9e1",
+      "sub_goal": 9,
+      "type": "action",
+      "description": "The person places leftover vegetables into the refrigerator.",
+      "objects": [
+       "vegetables",
+       "refrigerator"
+      ],
+      "verbs": [
+       "place",
+       "store"
+      ],
+      "skills": [],
+      "relevance": "Preserves unused ingredients.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 10,
+    "events": [
+     {
+      "event_id": "s10e1",
+      "sub_goal": 10,
+      "type": "placement",
+      "description": "The mushrooms are placed on the scale.",
+      "objects": [
+       "mushroom",
+       "scale"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [],
+      "relevance": "Measures the required amount.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s10e2",
+      "sub_goal": 10,
+      "type": "action",
+      "description": "The person washes the mushrooms under water.",
+      "objects": [
+       "mushroom",
+       "water"
+      ],
+      "verbs": [
+       "wash"
+      ],
+      "skills": [],
+      "relevance": "Cleans the mushrooms.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 11,
+    "events": [
+     {
+      "event_id": "s11e1",
+      "sub_goal": 11,
+      "type": "action",
+      "description": "The person wipes the mushrooms dry with paper towels.",
+      "objects": [
+       "mushroom",
+       "paper towel"
+      ],
+      "verbs": [
+       "wipe",
+       "dry"
+      ],
+      "skills": [],
+      "relevance": "Removes excess moisture.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 12,
+    "events": [
+     {
+      "event_id": "s12e1",
+      "sub_goal": 12,
+      "type": "action",
+      "description": "The person cuts the first batch of mushrooms into slices.",
+      "objects": [
+       "mushroom",
+       "knife"
+      ],
+      "verbs": [
+       "cut",
+       "slice"
+      ],
+      "skills": [],
+      "relevance": "Processes the mushrooms.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 13,
+    "events": [
+     {
+      "event_id": "s13e1",
+      "sub_goal": 13,
+      "type": "action",
+      "description": "The person slices the remaining mushrooms.",
+      "objects": [
+       "mushroom",
+       "knife"
+      ],
+      "verbs": [
+       "slice"
+      ],
+      "skills": [],
+      "relevance": "Finishes processing the mushrooms.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s13e2",
+      "sub_goal": 13,
+      "type": "placement",
+      "description": "The sliced mushrooms are transferred to the bowl.",
+      "objects": [
+       "mushroom",
+       "bowl"
+      ],
+      "verbs": [
+       "transfer"
+      ],
+      "skills": [],
+      "relevance": "Collects the prepared ingredient.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 14,
+    "events": [
+     {
+      "event_id": "s14e1",
+      "sub_goal": 14,
+      "type": "action",
+      "description": "The person wipes the cutting board clean.",
+      "objects": [
+       "cutting board",
+       "cloth"
+      ],
+      "verbs": [
+       "wipe",
+       "clean"
+      ],
+      "skills": [],
+      "relevance": "Maintains a clean workspace.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s14e2",
+      "sub_goal": 14,
+      "type": "action",
+      "description": "The person throws vegetable scraps into the trash.",
+      "objects": [
+       "scraps",
+       "trash can"
+      ],
+      "verbs": [
+       "throw",
+       "discard"
+      ],
+      "skills": [],
+      "relevance": "Disposes of waste.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   }
+  ],
+  "relations": [
+   {
+    "rel_id": "r1",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s1e3",
+     "s2e1"
+    ],
+    "ask": "What is being trimmed?",
+    "answer_hint": "The celery that was just washed and dried."
+   },
+   {
+    "rel_id": "r3",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s5e1",
+     "s6e1"
+    ],
+    "ask": "What is being diced now?",
+    "answer_hint": "The remaining half of the carrot from the previous step."
+   },
+   {
+    "rel_id": "r4",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s7e1",
+     "s8e1"
+    ],
+    "ask": "What is being chopped?",
+    "answer_hint": "The rest of the bell pepper that was started in the previous step."
+   },
+   {
+    "rel_id": "r6",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s12e1",
+     "s13e1"
+    ],
+    "ask": "What is being sliced?",
+    "answer_hint": "The remaining batch of mushrooms."
+   }
+  ],
+  "decision_points": [
+   {
+    "idx": 2,
+    "real": true,
+    "why": "Moving from washing to trimming and weighing is a new phase of preparation."
+   },
+   {
+    "idx": 3,
+    "real": true,
+    "why": "Moving from weighing to chopping requires a change in tools and action."
+   },
+   {
+    "idx": 4,
+    "real": true,
+    "why": "Switching from preparing celery to preparing carrots."
+   },
+   {
+    "idx": 5,
+    "real": true,
+    "why": "Moving from peeling and trimming to dicing the carrot."
+   },
+   {
+    "idx": 6,
+    "real": false,
+    "why": "Simply continuing to dice the remaining half of the same carrot."
+   },
+   {
+    "idx": 7,
+    "real": true,
+    "why": "Switching from preparing carrots to preparing bell peppers."
+   },
+   {
+    "idx": 8,
+    "real": false,
+    "why": "Simply continuing to chop the remaining bell pepper."
+   },
+   {
+    "idx": 9,
+    "real": true,
+    "why": "Stopping active preparation to store leftover vegetables in the refrigerator."
+   },
+   {
+    "idx": 10,
+    "real": true,
+    "why": "Starting preparation for a new vegetable, mushrooms."
+   },
+   {
+    "idx": 11,
+    "real": true,
+    "why": "Moving from washing the mushrooms to drying them."
+   },
+   {
+    "idx": 12,
+    "real": true,
+    "why": "Moving from drying the mushrooms to slicing them."
+   },
+   {
+    "idx": 13,
+    "real": false,
+    "why": "Simply continuing to slice the remaining mushrooms."
+   },
+   {
+    "idx": 14,
+    "real": true,
+    "why": "Finishing vegetable preparation and starting the cleanup process."
+   },
+   {
+    "idx": 15,
+    "real": true,
+    "why": "The preparation task is complete, requiring a decision on the next major step, such as cooking."
+   }
+  ]
+ },
+ "warnings": [
+  "relation type 'state_dependency' dropped",
+  "relation type 'state_dependency' dropped"
+ ],
+ "usage": {
+  "tok_in": 1268,
+  "tok_out": 4314,
+  "tok_think": 3783,
+  "model_version": "google/gemini-3.1-pro-preview",
+  "finish_reason": "STOP"
+ },
+ "status": "ok",
+ "raw_len": 15490
+}
