@@ -1,3 +1,5 @@
+> **scope_planner/ (2026-11-05)** — the standalone expected-event planner (pyramid2 `sg.py` planner, 11-03 version) with its prompt, two worked examples and a reference copy of `sg.py`; copied from branch `scope-planner`. See [scope_planner/README.md](scope_planner/README.md).
+
 # Agentic Evaluation — pyramid2 on HD-EPIC Method E · branch `qwen-solver`
 
 Same benchmark code as branch `gemini-solver` (read that README first for the benchmark itself: layers, skills, tiers, arms, scoring,

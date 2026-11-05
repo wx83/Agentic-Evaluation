@@ -1,0 +1,51 @@
+{
+ "task_id": "loc1_script1_seq6_rec1__s0",
+ "goal": "Wash and eat a strawberry",
+ "sub_goals": [
+  {
+   "idx": 1,
+   "text": "Take the strawberry container from the fridge."
+  },
+  {
+   "idx": 2,
+   "text": "Open the container and take out a strawberry."
+  },
+  {
+   "idx": 3,
+   "text": "Wash the strawberry in the sink."
+  },
+  {
+   "idx": 4,
+   "text": "Throw the strawberry stem into the trash."
+  },
+  {
+   "idx": 5,
+   "text": "Put the strawberry container back into the fridge."
+  },
+  {
+   "idx": 6,
+   "text": "Dry hands with a paper towel."
+  }
+ ],
+ "skills": {
+  "object_recognition": "L1: which object is in hand / being handled at the moment of the event",
+  "action_recognition": "L2: what action (verb + object) the event is",
+  "event_object_role": "L2: which object is acted on, with which tool, to which destination in the event",
+  "action_temporal_order": "L2: the order of two actions shown close together inside one sub-goal",
+  "sound_action_binding": "L2: which action / object produced the sound heard",
+  "sound_movement_binding": "L2: which object movement coincides with the sound",
+  "spatial_near": "L1: at the moment of the event, which of the listed objects is nearest to a reference object (3D positions from the dataset)",
+  "spatial_side": "L1: at the moment of the event, which listed object is leftmost / rightmost from the wearer's viewpoint",
+  "sound_anchored_spatial_near": "L2: at the moment of a sound, which listed object is nearest to a reference object",
+  "sound_anchored_spatial_side": "L2: at the moment of a sound, which listed object is leftmost / rightmost for the wearer",
+  "object_location_at_time": "L1: on which surface / fixture / container an object is put down at the event",
+  "object_state_change": "L2: where an object was taken from and where it went in one movement"
+ },
+ "l3_relation_types": {
+  "object_continuity": "the same object / ingredient appears in an event of sub-goal k and an event of the ADJACENT sub-goal k+1; what happened to it between them (chopped broccoli -> in the pan)",
+  "state_change": "how the state of an object differs between the two events (whole -> chopped, empty -> full, raw -> browned)",
+  "causal_prerequisite": "the earlier event is a physical prerequisite of the later one (could not be done without it)",
+  "hidden_state": "an appliance / container state was set in the earlier event and is not visible in the later segment; what is its state at the end of the later segment"
+ },
+ "n_sub_goals": 6
+}
