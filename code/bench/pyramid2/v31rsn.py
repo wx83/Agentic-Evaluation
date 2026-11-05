@@ -21,7 +21,7 @@ SKILL_DEFS = {
     "object_identity_continuity": "L3 (identity through time): is the object used at the later event the same instance as at the earlier event / how many times was it put down in between",
 }
 MAX_CLIP, PRE, POST, PER_SKILL = 60.0, 5.0, 2.0, 12
-MIN_GAP, MIN_DISP, DIR_MARGIN, FIX_DELTA = 8.0, 0.15, 20.0, 0.2      # 11-04 晚:61/62/63 的移动几乎全是 counter 内 < 0.3 m,阈值放到 0.15 m / 余量 20°
+MIN_GAP, MIN_DISP, DIR_MARGIN, FIX_DELTA = 8.0, 0.3, 15.0, 0.3        # 11-04 晚(用户定,不 tailor):按标注精度定阈值 —— mask 3D 锚点误差 ~0.05–0.1 m,位移 / 距离变化 ≥ 0.3 m 才可信;方向余量 ≥ 15°(与 v26 一致);出不了题的 task 报 NOT_EVALUATED
 HAND = "in the camera wearer's hand"
 DIRS = ["ahead of you", "to your left", "behind you", "to your right"]
 CF = ["closer to it", "farther from it", "about the same distance", "it was not moved"]

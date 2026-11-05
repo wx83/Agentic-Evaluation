@@ -1,0 +1,825 @@
+{
+ "task_id": "P08-20240617-130401__P08_R06_S02",
+ "prompt_hash": "f49d77c8d0",
+ "model": "gcp/google/gemini-3.1-pro-preview",
+ "created": "2026-11-04T20:08:57",
+ "input": {
+  "task_id": "P08-20240617-130401__P08_R06_S02",
+  "goal": "Add the tuna, coriander, beans, spinach, bell peppers, carrots, celery, onion, cherry tomatoes, cucumbers, and spinach. At this point, you can cover the bowl and refrigerate it until you're ready to serve, up to 6 hours.",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "text": "Retrieve ingredients and utensils"
+   },
+   {
+    "idx": 2,
+    "text": "Peel and prepare the cucumber for chopping"
+   },
+   {
+    "idx": 3,
+    "text": "Chop the cucumber and add it to the salad bowl"
+   },
+   {
+    "idx": 4,
+    "text": "Chop the cherry tomatoes and add them to the salad bowl"
+   },
+   {
+    "idx": 5,
+    "text": "Peel, chop, and add the red onion to the salad bowl"
+   },
+   {
+    "idx": 6,
+    "text": "Wash and prepare the celery for chopping"
+   },
+   {
+    "idx": 7,
+    "text": "Chop the celery and add it to the salad bowl"
+   },
+   {
+    "idx": 8,
+    "text": "Retrieve canned tuna and beans"
+   },
+   {
+    "idx": 9,
+    "text": "Peel and prepare the carrots for chopping"
+   },
+   {
+    "idx": 10,
+    "text": "Chop the carrots and add them to the salad bowl"
+   },
+   {
+    "idx": 11,
+    "text": "Deseed and prepare the red pepper for chopping"
+   },
+   {
+    "idx": 12,
+    "text": "Chop the red pepper and add it to the salad bowl"
+   },
+   {
+    "idx": 13,
+    "text": "Weigh, chop, and add the spinach to the salad bowl"
+   },
+   {
+    "idx": 14,
+    "text": "Open, wash, weigh, and add the beans to the salad bowl"
+   },
+   {
+    "idx": 15,
+    "text": "Chop and add the coriander to the salad bowl"
+   },
+   {
+    "idx": 16,
+    "text": "Open, drain, and weigh the canned tuna"
+   }
+  ],
+  "skills": {},
+  "l3_relation_types": {},
+  "n_sub_goals": 16
+ },
+ "plan": {
+  "task_id": "P08-20240617-130401__P08_R06_S02",
+  "goal": "Add the tuna, coriander, beans, spinach, bell peppers, carrots, celery, onion, cherry tomatoes, cucumbers, and spinach. At this point, you can cover the bowl and refrigerate it until you're ready to serve, up to 6 hours.",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "events": [
+     {
+      "event_id": "s1e1",
+      "sub_goal": 1,
+      "type": "placement",
+      "description": "Various vegetables and cans are placed on the kitchen counter.",
+      "objects": [
+       "vegetables",
+       "cans",
+       "counter"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [],
+      "relevance": "Brings the necessary ingredients to the workspace.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s1e2",
+      "sub_goal": 1,
+      "type": "placement",
+      "description": "A large salad bowl is placed on the counter.",
+      "objects": [
+       "bowl",
+       "counter"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [],
+      "relevance": "Provides the container for the salad.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 2,
+    "events": [
+     {
+      "event_id": "s2e1",
+      "sub_goal": 2,
+      "type": "action",
+      "description": "A peeler removes the skin from the cucumber.",
+      "objects": [
+       "peeler",
+       "cucumber",
+       "skin"
+      ],
+      "verbs": [
+       "peel",
+       "remove"
+      ],
+      "skills": [],
+      "relevance": "Prepares the cucumber for consumption.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 3,
+    "events": [
+     {
+      "event_id": "s3e1",
+      "sub_goal": 3,
+      "type": "action",
+      "description": "A knife chops the peeled cucumber into smaller pieces.",
+      "objects": [
+       "knife",
+       "cucumber"
+      ],
+      "verbs": [
+       "chop"
+      ],
+      "skills": [],
+      "relevance": "Reduces the cucumber to bite-sized pieces.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s3e2",
+      "sub_goal": 3,
+      "type": "action",
+      "description": "The chopped cucumber pieces are transferred into the salad bowl.",
+      "objects": [
+       "cucumber",
+       "bowl"
+      ],
+      "verbs": [
+       "transfer",
+       "add"
+      ],
+      "skills": [],
+      "relevance": "Adds the first ingredient to the salad.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 4,
+    "events": [
+     {
+      "event_id": "s4e1",
+      "sub_goal": 4,
+      "type": "action",
+      "description": "A knife cuts the cherry tomatoes into halves or quarters.",
+      "objects": [
+       "knife",
+       "cherry tomatoes"
+      ],
+      "verbs": [
+       "cut",
+       "chop"
+      ],
+      "skills": [],
+      "relevance": "Prepares the tomatoes for the salad.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s4e2",
+      "sub_goal": 4,
+      "type": "action",
+      "description": "The chopped tomatoes are added to the salad bowl.",
+      "objects": [
+       "cherry tomatoes",
+       "bowl"
+      ],
+      "verbs": [
+       "add"
+      ],
+      "skills": [],
+      "relevance": "Combines the tomatoes with the cucumber.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 5,
+    "events": [
+     {
+      "event_id": "s5e1",
+      "sub_goal": 5,
+      "type": "action",
+      "description": "The outer skin is peeled off the red onion.",
+      "objects": [
+       "red onion",
+       "skin"
+      ],
+      "verbs": [
+       "peel"
+      ],
+      "skills": [],
+      "relevance": "Removes the inedible part of the onion.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s5e2",
+      "sub_goal": 5,
+      "type": "action",
+      "description": "A knife chops the red onion into small pieces.",
+      "objects": [
+       "knife",
+       "red onion"
+      ],
+      "verbs": [
+       "chop"
+      ],
+      "skills": [],
+      "relevance": "Dices the onion for the salad.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s5e3",
+      "sub_goal": 5,
+      "type": "action",
+      "description": "The chopped red onion is transferred into the salad bowl.",
+      "objects": [
+       "red onion",
+       "bowl"
+      ],
+      "verbs": [
+       "transfer",
+       "add"
+      ],
+      "skills": [],
+      "relevance": "Adds the onion to the salad mixture.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 6,
+    "events": [
+     {
+      "event_id": "s6e1",
+      "sub_goal": 6,
+      "type": "action",
+      "description": "Celery stalks are washed under running water.",
+      "objects": [
+       "celery",
+       "water"
+      ],
+      "verbs": [
+       "wash"
+      ],
+      "skills": [],
+      "relevance": "Cleans the celery before chopping.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s6e2",
+      "sub_goal": 6,
+      "type": "sound",
+      "description": "Water runs from the faucet while washing the celery.",
+      "objects": [
+       "water",
+       "faucet"
+      ],
+      "verbs": [
+       "run"
+      ],
+      "skills": [],
+      "relevance": "Indicates the washing process.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 7,
+    "events": [
+     {
+      "event_id": "s7e1",
+      "sub_goal": 7,
+      "type": "action",
+      "description": "A knife chops the washed celery stalks into pieces.",
+      "objects": [
+       "knife",
+       "celery"
+      ],
+      "verbs": [
+       "chop"
+      ],
+      "skills": [],
+      "relevance": "Prepares the celery for the salad.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s7e2",
+      "sub_goal": 7,
+      "type": "action",
+      "description": "The chopped celery is added to the salad bowl.",
+      "objects": [
+       "celery",
+       "bowl"
+      ],
+      "verbs": [
+       "add"
+      ],
+      "skills": [],
+      "relevance": "Combines the celery with the other ingredients.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 8,
+    "events": [
+     {
+      "event_id": "s8e1",
+      "sub_goal": 8,
+      "type": "placement",
+      "description": "Cans of tuna and beans are placed on the workspace.",
+      "objects": [
+       "canned tuna",
+       "beans",
+       "workspace"
+      ],
+      "verbs": [
+       "place",
+       "retrieve"
+      ],
+      "skills": [],
+      "relevance": "Brings the canned proteins to the prep area.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 9,
+    "events": [
+     {
+      "event_id": "s9e1",
+      "sub_goal": 9,
+      "type": "action",
+      "description": "A peeler removes the skin from the carrots.",
+      "objects": [
+       "peeler",
+       "carrots",
+       "skin"
+      ],
+      "verbs": [
+       "peel",
+       "remove"
+      ],
+      "skills": [],
+      "relevance": "Prepares the carrots for chopping.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 10,
+    "events": [
+     {
+      "event_id": "s10e1",
+      "sub_goal": 10,
+      "type": "action",
+      "description": "A knife chops the peeled carrots into small pieces.",
+      "objects": [
+       "knife",
+       "carrots"
+      ],
+      "verbs": [
+       "chop"
+      ],
+      "skills": [],
+      "relevance": "Reduces the carrots to bite-sized pieces.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s10e2",
+      "sub_goal": 10,
+      "type": "action",
+      "description": "The chopped carrots are transferred into the salad bowl.",
+      "objects": [
+       "carrots",
+       "bowl"
+      ],
+      "verbs": [
+       "transfer",
+       "add"
+      ],
+      "skills": [],
+      "relevance": "Adds the carrots to the salad.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 11,
+    "events": [
+     {
+      "event_id": "s11e1",
+      "sub_goal": 11,
+      "type": "action",
+      "description": "A knife cuts open the red pepper.",
+      "objects": [
+       "knife",
+       "red pepper"
+      ],
+      "verbs": [
+       "cut",
+       "open"
+      ],
+      "skills": [],
+      "relevance": "Accesses the inside of the pepper.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s11e2",
+      "sub_goal": 11,
+      "type": "action",
+      "description": "The seeds and core are removed from the red pepper.",
+      "objects": [
+       "red pepper",
+       "seeds",
+       "core"
+      ],
+      "verbs": [
+       "remove",
+       "deseed"
+      ],
+      "skills": [],
+      "relevance": "Removes the inedible parts of the pepper.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 12,
+    "events": [
+     {
+      "event_id": "s12e1",
+      "sub_goal": 12,
+      "type": "action",
+      "description": "A knife chops the deseeded red pepper into pieces.",
+      "objects": [
+       "knife",
+       "red pepper"
+      ],
+      "verbs": [
+       "chop"
+      ],
+      "skills": [],
+      "relevance": "Prepares the pepper for the salad.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s12e2",
+      "sub_goal": 12,
+      "type": "action",
+      "description": "The chopped red pepper is added to the salad bowl.",
+      "objects": [
+       "red pepper",
+       "bowl"
+      ],
+      "verbs": [
+       "add"
+      ],
+      "skills": [],
+      "relevance": "Combines the pepper with the salad.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 13,
+    "events": [
+     {
+      "event_id": "s13e1",
+      "sub_goal": 13,
+      "type": "action",
+      "description": "Spinach is placed on a kitchen scale to be weighed.",
+      "objects": [
+       "spinach",
+       "scale"
+      ],
+      "verbs": [
+       "place",
+       "weigh"
+      ],
+      "skills": [],
+      "relevance": "Ensures the correct amount of spinach is used.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s13e2",
+      "sub_goal": 13,
+      "type": "action",
+      "description": "A knife chops the weighed spinach.",
+      "objects": [
+       "knife",
+       "spinach"
+      ],
+      "verbs": [
+       "chop"
+      ],
+      "skills": [],
+      "relevance": "Makes the spinach easier to eat.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s13e3",
+      "sub_goal": 13,
+      "type": "action",
+      "description": "The chopped spinach is added to the salad bowl.",
+      "objects": [
+       "spinach",
+       "bowl"
+      ],
+      "verbs": [
+       "add"
+      ],
+      "skills": [],
+      "relevance": "Adds the greens to the salad.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 14,
+    "events": [
+     {
+      "event_id": "s14e1",
+      "sub_goal": 14,
+      "type": "action",
+      "description": "A can of beans is opened.",
+      "objects": [
+       "can",
+       "beans"
+      ],
+      "verbs": [
+       "open"
+      ],
+      "skills": [],
+      "relevance": "Accesses the beans.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s14e2",
+      "sub_goal": 14,
+      "type": "action",
+      "description": "The beans are washed and rinsed under water.",
+      "objects": [
+       "beans",
+       "water"
+      ],
+      "verbs": [
+       "wash",
+       "rinse"
+      ],
+      "skills": [],
+      "relevance": "Removes the canning liquid.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s14e3",
+      "sub_goal": 14,
+      "type": "action",
+      "description": "The washed beans are weighed on the scale and added to the bowl.",
+      "objects": [
+       "beans",
+       "scale",
+       "bowl"
+      ],
+      "verbs": [
+       "weigh",
+       "add"
+      ],
+      "skills": [],
+      "relevance": "Measures and adds the beans to the salad.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 15,
+    "events": [
+     {
+      "event_id": "s15e1",
+      "sub_goal": 15,
+      "type": "action",
+      "description": "A knife chops the fresh coriander.",
+      "objects": [
+       "knife",
+       "coriander"
+      ],
+      "verbs": [
+       "chop"
+      ],
+      "skills": [],
+      "relevance": "Prepares the herb for the salad.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s15e2",
+      "sub_goal": 15,
+      "type": "action",
+      "description": "The chopped coriander is added to the salad bowl.",
+      "objects": [
+       "coriander",
+       "bowl"
+      ],
+      "verbs": [
+       "add"
+      ],
+      "skills": [],
+      "relevance": "Flavors the salad.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 16,
+    "events": [
+     {
+      "event_id": "s16e1",
+      "sub_goal": 16,
+      "type": "action",
+      "description": "A can of tuna is opened.",
+      "objects": [
+       "can",
+       "tuna"
+      ],
+      "verbs": [
+       "open"
+      ],
+      "skills": [],
+      "relevance": "Accesses the tuna.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s16e2",
+      "sub_goal": 16,
+      "type": "action",
+      "description": "Liquid is drained from the canned tuna.",
+      "objects": [
+       "tuna",
+       "liquid"
+      ],
+      "verbs": [
+       "drain"
+      ],
+      "skills": [],
+      "relevance": "Removes excess moisture from the tuna.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s16e3",
+      "sub_goal": 16,
+      "type": "action",
+      "description": "The drained tuna is weighed on the scale.",
+      "objects": [
+       "tuna",
+       "scale"
+      ],
+      "verbs": [
+       "weigh"
+      ],
+      "skills": [],
+      "relevance": "Ensures the correct amount of tuna is prepared.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   }
+  ],
+  "relations": [],
+  "decision_points": [
+   {
+    "idx": 2,
+    "real": true,
+    "why": "Choosing which vegetable to start preparing first."
+   },
+   {
+    "idx": 3,
+    "real": false,
+    "why": "Chopping is the natural continuation immediately after peeling the cucumber."
+   },
+   {
+    "idx": 4,
+    "real": true,
+    "why": "Switching to a new ingredient (cherry tomatoes)."
+   },
+   {
+    "idx": 5,
+    "real": true,
+    "why": "Switching to a new ingredient (red onion)."
+   },
+   {
+    "idx": 6,
+    "real": true,
+    "why": "Switching to a new ingredient (celery)."
+   },
+   {
+    "idx": 7,
+    "real": false,
+    "why": "Chopping is the natural continuation immediately after washing the celery."
+   },
+   {
+    "idx": 8,
+    "real": true,
+    "why": "Interrupting the vegetable preparation flow to fetch canned goods."
+   },
+   {
+    "idx": 9,
+    "real": true,
+    "why": "Switching to a new ingredient (carrots)."
+   },
+   {
+    "idx": 10,
+    "real": false,
+    "why": "Chopping is the natural continuation immediately after peeling the carrots."
+   },
+   {
+    "idx": 11,
+    "real": true,
+    "why": "Switching to a new ingredient (red pepper)."
+   },
+   {
+    "idx": 12,
+    "real": false,
+    "why": "Chopping is the natural continuation immediately after deseeding the pepper."
+   },
+   {
+    "idx": 13,
+    "real": true,
+    "why": "Switching to a new ingredient (spinach)."
+   },
+   {
+    "idx": 14,
+    "real": true,
+    "why": "Switching to a new ingredient (beans)."
+   },
+   {
+    "idx": 15,
+    "real": true,
+    "why": "Switching to a new ingredient (coriander)."
+   },
+   {
+    "idx": 16,
+    "real": true,
+    "why": "Switching to a new ingredient (tuna)."
+   },
+   {
+    "idx": 17,
+    "real": true,
+    "why": "All ingredients are prepared, concluding the task."
+   }
+  ]
+ },
+ "warnings": [
+  "relation type 'state_dependency' dropped",
+  "relation type 'state_dependency' dropped",
+  "relation type 'state_dependency' dropped",
+  "relation type 'state_dependency' dropped"
+ ],
+ "usage": {
+  "tok_in": 1370,
+  "tok_out": 4449,
+  "tok_think": 2941,
+  "model_version": "google/gemini-3.1-pro-preview",
+  "finish_reason": "STOP"
+ },
+ "status": "ok",
+ "raw_len": 15445
+}

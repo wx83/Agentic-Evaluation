@@ -734,8 +734,11 @@ def autofill(out, ctx, c):
         fmt = sg_.get("format") or "single_choice"
         pub["format"] = fmt
         if fmt == "single_choice":
-            pub["options"] = [f"{L}. {o}" for L, o in zip("ABCD", sc["options"][:4])]
-            pri["proposed_reference_answer"] = "ABCD"[sc["options"].index(sc["answer"])]
+            opts = list(sc["options"][:4])                              # 11-04 晚:candidates 按距离排序、答案在第一位 → v24–v30 的 spatial_change 单选答案 52% 在 A;按种子打乱
+            if sc.get("type") in ("nearest_after", "nearest_before", "which_moved"):
+                random.Random(hashlib.sha1((sg_.get("rel_id", "") + "|opts").encode()).hexdigest()).shuffle(opts)
+            pub["options"] = [f"{L}. {o}" for L, o in zip("ABCD", opts)]
+            pri["proposed_reference_answer"] = "ABCD"[opts.index(sc["answer"])]
         else:
             pub.pop("options", None); pri["proposed_reference_answer"] = sc["answer"]
             pri["accepted_alternatives"] = sorted(set((pri.get("accepted_alternatives") or []) + [sc["answer"]]))
