@@ -1,0 +1,455 @@
+{
+ "task_id": "P07-20240531-201703__P07_R07_S03",
+ "prompt_hash": "dfcab200a6",
+ "model": "gcp/google/gemini-3.1-pro-preview",
+ "created": "2026-11-03T23:17:50",
+ "input": {
+  "task_id": "P07-20240531-201703__P07_R07_S03",
+  "goal": "Pulse all the dressing ingredients in a food processor until mostly smooth.",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "text": "Test the blender and prepare the avocado"
+   },
+   {
+    "idx": 2,
+    "text": "Weigh and add the avocado to the canister"
+   },
+   {
+    "idx": 3,
+    "text": "Retrieve and add greek yoghurt to the canister"
+   },
+   {
+    "idx": 4,
+    "text": "Add water and parsley to the canister"
+   },
+   {
+    "idx": 5,
+    "text": "Prepare and add garlic to the canister"
+   },
+   {
+    "idx": 6,
+    "text": "Add salt and blend the dressing ingredients"
+   }
+  ],
+  "skills": {
+   "object_recognition": "L1: which object is in hand / being handled at the moment of the event",
+   "action_recognition": "L2: what action (verb + object) the event is",
+   "event_object_role": "L2: which object is acted on, with which tool, to which destination in the event",
+   "action_temporal_order": "L2: the order of two actions shown close together inside one sub-goal",
+   "sound_action_binding": "L2: which action / object produced the sound heard",
+   "sound_movement_binding": "L2: which object movement coincides with the sound",
+   "spatial_near": "L1: at the moment of the event, which of the listed objects is nearest to a reference object (3D positions from the dataset)",
+   "spatial_side": "L1: at the moment of the event, which listed object is leftmost / rightmost from the wearer's viewpoint",
+   "sound_anchored_spatial_near": "L2: at the moment of a sound, which listed object is nearest to a reference object",
+   "sound_anchored_spatial_side": "L2: at the moment of a sound, which listed object is leftmost / rightmost for the wearer",
+   "object_location_at_time": "L1: on which surface / fixture / container an object is put down at the event",
+   "object_state_change": "L2: where an object was taken from and where it went in one movement"
+  },
+  "l3_relation_types": {
+   "object_continuity": "the same object / ingredient appears in an event of sub-goal k and an event of the ADJACENT sub-goal k+1; what happened to it between them (chopped broccoli -> in the pan)",
+   "state_change": "how the state of an object differs between the two events (whole -> chopped, empty -> full, raw -> browned)",
+   "causal_prerequisite": "the earlier event is a physical prerequisite of the later one (could not be done without it)",
+   "hidden_state": "an appliance / container state was set in the earlier event and is not visible in the later segment; what is its state at the end of the later segment"
+  },
+  "n_sub_goals": 6
+ },
+ "plan": {
+  "task_id": "P07-20240531-201703__P07_R07_S03",
+  "goal": "Pulse all the dressing ingredients in a food processor until mostly smooth.",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "events": [
+     {
+      "event_id": "s1e1",
+      "sub_goal": 1,
+      "type": "sound",
+      "description": "The blender motor runs briefly as it is tested.",
+      "objects": [
+       "blender"
+      ],
+      "verbs": [
+       "run",
+       "test"
+      ],
+      "skills": [
+       "sound_action_binding",
+       "action_recognition"
+      ],
+      "relevance": "ensures the equipment is working before adding ingredients"
+     },
+     {
+      "event_id": "s1e2",
+      "sub_goal": 1,
+      "type": "action",
+      "description": "The person cuts the avocado in half with a knife.",
+      "objects": [
+       "avocado",
+       "knife",
+       "cutting board"
+      ],
+      "verbs": [
+       "cut"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "opens the avocado to access the flesh"
+     },
+     {
+      "event_id": "s1e3",
+      "sub_goal": 1,
+      "type": "action",
+      "description": "The person removes the pit from the avocado half.",
+      "objects": [
+       "avocado",
+       "pit",
+       "knife"
+      ],
+      "verbs": [
+       "remove"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "discards the inedible part of the avocado"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 2,
+    "events": [
+     {
+      "event_id": "s2e1",
+      "sub_goal": 2,
+      "type": "placement",
+      "description": "The person places the blender canister onto the kitchen scale.",
+      "objects": [
+       "canister",
+       "scale"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_location_at_time",
+       "spatial_near"
+      ],
+      "relevance": "prepares the canister to measure the incoming ingredients by weight"
+     },
+     {
+      "event_id": "s2e2",
+      "sub_goal": 2,
+      "type": "action",
+      "description": "The person scoops the avocado flesh into the canister using a spoon.",
+      "objects": [
+       "avocado",
+       "spoon",
+       "canister"
+      ],
+      "verbs": [
+       "scoop",
+       "add"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role",
+       "object_state_change"
+      ],
+      "relevance": "adds the first main ingredient to the blender"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 3,
+    "events": [
+     {
+      "event_id": "s3e1",
+      "sub_goal": 3,
+      "type": "action",
+      "description": "The person spoons greek yoghurt from its container into the canister.",
+      "objects": [
+       "yoghurt",
+       "spoon",
+       "canister",
+       "container"
+      ],
+      "verbs": [
+       "spoon",
+       "add"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role",
+       "object_state_change"
+      ],
+      "relevance": "adds the creamy base for the dressing"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 4,
+    "events": [
+     {
+      "event_id": "s4e1",
+      "sub_goal": 4,
+      "type": "action",
+      "description": "The person pours water into the canister.",
+      "objects": [
+       "water",
+       "cup",
+       "canister"
+      ],
+      "verbs": [
+       "pour",
+       "add"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role",
+       "sound_action_binding"
+      ],
+      "relevance": "thins out the dressing consistency"
+     },
+     {
+      "event_id": "s4e2",
+      "sub_goal": 4,
+      "type": "action",
+      "description": "The person puts fresh parsley into the canister.",
+      "objects": [
+       "parsley",
+       "canister"
+      ],
+      "verbs": [
+       "put",
+       "add"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "adds herbs for flavor and color"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 5,
+    "events": [
+     {
+      "event_id": "s5e1",
+      "sub_goal": 5,
+      "type": "action",
+      "description": "The person peels and crushes the garlic clove on the cutting board.",
+      "objects": [
+       "garlic",
+       "knife",
+       "cutting board"
+      ],
+      "verbs": [
+       "peel",
+       "crush"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "prepares the garlic to be blended"
+     },
+     {
+      "event_id": "s5e2",
+      "sub_goal": 5,
+      "type": "action",
+      "description": "The person drops the prepared garlic into the canister.",
+      "objects": [
+       "garlic",
+       "canister"
+      ],
+      "verbs": [
+       "drop",
+       "add"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role",
+       "object_state_change"
+      ],
+      "relevance": "adds the aromatic ingredient to the mix"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 6,
+    "events": [
+     {
+      "event_id": "s6e1",
+      "sub_goal": 6,
+      "type": "action",
+      "description": "The person sprinkles salt into the canister.",
+      "objects": [
+       "salt",
+       "canister"
+      ],
+      "verbs": [
+       "sprinkle",
+       "add"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "seasons the dressing"
+     },
+     {
+      "event_id": "s6e2",
+      "sub_goal": 6,
+      "type": "state",
+      "description": "The person places the lid securely onto the canister.",
+      "objects": [
+       "lid",
+       "canister"
+      ],
+      "verbs": [
+       "place",
+       "close"
+      ],
+      "skills": [
+       "action_recognition",
+       "event_object_role",
+       "object_state_change"
+      ],
+      "relevance": "seals the blender so ingredients do not spill out"
+     },
+     {
+      "event_id": "s6e3",
+      "sub_goal": 6,
+      "type": "sound",
+      "description": "The blender motor runs loudly, pulsing the ingredients together.",
+      "objects": [
+       "blender",
+       "canister"
+      ],
+      "verbs": [
+       "run",
+       "pulse"
+      ],
+      "skills": [
+       "sound_action_binding",
+       "action_recognition"
+      ],
+      "relevance": "processes the ingredients into a smooth dressing"
+     }
+    ],
+    "irrelevant": ""
+   }
+  ],
+  "relations": [
+   {
+    "rel_id": "r1",
+    "type": "causal_prerequisite",
+    "skill": "causal_prerequisite_reasoning",
+    "events": [
+     "s1e2",
+     "s2e2"
+    ],
+    "ask": "What allowed the person to scoop the avocado flesh into the canister?",
+    "answer_hint": "The avocado was cut open in the previous step."
+   },
+   {
+    "rel_id": "r2",
+    "type": "hidden_state",
+    "skill": "hidden_state_inference",
+    "events": [
+     "s2e1",
+     "s3e1"
+    ],
+    "ask": "What is the canister resting on while the yoghurt is being added?",
+    "answer_hint": "The canister was placed on the kitchen scale in the previous step."
+   },
+   {
+    "rel_id": "r3",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s3e1",
+     "s4e1"
+    ],
+    "ask": "What white ingredient is already inside the canister when the water is poured?",
+    "answer_hint": "Greek yoghurt was added in the previous step."
+   },
+   {
+    "rel_id": "r4",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s4e2",
+     "s5e2"
+    ],
+    "ask": "What green leafy ingredient is visible in the canister when the garlic is dropped in?",
+    "answer_hint": "Parsley was added in the previous step."
+   },
+   {
+    "rel_id": "r5",
+    "type": "causal_prerequisite",
+    "skill": "causal_prerequisite_reasoning",
+    "events": [
+     "s5e2",
+     "s6e3"
+    ],
+    "ask": "Why is the mixture ready to be blended at this point?",
+    "answer_hint": "The final solid ingredient, garlic, was added in the previous step."
+   }
+  ],
+  "decision_points": [
+   {
+    "idx": 2,
+    "real": true,
+    "why": "After preparing the avocado, deciding to weigh it and add it to the canister is a distinct next step in the recipe sequence."
+   },
+   {
+    "idx": 3,
+    "real": true,
+    "why": "Moving from the avocado to retrieving and adding the next specific ingredient (yoghurt) requires a choice of what to add next."
+   },
+   {
+    "idx": 4,
+    "real": true,
+    "why": "Selecting water and parsley as the next ingredients to add is a deliberate progression in building the dressing."
+   },
+   {
+    "idx": 5,
+    "real": true,
+    "why": "Switching from adding ready ingredients to preparing a new raw ingredient (garlic) is a distinct task transition."
+   },
+   {
+    "idx": 6,
+    "real": true,
+    "why": "Deciding that all main ingredients are in, adding the final seasoning, and initiating the blending process is a major state transition."
+   },
+   {
+    "idx": 7,
+    "real": true,
+    "why": "Deciding that the dressing has reached the 'mostly smooth' consistency and stopping the blender concludes the task."
+   }
+  ]
+ },
+ "warnings": [],
+ "usage": {
+  "tok_in": 1562,
+  "tok_out": 2675,
+  "tok_think": 2292,
+  "model_version": "google/gemini-3.1-pro-preview",
+  "finish_reason": "STOP"
+ },
+ "status": "ok",
+ "raw_len": 9740
+}

@@ -83,8 +83,9 @@ SETS = POUT / "sets"
 # Gemini 后端:nv(默认,NVIDIA 网关)/ google(原直连)。题库、缓存、事实复用共用;
 # 只有**结果**按后端分开:google 仍写 results/(历史结果都在这里,不动),nv 写 results_nv/。
 BACKEND = os.environ.get("GEMINI_BACKEND", "nv")
-assert BACKEND in ("nv", "google"), f"GEMINI_BACKEND={BACKEND} 只能是 nv / google"
-RESULTS = POUT / ("results" if BACKEND == "google" else "results_nv")
+assert BACKEND in ("nv", "google", "openrouter"), f"GEMINI_BACKEND={BACKEND} 只能是 nv / google / openrouter"
+# 11-01:openrouter(OpenAI 协议 shim,gemini/or_gemini.py)写 results_openrouter/。
+RESULTS = POUT / {"google": "results", "nv": "results_nv", "openrouter": "results_openrouter"}[BACKEND]
 # GEMINI_AGENT_MODEL=...:只换**被评测的 agent** 的模型(出题/措辞仍用 C.GEMINI_MODEL)。
 # 结果目录按模型分:默认模型仍叫 gemini/,其他叫 gemini@<model>/。
 AGENT_MODEL = os.environ.get("GEMINI_AGENT_MODEL") or C.GEMINI_MODEL
@@ -97,7 +98,7 @@ REPORT = POUT / "report"
 STATE = POUT / "state"
 
 # 运行日志:按 agent 分子目录,与 output 分开存放
-LOGROOT = C.OUT / "logs"
+LOGROOT = Path("/mnt/work_new/weihanxu/logs")
 
 EXEMPLARS = C.SHARED / "chains.json"     # few-shot 样例来源(0830 的 8 条链)
 

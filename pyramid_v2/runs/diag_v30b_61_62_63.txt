@@ -1,0 +1,34 @@
+== ① 盲猜率(盲测答对 / 题数;四选一基线 25%)
+  sound_action_binding              48/ 62 =  77%  <-- 高于基线
+  object_recognition                34/ 54 =  63%  <-- 高于基线
+  cross_event_integration           24/ 48 =  50%  <-- 高于基线
+  object_box_choice                 26/ 45 =  58%  <-- 高于基线
+  event_object_role                 13/ 45 =  29%
+  action_recognition                10/ 43 =  23%
+  action_temporal_order             29/ 41 =  71%  <-- 高于基线
+  sound_movement_binding            30/ 40 =  75%  <-- 高于基线
+  spatial_change                    21/ 39 =  54%  <-- 高于基线
+  sound_object_location             24/ 34 =  71%  <-- 高于基线
+  object_location_at_time           17/ 28 =  61%  <-- 高于基线
+  object_state_change               21/ 28 =  75%  <-- 高于基线
+  sound_object_nearest               8/ 27 =  30%
+  sound_localization                 6/ 19 =  32%
+  goal_conditioned_planning          6/ 15 =  40%
+  ego_direction_unseen               2/ 11 =  18%
+  causal_prerequisite_reasoning      9/  9 = 100%  <-- 高于基线
+  hidden_state_inference             6/  7 =  86%  <-- 高于基线
+  spatial_side                       4/  6 =  67%  <-- 高于基线
+  turn_to_face                       0/  6 =   0%
+  sound_anchored_spatial_side        3/  4 =  75%
+  sound_anchored_spatial_near        3/  4 =  75%
+  spatial_near                       0/  1 =   0%
+== ② 参考答案字母分布(卡方对均匀,df=3:>7.8 即 5% 水平显著不均)
+  L1 examiner_written          A= 19 B=  7 C=  6 D=  4  chi2=15.3  <-- 不均
+  L2 examiner_written          A= 12 B=  4 C=  9 D= 11  chi2=4.2
+  L2 time_span                 A=  6 B= 14 C= 14 D= 11  chi2=3.8
+  L3 examiner_written          A=  7 B=  8 C=  6 D=  2  chi2=3.6
+  L3 program_filled            A= 17 B= 14 C= 12 D= 23  chi2=4.2
+  L4 examiner_written          A=  3 B=  1 C=  3 D=  0  chi2=3.9
+  时间段题四段长度一致的题: 45 / 45
+== ③ 程序出题的余量分位数(档位应覆盖 1–4)
+== 浪费: turns 665, Examiner 调用 669 (1.01/turn), 校验拒绝 132, 盲猜作废 344 (52% of turns)

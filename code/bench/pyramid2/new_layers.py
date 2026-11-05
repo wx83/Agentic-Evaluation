@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-"""11-01 (run from code/bench/pyramid2; reads $P2_ROOT/runs):按「依赖式分层 + 空间单列」重算 v16 / v17 的层 mastery、pyramid、通过率,并扣掉盲测可猜题(blindnone = self 的盲测,blindgl = goldlive 的盲测)。
+"""11-01:按「依赖式分层 + 空间单列」重算 v16 / v17 的层 mastery、pyramid、通过率,并扣掉盲测可猜题(blindnone = self 的盲测,blindgl = goldlive 的盲测)。
 用法:python3 new_layers.py [out.md]"""
 import json, os, glob, sys, statistics as st
 from collections import defaultdict
-import p2config as _P
-R = str(_P.ROOT / "runs")        # $P2_ROOT/runs
+R = "/mnt/work_new/weihanxu/output/pyramid_v2/runs"
 NEW = {"L1": ["object_recognition", "object_location_at_time"],
        "L2": ["action_recognition", "event_object_role", "object_state_change", "sound_action_binding", "sound_movement_binding"],
        "L3": ["cross_event_integration", "causal_prerequisite_reasoning", "hidden_state_inference", "action_temporal_order"],

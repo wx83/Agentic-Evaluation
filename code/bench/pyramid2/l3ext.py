@@ -18,7 +18,7 @@ SKILLS = ("cross_event_integration", "hidden_state_inference", "spatial_state_in
 SEG_SEC = 12.0          # integration:每段长
 WIN = 30.0
 DS = "hdepic_e"
-DATASETS = {"hdepic_e", "aea_p"}      # 10-27 晚:AEA protocol clip 也走这些 builder(记录格式相同;位姿按数据集选 pose_hdepic / pose_aea)
+DATASETS = {"hdepic_e", "aea_p", "aea_s"}      # 10-27 晚:AEA protocol clip 也走这些 builder(记录格式相同;位姿按数据集选 pose_hdepic / pose_aea)
 L3EXT_VERSION = 3       # 10-27 v10 pilot 后修正(hidden_state 宾语/自动停电器/插头、其它物体假陈述干扰项、integration 边界、causal 多选措辞与前提复用);每个 cluster 的 l3ext.v 记录版本
 
 # ---------------------------------------------------------------- 阶梯(staircase 用)

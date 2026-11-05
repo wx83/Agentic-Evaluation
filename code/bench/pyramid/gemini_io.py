@@ -13,8 +13,10 @@ _client = None
 #   key 由 gemini/nv_gemini.load_key() 解析(env NVIDIA_API_KEY → 文件),模型名自动加 gcp/google/ 前缀。
 #   网关没有 Files API,视频必须内联(agent_gemini.upload 已处理)。
 # GEMINI_BACKEND=google:原来的 generativelanguage 直连,key 来自 GEMINI_API_KEY / GOOGLE_API_KEY。
+# GEMINI_BACKEND=openrouter(11-01):OpenRouter 只有 OpenAI 协议,gemini/or_gemini.client() 返回同接口 shim,
+#   key 来自 OPENROUTER_API_KEY / holi/.secrets/openrouter_key,模型名改写成 google/gemini-x。
 BACKEND = P.BACKEND
-_NV_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), "gemini")
+_NV_DIR = "/mnt/work_new/weihanxu/gemini"
 
 
 def _nv():
@@ -29,11 +31,23 @@ def model_id(model):
     """按后端规范化模型名:nv 要 gcp/google/ 前缀,google 要去掉。"""
     if BACKEND == "nv":
         return model if model.startswith("gcp/") else "gcp/google/" + model
+    if BACKEND == "openrouter":
+        return _or().model_id(model)
     return model.split("/")[-1] if model.startswith("gcp/") else model
+
+
+def _or():
+    import sys
+    if _NV_DIR not in sys.path:
+        sys.path.insert(0, _NV_DIR)
+    import or_gemini
+    return or_gemini
 
 
 def client():
     global _client
+    if _client is None and BACKEND == "openrouter":
+        _client = _or().client()
     if _client is None:
         from google import genai
         from google.genai import types
@@ -58,9 +72,9 @@ def client():
 def key_id():
     """当前 key 的指纹(sha256 前 8 位),用来按 key 统计用量;key 本身绝不落盘。"""
     import hashlib
-    if BACKEND == "nv":
+    if BACKEND in ("nv", "openrouter"):
         try:
-            return _nv().key_id()
+            return (_nv() if BACKEND == "nv" else _or()).key_id()
         except Exception:
             return None
     k = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY") or ""

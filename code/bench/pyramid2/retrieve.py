@@ -14,12 +14,30 @@ SKILL_NEEDS = {
     "sound_recognition":            {"anchor": ["sound_event"], "core": ["sound_event"], "skip_flags": ["BACKGROUND_CLASS"], "min_core": 1},
     "sound_event_count":            {"anchor": ["sound_event"], "anchor_pred": "countable_sound", "core": ["sound_event"], "skip_flags": ["BACKGROUND_CLASS"], "min_core": 2, "needs_complete": "hdepic.sound", "count_rule": True},
     "spatial_near":                 {"anchor": ["spatial_relation"], "anchor_value": {"relation": ["nearest", "near"], "anchor_kind": ["movement"]}, "core": ["spatial_relation", "object_location_transition", "object_move"], "min_core": 1},
+    "object_box_choice":            {"anchor": ["object_mask_anchor"], "core": ["object_mask_anchor", "action_narration"], "min_core": 1},   # 11-02 v24 L1:帧上画框选物体
+    "spatial_change":               {"anchor": ["object_move"], "core": ["object_move", "object_mask_anchor", "action_narration"], "min_core": 1},   # 11-02 v24 L3:t3→t4 的 3D 位置变化
+    "speaker_direction":            {"anchor": ["utterance"], "core": ["utterance", "action_narration", "sound_event"], "min_core": 1},   # 11-03 v29 L3 AEA spatial audio(v29sa.py)
+    "turn_to_face_speaker":         {"anchor": ["utterance"], "core": ["utterance", "action_narration", "sound_event"], "min_core": 1},
+    "speaker_approach":             {"anchor": ["utterance"], "core": ["utterance", "action_narration", "sound_event"], "min_core": 2},
+    "nearest_utterance":            {"anchor": ["utterance"], "core": ["utterance", "action_narration", "sound_event"], "min_core": 4},
+    "sound_direction":              {"anchor": ["sound_source_direction"], "core": ["sound_source_direction", "sound_event", "action_narration"], "min_core": 1},
+    "ego_direction_unseen":         {"anchor": ["object_mask_anchor", "object_move"], "core": ["object_mask_anchor", "object_move", "action_narration"], "min_core": 1},   # 11-03 v26 L3:不可见物体在佩戴者哪个方向(v26ed.py)
+    "turn_to_face":                 {"anchor": ["object_mask_anchor", "object_move"], "core": ["object_mask_anchor", "object_move", "action_narration"], "min_core": 1},   # 11-03 v26 L3:要正对它怎么转
+    "fixture_clock_direction":      {"anchor": ["action_narration"], "core": ["action_narration", "task_step"], "min_core": 1},   # 11-03 v27 L3:fixture 几点钟方向(v27rf.py)
+    "layout_transform":             {"anchor": ["task_step", "action_narration"], "core": ["action_narration", "task_step"], "min_core": 1},   # 11-03 v27 L3:假想站位的左右
     "spatial_side":                 {"anchor": ["spatial_relation"], "anchor_value": {"relation": ["side_left", "side_right", "ego_behind", "ego_sector"], "anchor_kind": ["movement"]}, "core": ["spatial_relation", "object_location_transition", "object_move"], "min_core": 1},
     "sound_object_binding":         {"anchor": ["sound_event"], "core": ["sound_event", "action_narration", "object_visible_track"], "skip_flags": ["BACKGROUND_CLASS"], "min_core": 2, "need_kinds": ["sound_event", "action_narration"]},
     "sound_action_binding":         {"anchor": ["sound_event"], "core": ["sound_event", "action_narration", "object_location_transition", "object_visible_track"], "skip_flags": ["BACKGROUND_CLASS", "MATERIAL_JUDGMENT_ONLY"], "min_core": 2, "need_kinds": ["sound_event", "action_narration"]},
     "action_recognition":           {"anchor": ["action_narration", "hand_object_interaction"], "anchor_pred": "has_verb", "core": ["action_narration", "hand_object_interaction", "object_location_transition", "object_visible_track"], "min_core": 2},
     "event_object_role":            {"anchor": ["action_narration", "action_scene_graph"], "anchor_pred": "has_roles", "core": ["action_narration", "action_scene_graph", "object_location_transition", "object_visible_track"], "min_core": 2},
     "object_state_change":          {"anchor": ["object_location_transition", "object_state_change"], "core": ["object_location_transition", "object_state_change", "action_narration", "hand_object_interaction"], "min_core": 1},
+    "sound_localization":           {"anchor": ["sound_event"], "core": ["sound_event", "action_narration"], "skip_flags": ["BACKGROUND_CLASS"], "min_core": 1},   # 11-04 v30 L2 audio-only:第 n 次 X 声在 clip 哪一段
+    "sound_object_location":        {"anchor": ["sound_event"], "core": ["sound_event", "object_move", "action_narration", "object_visible_track"], "skip_flags": ["BACKGROUND_CLASS"], "min_core": 2},   # 11-04 v30 L3 链式(v30chain.py)
+    "sound_object_nearest":         {"anchor": ["sound_event"], "core": ["sound_event", "object_move", "object_mask_anchor", "action_narration"], "skip_flags": ["BACKGROUND_CLASS"], "min_core": 2},
+    "action_outcome_location":      {"anchor": ["action_narration"], "core": ["action_narration", "object_move", "object_visible_track"], "min_core": 2},
+    "object_location_at_event":     {"anchor": ["object_move"], "core": ["object_move", "action_narration", "object_visible_track"], "min_core": 1},   # 11-04 晚 v31(v31rsn.py)
+    "object_displacement_direction": {"anchor": ["object_move"], "core": ["object_move", "action_narration"], "min_core": 1},
+    "object_identity_continuity":   {"anchor": ["object_move"], "core": ["object_move", "action_narration"], "min_core": 1},
     "sound_movement_binding":       {"anchor": ["sound_event"], "core": ["sound_event", "object_location_transition", "object_move"], "skip_flags": ["BACKGROUND_CLASS"], "min_core": 2, "need_kinds": ["sound_event", "object_location_transition"]},
     "sound_anchored_spatial_near":  {"anchor": ["spatial_relation"], "anchor_value": {"relation": ["nearest"], "anchor_kind": ["sound"]}, "core": ["spatial_relation", "sound_event", "object_location_transition"], "skip_flags": ["BACKGROUND_CLASS"], "min_core": 2, "need_kinds": ["spatial_relation", "sound_event"]},
     "sound_anchored_spatial_side":  {"anchor": ["spatial_relation"], "anchor_value": {"relation": ["side_left", "side_right"], "anchor_kind": ["sound"]}, "core": ["spatial_relation", "sound_event", "object_location_transition"], "skip_flags": ["BACKGROUND_CLASS"], "min_core": 2, "need_kinds": ["spatial_relation", "sound_event"]},
@@ -80,7 +98,7 @@ GAP_SIZES = [2, 3, 4]        # m:头 k 与尾 k+m 之间隐藏 m-1 个 sub-goal
 GAP_HEAD_SEC = 6.0           # 段 1 = 头 sub-goal 的最后几秒
 GAP_TAIL_SEC = 6.0           # 段 2 = 尾 sub-goal 的开头几秒(隐藏 1 步时);隐藏 ≥2 步时用 GAP_TAIL_FRAME_SEC(只给第一帧)
 GAP_TAIL_FRAME_SEC = 1.0
-TASK_DATASETS = {"egoplan", "hdepic_e", "aea_p"}     # 10-23:goal+plan 结构的数据集(sample_id / per_step / scope / task_context 都按这个集合判);10-27 晚 + aea_p(AEA protocol clip)
+TASK_DATASETS = {"egoplan", "hdepic_e", "aea_p", "aea_s"}     # 10-23:goal+plan 结构的数据集(sample_id / per_step / scope / task_context 都按这个集合判);10-27 晚 + aea_p(AEA protocol clip)
 SKILL_NEEDS_BY_DATASET = {
     "hdepic_e": {
         "object_recognition":        {"anchor": ["action_narration"], "anchor_pred": "has_noun", "core": ["action_narration", "task_step"], "min_core": 1},
@@ -92,6 +110,16 @@ SKILL_NEEDS_BY_DATASET = {
                                       "need_kinds": ["task_segment", "task_step"], "anchor_min_steps": 3, "anchor_verified_only": True},
         "next_step_prediction":      {"anchor": ["task_step"], "anchor_pred": "step_idx_ge2", "core": ["task_step", "task_segment", "action_narration"], "min_core": 2,
                                       "cutoff": "anchor_start", "pre_sec": 30, "future": ["task_step"], "future_sec": 60, "future_max": 3, "anchor_verified_only": True},
+    },
+    "aea_s": {   # 11-03 v29:AEA 两人录像:utterance(SAVVY speech)也当 L1 / L2 的事件锚点;其余同 aea_p
+        "object_recognition":        {"anchor": ["action_narration", "utterance"], "core": ["action_narration", "utterance", "task_step"], "min_core": 1},
+        "action_recognition":        {"anchor": ["action_narration", "utterance"], "core": ["action_narration", "utterance", "sound_event"], "min_core": 2},
+        "event_object_role":         {"anchor": ["action_narration", "utterance"], "core": ["action_narration", "utterance", "sound_event"], "min_core": 2},
+        "action_temporal_order":     {"anchor": ["action_narration", "utterance"], "core": ["action_narration", "utterance"], "min_core": 3, "order_rule": "L2"},
+        "sound_action_binding":      {"anchor": ["sound_event"], "core": ["sound_event", "action_narration", "utterance"], "min_core": 2, "need_kinds": ["sound_event", "action_narration"]},
+        "goal_conditioned_planning": {"anchor": ["task_segment"], "core": ["task_segment", "task_step", "action_narration", "utterance"], "min_core": 2,
+                                      "cutoff": "anchor_end", "pre_sec": 30, "future": ["task_step"], "future_sec": 3, "future_max": 1,
+                                      "need_kinds": ["task_segment", "task_step"], "anchor_min_steps": 2, "anchor_verified_only": True},
     },
     "aea_p": {   # 10-27 晚:AEA protocol clip(goal / 步骤 = 模型候选,narration = 自动 caption,声音 = legacy);同 hdepic_e 去掉 sound_event_count(coverage 未知)
         "object_recognition":        {"anchor": ["action_narration"], "anchor_pred": "has_noun", "core": ["action_narration", "task_step"], "min_core": 1},
@@ -164,7 +192,8 @@ CTX_PRIORITY = ["action_narration", "sound_event", "object_location_transition",
                 "object_visible_track", "object_move", "action_scene_graph", "visual_query_track", "object_mask_anchor",
                 "object_parts_attributes", "person_looking"]
 SPATIAL = {"spatial_near", "spatial_side", "sound_anchored_spatial_near", "sound_anchored_spatial_side",
-           "inter_event_spatial_extreme", "inter_event_spatial_order"}
+           "inter_event_spatial_extreme", "inter_event_spatial_order", "ego_direction_unseen", "turn_to_face",
+           "speaker_direction", "turn_to_face_speaker", "speaker_approach", "nearest_utterance", "sound_direction"}
 
 
 def _trim_context(ctx, skill, cap=25):

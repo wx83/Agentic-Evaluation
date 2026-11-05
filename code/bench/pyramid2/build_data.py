@@ -31,9 +31,11 @@ def _adapters(only=None, videos=None):
     from adapters.hdepic_e_spatial_derived import HdEpicESpatialDerived
     from adapters.aea_protocol import AeaProtocol
     from adapters.aea_p_spatial import AeaPSpatial
+    from adapters.aea_savvy import AeaSavvy
     reg = {"hdepic_e": lambda: HdEpicE(videos),
            "aea_p": lambda: AeaProtocol(videos),                 # 10-27 晚:AEA protocol clip(goal / 步骤 / caption / 声音)
-           "aea_p_spatial": lambda: AeaPSpatial(videos),         # 10-27 晚:SAM3+MPS fixture / 转移 / spatial_relation / 声源方向 / 视线(在 aea_p 之后单独跑)
+           "aea_p_spatial": lambda: AeaPSpatial(videos),
+           "aea_s": lambda: AeaSavvy(videos),                    # 11-03:AEA 两人录像(goal_e + SAVVY speech 位置 + legacy sound / caption)         # 10-27 晚:SAM3+MPS fixture / 转移 / spatial_relation / 声源方向 / 视线(在 aea_p 之后单独跑)
            "hdepic_e_spatial": lambda: HdEpicESpatial(videos),     # 10-27:官方 assoc/mask 搬运 + 可见轨迹 + mask 锚点 + gaze priming + 活动段
            "hdepic_e_spatial_derived": lambda: HdEpicESpatialDerived(videos),   # 10-27:派生 spatial_relation(nearest / farthest / order / side)
            "hdepic": lambda: HdEpic(videos and [v for v in videos if v in P.HDEPIC_VIDEOS]),

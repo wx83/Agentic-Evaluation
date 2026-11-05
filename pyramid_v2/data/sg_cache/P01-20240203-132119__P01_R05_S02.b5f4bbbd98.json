@@ -1,0 +1,763 @@
+{
+ "task_id": "P01-20240203-132119__P01_R05_S02",
+ "prompt_hash": "b5f4bbbd98",
+ "model": "gcp/google/gemini-3.1-pro-preview",
+ "created": "2026-11-02T22:35:52",
+ "input": {
+  "task_id": "P01-20240203-132119__P01_R05_S02",
+  "goal": "Crumble up the biscuit and combine with the mixture",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "text": "Gather ingredients and prepare food processor parts."
+   },
+   {
+    "idx": 2,
+    "text": "Attempt to assemble the food processor blade."
+   },
+   {
+    "idx": 3,
+    "text": "Find the correct piece and figure out the assembly."
+   },
+   {
+    "idx": 4,
+    "text": "Wash and dry the center piece of the food processor."
+   },
+   {
+    "idx": 5,
+    "text": "Assemble the food processor blade and plug in the appliance."
+   },
+   {
+    "idx": 6,
+    "text": "Test the food processor and prepare it for use."
+   },
+   {
+    "idx": 7,
+    "text": "Add the first batch of biscuits to the food processor."
+   },
+   {
+    "idx": 8,
+    "text": "Crush the first batch of biscuits."
+   },
+   {
+    "idx": 9,
+    "text": "Add more biscuits to the food processor."
+   },
+   {
+    "idx": 10,
+    "text": "Crush the second batch of biscuits."
+   },
+   {
+    "idx": 11,
+    "text": "Add the remaining biscuits from the first packet and crush them."
+   },
+   {
+    "idx": 12,
+    "text": "Add a second packet of biscuits to the food processor."
+   },
+   {
+    "idx": 13,
+    "text": "Crush the second packet of biscuits."
+   }
+  ],
+  "skills": {
+   "object_recognition": "L1: which object is in hand / being handled at the moment of the event",
+   "action_recognition": "L2: what action (verb + object) the event is",
+   "event_object_role": "L2: which object is acted on, with which tool, to which destination in the event",
+   "action_temporal_order": "L2: the order of two actions shown close together inside one sub-goal",
+   "sound_action_binding": "L2: which action / object produced the sound heard",
+   "sound_movement_binding": "L2: which object movement coincides with the sound",
+   "spatial_near": "L1: at the moment of the event, which of the listed objects is nearest to a reference object (3D positions from the dataset)",
+   "spatial_side": "L1: at the moment of the event, which listed object is leftmost / rightmost from the wearer's viewpoint",
+   "sound_anchored_spatial_near": "L2: at the moment of a sound, which listed object is nearest to a reference object",
+   "sound_anchored_spatial_side": "L2: at the moment of a sound, which listed object is leftmost / rightmost for the wearer",
+   "object_location_at_time": "L1: on which surface / fixture / container an object is put down at the event",
+   "object_state_change": "L2: where an object was taken from and where it went in one movement"
+  },
+  "l3_relation_types": {
+   "object_continuity": "the same object / ingredient appears in an event of sub-goal k and an event of the ADJACENT sub-goal k+1; what happened to it between them (chopped broccoli -> in the pan)",
+   "state_change": "how the state of an object differs between the two events (whole -> chopped, empty -> full, raw -> browned)",
+   "causal_prerequisite": "the earlier event is a physical prerequisite of the later one (could not be done without it)",
+   "hidden_state": "an appliance / container state was set in the earlier event and is not visible in the later segment; what is its state at the end of the later segment"
+  },
+  "n_sub_goals": 13
+ },
+ "plan": {
+  "task_id": "P01-20240203-132119__P01_R05_S02",
+  "goal": "Crumble up the biscuit and combine with the mixture",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "events": [
+     {
+      "event_id": "s1e1",
+      "sub_goal": 1,
+      "type": "placement",
+      "description": "The person places the food processor bowl on the counter.",
+      "objects": [
+       "food processor bowl",
+       "counter"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "object_location_at_time"
+      ],
+      "relevance": "to have the equipment ready for crushing"
+     },
+     {
+      "event_id": "s1e2",
+      "sub_goal": 1,
+      "type": "placement",
+      "description": "The person places a packet of biscuits on the counter.",
+      "objects": [
+       "packet",
+       "biscuits",
+       "counter"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "object_location_at_time"
+      ],
+      "relevance": "to have the ingredients ready for crushing"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 2,
+    "events": [
+     {
+      "event_id": "s2e1",
+      "sub_goal": 2,
+      "type": "action",
+      "description": "The person inserts the blade into the food processor bowl.",
+      "objects": [
+       "blade",
+       "food processor bowl"
+      ],
+      "verbs": [
+       "insert"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "to prepare the food processor for use"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 3,
+    "events": [
+     {
+      "event_id": "s3e1",
+      "sub_goal": 3,
+      "type": "action",
+      "description": "The person picks up the center spindle piece of the food processor.",
+      "objects": [
+       "spindle",
+       "food processor"
+      ],
+      "verbs": [
+       "pick"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition"
+      ],
+      "relevance": "to find the missing part needed for assembly"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 4,
+    "events": [
+     {
+      "event_id": "s4e1",
+      "sub_goal": 4,
+      "type": "action",
+      "description": "The person washes the spindle under running water.",
+      "objects": [
+       "spindle",
+       "water",
+       "sink"
+      ],
+      "verbs": [
+       "wash"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "to clean the part before it touches food"
+     },
+     {
+      "event_id": "s4e2",
+      "sub_goal": 4,
+      "type": "action",
+      "description": "The person dries the spindle with a towel.",
+      "objects": [
+       "spindle",
+       "towel"
+      ],
+      "verbs": [
+       "dry"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "to remove water before assembly"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 5,
+    "events": [
+     {
+      "event_id": "s5e1",
+      "sub_goal": 5,
+      "type": "placement",
+      "description": "The person places the spindle and blade into the food processor bowl.",
+      "objects": [
+       "spindle",
+       "blade",
+       "food processor bowl"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "object_location_at_time"
+      ],
+      "relevance": "to complete the assembly of the food processor"
+     },
+     {
+      "event_id": "s5e2",
+      "sub_goal": 5,
+      "type": "action",
+      "description": "The person plugs the food processor cord into the wall outlet.",
+      "objects": [
+       "cord",
+       "food processor",
+       "outlet"
+      ],
+      "verbs": [
+       "plug"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "to provide power to the appliance"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 6,
+    "events": [
+     {
+      "event_id": "s6e1",
+      "sub_goal": 6,
+      "type": "action",
+      "description": "The person presses the button on the food processor base.",
+      "objects": [
+       "button",
+       "food processor base"
+      ],
+      "verbs": [
+       "press"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition"
+      ],
+      "relevance": "to check if the food processor works"
+     },
+     {
+      "event_id": "s6e2",
+      "sub_goal": 6,
+      "type": "sound",
+      "description": "The food processor motor makes a whirring sound.",
+      "objects": [
+       "food processor"
+      ],
+      "verbs": [
+       "make"
+      ],
+      "skills": [
+       "sound_action_binding"
+      ],
+      "relevance": "to confirm the motor is running"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 7,
+    "events": [
+     {
+      "event_id": "s7e1",
+      "sub_goal": 7,
+      "type": "action",
+      "description": "The person opens the packet of biscuits.",
+      "objects": [
+       "packet",
+       "biscuits"
+      ],
+      "verbs": [
+       "open"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "object_state_change"
+      ],
+      "relevance": "to access the biscuits for crushing"
+     },
+     {
+      "event_id": "s7e2",
+      "sub_goal": 7,
+      "type": "placement",
+      "description": "The person drops biscuits into the food processor bowl.",
+      "objects": [
+       "biscuits",
+       "food processor bowl"
+      ],
+      "verbs": [
+       "drop"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "object_location_at_time"
+      ],
+      "relevance": "to put the biscuits in the appliance"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 8,
+    "events": [
+     {
+      "event_id": "s8e1",
+      "sub_goal": 8,
+      "type": "placement",
+      "description": "The person places the lid on the food processor bowl.",
+      "objects": [
+       "lid",
+       "food processor bowl"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "object_location_at_time"
+      ],
+      "relevance": "to prevent biscuits from flying out"
+     },
+     {
+      "event_id": "s8e2",
+      "sub_goal": 8,
+      "type": "action",
+      "description": "The person presses the button to turn on the food processor.",
+      "objects": [
+       "button",
+       "food processor"
+      ],
+      "verbs": [
+       "press"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition"
+      ],
+      "relevance": "to start the crushing process"
+     },
+     {
+      "event_id": "s8e3",
+      "sub_goal": 8,
+      "type": "sound",
+      "description": "The food processor makes a loud crushing sound.",
+      "objects": [
+       "food processor",
+       "biscuits"
+      ],
+      "verbs": [
+       "make"
+      ],
+      "skills": [
+       "sound_action_binding"
+      ],
+      "relevance": "to indicate the biscuits are being crushed"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 9,
+    "events": [
+     {
+      "event_id": "s9e1",
+      "sub_goal": 9,
+      "type": "action",
+      "description": "The person removes the lid from the food processor bowl.",
+      "objects": [
+       "lid",
+       "food processor bowl"
+      ],
+      "verbs": [
+       "remove"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "event_object_role"
+      ],
+      "relevance": "to allow adding more biscuits"
+     },
+     {
+      "event_id": "s9e2",
+      "sub_goal": 9,
+      "type": "placement",
+      "description": "The person drops more biscuits into the food processor bowl.",
+      "objects": [
+       "biscuits",
+       "food processor bowl"
+      ],
+      "verbs": [
+       "drop"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "object_location_at_time"
+      ],
+      "relevance": "to add the next batch for crushing"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 10,
+    "events": [
+     {
+      "event_id": "s10e1",
+      "sub_goal": 10,
+      "type": "action",
+      "description": "The person presses the button to turn on the food processor.",
+      "objects": [
+       "button",
+       "food processor"
+      ],
+      "verbs": [
+       "press"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition"
+      ],
+      "relevance": "to crush the second batch"
+     },
+     {
+      "event_id": "s10e2",
+      "sub_goal": 10,
+      "type": "sound",
+      "description": "The food processor makes a crushing sound again.",
+      "objects": [
+       "food processor",
+       "biscuits"
+      ],
+      "verbs": [
+       "make"
+      ],
+      "skills": [
+       "sound_action_binding"
+      ],
+      "relevance": "to indicate the second batch is being crushed"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 11,
+    "events": [
+     {
+      "event_id": "s11e1",
+      "sub_goal": 11,
+      "type": "placement",
+      "description": "The person drops the remaining biscuits from the first packet into the bowl.",
+      "objects": [
+       "biscuits",
+       "packet",
+       "food processor bowl"
+      ],
+      "verbs": [
+       "drop"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "object_location_at_time"
+      ],
+      "relevance": "to finish the first packet of biscuits"
+     },
+     {
+      "event_id": "s11e2",
+      "sub_goal": 11,
+      "type": "action",
+      "description": "The person presses the button to crush the biscuits.",
+      "objects": [
+       "button",
+       "food processor"
+      ],
+      "verbs": [
+       "press"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition"
+      ],
+      "relevance": "to crush the remaining biscuits"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 12,
+    "events": [
+     {
+      "event_id": "s12e1",
+      "sub_goal": 12,
+      "type": "action",
+      "description": "The person opens a second packet of biscuits.",
+      "objects": [
+       "packet",
+       "biscuits"
+      ],
+      "verbs": [
+       "open"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "object_state_change"
+      ],
+      "relevance": "to access more biscuits"
+     },
+     {
+      "event_id": "s12e2",
+      "sub_goal": 12,
+      "type": "placement",
+      "description": "The person drops biscuits from the second packet into the food processor bowl.",
+      "objects": [
+       "biscuits",
+       "packet",
+       "food processor bowl"
+      ],
+      "verbs": [
+       "drop"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition",
+       "object_location_at_time"
+      ],
+      "relevance": "to add the second packet to the processor"
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 13,
+    "events": [
+     {
+      "event_id": "s13e1",
+      "sub_goal": 13,
+      "type": "action",
+      "description": "The person presses the button to crush the second packet of biscuits.",
+      "objects": [
+       "button",
+       "food processor"
+      ],
+      "verbs": [
+       "press"
+      ],
+      "skills": [
+       "object_recognition",
+       "action_recognition"
+      ],
+      "relevance": "to crush the second packet of biscuits"
+     }
+    ],
+    "irrelevant": ""
+   }
+  ],
+  "relations": [
+   {
+    "rel_id": "r1",
+    "type": "causal_prerequisite",
+    "skill": "causal_prerequisite_reasoning",
+    "events": [
+     "s4e2",
+     "s5e1"
+    ],
+    "ask": "Why was the spindle dried before being placed in the food processor?",
+    "answer_hint": "The spindle was washed and needed to be dry before assembly."
+   },
+   {
+    "rel_id": "r2",
+    "type": "causal_prerequisite",
+    "skill": "causal_prerequisite_reasoning",
+    "events": [
+     "s5e2",
+     "s6e1"
+    ],
+    "ask": "What had to be done to the food processor before it could be tested?",
+    "answer_hint": "The food processor cord was plugged into the wall outlet."
+   },
+   {
+    "rel_id": "r3",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s7e2",
+     "s8e2"
+    ],
+    "ask": "What happened to the biscuits that were dropped into the food processor bowl?",
+    "answer_hint": "The food processor was turned on to crush the biscuits."
+   },
+   {
+    "rel_id": "r4",
+    "type": "state_change",
+    "skill": "cross_event_integration",
+    "events": [
+     "s8e2",
+     "s9e2"
+    ],
+    "ask": "What was the state of the first batch of biscuits when more biscuits were added?",
+    "answer_hint": "The first batch of biscuits had been crushed by the food processor."
+   },
+   {
+    "rel_id": "r5",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s9e2",
+     "s10e1"
+    ],
+    "ask": "What was done with the additional biscuits dropped into the bowl?",
+    "answer_hint": "The button was pressed to crush them."
+   },
+   {
+    "rel_id": "r6",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s12e2",
+     "s13e1"
+    ],
+    "ask": "What happened to the biscuits from the second packet after they were added to the bowl?",
+    "answer_hint": "The button was pressed to crush the second packet of biscuits."
+   }
+  ],
+  "decision_points": [
+   {
+    "idx": 2,
+    "real": true,
+    "why": "The person decides to start assembling the food processor blade."
+   },
+   {
+    "idx": 3,
+    "real": true,
+    "why": "The person realizes a piece is missing or incorrect and decides to find the right one."
+   },
+   {
+    "idx": 4,
+    "real": true,
+    "why": "The person decides the center piece needs to be washed before use."
+   },
+   {
+    "idx": 5,
+    "real": true,
+    "why": "The person decides to proceed with assembly after washing the piece."
+   },
+   {
+    "idx": 6,
+    "real": true,
+    "why": "The person decides to test the appliance to ensure it works before adding ingredients."
+   },
+   {
+    "idx": 7,
+    "real": true,
+    "why": "The person decides to start adding the biscuits to the food processor."
+   },
+   {
+    "idx": 8,
+    "real": true,
+    "why": "The person decides to crush the first batch of biscuits."
+   },
+   {
+    "idx": 9,
+    "real": true,
+    "why": "The person decides to add more biscuits in batches rather than all at once."
+   },
+   {
+    "idx": 10,
+    "real": false,
+    "why": "Crushing the second batch is a repetition of the previous crushing action."
+   },
+   {
+    "idx": 11,
+    "real": false,
+    "why": "Adding and crushing the remaining biscuits from the first packet is a continuation of the batch process."
+   },
+   {
+    "idx": 12,
+    "real": true,
+    "why": "The person decides that more biscuits are needed and opens a second packet."
+   },
+   {
+    "idx": 13,
+    "real": false,
+    "why": "Crushing the second packet is a repetition of the crushing action."
+   },
+   {
+    "idx": 14,
+    "real": true,
+    "why": "The person has finished crushing all the biscuits and decides to move on to the next step of the recipe."
+   }
+  ]
+ },
+ "warnings": [],
+ "usage": {
+  "tok_in": 1709,
+  "tok_out": 4454,
+  "tok_think": 7386,
+  "model_version": "gemini-3.1-pro-preview",
+  "finish_reason": "FinishReason.STOP"
+ },
+ "status": "ok",
+ "raw_len": 16406
+}

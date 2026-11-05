@@ -1,0 +1,424 @@
+[18:52:32] sg planner: P02-20240210-113925__P02_R04_S06: 15 expected events (13 matched to annotations), 13 relations, 7 decision points
+[18:52:32] L2: skills ['action_recognition', 'event_object_role', 'action_temporal_order', 'sound_action_binding', 'sound_movement_binding', 'sound_localization']; pools {action_recognition:7, event_object_role:7, action_temporal_order:7, sound_action_binding:7, sound_movement_binding:5, sound_localization:7}; NOT_EVALUATED []
+[18:52:32] L2: v17 event loop: 11 units, 62 (unit, skill) items planned
+[18:53:03]   L2 turn 1 blind_filter: not guessable (blind answer 'B')
+[18:53:14]   L2 t01 action_recognition               L2 single_choice event s1e1   search -> correct move=stay
+[18:53:39]   L2 turn 2 blind_filter: GUESSABLE -> item dropped (blind answer 'B')
+[18:53:39]   L2 t02 event_object_role                s1e1   -> guessable (retry 1/2)
+[18:54:04]   L2 turn 3 blind_filter: GUESSABLE -> item dropped (blind answer 'B')
+[18:54:04]   L2 t03 event_object_role                s1e1   -> guessable (retry 2/2)
+[18:54:31]   L2 turn 4 blind_filter: GUESSABLE -> item dropped (blind answer 'B')
+[18:54:31]   L2 t04 event_object_role                L2 single_choice event s1e1   search -> guessable
+[18:54:53]   L2 t05 action_temporal_order            s1e1   -> evidence_unresolved (retry 1/2)
+[18:55:39]   L2 turn 6 examiner output rejected (attempt 1): ['duplicate options']
+[18:56:02]   L2 t06 action_temporal_order            s1e1   -> evidence_unresolved (retry 2/2)
+[18:56:16]   L2 t07 action_temporal_order            L2 -             event s1e1   search -> evidence_unresolved
+[18:57:09]   L2 turn 8 blind_filter: GUESSABLE -> item dropped (blind answer 'D')
+[18:57:09]   L2 t08 sound_action_binding             s1e1   -> guessable (retry 1/2)
+[18:57:59]   L2 turn 9 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[18:57:59]   L2 t09 sound_action_binding             s1e1   -> guessable (retry 2/2)
+[18:58:57]   L2 turn 10 blind_filter: GUESSABLE -> item dropped (blind answer 'A')
+[18:58:57]   L2 t10 sound_action_binding             L2 single_choice event s1e1   search -> guessable
+[18:59:39]   L2 turn 11 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[18:59:39]   L2 t11 sound_movement_binding           s1e1   -> guessable (retry 1/2)
+[19:01:11]   L2 turn 12 blind_filter: GUESSABLE -> item dropped (blind answer 'D')
+[19:01:11]   L2 t12 sound_movement_binding           s1e1   -> guessable (retry 2/2)
+[19:02:01]   L2 turn 13 blind_filter: GUESSABLE -> item dropped (blind answer 'B')
+[19:02:01]   L2 t13 sound_movement_binding           L2 single_choice event s1e1   search -> guessable
+[19:02:43]   L2 turn 14 blind_filter: not guessable (blind answer 'A')
+[19:02:50]   L2 t14 sound_localization               L2 single_choice event s1e1   search -> wrong move=down
+[19:03:47]   L2 turn 15 blind_filter: not guessable (blind answer 'D')
+[19:03:53]   L2 t15 action_recognition               L2 single_choice event s2e1   search -> correct move=up
+[19:05:20]   L2 turn 16 blind_filter: not guessable (blind answer 'D')
+[19:05:35]   L2 t16 event_object_role                L2 single_choice event s2e1   search -> correct move=stay
+[19:06:00]   L2 t17 action_temporal_order            s2e1   -> evidence_unresolved (retry 1/2)
+[19:06:14]   L2 t18 action_temporal_order            s2e1   -> evidence_unresolved (retry 2/2)
+[19:07:00]   L2 t19 action_temporal_order            L2 -             event s2e1   search -> evidence_unresolved
+[19:08:16]   L2 turn 20 blind_filter: not guessable (blind answer 'D')
+[19:08:20]   L2 t20 sound_action_binding             L2 single_choice event s2e1   search -> wrong move=down
+[19:08:44]   L2 turn 21 blind_filter: GUESSABLE -> item dropped (blind answer 'D')
+[19:08:44]   L2 t21 sound_movement_binding           s2e1   -> guessable (retry 1/2)
+[19:09:23]   L2 turn 22 blind_filter: not guessable (blind answer 'B')
+[19:09:27]   L2 t22 sound_movement_binding           L2 single_choice event s2e1   search -> correct move=stay
+[19:09:43]   L2 turn 23 examiner output rejected (attempt 1): ["question / options must refer to the event s2e1 ('The butter is retrieved from the fridge or counter.'): none of its words appear"]
+[19:10:19]   L2 t23 sound_localization               s2e1   -> evidence_unresolved (retry 1/2)
+[19:12:06]   L2 turn 24 examiner output rejected (attempt 1): ["question / options must refer to the event s2e1 ('The butter is retrieved from the fridge or counter.'): none of its words appear"]
+[19:13:19]   L2 turn 24 blind_filter: not guessable (blind answer 'A')
+[19:13:25]   L2 t24 sound_localization               L1 single_choice event s2e1   search -> wrong move=stay
+[19:14:00]   L2 turn 25 blind_filter: not guessable (blind answer 'B')
+[19:14:05]   L2 t25 action_recognition               L3 single_choice event s3e1   search -> correct move=stay
+[19:14:46]   L2 turn 26 blind_filter: not guessable (blind answer 'D')
+[19:15:06]   L2 t26 event_object_role                L2 single_choice event s3e1   search -> correct move=up
+[19:15:49]   L2 turn 27 blind_filter: GUESSABLE -> item dropped (blind answer 'D')
+[19:15:49]   L2 t27 action_temporal_order            s3e1   -> guessable (retry 1/2)
+[19:16:08]   L2 t28 action_temporal_order            s3e1   -> evidence_unresolved (retry 2/2)
+[19:16:38]   L2 t29 action_temporal_order            L2 -             event s3e1   search -> evidence_unresolved
+[19:17:23]   L2 turn 30 blind_filter: GUESSABLE -> item dropped (blind answer 'A')
+[19:17:23]   L2 t30 sound_action_binding             s3e1   -> guessable (retry 1/2)
+[19:19:31]   L2 turn 31 examiner output rejected (attempt 1): ['duplicate options', "question / options must refer to the event s3e1 ('The butter container is opened or the wrapper is peeled back.'): none of its words appear"]
+[19:20:20]   L2 turn 31 blind_filter: not guessable (blind answer 'D')
+[19:20:34]   L2 t31 sound_action_binding             L1 single_choice event s3e1   search -> wrong move=stay
+[19:22:45]   L2 turn 32 examiner output rejected (attempt 1): ['duplicate options', "question / options must refer to the event s3e1 ('The butter container is opened or the wrapper is peeled back.'): none of its words appear"]
+[19:23:36]   L2 turn 32 blind_filter: not guessable (blind answer 'D')
+[19:23:40]   L2 t32 sound_movement_binding           L2 single_choice event s3e1   search -> correct move=up
+[19:24:44]   L2 turn 33 examiner output rejected (attempt 1): ["question / options must refer to the event s3e1 ('The butter container is opened or the wrapper is peeled back.'): none of its words appear"]
+[19:25:30]   L2 turn 33 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[19:25:30]   L2 t33 sound_localization               s3e1   -> guessable (retry 1/2)
+[19:26:04]   L2 turn 34 examiner output rejected (attempt 1): ["question / options must refer to the event s3e1 ('The butter container is opened or the wrapper is peeled back.'): none of its words appear"]
+[19:26:40]   L2 t34 sound_localization               s3e1   -> evidence_unresolved (retry 2/2)
+[19:26:58]   L2 t35 sound_localization               L1 -             event s3e1   search -> evidence_unresolved
+[19:27:42]   L2 turn 36 blind_filter: not guessable (blind answer 'D')
+[19:27:56]   L2 t36 action_recognition               L3 single_choice event s3e2   search -> correct move=up
+[19:30:15]   L2 turn 37 blind_filter: not guessable (blind answer 'C')
+[19:30:20]   L2 t37 event_object_role                L3 single_choice event s3e2   search -> wrong move=down
+[19:31:04]   L2 turn 38 blind_filter: not guessable (blind answer 'A')
+[19:31:07]   L2 t38 sound_action_binding             L1 single_choice event s3e2   search -> correct move=stay
+[19:31:54]   L2 turn 39 blind_filter: not guessable (blind answer 'A')
+[19:32:07]   L2 t39 sound_movement_binding           L3 single_choice event s3e2   search -> correct move=stay
+[19:32:24]   L2 t40 sound_localization               s3e2   -> evidence_unresolved (retry 1/2)
+[19:32:43]   L2 t41 sound_localization               s3e2   -> evidence_unresolved (retry 2/2)
+[19:32:56]   L2 t42 sound_localization               L1 -             event s3e2   search -> evidence_unresolved
+[19:34:16]   L2 turn 43 blind_filter: GUESSABLE -> item dropped (blind answer '[15.0, 25.0]')
+[19:34:16]   L2 t43 action_recognition               s4e1   -> guessable (retry 1/2)
+[19:35:00]   L2 turn 44 blind_filter: GUESSABLE -> item dropped (blind answer '[15.0, 20.0]')
+[19:35:00]   L2 t44 action_recognition               s4e1   -> guessable (retry 2/2)
+[19:35:48]   L2 turn 45 blind_filter: not guessable (blind answer '[15.0, 35.0]')
+[19:35:55]   L2 t45 action_recognition               L4 time_window   event s4e1   search -> correct move=stay
+[19:36:17]   L2 turn 46 blind_filter: not guessable (blind answer 'B')
+[19:37:23] sg planner: P02-20240210-113925__P02_R04_S06: 15 expected events (13 matched to annotations), 13 relations, 7 decision points
+[19:37:23] L2: skills ['action_recognition', 'event_object_role', 'action_temporal_order', 'sound_action_binding', 'sound_movement_binding', 'sound_localization']; pools {action_recognition:7, event_object_role:7, action_temporal_order:7, sound_action_binding:7, sound_movement_binding:5, sound_localization:7}; NOT_EVALUATED []
+[19:37:23] L2: v17 event loop: 11 units, 62 (unit, skill) items planned
+[19:37:54]   L2 turn 46 blind_filter: not guessable (blind answer 'B')
+[19:37:58]   L2 t46 event_object_role                L2 single_choice event s4e1   search -> correct move=stay
+[19:38:30]   L2 turn 47 blind_filter: GUESSABLE -> item dropped (blind answer 'D')
+[19:38:30]   L2 t47 sound_action_binding             s4e1   -> guessable (retry 1/2)
+[19:39:24]   L2 turn 48 examiner output rejected (attempt 1): ['duplicate options', "question / options must refer to the event s4e1 ('The butter is spread onto the cut sides of the baguette.'): none of its words appear"]
+[19:40:22]   L2 turn 48 examiner output rejected (attempt 2): ['L2: the question must NOT say when in the clip the event happens; describe the event in words only']
+[19:40:22]   L2 t48 sound_action_binding             s4e1   -> item_invalid (retry 2/2)
+[19:41:17]   L2 turn 49 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[19:41:17]   L2 t49 sound_action_binding             L1 single_choice event s4e1   search -> guessable
+[19:41:43]   L2 t50 sound_localization               s4e1   -> evidence_unresolved (retry 1/2)
+[19:41:55]   L2 t51 sound_localization               s4e1   -> evidence_unresolved (retry 2/2)
+[19:42:11]   L2 t52 sound_localization               L1 -             event s4e1   search -> evidence_unresolved
+[19:42:41]   L2 turn 53 blind_filter: not guessable (blind answer '[4.0, 8.0]')
+[19:42:48]   L2 t53 action_recognition               L4 time_window   event s5e2   search -> correct move=stay | boundary=4.5 (ceiling)
+[19:43:32]   L2 turn 54 blind_filter: not guessable (blind answer 'C')
+[19:43:39]   L2 t54 event_object_role                L2 single_choice event s5e2   search -> correct move=up | boundary=2.5 (reversals)
+[19:44:43]   L2 turn 55 blind_filter: not guessable (blind answer 'D')
+[19:44:46]   L2 t55 sound_action_binding             L1 single_choice event s5e2   search -> correct move=up
+[19:45:22]   L2 turn 56 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[19:45:22]   L2 t56 sound_movement_binding           s5e2   -> guessable (retry 1/2)
+[19:45:53]   L2 turn 57 blind_filter: GUESSABLE -> item dropped (blind answer 'D')
+[19:45:53]   L2 t57 sound_movement_binding           s5e2   -> guessable (retry 2/2)
+[19:46:45]   L2 turn 58 blind_filter: GUESSABLE -> item dropped (blind answer 'D')
+[19:46:45]   L2 t58 sound_movement_binding           L3 single_choice event s5e2   search -> guessable
+[19:47:22]   L2 turn 59 blind_filter: not guessable (blind answer '[15.0, 20.0]')
+[19:47:27]   L2 t59 action_recognition               L4 time_window   event s5e1   verify -> correct
+[19:48:07]   L2 turn 60 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[19:48:07]   L2 t60 event_object_role                s5e1   -> guessable (retry 1/2)
+[19:48:46]   L2 turn 61 blind_filter: not guessable (blind answer 'D')
+[19:48:52]   L2 t61 event_object_role                L2 single_choice event s5e1   verify -> correct
+[19:49:40]   L2 turn 62 blind_filter: GUESSABLE -> item dropped (blind answer 'D')
+[19:49:40]   L2 t62 sound_action_binding             s5e1   -> guessable (retry 1/2)
+[19:50:12]   L2 turn 63 examiner output rejected (attempt 1): ['duplicate options', "question / options must refer to the event s5e1 ('Slices of bacon are picked up from a plate or pan.'): none of its words appear"]
+[19:51:26]   L2 turn 63 blind_filter: not guessable (blind answer 'B')
+[19:51:32]   L2 t63 sound_action_binding             L2 single_choice event s5e1   search -> wrong move=down | boundary=1.5 (reversals)
+[19:52:53]   L2 turn 64 blind_filter: GUESSABLE -> item dropped (blind answer 'A')
+[19:52:53]   L2 t64 sound_movement_binding           s5e1   -> guessable (retry 1/2)
+[19:54:01]   L2 turn 65 blind_filter: GUESSABLE -> item dropped (blind answer 'B')
+[19:54:01]   L2 t65 sound_movement_binding           s5e1   -> guessable (retry 2/2)
+[19:55:00]   L2 turn 66 blind_filter: GUESSABLE -> item dropped (blind answer 'B')
+[19:55:00]   L2 t66 sound_movement_binding           L3 single_choice event s5e1   search -> guessable
+[19:55:34]   L2 turn 67 blind_filter: not guessable (blind answer '[5.0, 10.0]')
+[19:55:42]   L2 t67 action_recognition               L4 time_window   event s6e2   verify -> wrong
+[19:57:16]   L2 turn 68 blind_filter: not guessable (blind answer 'D')
+[19:57:23]   L2 t68 event_object_role                L2 single_choice event s6e2   verify -> correct
+[19:58:41]   L2 turn 69 blind_filter: GUESSABLE -> item dropped (blind answer 'B')
+[19:58:41]   L2 t69 sound_action_binding             s6e2   -> guessable (retry 1/2)
+[19:59:48]   L2 turn 70 blind_filter: GUESSABLE -> item dropped (blind answer 'A')
+[19:59:48]   L2 t70 sound_action_binding             s6e2   -> guessable (retry 2/2)
+[20:00:48]   L2 turn 71 blind_filter: GUESSABLE -> item dropped (blind answer 'D')
+[20:00:48]   L2 t71 sound_action_binding             L2 single_choice event s6e2   verify -> guessable
+[20:01:22]   L2 turn 72 blind_filter: not guessable (blind answer '[5.0, 10.0]')
+[20:01:28]   L2 t72 action_recognition               L4 time_window   event s6e1   verify -> wrong
+[20:02:06]   L2 turn 73 blind_filter: not guessable (blind answer 'D')
+[20:02:11]   L2 t73 event_object_role                L2 single_choice event s6e1   verify -> correct
+[20:03:11]   L2 turn 74 blind_filter: GUESSABLE -> item dropped (blind answer 'D')
+[20:03:11]   L2 t74 sound_action_binding             s6e1   -> guessable (retry 1/2)
+[20:05:35]   L2 turn 75 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[20:05:35]   L2 t75 sound_action_binding             s6e1   -> guessable (retry 2/2)
+[20:06:21]   L2 turn 76 blind_filter: GUESSABLE -> item dropped (blind answer 'B')
+[20:06:21]   L2 t76 sound_action_binding             L2 single_choice event s6e1   verify -> guessable
+[20:06:59]   L2 turn 77 blind_filter: GUESSABLE -> item dropped (blind answer '[5.0, 8.0]')
+[20:06:59]   L2 t77 action_recognition               s7e1   -> guessable (retry 1/2)
+[20:07:27]   L2 turn 78 blind_filter: GUESSABLE -> item dropped (blind answer '[5.0, 8.0]')
+[20:07:27]   L2 t78 action_recognition               s7e1   -> guessable (retry 2/2)
+[20:07:58]   L2 turn 79 blind_filter: GUESSABLE -> item dropped (blind answer '[5.0, 9.0]')
+[20:07:58]   L2 t79 action_recognition               L4 time_window   event s7e1   verify -> guessable
+[20:08:34]   L2 turn 80 blind_filter: not guessable (blind answer 'D')
+[20:08:41]   L2 t80 event_object_role                L2 single_choice event s7e1   verify -> correct
+[20:09:11]   L2 turn 81 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[20:09:11]   L2 t81 sound_action_binding             s7e1   -> guessable (retry 1/2)
+[20:10:01]   L2 turn 82 blind_filter: GUESSABLE -> item dropped (blind answer 'D')
+[20:10:01]   L2 t82 sound_action_binding             s7e1   -> guessable (retry 2/2)
+[20:13:10]   L2 turn 83 examiner output rejected (attempt 1): ['duplicate options', "question / options must refer to the event s7e1 ('Cheese is picked up from a plate or wrapper.'): none of its words appear"]
+[20:13:42]   L2 turn 83 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[20:13:42]   L2 t83 sound_action_binding             L2 single_choice event s7e1   verify -> guessable
+[20:14:20]   L2 turn 84 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[20:14:20]   L2 t84 sound_movement_binding           s7e1   -> guessable (retry 1/2)
+[20:14:48]   L2 turn 85 examiner output rejected (attempt 1): ["nearest: question must name the reference object ('block of cheese') the distance is relative to", "nearest: relative position; question must make clear it compares only the listed candidates ('among the following objects', 'which of these')", 'near/far relation: question must ask for the closest/farthest object']
+[20:15:56]   L2 turn 85 blind_filter: not guessable (blind answer 'C')
+[20:16:03]   L2 t85 sound_movement_binding           L3 single_choice event s7e1   search -> wrong move=down
+[20:16:55]   L2 turn 86 blind_filter: not guessable (blind answer '[4.0, 7.0]')
+[20:17:11]   L2 t86 action_recognition               L4 time_window   event s7e2   verify -> correct
+[20:17:35]   L2 t87 event_object_role                s7e2   -> evidence_unresolved (retry 1/2)
+[20:18:29]   L2 turn 88 blind_filter: not guessable (blind answer 'C')
+[20:18:44]   L2 t88 event_object_role                L2 single_choice event s7e2   verify -> correct
+[20:19:22]   L2 turn 89 blind_filter: GUESSABLE -> item dropped (blind answer 'B')
+[20:19:22]   L2 t89 sound_action_binding             s7e2   -> guessable (retry 1/2)
+[20:20:21]   L2 turn 90 blind_filter: GUESSABLE -> item dropped (blind answer 'A')
+[20:20:21]   L2 t90 sound_action_binding             s7e2   -> guessable (retry 2/2)
+[20:21:12]   L2 turn 91 examiner output rejected (attempt 1): ['duplicate options', "question / options must refer to the event s7e2 ('The cheese is placed on top of the scrambled eggs.'): none of its words appear"]
+[20:22:13]   L2 turn 91 blind_filter: not guessable (blind answer 'D')
+[20:22:17]   L2 t91 sound_action_binding             L2 single_choice event s7e2   verify -> correct
+[20:22:52]   L2 turn 92 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[20:22:52]   L2 t92 sound_movement_binding           s7e2   -> guessable (retry 1/2)
+[20:23:32]   L2 turn 93 examiner output rejected (attempt 1): ['duplicate options', "question / options must refer to the event s7e2 ('The cheese is placed on top of the scrambled eggs.'): none of its words appear"]
+[20:25:13]   L2 turn 93 blind_filter: not guessable (blind answer 'C')
+[20:25:19]   L2 t93 sound_movement_binding           L2 single_choice event s7e2   search -> correct move=stay
+[20:25:19] L2: EVENT_LOOP_COMPLETE after 93 turns; boundaries action_recognition=4.5(ceiling), event_object_role=2.5(reversals), action_temporal_order=None(examiner_failed), sound_action_binding=1.5(reversals), sound_movement_binding=2.25(events_exhausted), sound_localization=1.5(examiner_failed)
+[20:25:19] L3 spatial_change: goal_relevance dropped 9 (kept 7): food bin x3; spices x2; jar of garam masala x1; spice bags x1; salt bottle x1; washing up liquid bottle x1
+[20:25:19] L3: skills ['spatial_near', 'spatial_side', 'sound_anchored_spatial_near', 'sound_anchored_spatial_side', 'object_location_at_time', 'object_state_change', 'cross_event_integration', 'causal_prerequisite_reasoning', 'hidden_state_inference', 'spatial_change', 'ego_direction_unseen', 'turn_to_face', 'sound_object_location', 'sound_object_nearest']; pools {spatial_near:1, spatial_side:0, sound_anchored_spatial_near:2, sound_anchored_spatial_side:0, object_location_at_time:5, object_state_change:5, cross_event_integration:48, causal_prerequisite_reasoning:4, hidden_state_inference:0, spatial_change:7, ego_direction_unseen:0, turn_to_face:0, sound_object_location:12, sound_object_nearest:12}; NOT_EVALUATED ['ego_direction_unseen', 'hidden_state_inference', 'sound_anchored_spatial_side', 'spatial_side', 'turn_to_face']
+[20:25:19] L3: v17 event loop: 51 units, 59 (unit, skill) items planned
+[20:26:01]   L3 turn 1 blind_filter: not guessable (blind answer 'B')
+[20:26:15]   L3 t01 cross_event_integration          L2 single_choice relation d3     search -> correct move=stay
+[20:27:01]   L3 turn 2 examiner output rejected (attempt 1): ['change_over_time: the question must ask where the object is at the named moment, or before / after the movement']
+[20:27:28]   L3 turn 2 examiner output rejected (attempt 2): ['change_over_time: the question must ask where the object is at the named moment, or before / after the movement']
+[20:27:28]   L3 t02 object_location_at_time          s1e1   -> item_invalid (retry 1/2)
+[20:27:44]   L3 turn 3 examiner output rejected (attempt 1): ['change_over_time: the question must ask where the object is at the named moment, or before / after the movement']
+[20:28:13]   L3 turn 3 blind_filter: GUESSABLE -> item dropped (blind answer 'A')
+[20:28:13]   L3 t03 object_location_at_time          s1e1   -> guessable (retry 2/2)
+[20:28:44]   L3 turn 4 examiner output rejected (attempt 1): ['change_over_time: the question must ask where the object is at the named moment, or before / after the movement']
+[20:29:34]   L3 turn 4 blind_filter: not guessable (blind answer 'B')
+[20:29:40]   L3 t04 object_location_at_time          L2 single_choice event s1e1   search -> correct move=stay
+[20:30:33]   L3 turn 5 examiner output rejected (attempt 1): ['change_over_time: the question must ask where the object is at the named moment, or before / after the movement']
+[20:31:16]   L3 turn 5 examiner output rejected (attempt 2): ['change_over_time: the question must ask where the object is at the named moment, or before / after the movement']
+[20:31:16]   L3 t05 object_state_change              s1e1   -> item_invalid (retry 1/2)
+[20:32:00]   L3 turn 6 examiner output rejected (attempt 1): ['change_over_time: the question must ask where the object is at the named moment, or before / after the movement']
+[20:32:56]   L3 turn 6 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[20:32:56]   L3 t06 object_state_change              s1e1   -> guessable (retry 2/2)
+[20:33:46]   L3 turn 7 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[20:33:46]   L3 t07 object_state_change              L2 single_choice event s1e1   search -> guessable
+[20:34:24]   L3 turn 8 examiner output rejected (attempt 1): ['reference answer appears in question']
+[20:35:36]   L3 turn 8 blind_filter: not guessable (blind answer 'the cutting board')
+[20:35:45]   L3 t08 spatial_change                   L4 short_answer  relation sc_41e367ee_nearest_before search -> wrong move=down
+[20:36:31]   L3 turn 9 examiner output rejected (attempt 1): ['reference answer appears in question']
+[20:38:23]   L3 turn 9 blind_filter: not guessable (blind answer 'the cutting board')
+[20:38:42]   L3 t09 spatial_change                   L4 short_answer  relation sc_febc085f_nearest_after search -> wrong move=down
+[20:39:16]   L3 turn 10 blind_filter: not guessable (blind answer 'A')
+[20:39:21]   L3 t10 spatial_change                   L1 single_choice relation sc_febc085f_which_moved search -> correct move=stay
+[20:39:56]   L3 turn 11 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[20:39:56]   L3 t11 cross_event_integration          d4     -> guessable (retry 1/2)
+[20:41:26]   L3 turn 12 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[20:41:26]   L3 t12 cross_event_integration          d4     -> guessable (retry 2/2)
+[20:42:35]   L3 turn 13 blind_filter: not guessable (blind answer 'A')
+[20:42:41]   L3 t13 cross_event_integration          L2 single_choice relation d4     search -> correct move=up
+[20:43:10]   L3 turn 14 examiner output rejected (attempt 1): ["option text appears in question: 'baguette'"]
+[20:43:42]   L3 turn 14 examiner output rejected (attempt 2): ["option text appears in question: 'baguette'"]
+[20:43:42]   L3 t14 spatial_change                   sc_00c7cc6b_nearest_before -> item_invalid (retry 1/2)
+[20:44:06]   L3 turn 15 examiner output rejected (attempt 1): ["option text appears in question: 'baguette'"]
+[20:44:35]   L3 turn 15 examiner output rejected (attempt 2): ["spatial_change: the question must name the moved object 'one fourth left of baguette'"]
+[20:44:35]   L3 t15 spatial_change                   sc_00c7cc6b_nearest_before -> item_invalid (retry 2/2)
+[20:45:07]   L3 turn 16 examiner output rejected (attempt 1): ["option text appears in question: 'baguette'"]
+[20:45:47]   L3 turn 16 examiner output rejected (attempt 2): ["spatial_change: the question must name the moved object 'one fourth left of baguette'"]
+[20:45:47]   L3 t16 spatial_change                   L3 single_choice relation sc_00c7cc6b_nearest_before search -> item_invalid
+[20:46:21]   L3 turn 17 blind_filter: GUESSABLE -> item dropped (blind answer 'A')
+[20:46:21]   L3 t17 sound_object_location            ch_sol_7274 -> guessable (retry 1/2)
+[20:46:48]   L3 turn 18 blind_filter: GUESSABLE -> item dropped (blind answer 'A')
+[20:46:48]   L3 t18 sound_object_location            ch_sol_7274 -> guessable (retry 2/2)
+[20:47:10]   L3 turn 19 blind_filter: GUESSABLE -> item dropped (blind answer 'A')
+[20:47:10]   L3 t19 sound_object_location            L1 single_choice relation ch_sol_7274 search -> guessable
+[20:47:38]   L3 turn 20 examiner output rejected (attempt 1): ['reference answer appears in question']
+[20:48:35]   L3 turn 20 blind_filter: not guessable (blind answer 'a cutting board')
+[20:48:43]   L3 t20 sound_object_nearest             L4 short_answer  relation ch_son_7274 search -> wrong move=down
+[20:49:19]   L3 turn 21 blind_filter: not guessable (blind answer 'A')
+[20:49:24]   L3 t21 sound_object_location            L1 single_choice relation ch_sol_7275 search -> correct move=stay
+[20:49:44]   L3 turn 22 blind_filter: not guessable (blind answer 'B')
+[20:49:49]   L3 t22 sound_object_location            L1 single_choice relation ch_sol_7276 search -> wrong move=stay
+[20:50:12]   L3 turn 23 blind_filter: not guessable (blind answer 'D')
+[20:50:21]   L3 t23 sound_object_location            L1 single_choice relation ch_sol_7280 search -> correct move=stay
+[20:50:40]   L3 turn 24 blind_filter: GUESSABLE -> item dropped (blind answer 'D')
+[20:50:40]   L3 t24 sound_object_location            ch_sol_7283 -> guessable (retry 1/2)
+[20:51:22]   L3 turn 25 blind_filter: GUESSABLE -> item dropped (blind answer 'D')
+[20:51:22]   L3 t25 sound_object_location            ch_sol_7283 -> guessable (retry 2/2)
+[20:51:45]   L3 turn 26 blind_filter: GUESSABLE -> item dropped (blind answer 'D')
+[20:51:45]   L3 t26 sound_object_location            L3 single_choice relation ch_sol_7283 search -> guessable
+[20:52:09]   L3 turn 27 blind_filter: not guessable (blind answer 'the sink')
+[20:52:15]   L3 t27 sound_object_location            L4 short_answer  relation ch_sol_7284 search -> correct move=stay | boundary=4.5 (ceiling)
+[20:52:35]   L3 turn 28 blind_filter: not guessable (blind answer 'B')
+[20:52:41]   L3 t28 sound_object_nearest             L2 single_choice relation ch_son_7283 search -> correct move=stay
+[20:53:21]   L3 turn 29 blind_filter: not guessable (blind answer 'D')
+[20:53:26]   L3 t29 sound_object_nearest             L2 single_choice relation ch_son_7284 search -> correct move=up
+[20:53:49]   L3 turn 30 blind_filter: not guessable (blind answer 'A')
+[20:53:55]   L3 t30 sound_object_nearest             L2 single_choice relation ch_son_7287 search -> correct move=stay
+[20:54:26]   L3 turn 31 examiner output rejected (attempt 1): ['reference answer appears in question', "sound_object_nearest: do not name the object ('lid of butter tub') - identifying it from the sound is part of the task"]
+[20:55:21]   L3 turn 31 blind_filter: not guessable (blind answer 'the counter')
+[20:55:29]   L3 t31 sound_object_nearest             L4 short_answer  relation ch_son_7300 search -> wrong move=down | boundary=3 (reversals)
+[20:56:16]   L3 turn 32 blind_filter: not guessable (blind answer 'C')
+[20:56:21]   L3 t32 cross_event_integration          L3 single_choice relation d1     search -> correct move=stay
+[20:57:31]   L3 turn 33 examiner output rejected (attempt 1): ["L3: private.evidence_refs must cite a record of event s2e2 ('A butter knife is picked up from a drawer or counter.')", "L3: private.evidence_refs must cite a record of event s3e1 ('The butter container is opened or the wrapper is peeled back.')"]
+[20:58:33]   L3 turn 33 blind_filter: not guessable (blind answer 'B')
+[20:58:39]   L3 t33 cross_event_integration          L3 single_choice relation d5     search -> correct move=up
+[20:59:27]   L3 turn 34 examiner output rejected (attempt 1): ["L3: private.evidence_refs must cite a record of event s2e1 ('The butter is retrieved from the fridge or counter.')"]
+[21:00:23]   L3 turn 34 blind_filter: not guessable (blind answer 'the cutlery drawer')
+[21:00:28]   L3 t34 cross_event_integration          L4 short_answer  relation d6     search -> correct move=stay
+[21:00:51]   L3 turn 35 examiner output rejected (attempt 1): ["L3: private.evidence_refs must cite a record of event s2e1 ('The butter is retrieved from the fridge or counter.')", "L3: private.evidence_refs must cite a record of event s3e1 ('The butter container is opened or the wrapper is peeled back.')"]
+[21:01:50]   L3 turn 35 blind_filter: GUESSABLE -> item dropped (blind answer 'B')
+[21:01:50]   L3 t35 causal_prerequisite_reasoning    r1     -> guessable (retry 1/2)
+[21:04:01]   L3 turn 36 examiner output rejected (attempt 1): ["L3: private.evidence_refs must cite a record of event s2e1 ('The butter is retrieved from the fridge or counter.')"]
+[21:05:23]   L3 turn 36 blind_filter: GUESSABLE -> item dropped (blind answer 'A')
+[21:05:23]   L3 t36 causal_prerequisite_reasoning    r1     -> guessable (retry 2/2)
+[21:06:04]   L3 turn 37 examiner output rejected (attempt 1): ["L3: private.evidence_refs must cite a record of event s2e1 ('The butter is retrieved from the fridge or counter.')", "L3: private.evidence_refs must cite a record of event s3e1 ('The butter container is opened or the wrapper is peeled back.')"]
+[21:07:56]   L3 turn 37 blind_filter: GUESSABLE -> item dropped (blind answer 'D')
+[21:07:56]   L3 t37 causal_prerequisite_reasoning    L2 single_choice relation r1     search -> guessable
+[21:09:02]   L3 turn 38 blind_filter: not guessable (blind answer 'C')
+[21:09:09]   L3 t38 spatial_near                     L2 single_choice event s2e1   search -> correct move=stay
+[21:09:42]   L3 turn 39 blind_filter: not guessable (blind answer 'B')
+[21:09:49]   L3 t39 sound_anchored_spatial_near      L2 single_choice event s2e1   search -> wrong move=down
+[21:10:38]   L3 turn 40 blind_filter: GUESSABLE -> item dropped (blind answer 'D')
+[21:10:38]   L3 t40 object_location_at_time          s2e1   -> guessable (retry 1/2)
+[21:11:44]   L3 turn 41 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[21:11:44]   L3 t41 object_location_at_time          s2e1   -> guessable (retry 2/2)
+[21:12:07]   L3 turn 42 blind_filter: GUESSABLE -> item dropped (blind answer 'D')
+[21:12:07]   L3 t42 object_location_at_time          L2 single_choice event s2e1   search -> guessable
+[21:12:43]   L3 turn 43 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[21:12:43]   L3 t43 object_state_change              s2e1   -> guessable (retry 1/2)
+[21:13:59]   L3 turn 44 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[21:13:59]   L3 t44 object_state_change              s2e1   -> guessable (retry 2/2)
+[21:16:34]   L3 turn 45 blind_filter: GUESSABLE -> item dropped (blind answer 'A')
+[21:16:34]   L3 t45 object_state_change              L2 single_choice event s2e1   search -> guessable
+[21:16:54]   L3 turn 46 examiner output rejected (attempt 1): ['reference answer appears in question', 'nearest: allocentric distance relation; do not phrase it with left/right/behind', "sound_object_nearest: do not name the object ('lid of butter tub') - identifying it from the sound is part of the task"]
+[21:17:54]   L3 turn 46 examiner output rejected (attempt 2): ["nearest: question must name the reference object ('tub of butter') the distance is relative to", "nearest: relative position; question must make clear it compares only the listed candidates ('among the following objects', 'which of these')"]
+[21:17:54]   L3 t46 sound_object_nearest             ch_son_7301 -> item_invalid (retry 1/2)
+[21:18:54]   L3 turn 47 examiner output rejected (attempt 1): ['reference answer appears in question', "sound_object_nearest: do not name the object ('lid of butter tub') - identifying it from the sound is part of the task"]
+[21:20:54]   L3 turn 47 examiner output rejected (attempt 2): ['nearest: allocentric distance relation; do not phrase it with left/right/behind', "sound_object_nearest: do not name the object ('lid of butter tub') - identifying it from the sound is part of the task"]
+[21:20:54]   L3 t47 sound_object_nearest             ch_son_7301 -> item_invalid (retry 2/2)
+[21:21:18]   L3 turn 48 examiner output rejected (attempt 1): ['reference answer appears in question', 'nearest: allocentric distance relation; do not phrase it with left/right/behind', "sound_object_nearest: do not name the object ('lid of butter tub') - identifying it from the sound is part of the task"]
+[21:22:51]   L3 turn 48 examiner output rejected (attempt 2): ["sound_object_nearest: do not name the object ('lid of butter tub') - identifying it from the sound is part of the task"]
+[21:22:51]   L3 t48 sound_object_nearest             L4 short_answer  relation ch_son_7301 verify -> item_invalid
+[21:23:39]   L3 turn 49 blind_filter: GUESSABLE -> item dropped (blind answer 'It was mixed with herbs and garlic')
+[21:23:39]   L3 t49 cross_event_integration          d7     -> guessable (retry 1/2)
+[21:25:04]   L3 turn 50 blind_filter: GUESSABLE -> item dropped (blind answer 'Rotating the tub')
+[21:25:04]   L3 t50 cross_event_integration          d7     -> guessable (retry 2/2)
+[21:25:57]   L3 turn 51 blind_filter: GUESSABLE -> item dropped (blind answer 'scraping and scooping')
+[21:25:57]   L3 t51 cross_event_integration          L4 short_answer  relation d7     search -> guessable
+[21:26:22]   L3 turn 52 examiner output rejected (attempt 1): ['change_over_time: the question must ask where the object is at the named moment, or before / after the movement']
+[21:27:06]   L3 turn 52 examiner output rejected (attempt 2): ['change_over_time: the question must ask where the object is at the named moment, or before / after the movement']
+[21:27:06]   L3 t52 object_location_at_time          s3e1   -> item_invalid (retry 1/2)
+[21:27:39]   L3 turn 53 examiner output rejected (attempt 1): ['change_over_time: the question must ask where the object is at the named moment, or before / after the movement']
+[21:29:40]   L3 turn 53 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[21:29:40]   L3 t53 object_location_at_time          s3e1   -> guessable (retry 2/2)
+[21:30:22]   L3 turn 54 blind_filter: GUESSABLE -> item dropped (blind answer 'D')
+[21:30:22]   L3 t54 object_location_at_time          L2 single_choice event s3e1   search -> guessable
+[21:32:22]   L3 turn 55 blind_filter: GUESSABLE -> item dropped (blind answer 'A')
+[21:32:22]   L3 t55 object_state_change              s3e1   -> guessable (retry 1/2)
+[21:32:52]   L3 turn 56 examiner output rejected (attempt 1): ['change_over_time: the question must ask where the object is at the named moment, or before / after the movement']
+[21:33:38]   L3 turn 56 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[21:33:38]   L3 t56 object_state_change              s3e1   -> guessable (retry 2/2)
+[21:34:22]   L3 turn 57 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[21:34:22]   L3 t57 object_state_change              L2 single_choice event s3e1   search -> guessable
+[21:35:10]   L3 turn 58 examiner output rejected (attempt 1): ['reference answer appears in question']
+[21:35:35]   L3 turn 58 examiner output rejected (attempt 2): ["nearest: relative position; question must make clear it compares only the listed candidates ('among the following objects', 'which of these')"]
+[21:35:35]   L3 t58 spatial_change                   sc_742b82eb_nearest_after -> item_invalid (retry 1/2)
+[21:36:16]   L3 turn 59 examiner output rejected (attempt 1): ['reference answer appears in question']
+[21:37:13]   L3 turn 59 examiner output rejected (attempt 2): ["nearest: question must name the reference object ('tub of butter') the distance is relative to", "nearest: relative position; question must make clear it compares only the listed candidates ('among the following objects', 'which of these')"]
+[21:37:13]   L3 t59 spatial_change                   sc_742b82eb_nearest_after -> item_invalid (retry 2/2)
+[21:37:44]   L3 turn 60 examiner output rejected (attempt 1): ['reference answer appears in question']
+[21:38:18]   L3 turn 60 examiner output rejected (attempt 2): ["nearest: question must name the reference object ('tub of butter') the distance is relative to", "nearest: relative position; question must make clear it compares only the listed candidates ('among the following objects', 'which of these')"]
+[21:38:18]   L3 t60 spatial_change                   L4 short_answer  relation sc_742b82eb_nearest_after search -> item_invalid
+[21:38:33]   L3 turn 61 blind_filter: not guessable (blind answer 'D')
+[21:38:37]   L3 t61 spatial_change                   L2 single_choice relation sc_742b82eb_which_moved search -> correct move=up
+[21:39:20]   L3 turn 62 blind_filter: GUESSABLE -> item dropped (blind answer 'butter')
+[21:39:20]   L3 t62 cross_event_integration          r2     -> guessable (retry 1/2)
+[21:40:57]   L3 turn 63 blind_filter: not guessable (blind answer 'slicing a piece off a stick of butter')
+[21:41:12]   L3 t63 cross_event_integration          L4 short_answer  relation r2     search -> correct move=stay | boundary=4.5 (ceiling)
+[21:41:56]   L3 turn 64 blind_filter: not guessable (blind answer 'It was sliced in half and toasted')
+[21:42:15]   L3 t64 cross_event_integration          L4 short_answer  relation r3     verify -> correct
+[21:42:32]   L3 turn 65 blind_filter: not guessable (blind answer 'D')
+[21:42:37]   L3 t65 sound_object_location            L3 single_choice relation ch_sol_7335 verify -> wrong
+[21:43:06]   L3 turn 66 blind_filter: not guessable (blind answer 'A')
+[21:43:11]   L3 t66 sound_object_location            L2 single_choice relation ch_sol_7340 verify -> correct
+[21:43:31]   L3 turn 67 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[21:43:31]   L3 t67 sound_object_nearest             ch_son_7340 -> guessable (retry 1/2)
+[21:43:56]   L3 turn 68 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[21:43:56]   L3 t68 sound_object_nearest             ch_son_7340 -> guessable (retry 2/2)
+[21:44:20]   L3 turn 69 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[21:44:20]   L3 t69 sound_object_nearest             L1 single_choice relation ch_son_7340 verify -> guessable
+[21:44:44]   L3 turn 70 blind_filter: not guessable (blind answer 'C')
+[21:44:48]   L3 t70 sound_object_location            L2 single_choice relation ch_sol_7341 verify -> correct
+[21:45:25]   L3 turn 71 blind_filter: not guessable (blind answer 'D')
+[21:45:30]   L3 t71 sound_object_nearest             L1 single_choice relation ch_son_7341 verify -> correct
+[21:45:52]   L3 turn 72 blind_filter: not guessable (blind answer 'C')
+[21:46:00]   L3 t72 sound_object_nearest             L1 single_choice relation ch_son_7343 verify -> correct
+[21:47:05]   L3 turn 73 blind_filter: not guessable (blind answer 'B')
+[21:47:09]   L3 t73 spatial_change                   L2 single_choice relation sc_62684e0b_which_moved search -> wrong move=down | boundary=2 (reversals)
+[21:47:56]   L3 turn 74 blind_filter: not guessable (blind answer 'A')
+[21:48:03]   L3 t74 sound_object_nearest             L1 single_choice relation ch_son_7355 verify -> wrong
+[21:48:31]   L3 turn 75 blind_filter: not guessable (blind answer 'C')
+[21:48:46]   L3 t75 sound_object_nearest             L3 single_choice relation ch_son_7356 verify -> wrong
+[21:49:11]   L3 turn 76 blind_filter: not guessable (blind answer 'B')
+[21:49:15]   L3 t76 sound_object_nearest             L3 single_choice relation ch_son_7357 verify -> wrong
+[21:49:39]   L3 turn 77 blind_filter: GUESSABLE -> item dropped (blind answer 'bacon')
+[21:49:39]   L3 t77 cross_event_integration          r4     -> guessable (retry 1/2)
+[21:50:21]   L3 turn 78 blind_filter: not guessable (blind answer 'cheese')
+[21:50:26]   L3 t78 cross_event_integration          L4 short_answer  relation r4     verify -> correct
+[21:52:53]   L3 turn 79 blind_filter: not guessable (blind answer 'A')
+[21:52:58]   L3 t79 object_location_at_time          L2 single_choice event s5e2   search -> correct move=up
+[21:53:46]   L3 turn 80 examiner output rejected (attempt 1): ["L3: private.evidence_refs must cite a record of event s5e1 ('Slices of bacon are picked up from a plate or pan.')"]
+[21:54:45]   L3 turn 80 blind_filter: not guessable (blind answer 'a slice of cheese')
+[21:54:49]   L3 t80 cross_event_integration          L4 short_answer  relation d8     verify -> correct
+[21:56:07]   L3 turn 81 blind_filter: not guessable (blind answer 'C')
+[21:56:11]   L3 t81 object_location_at_time          L3 single_choice event s5e1   search -> correct move=stay
+[21:56:26]   L3 turn 82 blind_filter: not guessable (blind answer 'kitchen counter')
+[21:56:38]   L3 t82 sound_object_location            L4 short_answer  relation ch_sol_7388 verify -> wrong
+[21:58:01]   L3 turn 83 examiner output rejected (attempt 1): ["L3: private.evidence_refs must cite a record of event s7e2 ('The cheese is placed on top of the scrambled eggs.')"]
+[21:58:49]   L3 turn 83 blind_filter: not guessable (blind answer 'Meat')
+[21:58:53]   L3 t83 cross_event_integration          L4 short_answer  relation r5     verify -> correct
+[21:59:19]   L3 turn 84 blind_filter: not guessable (blind answer 'the kitchen counter')
+[21:59:39]   L3 t84 sound_object_location            L4 short_answer  relation ch_sol_7381 verify -> correct
+[22:00:02]   L3 turn 85 blind_filter: not guessable (blind answer 'B')
+[22:00:10]   L3 t85 sound_object_location            L3 single_choice relation ch_sol_7384 verify -> correct
+[22:01:09]   L3 turn 86 examiner output rejected (attempt 1): ["L3: private.evidence_refs must cite a record of event s7e2 ('The cheese is placed on top of the scrambled eggs.')"]
+[22:01:59]   L3 turn 86 blind_filter: not guessable (blind answer 'lettuce')
+[22:02:08]   L3 t86 cross_event_integration          L4 short_answer  relation d2     verify -> correct
+[22:02:34]   L3 turn 87 blind_filter: GUESSABLE -> item dropped (blind answer 'A')
+[22:02:34]   L3 t87 sound_anchored_spatial_near      s7e1   -> guessable (retry 1/2)
+[22:03:27]   L3 turn 88 blind_filter: GUESSABLE -> item dropped (blind answer 'A')
+[22:03:27]   L3 t88 sound_anchored_spatial_near      s7e1   -> guessable (retry 2/2)
+[22:04:31]   L3 turn 89 examiner output rejected (attempt 1): ["nearest: question must name the reference object ('block of cheese') the distance is relative to", "relation_at_time: the question must name the moment by the event ('when / while <event description>, which ...')"]
+[22:05:39]   L3 turn 89 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[22:05:39]   L3 t89 sound_anchored_spatial_near      L1 single_choice event s7e1   search -> guessable
+[22:07:09]   L3 turn 90 blind_filter: GUESSABLE -> item dropped (blind answer 'A')
+[22:07:10]   L3 t90 object_location_at_time          s7e2   -> guessable (retry 1/2)
+[22:08:32]   L3 turn 91 blind_filter: GUESSABLE -> item dropped (blind answer 'B')
+[22:08:32]   L3 t91 object_location_at_time          s7e2   -> guessable (retry 2/2)
+[22:10:32]   L3 turn 92 blind_filter: GUESSABLE -> item dropped (blind answer 'A')
+[22:10:32]   L3 t92 object_location_at_time          L3 single_choice event s7e2   search -> guessable
+[22:10:32] L3: EVENT_LOOP_COMPLETE after 92 turns; boundaries spatial_near=1.0(events_exhausted), sound_anchored_spatial_near=1.0(events_exhausted), object_location_at_time=2.5(events_exhausted), object_state_change=None(examiner_failed), cross_event_integration=4.5(ceiling), causal_prerequisite_reasoning=None(None), spatial_change=2(reversals), sound_object_location=4.5(ceiling), sound_object_nearest=3(reversals)
+[22:10:32] L4: skills ['goal_conditioned_planning']; pools {goal_conditioned_planning:5}; NOT_EVALUATED []
+[22:11:13]   L4 turn 1 examiner output rejected (attempt 1): ["evidence_refs not in context: ['hdepic_e:P02-20240210-113925:gemini_subgoal:P02_R04_S06/s5']"]
+[22:11:27]   L4 turn 1 examiner output rejected (attempt 2): ["goal_conditioned_planning reference must be the recorded next action 'retrieve butter and tools' (got 'get the butter and a knife to spread it.')"]
+[22:11:27]   L4 t01 goal_conditioned_planning        L2 single_choice search -> item_invalid
+[22:11:59]   L4 turn 2 examiner output rejected (attempt 1): ["evidence_refs not in context: ['hdepic_e:P02-20240210-113925:gemini_subgoal:P02_R04_S06/s5']"]
+[22:12:39]   L4 turn 2 examiner output rejected (attempt 2): ["goal_conditioned_planning reference must be the recorded next action 'retrieve butter and tools' (got 'get the butter and necessary tools')"]
+[22:12:39]   L4 t02 goal_conditioned_planning        L2 single_choice search -> item_invalid [reused event]
+[22:13:30]   L4 turn 3 blind_filter: not guessable (blind answer 'C')
+[22:13:35]   L4 t03 goal_conditioned_planning        L2 single_choice search -> correct move=stay
+[22:13:56]   L4 turn 4 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[22:13:56]   L4 t04 goal_conditioned_planning        L2 single_choice search -> guessable
+[22:14:23]   L4 turn 5 blind_filter: GUESSABLE -> item dropped (blind answer 'A')
+[22:14:23]   L4 t05 goal_conditioned_planning        L2 single_choice search -> guessable [reused event]
+[22:15:00]   L4 turn 6 blind_filter: GUESSABLE -> item dropped (blind answer 'C')
+[22:15:00]   L4 t06 goal_conditioned_planning        L2 single_choice search -> guessable | boundary=2 (examiner_failed)
+[22:15:00] L4: STAIRCASE_COMPLETE after 6 turns; boundaries goal_conditioned_planning=2(examiner_failed)
+[22:15:00] run finished

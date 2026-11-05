@@ -1,0 +1,368 @@
+{
+ "task_id": "P09-20240622-162302__P09_R03_S04",
+ "prompt_hash": "4278d05ba6",
+ "model": "gcp/google/gemini-3.1-pro-preview",
+ "created": "2026-11-04T20:05:39",
+ "input": {
+  "task_id": "P09-20240622-162302__P09_R03_S04",
+  "goal": "Add sugar, give it a good stir and leave to cool.",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "text": "Retrieve sugar and measuring tools"
+   },
+   {
+    "idx": 2,
+    "text": "Measure and dissolve the sugar"
+   },
+   {
+    "idx": 3,
+    "text": "Add the dissolved sugar and hibiscus drink to a plastic bottle"
+   },
+   {
+    "idx": 4,
+    "text": "Wash a beaker"
+   },
+   {
+    "idx": 5,
+    "text": "Transfer the remaining hibiscus drink into the plastic bottle"
+   },
+   {
+    "idx": 6,
+    "text": "Store the hibiscus drink in the fridge"
+   }
+  ],
+  "skills": {},
+  "l3_relation_types": {},
+  "n_sub_goals": 6
+ },
+ "plan": {
+  "task_id": "P09-20240622-162302__P09_R03_S04",
+  "goal": "Add sugar, give it a good stir and leave to cool.",
+  "sub_goals": [
+   {
+    "idx": 1,
+    "events": [
+     {
+      "event_id": "s1e1",
+      "sub_goal": 1,
+      "type": "action",
+      "description": "Person brings a container of sugar to the workspace.",
+      "objects": [
+       "sugar",
+       "container"
+      ],
+      "verbs": [
+       "bring"
+      ],
+      "skills": [],
+      "relevance": "Sugar is the primary ingredient needed for the goal.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s1e2",
+      "sub_goal": 1,
+      "type": "action",
+      "description": "Person retrieves a measuring spoon or cup.",
+      "objects": [
+       "measuring spoon",
+       "cup"
+      ],
+      "verbs": [
+       "retrieve"
+      ],
+      "skills": [],
+      "relevance": "Tools are required to accurately add the sugar.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 2,
+    "events": [
+     {
+      "event_id": "s2e1",
+      "sub_goal": 2,
+      "type": "action",
+      "description": "Person scoops sugar using the measuring tool.",
+      "objects": [
+       "sugar",
+       "measuring tool"
+      ],
+      "verbs": [
+       "scoop"
+      ],
+      "skills": [],
+      "relevance": "Measures the correct amount of sugar to be added.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s2e2",
+      "sub_goal": 2,
+      "type": "action",
+      "description": "Person stirs the sugar into a liquid using a spoon.",
+      "objects": [
+       "sugar",
+       "spoon",
+       "liquid"
+      ],
+      "verbs": [
+       "stir"
+      ],
+      "skills": [],
+      "relevance": "Fulfills the 'give it a good stir' part of the goal to dissolve the sugar.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s2e3",
+      "sub_goal": 2,
+      "type": "sound",
+      "description": "Clinking sound of the spoon stirring against the container.",
+      "objects": [
+       "spoon",
+       "container"
+      ],
+      "verbs": [
+       "clink"
+      ],
+      "skills": [],
+      "relevance": "Indicates active stirring is taking place.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 3,
+    "events": [
+     {
+      "event_id": "s3e1",
+      "sub_goal": 3,
+      "type": "action",
+      "description": "Person pours the dissolved sugar mixture into a plastic bottle.",
+      "objects": [
+       "sugar mixture",
+       "plastic bottle"
+      ],
+      "verbs": [
+       "pour"
+      ],
+      "skills": [],
+      "relevance": "Moves the prepared sugar into the final storage container.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s3e2",
+      "sub_goal": 3,
+      "type": "action",
+      "description": "Person pours hibiscus drink into the same plastic bottle.",
+      "objects": [
+       "hibiscus drink",
+       "plastic bottle"
+      ],
+      "verbs": [
+       "pour"
+      ],
+      "skills": [],
+      "relevance": "Combines the main beverage with the dissolved sugar.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 4,
+    "events": [
+     {
+      "event_id": "s4e1",
+      "sub_goal": 4,
+      "type": "action",
+      "description": "Person washes a beaker under running water.",
+      "objects": [
+       "beaker",
+       "water"
+      ],
+      "verbs": [
+       "wash"
+      ],
+      "skills": [],
+      "relevance": "Cleans the intermediate container used for mixing.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s4e2",
+      "sub_goal": 4,
+      "type": "sound",
+      "description": "Sound of running water from the tap.",
+      "objects": [
+       "tap",
+       "water"
+      ],
+      "verbs": [
+       "run"
+      ],
+      "skills": [],
+      "relevance": "Confirms the washing action is occurring.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 5,
+    "events": [
+     {
+      "event_id": "s5e1",
+      "sub_goal": 5,
+      "type": "action",
+      "description": "Person pours the remaining hibiscus drink into the plastic bottle.",
+      "objects": [
+       "hibiscus drink",
+       "plastic bottle"
+      ],
+      "verbs": [
+       "pour"
+      ],
+      "skills": [],
+      "relevance": "Completes the transfer of the beverage into the storage container.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   },
+   {
+    "idx": 6,
+    "events": [
+     {
+      "event_id": "s6e1",
+      "sub_goal": 6,
+      "type": "action",
+      "description": "Person closes the plastic bottle with its cap.",
+      "objects": [
+       "plastic bottle",
+       "cap"
+      ],
+      "verbs": [
+       "close"
+      ],
+      "skills": [],
+      "relevance": "Seals the drink before storing it.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s6e2",
+      "sub_goal": 6,
+      "type": "state",
+      "description": "The refrigerator door is opened.",
+      "objects": [
+       "refrigerator door"
+      ],
+      "verbs": [
+       "open"
+      ],
+      "skills": [],
+      "relevance": "Provides access to the cooling environment.",
+      "source_ids": []
+     },
+     {
+      "event_id": "s6e3",
+      "sub_goal": 6,
+      "type": "placement",
+      "description": "The plastic bottle is placed on a shelf inside the fridge.",
+      "objects": [
+       "plastic bottle",
+       "fridge shelf"
+      ],
+      "verbs": [
+       "place"
+      ],
+      "skills": [],
+      "relevance": "Fulfills the 'leave to cool' part of the goal.",
+      "source_ids": []
+     }
+    ],
+    "irrelevant": ""
+   }
+  ],
+  "relations": [
+   {
+    "rel_id": "r1",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s1e1",
+     "s2e1"
+    ],
+    "ask": "What ingredient is being scooped with the measuring tool?",
+    "answer_hint": "The sugar that was retrieved and brought to the workspace in the previous step."
+   },
+   {
+    "rel_id": "r2",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s2e2",
+     "s3e1"
+    ],
+    "ask": "What specific mixture is being poured into the plastic bottle?",
+    "answer_hint": "The sugar mixture that was just stirred and dissolved."
+   },
+   {
+    "rel_id": "r4",
+    "type": "object_continuity",
+    "skill": "cross_event_integration",
+    "events": [
+     "s5e1",
+     "s6e1"
+    ],
+    "ask": "What is inside the plastic bottle that is being capped?",
+    "answer_hint": "The remaining hibiscus drink that was just transferred into it."
+   }
+  ],
+  "decision_points": [
+   {
+    "idx": 2,
+    "real": true,
+    "why": "Transitioning from gathering ingredients to actively measuring and mixing them."
+   },
+   {
+    "idx": 3,
+    "real": true,
+    "why": "Moving from the preparation of the sugar mixture to combining it with the main drink in the final container."
+   },
+   {
+    "idx": 4,
+    "real": true,
+    "why": "Interrupting the bottling process to clean a tool (beaker) before continuing."
+   },
+   {
+    "idx": 5,
+    "real": true,
+    "why": "Resuming the transfer of the remaining drink after washing the beaker."
+   },
+   {
+    "idx": 6,
+    "real": true,
+    "why": "The bottling is complete, requiring a change of location to store the drink in the fridge."
+   },
+   {
+    "idx": 7,
+    "real": true,
+    "why": "The task is finished once the bottle is safely stored in the fridge to cool."
+   }
+  ]
+ },
+ "warnings": [
+  "relation type 'state_dependency' dropped"
+ ],
+ "usage": {
+  "tok_in": 1093,
+  "tok_out": 2343,
+  "tok_think": 2322,
+  "model_version": "google/gemini-3.1-pro-preview",
+  "finish_reason": "STOP"
+ },
+ "status": "ok",
+ "raw_len": 8603
+}
