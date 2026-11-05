@@ -5,10 +5,10 @@ language: [zh, en]
 ---
 # pyramid2 v31 bundle(11-04)— 换服务器跑 v30b / v31
 
-同一内容也在 GitHub `wx83/Agentic-Evaluation` 的 branch `v31`(不含源视频)。这里(私有 HF dataset `WitneyWW/pyramid2-v31-1104`)多了公开集里没有的 5 个源视频。
+同一内容也在 GitHub `wx83/Agentic-Evaluation` 的 branch `v31`(不含源视频)。这里(私有 HF dataset `WitneyWW/pyramid2-v31-1104`)多了 9 个源视频。
 
 **状态(11-04 22:15 更新)**:v30b 的 61 / 62 / 63 三个 task 已在原服务器跑完,L1–L4 完整 history + score.json 都在 `pyramid_v2/runs/`,**不需要在新服务器重跑任何下层**;结果摘要见 §6。
-新服务器只要:`pip install -r requirements.txt` → `./setup_data.sh` → 设 `OPENROUTER_API_KEY` → `./run_v31.sh 61 62 13 55`(每 task 约 $5–10,只跑 L3 的三个 v31 skill)。held-out task(h4 / h5)要先 `./run_full.sh hX` 跑全四层再 `./run_v31.sh hX`。
+新服务器只要:`hf download WitneyWW/pyramid2-v31-1104 --repo-type dataset --local-dir pyramid2_v31`(约 12 GB,含全部 9 个源视频和所有标注,不再依赖 /mnt/data_new)→ `pip install -r requirements.txt` → 设 `OPENROUTER_API_KEY` → `./run_v31.sh 61 62 13 55`(每 task 约 $5–10,只跑 L3 的三个 v31 skill)。held-out task(h4 / h5)要先 `./run_full.sh hX` 跑全四层再 `./run_v31.sh hX`。
 
 ## 0. 这是什么
 
@@ -57,7 +57,7 @@ pyramid_v2/contracts/  v28(seed)、v30、v30b(61/62/63 + h1–h5 全四层)、v3
 pyramid_v2/data/       9 个视频的 evidence 子集(32,621 条官方标注记录)、media_manifest、capability_map、skill_exclusions、sg_cache(planner 缓存 15 个,含 h1–h5)
 pyramid_v2/runs/       seed run:v28 13 / 55 的 L1+L2;v30b 61 / 62 / 63 完整四层(history / score.json / usage.jsonl / run.log,11-04 22:15 跑完)+ diag_v30b_61_62_63.txt
 output/_shared/pose/   9 个视频的 SLAM 位姿缓存;hd-epic/Digital-Twin/meshes/{P01,P02,P07,P08,P09}/ fixture mesh
-hd-epic/video/         P08 ×3、P09 ×2 源视频(公开集没有);其余 4 个用 setup_data.sh 下载
+hd-epic/video/         9 个源视频全部在此(约 11.7 GB;11-05 起);hd-epic/annotations/…/priming_info.json gaze priming 官方标注(gaze_primed_next_pickup 用)
 run_v31.sh  run_full.sh  setup_data.sh  requirements.txt
 ```
 
@@ -65,7 +65,7 @@ run_v31.sh  run_full.sh  setup_data.sh  requirements.txt
 
 ```bash
 pip install -r requirements.txt          # python >= 3.10;另需 ffmpeg / ffprobe
-./setup_data.sh                          # 下载 4 个公开源视频(约 5 GB)
+./setup_data.sh                          # 校验 / 补下 9 个源视频(整包 hf download 时已带上,可跳过)
 export OPENROUTER_API_KEY=sk-or-...      # 或写进 .secrets/openrouter_key
 ./run_v31.sh 61 62 13 55                 # v31 只跑 L3,L1/L2 history 从 seed run(61/62/63 = v30b 跑完的,13/55 = v28)复制;每 task 约 $5–10
 ./run_full.sh h4 && ./run_v31.sh h4      # held-out:先用 v30b 规则跑全四层(约 $25–40),再跑 v31

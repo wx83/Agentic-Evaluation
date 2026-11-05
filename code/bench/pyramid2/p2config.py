@@ -8,6 +8,7 @@ PYR = BENCH / "pyramid"
 REPO = Path(os.environ.setdefault("P2_REPO", str(HERE.parent.parent.parent)))   # bundle root (code/, prompts/, pyramid_v2/, hd-epic/, output/)
 os.environ.setdefault("HDEPIC_ROOT", str(REPO / "hd-epic"))
 os.environ.setdefault("P2_POSE_DIR", str(REPO / "output" / "_shared" / "pose"))
+os.environ.setdefault("HDEPIC_ANNOT_ROOT", str(REPO / "hd-epic" / "annotations"))
 GEMINI_DIR = HERE.parent.parent / "gemini"
 for _p in (BENCH, PYR, GEMINI_DIR):
     if str(_p) not in sys.path:
