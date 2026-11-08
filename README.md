@@ -37,9 +37,9 @@ planner 的代码只有一份(`sg.py` 的 `build_input` / `validate` / `plan_one
 | `scope-planner`(本 branch) | `reference/sg.py` = 11-03 最终版 | 三个变体全有(`prompts/`) |
 | `v31` | 与 `reference/sg.py` 逐字节相同 | `prompts/1102_…_v24.md`、`prompts/1104_…_v30.md`(§8 = 变体 `hdepic`) |
 | `gemini-solver` / `qwen-solver` | 10-28 v16 时期的旧版(还没有 v29 的 speech / `annotated_events` 支持) | `prompts/1028_…_v16.md`(§8 = 变体 `hdepic`) |
-| `main` | 索引;`scope_planner/` 目录是 11-05 从本 branch 拷过去的,**只有 `hdepic` 变体** | — |
+| `main` | 索引;`scope_planner/` 目录 = 本 branch 的拷贝(11-05 第一版只有 `hdepic`;11-08 PR `scope-planner-aea-prompts` 同步三个变体) | 同本 branch |
 
-AEA 两个变体只在本 branch 有;要在别的 branch 上跑 AEA,从这里拿 prompt。
+AEA 两个变体只在本 branch(和 `main` 的 `scope_planner/`)里有;要在别的 branch 上跑 AEA,从这里拿 prompt。
 
 ## 运行
 
