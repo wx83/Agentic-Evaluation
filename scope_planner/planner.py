@@ -10,13 +10,19 @@
   export OPENROUTER_API_KEY=sk-or-...
   python3 planner.py examples/hdepic_task61.input.json -o out.json [--model google/gemini-3.1-pro-preview] [--skills a,b,c]
   python3 planner.py --validate-only out.json examples/hdepic_task61.input.json      # 只跑 validate
+  python3 planner.py examples/aea_strawberry.input.json --prompt aea_single          # AEA 单人;两人录像用 --prompt aea_duo
 输入 JSON 最少要有 {"task_id", "goal", "sub_goals": [{"idx": 1, "text": "..."}]};可选 "annotated_events"(AEA 用:已标注的 speech / sound 事件,planner 从中选并引用 id)。
 """
 import json, hashlib, time, re, sys, os, argparse, urllib.request
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-PROMPT = HERE / "prompts" / "planner_subgoal_events.md"
+PROMPTS = {   # three variants of the same planner prompt (pyramid2 prompt file `## 8.` section), see README "Prompt variants"
+    "hdepic": HERE / "prompts" / "planner_subgoal_events.md",                  # HD-EPIC Method E (v15/v16/v24/v30b/v31)
+    "aea_single": HERE / "prompts" / "planner_subgoal_events_aea_single.md",   # AEA single-person protocol clips (v29 aea_p)
+    "aea_duo": HERE / "prompts" / "planner_subgoal_events_aea_duo.md",         # AEA two-person SAVVY recordings (v29 aea_s), uses annotated_events
+}
+PROMPT = PROMPTS["hdepic"]
 DEFAULT_MODEL = "google/gemini-3.1-pro-preview"
 EVENT_TYPES = ("action", "sound", "placement", "state", "speech")
 L3_REL_SKILL = {"object_continuity": "cross_event_integration", "state_change": "cross_event_integration",
@@ -138,8 +144,8 @@ def call_llm(system, user_json, model, max_tokens=16384, api_key=None, base_url=
     raise RuntimeError(f"planner call failed: {err}")
 
 
-def plan(task, model=DEFAULT_MODEL, skills=None, attempts=2, **kw):
-    sys_p = PROMPT.read_text()
+def plan(task, model=DEFAULT_MODEL, skills=None, attempts=2, prompt="hdepic", **kw):
+    sys_p = Path(PROMPTS.get(prompt, prompt)).read_text()
     inp = build_input(task, skills)
     h = hashlib.sha1((sys_p + json.dumps(inp, sort_keys=True, ensure_ascii=False)).encode()).hexdigest()[:10]
     rec = {"task_id": inp["task_id"], "prompt_hash": h, "model": model, "created": time.strftime("%Y-%m-%dT%H:%M:%S"), "input": inp, "plan": None, "warnings": [], "usage": {}, "status": "failed"}
@@ -159,12 +165,14 @@ def plan(task, model=DEFAULT_MODEL, skills=None, attempts=2, **kw):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(); ap.add_argument("input"); ap.add_argument("-o", "--out"); ap.add_argument("--model", default=DEFAULT_MODEL)
     ap.add_argument("--skills", help="comma list; default = all skills in SKILL_DEFS + L3 relation skills"); ap.add_argument("--validate-only", metavar="OUTPUT_JSON")
+    ap.add_argument("--prompt", default="hdepic", help="hdepic | aea_single | aea_duo, or a path to a prompt .md (default hdepic)")
     a = ap.parse_args()
     task = json.load(open(a.input))
     if a.validate_only:
         raw = json.load(open(a.validate_only)); raw = raw.get("plan", raw)
         clean, warn = validate(raw, build_input(task, a.skills.split(",") if a.skills else None)); print(json.dumps({"warnings": warn, "plan": clean}, indent=1, ensure_ascii=False)); sys.exit(0)
-    rec = plan(task, model=a.model, skills=a.skills.split(",") if a.skills else None)
+    rec = plan(task, model=a.model, skills=a.skills.split(",") if a.skills else None, prompt=a.prompt)
+    rec["prompt_variant"] = a.prompt
     s = json.dumps(rec, indent=1, ensure_ascii=False)
     (Path(a.out).write_text(s) if a.out else print(s))
     p = rec.get("plan") or {}
