@@ -3,8 +3,7 @@
 
 输入:一个 task 的 goal + 有序 sub-goal 文字(不给视频、不给标注、不生成时间)。
 输出:每个 sub-goal 必然发生的 event(action / sound / placement / state / speech)、相邻 sub-goal 之间的 L3 关系、L4 决策点。
-与 pyramid2 里 `sg.py` 的 build_input / validate / plan_one 逐字一致(见 reference/sg.py),只把 Gemini 调用换成直接走 OpenRouter(OpenAI 协议),
-不依赖 evidence store。pyramid2 里后续的 `sg.match_events`(把 event 对到标注记录拿时间)不在本文件,见 reference/sg.py §2。
+与 pyramid2 `sg.py` 的 build_input / validate / plan_one 逐字一致,只把 Gemini 调用换成直接走 OpenRouter(OpenAI 协议)。
 
 用法:
   export OPENROUTER_API_KEY=sk-or-...
@@ -17,10 +16,10 @@ import json, hashlib, time, re, sys, os, argparse, urllib.request
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-PROMPTS = {   # three variants of the same planner prompt (pyramid2 prompt file `## 8.` section), see README "Prompt variants"
-    "hdepic": HERE / "prompts" / "planner_subgoal_events.md",                  # HD-EPIC Method E (v15/v16/v24/v30b/v31)
-    "aea_single": HERE / "prompts" / "planner_subgoal_events_aea_single.md",   # AEA single-person protocol clips (v29 aea_p)
-    "aea_duo": HERE / "prompts" / "planner_subgoal_events_aea_duo.md",         # AEA two-person SAVVY recordings (v29 aea_s), uses annotated_events
+PROMPTS = {   # same planner, one system prompt per dataset
+    "hdepic": HERE / "prompts" / "hdepic.md",           # HD-EPIC
+    "aea_single": HERE / "prompts" / "aea_single.md",   # AEA single-person recordings
+    "aea_duo": HERE / "prompts" / "aea_duo.md",         # AEA two-person recordings (sub-goals carry annotated_events)
 }
 PROMPT = PROMPTS["hdepic"]
 DEFAULT_MODEL = "google/gemini-3.1-pro-preview"
