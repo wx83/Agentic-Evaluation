@@ -1,0 +1,63 @@
+{
+ "n_examples": 50,
+ "n_official_steps": 259,
+ "subgoals_per_official_step": {
+  "median": 4,
+  "min": 1,
+  "max": 21,
+  "hist": {
+   "1": 34,
+   "2": 43,
+   "3": 47,
+   "4": 31,
+   "5": 26,
+   "6": 16,
+   "7": 15,
+   "8": 9,
+   "9": 8,
+   "10": 9,
+   "11": 3,
+   "12": 1,
+   "13": 2,
+   "14": 3,
+   "15": 2,
+   "16": 1,
+   "18": 3,
+   "19": 3,
+   "20": 2,
+   "21": 1
+  }
+ },
+ "in_official_step": {
+  "n": 1281,
+  "narrations_per_subgoal": {
+   "median": 10,
+   "p10": 4,
+   "p90": 17
+  },
+  "duration_s": {
+   "median": 29.5,
+   "p10": 10.0,
+   "p90": 122.4
+  },
+  "share_4_20_narrations": 0.94,
+  "share_interrupted_gt60s": 0.098
+ },
+ "no_step_windows": {
+  "n": 1999,
+  "narrations_per_subgoal": {
+   "median": 10,
+   "p10": 5,
+   "p90": 18
+  },
+  "duration_s": {
+   "median": 24.1,
+   "p10": 7.7,
+   "p90": 96.2
+  },
+  "share_4_20_narrations": 0.958,
+  "share_interrupted_gt60s": 0.085
+ },
+ "unassigned_narrations": 1583,
+ "windows_with_validation_errors": 1
+}

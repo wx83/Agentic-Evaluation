@@ -1,0 +1,129 @@
+{
+ "video_id": "P08-20240617-184909",
+ "recipe": "Fish Cakes and Vegetables (P08_R07)",
+ "official_step": "P08_R07_S06",
+ "summary": "Recipe step S06: Slice onion, chili pepper, and bell pepper and place to side",
+ "input": {
+  "system_prompt": "see method_e.py SYS",
+  "user_prompt": "Video ID: P08-20240617-184909\nRecipe: Fish Cakes and Vegetables (P08_R07)\nSegment P08_R07_S06\nSummary: Recipe step S06: Slice onion, chili pepper, and bell pepper and place to side\n\nActions in this segment (30):\nP08-20240617-184909-139 [362.34-362.99s] With both hands, put the vegetables down on the kitchen counter.\nP08-20240617-184909-176 [430.58-432.72s] With my left hand, grab the knife from the drying rack.\nP08-20240617-184909-177 [432.81-441.25s] Hold the onions steady and, with my left hand, peel off the layers.\nP08-20240617-184909-178 [441.35-446.52s] With my right hand, put the onion down on the cutting board and, with my left hand, move the layer scraps off the cutting board to clean.\nP08-20240617-184909-179 [446.62-450.75s] With my left hand, pinch the onion to hold it steady on the cutting board and, with the knife in my right hand, cut off the top and bottom of the onion.\nP08-20240617-184909-189 [473.80-484.15s] Pinch the onion with my left hand to steady it on the cutting board and, with the knife in my right hand, slice the onion into smaller pieces.\nP08-20240617-184909-190 [484.17-485.05s] With my left hand, scoop the onion to the left of the cutting board.\nP08-20240617-184909-192 [486.54-487.25s] Grab a single chilli and bring it to the scale.\nP08-20240617-184909-193 [487.18-494.29s] With the index finger of my right hand, tap on the phone keyboard to find the measurements of the chilli.\nP08-20240617-184909-194 [494.39-495.05s] With my left hand, place the single green chilli on scale to weigh.\nP08-20240617-184909-197 [500.86-502.25s] With my left hand, pinch the chilli to steady it on the cutting board and, with the knife in my right hand, slice the chilli into smaller slices.\nP08-20240617-184909-198 [502.35-503.01s] With my left hand, pick up the food scraps of the chilli and place them to the left of the cutting board to clean.\nP08-20240617-184909-199 [503.11-512.56s] Pinch the chilli with my left hand to steady it and, with the knife in my right hand, cut it into smaller pieces.\nP08-20240617-184909-200 [512.66-514.08s] With the finger of my left hand, wipe the knife to move the chilli peppers back onto the cutting board.\nP08-20240617-184909-201 [514.98-520.31s] Pinch the smaller pieces of chilli between my fingers and, with the knife and my right hand, cut them even smaller.\nP08-20240617-184909-202 [520.34-521.86s] With the knife in my right hand, slide the chilli peppers to the right of the cutting board.\nP08-20240617-184909-203 [523.64-524.99s] With my left hand, grab the half piece of red pepper.\nP08-20240617-184909-204 [525.10-526.14s] Place the red pepper down on the chopping board.\nP08-20240617-184909-238 [593.64-596.15s] With my right hand, slice into the red pepper to remove the seeds.\nP08-20240617-184909-239 [595.44-596.35s] Hold the pepper steady with my left hand and, with my right hand, rip off the top of the pepper to reveal the seeds.\nP08-20240617-184909-240 [596.45-597.28s] With my right hand, put the top of the pepper and the seeds this side of the kitchen counter.\nP08-20240617-184909-241 [597.38-599.30s] Put the pepper down and, with the knife in my right hand, tap the back of the pepper to remove the seeds from the inside.\nP08-20240617-184909-242 [599.38-600.09s] With my left hand, turn the pepper over the other way.\nP08-20240617-184909-243 [600.18-602.70s] With the knife in my right hand, slice out the unwanted pieces of red pepper while holding it steady in my left hand.\nP08-20240617-184909-244 [605.20-607.70s] Hold the pepper steady with my left hand and, with the knife and my right hand, continue to slice out the unwanted pieces of red pepper.\nP08-20240617-184909-245 [607.79-608.35s] With my right hand, move the pieces of pepper to the side of the kitchen counter.\nP08-20240617-184909-246 [608.43-615.83s] Hold the pepper steady with my left hand and, with the knife in my right hand, slice the pepper into smaller thin strips.\nP08-20240617-184909-247 [615.90-617.33s] Continue to slice the pepper.\nP08-20240617-184909-256 [635.15-636.86s] With my left hand, scoop up the pieces of red pepper and move them from the kitchen scale over to the cutting board.\nP08-20240617-184909-260 [646.37-646.83s] With my left hand, move the piece of pepper from the kitchen scale to the cutting board and, with my right hand, open the kitchen cabinet and pull out the cooking pot.\n\nReturn JSON: {\"overall_goal\": \"...\", \"goals\": [{\"goal_id\": \"e1\", \"description\": \"...\", \"action_ids\": [\"...\"], \"rationale\": \"<one sentence, no times>\"}], \"unrelated_action_ids\": [\"...\"]}"
+ },
+ "gemini_output": {
+  "overall_goal": "Prepare and chop the onion, chili pepper, and red bell pepper, then set them aside.",
+  "goals": [
+   {
+    "goal_id": "e1",
+    "description": "Peel and slice the onion",
+    "action_ids": [
+     "P08-20240617-184909-139",
+     "P08-20240617-184909-176",
+     "P08-20240617-184909-177",
+     "P08-20240617-184909-178",
+     "P08-20240617-184909-179",
+     "P08-20240617-184909-189",
+     "P08-20240617-184909-190"
+    ],
+    "rationale": "The person retrieves the vegetables and a knife, peels the onion, cuts off the ends, slices it into pieces, and moves it to the side of the cutting board."
+   },
+   {
+    "goal_id": "e2",
+    "description": "Chop the chili pepper",
+    "action_ids": [
+     "P08-20240617-184909-192",
+     "P08-20240617-184909-194",
+     "P08-20240617-184909-197",
+     "P08-20240617-184909-198",
+     "P08-20240617-184909-199",
+     "P08-20240617-184909-200",
+     "P08-20240617-184909-201",
+     "P08-20240617-184909-202"
+    ],
+    "rationale": "The person weighs the chili pepper, slices it into smaller pieces, cleans up the scraps, and slides the chopped chili aside."
+   },
+   {
+    "goal_id": "e3",
+    "description": "Deseed and slice the red bell pepper",
+    "action_ids": [
+     "P08-20240617-184909-203",
+     "P08-20240617-184909-204",
+     "P08-20240617-184909-238",
+     "P08-20240617-184909-239",
+     "P08-20240617-184909-240",
+     "P08-20240617-184909-241",
+     "P08-20240617-184909-242",
+     "P08-20240617-184909-243",
+     "P08-20240617-184909-244",
+     "P08-20240617-184909-245",
+     "P08-20240617-184909-246",
+     "P08-20240617-184909-247",
+     "P08-20240617-184909-256"
+    ],
+    "rationale": "The person grabs the red bell pepper, removes its seeds and unwanted parts, slices it into thin strips, and moves the pieces to the cutting board."
+   }
+  ],
+  "unassigned_action_ids": [
+   "P08-20240617-184909-193",
+   "P08-20240617-184909-260"
+  ]
+ },
+ "subgoals_with_times": [
+  {
+   "goal_id": "E_g12",
+   "description": "Peel and slice the onion",
+   "start_s": 362.34,
+   "end_s": 485.05,
+   "n_actions": 7,
+   "n_interruptions_gt60s": 1,
+   "action_ids": [
+    "P08-20240617-184909-139",
+    "P08-20240617-184909-176",
+    "P08-20240617-184909-177",
+    "P08-20240617-184909-178",
+    "P08-20240617-184909-179",
+    "P08-20240617-184909-189",
+    "P08-20240617-184909-190"
+   ]
+  },
+  {
+   "goal_id": "E_g13",
+   "description": "Chop the chili pepper",
+   "start_s": 486.54,
+   "end_s": 521.86,
+   "n_actions": 8,
+   "n_interruptions_gt60s": 0,
+   "action_ids": [
+    "P08-20240617-184909-192",
+    "P08-20240617-184909-194",
+    "P08-20240617-184909-197",
+    "P08-20240617-184909-198",
+    "P08-20240617-184909-199",
+    "P08-20240617-184909-200",
+    "P08-20240617-184909-201",
+    "P08-20240617-184909-202"
+   ]
+  },
+  {
+   "goal_id": "E_g14",
+   "description": "Deseed and slice the red bell pepper",
+   "start_s": 523.64,
+   "end_s": 636.86,
+   "n_actions": 13,
+   "n_interruptions_gt60s": 1,
+   "action_ids": [
+    "P08-20240617-184909-203",
+    "P08-20240617-184909-204",
+    "P08-20240617-184909-238",
+    "P08-20240617-184909-239",
+    "P08-20240617-184909-240",
+    "P08-20240617-184909-241",
+    "P08-20240617-184909-242",
+    "P08-20240617-184909-243",
+    "P08-20240617-184909-244",
+    "P08-20240617-184909-245",
+    "P08-20240617-184909-246",
+    "P08-20240617-184909-247",
+    "P08-20240617-184909-256"
+   ]
+  }
+ ],
+ "note": "user_prompt 是真实发给 Gemini 3.1 Pro(temperature 0)的文本;gemini_output 是它的原始返回;subgoals_with_times 的时间由程序从官方 narration 抄,不是模型写的。候选标注,未人工核验。"
+}
